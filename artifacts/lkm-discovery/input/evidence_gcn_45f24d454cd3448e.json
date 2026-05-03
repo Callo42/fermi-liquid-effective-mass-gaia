@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "At the fermion-condensation quantum phase transition point, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies\n      $\n      M^{*}(T)\\propto T^{-2/3}.\n      $\n      Therefore, in the non-Fermi-liquid regime near the fermion-condensation quantum phase transition, the quasiparticle effective mass decreases with increasing temperature according to the power law $T^{-2/3}$.",
+      "content_hash": "2c8fc7b86a78fb034491f466cda2b5bc79e736e59b0fbcfffc293a8612ff9c3a",
+      "id": "gcn_45f24d454cd3448e",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "At the fermion-condensation quantum phase transition point, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies\n      $\n      M^{*}(T)\\propto T^{-2/3}.\n      $\n      Therefore, in the non-Fermi-liquid regime near the fermion-condensation quantum phase transition, the quasiparticle effective mass decreases with increasing temperature according to the power law $T^{-2/3}$.",
+              "id": "gcn_45f24d454cd3448e"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_3874d7c0b7a44408",
+            "premises": [
+              {
+                "content": "At the fermion-condensation quantum phase transition point, the first two momentum derivatives of the single-particle spectrum vanish at the Fermi momentum $p_F$. The spectrum therefore has an inflection point at $p_F$, and the lowest nonvanishing term in the Taylor expansion of $\\varepsilon(\\mathbf{p})$ about $p_F$ is proportional to $(p-p_F)^3$.",
+                "id": "gcn_f82c17897c274163"
+              },
+              {
+                "content": "Writing the thermal deviation of the quasiparticle distribution as $n_1(\\mathbf{p})=n(\\mathbf{p},T)-n(\\mathbf{p})$, where $n(\\mathbf{p})$ is the zero-temperature step function, transforms the Landau effective-mass equation into\n$\\displaystyle \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_{F}\\mathbf{p}_{1}}{p_{F}^{3}}F(\\mathbf{p}_{F},\\mathbf{p}_{1})\\frac{\\partial n_{1}(p_{1},T)}{\\partial p_{1}}\\frac{d\\mathbf{p}_{1}}{(2\\pi)^{3}}.$\nAt the fermion-condensation quantum phase transition, the zero-temperature effective mass diverges, so the first term on the right-hand side vanishes and the equation becomes homogeneous. The low-temperature solution of this homogeneous equation is\n$M^{*}(T)\\propto T^{-2/3}$.\n[13]",
+                "id": "gcn_58746c141eb145c4"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat as known the exact inverse effective mass relation obtained earlier (conclusion 1), and introduce the quasiparticle deviation from the step distribution $n_1(\\mathbf{p},T)=n(\\mathbf{p},T)-n(\\mathbf{p})$, where $n(\\mathbf{p})$ denotes the zero-temperature Fermi-step distribution and $n(\\mathbf{p},T)$ denotes the finite-temperature occupation; substitute this into the inverse effective mass relation to obtain the temperature-dependent form\n$\n\\displaystyle \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_F\\cdot\\mathbf{p}_1}{p_F^3}\\,F(\\mathbf{p}_F,\\mathbf{p}_1)\\,\\frac{\\partial n_1(p_1,T)}{\\partial p_1}\\,\\frac{d\\mathbf{p}_1}{(2\\pi)^3},\n$\nwhere $M^{*}(T)$ denotes the effective mass at temperature $T$ and $M^{*}$ on the right-hand side is the zero-temperature effective mass in the absence of the $n_1$ correction.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Invoke the FCQPT condition where the zero-temperature effective mass $M^{*}$ diverges (i.e., $1/M^{*}\\to0$); under this condition the first term on the right-hand side vanishes and the equation becomes homogeneous in $M^{*}$, implying that the temperature dependence of $M^{*}$ is determined entirely by the integral term involving $\\partial n_1/\\partial p_1$.\n[10]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Solve (or note the asymptotic solution of) the homogeneous equation for $M^{*}(T)$ in the FCQPT limit and state the resulting asymptotic temperature dependence\n$\n\\displaystyle M^{*}(T)\\propto T^{-2/3},\n$\nthereby identifying the non-Fermi liquid (NFL) regime near FCQPT in which the quasiparticle effective mass decreases with temperature following the $T^{-2/3}$ power law.\n[13]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Comment that when the system is located before FCQPT (i.e., $M^{*}$ finite at $T=0$), the second term on the right-hand side is small at low $T$ and the system shows Landau Fermi liquid (LFL) behavior $M^{*}(T)\\simeq M^{*}+a_1 T^2$ with constant $a_1$, and that upon raising temperature the system passes through a transition regime and then re-enters the NFL $T^{-2/3}$ regime for $T\\gtrsim T_M$; thus the $T^{-2/3}$ law characterizes the NFL regime at FCQPT.",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Measurements on HF compounds reveal pronounced NFL temperature dependences of thermodynamic coefficients whose origins were not captured by standard LFL theory. A specific quantitative asymptotic law for $M^{*}(T)$ at the critical point was absent: without such a law one cannot predict temperature power laws of observable quantities (for example, $C/T$, susceptibility, or resistivity prefactors) that directly depend on $M^{*}$. Deriving an explicit asymptotic exponent and its relation to the singular solution of the self-consistent equation for $M^{*}$ was therefore required to link microscopic Landau-function feedback to observable NFL power laws.",
+            "id": "paper:811855974460555265::conclusion_3_subproblem",
+            "source_package": "paper:811855974460555265"
+          }
+        ],
+        "source_package": "paper:811855974460555265"
+      }
+    ],
+    "papers": {
+      "paper:811855974460555265": {
+        "area": "Physics and Astrophysics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov",
+        "available_online": "",
+        "cover_date_start": "2009-06-01",
+        "created_at": "2022-12-19T23:05:48+08:00",
+        "doi": "10.1016/j.physleta.2009.04.046",
+        "en_title": "Strongly correlated Fermi-systems: Non-Fermi liquid behavior, quasiparticle effective mass and their interplay",
+        "id": "811855974460555265",
+        "keywords": "[{\"ch_name\":\"能量尺度\",\"en_name\":\"Energy scales\"},{\"ch_name\":\"重费米子金属\",\"en_name\":\"Heavy-fermion metals\"},{\"ch_name\":\"磁熵\",\"en_name\":\"Magnetic entropy\"},{\"ch_name\":\"磁阻\",\"en_name\":\"Magnetoresistance\"},{\"ch_name\":\"量子临界性\",\"en_name\":\"Quantum criticality\"}]",
+        "publication_date": "2009-6",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "强关联费米系统：非费米液体行为、准粒子有效质量及其相互作用"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "547a1651413a2b3b768df3430901be6f"
+}

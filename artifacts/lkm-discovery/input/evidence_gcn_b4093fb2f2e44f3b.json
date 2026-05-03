@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In measurements on single crystals of YbRh2Si2 the low-temperature electrical resistivity as a function of temperature T and magnetic field B applied perpendicular to the c axis is described for B > 0.06 T by a Landau Fermi-liquid form ρ(T,B) = ρ0(B) + A(B) T^2, where ρ0(B) is the residual resistivity and A(B) is the transport coefficient; the empirically determined A(B) exhibits a drastic, step-like reduction when B is increased from below to above B* = (9.5 ± 0.5) T, which indicates a step-like decrease of the quasiparticle effective mass in the Fermi-liquid picture; applying the empirical low-field scaling relation A ∝ γ^2, where γ(B) is the electronic specific-heat coefficient defined by Cel(T,B) = γ(B) T + … and using the same A/γ^2 proportionality constant determined at low fields, the electronic specific-heat coefficient is estimated to be γ(16 T) ≈ 70 mJ mol−1 K−2 at B = 16 T.",
+      "content_hash": "eb22ec7f8525ff6ea3e48cf37edef6eb1d4a155d8fef912f7740524d5fa34e88",
+      "id": "gcn_b4093fb2f2e44f3b",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "In measurements on single crystals of YbRh2Si2 the low-temperature electrical resistivity as a function of temperature T and magnetic field B applied perpendicular to the c axis is described for B > 0.06 T by a Landau Fermi-liquid form ρ(T,B) = ρ0(B) + A(B) T^2, where ρ0(B) is the residual resistivity and A(B) is the transport coefficient; the empirically determined A(B) exhibits a drastic, step-like reduction when B is increased from below to above B* = (9.5 ± 0.5) T, which indicates a step-like decrease of the quasiparticle effective mass in the Fermi-liquid picture; applying the empirical low-field scaling relation A ∝ γ^2, where γ(B) is the electronic specific-heat coefficient defined by Cel(T,B) = γ(B) T + … and using the same A/γ^2 proportionality constant determined at low fields, the electronic specific-heat coefficient is estimated to be γ(16 T) ≈ 70 mJ mol−1 K−2 at B = 16 T.",
+              "id": "gcn_b4093fb2f2e44f3b"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_d438ed7a0cad4d2e",
+            "premises": [
+              {
+                "content": "Let A(B) denote the coefficient of the T^2 term in the low-temperature electrical resistivity ρ(T,B) = ρ0(B) + A(B) T^2 and let γ(B) denote the electronic specific-heat coefficient defined by Cel(T,B) = γ(B) T + …; although an empirical scaling relation A ∝ γ^2 has been demonstrated for YbRh2Si2 up to magnetic fields of approximately 4 T in previous work, we assume for the purpose of estimating γ at 16 T that this proportionality relation continues to hold with the same proportionality constant at much higher fields (for example at 16 T), so that the measured reduction of A(B) at 16 T can be converted into an estimate γ(16 T) ≈ 70 mJ mol−1 K−2 by applying the same A/γ^2 ratio determined at low fields.\n      P. Gegenwart, et al., Phys. Rev. Lett. 89 (2002) 056402",
+                "id": "gcn_021fb1e050924558"
+              },
+              {
+                "content": "For four-terminal AC resistivity measurements on single crystals of YbRh2Si2 the measured resistivity is modeled as ρ(T,B) = ρ0(B) + A(B) T^2 and least-squares fits to this T^2 form are applied over the reported low-temperature interval (for example, below a few hundred millikelvin depending on field); we assume that within the temperature range used for the fits the resistivity is well described by the pure T^2 behavior so that the fitted values of A(B) are reliable and that systematic uncertainties from higher-temperature scattering channels, finite-temperature crossovers, and sample-dependent inhomogeneities are small compared to the observed step-like change of A(B) across B*.",
+                "id": "gcn_24ebf85923cb4ba3"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat as known from earlier reasoning that a broadened anomaly occurs at $B^{\\star}\\approx 9.5\\,\\text{T}$ with step-like features in susceptibility and magnetostriction and with a magnetization of $\\sim 1\\,\\mu_{\\mathrm{B}}$ at that field (results summarized in the established conclusion about the anomaly).",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the electrical resistivity measurement and Fermi-liquid (FL) relation used: denote the electrical resistivity as $\\rho(T,B)$, define the residual resistivity as $\\rho_{0}$, and define the FL coefficient as $A(B)$ appearing in the relation $\\rho(T,B)=\\rho_{0}+A(B)T^{2}$ valid in a Landau Fermi liquid; the authors report that this FL $T^{2}$ behavior is observed for fields $B>0.06\\,\\text{T}$ applied in the easy plane ($B\\perp c$).\n[5]\nFig. 2",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Describe the experimental determination of $A(B)$: resistivity $\\rho(T,B)$ was measured using the standard four-terminal AC technique on the same high-quality single crystals, and fits of the low-temperature $\\rho(T)$ data to $\\rho_{0}+A(B)T^{2}$ yield the field-dependent coefficient $A(B)$; the inset of the figure shows $\\rho$ vs $T$ for representative fields (8 and 16\\,T) with solid lines representing the $T^{2}$ fits.\nFig. 2",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "State the observed field dependence of $A(B)$: $A(B)$ is drastically reduced upon increasing $B$ from below to above $B^{\\star}$; in the authors' presentation $A(B)$ vs $B$ (on a logarithmic vertical axis) shows a strong, step-like decrease when crossing $B^{\\star}$, indicating a rapid drop of the FL scattering coefficient for $B>B^{\\star}$.\nFig. 2",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Define the electronic specific-heat coefficient $\\gamma$ as the linear-in-temperature coefficient of the electronic specific heat (i.e., $C_{\\mathrm{el}}(T)=\\gamma T+\\dots$) and recall the empirically established scaling relation reported by earlier work that $A\\propto\\gamma^{2}$ holds at least up to $4\\,\\text{T}$; cite the source of that scaling.\n[5]",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Apply the scaling $A\\propto\\gamma^{2}$ to the measured reduction of $A(B)$: using the value of the proportionality $A/\\gamma^{2}$ determined in the earlier work, and inserting the measured (reduced) $A(B)$ at high field (for example at $16\\,\\text{T}$), the electronic specific-heat coefficient $\\gamma$ is estimated to be about $70\\,\\text{mJ}\\,\\text{mol}^{-1}\\,\\text{K}^{-2}$ at $16\\,\\text{T}$; this represents a much reduced $\\gamma$ relative to low-field values.\nFig. 2\n[5]",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Conclude that the drastic, step-like reduction of $A(B)$ when increasing $B$ through $B^{\\star}$ indicates a step-like decrease of the quasiparticle effective mass (via the $A\\propto\\gamma^{2}$ relation) and yields a quantitative estimate of the reduced $\\gamma\\approx 70\\,\\text{mJ}\\,\\text{mol}^{-1}\\,\\text{K}^{-2}$ at $16\\,\\text{T}$.",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Quantitative determination of the field-evolution of quasiparticle mass and the electronic density of states requires transport and thermodynamic parameters at large fields. Earlier work established $A\\propto\\gamma^2$ up to intermediate fields ($\\sim 4\\,\\text{T}$), but direct measurements of $A(B)$ beyond that range were absent. Without large-field resistivity data one cannot determine whether the heavy effective mass survives to high fields or is rapidly suppressed, nor can one quantify the residual electronic specific heat $\\gamma$ in the high-field regime. This lack prevented establishing whether the heavy-Fermion state persists continuously, collapses gradually, or is suppressed abruptly at a particular field scale.",
+            "id": "paper:812369321199140865::conclusion_3_subproblem",
+            "source_package": "paper:812369321199140865"
+          }
+        ],
+        "source_package": "paper:812369321199140865"
+      }
+    ],
+    "papers": {
+      "paper:812369321199140865": {
+        "area": "Material science",
+        "authors": "Y Tokiwa | P Gegenwart | F Weickert | R Küchler | J Custers | J Ferstl | C Geibel | F Steglich",
+        "available_online": "",
+        "cover_date_start": "2004-05-01",
+        "created_at": "2022-12-21T09:05:40+08:00",
+        "doi": "10.1016/j.jmmm.2003.12.398",
+        "en_title": "Suppression of the Kondo state in YbRh2Si2 by large magnetic fields",
+        "id": "812369321199140865",
+        "keywords": "[{\"en_name\": \"Heavy-Fermion systems\", \"ch_name\": \"\"}, {\"en_name\": \"YbRh<sub>2</sub>Si<sub>2</sub>\", \"ch_name\": \"\"}]",
+        "publication_date": "2004-5",
+        "publication_id": "2151",
+        "publication_name": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+        "research_categories": "",
+        "zh_title": "强磁场对YbRh₂Si₂中近藤态的抑制作用"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "5a227604598e09124127862a1c24e40d"
+}

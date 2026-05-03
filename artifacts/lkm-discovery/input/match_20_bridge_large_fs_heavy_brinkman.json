@@ -1,0 +1,329 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:812446693432754179": {
+        "area": "Physics and Astrophysics",
+        "authors": "Ju H. Kim | Qimiao Si | Jian Ping Lu | K. Levin",
+        "available_online": "",
+        "cover_date_start": "1990-04-01",
+        "created_at": "2022-12-21T14:13:07+08:00",
+        "doi": "10.1016/0921-4526(90)90191-v",
+        "en_title": "Metallic copper oxide as an almost localized fermi liquid",
+        "id": "812446693432754179",
+        "keywords": "",
+        "publication_date": "1990-4",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "",
+        "zh_title": "作为一种近乎局域费米液体的金属氧化铜"
+      },
+      "paper:813191490195947522": {
+        "area": "Physics and Astrophysics",
+        "authors": "T. Terashima | C. Haworth | M. Takashita | H. Aoki | N. Sato | T. Komatsubara",
+        "available_online": "1997-5-15",
+        "cover_date_start": "1997-05-15",
+        "created_at": "2022-12-23T15:32:40+08:00",
+        "doi": "10.1103/physrevb.55.r13369",
+        "en_title": "Heavy fermions survive the metamagnetic transition in UPd 2 Al 3",
+        "id": "813191490195947522",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "重费米子在UPd₂Al₃的变磁转变中得以保留 "
+      },
+      "paper:813343302173589505": {
+        "area": "Physics and Astrophysics",
+        "authors": "P. W. Anderson",
+        "available_online": "1984-8-1",
+        "cover_date_start": "1984-08-01",
+        "created_at": "2022-12-24T01:35:55+08:00",
+        "doi": "10.1103/physrevb.30.1549",
+        "en_title": "Heavy-electron superconductors, spin fluctuations, and triplet pairing",
+        "id": "813343302173589505",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "重电子超导体、自旋涨落与三重态配对"
+      },
+      "paper:814525482547544066": {
+        "area": "Comprehensive Periodical",
+        "authors": "S. Friedemann | H. Chang | M. B. Gamża | P. Reiss | X. Chen | P. Alireza | W. A. Coniglio | D. Graf | S. Tozer | F. M. Grosche",
+        "available_online": "2016-5-12",
+        "cover_date_start": "2016-05-12",
+        "created_at": "2022-12-27T07:53:29+08:00",
+        "doi": "10.1038/srep25335",
+        "en_title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+        "id": "814525482547544066",
+        "keywords": "",
+        "publication_date": "2016-5-31",
+        "publication_id": "9354",
+        "publication_name": "Scientific Reports _ Sci Rep",
+        "research_categories": "",
+        "zh_title": "NiS₂中处于莫特绝缘态边界的重电子的大费米面"
+      },
+      "paper:867752957444096766": {
+        "area": "arXiv-Physics",
+        "authors": "Hyun-Tak Kim",
+        "available_online": "",
+        "cover_date_start": "2001-10-05",
+        "created_at": "2023-05-23T05:00:27+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0110112",
+        "en_title": "Extended Brinkman-Rice Picture and Its Application to High-Tc Superconductors",
+        "id": "867752957444096766",
+        "keywords": "",
+        "publication_date": "2001-10-05",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "扩展的布林克曼-赖斯模型及其在高温超导体中的应用"
+      },
+      "paper:867757263308194594": {
+        "area": "arXiv-Physics",
+        "authors": "A. V. Yanovsky | P. V. Pyshkin",
+        "available_online": "",
+        "cover_date_start": "2022-10-25",
+        "created_at": "2023-05-23T05:17:34+08:00",
+        "doi": "10.48550/arXiv.2210.14029",
+        "en_title": "The limits of rechargeable spin battery",
+        "id": "867757263308194594",
+        "keywords": "",
+        "publication_date": "2022-10-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "可充电自旋电池的局限性"
+      },
+      "paper:867760549742510937": {
+        "area": "arXiv-Physics",
+        "authors": "Hyun-Tak Kim",
+        "available_online": "",
+        "cover_date_start": "2001-04-03",
+        "created_at": "2023-05-23T05:30:38+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0104055",
+        "en_title": "Justification of the effective fractional Coulomb energy and the extended Brinkman-Rice picture",
+        "id": "867760549742510937",
+        "keywords": "",
+        "publication_date": "2001-04-03",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "有效分数库仑能的论证与扩展的布林克曼 - 赖斯图景"
+      },
+      "paper:867771963882340954": {
+        "area": "arXiv-Physics",
+        "authors": "Y. Aoki | T. Namiki | T. D. Matsuda | K. Abe | H. Sugawara | H. Sato",
+        "available_online": "",
+        "cover_date_start": "2002-01-04",
+        "created_at": "2023-05-23T06:15:58+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0201046",
+        "en_title": "Anomalous heavy-fermion and ordered states in the filled skutterudite PrFe4P12",
+        "id": "867771963882340954",
+        "keywords": "",
+        "publication_date": "2002-01-04",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "填充式方钴矿PrFe₄P₁₂中的反常重费米子和有序态"
+      }
+    },
+    "variables": [
+      {
+        "content": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+        "content_hash": "c30bce45d29fe32088cd72b3264734efc14cbfc978292c2e4039d1eec64a3fe6",
+        "id": "gcn_29401e4284574aa2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814525482547544066::conclusion_4",
+            "package_id": "paper:814525482547544066",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814525482547544066"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.03252247488101534,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The inference that the coexistence of a large Fermi-surface extremal area and an enhanced quasiparticle effective mass demonstrates realization of the Brinkman–Rice correlated-metal scenario (suppressed quasiparticle weight Z with preserved Luttinger volume) presumes that alternative mechanisms—such as strong renormalization by spin fluctuations, enhanced electron–phonon coupling, or Fermi-surface reconstruction associated with proximate magnetic order—cannot produce the same pair of experimental observations without invoking Brinkman–Rice physics.\n      Brinkman, W. F. & Rice, T. M. Application of Gutzwiller's Variational Method to the Metal-Insulator Transition. Phys. Rev. B 2, 4302–4304 (1970).",
+        "content_hash": "197a51805aeaa753b0ec68ab3bcdf1b1ba7401da65773138ba24affce5e5bd2b",
+        "id": "gcn_8a1a27485204457b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814525482547544066::P6",
+            "package_id": "paper:814525482547544066",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814525482547544066"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03252247488101534,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The ground state of a periodic Kondo-lattice of localized $f$-ions whose local magnetic moments are quenched by Kondo screening is described by a Brinkman–Rice type Fermi-liquid fixed point (a \"Brinkman–Rice liquid\"), i.e., a strongly renormalized Fermi liquid in which local on-site correlations produce very large quasiparticle effective-mass renormalizations while the uniform-spin susceptibility enhancement (the Stoner enhancement) remains finite and of order unity rather than diverging. Here \"Kondo-lattice\" denotes a crystalline solid in which a periodic subset of lattice sites host local magnetic degrees of freedom from $f$-electron shells that hybridize with conduction electrons to form a coherent heavy-quasiparticle band, and \"Brinkman–Rice liquid\" denotes a Fermi-liquid fixed point proximate to a Mott- or local-moment instability characterized by large mass renormalization and a finite Stoner enhancement factor.",
+        "content_hash": "250f25ce3e82f8a682db3ea19b6f8245d8273a0399a86d1c1fccfac22f0ad2b2",
+        "id": "gcn_7ae79f122f1c4fcb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813343302173589505::conclusion_1",
+            "package_id": "paper:813343302173589505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813343302173589505"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.030158730158730156,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let q_{\\sigma} denote the discontinuity in the single-particle occupation number at the Fermi surface for spin \\sigma in a Fermi-liquid-like state and let m^{*} be the quasiparticle effective mass while m is the bare band mass of the noninteracting reference. The proposition is: in the variational Brinkman–Rice framework (and its averaged homogeneous extension where U=\\rho^{2}U'), the quasiparticle mass enhancement is given by the inverse discontinuity,\n      $$\n      \\frac{m^{*}}{m} \\;=\\; q_{\\sigma}^{-1},\n      $$\n      so that algebraic substitution of the BR-form q_{\\sigma}=8\\bar{\\nu}(1-2\\bar{\\nu}) yields the stated effective-mass formula; this identification is the Fermi-liquid/BR relation assumed to hold for the averaged effective model.",
+        "content_hash": "1515fc42d9a8c19e2fb168c729b36d627d0f8866a7fb8e5b2e7f391f33e883b3",
+        "id": "gcn_3303a03004bc492b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760549742510937::P7",
+            "package_id": "paper:867760549742510937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760549742510937"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02662057044079516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The diagnostic distinction is that a Brinkman–Rice quasi-localized Fermi-liquid scenario retains a sharp Fermi surface whose volume counts electrons according to Luttinger’s theorem even as quasiparticle weight and effective mass change, whereas a Hubbard split-band (charge-transfer) scenario may lack a sharp Fermi surface that counts Cu-derived carriers; angle-resolved or high-quality angle-integrated photoemission spectroscopy, as performed in the cited studies, provides sufficiently direct information about both the existence of a sharp Fermi-surface locus and its enclosed momentum-space volume that, subject to the usual experimental caveats of surface sensitivity, energy and momentum resolution, and matrix-element effects, photoemission is the most practical experimental discriminator between the Brinkman–Rice and split-band pictures.\n      [3]",
+        "content_hash": "fc77ff512f3bd57219f5b1902321caef7f9ec45d1b22de106d2e48eb3532dcbd",
+        "id": "gcn_d9819ec99cc94f6b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812446693432754179::P11",
+            "package_id": "paper:812446693432754179",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812446693432754179"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025206087507926443,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a spatially heterogeneous sample composed of homogeneous Brinkman–Rice (BR) metallic subregions and nonmetallic (CDW or empty) regions, the quasiparticle effective mass obtained by conventional bulk (site-averaging) probes is the measurement-weighted average m^{*}_{\\mathrm{meas}}(\\rho) that depends on the global band filling \\rho and on the fractional extent of the metallic subregions, whereas the intrinsic BR quasiparticle mass m^{*}_{\\mathrm{BR}} of a homogeneous metallic subregion (region C) is an intrinsic property of that subregion parameterized by \\kappa_{BR}=U/U_{c} and, within the BR picture, is independent of the global \\rho and therefore need not be directly observed in bulk averaged measurements.",
+        "content_hash": "7e1bf874818dc1469ac14a51f13beae39f78427b37da68f8b73a8d3dd8626881",
+        "id": "gcn_ff196886842742cf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760549742510937::conclusion_8",
+            "package_id": "paper:867760549742510937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760549742510937"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the same single-band metallic component as in Conclusion 2, define the measured (site-averaged) quasiparticle effective mass by $m^{*}$ and the noninteracting band mass by $m$, and retain $U=\\rho^{2}U'$, $U_{c}=8|\\bar{\\epsilon}|$, and $\\kappa=U'/U_{c}$ as in Conclusion 2. Using the Gutzwiller/Brinkman–Rice algebra with the doublon occupancy $\\bar{\\nu}=\\tfrac{1}{4}(1-\\kappa\\rho^{2})$ leads to the measured mass renormalization factor\n      $\n      \\frac{m^{*}}{m}=q_{\\sigma}^{-1}=\\frac{1}{1-(U/U_{c})^{2}}=\\frac{1}{1-\\kappa^{2}\\rho^{4}},\n      $\n      which is defined and finite under the combined condition $0<\\kappa\\rho^{2}<1$. In this statement $q_{\\sigma}$ denotes the discontinuity in the single-particle occupation at the Fermi surface for spin projection $\\sigma$. The quantity $m^{*}$ above is the measurement-averaged effective mass obtained by probing the inhomogeneous specimen; by contrast, the intrinsic Brinkman–Rice (BR) quasiparticle mass is the true effective mass of quasiparticles confined to the homogeneous BR-like metallic domains and does not depend on the fractional spatial extent of those domains.",
+        "content_hash": "1a78e69f952c83b52be5db85d08ed7efb1a9202b48283a639acb2c1ed8625c73",
+        "id": "gcn_7d3bae68582e4fa0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752957444096766::conclusion_3",
+            "package_id": "paper:867752957444096766",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752957444096766"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a three-dimensional parabolic (free-electron-like) band the single-particle density of states near the Fermi level scales as $D\\\\propto (m^{*})^{3/2}$ where $m^{*}$ is the quasiparticle effective mass; this relation is used to estimate heavy-fermion DOS enhancement by substituting large effective masses $m^{*}_{\\\\mathrm{heavy}}$ into the free-electron formula, with the assumption that the low-energy heavy-fermion excitations can be characterized by a renormalized quasiparticle effective mass and that the $(m^{*})^{3/2}$ scaling provides an appropriate order-of-magnitude estimate for the heavy-fermion DOS. \n      [28-33]",
+        "content_hash": "cac475b8c52716407f850dd1883fd7693518a0e6f285a2c801ff875a5b6fa537",
+        "id": "gcn_5f32c45b2864463d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757263308194594::P12",
+            "package_id": "paper:867757263308194594",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757263308194594"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Proposition: Define a many-body \"heavy-fermion state\" operationally as a low-temperature metallic state in which quasiparticle effective masses are strongly enhanced over the free-electron mass $m_{0}$ across a substantial portion of the Fermi surface, producing a large electronic specific-heat coefficient $\\gamma$; the observation of a single extremal dHvA orbit with a large cyclotron effective mass (for example $m^{*}\\approx 31\\,m_{0}$ for one branch) in the field-polarized regime above a metamagnetic transition does not by itself and without additional evidence (such as a large $\\gamma$ above the transition or multiple heavy orbits) logically guarantee that the heavy-fermion state persists globally across the transition, but it does prove that at least one heavy quasiparticle-like orbit survives in the measured window.",
+        "content_hash": "f36c2feb74fdc5fd8e252a7df284e01a2ff309e5d57b2d16e89413fc8861c9af",
+        "id": "gcn_822030b6481843c2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813191490195947522::P8",
+            "package_id": "paper:813191490195947522",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813191490195947522"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Interpreting the Sommerfeld coefficient $\\gamma\\equiv\\lim_{T\\to0}C_{el}/T$ as a measure of the quasiparticle effective-mass density of states in a Fermi liquid, the observed reduction of $\\gamma$ from $\\sim1\\ \\mathrm{J\\,K^{-2}\\,mol^{-1}}$ in the high-field heavy-fermion state to $\\simeq0.1\\ \\mathrm{J\\,K^{-2}\\,mol^{-1}}$ in the ordered state (ODS) is taken to indicate a substantial quenching of the heavy-fermion enhancement (a large decrease of the quasiparticle density of states), and other possible mechanisms that can reduce $C/T$ (for example, partial gapping of a Fermi-surface sheet, strong carrier depletion, or changes in electron-phonon coupling) are considered subdominant or insufficient to account for the magnitude and magnetic-field dependence of the observed suppression.",
+        "content_hash": "84afe7a5db18b7f260b19515b4c7233a51ffa127e1df08f62dbacba015b850ca",
+        "id": "gcn_3cb2259fbe5f4d37",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771963882340954::P13",
+            "package_id": "paper:867771963882340954",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771963882340954"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "67cdfda6d519d5347f54e8c2d637bc44"
+}

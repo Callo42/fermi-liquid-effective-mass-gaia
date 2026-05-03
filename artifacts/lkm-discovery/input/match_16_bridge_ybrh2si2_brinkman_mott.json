@@ -1,0 +1,345 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811173089030176770": {
+        "area": "Material science",
+        "authors": "M. Kubouchi | K. Hayashi | Y. Miyazaki",
+        "available_online": "2016-7-30",
+        "cover_date_start": "2016-07-30",
+        "created_at": "2022-12-18T01:52:17+08:00",
+        "doi": "10.1007/s00339-016-0300-8",
+        "en_title": "Thermoelectric and magnetic properties of Yb2MgSi2 prepared by spark plasma sintering method",
+        "id": "811173089030176770",
+        "keywords": "",
+        "publication_date": "2016-8",
+        "publication_id": "2252",
+        "publication_name": "Applied Physics A _ Appl. Phys. A",
+        "research_categories": "",
+        "zh_title": "放电等离子烧结法制备的Yb₂MgSi₂的热电和磁性能"
+      },
+      "paper:811773737962569729": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Steffen Wirth | Niels Oeschler | Cornelius Krellner | Christoph Geibel | Frank Steglich | Sam MaQuilon | Zachary Fisk | Silke Paschen | Gertrud Zwicknagl",
+        "available_online": "2010-7-6",
+        "cover_date_start": "2010-07-06",
+        "created_at": "2022-12-19T17:39:01+08:00",
+        "doi": "10.1103/physrevb.82.035103",
+        "en_title": "Hall effect measurements and electronic structure calculations on YbRh 2 Si 2 and its reference compounds LuRh 2 Si 2 and YbIr 2 Si 2",
+        "id": "811773737962569729",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "对YbRh₂Si₂及其参考化合物LuRh₂Si₂和YbIr₂Si₂的霍尔效应测量与电子结构计算"
+      },
+      "paper:811980674171928576": {
+        "area": "Material science",
+        "authors": "N. F. Mott",
+        "available_online": "",
+        "cover_date_start": "1994-03-01",
+        "created_at": "2022-12-20T07:21:18+08:00",
+        "doi": "10.1080/09500839408241585",
+        "en_title": "Insulator-metal transitions in high- T c superconductors",
+        "id": "811980674171928576",
+        "keywords": "",
+        "publication_date": "1994-3",
+        "publication_id": "2318",
+        "publication_name": "Philosophical Magazine Letters _ Philosophical Magazine Letters",
+        "research_categories": "",
+        "zh_title": "高温超导体中的绝缘体-金属转变"
+      },
+      "paper:812027594579902464": {
+        "area": "Physics and Astrophysics",
+        "authors": "Hyun-Tak Kim | Yong Wook Lee | Bong-Jun Kim | Byung-Gyu Chae | Sun Jin Yun | Kwang-Yong Kang | Kang-Jeon Han | Ki-Ju Yee | Yong-Sik Lim",
+        "available_online": "2006-12-26",
+        "cover_date_start": "2006-12-26",
+        "created_at": "2022-12-20T10:27:45+08:00",
+        "doi": "10.1103/physrevlett.97.266401",
+        "en_title": "Monoclinic and Correlated Metal Phase in VO 2 as Evidence of the Mott Transition: Coherent Phonon Analysis",
+        "id": "812027594579902464",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "VO₂ 中的单斜相和关联金属相作为莫特转变的证据：相干声子分析"
+      },
+      "paper:812369321199140865": {
+        "area": "Material science",
+        "authors": "Y Tokiwa | P Gegenwart | F Weickert | R Küchler | J Custers | J Ferstl | C Geibel | F Steglich",
+        "available_online": "",
+        "cover_date_start": "2004-05-01",
+        "created_at": "2022-12-21T09:05:40+08:00",
+        "doi": "10.1016/j.jmmm.2003.12.398",
+        "en_title": "Suppression of the Kondo state in YbRh2Si2 by large magnetic fields",
+        "id": "812369321199140865",
+        "keywords": "[{\"en_name\": \"Heavy-Fermion systems\", \"ch_name\": \"\"}, {\"en_name\": \"YbRh<sub>2</sub>Si<sub>2</sub>\", \"ch_name\": \"\"}]",
+        "publication_date": "2004-5",
+        "publication_id": "2151",
+        "publication_name": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+        "research_categories": "",
+        "zh_title": "强磁场对YbRh₂Si₂中近藤态的抑制作用"
+      },
+      "paper:813324829561192449": {
+        "area": "Physics and Astrophysics",
+        "authors": "J.-S. Zhou | W. Archibald | J. B. Goodenough",
+        "available_online": "2000-2-1",
+        "cover_date_start": "2000-02-01",
+        "created_at": "2022-12-24T00:22:31+08:00",
+        "doi": "10.1103/physrevb.61.3196",
+        "en_title": "Approach to Curie-Weiss paramagnetism in the metallic perovskites La 1 − x Nd x CuO 3",
+        "id": "813324829561192449",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "金属钙钛矿La₁₋ₓNdₓCuO₃中居里 - 外斯顺磁性的研究方法"
+      },
+      "paper:813343302173589505": {
+        "area": "Physics and Astrophysics",
+        "authors": "P. W. Anderson",
+        "available_online": "1984-8-1",
+        "cover_date_start": "1984-08-01",
+        "created_at": "2022-12-24T01:35:55+08:00",
+        "doi": "10.1103/physrevb.30.1549",
+        "en_title": "Heavy-electron superconductors, spin fluctuations, and triplet pairing",
+        "id": "813343302173589505",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "重电子超导体、自旋涨落与三重态配对"
+      },
+      "paper:867761748805944216": {
+        "area": "arXiv-Physics",
+        "authors": "H. Pfau | R. Daou | S. Lausberg | H.R. Naren | M. Brando | S. Friedemann | S. Wirth | T. Westerkamp | U. Stockert | P. Gegenwart | C. Krellner | C. Geibel | G. Zwicknagl | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2013-02-27",
+        "created_at": "2023-05-23T05:35:23+08:00",
+        "doi": "10.48550/arXiv.1302.6867",
+        "en_title": "Interplay between Kondo suppression and Lifshitz transitions in YbRh$_2$Si$_2$ at high magnetic fields",
+        "id": "867761748805944216",
+        "keywords": "",
+        "publication_date": "2013-02-27",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "高磁场下YbRh₂Si₂中近藤效应抑制与里夫希茨转变之间的相互作用"
+      },
+      "paper:867772725953823394": {
+        "area": "arXiv-Physics",
+        "authors": "S. Seiro | L. Jiao | S. Kirchner | S. Hartmann | S. Friedemann | C. Krellner | C. Geibel | Q. Si | F. Steglich | S. Wirth",
+        "available_online": "",
+        "cover_date_start": "2017-11-14",
+        "created_at": "2023-05-23T06:19:00+08:00",
+        "doi": "10.48550/arXiv.1711.05151",
+        "en_title": "Evolution of the Kondo lattice and non-Fermi liquid excitations in a heavy-fermion metal",
+        "id": "867772725953823394",
+        "keywords": "",
+        "publication_date": "2017-11-14",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "重费米子金属中近藤晶格的演化及非费米液体激发"
+      }
+    },
+    "variables": [
+      {
+        "content": "The ground state of a periodic Kondo-lattice of localized $f$-ions whose local magnetic moments are quenched by Kondo screening is described by a Brinkman–Rice type Fermi-liquid fixed point (a \"Brinkman–Rice liquid\"), i.e., a strongly renormalized Fermi liquid in which local on-site correlations produce very large quasiparticle effective-mass renormalizations while the uniform-spin susceptibility enhancement (the Stoner enhancement) remains finite and of order unity rather than diverging. Here \"Kondo-lattice\" denotes a crystalline solid in which a periodic subset of lattice sites host local magnetic degrees of freedom from $f$-electron shells that hybridize with conduction electrons to form a coherent heavy-quasiparticle band, and \"Brinkman–Rice liquid\" denotes a Fermi-liquid fixed point proximate to a Mott- or local-moment instability characterized by large mass renormalization and a finite Stoner enhancement factor.",
+        "content_hash": "250f25ce3e82f8a682db3ea19b6f8245d8273a0399a86d1c1fccfac22f0ad2b2",
+        "id": "gcn_7ae79f122f1c4fcb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813343302173589505::conclusion_1",
+            "package_id": "paper:813343302173589505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813343302173589505"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The combined phenomenology of YbRh2Si2 in magnetic field is explained by the interplay of three microscopic ingredients: (a) the crystalline-electric-field (CEF) ground-state symmetry of the Yb3+ ion that produces a strongly anisotropic 4f–conduction hybridization matrix element and an enhanced anisotropy of the quasiparticle effective g factor, (b) a smooth, field-driven suppression of local Kondo screening that continuously reduces the quasiparticle effective mass m*(B) and modifies the amplitude of the Kondo-derived coherence peak (manifested as a field-dependent Sommerfeld–Wilson ratio and a moderate continuous reduction of the electronic Sommerfeld coefficient γ(B)), and (c) coherence effects intrinsic to the periodic Kondo lattice that create sharp van Hove–type structures (flattened dispersions or peaks) in the renormalized quasiparticle DOS so that Zeeman spin-splitting moves these DOS features through the Fermi energy and produces successive Lifshitz transitions; this combined mechanism accounts quantitatively for why distinct Lifshitz transitions appear at fields of order the Kondo scale, why the effective mass diminishes continuously while transport and thermodynamic observables show abrupt changes at specific fields, and why multiple transitions (three in these experiments) can occur instead of a single metamagnetic jump.",
+        "content_hash": "78b270b2103b3341d29f34caa557b9b865a7a5c23a711454a32e41763d485523",
+        "id": "gcn_4d206f9ebed246c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761748805944216::conclusion_5",
+            "package_id": "paper:867761748805944216",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761748805944216"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a transition in La$_{2-x}$Sr$_x$CuO$_4$ that is controlled by disorder localization of bosonic carriers rather than by a Brinkman–Rice-type Mott–Hubbard mechanism acting on a fermionic Fermi surface, the interaction-driven enhancement of the single-particle effective mass expected near a Mott–Hubbard transition is absent.\n      Imada 1993; Brinkman and Rice 1970",
+        "content_hash": "ba2da00c00fd1f1b9df0016a81eb882656db6492db4c5646edfe6813db270f6a",
+        "id": "gcn_97679700aeca41fe",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811980674171928576::P7",
+            "package_id": "paper:811980674171928576",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811980674171928576"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For stoichiometric YbRh2Si2 the onset of lattice Kondo correlations is detectable around the coherence scale $T_{\\rm coh}\\approx T_{\\rm K}\\approx25$–30 K (the effective single‑ion Kondo or transport coherence temperature extracted from bulk probes), yet the lattice Kondo correlations reach a regime in which they dominate low‑energy electronic properties only below the crossover temperature $T_{\\mathrm{P}}\\approx3.3\\ \\mathrm{K}$, i.e., at $T_{\\mathrm{P}\\!}\\approx 0.11\\cdot T_{\\rm coh}\\approx 0.1\\,T_{\\rm coh}$; consequently, single‑ion Kondo effects persist down to temperatures well below $T_{\\rm coh}$ before lattice coherence contributions grow sufficiently to enable the non‑Fermi‑liquid quantum‑critical behavior observed in bulk and spectroscopic probes.",
+        "content_hash": "7ae46520030597aad84339ce11f20c95b239927f004439ad05b61ff1c7231b41",
+        "id": "gcn_3a1514fde2d54682",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772725953823394::conclusion_5",
+            "package_id": "paper:867772725953823394",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772725953823394"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In measurements on single crystals of YbRh2Si2 the low-temperature electrical resistivity as a function of temperature T and magnetic field B applied perpendicular to the c axis is described for B > 0.06 T by a Landau Fermi-liquid form ρ(T,B) = ρ0(B) + A(B) T^2, where ρ0(B) is the residual resistivity and A(B) is the transport coefficient; the empirically determined A(B) exhibits a drastic, step-like reduction when B is increased from below to above B* = (9.5 ± 0.5) T, which indicates a step-like decrease of the quasiparticle effective mass in the Fermi-liquid picture; applying the empirical low-field scaling relation A ∝ γ^2, where γ(B) is the electronic specific-heat coefficient defined by Cel(T,B) = γ(B) T + … and using the same A/γ^2 proportionality constant determined at low fields, the electronic specific-heat coefficient is estimated to be γ(16 T) ≈ 70 mJ mol−1 K−2 at B = 16 T.",
+        "content_hash": "eb22ec7f8525ff6ea3e48cf37edef6eb1d4a155d8fef912f7740524d5fa34e88",
+        "id": "gcn_b4093fb2f2e44f3b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812369321199140865::conclusion_3",
+            "package_id": "paper:812369321199140865",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812369321199140865"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define a Brinkman–Rice Fermi-liquid fixed point as a Fermi-liquid proximate to a Mott/local-moment instability with very large effective-mass renormalization and a finite (nondivergent) Stoner enhancement of the uniform spin susceptibility; the claim is that for a Kondo-lattice metal in which inter-site interactions (direct inter-site exchange, RKKY couplings, or incipient magnetic ordering tendencies) are sufficiently weak or irrelevant, these inter-site collective effects do not qualitatively alter the local Nozières-type Fermi-liquid physics and the Brinkman–Rice description remains the appropriate low-energy fixed point.",
+        "content_hash": "f31b103f61fa80c85897fa2046c0120c1420a39b8d0ff1db6e14dfda84762ad4",
+        "id": "gcn_8f275a75866e4923",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813343302173589505::P13",
+            "package_id": "paper:813343302173589505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813343302173589505"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In Yb$_2$MgSi$_2$, the broad peak in the absolute Seebeck coefficient and the broad shoulder in the electrical resistivity around $150\\ \\mathrm{K}$ are attributed to the Kondo resonance, consistent with the behavior reported for YbAl$_3$.\nT.A. Zlatić, A.C. Cotić, B.R. Hewson, Phys. Rev. B 48, 16152 (1993).",
+        "content_hash": "8f3f5fd9104d7bb5cf29a8f06a07cd1476d54540705b0fae176fb74327afb2e8",
+        "id": "gcn_3f666e30fdea4681",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811173089030176770::P5",
+            "package_id": "paper:811173089030176770",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811173089030176770"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $m^*(U)$ denote the quasiparticle effective mass predicted by the Brinkman–Rice theory as a function of an interaction parameter $U$, which diverges at the theoretical Mott critical point in the homogeneous single-band model; the proposition is that the Brinkman–Rice scenario of a near-diverging effective mass $m^*$ as the Mott transition is approached applies qualitatively (and potentially quantitatively with caveats) to the experimentally prepared VO2 thin films that exhibit structural and electronic inhomogeneity, so that observed transport and optical signatures may be interpreted in terms of a Brinkman–Rice-like enhancement of $m^*$ in these inhomogeneous samples.",
+        "content_hash": "f06390f3e6d2569f2b44044a82be72be6531ef5dbb697f78d9017c3fe47c8820",
+        "id": "gcn_b3d11310ce2a4cac",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812027594579902464::P10",
+            "package_id": "paper:812027594579902464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812027594579902464"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and −0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum — which enters the numerator of the low-field Hall coefficient in the Boltzmann formula — is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ≈ 290 states/(eV·unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient γ ≈ 680 mJ·mol^−1·K^−2, while for YbIr2Si2 the RBC gives N(E_F) ≈ 48 states/(eV·unit cell) and γ ≈ 113 mJ·mol^−1·K^−2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+        "content_hash": "a95e4819f19d7273968a94f9ad7b2b383c122d4fbf8278cc6cf67eec1bd1e6e2",
+        "id": "gcn_42a4ff7fd004413f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811773737962569729::conclusion_3",
+            "package_id": "paper:811773737962569729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811773737962569729"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Brinkman–Rice (Gutzwiller) mass‑enhancement model predicts that, for a half‑filled electronic band approaching the Mott–Hubbard transition from the metallic side, the quasiparticle effective mass m* and the Pauli susceptibility χP are renormalized by a factor of the form [1 − (U/Uc)^2]^{-1}, where U is the on‑site Coulomb repulsion energy and Uc is the critical U at the transition; N. F. Mott proposed that a crossover temperature Td exists such that flattening of the quasiparticle dispersion within an energy window ΔE ≈ kTd can produce a Curie‑like 1/kT contribution to the susceptibility for T < Td while an enhanced, nearly T‑independent Pauli term dominates for T > Td. The observed slope change of the CuO3 susceptibility near T ≈ 200 K can therefore be interpreted qualitatively as the Mott‑predicted crossover at Td ≈ 200 K in a Brinkman–Rice scenario for a mass‑enhanced half‑filled band approaching the Mott transition, making the Brinkman–Rice/Mott picture a plausible qualitative description of the temperature dependence of χm(T) in these materials.\n      W. F. Brinkman and T. M. Rice, Phys. Rev. B 2, 4302 (1970); N. F. Mott, Metal-Insulator Transitions (1990)",
+        "content_hash": "14df998e6910e1ea26edf56d1c6bb907341080aec7e481b14d4318be5a81d5fe",
+        "id": "gcn_72afe521aefd4775",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813324829561192449::P11",
+            "package_id": "paper:813324829561192449",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813324829561192449"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "e8527788744ab572a0c74c831a5850c5"
+}

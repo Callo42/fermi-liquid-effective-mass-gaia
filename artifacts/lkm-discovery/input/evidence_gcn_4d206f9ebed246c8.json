@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The combined phenomenology of YbRh2Si2 in magnetic field is explained by the interplay of three microscopic ingredients: (a) the crystalline-electric-field (CEF) ground-state symmetry of the Yb3+ ion that produces a strongly anisotropic 4f–conduction hybridization matrix element and an enhanced anisotropy of the quasiparticle effective g factor, (b) a smooth, field-driven suppression of local Kondo screening that continuously reduces the quasiparticle effective mass m*(B) and modifies the amplitude of the Kondo-derived coherence peak (manifested as a field-dependent Sommerfeld–Wilson ratio and a moderate continuous reduction of the electronic Sommerfeld coefficient γ(B)), and (c) coherence effects intrinsic to the periodic Kondo lattice that create sharp van Hove–type structures (flattened dispersions or peaks) in the renormalized quasiparticle DOS so that Zeeman spin-splitting moves these DOS features through the Fermi energy and produces successive Lifshitz transitions; this combined mechanism accounts quantitatively for why distinct Lifshitz transitions appear at fields of order the Kondo scale, why the effective mass diminishes continuously while transport and thermodynamic observables show abrupt changes at specific fields, and why multiple transitions (three in these experiments) can occur instead of a single metamagnetic jump.",
+      "content_hash": "78b270b2103b3341d29f34caa557b9b865a7a5c23a711454a32e41763d485523",
+      "id": "gcn_4d206f9ebed246c8",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The combined phenomenology of YbRh2Si2 in magnetic field is explained by the interplay of three microscopic ingredients: (a) the crystalline-electric-field (CEF) ground-state symmetry of the Yb3+ ion that produces a strongly anisotropic 4f–conduction hybridization matrix element and an enhanced anisotropy of the quasiparticle effective g factor, (b) a smooth, field-driven suppression of local Kondo screening that continuously reduces the quasiparticle effective mass m*(B) and modifies the amplitude of the Kondo-derived coherence peak (manifested as a field-dependent Sommerfeld–Wilson ratio and a moderate continuous reduction of the electronic Sommerfeld coefficient γ(B)), and (c) coherence effects intrinsic to the periodic Kondo lattice that create sharp van Hove–type structures (flattened dispersions or peaks) in the renormalized quasiparticle DOS so that Zeeman spin-splitting moves these DOS features through the Fermi energy and produces successive Lifshitz transitions; this combined mechanism accounts quantitatively for why distinct Lifshitz transitions appear at fields of order the Kondo scale, why the effective mass diminishes continuously while transport and thermodynamic observables show abrupt changes at specific fields, and why multiple transitions (three in these experiments) can occur instead of a single metamagnetic jump.",
+              "id": "gcn_4d206f9ebed246c8"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_a3846efd68654c47",
+            "premises": [
+              {
+                "content": "In tetragonal YbRh2Si2 the crystalline-electric-field (CEF) ground-state symmetry of the Yb3+ 4f ion produces a strongly anisotropic hybridization matrix element between the localized 4f states and the conduction-electron states and simultaneously yields an enhanced anisotropy of the effective quasiparticle g factor; this anisotropic CEF-induced hybridization is sufficiently strong to (i) generate pronounced anisotropic renormalized bands with different effective Zeeman responses and (ii) enhance the sensitivity of particular f-derived bands to applied magnetic field so that Zeeman shifts preferentially move specific van Hove–type features of the DOS through the Fermi energy.",
+                "id": "gcn_dbe6ecfc88864ea6"
+              },
+              {
+                "content": "For Yb-based Kondo systems under an applied magnetic field of order the single-ion Kondo energy scale, the local Kondo screening of Yb 4f moments is suppressed continuously (i.e., without a first-order jump) as a function of B, and this continuous suppression produces a corresponding continuous decrease of the quasiparticle effective mass m*(B) (a behavior seen in single-impurity numerical-renormalization-group calculations and reflected experimentally as a moderate, continuous reduction of the Sommerfeld coefficient γ(B)); therefore the dominant effect of magnetic field on local Kondo physics in the relevant field range is a smooth reduction of Kondo correlations rather than an abrupt localization transition of the 4f electrons.\n      [26][27][28][29]",
+                "id": "gcn_faee88cfe22142a5"
+              },
+              {
+                "content": "In a periodic Kondo-lattice system (a lattice of correlated local moments hybridizing with conduction electrons), coherent lattice effects produce renormalized quasiparticle bands that exhibit sharp van Hove–type peaks or flattened dispersions in the quasiparticle density of states N(ε); when a magnetic field is applied and spin-splits these quasiparticle bands, the Zeeman shifts can move such sharp DOS features through the Fermi energy ε_F and thereby cause discrete topological changes of Fermi-surface sheets (Lifshitz transitions) even while the overall quasiparticle mass renormalization is being reduced smoothly by Kondo suppression, so that coherence-induced band-structure singularities are sufficiently pronounced to produce abrupt transport and thermodynamic signatures upon Zeeman shifting.",
+                "id": "gcn_8f49e0480b7d4e0f"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat as known the following upstream conclusions: (a) experimental identification of three distinct field-induced transitions at B_{1}, B_{2}, B_{3} established by transport probes (Conclusion 1), (b) RB calculations predict three Lifshitz transitions and provide the microscopic FS topologies that change at these fields (Conclusion 3), and (c) Hall-effect measurements indicate a continuous, field-driven suppression of Kondo coherence and hybridization-driven changes in apparent carrier concentration (Conclusion 6); these three results are used as starting points to synthesize a unified interpretation.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Identify the three ingredients whose interplay the authors propose as the origin of the high-field anomalies: (a) the crystalline-electric-field (CEF) ground-state symmetry which produces strongly anisotropic 4f–conduction hybridization and enhanced g-factor anisotropy (CEF refers to the electrostatic splitting of 4f levels by the crystal environment), (b) a smooth, field-driven suppression of local Kondo screening that reduces the quasiparticle effective mass m^{*} and modifies the amplitude of the Kondo-derived coherence peak (this reduction is continuous as expected from single-impurity calculations but must be combined with coherence effects), and (c) coherence effects of the periodic Kondo lattice which produce sharp van Hove–type structures in the renormalized quasiparticle DOS so that Zeeman spin-splitting moves these structures through the Fermi level and causes successive Lifshitz transitions; these three ingredients together form the combined mechanism.\nFig. 3",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Explain how each ingredient contributes: (a) anisotropic CEF-induced hybridization makes the renormalized bands and DOS strongly anisotropic and enhances effective g-factor anisotropy so that Zeeman shifts affect particular f-derived bands strongly; (b) the smooth suppression of local Kondo screening with field reduces m^{*} and leads to a field-dependent Sommerfeld–Wilson ratio (the Sommerfeld–Wilson ratio quantifies the ratio of quasiparticle mass enhancement to magnetic susceptibility enhancement), thereby continuously diminishing quasiparticle renormalization amplitude; (c) coherence of the periodic Kondo lattice produces sharp van Hove-like peaks in the renormalized DOS (i.e., localized flattening/peaking due to band topology) so that when Zeeman splitting shifts spin branches in energy these peaks traverse ε_{F}, causing discrete topological (Lifshitz) changes of the FS even while m^{*} is reduced smoothly.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Account for specific experimental observations using this combined mechanism: (i) distinct Lifshitz transitions occur at moderate fields of order the Kondo scale because the flat, coherence-enhanced bands (due to anisotropic hybridization and lattice coherence) are sensitive to Zeeman splitting; (ii) the effective mass m^{*} diminishes continuously (as expected from suppression of Kondo screening) while transport and thermodynamic observables show abrupt changes at specific fields because the abrupt observables reflect topological crossings of sharp DOS features through ε_{F} (Lifshitz transitions) superimposed on the continuous mass reduction; (iii) multiple transitions (three in this work) can appear instead of a single metamagnetic jump because different topological features (from different FS sheets and spin branches) cross ε_{F} at different fields due to anisotropic hybridization and the spin-dependent evolution of the renormalized bands.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Provide supporting empirical and theoretical evidence cited by the authors: the moderate reduction of the Sommerfeld coefficient γ(B) between the two closely spaced high-field features (γ decreases only moderately from 250 mJ/molK^{2} to 100 mJ/molK^{2} across the double hump around 10 T) argues against a single abrupt localization of f electrons and supports a picture of continuous mass reduction plus discrete topological changes; numerical renormalization-group (NRG) results for a single impurity predict a continuous decrease of m^{*} with field, but the observed abrupt features indicate lattice coherence effects are essential—this motivates and is consistent with the RB calculations which capture both anisotropic hybridization and coherence effects and reproduce the observed sequence of Lifshitz transitions. \n[26]\n[23]",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Conclude that the combined mechanism of (a) anisotropic CEF-driven hybridization and g-factor anisotropy, (b) smooth field-driven Kondo suppression reducing m^{*} and modifying the coherence-peak amplitude, and (c) periodic-lattice coherence producing sharp van Hove-type DOS structures which are moved through ε_{F} by Zeeman splitting, quantitatively explains why (i) distinct Lifshitz transitions occur at fields of order the Kondo scale, (ii) m^{*} diminishes continuously while transport/thermodynamic observables show abrupt changes at specific fields, and (iii) multiple transitions (three observed here) can appear instead of a single metamagnetic jump.",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Earlier interpretations separated the physics into competing scenarios — either an abrupt Kondo-breakdown/localization of $4f$ electrons or a single spin-splitting–induced Lifshitz transition — leaving unresolved how continuous mass suppression and abrupt topology changes could coexist. A theoretical framework that includes only single-impurity Kondo suppression lacks the lattice coherence and anisotropic hybridization required to generate van Hove singularities that can cross the Fermi level in field, while band-structure calculations without many-body renormalization cannot account for the large effective masses. Thus a unified picture that combines (i) anisotropic hybridization from the CEF ground state, (ii) many-body (Kondo) renormalization that is weakened smoothly by field, and (iii) correlated-lattice band topology was required to explain the full set of experimental observations.",
+            "id": "paper:867761748805944216::conclusion_5_subproblem",
+            "source_package": "paper:867761748805944216"
+          }
+        ],
+        "source_package": "paper:867761748805944216"
+      }
+    ],
+    "papers": {
+      "paper:867761748805944216": {
+        "area": "arXiv-Physics",
+        "authors": "H. Pfau | R. Daou | S. Lausberg | H.R. Naren | M. Brando | S. Friedemann | S. Wirth | T. Westerkamp | U. Stockert | P. Gegenwart | C. Krellner | C. Geibel | G. Zwicknagl | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2013-02-27",
+        "created_at": "2023-05-23T05:35:23+08:00",
+        "doi": "10.48550/arXiv.1302.6867",
+        "en_title": "Interplay between Kondo suppression and Lifshitz transitions in YbRh$_2$Si$_2$ at high magnetic fields",
+        "id": "867761748805944216",
+        "keywords": "",
+        "publication_date": "2013-02-27",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "高磁场下YbRh₂Si₂中近藤效应抑制与里夫希茨转变之间的相互作用"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "06bb2f409f2c880a3940d038b390bd26"
+}

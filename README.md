@@ -163,6 +163,10 @@ graph TB
 
 ## Reasoning Structure
 
+### What the graph now covers
+
+This package now formalizes a coherent 121-node graph about how effective mass is inferred, modeled, constrained, and qualified across Fermi-liquid and strongly correlated systems. The graph starts from classic thermodynamic mass proxies, then expands into material-specific YbRh2Si2 Fermi-surface evidence, Brinkman-Rice/Mott-boundary mass renormalization, and correlated-Fermi-liquid transport diagnostics. The synthesis deliberately keeps scopes separate: similar vocabulary such as "heavy quasiparticles", "large Fermi surface", and "effective mass" is not merged across different materials or regimes unless the claims really assert the same proposition.
+
 ### YbRh2Si2 material-specific constraints
 
 The YbRh2Si2 branch now combines three compatible but non-equivalent surfaces. Friedemann 2010 supplies thermodynamically calibrated RBC/Hall/DOS values, Knebel 2006 supplies high-field dHvA frequencies and cyclotron masses with an itinerant-4f LDA mismatch, and Friedemann 2013 supplies a LuRh2Si2 small-FS reference and harmonic reassignment of published YbRh2Si2 peaks. The graph records these as constraints and scope cautions, not contradictions.
@@ -175,14 +179,48 @@ The Anderson, Capone-Fabrizio-Tosatti, and NiS2 roots share heavy-quasiparticle/
 
 CeMo2Si2C adds a transport/susceptibility consistency check through Kadowaki-Woods and Wilson/Sommerfeld ratios. This complements the existing gamma-based He-3 effective-mass extraction and YbRh2Si2 entropy/RBC thermodynamic constraints without implying a common material mechanism.
 
+## Node Statistics
+
+| Count | Value | Meaning |
+|---|---:|---|
+| Total knowledge nodes | 121 | All compiled Gaia knowledge nodes in `.gaia/ir.json`. |
+| Science-facing claims | 63 | Non-internal claims declared by source modules. |
+| Internal helper claims | 58 | Compiler-generated conjunction/implication helper claims. |
+| Strategies | 40 | Source-level deduction/support links. |
+| Operators | 0 | No equivalence or contradiction operators were promoted. |
+| Independent premises | 23 | All have priors assigned in `priors.py`. |
+
+The interactive starmap in `docs/starmap.html` renders 103 visual nodes and 132 edges. It is smaller than the full 121-node IR because the starmap rendering focuses on visible graph elements rather than every internal compiler helper.
+
+## Duplicate Audit
+
+A Turn-3 duplicate audit was run after reaching the 100-node target. It found no exact duplicate science-facing claim content. Four same-paper helper restatements were merged into canonical claims:
+
+- Friedemann 2013 5-7 kT harmonic helper -> `gcn_c131e014_ybrh2si2_midband_harmonic_assignment`
+- Friedemann 2013 14 kT high-field itinerant-4f helper -> `gcn_3dc248d_ybrh2si2_14kt_not_small_fs`
+- Capone 2001 entropy-at-`T_K` helper -> `gcn_31bc66ca16a44508`
+- Capone 2001 entropy-mismatch-instability helper -> `gcn_dd12256615264dfb`
+
+`gaia inquiry review --strict` still reports one possible duplicate, but it is between compiler-generated internal helper claims, not source science claims. This is logged in `artifacts/lkm-discovery/merge_audit.md`.
+
 ## Verification Summary
 
-The final verification after synthesis and duplicate cleanup passed: `gaia compile .`, `gaia check --brief .`, `gaia check --hole .`, `gaia infer .`, `gaia render . --target github`, and `gaia render . --target docs`. The compiled graph has 121 total knowledge nodes: 63 science-facing claims and 58 internal strategy-helper claims, with 23 independent premises and 0 holes.
+The final verification after synthesis and duplicate cleanup passed: `gaia compile .`, `gaia check --brief .`, `gaia check --hole .`, `gaia infer .`, `gaia render . --target github`, `gaia render . --target docs`, and `gaia starmap . --out docs/starmap.html`. The compiled graph has 121 total knowledge nodes: 63 science-facing claims and 58 internal strategy-helper claims, with 23 independent premises and 0 holes.
 
 ## Package Contents
 
 - `src/fermi_liquid_effective_mass/` contains the Gaia DSL source.
 - `.gaia/ir.json` and `.gaia/beliefs.json` contain the compiled graph and inference results.
 - `docs/detailed-reasoning.md` contains per-module Mermaid graphs and full claim details.
+- `docs/starmap.html` contains the interactive starmap. On GitHub, render it through Pages at `https://callo42.github.io/fermi-liquid-effective-mass-gaia/starmap.html`.
 - `artifacts/lkm-discovery/` preserves the LKM discovery and synthesis audit trail.
 - `artifacts/subgraphs/` preserves the audited subgraphs unchanged.
+
+## Starmap Components
+
+The starmap currently renders as two clusters. This is intentional after a focused bridge search:
+
+- The main cluster covers He-3, YbRh2Si2 FCQPT/RBC/dHvA/Lu-reference evidence, and CeMo2Si2C correlated-Fermi-liquid ratios.
+- The second cluster covers Kondo-lattice Brinkman-Rice, Mott entropy/Z/T_K boundary reasoning, and NiS2 Brinkman-Rice quantum-oscillation evidence.
+
+A focused LKM bridge search was run and logged in `artifacts/lkm-discovery/bridge_search_2026-05-03.md`. It found useful YbRh2Si2-side Kondo-suppression candidates, but no chain-backed root strong enough to connect both clusters without adding a weak or agent-only bridge. The graph therefore keeps the two clusters separate.

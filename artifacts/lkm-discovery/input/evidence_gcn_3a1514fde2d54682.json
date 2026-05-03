@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For stoichiometric YbRh2Si2 the onset of lattice Kondo correlations is detectable around the coherence scale $T_{\\rm coh}\\approx T_{\\rm K}\\approx25$–30 K (the effective single‑ion Kondo or transport coherence temperature extracted from bulk probes), yet the lattice Kondo correlations reach a regime in which they dominate low‑energy electronic properties only below the crossover temperature $T_{\\mathrm{P}}\\approx3.3\\ \\mathrm{K}$, i.e., at $T_{\\mathrm{P}\\!}\\approx 0.11\\cdot T_{\\rm coh}\\approx 0.1\\,T_{\\rm coh}$; consequently, single‑ion Kondo effects persist down to temperatures well below $T_{\\rm coh}$ before lattice coherence contributions grow sufficiently to enable the non‑Fermi‑liquid quantum‑critical behavior observed in bulk and spectroscopic probes.",
+      "content_hash": "7ae46520030597aad84339ce11f20c95b239927f004439ad05b61ff1c7231b41",
+      "id": "gcn_3a1514fde2d54682",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For stoichiometric YbRh2Si2 the onset of lattice Kondo correlations is detectable around the coherence scale $T_{\\rm coh}\\approx T_{\\rm K}\\approx25$–30 K (the effective single‑ion Kondo or transport coherence temperature extracted from bulk probes), yet the lattice Kondo correlations reach a regime in which they dominate low‑energy electronic properties only below the crossover temperature $T_{\\mathrm{P}}\\approx3.3\\ \\mathrm{K}$, i.e., at $T_{\\mathrm{P}\\!}\\approx 0.11\\cdot T_{\\rm coh}\\approx 0.1\\,T_{\\rm coh}$; consequently, single‑ion Kondo effects persist down to temperatures well below $T_{\\rm coh}$ before lattice coherence contributions grow sufficiently to enable the non‑Fermi‑liquid quantum‑critical behavior observed in bulk and spectroscopic probes.",
+              "id": "gcn_3a1514fde2d54682"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_717602aa489047e9",
+            "premises": [
+              {
+                "content": "Using the assignments $T_{\\rm coh}\\approx T_{\\rm K}\\approx 25$–30 K (the effective single‑ion Kondo/coherence scale extracted from bulk probes) and the experimentally extracted crossover temperature $T_{\\mathrm{P}}\\approx 3.3\\ \\mathrm{K}$ at which pronounced lattice‑Kondo‑dominated spectral and transport signatures appear, the numerical ratio $T_{\\mathrm{P}}/T_{\\rm coh}\\approx 0.11$ (approximately $0.1$) follows for the studied stoichiometric YbRh2Si2 samples; this numerical hierarchy (dominance of lattice Kondo correlations only below $\\sim0.1\\cdot T_{\\rm coh}$) is meaningful for interpreting the temperature evolution in this material, while recognizing that disorder, sample dependence, surface effects, and other material‑specific microscopic parameters may alter this numerical ratio in other systems.\n      Köhler, U. et al., Phys. Rev. B 77, 104412 (2008) (empirical $T_K$ references used by the authors).",
+                "id": "gcn_fb2747a8ec634c3f"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State the upstream empirical observations treated as known: from earlier STS temperature-series data, hybridization-related features begin to appear below about $30\\ \\mathrm{K}$ in the spectra (the coherence temperature $T_{\\rm coh}$), but the Kondo lattice peak at $-6\\ \\mathrm{meV}$ only dominates the spectra and displays the marked growth in height and narrowing in width below $T_{\\mathrm{P}}\\approx 3.3\\ \\mathrm{K}$; the single-ion Kondo temperature $T_{\\rm K}\\approx 25\\ \\mathrm{K}$ from bulk measurements is identified with $T_{\\rm coh}$.\nFig. 2a, Fig. 3c\n[26]",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the hierarchy statement to be established: the goal is to show that lattice Kondo correlations onset near $T_{\\rm coh}\\approx T_{\\rm K}\\sim 25$--30 K but only become dominant in low-energy electronic properties below $T_{\\mathrm{P}}\\approx3.3\\ \\mathrm{K}$, i.e., at roughly $0.1\\cdot T_{\\rm coh}$.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Use STS temperature evolution as evidence for onset and dominance: the STS data show that hybridization-related spectral features and the nascent $-6\\ \\mathrm{meV}$ peak begin to appear as temperature is lowered through $\\sim 30\\ \\mathrm{K}$, indicating the onset of lattice Kondo correlations at $T_{\\rm coh}\\approx T_{\\rm K}$, while the pronounced growth in the Kondo lattice peak height and concurrent narrowing of its FWHM only occur for $T\\lesssim T_{\\mathrm{P}}\\approx 3.3\\ \\mathrm{K}$, indicating that lattice Kondo correlations reach a regime where they dominate low-energy electronic properties only below $T_{\\mathrm{P}}$.\nFig. 2a, Fig. 3c",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Corroborate dominance via bulk-transport signatures: the same temperature regime ($T\\lesssim T_{\\mathrm{P}}\\approx 3.3\\ \\mathrm{K}$) shows concomitant bulk-transport signatures—specifically, the thermopower coefficient $-S/T$ and the Hall mobility exhibit a plateau near $3\\ \\mathrm{K}$ and then a pronounced change upon cooling below $T_{\\mathrm{P}}$—which aligns with the STS observation that the $-6\\ \\mathrm{meV}$ peak becomes dominant only below $T_{\\mathrm{P}}$, supporting that lattice Kondo correlations dominate bulk low-energy behavior only below this lower temperature.\nFig. 4\n[32]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Contrast persistence of single-ion Kondo effects: the conductance dip at zero bias (zero-bias minimum), which is associated with on-site (single-ion) Kondo hybridization effects, continues to deepen down to the lowest measured temperatures; this indicates that single-ion Kondo effects persist to temperatures well below $T_{\\rm coh}$, and only slowly give way to lattice-coherence-dominated behavior upon further cooling.\nFig. 2a, Fig. 2b\n[24]",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Quantify the hierarchy ratio: combining the assignment $T_{\\rm coh}\\approx 25$–30 K with the experimental observation that lattice-coherence-dominated spectral and transport signatures emerge strongly only below $T_{\\mathrm{P}}\\approx 3.3\\ \\mathrm{K}$ leads to the quantitative statement that this dominant-lattice-Kondo regime occurs at approximately $0.1\\cdot T_{\\rm coh}$.",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Conclude the hierarchical picture: therefore, in stoichiometric $ \\mathrm{YbRh_2Si_2}$ the onset of lattice Kondo correlations is detected already around $T_{\\rm coh}\\approx T_{\\rm K}\\approx25$–30 K, but lattice Kondo correlations reach a regime where they dominate low-energy electronic properties only below $T_{\\mathrm{P}}\\approx3.3\\ \\mathrm{K}$ (about $0.1\\cdot T_{\\rm coh}$), implying that single-ion Kondo effects persist down to substantially lower temperatures before the lattice coherence contribution grows sufficiently to enable the observed non-Fermi-liquid quantum-critical behavior.",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Theoretical and experimental accounts of the coherence temperature $T_{\\rm coh}$ and its relation to the single-ion Kondo temperature $T_{\\rm K}$ had been ambiguous: some treatments equate $T_{\\rm coh}$ with $T_{\\rm K}$ while others predict $T_{\\rm coh}\\gg T_{\\rm K}$ or that crystalline electric-field effects and disorder can alter the relative scales. Practically, this ambiguity meant that analyses of transport and thermodynamic data could not unambiguously separate single-ion Kondo physics from emergent lattice coherence or determine at which temperatures lattice Kondo correlations are the relevant degrees of freedom for quantum-critical phenomena. By establishing a temperature (the empirically determined $T_{\\mathrm{P}}$) substantially below $T_{\\rm coh}$ where lattice Kondo spectral weight and bulk indicators simultaneously grow, the work clarifies the effective hierarchy of Kondo-related energy scales required for the onset of lattice-dominated and quantum-critical behavior.",
+            "id": "paper:867772725953823394::conclusion_5_subproblem",
+            "source_package": "paper:867772725953823394"
+          }
+        ],
+        "source_package": "paper:867772725953823394"
+      }
+    ],
+    "papers": {
+      "paper:867772725953823394": {
+        "area": "arXiv-Physics",
+        "authors": "S. Seiro | L. Jiao | S. Kirchner | S. Hartmann | S. Friedemann | C. Krellner | C. Geibel | Q. Si | F. Steglich | S. Wirth",
+        "available_online": "",
+        "cover_date_start": "2017-11-14",
+        "created_at": "2023-05-23T06:19:00+08:00",
+        "doi": "10.48550/arXiv.1711.05151",
+        "en_title": "Evolution of the Kondo lattice and non-Fermi liquid excitations in a heavy-fermion metal",
+        "id": "867772725953823394",
+        "keywords": "",
+        "publication_date": "2017-11-14",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "重费米子金属中近藤晶格的演化及非费米液体激发"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "6cd9cdcda9da5a10794837cdd73d5453"
+}

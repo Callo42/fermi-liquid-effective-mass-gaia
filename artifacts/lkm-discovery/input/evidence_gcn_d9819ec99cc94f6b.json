@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The diagnostic distinction is that a Brinkman–Rice quasi-localized Fermi-liquid scenario retains a sharp Fermi surface whose volume counts electrons according to Luttinger’s theorem even as quasiparticle weight and effective mass change, whereas a Hubbard split-band (charge-transfer) scenario may lack a sharp Fermi surface that counts Cu-derived carriers; angle-resolved or high-quality angle-integrated photoemission spectroscopy, as performed in the cited studies, provides sufficiently direct information about both the existence of a sharp Fermi-surface locus and its enclosed momentum-space volume that, subject to the usual experimental caveats of surface sensitivity, energy and momentum resolution, and matrix-element effects, photoemission is the most practical experimental discriminator between the Brinkman–Rice and split-band pictures.\n      [3]",
+      "content_hash": "fc77ff512f3bd57219f5b1902321caef7f9ec45d1b22de106d2e48eb3532dcbd",
+      "id": "gcn_d9819ec99cc94f6b",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "2f0ccf29c29a1b29e08fad150d0713bc"
+}

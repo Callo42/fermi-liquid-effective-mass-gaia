@@ -76,3 +76,9 @@ The Turn-3 duplicate audit found no exact duplicate science-facing claim content
 - Capone2001 entropy-mismatch-instability helper -> `gcn_dd12256615264dfb`
 
 The only remaining duplicate reported by `gaia inquiry review --strict` is between compiler-generated internal helper claims, not source science claims.
+
+## Bridge Search
+
+The interactive starmap has two clusters: a thermodynamic/YbRh2Si2 material-specific cluster and a Brinkman-Rice/Mott-boundary cluster. A focused LKM bridge search was run after duplicate cleanup to look for a chain-backed claim that could connect them without an agent-only synthesis bridge.
+
+No suitable bridge root was found. The top chain-backed bridge-adjacent candidates stayed on the YbRh2Si2 side: FCQPT effective-mass scaling, high-field Kondo suppression/Lifshitz phenomenology, and lattice-Kondo coherence. The only strict-filter candidate was already present as the NiS2 alternative-mechanisms premise. The decision is therefore to keep the graph disconnected rather than add a weak bridge. Details are logged in `artifacts/lkm-discovery/bridge_search_2026-05-03.md`.
