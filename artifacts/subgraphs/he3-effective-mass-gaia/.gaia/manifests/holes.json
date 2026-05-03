@@ -1,0 +1,28 @@
+{
+  "holes": [
+    {
+      "content": "For three-dimensional normal-liquid He-3 in the conventional Landau Fermi-liquid framework used by Alvesalo et al. 1979, applying the standard mapping from gamma = 2.11 K^-1 to quasiparticle effective-mass renormalization gives m*/m approximately 2.12, and using the usual relation between m*/m and the first Landau parameter gives F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "970b5bfa2cb80e74f88189d04484cfc3cb6d31739e7d962d9a95d921f8874771",
+      "interface_hash": "sha256:4af264304871da30ef6778851c523e40b1dcaaa67f14b9e19ab5f4064da5aa5a",
+      "label": "gcn_1587257a956f4d18",
+      "qid": "github:he3_effective_mass::gcn_1587257a956f4d18",
+      "required_by": [
+        "github:he3_effective_mass::gcn_800070efac5e476d"
+      ]
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the observed molar specific heat per mole is linear for T >= about 3 mK, C/(nR) = gamma T with gamma = 2.11 +/- 0.02 K^-1; this measured linear region is assumed to represent the T -> 0 Fermi-liquid specific-heat coefficient used to infer m*/m and F1 [@Alvesalo1979].",
+      "content_hash": "9623435cbd282bf4c755c37ec8219f1f3a76a55dc18b64a0cb34209cde46cbea",
+      "interface_hash": "sha256:c68e4d7d08cc4a9aaa0d8ec70860eeda0930038aba39eb43bf397e19cb41342f",
+      "label": "gcn_2ee995fe1e674e2a",
+      "qid": "github:he3_effective_mass::gcn_2ee995fe1e674e2a",
+      "required_by": [
+        "github:he3_effective_mass::gcn_800070efac5e476d"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:be3e2f8f00b9436bfd8c7b59266fdc975a9284358fd20c2f0ed9e574e85d214f",
+  "manifest_schema_version": 1,
+  "package": "he3-effective-mass",
+  "version": "0.1.0"
+}

@@ -1,0 +1,78 @@
+{
+  "Alvesalo1979": {
+    "type": "article-journal",
+    "id": "Alvesalo1979",
+    "title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
+    "DOI": "10.1103/physrevlett.43.1509",
+    "container-title": "Physical Review Letters",
+    "issued": {
+      "date-parts": [
+        [
+          1979,
+          11,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Alvesalo",
+        "given": "T. A."
+      },
+      {
+        "family": "Haavasoja",
+        "given": "T."
+      },
+      {
+        "family": "Main",
+        "given": "P. C."
+      },
+      {
+        "family": "Manninen",
+        "given": "M. T."
+      },
+      {
+        "family": "Ray",
+        "given": "J."
+      },
+      {
+        "family": "Rehn",
+        "given": "Leila M. M."
+      }
+    ]
+  },
+  "Shaginyan2010": {
+    "type": "article",
+    "id": "Shaginyan2010",
+    "title": "Energy scales and the non-Fermi liquid behavior in YbRh2Si2",
+    "DOI": "10.48550/arXiv.1002.3706",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          2,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Shaginyan",
+        "given": "V.R."
+      },
+      {
+        "family": "Amusia",
+        "given": "M.Ya."
+      },
+      {
+        "family": "Popov",
+        "given": "K.G."
+      },
+      {
+        "family": "Artamonov",
+        "given": "S.A."
+      }
+    ]
+  }
+}

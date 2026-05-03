@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let $m^{*}$ denote the quasiparticle effective mass at the Fermi level of a Fermi-liquid state, defined operationally via the low-temperature specific heat coefficient $\\gamma$ as $\\gamma\\propto m^{*}$ (so $\\gamma=C/T$ as $T\\to0$), and let $T_{\\rm coh}$ denote the temperature below which Fermi-liquid thermodynamics (linear specific heat and temperature-independent susceptibilities) are observed. The proposition is that, in a conventional Fermi liquid of itinerant quasiparticles, $T_{\\rm coh}$ is proportional to an inverse effective-mass scale, i.e., $T_{\\rm coh}\\propto 1/m^{*}$ up to factors set by band parameters and quasiparticle residue, which is the standard phenomenological relation between effective mass and the energy window of coherent quasiparticle behavior.",
+      "content_hash": "4ff5a8a23e4ae05259e7d14621f84e9c540139c85596683411d7f873e839b35e",
+      "id": "gcn_6aa2a75e64e94dcd",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "81d73eecde02dac736a558dae8a0e8c6"
+}

@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].",
+      "content_hash": "ede67149f3596864bc22c9816d084cc54b557288442db61ec350a936d5a824da",
+      "label": "gcn_2741cdef_practical_effective_mass_scheme",
+      "qid": "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:8c89835c60b3ecf096778ab7c570a33182483c8e312485d9662934b0fb28231c",
+  "manifest_schema_version": 1,
+  "package": "ybrh2si2-effective-mass",
+  "version": "0.1.0"
+}

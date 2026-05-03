@@ -1,0 +1,170 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811623956246167556": {
+        "area": "Physics and Astrophysics",
+        "authors": "T. A. Alvesalo | T. Haavasoja | P. C. Main | M. T. Manninen | J. Ray | Leila M. M. Rehn",
+        "available_online": "1979-11-12",
+        "cover_date_start": "1979-11-12",
+        "created_at": "2022-12-19T07:43:51+08:00",
+        "doi": "10.1103/physrevlett.43.1509",
+        "en_title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
+        "id": "811623956246167556",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "在超流转变附近液态³He中反常热容量的观测"
+      },
+      "paper:812703005676666880": {
+        "area": "Physics and Astrophysics",
+        "authors": "M. Kollar | D. Vollhardt",
+        "available_online": "2000-6-1",
+        "cover_date_start": "2000-06-01",
+        "created_at": "2022-12-22T07:11:37+08:00",
+        "doi": "10.1103/physrevb.61.15347",
+        "en_title": "Thermodynamically consistent equilibrium properties of normal-liquid 3 He",
+        "id": "812703005676666880",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "正常液态³He的热力学自洽平衡性质"
+      },
+      "paper:814511780763009024": {
+        "area": "Physics and Astrophysics",
+        "authors": "R. A. Aziz | R. K. Pathria",
+        "available_online": "1973-2-1",
+        "cover_date_start": "1973-02-01",
+        "created_at": "2022-12-27T06:59:02+08:00",
+        "doi": "10.1103/physreva.7.809",
+        "en_title": "Ground-State Energy of Liquid He 3 and Liquid He 4 : Evaluation from the Sound-Propagation Data",
+        "id": "814511780763009024",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "532",
+        "publication_name": "Physical Review A _ Phys. Rev. A",
+        "research_categories": "",
+        "zh_title": "液氦3和液氦4的基态能量：根据声传播数据进行评估"
+      },
+      "paper:867771177630696117": {
+        "area": "arXiv-Physics",
+        "authors": "M. Kollar | D. Vollhardt",
+        "available_online": "",
+        "cover_date_start": "1999-06-15",
+        "created_at": "2023-05-23T06:12:51+08:00",
+        "doi": "10.48550/arXiv.cond-mat/9906222",
+        "en_title": "Thermodynamically consistent equilibrium properties of normal-liquid Helium-3",
+        "id": "867771177630696117",
+        "keywords": "",
+        "publication_date": "1999-06-15",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter _ Physics.cond-mat.other",
+        "research_categories": "",
+        "zh_title": "正常液态氦-3的热力学自洽平衡性质"
+      }
+    },
+    "variables": [
+      {
+        "content": "Within the conventional Landau Fermi-liquid framework for a three-dimensional Fermi liquid, the standard mapping that relates the molar specific-heat coefficient \\gamma to the quasiparticle effective-mass renormalization m^{*}/m and that yields the Landau parameter F_{1} from the effective mass is assumed to be valid and numerically accurate to within the quoted experimental uncertainties; applying these standard relations to the experimentally determined \\gamma=2.11\\ \\mathrm{K}^{-1} gives m^{*}/m\\approx 2.12 and F_{1}\\approx 3.36.",
+        "content_hash": "b7bc6c8d4f26a3dfb7d283f3ce4ed27b6fd2b7335beb3e3bf7deb60e4e01e458",
+        "id": "gcn_1587257a956f4d18",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811623956246167556::P9",
+            "package_id": "paper:811623956246167556",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811623956246167556"
+          ]
+        },
+        "role": "premise",
+        "score": 0.031754032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the low-temperature limit the normal-liquid $^3$He data exhibit Fermi-liquid linearity,\n      $S(T,P)=C_P(T,P)=\\gamma(P)\\,R\\,T\\quad\\text{as }T\\to0$,\n      where $R$ is the molar gas constant and $\\gamma(P)$ is the molar linear coefficient; from the self-consistent numerical data $\\gamma(P)$ and its pressure derivative $\\gamma'(P)$ were extracted across the pressure range by linear extrapolation of $C_P/T$ to $T=0$. The extracted $\\gamma(P)$ was used to obtain the quasiparticle effective-mass ratio via\n      $\\dfrac{\\gamma(P)}{\\gamma_0}=\\dfrac{m^*}{m}=1+\\dfrac{1}{3}F_1^s$,\n      where the reference coefficient for a noninteracting Fermi gas at the same density is\n      $\\displaystyle \\gamma_0=8.991\\times10^{-2}\\ \\mathrm{K}^{-1}\\left(\\frac{V(0,P)}{\\mathrm{cm}^3}\\right)^{2/3}$\n      (with $m$ the atomic mass of $^3$He), so that the Landau parameter $F_1^s$ follows from $m^*/m=\\gamma/\\gamma_0$; the computed $\\gamma(P)$ increases with pressure over the studied range and the corresponding derived Fermi-liquid parameters were obtained consistently from these $\\gamma(P)$ values.",
+        "content_hash": "9dbf00a2a8bd98606f8b2a99842b0ac9f74a7860e6fceb0707f7ad0d7e3e2d03",
+        "id": "gcn_f4b48cfff15541a2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812703005676666880::conclusion_4",
+            "package_id": "paper:812703005676666880",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812703005676666880"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.028991596638655463,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $p_{F}$ denote the Fermi momentum, $m$ the bare particle mass, and $m^{*}(ρ)$ the effective mass as a function of density derived from low-temperature specific-heat data; define the Landau parameters $F_{0}(ρ)$ and $F_{1}(ρ)$ and adopt the ground-state Fermi-liquid relation\n      $c^{2}=\\dfrac{p_{F}^{2}}{3m^{2}}\\dfrac{1+F_{0}}{1+\\tfrac{1}{3}F_{1}},$\n      together with $F_{1}=3\\big(m^{*}/m-1\\big)$. Using the density dependence of $m^{*}$ inferred from low-temperature specific-heat measurements and the fitted sound speed $c(ρ)$, the parameter $F_{1}(ρ)$ is represented as the power series in $x=(ρ-ρ_{0})/ρ_{0}$\n      $F_{1}(ρ)=\\alpha_{0}+\\alpha_{1}x+\\alpha_{2}x^{2}+\\alpha_{3}x^{3}+\\cdots,$\n      with empirical coefficients $\\alpha_{0}=5.6$, $\\alpha_{1}=30$, $\\alpha_{2}=-50$, $\\alpha_{3}=65$. Substituting these results and the appropriate $p_{F}$ and $m$ into the Fermi-liquid relation yields a power-series expansion for $F_{0}(ρ)$,\n      $F_{0}(ρ)=\\beta_{0}+\\beta_{1}x+\\beta_{2}x^{2}+\\beta_{3}x^{3}+\\cdots,$\n      with empirical coefficients $\\beta_{0}=9.6$, $\\beta_{1}=88$, $\\beta_{2}=175$, $\\beta_{3}=-35$. These series provide empirical density dependences for the Landau parameters in liquid 3He within the density interval spanned by the input data.",
+        "content_hash": "9f178800f7d320a5be816896b6c0ae3b50c4a1aaa502ba983afbf1f63bab3d2a",
+        "id": "gcn_ad3c3e52730d429c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814511780763009024::conclusion_5",
+            "package_id": "paper:814511780763009024",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814511780763009024"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "content_hash": "f689f88d12bf20bc60ce78ec01cddb6c5ea4c7a26c8eb810a4411075fbb2173b",
+        "id": "gcn_800070efac5e476d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811623956246167556::conclusion_3",
+            "package_id": "paper:811623956246167556",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811623956246167556"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The proposition is that Landau Fermi-liquid theory applies to normal-liquid 3He in the studied pressure range in the $T\\to0$ limit, so that the low-temperature specific-heat coefficient $\\gamma(P)$, the quasiparticle effective mass $m^*(P)$, and the dimensionless Fermi-liquid parameter $F_1^s(P)$ are related by\n      $$\n      \\frac{\\gamma(P)}{\\gamma_0}=\\frac{m^*(P)}{m}=1+\\frac{1}{3}F_1^s(P),\n      $$\n      where $m$ is the bare atomic mass of 3He and the reference coefficient $\\gamma_0$ for a noninteracting Fermi gas at the same density is\n      $$\n      \\gamma_0=\\frac{\\pi^2 k_B m}{\\hbar^2}\\left(\\frac{V(0,P)}{3\\pi^2 N}\\right)^{2/3}.\n      $$\n      In this proposition $k_B$ is Boltzmann's constant, $\\hbar$ the reduced Planck constant, $N$ Avogadro's number, and the relation is assumed valid in the $T\\to0$ Fermi-liquid limit so that $m^*/m$ and $F_1^s(P)$ can be extracted from the computed $\\gamma(P)$ and $V(0,P)$ by the algebraic inversion shown.",
+        "content_hash": "c1e123eb1e1cf6f9e7d876e45ba7d516631369128992d99572dcbb9e5c87d08d",
+        "id": "gcn_e9ada95129674e6e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771177630696117::P8",
+            "package_id": "paper:867771177630696117",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771177630696117"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "ff10da128e1d9b57d69d840cf18ef067"
+}

@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811260059513257987": {
+        "area": "Physics and Astrophysics",
+        "authors": "Johnpierre Paglione | M. A. Tanatar | J.-Ph. Reid | H. Shakeripour | C. Petrovic | Louis Taillefer",
+        "available_online": "2016-6-27",
+        "cover_date_start": "2016-06-27",
+        "created_at": "2022-12-18T07:37:50+08:00",
+        "doi": "10.1103/physrevlett.117.016601",
+        "en_title": "Quantum Critical Quasiparticle Scattering within the Superconducting State of CeCoIn 5",
+        "id": "811260059513257987",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "CeCoIn₅超导态内的量子临界准粒子散射"
+      },
+      "paper:812021854981062660": {
+        "area": "Material science",
+        "authors": "V.R. Shaginyan | V.A. Stephanovich | E.V. Kirichenko",
+        "available_online": "",
+        "cover_date_start": "2007-09-01",
+        "created_at": "2022-12-20T10:04:57+08:00",
+        "doi": "10.1016/j.jallcom.2006.08.347",
+        "en_title": "The peculiarities of the phase diagram of heavy fermion metal CeCoIn5",
+        "id": "812021854981062660",
+        "keywords": "[{\"ch_name\":\"重费米子\",\"en_name\":\"Heavy fermions\"},{\"ch_name\":\"非费米液体行为\",\"en_name\":\"Non-Fermi-liquid behavior\"},{\"ch_name\":\"量子相变\",\"en_name\":\"Quantum phase transition\"},{\"ch_name\":\"超导\",\"en_name\":\"Superconductivity\"}]",
+        "publication_date": "2007-9",
+        "publication_id": "2082",
+        "publication_name": "Journal of Alloys and Compounds _ Journal of Alloys and Compounds",
+        "research_categories": "",
+        "zh_title": "重费米子金属CeCoIn5相图的特性"
+      },
+      "paper:812139455166021633": {
+        "area": "Material science",
+        "authors": "A. Villares Ferrer | P. F. Farinas | A. O. Caldeira",
+        "available_online": "2007-2-21",
+        "cover_date_start": "2005-07-11",
+        "created_at": "2022-12-20T17:52:15+08:00",
+        "doi": "10.1080/14786430500070768",
+        "en_title": "Gapless-excitation induced resistivity in ferromagnetic layers",
+        "id": "812139455166021633",
+        "keywords": "",
+        "publication_date": "2005-7-11",
+        "publication_id": "2215",
+        "publication_name": "Philosophical Magazine _ Philosophical Magazine",
+        "research_categories": "",
+        "zh_title": "铁磁层中无隙激发诱导的电阻率"
+      },
+      "paper:812324077267058690": {
+        "area": "Engineering Technology",
+        "authors": "J. Marciak-Kozlowska",
+        "available_online": "",
+        "cover_date_start": "1993-05-01",
+        "created_at": "2022-12-21T06:05:53+08:00",
+        "doi": "10.1007/bf00566056",
+        "en_title": "Wave characteristic of femtosecond heat conduction in thin films",
+        "id": "812324077267058690",
+        "keywords": "",
+        "publication_date": "1993-5",
+        "publication_id": "4567",
+        "publication_name": "International Journal of Thermophysics _ Int J Thermophys",
+        "research_categories": "",
+        "zh_title": "薄膜中飞秒热传导的波动特性"
+      },
+      "paper:813254448129245184": {
+        "area": "Physics and Astrophysics",
+        "authors": "Y. Hatsugai | P.-A. Bares | X. G. Wen",
+        "available_online": "1993-7-19",
+        "cover_date_start": "1993-07-19",
+        "created_at": "2022-12-23T19:42:51+08:00",
+        "doi": "10.1103/physrevlett.71.424",
+        "en_title": "Electron spectral function of an interacting two dimensional electron gas in a strong magnetic field",
+        "id": "813254448129245184",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "强磁场中相互作用的二维电子气的电子谱函数"
+      },
+      "paper:867752612177379569": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov | S.A. Artamonov",
+        "available_online": "",
+        "cover_date_start": "2010-02-19",
+        "created_at": "2023-05-23T04:59:05+08:00",
+        "doi": "10.48550/arXiv.1002.3706",
+        "en_title": "Energy scales and the non-Fermi liquid behavior in YbRh2Si2",
+        "id": "867752612177379569",
+        "keywords": "",
+        "publication_date": "2010-02-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "镱铑硅化物（YbRh₂Si₂）中的能标与非费米液体行为"
+      },
+      "paper:867761305644172110": {
+        "area": "arXiv-Physics",
+        "authors": "F. G. Eich | Markus Holzmann | G. Vignale",
+        "available_online": "",
+        "cover_date_start": "2017-04-13",
+        "created_at": "2023-05-23T05:33:37+08:00",
+        "doi": "10.48550/arXiv.1704.04076",
+        "en_title": "Effective mass of quasiparticles from thermodynamics",
+        "id": "867761305644172110",
+        "keywords": "",
+        "publication_date": "2017-04-13",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Nuclear and Plasma Physics\"]",
+        "zh_title": "基于热力学的准粒子有效质量"
+      },
+      "paper:867766520829182070": {
+        "area": "arXiv-Physics",
+        "authors": "Satya K. Kushwaha | Mun K. Chan | Joonbum Park | S. M. Thomas | Eric D. Bauer | J. D. Thompson | F. Ronning | Priscila F. S. Rosa | Neil Harrison",
+        "available_online": "",
+        "cover_date_start": "2019-06-04",
+        "created_at": "2023-05-23T05:54:21+08:00",
+        "doi": "10.48550/arXiv.1906.01740",
+        "en_title": "Magnetic field-tuned quantum criticality in a Kondo insulator",
+        "id": "867766520829182070",
+        "keywords": "",
+        "publication_date": "2019-06-04",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "近藤绝缘体中的磁场调谐量子临界性"
+      },
+      "paper:867772368787866009": {
+        "area": "arXiv-Physics",
+        "authors": "Z. Qian | G. Vignale | D. C. Marinescu",
+        "available_online": "",
+        "cover_date_start": "2004-03-13",
+        "created_at": "2023-05-23T06:17:35+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0403342",
+        "en_title": "The Spin Mass of an Electron Liquid",
+        "id": "867772368787866009",
+        "keywords": "",
+        "publication_date": "2004-03-13",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "电子液体的自旋质量"
+      },
+      "paper:867772898629124356": {
+        "area": "arXiv-Physics",
+        "authors": "Mei-Rong Li",
+        "available_online": "",
+        "cover_date_start": "2001-11-28",
+        "created_at": "2023-05-23T06:19:41+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0111542",
+        "en_title": "Thermal Hall conductivity of marginal Fermi liquids subject to out-of plane impurities in high-$T_c$ cuprates",
+        "id": "867772898629124356",
+        "keywords": "",
+        "publication_date": "2001-11-28",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "高温铜酸盐中受面外杂质影响的边缘费米液体的热霍尔电导率"
+      }
+    },
+    "variables": [
+      {
+        "content": "For a homogeneous three-dimensional electron Fermi liquid with bare electron mass $M$, Landau-quasiparticle effective mass $M^{*}$, Fermi momentum $p_{\\mathrm{F}}$, and noninteracting density of states at the Fermi level $N_{0}$, and with $F^{1}(p_{\\mathrm{F}},p_{\\mathrm{F}})$ denoting the $p$-wave ($\\ell=1$) component of the Landau interaction amplitude evaluated at equal incoming and outgoing momenta $p_{\\mathrm{F}}$, the quasiparticle effective mass satisfies the Landau–Fermi–liquid relation\n      $$\n      \\frac{M^{*}}{M}=\\frac{1}{1-\\dfrac{N_{0}F^{1}(p_{\\mathrm{F}},p_{\\mathrm{F}})}{3}}.\n      $$\n      [8]",
+        "content_hash": "7f7698801a85450cb554b3cb759f6c4753c0fe7cac1083b2029636545f9bb070",
+        "id": "gcn_191c05f1a103426b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812021854981062660::P1",
+            "package_id": "paper:812021854981062660",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812021854981062660"
+          ]
+        },
+        "role": "premise",
+        "score": 0.026992753623188405,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the three-dimensional homogeneous electron liquid of $N$ electrons of bare mass $m$ and charge $-e$ in volume $V$ with particle density $n=N/V$, Fermi wave vector $k_{\\mathrm{F}}=(3\\pi^2 n)^{1/3}$, Fermi energy $E_{\\mathrm{F}}=\\hbar^2 k_{\\mathrm{F}}^2/(2m)$, and reduced temperature $\\theta\\equiv k_{\\mathrm{B}}T/E_{\\mathrm{F}}\\ll 1$, Landau Fermi-liquid theory asserts that the low-temperature thermodynamic properties (entropy per particle and heat capacity per particle) are dominated by fermionic quasiparticle excitations associated with a single-particle Green's-function pole characterized by a zero-temperature quasiparticle effective mass $m^*$; equivalently, in this low-$T$ regime the interacting HEL's entropy and heat capacity equal those of a noninteracting Fermi gas of particles with mass $m^*$.\n      [18],[19]",
+        "content_hash": "616a549815cf08fc8bc427cc02f013f7d1a064e53bf79ead57afd79b20c02ce0",
+        "id": "gcn_5a4647a3a9dc4583",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761305644172110::P1",
+            "package_id": "paper:867761305644172110",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761305644172110"
+          ]
+        },
+        "role": "premise",
+        "score": 0.024056467876692595,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let B denote the coefficient of the T^2 term in the low-temperature expansion w(T)=w_0+B T^2 of the electronic thermal resistivity w(T) for CeCoIn₅. The proposition is that B quantifies inelastic electron-electron scattering in the Fermi-liquid sense and scales proportionally to the square of the quasiparticle effective mass entering transport, B ∝ (m^*)^2, so that an observed strong increase of B(H) as a function of applied magnetic field H corresponds to a strong enhancement (divergence-like increase) of the quasiparticle transport mass m^*(H); here m^* denotes the Landau quasiparticle effective mass that governs transport coefficients in Fermi-liquid theory.",
+        "content_hash": "07d8439ae5e2ef0179e8d984ce491df07a84f0fb709977680b037b5ac3936b28",
+        "id": "gcn_196b21536c664c69",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811260059513257987::P3",
+            "package_id": "paper:811260059513257987",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811260059513257987"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A practical computational scheme for obtaining the temperature- and field-dependent effective mass in a homogeneous heavy-electron liquid is: (i) solve the temperature-dependent Landau integral equation\n      1/M*(T,B) = 1/m + ∫[(p_F·p1)/p_F^3] F(p_F,p1;B) [∂n(p1,T,B)/∂p1] d p1/(2π)^3,\n      for the self-consistent single-particle spectrum ε(p) and occupation numbers n(p,T,B), where m is the bare electron mass, p_F the Fermi momentum, F(p_F,p1;B) a chosen Landau interaction amplitude possibly dependent on field B, and the momentum integrals are over three-dimensional momentum space; (ii) choose the Landau amplitude coefficients so that ε(p) has an inflection point at p = p_F (i.e., the first and second derivatives dε/dp and d^2ε/dp^2 vanish at p_F), which enforces the fermion-condensation critical condition 1/M* = 0 at T = 0; (iii) compute the thermodynamic entropy S(T,B) per unit volume from the obtained occupations n(p,T,B) using the Fermi-Dirac combinatorial formula S(T,B) = −2 ∫ [n ln n + (1−n) ln(1−n)] d p/(2π)^3 (spin degeneracy 2); and (iv) extract the effective mass operationally via the Landau relation M*(T,B) = S(T,B)/T (with consistent units); this procedure, applied within the homogeneous isotropic heavy-electron liquid model (i.e., neglecting crystal-lattice anisotropy and band structure), yields M*(T,B) exhibiting the interpolating and scaling properties described above.",
+        "content_hash": "6a8008944690703cade00364a280a1857102b82db0d6fea5a7fa0b704473ef61",
+        "id": "gcn_2741cdef209a457a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752612177379569::conclusion_4",
+            "package_id": "paper:867752612177379569",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752612177379569"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a homogeneous, Galilean-invariant electron liquid where the microscopic Hamiltonian conserves total momentum and electrons have bare band mass $m_b$, define the quasiparticle effective mass $m^*$ entering the low-energy dispersion of quasiparticles near the Fermi surface. The proposition is: for the $\\ell=1$ density channel Landau parameter $F_1^s$ (defined as $F_1^s=\\tfrac{1}{2}(F_1^{\\uparrow\\uparrow}+F_1^{\\uparrow\\downarrow})$), the relation $\\frac{m_b}{m^*}=\\frac{1}{1+F_1^s/d}$ holds (with $d$ the spatial dimensionality), i.e. the usual Fermi-liquid identity connecting band mass, quasiparticle mass, and $F_1^s$ is valid.",
+        "content_hash": "7dc2a08506e88078184d0151a8e472a9eaaf1b580994de4dd32e36dd3233544c",
+        "id": "gcn_0691b43fe8584150",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772368787866009::P6",
+            "package_id": "paper:867772368787866009",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772368787866009"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The low-energy physics of the two-dimensional electron system at filling fraction $\\nu=\\tfrac{1}{2}$ is described by a Fermi-liquid-like theory of pseudoparticles (composite objects obtained by binding an electron to two flux quanta), with a well-defined pseudoparticle Fermi momentum $k_F$ and an interaction-generated effective mass $m^*$ such that low-energy collective excitations can be analyzed using Fermi-liquid kinematics (for example, a quadratic dispersion with kinetic energy scale $\\sim k_F^2/2m^*$); this statement defines $k_F$ as the wavevector at which the pseudoparticle occupation jumps in the idealized Fermi-liquid picture and defines $m^*$ phenomenologically as the effective quasiparticle mass entering the quadratic dispersion of pseudoparticle excitations.\n      Halperin, Lee, and Read, Phys. Rev. B 47, 7312 (1993)",
+        "content_hash": "c4a1e839aeb729748252c3285ca8a7e809621e54d52a3834f672dd2c14da408f",
+        "id": "gcn_407fb135adf546cb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813254448129245184::P4",
+            "package_id": "paper:813254448129245184",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813254448129245184"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In estimating the thermal-wave speed $v_{\\mathrm{s}}$ for conduction electrons in gold, the effective mass is set equal to the free-electron mass ($m^{*}=m$) and the Fermi-liquid interaction parameter is set to zero ($F_{0}^{\\mathrm{s}}=0$), so that the general formula\n      $$\n      v_{\\mathrm{s}}=\\Bigg(\\frac{p_{\\mathrm{F}}^{2}}{3\\,m\\,m^{*}}\\big(1+F_{0}^{\\mathrm{s}}\\big)\\Bigg)^{1/2}\n      $$\n      reduces to $v_{\\mathrm{s}}=\\sqrt{\\tfrac{1}{3}}\\,v_{\\mathrm{F}}$, where $v_{\\mathrm{F}}=p_{\\mathrm{F}}/m$ is the Fermi velocity.\n      D. Pines and P. Nozi\\`eres, The Theory of Quantum Liquids (Benjamin, New York, 1966).",
+        "content_hash": "958930528f70c0a4dfab5bf22f4c74dfbf9e6e8a157286e1e7aa7cd2f7d92d5a",
+        "id": "gcn_47f2810ddcbd4101",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812324077267058690::P5",
+            "package_id": "paper:812324077267058690",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812324077267058690"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a metallic state at sufficiently low temperature described by Landau quasiparticles with effective mass m^{*}, the longitudinal electrical resistivity can be represented in the low-T limit by\n      ρ_{xx}(T)=ρ_{0}+A\\,T^{2},\n      where ρ_{0} is the residual (elastic) resistivity and A is a coefficient arising from quasiparticle–quasiparticle electron-electron scattering; in many Fermi-liquid formulations A scales approximately as A ∝ (m^{*})^{2}, so that observation of a regime in which ρ_{xx} is linear in T^{2} at the lowest measured temperatures is taken as evidence for Fermi-liquid transport controlled by electron-electron scattering, and changes in A are interpreted as reflecting changes in the quasiparticle effective mass, provided alternative mechanisms that can mimic T^{2} behavior over limited temperature ranges are absent and the sample is sufficiently homogeneous for conventional Fermi-liquid theory to apply.",
+        "content_hash": "142eeb5e41d24d8454651504130018220b49b4e2bf76761ba33f5595a24cbfef",
+        "id": "gcn_0225506661654858",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766520829182070::P9",
+            "package_id": "paper:867766520829182070",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766520829182070"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Consider electron coupling to marginal-Fermi-liquid fluctuations that renormalize effective mass m^{*}, density of states N^{*}(\\theta), and group velocity \\mathbf{v}^{*}_{\\mathbf{k}}; by analogy with Fermi-liquid transport theory, these renormalizations either cancel exactly in the ratios entering \\sigma_{xy} and \\kappa_{xy} or else modify only the numerical prefactors of the customary and impurity terms without changing the temperature power laws, so that mass/velocity renormalization does not alter the main conclusion that L_{xy} is a weak function of temperature within a single sample.",
+        "content_hash": "45ff5c1062fa23e5d25f5643335a6ba2bf4aa05e40459bde57f75c69b7c120cd",
+        "id": "gcn_e6d4a2a982014101",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772898629124356::P11",
+            "package_id": "paper:867772898629124356",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772898629124356"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The conduction-electron subsystem is modeled as a noninteracting (or weakly interacting) Fermi liquid with single-particle asymptotic energies\n      $$\n      E_{\\\\mathbf{k}}^{\\\\sigma}=\\\\frac{\\\\hbar^{2}}{2m}(k_{x}^{2}+k_{y}^{2})-\\\\sigma J_{K},\n      $$\n      spin-resolved Fermi wavevectors $k_{F}^{\\\\sigma}=\\\\sqrt{k_{F}^{2}+\\\\sigma K^{2}}$ with $K^{2}\\\\equiv 2mJ_{K}/\\\\hbar^{2}$, and spin-resolved densities $n_{\\\\sigma}$ determined from these Fermi vectors; electron–electron interactions and correlation-induced effective-mass renormalizations are neglected under the assumption that $J_{K}/\\\\epsilon_{F}\\\\ll1$, so that the Fermi-liquid picture used in the transport calculations remains valid for the parameter ranges considered.",
+        "content_hash": "1c188b3e6a5dca05b7f8f0f3892ecd530fc698ff554b2c724ac38c5523b71be6",
+        "id": "gcn_6d0a196f674543cc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812139455166021633::P13",
+            "package_id": "paper:812139455166021633",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812139455166021633"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "d29580fbdc4b0cb248a011d284c18dc0"
+}

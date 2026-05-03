@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Assume standard Fermi-liquid relations linking the low-energy derivative of the real self-energy to the quasiparticle residue and effective mass as follows: define $\\lambda\\equiv -\\left.\\frac{d\\Sigma'(\\varepsilon)}{d\\varepsilon}\\right|_{\\varepsilon=0}$, define the quasiparticle residue $Z\\equiv 1/(1+\\lambda)$, define the band mass $m_{b}$ as the curvature-derived effective mass of the non-interacting DFT band at the Fermi momentum, and assume that the interacting quasiparticle effective mass satisfies $m^{*}/m_{b}=Z^{-1}$, with the additional assumptions that the electronic self-energy is approximately momentum-independent near the Fermi surface (local approximation) and that Fermi-liquid quasiparticle formulas apply in the low-energy regime considered.",
+      "content_hash": "6d69a9b39a5e19d050d65521b6ae421f1d474dbbd943e817f402d74513ebe3bb",
+      "id": "gcn_94aa74860af944d0",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "6c71cb4d2938885ff5100344cf591ea5"
+}

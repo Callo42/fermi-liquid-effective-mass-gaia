@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The quasiparticle effective-mass ratio for a Fermi liquid can be written in terms of derivatives of the real part of the retarded self-energy evaluated on the Fermi surface (momentum p = p0 and energy ε = 0) as\n      m*/m = [1 − (∂/∂ε) Re Σ^R(p0,ε)|_{ε=0}] / [1 + (m/p0) (∂/∂p) Re Σ^R(p,ε)|_{p=p0,ε=0}],\n      where p0 denotes the Fermi momentum, m is the bare mass, m* is the quasiparticle effective mass, and Re Σ^R is the real part of the retarded single-particle self-energy.",
+      "content_hash": "9bd712e3d29083ded5d13989e20eef32922a9fa5c1a677877ed46a8ab5100d55",
+      "id": "gcn_fe609766a8a74229",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "4d7526b79469776a73bad2cd09fad247"
+}

@@ -1,0 +1,63 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.6393208,
+      "knowledge_id": "github:he3_effective_mass::__conjunction_result_d85e729f",
+      "label": "__conjunction_result_d85e729f"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:he3_effective_mass::gcn_1587257a956f4d18",
+      "label": "gcn_1587257a956f4d18"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:he3_effective_mass::gcn_2ee995fe1e674e2a",
+      "label": "gcn_2ee995fe1e674e2a"
+    },
+    {
+      "belief": 0.80307002524,
+      "knowledge_id": "github:he3_effective_mass::gcn_800070efac5e476d",
+      "label": "gcn_800070efac5e476d"
+    },
+    {
+      "belief": 0.880695345465022,
+      "knowledge_id": "github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+      "label": "he3_gamma_implies_mstar_ratio_2_12"
+    },
+    {
+      "belief": 0.880695345465022,
+      "knowledge_id": "github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36",
+      "label": "he3_mstar_ratio_yields_f1_3_36"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:he3_effective_mass::__conjunction_result_d85e729f": [
+        0.6393208
+      ],
+      "github:he3_effective_mass::gcn_1587257a956f4d18": [
+        0.82
+      ],
+      "github:he3_effective_mass::gcn_2ee995fe1e674e2a": [
+        0.78
+      ],
+      "github:he3_effective_mass::gcn_800070efac5e476d": [
+        0.80307002524
+      ],
+      "github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12": [
+        0.880695345465022
+      ],
+      "github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36": [
+        0.880695345465022
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:be3e2f8f00b9436bfd8c7b59266fdc975a9284358fd20c2f0ed9e574e85d214f"
+}

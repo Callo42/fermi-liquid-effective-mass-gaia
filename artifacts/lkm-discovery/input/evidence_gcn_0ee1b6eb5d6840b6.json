@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a Fermi liquid with Fermi wave vector k_F (Å^{-1}), define a dimensionless wave-vector-dependent effective mass m^*(k) (measured in units of the bare 3He mass m_3) by choosing a background mass parameter m_0 ≥ 1 and a half-width fraction f > 0, defining the symmetric interval {k: |k−k_F| < f k_F}, setting m^*(k)=m_0 for |k−k_F| ≥ f k_F, and for |k−k_F| < f k_F setting\n      $$\n      m^{*}(k)=m_{0}+(m^{*}(k_{F})-m_{0})\\frac{1+\\cos\\big(\\frac{(k-k_{F})\\pi}{f k_{F}}\\big)}{2},\n      $$\n      with the Fermi-surface value specified as m^*(k_F)=2.8. This prescription provides a single smooth cosine interpolation between m_0 and m^*(k_F) over the interval of half-width f k_F and is used as the representation of the effective-mass enhancement in subsequent numerical integrations.",
+      "content_hash": "dbd70eacd5c2e7fed242c5b2d6e96a58b19cfd8a9241b81879ed2bd9f756818b",
+      "id": "gcn_0ee1b6eb5d6840b6",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "20e7e6dd5d76095ee69f451e3b8573c9"
+}

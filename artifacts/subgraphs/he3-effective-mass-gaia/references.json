@@ -1,0 +1,313 @@
+{
+  "Alvesalo1979": {
+    "type": "article-journal",
+    "id": "Alvesalo1979",
+    "title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
+    "DOI": "10.1103/physrevlett.43.1509",
+    "container-title": "Physical Review Letters",
+    "issued": {
+      "date-parts": [
+        [
+          1979,
+          11,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Alvesalo",
+        "given": "T. A."
+      },
+      {
+        "family": "Haavasoja",
+        "given": "T."
+      },
+      {
+        "family": "Main",
+        "given": "P. C."
+      },
+      {
+        "family": "Manninen",
+        "given": "M. T."
+      },
+      {
+        "family": "Ray",
+        "given": "J."
+      },
+      {
+        "family": "Rehn",
+        "given": "Leila M. M."
+      }
+    ]
+  },
+  "Zeise1981": {
+    "type": "article-journal",
+    "id": "Zeise1981",
+    "title": "Specific heat of normal and superfluid helium-3",
+    "DOI": "10.1016/0378-4363(81)90907-4",
+    "container-title": "Physica B+C",
+    "issued": {
+      "date-parts": [
+        [
+          1981,
+          8
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zeise",
+        "given": "E. K."
+      },
+      {
+        "family": "Saunders",
+        "given": "J."
+      },
+      {
+        "family": "Ahonen",
+        "given": "A. I."
+      },
+      {
+        "family": "Archie",
+        "given": "C. N."
+      },
+      {
+        "family": "Richardson",
+        "given": "R. C."
+      }
+    ]
+  },
+  "Lhota1981": {
+    "type": "article-journal",
+    "id": "Lhota1981",
+    "title": "Intercomparison of NBS and Helsinki temperature scales in the millikelvin region",
+    "DOI": "10.1016/0378-4363(81)90474-5",
+    "container-title": "Physica B+C",
+    "issued": {
+      "date-parts": [
+        [
+          1981,
+          8
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Lhota",
+        "given": "E."
+      },
+      {
+        "family": "Manninen",
+        "given": "M. T."
+      },
+      {
+        "family": "Pekola",
+        "given": "J. P."
+      },
+      {
+        "family": "Soinne",
+        "given": "A. T."
+      },
+      {
+        "family": "Soulen",
+        "given": "R. J."
+      }
+    ]
+  },
+  "Hebral1981": {
+    "type": "article-journal",
+    "id": "Hebral1981",
+    "title": "Fermi-Liquid Droplets in Liquid-Solid Solutions of the Helium Isotopes",
+    "DOI": "10.1103/physrevlett.46.42",
+    "container-title": "Physical Review Letters",
+    "issued": {
+      "date-parts": [
+        [
+          1981,
+          1,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Hebral",
+        "given": "B."
+      },
+      {
+        "family": "Greenberg",
+        "given": "A. S."
+      },
+      {
+        "family": "Beal-Monod",
+        "given": "M. T."
+      },
+      {
+        "family": "Papoular",
+        "given": "M."
+      },
+      {
+        "family": "Frossati",
+        "given": "G."
+      },
+      {
+        "family": "Godfrin",
+        "given": "H."
+      },
+      {
+        "family": "Thoulouze",
+        "given": "D."
+      }
+    ]
+  },
+  "Lhota1981a": {
+    "type": "article-journal",
+    "id": "Lhota1981a",
+    "title": "Comparison of the National Bureau of Standards and the Helsinki Temperature Scales and its Effect on the Heat Capacity of Liquid He 3 below 10 mK",
+    "DOI": "10.1103/physrevlett.47.590",
+    "container-title": "Physical Review Letters",
+    "issued": {
+      "date-parts": [
+        [
+          1981,
+          8,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Lhota",
+        "given": "E."
+      },
+      {
+        "family": "Manninen",
+        "given": "M. T."
+      },
+      {
+        "family": "Pekola",
+        "given": "J. P."
+      },
+      {
+        "family": "Soinne",
+        "given": "A. T."
+      },
+      {
+        "family": "Soulen",
+        "given": "R. J."
+      }
+    ]
+  },
+  "Kollar2000": {
+    "type": "article-journal",
+    "id": "Kollar2000",
+    "title": "Thermodynamically consistent equilibrium properties of normal-liquid 3 He",
+    "DOI": "10.1103/physrevb.61.15347",
+    "container-title": "Physical Review B",
+    "issued": {
+      "date-parts": [
+        [
+          2000,
+          6,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Kollar",
+        "given": "M."
+      },
+      {
+        "family": "Vollhardt",
+        "given": "D."
+      }
+    ]
+  },
+  "Aziz1973": {
+    "type": "article-journal",
+    "id": "Aziz1973",
+    "title": "Ground-State Energy of Liquid He 3 and Liquid He 4 : Evaluation from the Sound-Propagation Data",
+    "DOI": "10.1103/physreva.7.809",
+    "container-title": "Physical Review A",
+    "issued": {
+      "date-parts": [
+        [
+          1973,
+          2,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Aziz",
+        "given": "R. A."
+      },
+      {
+        "family": "Pathria",
+        "given": "R. K."
+      }
+    ]
+  },
+  "Kollar1999": {
+    "type": "article-journal",
+    "id": "Kollar1999",
+    "title": "Thermodynamically consistent equilibrium properties of normal-liquid Helium-3",
+    "DOI": "10.48550/arXiv.cond-mat/9906222",
+    "container-title": "Other Condensed Matter",
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          6,
+          15
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Kollar",
+        "given": "M."
+      },
+      {
+        "family": "Vollhardt",
+        "given": "D."
+      }
+    ]
+  },
+  "Hebral1981a": {
+    "type": "article-journal",
+    "id": "Hebral1981a",
+    "title": "Specific heat of liquid 3He at 29.4 bar",
+    "DOI": "10.1016/0375-9601(81)90962-2",
+    "container-title": "Physics Letters A",
+    "issued": {
+      "date-parts": [
+        [
+          1981,
+          10
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Hebral",
+        "given": "B."
+      },
+      {
+        "family": "Frossati",
+        "given": "G."
+      },
+      {
+        "family": "Godfrin",
+        "given": "H."
+      },
+      {
+        "family": "Thoulouze",
+        "given": "D."
+      }
+    ]
+  }
+}

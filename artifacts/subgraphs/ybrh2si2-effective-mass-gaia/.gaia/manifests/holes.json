@@ -1,0 +1,68 @@
+{
+  "holes": [
+    {
+      "content": "Shaginyan et al. 2010 model YbRh2Si2 and related heavy-fermion compounds by a spatially uniform, isotropic three-dimensional heavy-electron liquid in which quasiparticle quantities depend only on |p| and T; the model deliberately neglects crystal-lattice anisotropy, Brillouin-zone structure, multiple bands, and anisotropic effective masses while treating the approximation as adequate for universal scaling of M*(T,B) and normalized thermodynamic or transport functions [@Shaginyan2010].",
+      "content_hash": "7b84e1461ac5b892edd34d80be11d8318f1b8a241c071ccdff5c2b44d88f96ab",
+      "interface_hash": "sha256:19762c9f909c768328d0e69d214273d15a7abcb610e546f705a9a82f7ab5807c",
+      "label": "gcn_03614e9b_homogeneous_isotropic_model",
+      "qid": "github:ybrh2si2_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
+      "required_by": [
+        "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ]
+    },
+    {
+      "content": "Shaginyan et al. 2010 operationally estimate the quasiparticle effective mass M*(T,B) from entropy by M*(T,B) = S(T,B)/T, using consistent units, as a density-of-states-like effective mass measure even in FCQPT crossover or non-Fermi-liquid regimes where the system is not strictly in the low-temperature Landau Fermi-liquid limit [@Shaginyan2010].",
+      "content_hash": "5972801fab755f76d32c8e7187721a749eccb838cc7ea4917dd507d303e47d03",
+      "interface_hash": "sha256:75135a38faa48a3502fc1016f7a4fab3af814fbd6b6335b914609986191a8e95",
+      "label": "gcn_2e693115_entropy_over_temperature_mass",
+      "qid": "github:ybrh2si2_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "required_by": [
+        "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ]
+    },
+    {
+      "content": "For a homogeneous three-dimensional interacting-fermion system near FCQPT, the temperature-dependent Landau integral relation defines the quasiparticle effective mass M*(T) from the bare mass, Fermi momentum, Landau interaction amplitude, quasiparticle occupation derivative, and a three-dimensional momentum integral; in Shaginyan et al. 2010 this phenomenological equation is used as the numerical starting point when a Landau amplitude exists, quasiparticles remain reasonably well defined, and n(p,T) correctly represents the distribution [@Shaginyan2010].",
+      "content_hash": "2e691487d6e67d243b7d8ed02f0ae3bf1b55595971e4fed0a5e8125385db377f",
+      "interface_hash": "sha256:29f24e0dea9371d255710727ceb23bde15063777e0968486a7b010afb8849b8f",
+      "label": "gcn_677c6c_landau_integral_relation",
+      "qid": "github:ybrh2si2_effective_mass::gcn_677c6c_landau_integral_relation",
+      "required_by": [
+        "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ]
+    },
+    {
+      "content": "For the temperature and magnetic-field ranges considered by Shaginyan et al. 2010 for YbRh2Si2, including fields up to about 1.5 T, the homogeneous isotropic Landau integral equation with an inflection-point-enforcing amplitude admits stable numerical solutions for ε(p) and n(p,T) that are robust enough to compute entropy with controlled numerical error [@Shaginyan2010].",
+      "content_hash": "d5f5b9b866642c61b169f1c17c3b304ab6d30c1f2b49d64dce657fa3eb370acd",
+      "interface_hash": "sha256:c52a54e96528f45d539ee854f12d470dbcdddb5e76b4cedb02794502c43f9c51",
+      "label": "gcn_6bbfeb95_stable_landau_solutions",
+      "qid": "github:ybrh2si2_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
+      "required_by": [
+        "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ]
+    },
+    {
+      "content": "In the homogeneous isotropic Landau model used by Shaginyan et al. 2010, the Landau interaction amplitude can be tuned so that the self-consistent single-particle spectrum ε(p) has both dε/dp and d²ε/dp² equal to zero at p = p_F, leaving a cubic leading term near p_F and enforcing the FCQPT critical condition 1/M* = 0 at T = 0 [@Shaginyan2010].",
+      "content_hash": "f6d9a21fe9506b5206330269fb5d7c7fc168070de4e2ef4a6bd9614903751164",
+      "interface_hash": "sha256:a02eecd521b7eb4d150fd521d293df734caacc3f8d96bf65d9abf69a63cbfd0a",
+      "label": "gcn_e0c364ff_inflection_fcqpt_condition",
+      "qid": "github:ybrh2si2_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
+      "required_by": [
+        "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ]
+    },
+    {
+      "content": "For fermionic quasiparticle excitations whose occupation numbers n(p,T) encode the low-energy statistical state, the entropy per unit volume is given by the Fermi-Dirac combinatorial expression S(T) = -2 ∫[n ln n + (1-n) ln(1-n)] dp/(2π)^3, with spin degeneracy 2 and a three-dimensional momentum integral [@Shaginyan2010].",
+      "content_hash": "4493401eb07d15554424c841994801edb0bb513379110e6d05530f2580c25bcc",
+      "interface_hash": "sha256:d1172ec16d8c8c10da4a8944a4e19737f1bfcdb774ab9a70d6219c7851213e30",
+      "label": "gcn_ecddfefa_fermion_entropy_formula",
+      "qid": "github:ybrh2si2_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
+      "required_by": [
+        "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:8c89835c60b3ecf096778ab7c570a33182483c8e312485d9662934b0fb28231c",
+  "manifest_schema_version": 1,
+  "package": "ybrh2si2-effective-mass",
+  "version": "0.1.0"
+}

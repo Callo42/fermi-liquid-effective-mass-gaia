@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Consider a three-dimensional interacting SU($N_{c}$) Fermi gas at low temperature where Landau Fermi-liquid phenomenology applies. Let $M$ be the bare particle mass, $M^{*}$ the quasiparticle effective mass on the Fermi surface, and $k_{\\mu}\\equiv\\sqrt{2M\\mu}$. The proposition is: to second order in the small parameter $k_{\\mu}a$, the quasiparticle effective mass is given by\n      $\n      \\displaystyle \\frac{M^{*}}{M}=1+\\left(N_{c}-1\\right)\\frac{8}{15\\pi^{2}}(7\\ln 2-1)\\left(k_{\\mu}a\\right)^{2},\n      $\n      provided that the system is in the Fermi-liquid regime (no phase transitions or strong-coupling breakdown) and that vertex corrections beyond the order shown are negligible in the weak-coupling limit.\n      [32]",
+      "content_hash": "d5a9eccee94434669d92d68ac436855875895c455dd06027cc33b2fc0e4d5266",
+      "id": "gcn_a5e7719d6cfa4d66",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "8c3b2e68fdd6a9fe404f07378de5f250"
+}

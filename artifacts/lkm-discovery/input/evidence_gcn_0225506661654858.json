@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a metallic state at sufficiently low temperature described by Landau quasiparticles with effective mass m^{*}, the longitudinal electrical resistivity can be represented in the low-T limit by\n      ρ_{xx}(T)=ρ_{0}+A\\,T^{2},\n      where ρ_{0} is the residual (elastic) resistivity and A is a coefficient arising from quasiparticle–quasiparticle electron-electron scattering; in many Fermi-liquid formulations A scales approximately as A ∝ (m^{*})^{2}, so that observation of a regime in which ρ_{xx} is linear in T^{2} at the lowest measured temperatures is taken as evidence for Fermi-liquid transport controlled by electron-electron scattering, and changes in A are interpreted as reflecting changes in the quasiparticle effective mass, provided alternative mechanisms that can mimic T^{2} behavior over limited temperature ranges are absent and the sample is sufficiently homogeneous for conventional Fermi-liquid theory to apply.",
+      "content_hash": "142eeb5e41d24d8454651504130018220b49b4e2bf76761ba33f5595a24cbfef",
+      "id": "gcn_0225506661654858",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "31537130baffcd27478e407fe48f338e"
+}

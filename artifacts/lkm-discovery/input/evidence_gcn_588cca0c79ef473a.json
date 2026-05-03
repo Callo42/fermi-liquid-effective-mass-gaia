@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a homogeneous, isotropic, three-dimensional Fermi liquid with a single-band dispersion near the Fermi surface, the quasiparticle density of states per spin at the Fermi level is given by the standard Landau-Fermi-liquid expression\n      $$\n      N(E_{F})=\\frac{M^{*}p_{F}}{\\pi^{2}},\n      $$\n      where M^{*} is the Landau quasiparticle effective mass (the mass parameter entering the low-energy dispersion near the Fermi momentum), p_{F} is the magnitude of the Fermi momentum, and N(E_{F}) denotes the single-particle density of states at the chemical potential; this expression neglects band-structure anisotropies and multi-band contributions.",
+      "content_hash": "3f2c4f9ac71543deed0bef2c14460b7dfd95a0f80249c17da1104a23d3d80563",
+      "id": "gcn_588cca0c79ef473a",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "4ab8f9d9a8f05eb93bd87818d45d84da"
+}

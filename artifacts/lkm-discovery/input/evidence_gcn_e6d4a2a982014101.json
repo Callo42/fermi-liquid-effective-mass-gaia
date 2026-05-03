@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Consider electron coupling to marginal-Fermi-liquid fluctuations that renormalize effective mass m^{*}, density of states N^{*}(\\theta), and group velocity \\mathbf{v}^{*}_{\\mathbf{k}}; by analogy with Fermi-liquid transport theory, these renormalizations either cancel exactly in the ratios entering \\sigma_{xy} and \\kappa_{xy} or else modify only the numerical prefactors of the customary and impurity terms without changing the temperature power laws, so that mass/velocity renormalization does not alter the main conclusion that L_{xy} is a weak function of temperature within a single sample.",
+      "content_hash": "45ff5c1062fa23e5d25f5643335a6ba2bf4aa05e40459bde57f75c69b7c120cd",
+      "id": "gcn_e6d4a2a982014101",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "47652d2fedff4d691a1103201a087648"
+}

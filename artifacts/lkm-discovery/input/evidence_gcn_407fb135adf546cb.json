@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The low-energy physics of the two-dimensional electron system at filling fraction $\\nu=\\tfrac{1}{2}$ is described by a Fermi-liquid-like theory of pseudoparticles (composite objects obtained by binding an electron to two flux quanta), with a well-defined pseudoparticle Fermi momentum $k_F$ and an interaction-generated effective mass $m^*$ such that low-energy collective excitations can be analyzed using Fermi-liquid kinematics (for example, a quadratic dispersion with kinetic energy scale $\\sim k_F^2/2m^*$); this statement defines $k_F$ as the wavevector at which the pseudoparticle occupation jumps in the idealized Fermi-liquid picture and defines $m^*$ phenomenologically as the effective quasiparticle mass entering the quadratic dispersion of pseudoparticle excitations.\n      Halperin, Lee, and Read, Phys. Rev. B 47, 7312 (1993)",
+      "content_hash": "c4a1e839aeb729748252c3285ca8a7e809621e54d52a3834f672dd2c14da408f",
+      "id": "gcn_407fb135adf546cb",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "c4a148f0f629c44bce72223958aaf1db"
+}

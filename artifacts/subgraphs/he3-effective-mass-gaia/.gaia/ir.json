@@ -1,0 +1,316 @@
+{
+  "ir_hash": "sha256:be3e2f8f00b9436bfd8c7b59266fdc975a9284358fd20c2f0ed9e574e85d214f",
+  "knowledges": [
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the observed molar specific heat per mole is linear for T >= about 3 mK, C/(nR) = gamma T with gamma = 2.11 +/- 0.02 K^-1; this measured linear region is assumed to represent the T -> 0 Fermi-liquid specific-heat coefficient used to infer m*/m and F1 [@Alvesalo1979].",
+      "content_hash": "9623435cbd282bf4c755c37ec8219f1f3a76a55dc18b64a0cb34209cde46cbea",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:he3_effective_mass::gcn_2ee995fe1e674e2a",
+      "label": "gcn_2ee995fe1e674e2a",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2ee995fe1e674e2a",
+        "lkm_original": "The observed linear-in-temperature behavior of the molar specific heat per mole, C/(nR)=\\gamma T with \\gamma=2.11\\pm 0.02\\ \\mathrm{K}^{-1} for T\\gtrsim 3\\ \\mathrm{mK}, is assumed to represent the T\\to 0 limiting Fermi-liquid behavior so that the coefficient \\gamma is identified with the standard low-temperature Fermi-liquid specific-heat coefficient (i.e., proportional to the quasiparticle density of states at the Fermi surface and hence to the quasiparticle effective mass), thereby justifying extrapolation of the measured \\gamma to infer the zero-temperature effective-mass ratio m^{*}/m and the Landau parameter F_{1}.",
+        "prior": 0.78,
+        "prior_justification": "Direct calorimetric premise from the LKM chain, but it extrapolates the observed T >= about 3 mK linear region to the T -> 0 Fermi-liquid limit near the superfluid transition; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For three-dimensional normal-liquid He-3 in the conventional Landau Fermi-liquid framework used by Alvesalo et al. 1979, applying the standard mapping from gamma = 2.11 K^-1 to quasiparticle effective-mass renormalization gives m*/m approximately 2.12, and using the usual relation between m*/m and the first Landau parameter gives F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "970b5bfa2cb80e74f88189d04484cfc3cb6d31739e7d962d9a95d921f8874771",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:he3_effective_mass::gcn_1587257a956f4d18",
+      "label": "gcn_1587257a956f4d18",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_1587257a956f4d18",
+        "lkm_original": "Within the conventional Landau Fermi-liquid framework for a three-dimensional Fermi liquid, the standard mapping that relates the molar specific-heat coefficient \\gamma to the quasiparticle effective-mass renormalization m^{*}/m and that yields the Landau parameter F_{1} from the effective mass is assumed to be valid and numerically accurate to within the quoted experimental uncertainties; applying these standard relations to the experimentally determined \\gamma=2.11\\ \\mathrm{K}^{-1} gives m^{*}/m\\approx 2.12 and F_{1}\\approx 3.36.",
+        "prior": 0.82,
+        "prior_justification": "Standard Landau Fermi-liquid mapping premise with values reported in the LKM chain, but the chain records the numerical mapping rather than a full derivation; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, assuming the standard Landau Fermi-liquid relation between the low-temperature linear specific-heat coefficient gamma and the quasiparticle density of states, the measured gamma = 2.11 K^-1 implies m*/m approximately 2.12 and F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "677cfd58e219594a85552f432260319c7fd6f3e1a2e1311395a042b2de238689",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:he3_effective_mass::gcn_800070efac5e476d",
+      "label": "gcn_800070efac5e476d",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_800070efac5e476d",
+        "lkm_original": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the measured gamma = 2.11 K^-1 implies a quasiparticle effective-mass ratio m*/m approximately 2.12 under the standard Landau Fermi-liquid mapping [@Alvesalo1979].",
+      "content_hash": "cac9b3fc002ec3ab72494ebf9f58f170281a9c3493bbde0e833c15c6eae081b8",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+      "label": "he3_gamma_implies_mstar_ratio_2_12",
+      "metadata": {
+        "decomposition_of": "gcn_800070efac5e476d",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_800070efac5e476d",
+        "lkm_original": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the inferred effective-mass ratio m*/m approximately 2.12 yields the first Landau Fermi-liquid parameter F1 approximately 3.36 under the usual relation between effective-mass renormalization and F1 [@Alvesalo1979].",
+      "content_hash": "675033381fce00e3f5ca1674e2210c881cb31a57a236363837017fdd11f2f5b0",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36",
+      "label": "he3_mstar_ratio_yields_f1_3_36",
+      "metadata": {
+        "decomposition_of": "gcn_800070efac5e476d",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_800070efac5e476d",
+        "lkm_original": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:he3_effective_mass::gcn_2ee995fe1e674e2a,github:he3_effective_mass::gcn_1587257a956f4d18)",
+      "content_hash": "fbfba32d8cb38e58042a067a1fc1c5ffef4679c7dfe21f094bca180d409633c3",
+      "exported": false,
+      "id": "github:he3_effective_mass::__conjunction_result_d85e729f",
+      "label": "__conjunction_result_d85e729f",
+      "metadata": {
+        "canonical_name": "all_true(github:he3_effective_mass::gcn_2ee995fe1e674e2a,github:he3_effective_mass::gcn_1587257a956f4d18)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_61fe5999827dc32f",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:he3_effective_mass::__conjunction_result_d85e729f,github:he3_effective_mass::gcn_800070efac5e476d)",
+      "content_hash": "163bc3c1208cbc9d78eb8ddc1d321c997c41ebcc204aea29c170671bd818b0f1",
+      "exported": false,
+      "id": "github:he3_effective_mass::__implication_result_e4e41db9",
+      "label": "__implication_result_e4e41db9",
+      "metadata": {
+        "canonical_name": "implies(github:he3_effective_mass::__conjunction_result_d85e729f,github:he3_effective_mass::gcn_800070efac5e476d)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_61fe5999827dc32f",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:he3_effective_mass::gcn_800070efac5e476d,github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12)",
+      "content_hash": "cd48006a2693be1d5ee03196abb57d653e49d4fb23f542753b75c985615cc3b9",
+      "exported": false,
+      "id": "github:he3_effective_mass::__implication_result_5f83fc6d",
+      "label": "__implication_result_5f83fc6d",
+      "metadata": {
+        "canonical_name": "implies(github:he3_effective_mass::gcn_800070efac5e476d,github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_c87f5fabf63ac713",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:he3_effective_mass::gcn_800070efac5e476d,github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36)",
+      "content_hash": "2e377db1653afd3e20c8f46980b6b46e51c1110490bfdaff80ce0ebd49345233",
+      "exported": false,
+      "id": "github:he3_effective_mass::__implication_result_a7d082ad",
+      "label": "__implication_result_a7d082ad",
+      "metadata": {
+        "canonical_name": "implies(github:he3_effective_mass::gcn_800070efac5e476d,github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_a45b0e7cd4b52efa",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_alvesalo1979"
+  ],
+  "module_titles": {
+    "paper_alvesalo1979": "paper_alvesalo1979 -- He-3 heat-capacity claims from Alvesalo et al. 1979."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "he3_effective_mass",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:he3_effective_mass::gcn_800070efac5e476d",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:he3_effective_mass::__conjunction_result_d85e729f",
+            "operator": "conjunction",
+            "variables": [
+              "github:he3_effective_mass::gcn_2ee995fe1e674e2a",
+              "github:he3_effective_mass::gcn_1587257a956f4d18"
+            ]
+          },
+          {
+            "conclusion": "github:he3_effective_mass::__implication_result_e4e41db9",
+            "operator": "implication",
+            "variables": [
+              "github:he3_effective_mass::__conjunction_result_d85e729f",
+              "github:he3_effective_mass::gcn_800070efac5e476d"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Take as given the experimentally determined normal-state coefficient $\\gamma=2.11\\ \\mathrm{K}^{-1}$ from the preceding result (the molar specific heat coefficient in the $T\\to 0$ limiting normal Fermi-liquid behavior).\n2. State the assumption invoked by the authors to map $\\gamma$ to quasiparticle effective mass and Landau Fermi-liquid parameters: assume that the observed linear region corresponds to the $T\\to 0$ limiting behavior of a Fermi liquid (i.e., that $\\gamma$ reflects the quasiparticle density of states at the Fermi surface and scales with the effective mass $m^{*}$).\n3. Record the authors' asserted mapping result without reproducing an explicit derivation (the authors give the numerical mapping result directly): using $\\gamma=2.11\\ \\mathrm{K}^{-1}$ and the assumed Fermi-liquid mapping, the inferred quasiparticle effective-mass ratio is $m^{*}/m=2.12$, and the corresponding first Landau Fermi-liquid parameter is $F_{1}=3.36$; the authors present these numerical values as the outcome of the mapping from $\\gamma$ to $m^{*}/m$ and $F_{1}$.\n4. Note the paper's comparison to earlier work that motivates the significance of these numbers: the reported $\\gamma$ is about $30\\%$ smaller than values reported earlier by Mota et al. and Abel et al., and the authors remark that around $20\\ \\mathrm{mK}$ where the experiments overlap the values of $C/(nR T)$ differ by about $23\\%$, supporting that these inferred Fermi-liquid parameters represent a substantial revision relative to prior results. [12] [13]"
+      },
+      "premises": [
+        "github:he3_effective_mass::gcn_2ee995fe1e674e2a",
+        "github:he3_effective_mass::gcn_1587257a956f4d18"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_61fe5999827dc32f",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:he3_effective_mass::__implication_result_5f83fc6d",
+            "operator": "implication",
+            "variables": [
+              "github:he3_effective_mass::gcn_800070efac5e476d",
+              "github:he3_effective_mass::he3_gamma_implies_mstar_ratio_2_12"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM root explicitly contains the component assertion that gamma = 2.11 K^-1 implies m*/m approximately 2.12 for the Alvesalo et al. He-3 Fermi-liquid analysis."
+      },
+      "premises": [
+        "github:he3_effective_mass::gcn_800070efac5e476d"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_c87f5fabf63ac713",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:he3_effective_mass::__implication_result_a7d082ad",
+            "operator": "implication",
+            "variables": [
+              "github:he3_effective_mass::gcn_800070efac5e476d",
+              "github:he3_effective_mass::he3_mstar_ratio_yields_f1_3_36"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM root explicitly contains the component assertion that the inferred effective-mass ratio m*/m approximately 2.12 yields F1 approximately 3.36 under the usual Landau Fermi-liquid relation."
+      },
+      "premises": [
+        "github:he3_effective_mass::gcn_800070efac5e476d"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_a45b0e7cd4b52efa",
+      "type": "deduction"
+    }
+  ]
+}

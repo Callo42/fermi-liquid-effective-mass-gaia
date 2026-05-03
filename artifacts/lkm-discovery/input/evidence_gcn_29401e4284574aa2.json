@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+      "content_hash": "c30bce45d29fe32088cd72b3264734efc14cbfc978292c2e4039d1eec64a3fe6",
+      "id": "gcn_29401e4284574aa2",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+              "id": "gcn_29401e4284574aa2"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_dfd930ba89614e8a",
+            "premises": [
+              {
+                "content": "The inference that the coexistence of a large Fermi-surface extremal area and an enhanced quasiparticle effective mass demonstrates realization of the Brinkman–Rice correlated-metal scenario (suppressed quasiparticle weight Z with preserved Luttinger volume) presumes that alternative mechanisms—such as strong renormalization by spin fluctuations, enhanced electron–phonon coupling, or Fermi-surface reconstruction associated with proximate magnetic order—cannot produce the same pair of experimental observations without invoking Brinkman–Rice physics.\n      Brinkman, W. F. & Rice, T. M. Application of Gutzwiller's Variational Method to the Metal-Insulator Transition. Phys. Rev. B 2, 4302–4304 (1970).",
+                "id": "gcn_8a1a27485204457b"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat conclusion 2 (the metallic state has a large Fermi surface matching the uncorrelated-band prediction) and conclusion 3 (the quasiparticle effective mass is strongly enhanced to $m^* = 6(2)\\ m_e$) as established upstream results to be taken as known starting points for the present reasoning.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the Brinkman-Rice picture as the theoretical framework in which, on approaching a Mott insulating state by bandwidth reduction, the quasiparticle weight $Z$ is suppressed (possibly to $Z\\to 0$), quasiparticle velocities are reduced, the effective mass $m^*$ is strongly enhanced (and in some treatments can diverge), while the Fermi surface volume remains that of the corresponding uncorrelated metal as required by Luttinger's theorem; cite the original Brinkman-Rice argument and Luttinger's theorem as the conceptual bases.\n[6]\n[9]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Observe that the empirical combination established in conclusions 2 and 3 — a large Fermi surface volume equal to the uncorrelated-band value and a strongly enhanced quasiparticle mass — matches the key qualitative signatures of a Brinkman-Rice correlated Fermi liquid proximate to a Mott insulator, namely: preserved large Fermi volume and suppressed quasiparticle weight manifesting as heavy quasiparticles.\nFig. 5\nFig. 4",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Note that alternative theoretical scenarios that envisage a continuous depletion of carrier concentration or Fermi-surface reconstruction on approach to the insulating state would predict a reduced Fermi surface volume or the absence of a large uncorrelated-like Fermi surface in the immediate metallic regime; because the measured experimental combination does not display such carrier depletion or reconstruction, the experimental findings are consistent with the Brinkman-Rice description rather than with those alternative scenarios.\n[40]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Conclude that the coexistence of a large Fermi surface volume (conclusion 2) and a strongly enhanced quasiparticle mass (conclusion 3) in pressure-metalized NiS$_2$ is consistent with the Brinkman-Rice picture of a correlated Fermi liquid proximate to a Mott insulator: coherent quasiparticles form a heavy Fermi liquid whose Fermi surface volume remains that of the uncorrelated band while the quasiparticle weight $Z$ and quasiparticle velocities are reduced.\nTable 1",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Distinguishing between theoretical pictures of the correlated metal at the threshold of Mott localization—specifically, whether the metallic state is a heavy Fermi liquid with preserved Fermi surface volume but suppressed quasiparticle weight (Brinkman-Rice) versus scenarios involving carrier depletion, Fermi surface reconstruction, or loss of coherent quasiparticles—requires simultaneous, bulk-sensitive information on both the Fermi surface volume and the quasiparticle mass. Prior experimental limitations (pressure incompatibility with surface probes; disorder from chemical substitution; competing orders in other candidate materials) prevented such a simultaneous test. Therefore, the central conceptual question—does the correlated metal adjacent to the Mott insulator realize a heavy Fermi liquid with a large Fermi surface?—remained open until addressed by combined high-pressure quantum oscillation measurements.",
+            "id": "paper:814525482547544066::conclusion_4_subproblem",
+            "source_package": "paper:814525482547544066"
+          }
+        ],
+        "source_package": "paper:814525482547544066"
+      }
+    ],
+    "papers": {
+      "paper:814525482547544066": {
+        "area": "Comprehensive Periodical",
+        "authors": "S. Friedemann | H. Chang | M. B. Gamża | P. Reiss | X. Chen | P. Alireza | W. A. Coniglio | D. Graf | S. Tozer | F. M. Grosche",
+        "available_online": "2016-5-12",
+        "cover_date_start": "2016-05-12",
+        "created_at": "2022-12-27T07:53:29+08:00",
+        "doi": "10.1038/srep25335",
+        "en_title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+        "id": "814525482547544066",
+        "keywords": "",
+        "publication_date": "2016-5-31",
+        "publication_id": "9354",
+        "publication_name": "Scientific Reports _ Sci Rep",
+        "research_categories": "",
+        "zh_title": "NiS₂中处于莫特绝缘态边界的重电子的大费米面"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "e4f007a3c8bdd1c64b68171d2b1a4a6e"
+}

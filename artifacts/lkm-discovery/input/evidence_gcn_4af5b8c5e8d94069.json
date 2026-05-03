@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let \\gamma denote the Sommerfeld coefficient defined by C_{\\mathrm{el}}(T)=\\gamma T (units J mol^{-1} K^{-2}). Let N(0) denote the quasiparticle density of states per mole at the Fermi level and let m^{*} denote the quasiparticle effective mass entering the low-energy Fermi-liquid description. In a conventional single-component Fermi liquid the relation \\gamma=\\tfrac{\\pi^{2}}{3}k_{B}^{2}N(0) holds, and for bands whose density of states scales with effective mass one has N(0)\\propto m^{*}, so that \\gamma\\propto m^{*}; therefore, to the extent that a Fermi-liquid description applies to the low-temperature electronic states under consideration, a measured change in \\gamma(T) by a factor \\sim 5 corresponds approximately to a fivefold change in the quasiparticle effective mass m^{*}.",
+      "content_hash": "66d6dfaeae9f8233fc545e2494ceace3891256aade9c464971de8ed0b918c820",
+      "id": "gcn_4af5b8c5e8d94069",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "881b2894bfe0c40163bc29f0f1ae6ad1"
+}

@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Within Landau Fermi-liquid theory for electronic quasi-particles, let $Z$ denote the quasi-particle spectral weight (the magnitude of the discontinuity in the momentum occupation $n(\\mathbf{k})$ at the Fermi vector $k_{\\mathrm{F}}$) and let $m^{*}$ and $m$ denote the renormalized and the non-interacting effective masses respectively; then, for a band on which the quasi-particle energy is uniformly scaled relative to a non-interacting reference, the observed relation $E_{\\mathrm{exp}}(\\mathbf{k})\\approx Z\\,E_{\\mathrm{DFT}}(\\mathbf{k})$ implies an effective mass enhancement $m^{*}/m\\approx 1/Z$, so that an observed energy renormalization factor $Z\\approx 0.5$ corresponds to $m^{*}/m\\approx 2$ within the Fermi-liquid framework.",
+      "content_hash": "d59337ab132e9d89678f5726521d53bf9a29c53a381e268e1093b912cc6b3dea",
+      "id": "gcn_31374cffab114da4",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "2995bbe81c627073b17f2e4557a26b9f"
+}

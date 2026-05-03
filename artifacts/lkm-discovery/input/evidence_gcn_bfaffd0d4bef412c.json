@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In the LLL computation of the anomalous quasiparticle momentum density, the calculation performed neglects Fermi-liquid interaction corrections to the quasiparticle spectrum and to quasiparticle momentum flow (i.e., sets the quasiparticle effective-mass corrections m^*/m=1 and ignores backflow renormalizations). The proposition is that, for the leading distinction between the T=0 vacuum anomalous current and the universal near-node T^{2} thermal quasiparticle contribution, neglecting these Fermi-liquid corrections yields an accurate leading-order expression for the thermal piece; the residual corrections due to Fermi-liquid physics are treated separately in hydrodynamic/Fermi-liquid formulas.\n      [16]",
+      "content_hash": "9aa8edb6af6bea68299cc38b039cea3b15d9af10c42659c0d3042811763a2b7b",
+      "id": "gcn_bfaffd0d4bef412c",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "11120cf68ff9f30e1502a8716030c7a2"
+}

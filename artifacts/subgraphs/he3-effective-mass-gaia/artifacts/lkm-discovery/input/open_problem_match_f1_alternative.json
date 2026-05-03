@@ -1,0 +1,154 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811623956246167556": {
+        "area": "Physics and Astrophysics",
+        "authors": "T. A. Alvesalo | T. Haavasoja | P. C. Main | M. T. Manninen | J. Ray | Leila M. M. Rehn",
+        "available_online": "1979-11-12",
+        "cover_date_start": "1979-11-12",
+        "created_at": "2022-12-19T07:43:51+08:00",
+        "doi": "10.1103/physrevlett.43.1509",
+        "en_title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
+        "id": "811623956246167556",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "在超流转变附近液态³He中反常热容量的观测"
+      },
+      "paper:812446196869103617": {
+        "area": "Physics and Astrophysics",
+        "authors": "B. Hébral | G. Frossati | H. Godfrin | D. Thoulouze",
+        "available_online": "",
+        "cover_date_start": "1981-10-01",
+        "created_at": "2022-12-21T14:11:09+08:00",
+        "doi": "10.1016/0375-9601(81)90962-2",
+        "en_title": "Specific heat of liquid 3He at 29.4 bar",
+        "id": "812446196869103617",
+        "keywords": "",
+        "publication_date": "1981-10",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "29.4巴下液态³He的比热容"
+      },
+      "paper:814511780763009024": {
+        "area": "Physics and Astrophysics",
+        "authors": "R. A. Aziz | R. K. Pathria",
+        "available_online": "1973-2-1",
+        "cover_date_start": "1973-02-01",
+        "created_at": "2022-12-27T06:59:02+08:00",
+        "doi": "10.1103/physreva.7.809",
+        "en_title": "Ground-State Energy of Liquid He 3 and Liquid He 4 : Evaluation from the Sound-Propagation Data",
+        "id": "814511780763009024",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "532",
+        "publication_name": "Physical Review A _ Phys. Rev. A",
+        "research_categories": "",
+        "zh_title": "液氦3和液氦4的基态能量：根据声传播数据进行评估"
+      }
+    },
+    "variables": [
+      {
+        "content": "Define C(T) as the molar specific heat of an interacting Fermi liquid, define C_F(T) = γ T as the molar specific heat of the corresponding noninteracting (ideal) Fermi gas with coefficient γ, define m^* as the quasiparticle effective mass of the interacting 3He liquid, and define m_3 as the bare atomic mass of a 3He atom; the proposition is that in the low‑temperature normal Fermi‑liquid regime (T ≪ T_F, where T_F is the Fermi temperature) the molar specific heat satisfies the proportionality C(T) = C_F(T) (m^*/m_3), so that a measured or extrapolated coefficient C/nR T at T → 0 can be converted algebraically into the ratio m^*/m_3 and hence into the Landau parameter F_1 via m^* = m_3 (1 + \\tfrac{1}{3}F_1) as justified by Landau Fermi‑liquid theory.\n      [9]",
+        "content_hash": "ddb9bf5a3182649fcd78fcffe94b48a5a782a93547fa8c80f0a0ff3c80f530e1",
+        "id": "gcn_c2acf028be044e0d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812446196869103617::P7",
+            "package_id": "paper:812446196869103617",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812446196869103617"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03252247488101534,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Within the conventional Landau Fermi-liquid framework for a three-dimensional Fermi liquid, the standard mapping that relates the molar specific-heat coefficient \\gamma to the quasiparticle effective-mass renormalization m^{*}/m and that yields the Landau parameter F_{1} from the effective mass is assumed to be valid and numerically accurate to within the quoted experimental uncertainties; applying these standard relations to the experimentally determined \\gamma=2.11\\ \\mathrm{K}^{-1} gives m^{*}/m\\approx 2.12 and F_{1}\\approx 3.36.",
+        "content_hash": "b7bc6c8d4f26a3dfb7d283f3ce4ed27b6fd2b7335beb3e3bf7deb60e4e01e458",
+        "id": "gcn_1587257a956f4d18",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811623956246167556::P9",
+            "package_id": "paper:811623956246167556",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811623956246167556"
+          ]
+        },
+        "role": "premise",
+        "score": 0.031754032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "content_hash": "f689f88d12bf20bc60ce78ec01cddb6c5ea4c7a26c8eb810a4411075fbb2173b",
+        "id": "gcn_800070efac5e476d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811623956246167556::conclusion_3",
+            "package_id": "paper:811623956246167556",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811623956246167556"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.029906956136464335,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The observed linear-in-temperature behavior of the molar specific heat per mole, C/(nR)=\\gamma T with \\gamma=2.11\\pm 0.02\\ \\mathrm{K}^{-1} for T\\gtrsim 3\\ \\mathrm{mK}, is assumed to represent the T\\to 0 limiting Fermi-liquid behavior so that the coefficient \\gamma is identified with the standard low-temperature Fermi-liquid specific-heat coefficient (i.e., proportional to the quasiparticle density of states at the Fermi surface and hence to the quasiparticle effective mass), thereby justifying extrapolation of the measured \\gamma to infer the zero-temperature effective-mass ratio m^{*}/m and the Landau parameter F_{1}.",
+        "content_hash": "e7525e13c3f46b0342f5ae84fa61dd3ec54880f5fabf62e1f5af6284fa091627",
+        "id": "gcn_2ee995fe1e674e2a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811623956246167556::P8",
+            "package_id": "paper:811623956246167556",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811623956246167556"
+          ]
+        },
+        "role": "premise",
+        "score": 0.028790389395194696,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $p_{F}$ denote the Fermi momentum, $m$ the bare particle mass, and $m^{*}(ρ)$ the effective mass as a function of density derived from low-temperature specific-heat data; define the Landau parameters $F_{0}(ρ)$ and $F_{1}(ρ)$ and adopt the ground-state Fermi-liquid relation\n      $c^{2}=\\dfrac{p_{F}^{2}}{3m^{2}}\\dfrac{1+F_{0}}{1+\\tfrac{1}{3}F_{1}},$\n      together with $F_{1}=3\\big(m^{*}/m-1\\big)$. Using the density dependence of $m^{*}$ inferred from low-temperature specific-heat measurements and the fitted sound speed $c(ρ)$, the parameter $F_{1}(ρ)$ is represented as the power series in $x=(ρ-ρ_{0})/ρ_{0}$\n      $F_{1}(ρ)=\\alpha_{0}+\\alpha_{1}x+\\alpha_{2}x^{2}+\\alpha_{3}x^{3}+\\cdots,$\n      with empirical coefficients $\\alpha_{0}=5.6$, $\\alpha_{1}=30$, $\\alpha_{2}=-50$, $\\alpha_{3}=65$. Substituting these results and the appropriate $p_{F}$ and $m$ into the Fermi-liquid relation yields a power-series expansion for $F_{0}(ρ)$,\n      $F_{0}(ρ)=\\beta_{0}+\\beta_{1}x+\\beta_{2}x^{2}+\\beta_{3}x^{3}+\\cdots,$\n      with empirical coefficients $\\beta_{0}=9.6$, $\\beta_{1}=88$, $\\beta_{2}=175$, $\\beta_{3}=-35$. These series provide empirical density dependences for the Landau parameters in liquid 3He within the density interval spanned by the input data.",
+        "content_hash": "9f178800f7d320a5be816896b6c0ae3b50c4a1aaa502ba983afbf1f63bab3d2a",
+        "id": "gcn_ad3c3e52730d429c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814511780763009024::conclusion_5",
+            "package_id": "paper:814511780763009024",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814511780763009024"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "88ee4ea2bdf99c4acd2045f0c6025b48"
+}

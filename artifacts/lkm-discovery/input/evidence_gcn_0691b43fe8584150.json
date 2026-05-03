@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In a homogeneous, Galilean-invariant electron liquid where the microscopic Hamiltonian conserves total momentum and electrons have bare band mass $m_b$, define the quasiparticle effective mass $m^*$ entering the low-energy dispersion of quasiparticles near the Fermi surface. The proposition is: for the $\\ell=1$ density channel Landau parameter $F_1^s$ (defined as $F_1^s=\\tfrac{1}{2}(F_1^{\\uparrow\\uparrow}+F_1^{\\uparrow\\downarrow})$), the relation $\\frac{m_b}{m^*}=\\frac{1}{1+F_1^s/d}$ holds (with $d$ the spatial dimensionality), i.e. the usual Fermi-liquid identity connecting band mass, quasiparticle mass, and $F_1^s$ is valid.",
+      "content_hash": "7dc2a08506e88078184d0151a8e472a9eaaf1b580994de4dd32e36dd3233544c",
+      "id": "gcn_0691b43fe8584150",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "c0d40b94106eb44f8dffe933c72f0c65"
+}

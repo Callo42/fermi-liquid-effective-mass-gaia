@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The kinetic-energy renormalization factor q obtained from the Gutzwiller variational state is interpreted in the Fermi-liquid sense via the relation 1/q = m^{*}/m, where m^{*} denotes the Fermi-liquid quasiparticle effective mass and m denotes the bare electron mass; this identification is used to translate reductions in q into quasiparticle mass enhancement.",
+      "content_hash": "cdf40229c84004dd88436d7f5ef2c2cb24f78abc1880135f95b0409cfcd7633c",
+      "id": "gcn_504bf6fd7f824f70",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "196c830080625774cadfd2db7eb28fb1"
+}

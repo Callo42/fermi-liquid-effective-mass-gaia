@@ -1,0 +1,79 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.1978887741184,
+      "knowledge_id": "github:ybrh2si2_effective_mass::__conjunction_result_9c0e648b",
+      "label": "__conjunction_result_9c0e648b"
+    },
+    {
+      "belief": 0.68,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
+      "label": "gcn_03614e9b_homogeneous_isotropic_model"
+    },
+    {
+      "belief": 0.5938091733708275,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "label": "gcn_2741cdef_practical_effective_mass_scheme"
+    },
+    {
+      "belief": 0.72,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "label": "gcn_2e693115_entropy_over_temperature_mass"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_677c6c_landau_integral_relation",
+      "label": "gcn_677c6c_landau_integral_relation"
+    },
+    {
+      "belief": 0.7,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
+      "label": "gcn_6bbfeb95_stable_landau_solutions"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
+      "label": "gcn_e0c364ff_inflection_fcqpt_condition"
+    },
+    {
+      "belief": 0.9,
+      "knowledge_id": "github:ybrh2si2_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
+      "label": "gcn_ecddfefa_fermion_entropy_formula"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:ybrh2si2_effective_mass::__conjunction_result_9c0e648b": [
+        0.1978887741184
+      ],
+      "github:ybrh2si2_effective_mass::gcn_03614e9b_homogeneous_isotropic_model": [
+        0.68
+      ],
+      "github:ybrh2si2_effective_mass::gcn_2741cdef_practical_effective_mass_scheme": [
+        0.5938091733708275
+      ],
+      "github:ybrh2si2_effective_mass::gcn_2e693115_entropy_over_temperature_mass": [
+        0.72
+      ],
+      "github:ybrh2si2_effective_mass::gcn_677c6c_landau_integral_relation": [
+        0.82
+      ],
+      "github:ybrh2si2_effective_mass::gcn_6bbfeb95_stable_landau_solutions": [
+        0.7
+      ],
+      "github:ybrh2si2_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition": [
+        0.78
+      ],
+      "github:ybrh2si2_effective_mass::gcn_ecddfefa_fermion_entropy_formula": [
+        0.9
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 6
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:8c89835c60b3ecf096778ab7c570a33182483c8e312485d9662934b0fb28231c"
+}

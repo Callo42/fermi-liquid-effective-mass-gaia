@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a homogeneous three-dimensional electron Fermi liquid with bare electron mass $M$, Landau-quasiparticle effective mass $M^{*}$, Fermi momentum $p_{\\mathrm{F}}$, and noninteracting density of states at the Fermi level $N_{0}$, and with $F^{1}(p_{\\mathrm{F}},p_{\\mathrm{F}})$ denoting the $p$-wave ($\\ell=1$) component of the Landau interaction amplitude evaluated at equal incoming and outgoing momenta $p_{\\mathrm{F}}$, the quasiparticle effective mass satisfies the Landau–Fermi–liquid relation\n      $$\n      \\frac{M^{*}}{M}=\\frac{1}{1-\\dfrac{N_{0}F^{1}(p_{\\mathrm{F}},p_{\\mathrm{F}})}{3}}.\n      $$\n      [8]",
+      "content_hash": "7f7698801a85450cb554b3cb759f6c4753c0fe7cac1083b2029636545f9bb070",
+      "id": "gcn_191c05f1a103426b",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "670c6873ca34a4c873a268e42a90b055"
+}

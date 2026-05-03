@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For the three-dimensional homogeneous electron liquid of $N$ electrons of bare mass $m$ and charge $-e$ in volume $V$ with particle density $n=N/V$, Fermi wave vector $k_{\\mathrm{F}}=(3\\pi^2 n)^{1/3}$, Fermi energy $E_{\\mathrm{F}}=\\hbar^2 k_{\\mathrm{F}}^2/(2m)$, and reduced temperature $\\theta\\equiv k_{\\mathrm{B}}T/E_{\\mathrm{F}}\\ll 1$, Landau Fermi-liquid theory asserts that the low-temperature thermodynamic properties (entropy per particle and heat capacity per particle) are dominated by fermionic quasiparticle excitations associated with a single-particle Green's-function pole characterized by a zero-temperature quasiparticle effective mass $m^*$; equivalently, in this low-$T$ regime the interacting HEL's entropy and heat capacity equal those of a noninteracting Fermi gas of particles with mass $m^*$.\n      [18],[19]",
+      "content_hash": "616a549815cf08fc8bc427cc02f013f7d1a064e53bf79ead57afd79b20c02ce0",
+      "id": "gcn_5a4647a3a9dc4583",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "48e4889349423345c7f8f701a8f27c8d"
+}

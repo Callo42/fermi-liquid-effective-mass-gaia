@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let B denote the coefficient of the T^2 term in the low-temperature expansion w(T)=w_0+B T^2 of the electronic thermal resistivity w(T) for CeCoIn₅. The proposition is that B quantifies inelastic electron-electron scattering in the Fermi-liquid sense and scales proportionally to the square of the quasiparticle effective mass entering transport, B ∝ (m^*)^2, so that an observed strong increase of B(H) as a function of applied magnetic field H corresponds to a strong enhancement (divergence-like increase) of the quasiparticle transport mass m^*(H); here m^* denotes the Landau quasiparticle effective mass that governs transport coefficients in Fermi-liquid theory.",
+      "content_hash": "07d8439ae5e2ef0179e8d984ce491df07a84f0fb709977680b037b5ac3936b28",
+      "id": "gcn_196b21536c664c69",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "099f4d0c3fad365aedb590c9426ee895"
+}

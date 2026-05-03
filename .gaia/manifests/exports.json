@@ -1,0 +1,36 @@
+{
+  "exports": [
+    {
+      "content": "The He-3 and YbRh2Si2 effective-mass routes should not be treated as equivalent claims: the He-3 chain uses a standard low-temperature Landau Fermi-liquid mapping from gamma to m*/m, whereas the YbRh2Si2 chain uses a homogeneous isotropic heavy-electron model near FCQPT and applies S/T as an operational effective-mass measure through crossover or non-Fermi-liquid regimes.",
+      "content_hash": "a86a147985c36df88d139a0d6aa3c8cb1d4bf8fcee3176b9801ca7c5636c803f",
+      "label": "cross_scope_caution_standard_fl_vs_fcqpt",
+      "qid": "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
+      "type": "claim"
+    },
+    {
+      "content": "Across the two selected LKM roots, low-energy thermodynamic quantities are used as operational routes to quasiparticle effective mass: Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
+      "content_hash": "fa414c836a3620a2d1ab25d1459412c70ff0fae59e9052597a94f66c16e0684d",
+      "label": "cross_thermodynamic_routes_to_effective_mass",
+      "qid": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
+      "type": "claim"
+    },
+    {
+      "content": "For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].",
+      "content_hash": "ede67149f3596864bc22c9816d084cc54b557288442db61ec350a936d5a824da",
+      "label": "gcn_2741cdef_practical_effective_mass_scheme",
+      "qid": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, assuming the standard Landau Fermi-liquid relation between the low-temperature linear specific-heat coefficient gamma and the quasiparticle density of states, the measured gamma = 2.11 K^-1 implies m*/m approximately 2.12 and F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "677cfd58e219594a85552f432260319c7fd6f3e1a2e1311395a042b2de238689",
+      "label": "gcn_800070efac5e476d",
+      "qid": "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:7144e2d657d3f46df836592df826be25f55e8dab2778fd7f62ed390417ccd7ab",
+  "manifest_schema_version": 1,
+  "package": "fermi-liquid-effective-mass",
+  "version": "0.1.0"
+}

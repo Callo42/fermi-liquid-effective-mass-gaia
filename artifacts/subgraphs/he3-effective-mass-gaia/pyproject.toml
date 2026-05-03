@@ -1,0 +1,19 @@
+[project]
+name = "he3-effective-mass-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for the He-3 Fermi-liquid effective-mass pilot root."
+requires-python = ">=3.12"
+
+[tool.gaia]
+type = "knowledge-package"
+uuid = "d1a2cde9-dc91-47ae-a3d4-78a6fedcbac4"
+generated_by = "lkm-to-gaia"
+generated_from_search = "Fermi liquid effective mass; He-3 root supplied by two-root pilot"
+generated_from_roots = ["gcn_800070efac5e476d"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/he3_effective_mass"]

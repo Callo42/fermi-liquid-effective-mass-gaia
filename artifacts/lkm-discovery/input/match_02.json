@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811047818226565120": {
+        "area": "Physics and Astrophysics",
+        "authors": "Chi-Ho Cheng | S.-K. Yip",
+        "available_online": "2017-3-16",
+        "cover_date_start": "2017-03-16",
+        "created_at": "2022-12-17T17:34:30+08:00",
+        "doi": "10.1103/physreva.95.033619",
+        "en_title": "SU ( N ) Fermi liquid at finite temperature",
+        "id": "811047818226565120",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "532",
+        "publication_name": "Physical Review A _ Phys. Rev. A",
+        "research_categories": "",
+        "zh_title": "有限温度下的SU(N)费米液体"
+      },
+      "paper:811623956246167556": {
+        "area": "Physics and Astrophysics",
+        "authors": "T. A. Alvesalo | T. Haavasoja | P. C. Main | M. T. Manninen | J. Ray | Leila M. M. Rehn",
+        "available_online": "1979-11-12",
+        "cover_date_start": "1979-11-12",
+        "created_at": "2022-12-19T07:43:51+08:00",
+        "doi": "10.1103/physrevlett.43.1509",
+        "en_title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
+        "id": "811623956246167556",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "在超流转变附近液态³He中反常热容量的观测"
+      },
+      "paper:812021854981062660": {
+        "area": "Material science",
+        "authors": "V.R. Shaginyan | V.A. Stephanovich | E.V. Kirichenko",
+        "available_online": "",
+        "cover_date_start": "2007-09-01",
+        "created_at": "2022-12-20T10:04:57+08:00",
+        "doi": "10.1016/j.jallcom.2006.08.347",
+        "en_title": "The peculiarities of the phase diagram of heavy fermion metal CeCoIn5",
+        "id": "812021854981062660",
+        "keywords": "[{\"ch_name\":\"重费米子\",\"en_name\":\"Heavy fermions\"},{\"ch_name\":\"非费米液体行为\",\"en_name\":\"Non-Fermi-liquid behavior\"},{\"ch_name\":\"量子相变\",\"en_name\":\"Quantum phase transition\"},{\"ch_name\":\"超导\",\"en_name\":\"Superconductivity\"}]",
+        "publication_date": "2007-9",
+        "publication_id": "2082",
+        "publication_name": "Journal of Alloys and Compounds _ Journal of Alloys and Compounds",
+        "research_categories": "",
+        "zh_title": "重费米子金属CeCoIn5相图的特性"
+      },
+      "paper:812345767703347201": {
+        "area": "Physics and Astrophysics",
+        "authors": "F. F. Assaad",
+        "available_online": "2004-7-15",
+        "cover_date_start": "2004-07-15",
+        "created_at": "2022-12-21T07:32:04+08:00",
+        "doi": "10.1103/physrevb.70.020402",
+        "en_title": "Coherence scale of the two-dimensional Kondo lattice model",
+        "id": "812345767703347201",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "二维近藤晶格模型的相干尺度"
+      },
+      "paper:812446361243877379": {
+        "area": "Physics and Astrophysics",
+        "authors": "S.N. Behera | J. Frohberg | K.S. Viswanathan",
+        "available_online": "",
+        "cover_date_start": "1969-08-01",
+        "created_at": "2022-12-21T14:11:48+08:00",
+        "doi": "10.1016/0375-9601(69)90182-0",
+        "en_title": "Effective mass in the paramagnon theory",
+        "id": "812446361243877379",
+        "keywords": "",
+        "publication_date": "1969-8",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "顺磁子理论中的有效质量"
+      },
+      "paper:812576180199751680": {
+        "area": "Physics and Astrophysics",
+        "authors": "J. Nissinen | G. E. Volovik",
+        "available_online": "2020-8-19",
+        "cover_date_start": "2020-08-19",
+        "created_at": "2022-12-21T22:47:39+08:00",
+        "doi": "10.1103/physrevresearch.2.033269",
+        "en_title": "Thermal Nieh-Yan anomaly in Weyl superfluids",
+        "id": "812576180199751680",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "外尔超流体中的热聂-杨反常"
+      },
+      "paper:814525482547544066": {
+        "area": "Comprehensive Periodical",
+        "authors": "S. Friedemann | H. Chang | M. B. Gamża | P. Reiss | X. Chen | P. Alireza | W. A. Coniglio | D. Graf | S. Tozer | F. M. Grosche",
+        "available_online": "2016-5-12",
+        "cover_date_start": "2016-05-12",
+        "created_at": "2022-12-27T07:53:29+08:00",
+        "doi": "10.1038/srep25335",
+        "en_title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+        "id": "814525482547544066",
+        "keywords": "",
+        "publication_date": "2016-5-31",
+        "publication_id": "9354",
+        "publication_name": "Scientific Reports _ Sci Rep",
+        "research_categories": "",
+        "zh_title": "NiS₂中处于莫特绝缘态边界的重电子的大费米面"
+      },
+      "paper:867748661096874781": {
+        "area": "arXiv-Physics",
+        "authors": "E. Cappelli | A. Hampel | A. Chikina | E. Bonini Guedes | G. Gatti | A. Hunter | J. Issing | N. Biskup | M. Varela | Cyrus E. Dreyer | A. Tamai | A. Georges | F.Y. Bruno | M. Radovic | F. Baumberger",
+        "available_online": "",
+        "cover_date_start": "2022-03-11",
+        "created_at": "2023-05-23T04:43:23+08:00",
+        "doi": "10.48550/arXiv.2203.05820",
+        "en_title": "Electronic structure of the highly conductive perovskite oxide SrMoO$_3$",
+        "id": "867748661096874781",
+        "keywords": "",
+        "publication_date": "2022-03-11",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Chemistry\", \"Physical Sciences\"]",
+        "zh_title": "高导电性钙钛矿氧化物SrMoO₃的电子结构"
+      },
+      "paper:867749063133496213": {
+        "area": "arXiv-Physics",
+        "authors": "Hari P. Dahal | Jean-Pierre Julien | A. V. Balatsky",
+        "available_online": "",
+        "cover_date_start": "2007-12-17",
+        "created_at": "2023-05-23T04:44:59+08:00",
+        "doi": "10.48550/arXiv.0712.2836",
+        "en_title": "Importance of on-site interaction in graphene",
+        "id": "867749063133496213",
+        "keywords": "",
+        "publication_date": "2007-12-17",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "石墨烯中现场相互作用的重要性"
+      },
+      "paper:867751021353370148": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | A.Z. Msezane | K.G. Popov | V.A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2009-02-07",
+        "created_at": "2023-05-23T04:52:46+08:00",
+        "doi": "10.48550/arXiv.0902.1270",
+        "en_title": "Magnetic-field-induced reentrance of Fermi-liquid behavior and spin-lattice relaxation rates in YbCu_{5-x}Au_x",
+        "id": "867751021353370148",
+        "keywords": "",
+        "publication_date": "2009-02-07",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "磁场诱导的YbCu₅₋ₓAuₓ中费米液体行为的再入现象及自旋-晶格弛豫率"
+      }
+    },
+    "variables": [
+      {
+        "content": "Let $m^{*}$ denote the quasiparticle effective mass at the Fermi level of a Fermi-liquid state, defined operationally via the low-temperature specific heat coefficient $\\gamma$ as $\\gamma\\propto m^{*}$ (so $\\gamma=C/T$ as $T\\to0$), and let $T_{\\rm coh}$ denote the temperature below which Fermi-liquid thermodynamics (linear specific heat and temperature-independent susceptibilities) are observed. The proposition is that, in a conventional Fermi liquid of itinerant quasiparticles, $T_{\\rm coh}$ is proportional to an inverse effective-mass scale, i.e., $T_{\\rm coh}\\propto 1/m^{*}$ up to factors set by band parameters and quasiparticle residue, which is the standard phenomenological relation between effective mass and the energy window of coherent quasiparticle behavior.",
+        "content_hash": "4ff5a8a23e4ae05259e7d14621f84e9c540139c85596683411d7f873e839b35e",
+        "id": "gcn_6aa2a75e64e94dcd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812345767703347201::P8",
+            "package_id": "paper:812345767703347201",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812345767703347201"
+          ]
+        },
+        "role": "premise",
+        "score": 0.031746031746031744,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Consider a three-dimensional interacting SU($N_{c}$) Fermi gas at low temperature where Landau Fermi-liquid phenomenology applies. Let $M$ be the bare particle mass, $M^{*}$ the quasiparticle effective mass on the Fermi surface, and $k_{\\mu}\\equiv\\sqrt{2M\\mu}$. The proposition is: to second order in the small parameter $k_{\\mu}a$, the quasiparticle effective mass is given by\n      $\n      \\displaystyle \\frac{M^{*}}{M}=1+\\left(N_{c}-1\\right)\\frac{8}{15\\pi^{2}}(7\\ln 2-1)\\left(k_{\\mu}a\\right)^{2},\n      $\n      provided that the system is in the Fermi-liquid regime (no phase transitions or strong-coupling breakdown) and that vertex corrections beyond the order shown are negligible in the weak-coupling limit.\n      [32]",
+        "content_hash": "d5a9eccee94434669d92d68ac436855875895c455dd06027cc33b2fc0e4d5266",
+        "id": "gcn_a5e7719d6cfa4d66",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811047818226565120::P7",
+            "package_id": "paper:811047818226565120",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811047818226565120"
+          ]
+        },
+        "role": "premise",
+        "score": 0.029906956136464335,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a homogeneous three-dimensional electron Fermi liquid with bare electron mass $M$, Landau-quasiparticle effective mass $M^{*}$, Fermi momentum $p_{\\mathrm{F}}$, and noninteracting density of states at the Fermi level $N_{0}$, and with $F^{1}(p_{\\mathrm{F}},p_{\\mathrm{F}})$ denoting the $p$-wave ($\\ell=1$) component of the Landau interaction amplitude evaluated at equal incoming and outgoing momenta $p_{\\mathrm{F}}$, the quasiparticle effective mass satisfies the Landau–Fermi–liquid relation\n      $$\n      \\frac{M^{*}}{M}=\\frac{1}{1-\\dfrac{N_{0}F^{1}(p_{\\mathrm{F}},p_{\\mathrm{F}})}{3}}.\n      $$\n      [8]",
+        "content_hash": "7f7698801a85450cb554b3cb759f6c4753c0fe7cac1083b2029636545f9bb070",
+        "id": "gcn_191c05f1a103426b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812021854981062660::P1",
+            "package_id": "paper:812021854981062660",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812021854981062660"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02844551282051282,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The quasiparticle effective-mass ratio for a Fermi liquid can be written in terms of derivatives of the real part of the retarded self-energy evaluated on the Fermi surface (momentum p = p0 and energy ε = 0) as\n      m*/m = [1 − (∂/∂ε) Re Σ^R(p0,ε)|_{ε=0}] / [1 + (m/p0) (∂/∂p) Re Σ^R(p,ε)|_{p=p0,ε=0}],\n      where p0 denotes the Fermi momentum, m is the bare mass, m* is the quasiparticle effective mass, and Re Σ^R is the real part of the retarded single-particle self-energy.",
+        "content_hash": "9bd712e3d29083ded5d13989e20eef32922a9fa5c1a677877ed46a8ab5100d55",
+        "id": "gcn_fe609766a8a74229",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812446361243877379::conclusion_3",
+            "package_id": "paper:812446361243877379",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812446361243877379"
+          ]
+        },
+        "role": "premise",
+        "score": 0.028177225029148854,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The kinetic-energy renormalization factor q obtained from the Gutzwiller variational state is interpreted in the Fermi-liquid sense via the relation 1/q = m^{*}/m, where m^{*} denotes the Fermi-liquid quasiparticle effective mass and m denotes the bare electron mass; this identification is used to translate reductions in q into quasiparticle mass enhancement.",
+        "content_hash": "cdf40229c84004dd88436d7f5ef2c2cb24f78abc1880135f95b0409cfcd7633c",
+        "id": "gcn_504bf6fd7f824f70",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749063133496213::P3",
+            "package_id": "paper:867749063133496213",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749063133496213"
+          ]
+        },
+        "role": "premise",
+        "score": 0.027651515151515153,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "content_hash": "f689f88d12bf20bc60ce78ec01cddb6c5ea4c7a26c8eb810a4411075fbb2173b",
+        "id": "gcn_800070efac5e476d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811623956246167556::conclusion_3",
+            "package_id": "paper:811623956246167556",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811623956246167556"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Assume standard Fermi-liquid relations linking the low-energy derivative of the real self-energy to the quasiparticle residue and effective mass as follows: define $\\lambda\\equiv -\\left.\\frac{d\\Sigma'(\\varepsilon)}{d\\varepsilon}\\right|_{\\varepsilon=0}$, define the quasiparticle residue $Z\\equiv 1/(1+\\lambda)$, define the band mass $m_{b}$ as the curvature-derived effective mass of the non-interacting DFT band at the Fermi momentum, and assume that the interacting quasiparticle effective mass satisfies $m^{*}/m_{b}=Z^{-1}$, with the additional assumptions that the electronic self-energy is approximately momentum-independent near the Fermi surface (local approximation) and that Fermi-liquid quasiparticle formulas apply in the low-energy regime considered.",
+        "content_hash": "6d69a9b39a5e19d050d65521b6ae421f1d474dbbd943e817f402d74513ebe3bb",
+        "id": "gcn_94aa74860af944d0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748661096874781::P5",
+            "package_id": "paper:867748661096874781",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748661096874781"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+        "content_hash": "c30bce45d29fe32088cd72b3264734efc14cbfc978292c2e4039d1eec64a3fe6",
+        "id": "gcn_29401e4284574aa2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814525482547544066::conclusion_4",
+            "package_id": "paper:814525482547544066",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814525482547544066"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a homogeneous, isotropic, three-dimensional Fermi liquid with a single-band dispersion near the Fermi surface, the quasiparticle density of states per spin at the Fermi level is given by the standard Landau-Fermi-liquid expression\n      $$\n      N(E_{F})=\\frac{M^{*}p_{F}}{\\pi^{2}},\n      $$\n      where M^{*} is the Landau quasiparticle effective mass (the mass parameter entering the low-energy dispersion near the Fermi momentum), p_{F} is the magnitude of the Fermi momentum, and N(E_{F}) denotes the single-particle density of states at the chemical potential; this expression neglects band-structure anisotropies and multi-band contributions.",
+        "content_hash": "3f2c4f9ac71543deed0bef2c14460b7dfd95a0f80249c17da1104a23d3d80563",
+        "id": "gcn_588cca0c79ef473a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751021353370148::P2",
+            "package_id": "paper:867751021353370148",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751021353370148"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the LLL computation of the anomalous quasiparticle momentum density, the calculation performed neglects Fermi-liquid interaction corrections to the quasiparticle spectrum and to quasiparticle momentum flow (i.e., sets the quasiparticle effective-mass corrections m^*/m=1 and ignores backflow renormalizations). The proposition is that, for the leading distinction between the T=0 vacuum anomalous current and the universal near-node T^{2} thermal quasiparticle contribution, neglecting these Fermi-liquid corrections yields an accurate leading-order expression for the thermal piece; the residual corrections due to Fermi-liquid physics are treated separately in hydrodynamic/Fermi-liquid formulas.\n      [16]",
+        "content_hash": "9aa8edb6af6bea68299cc38b039cea3b15d9af10c42659c0d3042811763a2b7b",
+        "id": "gcn_bfaffd0d4bef412c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812576180199751680::P11",
+            "package_id": "paper:812576180199751680",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812576180199751680"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "2f7be4f1e8af408a647f1c73a3b2684e"
+}

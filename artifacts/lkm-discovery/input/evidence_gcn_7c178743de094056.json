@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let $m>0$ denote the bare particle mass and $m^{*}>0$ denote the Landau effective mass parameter appearing in Fermi-liquid theory, and let $N_{0}=mk_{F}/\\pi^{2}$ be the bare normal-state density of states at the Fermi level. The proposition is that the dominant Fermi-liquid effect on the computed superfluid-density correction may be captured, to leading order, by replacing $N_{0}$ with $N_{0}^{*}=m^{*}k_{F}/\\pi^{2}$ (equivalently, replacing $m$ by $m^{*}$ in $N_{0}$) in the expressions for $N(0)$ and thus in the coefficient that multiplies $\\rho$, with residual Fermi-liquid self-consistency corrections being negligible in the stated regime.\n      R. Combescot, J. Phys. C 14, 4765 (1981).",
+      "content_hash": "2010af36e074fc673bafe616a04f91c20efa0bebc4f41a5a8aed65af8c892250",
+      "id": "gcn_7c178743de094056",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "e942e8f5655c0908ca20cf2c83cee015"
+}

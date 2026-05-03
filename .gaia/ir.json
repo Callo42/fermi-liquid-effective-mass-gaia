@@ -1,0 +1,781 @@
+{
+  "ir_hash": "sha256:7144e2d657d3f46df836592df826be25f55e8dab2778fd7f62ed390417ccd7ab",
+  "knowledges": [
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the observed molar specific heat per mole is linear for T >= about 3 mK, C/(nR) = gamma T with gamma = 2.11 +/- 0.02 K^-1; this measured linear region is assumed to represent the T -> 0 Fermi-liquid specific-heat coefficient used to infer m*/m and F1 [@Alvesalo1979].",
+      "content_hash": "9623435cbd282bf4c755c37ec8219f1f3a76a55dc18b64a0cb34209cde46cbea",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a",
+      "label": "gcn_2ee995fe1e674e2a",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2ee995fe1e674e2a",
+        "lkm_original": "The observed linear-in-temperature behavior of the molar specific heat per mole, C/(nR)=\\gamma T with \\gamma=2.11\\pm 0.02\\ \\mathrm{K}^{-1} for T\\gtrsim 3\\ \\mathrm{mK}, is assumed to represent the T\\to 0 limiting Fermi-liquid behavior so that the coefficient \\gamma is identified with the standard low-temperature Fermi-liquid specific-heat coefficient (i.e., proportional to the quasiparticle density of states at the Fermi surface and hence to the quasiparticle effective mass), thereby justifying extrapolation of the measured \\gamma to infer the zero-temperature effective-mass ratio m^{*}/m and the Landau parameter F_{1}.",
+        "prior": 0.78,
+        "prior_justification": "Direct calorimetric premise from the LKM chain, but it extrapolates the observed T >= about 3 mK linear region to the T -> 0 Fermi-liquid limit near the superfluid transition; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For three-dimensional normal-liquid He-3 in the conventional Landau Fermi-liquid framework used by Alvesalo et al. 1979, applying the standard mapping from gamma = 2.11 K^-1 to quasiparticle effective-mass renormalization gives m*/m approximately 2.12, and using the usual relation between m*/m and the first Landau parameter gives F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "970b5bfa2cb80e74f88189d04484cfc3cb6d31739e7d962d9a95d921f8874771",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18",
+      "label": "gcn_1587257a956f4d18",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_1587257a956f4d18",
+        "lkm_original": "Within the conventional Landau Fermi-liquid framework for a three-dimensional Fermi liquid, the standard mapping that relates the molar specific-heat coefficient \\gamma to the quasiparticle effective-mass renormalization m^{*}/m and that yields the Landau parameter F_{1} from the effective mass is assumed to be valid and numerically accurate to within the quoted experimental uncertainties; applying these standard relations to the experimentally determined \\gamma=2.11\\ \\mathrm{K}^{-1} gives m^{*}/m\\approx 2.12 and F_{1}\\approx 3.36.",
+        "prior": 0.82,
+        "prior_justification": "Standard Landau Fermi-liquid mapping premise with values reported in the LKM chain, but the chain records the numerical mapping rather than a full derivation; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, assuming the standard Landau Fermi-liquid relation between the low-temperature linear specific-heat coefficient gamma and the quasiparticle density of states, the measured gamma = 2.11 K^-1 implies m*/m approximately 2.12 and F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "677cfd58e219594a85552f432260319c7fd6f3e1a2e1311395a042b2de238689",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+      "label": "gcn_800070efac5e476d",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_800070efac5e476d",
+        "lkm_original": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the measured gamma = 2.11 K^-1 implies a quasiparticle effective-mass ratio m*/m approximately 2.12 under the standard Landau Fermi-liquid mapping [@Alvesalo1979].",
+      "content_hash": "cac9b3fc002ec3ab72494ebf9f58f170281a9c3493bbde0e833c15c6eae081b8",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+      "label": "he3_gamma_implies_mstar_ratio_2_12",
+      "metadata": {
+        "decomposition_of": "gcn_800070efac5e476d",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_800070efac5e476d",
+        "lkm_original": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, the inferred effective-mass ratio m*/m approximately 2.12 yields the first Landau Fermi-liquid parameter F1 approximately 3.36 under the usual relation between effective-mass renormalization and F1 [@Alvesalo1979].",
+      "content_hash": "675033381fce00e3f5ca1674e2210c881cb31a57a236363837017fdd11f2f5b0",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36",
+      "label": "he3_mstar_ratio_yields_f1_3_36",
+      "metadata": {
+        "decomposition_of": "gcn_800070efac5e476d",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Alvesalo1979"
+            ]
+          }
+        },
+        "lkm_id": "gcn_800070efac5e476d",
+        "lkm_original": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811623956246167556"
+      },
+      "module": "paper_alvesalo1979",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For a homogeneous three-dimensional interacting-fermion system near FCQPT, the temperature-dependent Landau integral relation defines the quasiparticle effective mass M*(T) from the bare mass, Fermi momentum, Landau interaction amplitude, quasiparticle occupation derivative, and a three-dimensional momentum integral; in Shaginyan et al. 2010 this phenomenological equation is used as the numerical starting point when a Landau amplitude exists, quasiparticles remain reasonably well defined, and n(p,T) correctly represents the distribution [@Shaginyan2010].",
+      "content_hash": "2e691487d6e67d243b7d8ed02f0ae3bf1b55595971e4fed0a5e8125385db377f",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
+      "label": "gcn_677c6c_landau_integral_relation",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_677c6c11780945f1",
+        "lkm_original": "For a homogeneous three-dimensional system of interacting fermions near the fermion-condensation quantum phase transition (FCQPT), the quasiparticle effective mass M*(T) can be defined by the temperature-dependent Landau integral relation\n      1/M*(T) = 1/m + ∫[(p_F·p_1)/p_F^3] F(p_F,p_1) [∂n(p_1,T)/∂p_1] d p_1/(2π)^3,\n      where m is the bare electron mass, p_F is the Fermi momentum, F(p_F,p_1) is the Landau interaction amplitude that parameterizes low-energy quasiparticle interactions, n(p,T) is the quasiparticle occupation number (average occupancy of the single-particle state with momentum p at temperature T), and the momentum integral is over three-dimensional momentum space; this relation is taken as the starting, phenomenological equation for numerical calculations even when M* becomes very large, provided (i) a Landau amplitude F that parameterizes low-energy interactions exists, (ii) quasiparticle excitations remain reasonably well defined (finite lifetime compared with inverse relevant energy scales), and (iii) the occupation function n(p,T) correctly describes the quasiparticle distribution entering the integral.",
+        "prior": 0.82,
+        "prior_justification": "LKM chain treats the Landau effective-mass equation as a standard phenomenological starting point near FCQPT, conditional on quasiparticle and amplitude assumptions; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Shaginyan et al. 2010 model YbRh2Si2 and related heavy-fermion compounds by a spatially uniform, isotropic three-dimensional heavy-electron liquid in which quasiparticle quantities depend only on |p| and T; the model deliberately neglects crystal-lattice anisotropy, Brillouin-zone structure, multiple bands, and anisotropic effective masses while treating the approximation as adequate for universal scaling of M*(T,B) and normalized thermodynamic or transport functions [@Shaginyan2010].",
+      "content_hash": "7b84e1461ac5b892edd34d80be11d8318f1b8a241c071ccdff5c2b44d88f96ab",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
+      "label": "gcn_03614e9b_homogeneous_isotropic_model",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_03614e9b5933496a",
+        "lkm_original": "The low-energy electronic state of the material of interest is modeled as a spatially uniform (homogeneous), isotropic heavy-electron (fermion) liquid in three-dimensional momentum space so that quasiparticle quantities depend only on the magnitude p = |p| and temperature T (n(p,T)), and crystal-lattice anisotropy, Brillouin-zone structure, multiple bands, and momentum-space anisotropic effective masses are neglected; this homogeneous isotropic model is used as an adequate representation of the universal scaling behavior of M*(T,B) and of normalized thermodynamic and transport functions for heavy-fermion compounds such as YbRh2Si2.",
+        "prior": 0.68,
+        "prior_justification": "Model adequacy is a deliberate universal-scaling approximation for YbRh2Si2 that neglects anisotropy and band structure, so it is plausible but scope-limited; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In the homogeneous isotropic Landau model used by Shaginyan et al. 2010, the Landau interaction amplitude can be tuned so that the self-consistent single-particle spectrum ε(p) has both dε/dp and d²ε/dp² equal to zero at p = p_F, leaving a cubic leading term near p_F and enforcing the FCQPT critical condition 1/M* = 0 at T = 0 [@Shaginyan2010].",
+      "content_hash": "f6d9a21fe9506b5206330269fb5d7c7fc168070de4e2ef4a6bd9614903751164",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
+      "label": "gcn_e0c364ff_inflection_fcqpt_condition",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_e0c364ff93804e75",
+        "lkm_original": "It is possible to choose the Landau interaction amplitude F(p_F,p_1) so that the self-consistent single-particle spectrum ε(p) obtained from the corresponding Landau functional has an inflection point at the Fermi momentum p_F, i.e. the first and second derivatives of ε(p) with respect to p vanish at p = p_F,\n      (dε/dp)|_{p=p_F} = 0,  (d^2ε/dp^2)|_{p=p_F} = 0,\n      which implies the lowest nonzero term in the Taylor expansion of ε(p) about p_F is ∝ (p − p_F)^3; imposing these conditions places the system at the fermion-condensation quantum phase transition (FCQPT) critical condition by enforcing 1/M* = 0 at T = 0, and such an amplitude can be tuned in practical model implementations to represent the critical condition rather than being a purely formal construction.",
+        "prior": 0.78,
+        "prior_justification": "The LKM chain presents the inflection-point amplitude tuning as the practical FCQPT critical construction rather than direct microscopic proof; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the temperature and magnetic-field ranges considered by Shaginyan et al. 2010 for YbRh2Si2, including fields up to about 1.5 T, the homogeneous isotropic Landau integral equation with an inflection-point-enforcing amplitude admits stable numerical solutions for ε(p) and n(p,T) that are robust enough to compute entropy with controlled numerical error [@Shaginyan2010].",
+      "content_hash": "d5f5b9b866642c61b169f1c17c3b304ab6d30c1f2b49d64dce657fa3eb370acd",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
+      "label": "gcn_6bbfeb95_stable_landau_solutions",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_6bbfeb95290d413d",
+        "lkm_original": "The homogeneous isotropic Landau integral equation for the reciprocal effective mass,\n      1/M*(T) = 1/m + ∫ K(p_F,p_1;F) [∂n(p_1,T)/∂p_1] dp_1,\n      where the kernel K is determined by a chosen Landau amplitude F that enforces an inflection point at p_F, admits stable numerical solutions for the self-consistent single-particle spectrum ε(p) and occupation n(p,T) using standard numerical iterative schemes or matrix-discretization methods; in practice these numerical methods converge for the range of temperatures and magnetic fields considered in the calculations and in the experimental datasets on YbRh2Si2 (magnetic fields up to about 1.5 T), the convergence is robust to discretization and to reasonable variations of the amplitude coefficients, and the resulting solutions are sufficiently resolved to compute thermodynamic quantities such as entropy with controlled numerical error.",
+        "prior": 0.7,
+        "prior_justification": "Numerical convergence and robustness are reported for the paper's temperature and field window, but no independent numerical error audit is included in the root evidence; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For fermionic quasiparticle excitations whose occupation numbers n(p,T) encode the low-energy statistical state, the entropy per unit volume is given by the Fermi-Dirac combinatorial expression S(T) = -2 ∫[n ln n + (1-n) ln(1-n)] dp/(2π)^3, with spin degeneracy 2 and a three-dimensional momentum integral [@Shaginyan2010].",
+      "content_hash": "4493401eb07d15554424c841994801edb0bb513379110e6d05530f2580c25bcc",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
+      "label": "gcn_ecddfefa_fermion_entropy_formula",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_ecddfefac84c4b46",
+        "lkm_original": "The thermodynamic entropy per unit volume S(T) of a system of fermionic quasiparticle excitations characterized by occupation numbers n(p,T) is given by the Fermi-Dirac combinatorial expression\n      S(T) = −2 ∫ [ n(p,T) ln n(p,T) + (1 − n(p,T)) ln (1 − n(p,T)) ] d p/(2π)^3,\n      where the prefactor 2 accounts for spin degeneracy and the momentum integral is over three-dimensional momentum space; this formula yields the entropy of the quasiparticle distribution under the assumption that the occupations n(p,T) encode the full statistical state of the low-energy degrees of freedom.",
+        "prior": 0.9,
+        "prior_justification": "The Fermi-Dirac entropy expression is a standard quasiparticle combinatorial formula and is capped at the direct-claim prior limit; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Shaginyan et al. 2010 operationally estimate the quasiparticle effective mass M*(T,B) from entropy by M*(T,B) = S(T,B)/T, using consistent units, as a density-of-states-like effective mass measure even in FCQPT crossover or non-Fermi-liquid regimes where the system is not strictly in the low-temperature Landau Fermi-liquid limit [@Shaginyan2010].",
+      "content_hash": "5972801fab755f76d32c8e7187721a749eccb838cc7ea4917dd507d303e47d03",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "label": "gcn_2e693115_entropy_over_temperature_mass",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2e69311592b04bcb",
+        "lkm_original": "The quasiparticle effective mass M*(T,B) is operationally estimated from the thermodynamic entropy S(T,B) computed from the quasiparticle occupation numbers by the relation\n      M*(T,B) = S(T,B)/T,\n      where S(T,B) is the entropy per unit volume (or per particle/mole with consistent units) and T is temperature; this relation is used as an operational measure of an effective density-of-states proportional to an effective mass even in crossover or non-Fermi-liquid regimes near FCQPT where the system is not strictly in the low-temperature Landau Fermi-liquid limit.",
+        "prior": 0.72,
+        "prior_justification": "Using M*(T,B)=S(T,B)/T is an operational density-of-states proxy extended into crossover/NFL regimes, making it credible but approximation-sensitive; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].",
+      "content_hash": "ede67149f3596864bc22c9816d084cc54b557288442db61ec350a936d5a824da",
+      "declaration_index": 6,
+      "exported": true,
+      "id": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "label": "gcn_2741cdef_practical_effective_mass_scheme",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Shaginyan2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2741cdef209a457a",
+        "lkm_original": "A practical computational scheme for obtaining the temperature- and field-dependent effective mass in a homogeneous heavy-electron liquid is: (i) solve the temperature-dependent Landau integral equation\n      1/M*(T,B) = 1/m + ∫[(p_F·p1)/p_F^3] F(p_F,p1;B) [∂n(p1,T,B)/∂p1] d p1/(2π)^3,\n      for the self-consistent single-particle spectrum ε(p) and occupation numbers n(p,T,B), where m is the bare electron mass, p_F the Fermi momentum, F(p_F,p1;B) a chosen Landau interaction amplitude possibly dependent on field B, and the momentum integrals are over three-dimensional momentum space; (ii) choose the Landau amplitude coefficients so that ε(p) has an inflection point at p = p_F (i.e., the first and second derivatives dε/dp and d^2ε/dp^2 vanish at p_F), which enforces the fermion-condensation critical condition 1/M* = 0 at T = 0; (iii) compute the thermodynamic entropy S(T,B) per unit volume from the obtained occupations n(p,T,B) using the Fermi-Dirac combinatorial formula S(T,B) = −2 ∫ [n ln n + (1−n) ln(1−n)] d p/(2π)^3 (spin degeneracy 2); and (iv) extract the effective mass operationally via the Landau relation M*(T,B) = S(T,B)/T (with consistent units); this procedure, applied within the homogeneous isotropic heavy-electron liquid model (i.e., neglecting crystal-lattice anisotropy and band structure), yields M*(T,B) exhibiting the interpolating and scaling properties described above.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867752612177379569"
+      },
+      "module": "paper_shaginyan2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Across the two selected LKM roots, low-energy thermodynamic quantities are used as operational routes to quasiparticle effective mass: Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
+      "content_hash": "fa414c836a3620a2d1ab25d1459412c70ff0fae59e9052597a94f66c16e0684d",
+      "declaration_index": 0,
+      "exported": true,
+      "id": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
+      "label": "cross_thermodynamic_routes_to_effective_mass",
+      "metadata": {
+        "derived_from_lkm_ids": [
+          "gcn_800070efac5e476d",
+          "gcn_2e69311592b04bcb",
+          "gcn_2741cdef209a457a"
+        ],
+        "provenance_source": "synthesis"
+      },
+      "module": "cross_paper",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "The He-3 and YbRh2Si2 effective-mass routes should not be treated as equivalent claims: the He-3 chain uses a standard low-temperature Landau Fermi-liquid mapping from gamma to m*/m, whereas the YbRh2Si2 chain uses a homogeneous isotropic heavy-electron model near FCQPT and applies S/T as an operational effective-mass measure through crossover or non-Fermi-liquid regimes.",
+      "content_hash": "a86a147985c36df88d139a0d6aa3c8cb1d4bf8fcee3176b9801ca7c5636c803f",
+      "declaration_index": 1,
+      "exported": true,
+      "id": "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
+      "label": "cross_scope_caution_standard_fl_vs_fcqpt",
+      "metadata": {
+        "derived_from_lkm_ids": [
+          "gcn_1587257a956f4d18",
+          "gcn_03614e9b5933496a",
+          "gcn_2e69311592b04bcb"
+        ],
+        "provenance_source": "synthesis"
+      },
+      "module": "cross_paper",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a,github:fermi_liquid_effective_mass::gcn_1587257a956f4d18)",
+      "content_hash": "eb530cedef4797f25f3cb4aa0ecd37bd1ad07c22cee01964db7267aa5e77aeaa",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8",
+      "label": "__conjunction_result_fce6a3a8",
+      "metadata": {
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a,github:fermi_liquid_effective_mass::gcn_1587257a956f4d18)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_1348b6ccbdf6a331",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8,github:fermi_liquid_effective_mass::gcn_800070efac5e476d)",
+      "content_hash": "0dcebb4675cfdf2aee2c166f6123d8cc5ea1d34e93db5460e1b321617373a737",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_98b2ac0c",
+      "label": "__implication_result_98b2ac0c",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8,github:fermi_liquid_effective_mass::gcn_800070efac5e476d)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_1348b6ccbdf6a331",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::gcn_800070efac5e476d,github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12)",
+      "content_hash": "ce9aea2950d1a07cea919c97ecd0ec1e76185393195d45bd76844319a83e84cb",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_9c59b6e0",
+      "label": "__implication_result_9c59b6e0",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_800070efac5e476d,github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_88474b3f086838e4",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::gcn_800070efac5e476d,github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36)",
+      "content_hash": "e8197b3c48b94cd138d5f4a2bfd6cd96e72e3fa71596ccd165a23995c29b3861",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_3993f88f",
+      "label": "__implication_result_3993f88f",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_800070efac5e476d,github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_5bfbe3f05494e9db",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation,github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model,github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition,github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions,github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+      "content_hash": "4cd696431cea6d109277f32d5f36a5e79dface7aa9215d0f8f0c927a967fb98a",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
+      "label": "__conjunction_result_11fed0d5",
+      "metadata": {
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation,github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model,github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition,github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions,github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_0d1b5abf46062b74",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme)",
+      "content_hash": "002d634d4c0500c5323b7e3c7ca332236d0b6d19b923acf42a82760687b37302",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_1bbdf0c1",
+      "label": "__implication_result_1bbdf0c1",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_0d1b5abf46062b74",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+      "content_hash": "e00c2586af558c774df82d936401bfd339fd53404573538737ff3e7e64a2d3ae",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8",
+      "label": "__conjunction_result_6384c4d8",
+      "metadata": {
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_f185a2463e1f7823",
+        "owning_strategy_type": "support",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8,github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass)",
+      "content_hash": "7616b3ebc1eb3eba97fbe407b714bfb757f5d0b02c56ce8a6d37e3f73937f0e8",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_e2e04c7e",
+      "label": "__implication_result_e2e04c7e",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8,github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_f185a2463e1f7823",
+        "owning_strategy_type": "support",
+        "prior": 0.84,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:fermi_liquid_effective_mass::gcn_800070efac5e476d,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme,github:fermi_liquid_effective_mass::gcn_1587257a956f4d18,github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model)",
+      "content_hash": "ecf9c732c14f5611a6a31da961223b0350c62bee877b57bf6ad10c1878d48ab4",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc",
+      "label": "__conjunction_result_363f43bc",
+      "metadata": {
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_800070efac5e476d,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme,github:fermi_liquid_effective_mass::gcn_1587257a956f4d18,github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_7b703907e105c6a0",
+        "owning_strategy_type": "support",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_363f43bc,github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt)",
+      "content_hash": "91debdad364a162c19953305551306103653144b4b2bbabade6a5b8dfa43857d",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_3aa755c3",
+      "label": "__implication_result_3aa755c3",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_363f43bc,github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_7b703907e105c6a0",
+        "owning_strategy_type": "support",
+        "prior": 0.88,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_alvesalo1979",
+    "paper_shaginyan2010",
+    "cross_paper"
+  ],
+  "module_titles": {
+    "cross_paper": "cross_paper -- cautious synthesis across the two selected LKM roots.",
+    "paper_alvesalo1979": "paper_alvesalo1979 -- He-3 heat-capacity claims from Alvesalo et al. 1979.",
+    "paper_shaginyan2010": "paper_shaginyan2010 -- claims and deductions from Shaginyan et al. 2010."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "fermi_liquid_effective_mass",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8",
+            "operator": "conjunction",
+            "variables": [
+              "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a",
+              "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18"
+            ]
+          },
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_98b2ac0c",
+            "operator": "implication",
+            "variables": [
+              "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8",
+              "github:fermi_liquid_effective_mass::gcn_800070efac5e476d"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Take as given the experimentally determined normal-state coefficient $\\gamma=2.11\\ \\mathrm{K}^{-1}$ from the preceding result (the molar specific heat coefficient in the $T\\to 0$ limiting normal Fermi-liquid behavior).\n2. State the assumption invoked by the authors to map $\\gamma$ to quasiparticle effective mass and Landau Fermi-liquid parameters: assume that the observed linear region corresponds to the $T\\to 0$ limiting behavior of a Fermi liquid (i.e., that $\\gamma$ reflects the quasiparticle density of states at the Fermi surface and scales with the effective mass $m^{*}$).\n3. Record the authors' asserted mapping result without reproducing an explicit derivation (the authors give the numerical mapping result directly): using $\\gamma=2.11\\ \\mathrm{K}^{-1}$ and the assumed Fermi-liquid mapping, the inferred quasiparticle effective-mass ratio is $m^{*}/m=2.12$, and the corresponding first Landau Fermi-liquid parameter is $F_{1}=3.36$; the authors present these numerical values as the outcome of the mapping from $\\gamma$ to $m^{*}/m$ and $F_{1}$.\n4. Note the paper's comparison to earlier work that motivates the significance of these numbers: the reported $\\gamma$ is about $30\\%$ smaller than values reported earlier by Mota et al. and Abel et al., and the authors remark that around $20\\ \\mathrm{mK}$ where the experiments overlap the values of $C/(nR T)$ differ by about $23\\%$, supporting that these inferred Fermi-liquid parameters represent a substantial revision relative to prior results. [12] [13]"
+      },
+      "premises": [
+        "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a",
+        "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_1348b6ccbdf6a331",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_9c59b6e0",
+            "operator": "implication",
+            "variables": [
+              "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+              "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM root explicitly contains the component assertion that gamma = 2.11 K^-1 implies m*/m approximately 2.12 for the Alvesalo et al. He-3 Fermi-liquid analysis."
+      },
+      "premises": [
+        "github:fermi_liquid_effective_mass::gcn_800070efac5e476d"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_88474b3f086838e4",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_3993f88f",
+            "operator": "implication",
+            "variables": [
+              "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+              "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM root explicitly contains the component assertion that the inferred effective-mass ratio m*/m approximately 2.12 yields F1 approximately 3.36 under the usual Landau Fermi-liquid relation."
+      },
+      "premises": [
+        "github:fermi_liquid_effective_mass::gcn_800070efac5e476d"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_5bfbe3f05494e9db",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
+            "operator": "conjunction",
+            "variables": [
+              "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
+              "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
+              "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
+              "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
+              "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
+              "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+            ]
+          },
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_1bbdf0c1",
+            "operator": "implication",
+            "variables": [
+              "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
+              "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. State the fundamental equation used to compute the temperature- and field-dependent quasiparticle effective mass $M^{*}(T,B)$: the Landau form relating the inverse effective mass to the bare mass $m$ and the quasiparticle distribution, written explicitly as\n$$\n\\frac{1}{M^{*}(T)}=\\frac{1}{m}+\\int \\frac{\\mathbf{p}_{F}\\cdot\\mathbf{p}_1}{p_{F}^{3}}\\;F(\\mathbf{p}_{F},\\mathbf{p}_1)\\;\\frac{\\partial n(p_1,T)}{\\partial p_1}\\;\\frac{d\\mathbf{p}_1}{(2\\pi)^3},\n$$\nwhere $M^{*}(T)$ is the quasiparticle effective mass as a function of temperature $T$, $m$ is the bare electron mass, $\\mathbf{p}_F$ is the Fermi momentum vector, $p_F=|\\mathbf{p}_F|$, $F(\\mathbf{p}_F,\\mathbf{p}_1)$ is the Landau interaction amplitude, and $n(p,T)$ is the quasiparticle occupation number. This equation is the starting point for the numerical solution described below.\n2. Specify the model assumption for the calculations: use the homogeneous heavy-electron (fermion) liquid model (a spatially uniform system), thereby neglecting crystal-lattice anisotropy; this means the occupation numbers depend only on momentum magnitude $p$ and temperature $T$, $n(p,T)$, and spatial inhomogeneities and band-structure anisotropies are not included.\n3. Choose a special form of the Landau interaction amplitude $F(\\mathbf{p}_F,\\mathbf{p}_1)$ whose coefficients are tuned so that the single-particle spectrum $\\varepsilon(p)$ has an inflection point at the Fermi momentum $p_F$; concretely, impose that the first and second derivatives of $\\varepsilon(p)$ with respect to $p$ vanish at $p=p_F$, i.e. $\\left.\\frac{d\\varepsilon}{dp}\\right|_{p=p_F}=0$ and $\\left.\\frac{d^2\\varepsilon}{dp^2}\\right|_{p=p_F}=0$, where $\\varepsilon(p)$ is the single-particle spectrum and $p$ is momentum. The vanishing of the first derivative is equivalent to $1/M^{*}=0$ at the QCP, and the vanishing of two derivatives ensures the lowest nonzero term in the Taylor expansion of $\\varepsilon(p)$ about $p_F$ is proportional to $(p-p_F)^3$. This choice enforces that the system is placed at the fermion-condensation quantum phase transition (FCQPT) critical condition for the calculation. [12][15]\n[12]\n4. Solve the Landau integral equation given in the first step numerically (the temperature-dependent Landau equation reproduced there) with the specially chosen Landau amplitude from the previous step. The numerical solution yields the single-particle spectrum $\\varepsilon(p)$ and the temperature-dependent occupation numbers $n(p,T)$ consistent with the interaction amplitude and imposed inflection-point condition; these are obtained for given external parameters $T$ and magnetic field $B$ (with $B$ entering via Zeeman splitting and through the dependence of $n(p,T)$ and the amplitude on polarization, implemented as in the computational scheme described).\n[15]\n5. Compute the thermodynamic entropy $S(B,T)$ from the occupation numbers $n(p,T)$ using the combinatorial formula for the entropy of a system of fermionic quasiparticles,\n$$\nS=-2\\int\\Bigl[n(p)\\ln n(p)+(1-n(p))\\ln(1-n(p))\\Bigr]\\frac{d\\mathbf{p}}{(2\\pi)^3},\n$$\nwhere $S$ is the entropy at given magnetic field $B$ and temperature $T$, $n(p)=n(p,T)$ is the quasiparticle occupation number, and the factor $-2$ accounts for spin degeneracy. This formula gives $S(B,T)$ directly from the computed $n(p,T)$.\n6. Extract the effective mass $M^{*}(T,B)$ from the computed entropy using the Landau relation connecting entropy and effective mass in a Fermi liquid, written explicitly as\n$$\nM^{*}(T,B)=\\frac{S(T,B)}{T},\n$$\nwhere $S(T,B)$ is the entropy per mole (or per particle, depending on units) computed in the previous step and $T$ is temperature. This relation is applied to obtain $M^{*}(T,B)$ from the numerically computed $S(T,B)$ for each $(T,B)$ point.\n7. Normalize the computed effective mass $M^{*}(T,B)$ by its maximum value $M_{M}^{*}$ occurring at the temperature $T=T_M$ for a given $B$, and introduce the normalized temperature $y=T/T_M$; the normalized effective mass is $M_N^{*}(y)=M^{*}(T,B)/M_{M}^{*}$. Use these normalized quantities to examine the interpolating/scaling properties of the computed $M^{*}(T,B)$ and to compare directly with experiment on a common dimensionless axis. The computed normalized entropy and normalized effective mass as functions of normalized variables show collapse onto single curves, corroborating the scaling picture (this computed normalized entropy behavior is presented graphically in the calculations shown).\nFig. 3\n8. State the practical computational scheme in a concise sequence usable for reproducing theoretical curves and for comparison with experiments: (i) choose a Landau amplitude whose coefficients produce an inflection point in $\\varepsilon(p)$ at $p_F$ (first two derivatives zero); (ii) numerically solve the temperature-dependent Landau equation reproduced above to obtain $\\varepsilon(p)$ and $n(p,T)$; (iii) compute the entropy $S(B,T)$ from $n(p,T)$ using the combinatorial entropy formula reproduced above; (iv) obtain $M^{*}(T,B)$ by $M^{*}=S/T$ and construct normalized quantities $M_N^{*}=M^{*}/M_{M}^{*}$ and $y=T/T_M$ for scaling analysis. This scheme is implemented within the homogeneous heavy-electron liquid model (neglecting crystal-lattice anisotropy) and yields $M^{*}(T,B)$ exhibiting the interpolating and scaling properties used elsewhere in the paper."
+      },
+      "premises": [
+        "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
+        "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
+        "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
+        "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
+        "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
+        "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_0d1b5abf46062b74",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8",
+            "operator": "conjunction",
+            "variables": [
+              "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+              "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+            ]
+          },
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_e2e04c7e",
+            "operator": "implication",
+            "variables": [
+              "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8",
+              "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.84,
+        "reason": "The He-3 decomposition explicitly grounds gamma -> m*/m, and the YbRh2Si2 premise explicitly grounds S(T,B)/T -> M*(T,B). Together they support only the scoped meta-claim that both chains operationalize effective mass through thermodynamic low-energy quantities, not that the systems or equations are equivalent."
+      },
+      "premises": [
+        "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+        "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_f185a2463e1f7823",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc",
+            "operator": "conjunction",
+            "variables": [
+              "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+              "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+              "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18",
+              "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model"
+            ]
+          },
+          {
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_3aa755c3",
+            "operator": "implication",
+            "variables": [
+              "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc",
+              "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.88,
+        "reason": "The selected roots and mapping premises specify different systems and model scopes: standard low-temperature Landau Fermi-liquid reasoning for normal liquid He-3 versus a homogeneous isotropic heavy-electron FCQPT crossover model for YbRh2Si2. This warrants a scope-caution claim rather than equivalence or contradiction."
+      },
+      "premises": [
+        "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+        "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+        "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18",
+        "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_7b703907e105c6a0",
+      "type": "support"
+    }
+  ]
+}

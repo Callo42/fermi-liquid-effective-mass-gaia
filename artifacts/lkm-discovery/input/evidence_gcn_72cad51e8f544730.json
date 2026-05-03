@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The empirical dimensionless prefactor obtained from the fits, p ≈ 13.6, is substantially larger than the value p = 2π ≈ 6.28 predicted by a simple isotropic three-dimensional effective-mass Fermi-liquid model, and this discrepancy indicates that one or more of the following modify the numerical prefactor entering the Fermi-liquid damping in layered, quasi-two-dimensional TiS₂: anisotropy of the Fermi surface, limited momentum-relaxing umklapp scattering in small Fermi pockets, uncertainties in the effective mass, or disorder/stacking-fault scattering.",
+      "content_hash": "931910e8db8fe42451d2ae4d8749fe1a16cdc172a506142c3cca7c62bf12c876",
+      "id": "gcn_72cad51e8f544730",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The empirical dimensionless prefactor obtained from the fits, p ≈ 13.6, is substantially larger than the value p = 2π ≈ 6.28 predicted by a simple isotropic three-dimensional effective-mass Fermi-liquid model, and this discrepancy indicates that one or more of the following modify the numerical prefactor entering the Fermi-liquid damping in layered, quasi-two-dimensional TiS₂: anisotropy of the Fermi surface, limited momentum-relaxing umklapp scattering in small Fermi pockets, uncertainties in the effective mass, or disorder/stacking-fault scattering.",
+              "id": "gcn_72cad51e8f544730"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_f11348c1b3364a15",
+            "premises": [
+              {
+                "content": "The empirical dimensionless prefactor obtained from fits of the relaxation rate τ⁻¹(T,ω)=α[(pT)²+ω²] is p ≈ 13.6, which exceeds the isotropic-model expectation p = 2π, and the paper interprets this discrepancy as plausibly arising from one or more of the following in layered TiS₂: anisotropy of the Fermi surface, restricted momentum-relaxing umklapp scattering in small Fermi pockets, uncertainties in the effective mass value used in the analysis, or additional elastic scattering from disorder or stacking faults.\n      Fig. 2\n      Eq. (1)",
+                "id": "gcn_635477bb65c84090"
+              },
+              {
+                "content": "The numerical prediction p = 2π for the relative magnitude of the temperature- and frequency-dependent scattering terms in τ⁻¹ derives from an isotropic three-dimensional effective-mass Fermi-liquid model and therefore assumes isotropy and a particular umklapp phase-space; these assumptions need not hold for quasi-two-dimensional, small-pocket Fermi surfaces such as those expected in layered TiS₂, so the isotropic-model numeric prediction may not be applicable to this material.\n      R.N. Gurzhi (1958), J.M. Luttinger (1961) (theoretical background cited in paper)",
+                "id": "gcn_5f66ccc52fe04f9c"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Take as established the empirically fitted value $p\\approx 13.6$ (dimensionless) for the prefactor appearing in the fitted scattering rate $1/\\tau(T,\\omega)=\\alpha\\big[(pT)^{2}+\\omega^{2}\\big]$, as obtained from the optical reflectivity fits and documented in the analysis.\nFig. 2",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the theoretical expectation for a simple isotropic three-dimensional effective-mass Fermi-liquid model that the corresponding numerical prefactor should be $p=2\\pi\\approx 6.28$, citing the conventional Fermi-liquid analyses referenced by the authors.\n[4,5]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Compare the empirical value $p\\approx 13.6$ with the isotropic-model expectation $p=2\\pi$ and observe that the empirical prefactor is substantially larger (approximately a factor of two or more), creating a quantitative discrepancy between simple isotropic theory and experiment.\nFig. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Enumerate the possible material-specific factors, as discussed by the authors, that could modify the numerical prefactor entering the Fermi-liquid damping: (i) anisotropy of the Fermi surface in the quasi-two-dimensional TiS$_{2}$ (which alters phase space and scattering matrix elements), (ii) limitations of momentum-relaxing umklapp scattering due to small Fermi-surface pockets, (iii) uncertainties in the effective mass $m^{*}$ differing from the free-electron mass $m_{0}$, and (iv) disorder effects such as stacking faults or small non-stoichiometry $\\delta$ in $Ti_{1+\\delta}S_{2}$ that affect resistivity and scattering.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Conclude that the substantially larger empirical prefactor $p\\approx 13.6$ indicates that simple isotropic-model predictions are inadequate for TiS$_{2}$ and that Fermi-surface anisotropy, restricted umklapp phase space, effective-mass renormalization, or disorder-related effects likely modify the numerical prefactor entering the observed Fermi-liquid damping in this material, without assigning a unique cause among these possibilities.\nFig. 2",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Theoretical Fermi-liquid predictions for the relative magnitudes of temperature- and frequency-dependent scattering terms yield specific numerical prefactors (e.g., $p=2\\pi$ in simple isotropic models). In anisotropic layered compounds with small carrier pockets, the numerical factors controlling $\\tau^{-1}\\propto (pT)^{2}+\\omega^{2}$ can differ substantially, but before this work there was no experimental determination of $p$ for TiS$_{2}$. Determining whether deviations from isotropic-model predictions arise from Fermi-surface anisotropy, restricted umklapp phase space, effective-mass renormalization, or disorder is necessary to reconcile microscopic theory with observed transport coefficients.",
+            "id": "paper:812409375854428160::conclusion_4_subproblem",
+            "source_package": "paper:812409375854428160"
+          }
+        ],
+        "source_package": "paper:812409375854428160"
+      }
+    ],
+    "papers": {
+      "paper:812409375854428160": {
+        "area": "Physics and Astrophysics",
+        "authors": "C. Julien | J. Ruvalds | A. Virosztek | O. Gorochov",
+        "available_online": "",
+        "cover_date_start": "1991-09-01",
+        "created_at": "2022-12-21T11:44:50+08:00",
+        "doi": "10.1016/0038-1098(91)90323-n",
+        "en_title": "Fermi liquid reflectivity of TiS2",
+        "id": "812409375854428160",
+        "keywords": "",
+        "publication_date": "1991-9",
+        "publication_id": "653",
+        "publication_name": "Solid State Communications _ Solid State Communications",
+        "research_categories": "",
+        "zh_title": "二硫化钛的费米液体反射率"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "16ab6f0cccc7c557c1923069f13ef488"
+}

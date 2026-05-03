@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+      "content_hash": "f689f88d12bf20bc60ce78ec01cddb6c5ea4c7a26c8eb810a4411075fbb2173b",
+      "id": "gcn_800070efac5e476d",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Assuming the standard Landau Fermi-liquid relation that the low-temperature linear specific-heat coefficient \\gamma is proportional to the quasiparticle density of states at the Fermi surface (hence proportional to the quasiparticle effective mass m^{*}), the measured value \\gamma=2.11\\ \\mathrm{K}^{-1} implies an effective-mass ratio m^{*}/m\\approx 2.12 (where m is the bare fermion mass) and, under the usual formulas that relate the effective mass renormalization to the first Landau Fermi-liquid parameter, yields F_{1}\\approx 3.36.",
+              "id": "gcn_800070efac5e476d"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_944c3769779445a4",
+            "premises": [
+              {
+                "content": "The observed linear-in-temperature behavior of the molar specific heat per mole, C/(nR)=\\gamma T with \\gamma=2.11\\pm 0.02\\ \\mathrm{K}^{-1} for T\\gtrsim 3\\ \\mathrm{mK}, is assumed to represent the T\\to 0 limiting Fermi-liquid behavior so that the coefficient \\gamma is identified with the standard low-temperature Fermi-liquid specific-heat coefficient (i.e., proportional to the quasiparticle density of states at the Fermi surface and hence to the quasiparticle effective mass), thereby justifying extrapolation of the measured \\gamma to infer the zero-temperature effective-mass ratio m^{*}/m and the Landau parameter F_{1}.",
+                "id": "gcn_2ee995fe1e674e2a"
+              },
+              {
+                "content": "Within the conventional Landau Fermi-liquid framework for a three-dimensional Fermi liquid, the standard mapping that relates the molar specific-heat coefficient \\gamma to the quasiparticle effective-mass renormalization m^{*}/m and that yields the Landau parameter F_{1} from the effective mass is assumed to be valid and numerically accurate to within the quoted experimental uncertainties; applying these standard relations to the experimentally determined \\gamma=2.11\\ \\mathrm{K}^{-1} gives m^{*}/m\\approx 2.12 and F_{1}\\approx 3.36.",
+                "id": "gcn_1587257a956f4d18"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Take as given the experimentally determined normal-state coefficient $\\gamma=2.11\\ \\mathrm{K}^{-1}$ from the preceding result (the molar specific heat coefficient in the $T\\to 0$ limiting normal Fermi-liquid behavior).",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the assumption invoked by the authors to map $\\gamma$ to quasiparticle effective mass and Landau Fermi-liquid parameters: assume that the observed linear region corresponds to the $T\\to 0$ limiting behavior of a Fermi liquid (i.e., that $\\gamma$ reflects the quasiparticle density of states at the Fermi surface and scales with the effective mass $m^{*}$).",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Record the authors' asserted mapping result without reproducing an explicit derivation (the authors give the numerical mapping result directly): using $\\gamma=2.11\\ \\mathrm{K}^{-1}$ and the assumed Fermi-liquid mapping, the inferred quasiparticle effective-mass ratio is $m^{*}/m=2.12$, and the corresponding first Landau Fermi-liquid parameter is $F_{1}=3.36$; the authors present these numerical values as the outcome of the mapping from $\\gamma$ to $m^{*}/m$ and $F_{1}$.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Note the paper's comparison to earlier work that motivates the significance of these numbers: the reported $\\gamma$ is about $30\\%$ smaller than values reported earlier by Mota et al. and Abel et al., and the authors remark that around $20\\ \\mathrm{mK}$ where the experiments overlap the values of $C/(nR T)$ differ by about $23\\%$, supporting that these inferred Fermi-liquid parameters represent a substantial revision relative to prior low-pressure results.\n[12]\n[13]",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The mapping from the measured linear specific-heat coefficient $\\gamma$ to quasiparticle effective mass $m^{*}/m$ and to Landau parameter $F_{1}$ is central to characterizing interaction effects in $^{3}\\mathrm{He}$. When $\\gamma$ is uncertain, derived quantities $m^{*}/m$ and $F_{1}$ also remain uncertain, and comparisons with other probes (for example, normal-fluid density measurements) and with theoretical predictions of strong-coupling effects are inconclusive. A reliable experimental $\\gamma$ is therefore necessary to fix these Fermi-liquid parameters and to resolve discrepancies among prior determinations.",
+            "id": "paper:811623956246167556::conclusion_3_subproblem",
+            "source_package": "paper:811623956246167556"
+          }
+        ],
+        "source_package": "paper:811623956246167556"
+      }
+    ],
+    "papers": {
+      "paper:811623956246167556": {
+        "area": "Physics and Astrophysics",
+        "authors": "T. A. Alvesalo | T. Haavasoja | P. C. Main | M. T. Manninen | J. Ray | Leila M. M. Rehn",
+        "available_online": "1979-11-12",
+        "cover_date_start": "1979-11-12",
+        "created_at": "2022-12-19T07:43:51+08:00",
+        "doi": "10.1103/physrevlett.43.1509",
+        "en_title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
+        "id": "811623956246167556",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "在超流转变附近液态³He中反常热容量的观测"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "5e6804ec38d30924bca6e69feddcc58a"
+}

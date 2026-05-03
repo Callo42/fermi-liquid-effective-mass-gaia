@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, assuming the standard Landau Fermi-liquid relation between the low-temperature linear specific-heat coefficient gamma and the quasiparticle density of states, the measured gamma = 2.11 K^-1 implies m*/m approximately 2.12 and F1 approximately 3.36 [@Alvesalo1979].",
+      "content_hash": "677cfd58e219594a85552f432260319c7fd6f3e1a2e1311395a042b2de238689",
+      "label": "gcn_800070efac5e476d",
+      "qid": "github:he3_effective_mass::gcn_800070efac5e476d",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:be3e2f8f00b9436bfd8c7b59266fdc975a9284358fd20c2f0ed9e574e85d214f",
+  "manifest_schema_version": 1,
+  "package": "he3-effective-mass",
+  "version": "0.1.0"
+}

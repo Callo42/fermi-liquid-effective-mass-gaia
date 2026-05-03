@@ -1,0 +1,159 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.19788877411840003,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
+      "label": "__conjunction_result_11fed0d5"
+    },
+    {
+      "belief": 0.3095727624858932,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc",
+      "label": "__conjunction_result_363f43bc"
+    },
+    {
+      "belief": 0.6338324474373461,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8",
+      "label": "__conjunction_result_6384c4d8"
+    },
+    {
+      "belief": 0.6393208,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8",
+      "label": "__conjunction_result_fce6a3a8"
+    },
+    {
+      "belief": 0.6359395914628053,
+      "knowledge_id": "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
+      "label": "cross_scope_caution_standard_fl_vs_fcqpt"
+    },
+    {
+      "belief": 0.7656772086678381,
+      "knowledge_id": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
+      "label": "cross_thermodynamic_routes_to_effective_mass"
+    },
+    {
+      "belief": 0.68,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
+      "label": "gcn_03614e9b_homogeneous_isotropic_model"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18",
+      "label": "gcn_1587257a956f4d18"
+    },
+    {
+      "belief": 0.5938091733708275,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "label": "gcn_2741cdef_practical_effective_mass_scheme"
+    },
+    {
+      "belief": 0.72,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "label": "gcn_2e693115_entropy_over_temperature_mass"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a",
+      "label": "gcn_2ee995fe1e674e2a"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
+      "label": "gcn_677c6c_landau_integral_relation"
+    },
+    {
+      "belief": 0.7,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
+      "label": "gcn_6bbfeb95_stable_landau_solutions"
+    },
+    {
+      "belief": 0.80307002524,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
+      "label": "gcn_800070efac5e476d"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
+      "label": "gcn_e0c364ff_inflection_fcqpt_condition"
+    },
+    {
+      "belief": 0.9,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
+      "label": "gcn_ecddfefa_fermion_entropy_formula"
+    },
+    {
+      "belief": 0.880695345465022,
+      "knowledge_id": "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
+      "label": "he3_gamma_implies_mstar_ratio_2_12"
+    },
+    {
+      "belief": 0.8806953454650219,
+      "knowledge_id": "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36",
+      "label": "he3_mstar_ratio_yields_f1_3_36"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5": [
+        0.19788877411840003
+      ],
+      "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc": [
+        0.3095727624858932
+      ],
+      "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8": [
+        0.6338324474373461
+      ],
+      "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8": [
+        0.6393208
+      ],
+      "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt": [
+        0.6359395914628053
+      ],
+      "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass": [
+        0.7656772086678381
+      ],
+      "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model": [
+        0.68
+      ],
+      "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18": [
+        0.82
+      ],
+      "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme": [
+        0.5938091733708275
+      ],
+      "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass": [
+        0.72
+      ],
+      "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a": [
+        0.78
+      ],
+      "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation": [
+        0.82
+      ],
+      "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions": [
+        0.7
+      ],
+      "github:fermi_liquid_effective_mass::gcn_800070efac5e476d": [
+        0.80307002524
+      ],
+      "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition": [
+        0.78
+      ],
+      "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula": [
+        0.9
+      ],
+      "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12": [
+        0.880695345465022
+      ],
+      "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36": [
+        0.8806953454650219
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 6
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:7144e2d657d3f46df836592df826be25f55e8dab2778fd7f62ed390417ccd7ab"
+}
