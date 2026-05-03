@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "De Haas–van Alphen quantum-oscillation measurements performed on high-quality YbRh2Si2 single crystals in steady magnetic fields between 12 T and 28 T with the field applied along the crystallographic a axis (H ∥ a) reveal four clear fundamental frequencies of 2730 T, 3510 T, 5370 T and 7050 T and corresponding cyclotron effective masses m* = (15.0 ± 0.7) m_e, (8.4 ± 0.2) m_e, (10.1 ± 0.2) m_e and (14.9 ± 0.9) m_e (m_e is the free-electron mass); the angular dependence of these measured frequencies in the basal plane is inconsistent with the angular dependences calculated within local‑density‑approximation (LDA) full‑potential augmented‑plane‑wave (FLAPW) band-structure calculations that assume fully itinerant 4f electrons for Yb, whereas the measured angular dependence shows qualitative resemblance to LDA calculations performed for LuRh2Si2 (where 4f states lie well below the Fermi energy), so that the measured oscillation spectrum and effective masses provide the first experimental Fermi-surface information for YbRh2Si2 and reveal a significant mismatch with one set of itinerant-4f band-structure predictions.",
+      "content_hash": "c383d01f0a0c518ae518a492ecfdf174072ccadab375fc9d02fdd2cf4a347fd4",
+      "id": "gcn_c38f8ce989fd454a",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "De Haas–van Alphen quantum-oscillation measurements performed on high-quality YbRh2Si2 single crystals in steady magnetic fields between 12 T and 28 T with the field applied along the crystallographic a axis (H ∥ a) reveal four clear fundamental frequencies of 2730 T, 3510 T, 5370 T and 7050 T and corresponding cyclotron effective masses m* = (15.0 ± 0.7) m_e, (8.4 ± 0.2) m_e, (10.1 ± 0.2) m_e and (14.9 ± 0.9) m_e (m_e is the free-electron mass); the angular dependence of these measured frequencies in the basal plane is inconsistent with the angular dependences calculated within local‑density‑approximation (LDA) full‑potential augmented‑plane‑wave (FLAPW) band-structure calculations that assume fully itinerant 4f electrons for Yb, whereas the measured angular dependence shows qualitative resemblance to LDA calculations performed for LuRh2Si2 (where 4f states lie well below the Fermi energy), so that the measured oscillation spectrum and effective masses provide the first experimental Fermi-surface information for YbRh2Si2 and reveal a significant mismatch with one set of itinerant-4f band-structure predictions.",
+              "id": "gcn_c38f8ce989fd454a"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_5648470e5459468a",
+            "premises": [
+              {
+                "content": "The de Haas–van Alphen frequencies and cyclotron masses reported for YbRh2Si2 are measured in steady magnetic fields between 12 T and 28 T, field strengths at which magnetic polarization, suppression of correlations, or field-driven band shifts can modify band energies and quasiparticle renormalization; therefore the high-field dHvA spectrum obtained at these fields can differ from the zero- or low-field Fermi surface that is relevant for quantum‑critical‑point physics.\n      Fig.7; Fig.8",
+                "id": "gcn_5501e18a04cc458e"
+              },
+              {
+                "content": "The LDA/FLAPW band-structure calculations that treat all 4f electrons as itinerant are known to be sensitive to calculational details and to predict the 4f energy position and resulting Fermi-surface topology in a way that can be unreliable for 4f-derived orbits; therefore a mismatch between the measured dHvA angular dependence and predictions from itinerant‑4f LDA calculations can arise from methodological shortcomings of those calculations rather than from an intrinsic localization of the 4f electrons.\n      Fig.9; Fig.11",
+                "id": "gcn_f20b1f42f35548fb"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start from the upstream established result: accept as already established the upstream conclusion that LDA band-structure calculations place significant sensitivity of predicted Fermi-surface angular dependence to the $4f$ position and that itinerant-4f LDA angular dependence does not match experiment (upstream conclusion known and available for use).",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define experimental method and conditions for the quantum-oscillation measurements: de Haas–van Alphen (dHvA) measurements were performed on highest-quality single crystals (RRR $\\approx300$) at ambient pressure using a cantilever torque meter in steady magnetic fields between $12$ and $28\\ \\mathrm{T}$ with a dilution refrigerator base temperature of $30\\ \\mathrm{mK}$; the magnetic field was applied parallel to the crystallographic $a$ axis ($H\\parallel a$) for the principal data set.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report the observed dHvA frequency spectrum and its extraction: the oscillatory torque signal for $H\\parallel a$ shows reproducible oscillations whose Fourier transform yields four unambiguous frequencies at $2730\\ \\mathrm{T}$, $3510\\ \\mathrm{T}$, $5370\\ \\mathrm{T}$, and $7050\\ \\mathrm{T}$ from a field window $12$–$28\\ \\mathrm{T}$; these frequencies correspond to extremal cross-sectional areas of Fermi-surface orbits according to the Onsager relation (frequency $F$ in tesla proportional to extremal area).\nFig.7",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Describe how effective masses were determined and report the numerical values: the temperature dependence of each oscillation amplitude follows the Lifshitz–Kosevich thermal damping factor, and fitting that temperature dependence yields cyclotron effective masses $m^{\\ast}$ of $(15.0\\pm0.7)\\,m_{e}$ for $2730\\ \\mathrm{T}$, $(8.4\\pm0.2)\\,m_{e}$ for $3510\\ \\mathrm{T}$, $(10.1\\pm0.2)\\,m_{e}$ for $5370\\ \\mathrm{T}$, and $(14.9\\pm0.9)\\,m_{e}$ for $7050\\ \\mathrm{T}$, where $m_{e}$ is the free-electron mass.\nFig.7",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Report the angular dependence of the observed frequencies within the basal plane: the two extreme frequencies (lowest and highest) are observable over the full angular sweep in the basal plane while the two intermediate frequencies are detectable only at small angles near $H\\parallel a$; the measured angular dependence of the observed dHvA frequencies in the basal plane is plotted and shows a specific angular variation that is compared to calculated angular dependencies.\nFig.8",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Compare experimental angular dependence and frequencies with band-structure calculations and note the mismatch: the experimentally observed frequencies (all in the few-kilotesla range) and their angular evolution are inconsistent with the LDA-calculated angular dependences for $YbRh_{2}Si_{2}$ in which itinerant $4f$ electrons produce calculated frequencies mostly below $1\\ \\mathrm{kT}$ or above $10\\ \\mathrm{kT}$, and the shapes of the calculated angular dependencies differ markedly from experiment; by contrast, LDA calculations for $LuRh_{2}Si_{2}$ (where $4f$ are well below $E_{\\mathrm{F}}$) produce an angular dependence that shows qualitative similarity to the measured angular dependence, indicating that the measured spectrum does not match itinerant-4f predictions but resembles a Lu-like $4f$-localized reference.\nFig.9; Fig.11",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Conclude the significance of the dHvA measurements: these dHvA frequencies and extracted effective masses constitute the first experimental Fermi-surface information for $YbRh_{2}Si_{2}$; the measured oscillation spectrum and heavy effective masses reveal a significant mismatch with itinerant-4f LDA band-structure predictions, thereby providing experimental constraints that point to intermediate valence and sensitivity of the $4f$ contribution rather than the simple itinerant-$4f$ LDA picture.\nFig.7; Fig.8; Fig.9; Fig.11",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "A decisive test of the competing scenarios for quantum criticality is the experimental determination of the Fermi surface: in the spin-density-wave picture the Fermi surface remains 'large' through the transition, while in local-criticality a sudden reconstruction from a small to a large Fermi surface is expected. Prior to this work no dHvA data existed for YbRh2Si2 (dHvA requires very clean samples, high fields and very low temperatures), so the low-temperature Fermi-surface topology—necessary to discriminate localized vs itinerant 4f participation in the Fermi sea—was unknown. Furthermore, without experimental quantum-oscillation data it was unclear how accurately LDA itinerant-4f calculations represent the real electronic structure; the absence of oscillation data prevented assessment of multiband mass renormalizations that crucially affect transport and Hall signals.",
+            "id": "paper:812036747075518464::conclusion_4_subproblem",
+            "source_package": "paper:812036747075518464"
+          }
+        ],
+        "source_package": "paper:812036747075518464"
+      }
+    ],
+    "papers": {
+      "paper:812036747075518464": {
+        "area": "Physics and Astrophysics",
+        "authors": "G. Knebel | R. Boursier | E. Hassinger | G. Lapertot | P. G. Niklowitz | A. Pourret | B. Salce | J. P. Sanchez | I. Sheikin | P. Bonville | H. Harima | J. Flouquet",
+        "available_online": "",
+        "cover_date_start": "2006-11-15",
+        "created_at": "2022-12-20T11:04:07+08:00",
+        "doi": "10.1143/jpsj.75.114709",
+        "en_title": "Localization of 4 f State in YbRh 2 Si 2 under Magnetic Field and High Pressure: Comparison with CeRh 2 Si 2",
+        "id": "812036747075518464",
+        "keywords": "",
+        "publication_date": "2006-11-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "磁场和高压下YbRh₂Si₂中4f态的局域化：与CeRh₂Si₂的比较"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "a8eb6abf768d93c08373cd58304a0948"
+}

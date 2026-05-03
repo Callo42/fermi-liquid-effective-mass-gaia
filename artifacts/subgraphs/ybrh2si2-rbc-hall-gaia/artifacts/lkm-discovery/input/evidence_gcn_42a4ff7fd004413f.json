@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and −0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum — which enters the numerator of the low-field Hall coefficient in the Boltzmann formula — is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ≈ 290 states/(eV·unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient γ ≈ 680 mJ·mol^−1·K^−2, while for YbIr2Si2 the RBC gives N(E_F) ≈ 48 states/(eV·unit cell) and γ ≈ 113 mJ·mol^−1·K^−2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+      "content_hash": "a95e4819f19d7273968a94f9ad7b2b383c122d4fbf8278cc6cf67eec1bd1e6e2",
+      "id": "gcn_42a4ff7fd004413f",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and −0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum — which enters the numerator of the low-field Hall coefficient in the Boltzmann formula — is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ≈ 290 states/(eV·unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient γ ≈ 680 mJ·mol^−1·K^−2, while for YbIr2Si2 the RBC gives N(E_F) ≈ 48 states/(eV·unit cell) and γ ≈ 113 mJ·mol^−1·K^−2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+              "id": "gcn_42a4ff7fd004413f"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_0b967f9e875749e8",
+            "premises": [
+              {
+                "content": "In the renormalized-band method (RBC) for heavy-fermion compounds the low-energy contribution of local 4f states is modeled by introducing resonance-type phase shifts for each crystalline-electric-field (CEF) eigenstate m according to\n      \\widetilde{\\eta}_f(E) = arctan[ \\widetilde{\\Delta}_f / (E - \\widetilde{\\epsilon}_f ) ],\n      with resonance-center energies \\widetilde{\\epsilon}_{fm} = \\widetilde{\\epsilon}_f + δ_m where δ_m are the measured CEF excitation energies, and with a single adjustable parameter \\widetilde{\\Delta}_f > 0 that controls the effective quasiparticle resonance width and thereby the mass renormalization; the proposition is that representing the low-energy 4f contribution to the quasiparticle self-energy by this single-parameter resonance form, with \\widetilde{\\Delta}_f fixed by experiment, captures the essential renormalization physics (mass enhancement, 4f-derived band formation, and resulting Fermi-surface topology changes) sufficiently accurately to predict the sign and the near-cancellation of band-resolved transverse transport integrals in YbRh2Si2.\n      G. Zwicknagl, Adv. Phys. 41, 203 (1992); P. Thalmeier and G. Zwicknagl, Handbook on the Physics and Chemistry of Rare Earths, Vol. 34 (2005).",
+                "id": "gcn_c243dcb58cae4418"
+              },
+              {
+                "content": "Let \\widetilde{\\Delta}_f be the single resonance-width parameter of the renormalized-band parametrization introduced above, and let γ_exp denote the experimentally measured linear coefficient of the low-temperature electronic specific heat C(T) = γ_exp T; the proposition is that adjusting \\widetilde{\\Delta}_f so that the computed quasiparticle density of states at the Fermi level N(E_F) reproduces γ_exp yields an RBC band structure whose quasiparticle effective masses and Fermi-surface occupations are sufficiently accurate that the derived reduced transport integrals \\bar{\\sigma}_{xx}(i) and \\bar{\\sigma}_{xyz}(i) and their products with the band occupations \\bar{n}(i) provide reliable indicators of the material's low-temperature transport tendencies.",
+                "id": "gcn_48bba377911d4985"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start from the established upstream result that two principal bands (donut $i=1$ and jungle-gym $i=2$) dominate the Hall transport integrals, and aim to determine how inclusion of $4f$-derived quasiparticles in a renormalized-band calculation (RBC) modifies the band-resolved transport integrals and their signs.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Summarize the renormalized band method inputs and parameter determination: transform the $4f$ states into crystalline-electric-field (CEF) eigenstates $|m\\rangle$ and introduce resonance-type phase shifts\n$\\widetilde{\\eta}_{f}(E)\\simeq\\arctan\\dfrac{\\widetilde{\\Delta}_{f}}{E-\\widetilde{\\epsilon}_{f}}$,\nwhere $\\widetilde{\\Delta}_{f}$ is the resonance width accounting for the renormalized quasiparticle mass and $\\widetilde{\\epsilon}_{f}$ the position of the $f$-derived band center; the CEF-split resonance centers are $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}+\\delta_{m}$ (for the Yb hole analog the sign convention leads to $\\widetilde{\\epsilon}_{f}<0$ and $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}-\\delta_{m}$). The single free parameter $\\widetilde{\\Delta}_{f}$ is fixed by reproducing the experimentally observed low-temperature linear-in-$T$ specific-heat coefficient, thereby grounding the RBC parametrization in thermodynamic data. \n[24]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Compute the renormalized band dispersions $E(i,\\mathbf{k})$ using the RBC Hamiltonian and the experimental CEF scheme and resonance widths; from these dispersions evaluate the band-resolved reduced transport integrals $\\bar{\\sigma}_{xx}(i)$ and $\\bar{\\sigma}_{xyz}(i)$ as defined by the decomposition\n$\\sigma_{xx}(i)=\\sigma(i)\\bar{\\sigma}_{xx}(i)$ and $\\sigma_{xyz}(i)=\\sigma_{B}(i)\\bar{\\sigma}_{xyz}(i)$\nwith the prefactors $\\sigma(i)=\\dfrac{e^{2}}{m}\\pi(i)\\bar{n}(i)$ and $\\sigma_{B}(i)=\\dfrac{|e|^{3}}{m^{2}c}[\\pi(i)]^{2}\\bar{n}(i)$ and $\\bar{n}(i)$ the band occupation per unit cell. This defines the reduced-transport products $\\bar{n}(i)\\bar{\\sigma}_{xyz}(i)$ which directly enter the numerator of the Hall coefficient. \n(Equations reproduced from the transport decomposition in the paper.)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Report the numerical RBC results for YbRh$_2$Si$_2$: the renormalized-band calculation yields for band 1 (donut) a positive reduced transverse transport product $\\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675$ and for band 2 (jungle-gym) a negative product $\\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076$ as listed in the transport-results Table I. These opposite signs indicate that band 1 remains predominantly holelike while band 2 becomes predominantly electronlike in the heavy-Fermi-liquid limit. The near equality in magnitude implies strong cancellation when summing the two contributions in the numerator of $R_{H}$. \nTable I",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "State the RBC prediction for the renormalized density of states at the Fermi energy and its thermodynamic implication: for YbRh$_2$Si$_2$ the RBC yields $N(E_{F})\\approx 290\\ \\mathrm{states/(eV\\ unit\\ cell)}$, which corresponds (via the standard relation between DOS and the Sommerfeld coefficient for the electronic specific heat) to a Sommerfeld coefficient $\\gamma\\approx680\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$; for YbIr$_2$Si$_2$ RBC gives $N(E_{F})\\approx48\\ \\mathrm{states/(eV\\ unit\\ cell)}$ and $\\gamma\\approx113\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$. These values follow from the calculated renormalized quasiparticle DOS displayed in the RBC results. \nFig. 4",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Conclude that in the heavy-Fermi-liquid limit the RBC produces two dominant bands with opposite Hall character for YbRh$_2$Si$_2$, with nearly compensating contributions to the Hall numerator (the products $\\bar{n}(i)\\bar{\\sigma}_{xyz}(i)$ are close in magnitude and opposite in sign), thereby explaining why the total Hall coefficient is expected to be small and highly sensitive to weighting factors (such as band-dependent relaxation times). This explains the RBC-based mechanistic origin of cancellation and near-compensation observed in the numerical transport integrals. \nTable I",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "For the heavy-fermion compounds the crucial open technical obstacle was to obtain a material-specific electronic structure that accounts for the strong renormalization of $4f$ degrees of freedom (Kondo hybridization and CEF splitting) and to determine how these renormalizations change the sign and magnitude of band-resolved contributions to transport integrals. Conventional LDA-based schemes lack controlled treatment of Kondo renormalization and therefore cannot reliably predict whether bands will be holelike or electronlike after $4f$ quasiparticle formation, nor whether their contributions cancel. Without RBC-style calculations constrained by experimental quasiparticle parameters, one cannot (i) assess whether small changes in scattering would flip the sign of $R_{H}$, (ii) estimate the heavy quasiparticle DOS and $\\gamma$, or (iii) interpret measured low-temperature Hall signals in terms of Fermi-surface reconstruction and Kondo physics. The RBC results resolve this by producing band-resolved transport integrals and heavy-quasiparticle DOS consistent with thermodynamic data.",
+            "id": "paper:811773737962569729::conclusion_3_subproblem",
+            "source_package": "paper:811773737962569729"
+          }
+        ],
+        "source_package": "paper:811773737962569729"
+      }
+    ],
+    "papers": {
+      "paper:811773737962569729": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Steffen Wirth | Niels Oeschler | Cornelius Krellner | Christoph Geibel | Frank Steglich | Sam MaQuilon | Zachary Fisk | Silke Paschen | Gertrud Zwicknagl",
+        "available_online": "2010-7-6",
+        "cover_date_start": "2010-07-06",
+        "created_at": "2022-12-19T17:39:01+08:00",
+        "doi": "10.1103/physrevb.82.035103",
+        "en_title": "Hall effect measurements and electronic structure calculations on YbRh 2 Si 2 and its reference compounds LuRh 2 Si 2 and YbIr 2 Si 2",
+        "id": "811773737962569729",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "对YbRh₂Si₂及其参考化合物LuRh₂Si₂和YbIr₂Si₂的霍尔效应测量与电子结构计算"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "1cf8997003e5cb49081d1c6dd75441d1"
+}

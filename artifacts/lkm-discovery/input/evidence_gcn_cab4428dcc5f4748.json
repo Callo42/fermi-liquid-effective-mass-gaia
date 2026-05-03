@@ -1,0 +1,78 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The crossover between non-Fermi-liquid and Fermi-liquid regimes is governed by a field-induced Fermi energy set by the Zeeman energy of the critical modes, k_{B}T_{F} ∼ gμ_{B}B, so that the characteristic Fermi temperature T_{F} grows linearly with applied field B; furthermore, for the empirically determined scaling exponent α = 3/2 the quasiparticle effective mass m^{*}(B), identified thermodynamically with the zero-temperature specific-heat coefficient, scales as m^{*}(B) ∝ B^{\\alpha-2} ∝ B^{-1/2}.",
+      "content_hash": "8c6ca26f6fc73dee86a25f231fcb3e2d054e8c4c818a972f3d0fe9106f86c7f6",
+      "id": "gcn_cab4428dcc5f4748",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The crossover between non-Fermi-liquid and Fermi-liquid regimes is governed by a field-induced Fermi energy set by the Zeeman energy of the critical modes, k_{B}T_{F} ∼ gμ_{B}B, so that the characteristic Fermi temperature T_{F} grows linearly with applied field B; furthermore, for the empirically determined scaling exponent α = 3/2 the quasiparticle effective mass m^{*}(B), identified thermodynamically with the zero-temperature specific-heat coefficient, scales as m^{*}(B) ∝ B^{\\alpha-2} ∝ B^{-1/2}.",
+              "id": "gcn_cab4428dcc5f4748"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_0c480cf6f17c4749",
+            "premises": [
+              {
+                "content": "For the quantum-critical free-energy scaling form FQC(T,B) = B^{α} f(T/B) with real exponent α and a twice-differentiable scaling function f(x), it is assumed that the zero-temperature limit of the specific-heat coefficient γ(T = 0,B) ≡ lim_{T→0} C(T,B)/T exists and is given by γ(T = 0,B) = −B^{α−2} f''(0), and that this thermodynamic γ(T = 0,B) is proportional to the quasiparticle effective mass m^{*}(B) (i.e., m^{*}(B) ∝ γ(T = 0,B)), so that m^{*}(B) ∝ B^{α−2} f''(0); this proposition requires that f''(0) is finite and nonzero, that a thermodynamic identification of quasiparticle mass is valid in the correlated quantum-critical regime under study, and that no singular low-temperature contributions to C/T (for example from nuclear Schottky terms or other low-energy excitations) invalidate the identification.",
+                "id": "gcn_1fc2d22cba5a436f"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State the upstream empirical closed-form free energy used as starting input: adopt the closed-form quantum-critical free energy $F_{\\mathrm{QC}}(T,B)=-\\dfrac{1}{(k_{\\mathrm{B}}\\tilde{T})^{1/2}}\\Big((g\\mu_{\\mathrm{B}}B)^{2}+(k_{\\mathrm{B}}T)^{2}\\Big)^{3/4}$ and the empirically determined exponent $\\alpha=3/2$ (conclusion 2) as the starting point for deriving the field-induced Fermi-liquid scale and the field-dependence of the quasiparticle effective mass $m^{*}(B)$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Extract the field-induced Fermi energy (Fermi temperature) from the scaling variable: the scaling collapse is governed by the dimensionless ratio $r\\equiv k_{\\mathrm{B}}T/(g\\mu_{\\mathrm{B}}B)$ and the observed crossover peak in the scaling function lies at $k_{\\mathrm{B}}T/g\\mu_{\\mathrm{B}}B\\sim 1$, indicating that the crossover between NFL and FL regimes is set by the condition $k_{\\mathrm{B}}T_{F}\\sim g\\mu_{\\mathrm{B}}B$; define the characteristic field-induced Fermi temperature $T_{F}$ via $k_{\\mathrm{B}}T_{F}\\sim g\\mu_{\\mathrm{B}}B$, so that $T_{F}$ grows linearly with applied field $B$. \nFig. 2B",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Relate the free-energy exponent to the field dependence of the quasiparticle effective mass: the specific-heat coefficient $\\gamma(T,B)=C(T,B)/T$ can be obtained from the free energy by $\\gamma(T,B)=-\\partial^{2}F/\\partial T^{2}$; using the scale form $F=B^{\\alpha}f(T/B)$ leads to $\\gamma(T,B)=-B^{\\alpha-2}f''(T/B)$, and the zero-temperature limit of $\\gamma$ (which is proportional to the quasiparticle effective mass $m^{*}(B)$) therefore scales as $m^{*}(B)\\propto B^{\\alpha-2}f''(0)$. \n(S-8)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Insert the empirical exponent $\\alpha=3/2$ to obtain the mass scaling: setting $\\alpha=3/2$ in $m^{*}(B)\\propto B^{\\alpha-2}$ yields $m^{*}(B)\\propto B^{-1/2}$ (since $\\alpha-2=-1/2$), so the quasiparticle effective mass diverges as a negative power of field, $m^{*}\\propto B^{-1/2}$, as $B\\to 0$ in the quantum-critical regime. \n(S-9)",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "To understand how a small magnetic field restores Fermi-liquid behavior in a putative quantum-critical metal, it is necessary to identify the energy scale that controls the FL–NFL crossover and to quantify how quasiparticle parameters (e.g., effective mass) depend on field. Prior experiments lacked either the dynamical range or the precision to unambiguously establish a simple linear relation between $T_{F}$ and $B$ or to extract a robust field exponent for $m^{*}(B)$. Establishing $k_{\\mathrm{B}}T_{F}\\sim g\\mu_{\\mathrm{B}}B$ and $m^{*}\\propto B^{-1/2}$ directly supplies the microscopic scaling of low-energy excitations and shows how an infinitesimal Zeeman splitting produces a finite FL energy scale.",
+            "id": "paper:867770878820090410::conclusion_5_subproblem",
+            "source_package": "paper:867770878820090410"
+          }
+        ],
+        "source_package": "paper:867770878820090410"
+      }
+    ],
+    "papers": {
+      "paper:867770878820090410": {
+        "area": "arXiv-Physics",
+        "authors": "Yosuke Matsumoto | Satoru Nakatsuji | Kentaro Kuga | Yoshitomo Karaki | Naoki Horie | Yasuyuki Shimura | Toshiro Sakakibara | Andriy H. Nevidomskyy | Piers Coleman",
+        "available_online": "",
+        "cover_date_start": "2011-01-22",
+        "created_at": "2023-05-23T06:11:40+08:00",
+        "doi": "10.48550/arXiv.1101.4302",
+        "en_title": "Quantum Criticality without Tuning in the Mixed Valence Compound beta-YbAlB4",
+        "id": "867770878820090410",
+        "keywords": "",
+        "publication_date": "2011-01-22",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "混合价化合物β-YbAlB₄中无需调节的量子临界性"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "638e18ada576335c819c7219909d121c"
+}

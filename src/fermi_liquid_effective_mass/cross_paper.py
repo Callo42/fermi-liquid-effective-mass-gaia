@@ -1,4 +1,4 @@
-"""cross_paper -- cautious synthesis across the two selected LKM roots."""
+"""cross_paper -- cautious synthesis across the selected LKM roots."""
 
 from gaia.lang import claim, support
 
@@ -6,6 +6,12 @@ from .paper_alvesalo1979 import (
     gcn_1587257a956f4d18,
     gcn_800070efac5e476d,
     he3_gamma_implies_mstar_ratio_2_12,
+)
+from .paper_friedemann2010 import (
+    gcn_42a4ff_rbc_hall_dos_values,
+    helper_rbc_dos_gamma_ybrh2si2_ybir2si2,
+    helper_rbc_parameterization_constrained_by_cef_gamma,
+    helper_ybrh2si2_opposite_hall_transport_products,
 )
 from .paper_shaginyan2010 import (
     gcn_03614e9b_homogeneous_isotropic_model,
@@ -15,11 +21,11 @@ from .paper_shaginyan2010 import (
 
 
 cross_thermodynamic_routes_to_effective_mass = claim(
-    "Across the two selected LKM roots, low-energy thermodynamic quantities are used "
-    "as operational routes to quasiparticle effective mass: Alvesalo et al. infer "
-    "m*/m for liquid He-3 from the linear specific-heat coefficient gamma, while "
-    "Shaginyan et al. extract M*(T,B) for YbRh2Si2 from S(T,B)/T within their "
-    "heavy-electron Landau/FCQPT scheme.",
+    "Across the He-3 and Shaginyan YbRh2Si2 roots, low-energy thermodynamic "
+    "quantities are used as operational routes to quasiparticle effective mass: "
+    "Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat "
+    "coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 "
+    "from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
     provenance_source="synthesis",
     derived_from_lkm_ids=[
         "gcn_800070efac5e476d",
@@ -39,6 +45,23 @@ cross_scope_caution_standard_fl_vs_fcqpt = claim(
         "gcn_1587257a956f4d18",
         "gcn_03614e9b5933496a",
         "gcn_2e69311592b04bcb",
+    ],
+)
+
+cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope = claim(
+    "Material-specific YbRh2Si2 renormalized-band evidence from Friedemann et al. "
+    "qualifies, rather than refutes, the homogeneous isotropic FCQPT premise in "
+    "the Shaginyan et al. branch: the FCQPT premise is a universal-scaling "
+    "approximation that deliberately omits lattice anisotropy, band topology, "
+    "multiple bands, CEF splitting, and band-resolved Hall cancellations, while "
+    "the RBC/Hall/DOS chain supplies those omitted material-specific details for "
+    "YbRh2Si2.",
+    provenance_source="synthesis",
+    derived_from_lkm_ids=[
+        "gcn_03614e9b5933496a",
+        "gcn_42a4ff7fd004413f",
+        "gcn_c243dcb58cae4418",
+        "gcn_48bba377911d4985",
     ],
 )
 
@@ -71,4 +94,25 @@ strat_cross_scope_caution = support(
         "than equivalence or contradiction."
     ),
     prior=0.88,
+)
+
+strat_cross_ybrh2si2_rbc_scope_qualification = support(
+    [
+        gcn_03614e9b_homogeneous_isotropic_model,
+        gcn_42a4ff_rbc_hall_dos_values,
+        helper_rbc_parameterization_constrained_by_cef_gamma,
+        helper_ybrh2si2_opposite_hall_transport_products,
+        helper_rbc_dos_gamma_ybrh2si2_ybir2si2,
+    ],
+    cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope,
+    reason=(
+        "The Shaginyan premise explicitly says the homogeneous isotropic model "
+        "neglects crystal-lattice anisotropy, Brillouin-zone structure, multiple "
+        "bands, and anisotropic effective masses for universal scaling. The "
+        "Friedemann RBC root and helpers explicitly add material-specific CEF/gamma "
+        "calibration, band-resolved Hall-product cancellation, and DOS/gamma values "
+        "for YbRh2Si2. These facts ground a scope-qualification claim because the "
+        "model scopes differ while remaining jointly satisfiable."
+    ),
+    prior=0.90,
 )

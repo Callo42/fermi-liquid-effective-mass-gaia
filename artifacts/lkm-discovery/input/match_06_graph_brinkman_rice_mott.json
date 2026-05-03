@@ -1,0 +1,329 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:812027594579902464": {
+        "area": "Physics and Astrophysics",
+        "authors": "Hyun-Tak Kim | Yong Wook Lee | Bong-Jun Kim | Byung-Gyu Chae | Sun Jin Yun | Kwang-Yong Kang | Kang-Jeon Han | Ki-Ju Yee | Yong-Sik Lim",
+        "available_online": "2006-12-26",
+        "cover_date_start": "2006-12-26",
+        "created_at": "2022-12-20T10:27:45+08:00",
+        "doi": "10.1103/physrevlett.97.266401",
+        "en_title": "Monoclinic and Correlated Metal Phase in VO 2 as Evidence of the Mott Transition: Coherent Phonon Analysis",
+        "id": "812027594579902464",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "VO₂ 中的单斜相和关联金属相作为莫特转变的证据：相干声子分析"
+      },
+      "paper:812604526677721090": {
+        "area": "Physics and Astrophysics",
+        "authors": "Emre Yesil | Shusaku Imajo | Tetsuya Nomoto | Satoshi Yamashita | Hiroki Akutsu | Yasuhiro Nakazawa",
+        "available_online": "",
+        "cover_date_start": "2020-07-15",
+        "created_at": "2022-12-22T00:40:18+08:00",
+        "doi": "10.7566/jpsj.89.073701",
+        "en_title": "Variation of Electronic Heat Capacity of κ-(BEDT-TTF) 2 Cu[N(CN) 2 ]Br Induced by Partial Substitution of Donor Layers",
+        "id": "812604526677721090",
+        "keywords": "",
+        "publication_date": "2020-7-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "施主层部分取代诱导的κ-(BEDT-TTF)₂Cu[N(CN)₂]Br电子热容变化"
+      },
+      "paper:813324829561192449": {
+        "area": "Physics and Astrophysics",
+        "authors": "J.-S. Zhou | W. Archibald | J. B. Goodenough",
+        "available_online": "2000-2-1",
+        "cover_date_start": "2000-02-01",
+        "created_at": "2022-12-24T00:22:31+08:00",
+        "doi": "10.1103/physrevb.61.3196",
+        "en_title": "Approach to Curie-Weiss paramagnetism in the metallic perovskites La 1 − x Nd x CuO 3",
+        "id": "813324829561192449",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "金属钙钛矿La₁₋ₓNdₓCuO₃中居里 - 外斯顺磁性的研究方法"
+      },
+      "paper:813343302173589505": {
+        "area": "Physics and Astrophysics",
+        "authors": "P. W. Anderson",
+        "available_online": "1984-8-1",
+        "cover_date_start": "1984-08-01",
+        "created_at": "2022-12-24T01:35:55+08:00",
+        "doi": "10.1103/physrevb.30.1549",
+        "en_title": "Heavy-electron superconductors, spin fluctuations, and triplet pairing",
+        "id": "813343302173589505",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "重电子超导体、自旋涨落与三重态配对"
+      },
+      "paper:814525482547544066": {
+        "area": "Comprehensive Periodical",
+        "authors": "S. Friedemann | H. Chang | M. B. Gamża | P. Reiss | X. Chen | P. Alireza | W. A. Coniglio | D. Graf | S. Tozer | F. M. Grosche",
+        "available_online": "2016-5-12",
+        "cover_date_start": "2016-05-12",
+        "created_at": "2022-12-27T07:53:29+08:00",
+        "doi": "10.1038/srep25335",
+        "en_title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+        "id": "814525482547544066",
+        "keywords": "",
+        "publication_date": "2016-5-31",
+        "publication_id": "9354",
+        "publication_name": "Scientific Reports _ Sci Rep",
+        "research_categories": "",
+        "zh_title": "NiS₂中处于莫特绝缘态边界的重电子的大费米面"
+      },
+      "paper:867754711044850391": {
+        "area": "arXiv-Physics",
+        "authors": "Hyun-Tak Kim",
+        "available_online": "",
+        "cover_date_start": "2000-01-03",
+        "created_at": "2023-05-23T05:07:25+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0001008",
+        "en_title": "Extension of the Brinkman-Rice picture and the Mott transition",
+        "id": "867754711044850391",
+        "keywords": "",
+        "publication_date": "2000-01-03",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "布林克曼 - 赖斯模型的扩展与莫特转变"
+      },
+      "paper:867759127584047395": {
+        "area": "arXiv-Physics",
+        "authors": "Chunhua Li | Ziqiang Wang",
+        "available_online": "",
+        "cover_date_start": "2008-07-24",
+        "created_at": "2023-05-23T05:24:58+08:00",
+        "doi": "10.48550/arXiv.0807.3750",
+        "en_title": "Mott and Wigner-Mott transitions in doped correlated electron systems: effects of superlattice potential and inter-site correlation",
+        "id": "867759127584047395",
+        "keywords": "",
+        "publication_date": "2008-07-24",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "掺杂关联电子系统中的莫特（Mott）转变和维格纳 - 莫特（Wigner - Mott）转变：超晶格势和格点间关联的影响"
+      },
+      "paper:867770551072981407": {
+        "area": "arXiv-Physics",
+        "authors": "M. Capone | M. Fabrizio | E. Tosatti",
+        "available_online": "",
+        "cover_date_start": "2001-01-26",
+        "created_at": "2023-05-23T06:10:22+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0101402",
+        "en_title": "Direct Transition Between a Singlet Mott Insulator and a Superconductor",
+        "id": "867770551072981407",
+        "keywords": "",
+        "publication_date": "2001-01-26",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "单重态莫特绝缘体与超导体之间的直接转变"
+      }
+    },
+    "variables": [
+      {
+        "content": "A normal Fermi liquid state is defined here as an electronic phase with a well-defined Fermi surface, a finite quasiparticle weight $Z>0$ (where $Z\\equiv m/m_{*}$ with $m$ the bare band mass and $m_{*}$ the quasiparticle effective mass), and a low-energy coherence scale $T_{K}$ (effective Fermi energy $E_{F}^{*}$) below which thermodynamic quantities are those of a Fermi liquid. In a Brinkman–Rice type scenario the approach to the Mott transition is characterized by a divergent effective mass $m_{*}\\to\\infty$ and a vanishing quasiparticle weight $Z\\to0$, so that $T_{K}\\to0$ and the Fermi-liquid electronic entropy per lattice site at $T\\sim T_{K}$, $S(T_{K})$, remains of order unity for any $T_{K}>0$. A nondegenerate singlet Mott insulator is defined as an insulating phase whose ground state is a unique spin-singlet with a finite spin gap and strictly zero entropy as $T\\to0$. Under these definitions, and assuming no motion of the chemical potential that would convert the transition into a metal–band-insulator crossover and assuming no spontaneous symmetry breaking that changes the entropy budget, a continuous adiabatic connection (a direct crossover without a thermodynamic phase transition or symmetry breaking) from the described Brinkman–Rice Fermi liquid to the defined nondegenerate singlet Mott insulator is impossible because the finite low-temperature entropy of the Fermi liquid cannot be removed continuously as $T_{K}\\to0$ while the insulator has zero entropy; therefore some intervening thermodynamic instability or a distinct intermediate phase must occur between the Fermi-liquid metal and the singlet Mott insulator rather than a direct continuous Fermi-liquid–insulator crossover.",
+        "content_hash": "19d2c49939460603f40131b4745229099de327c17b0ab4764f4f5e5b274ad33c",
+        "id": "gcn_e4ecd721edd14d3f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770551072981407::conclusion_1",
+            "package_id": "paper:867770551072981407",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770551072981407"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.03125763125763126,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper asserts that the extended Brinkman–Rice picture with $U=\\kappa\\rho^{2}U_{c}$ better explains the Mott transition in the examined materials than the $d=\\infty$ Hubbard model, supporting this claim by citing the qualitative difference in mechanisms (in the $d=\\infty$ Hubbard model the coherent‑peak weight of the spectral function decreases with increasing $U$ and the Mott transition occurs via loss of coherence, whereas in the extended Brinkman–Rice picture the transition is associated with a diverging quasiparticle effective mass as $\\rho\\to1$) together with the fitted agreement of the extended Brinkman–Rice formula to selected specific‑heat data.\n      X. Y. Zhang, M. J. Rozenberg, and G. Kotliar, Phys. Rev. Lett. 70, 1666 (1993)",
+        "content_hash": "7d0bf40415ac768d2563cb5d79153bed270ed015325ab09964b917a62cc47da5",
+        "id": "gcn_aede37b68e2a48cf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754711044850391::P9",
+            "package_id": "paper:867754711044850391",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754711044850391"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03047794966520434,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $m^*(U)$ denote the quasiparticle effective mass predicted by the Brinkman–Rice theory as a function of an interaction parameter $U$, which diverges at the theoretical Mott critical point in the homogeneous single-band model; the proposition is that the Brinkman–Rice scenario of a near-diverging effective mass $m^*$ as the Mott transition is approached applies qualitatively (and potentially quantitatively with caveats) to the experimentally prepared VO2 thin films that exhibit structural and electronic inhomogeneity, so that observed transport and optical signatures may be interpreted in terms of a Brinkman–Rice-like enhancement of $m^*$ in these inhomogeneous samples.",
+        "content_hash": "f06390f3e6d2569f2b44044a82be72be6531ef5dbb697f78d9017c3fe47c8820",
+        "id": "gcn_b3d11310ce2a4cac",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812027594579902464::P10",
+            "package_id": "paper:812027594579902464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812027594579902464"
+          ]
+        },
+        "role": "premise",
+        "score": 0.030117753623188408,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define a Brinkman–Rice Fermi-liquid fixed point as a Fermi-liquid proximate to a Mott/local-moment instability with very large effective-mass renormalization and a finite (nondivergent) Stoner enhancement of the uniform spin susceptibility; the claim is that for a Kondo-lattice metal in which inter-site interactions (direct inter-site exchange, RKKY couplings, or incipient magnetic ordering tendencies) are sufficiently weak or irrelevant, these inter-site collective effects do not qualitatively alter the local Nozières-type Fermi-liquid physics and the Brinkman–Rice description remains the appropriate low-energy fixed point.",
+        "content_hash": "f31b103f61fa80c85897fa2046c0120c1420a39b8d0ff1db6e14dfda84762ad4",
+        "id": "gcn_8f275a75866e4923",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813343302173589505::P13",
+            "package_id": "paper:813343302173589505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813343302173589505"
+          ]
+        },
+        "role": "premise",
+        "score": 0.030090497737556562,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The ground state of a periodic Kondo-lattice of localized $f$-ions whose local magnetic moments are quenched by Kondo screening is described by a Brinkman–Rice type Fermi-liquid fixed point (a \"Brinkman–Rice liquid\"), i.e., a strongly renormalized Fermi liquid in which local on-site correlations produce very large quasiparticle effective-mass renormalizations while the uniform-spin susceptibility enhancement (the Stoner enhancement) remains finite and of order unity rather than diverging. Here \"Kondo-lattice\" denotes a crystalline solid in which a periodic subset of lattice sites host local magnetic degrees of freedom from $f$-electron shells that hybridize with conduction electrons to form a coherent heavy-quasiparticle band, and \"Brinkman–Rice liquid\" denotes a Fermi-liquid fixed point proximate to a Mott- or local-moment instability characterized by large mass renormalization and a finite Stoner enhancement factor.",
+        "content_hash": "250f25ce3e82f8a682db3ea19b6f8245d8273a0399a86d1c1fccfac22f0ad2b2",
+        "id": "gcn_7ae79f122f1c4fcb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813343302173589505::conclusion_1",
+            "package_id": "paper:813343302173589505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813343302173589505"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.028612012987012988,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the normal state of the dimer-Mott series represented by κ-(BEDT-TTF)$_{2}$Cu[N(CN)$_{2}$]Br and for its 5% BEDSe-TTF substituted derivative κ-[(BEDT-TTF)$_{0.95}$(BEDSe-TTF)$_{0.05}$]$_{2}$Cu[N(CN)$_{2}$]Br, an increase in the electronic heat-capacity coefficient γN accompanied by reductions in the superconducting transition temperature $T_{\\mathrm{c}}$ and the jump magnitude $\\Delta C_{p}T_{\\mathrm{c}}^{-1}$ is better explained by suppression of a Mott–Hubbard-related gap-like depletion of low-energy spectral weight (a depletion associated with proximity to the Mott critical boundary) than by a Brinkman–Rice-type quasiparticle-mass enhancement in a correlated Fermi liquid.\n      W. F. Brinkman and T. M. Rice, Phys. Rev. B 2, 4302 (1970)",
+        "content_hash": "2687593eb17124a482fb4c0c4c8f4f466112e778a2b873fe1051f496f7535303",
+        "id": "gcn_96ab6607d7514051",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812604526677721090::P16",
+            "package_id": "paper:812604526677721090",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812604526677721090"
+          ]
+        },
+        "role": "premise",
+        "score": 0.026973565905412694,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Brinkman–Rice (Gutzwiller) mass‑enhancement model predicts that, for a half‑filled electronic band approaching the Mott–Hubbard transition from the metallic side, the quasiparticle effective mass m* and the Pauli susceptibility χP are renormalized by a factor of the form [1 − (U/Uc)^2]^{-1}, where U is the on‑site Coulomb repulsion energy and Uc is the critical U at the transition; N. F. Mott proposed that a crossover temperature Td exists such that flattening of the quasiparticle dispersion within an energy window ΔE ≈ kTd can produce a Curie‑like 1/kT contribution to the susceptibility for T < Td while an enhanced, nearly T‑independent Pauli term dominates for T > Td. The observed slope change of the CuO3 susceptibility near T ≈ 200 K can therefore be interpreted qualitatively as the Mott‑predicted crossover at Td ≈ 200 K in a Brinkman–Rice scenario for a mass‑enhanced half‑filled band approaching the Mott transition, making the Brinkman–Rice/Mott picture a plausible qualitative description of the temperature dependence of χm(T) in these materials.\n      W. F. Brinkman and T. M. Rice, Phys. Rev. B 2, 4302 (1970); N. F. Mott, Metal-Insulator Transitions (1990)",
+        "content_hash": "14df998e6910e1ea26edf56d1c6bb907341080aec7e481b14d4318be5a81d5fe",
+        "id": "gcn_72afe521aefd4775",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813324829561192449::P11",
+            "package_id": "paper:813324829561192449",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813324829561192449"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02694394213381555,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The inference that the coexistence of a large Fermi-surface extremal area and an enhanced quasiparticle effective mass demonstrates realization of the Brinkman–Rice correlated-metal scenario (suppressed quasiparticle weight Z with preserved Luttinger volume) presumes that alternative mechanisms—such as strong renormalization by spin fluctuations, enhanced electron–phonon coupling, or Fermi-surface reconstruction associated with proximate magnetic order—cannot produce the same pair of experimental observations without invoking Brinkman–Rice physics.\n      Brinkman, W. F. & Rice, T. M. Application of Gutzwiller's Variational Method to the Metal-Insulator Transition. Phys. Rev. B 2, 4302–4304 (1970).",
+        "content_hash": "197a51805aeaa753b0ec68ab3bcdf1b1ba7401da65773138ba24affce5e5bd2b",
+        "id": "gcn_8a1a27485204457b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814525482547544066::P6",
+            "package_id": "paper:814525482547544066",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814525482547544066"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02667140825035562,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The MCM phase is interpreted within a hole-driven extension of the Brinkman–Rice picture of the Mott transition as a correlated metallic state in which electron–electron interactions produce a strongly enhanced quasiparticle effective mass $m^*$ as the MIT is approached; here $m^*$ denotes the interaction-renormalized quasiparticle mass and $m$ denotes a noninteracting band reference mass. In this interpretation the electrical conductivity $\\sigma$ in the MCM regime is proposed to scale as $\\sigma \\propto \\bigl(m^*/m\\bigr)^2$, so that a large effective-mass enhancement near the MIT corresponds to enhanced conductivity that is characteristic of correlation-dominated (Mott-type) physics rather than a rutile-band-metal formed solely by lattice rearrangement.",
+        "content_hash": "de348d3e223d61aca5260440cefe75fbc0b44dda0dd35a2e9e530c9c7070c954",
+        "id": "gcn_9d22288a75b3439e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812027594579902464::conclusion_5",
+            "package_id": "paper:812027594579902464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812027594579902464"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02664576802507837,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Brinkman–Rice (BR) picture for a Mott transition in variational Gutzwiller-type treatments is that a Mott transition of an isolated quasiparticle band is signaled by a continuous vanishing of the quasiparticle weight $Z$ (equivalently a divergence of the effective mass $m^*$, so $Z=m/m^*$ tending to zero) at a critical coupling, accompanied by the doublon density going to zero. The proposition is that in an orbital-selective situation treated within the two-site VCGA variational framework—specifically when the lower supercell-derived subband becomes progressively narrower due to increasing interactions or crystal-field induced orbital polarization—the observed continuous vanishing of $Z$ and of doublon densities as the crystal-field splitting $\\Delta\\to\\Delta_c^-$ can be interpreted within the Brinkman–Rice scenario as an orbital-selective Mott transition of the effective one-band quasiparticle formed by the lower subband.",
+        "content_hash": "a341620fe750d8631117608adbf0b3295c8e876c7c8a507dabfdee76abcca2c0",
+        "id": "gcn_1741c83436224f64",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759127584047395::P10",
+            "package_id": "paper:867759127584047395",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759127584047395"
+          ]
+        },
+        "role": "premise",
+        "score": 0.022727272727272728,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "cd334bcebd5889f70e6680c0bf50f337"
+}

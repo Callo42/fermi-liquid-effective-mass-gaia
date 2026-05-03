@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a heavy-fermion metal tuned by an external magnetic field $B$ to a field-tuned quantum critical point at $B=B_{c0}$, the low-temperature Landau quasiparticle effective mass $M^{*}(B)$ in the restored Landau-Fermi-liquid regime for $B>B_{c0}$ exhibits power-law scaling with reduced field,\n      $$\n        M^{*}(B)\\propto (B-B_{c0})^{\\alpha},\n      $$\n      with critical exponent $\\alpha=-1/2$; here $B_{c0}$ denotes the critical magnetic field that tunes the system to the quantum critical point and $M^{*}(B)$ is the quasiparticle effective mass relevant to low-temperature thermodynamic and transport properties.\n      [1]\n      [12]",
+      "content_hash": "817bfba1a5b1b10ed10bd5dbcf09da29b3b84b4c9ace64016effd4ddfd56ae1e",
+      "id": "gcn_f5b9f5de7f0b40e3",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "8a8a4cebe49a6386affbdd10f056edd5"
+}

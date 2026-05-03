@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The coincident $T^{-1/2}$ power laws observed in the Sommerfeld coefficient $C/T$, the uniform susceptibility $\\chi$, and the normalized thermal expansion $\\alpha/T$, together with the universal scaling of the normalized effective mass across different heavy-fermion materials, are consistently accounted for within a quasiparticle framework in which the electronic system undergoes a fermion-condensation quantum phase transition (FCQPT); under this interpretation, the non-Fermi-liquid (NFL) thermodynamic behavior observed at quantum critical points of these heavy-fermion metals is attributed to FCQPT-driven renormalization of the quasiparticle mass rather than to material-specific critical fluctuation modes, so that multiple different fluctuation-dominated quantum critical points hypothesized for different compounds can be conceptually replaced by a single FCQPT-related quantum critical point that controls the observed universal NFL thermodynamics.",
+      "content_hash": "d2a12e74d89f86e4b96e6c8a10414aa43b216673dc2bd4f458eaaaca1640eb9e",
+      "id": "gcn_6fcf4e95635944e7",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The coincident $T^{-1/2}$ power laws observed in the Sommerfeld coefficient $C/T$, the uniform susceptibility $\\chi$, and the normalized thermal expansion $\\alpha/T$, together with the universal scaling of the normalized effective mass across different heavy-fermion materials, are consistently accounted for within a quasiparticle framework in which the electronic system undergoes a fermion-condensation quantum phase transition (FCQPT); under this interpretation, the non-Fermi-liquid (NFL) thermodynamic behavior observed at quantum critical points of these heavy-fermion metals is attributed to FCQPT-driven renormalization of the quasiparticle mass rather than to material-specific critical fluctuation modes, so that multiple different fluctuation-dominated quantum critical points hypothesized for different compounds can be conceptually replaced by a single FCQPT-related quantum critical point that controls the observed universal NFL thermodynamics.",
+              "id": "gcn_6fcf4e95635944e7"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_3e774795bf454226",
+            "premises": [
+              {
+                "content": "Define \"survival of quasiparticles\" as the persistence of fermionic Landau quasiparticle excitations with a finite quasiparticle residue and a temperature-dependent effective mass $M^*(T)$ as the relevant low-energy degrees of freedom down to the lowest experimentally relevant temperatures; the working assertion is that near fermion-condensation quantum phase transitions (FCQPT) critical thermal and quantum fluctuations are sufficiently suppressed on the disordered side and under the conditions considered so that the quasiparticle description remains valid and dominates the thermodynamics rather than fluctuation-dominated critical modes.\n      [9,10,11]",
+                "id": "gcn_4f9d3cd6ea184ff9"
+              },
+              {
+                "content": "Define the normalized effective mass $M_N^*(z)$ by dividing a thermodynamic effective-mass proxy (for example, $C(T)/T$ or the AC susceptibility $\\chi_{AC}(T)$) by its peak value at fixed tuning and scaling temperature by the peak temperature $T_M$ so that $z=T/T_M$; the working assertion is that the empirical collapse of such normalized data observed for the measured datasets—specifically, paramagnetic CeRu_2Si_2 under small magnetic fields and CePd_{1-x}Rh_x at $x=0.80$—is representative of a universal scaling function for $M_N^*(z)$ that applies broadly across heavy-fermion compounds independent of lattice structure, spatial dimension, and magnetic ground state, i.e., that a single FCQPT-related scaling function can account for the normalized effective-mass behavior observed in disparate materials.",
+                "id": "gcn_186231f95e94476a"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Take as established the analytic and numerical results: the quasiparticle effective mass near FCQPT exhibits the universal low-temperature divergence $M^{*}(T)\\propto 1/\\sqrt{T}$ (analytic result), the model functional calculation produces $S(T)=c_1\\sqrt{T}$ and hence $S(T)/T\\propto M^{*}(T)\\propto 1/\\sqrt{T}$ (numerical confirmation), and the correlated proportionalities $C(T)/T\\propto \\chi(T)\\propto \\alpha(T)/T\\propto M^{*}(T)\\propto 1/\\sqrt{T}$ have been derived; furthermore, a compact interpolation formula for the normalized effective mass and empirical collapse of normalized susceptibility and specific-heat data from different heavy-fermion (HF) materials onto the same curve have been demonstrated. Treat these earlier conclusions as known starting points for interpretation.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Recall the authors' argument concerning fluctuations and quasiparticles: when an electronic system undergoes a fermion-condensation quantum phase transition (FCQPT), critical thermal and quantum fluctuations are strongly suppressed in the sense asserted by the authors, so that quasiparticles survive down to the lowest temperatures and are the appropriate degrees of freedom for describing thermodynamics in the vicinity of the QCP; cite the literature and the experimental observation of surviving quasiparticles in a related HF compound that the authors invoke to support quasiparticle survival.\n[9,11–13]\n[10]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Synthesize the preceding analytic, numerical, and empirical elements: because the quasiparticle picture with FCQPT yields the same $T^{-1/2}$ dependence of the effective mass and thus enforces correlated $T^{-1/2}$ power laws in $C/T$, $\\chi$, and $\\alpha/T$, and because normalized effective-mass data from HF materials with different magnetic ground states collapse onto a single interpolation curve, conclude that these diverse experimental observations are naturally accounted for by FCQPT-driven quasiparticle mass renormalization rather than by disparate, material-specific fluctuation-dominated quantum critical points that would be expected to produce uncorrelated behavior across observables and materials.\nFig. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Draw the interpretive conclusion: attribute the observed universal non-Fermi-liquid (NFL) thermodynamic behavior across the cited HF metals to FCQPT-induced quasiparticle mass renormalization and state that, accordingly, multiple distinct fluctuation-dominated QCPs hypothesized for different HF compounds can be conceptually replaced by a single FCQPT-related QCP that controls the universal thermodynamic NFL behavior; note that this substitution is the authors' proposed unifying explanation linking analytic theory, model calculations, and experimental scaling.",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The central conceptual gap is whether the diverse NFL thermodynamic signatures of HF compounds originate from disparate, material-specific fluctuation-dominated QCPs (which would imply non-universal behavior) or from a single, material-independent mechanism that preserves quasiparticles while producing large mass renormalization. Prior theoretical scenarios emphasizing critical fluctuations cannot easily explain correlated power laws across several observables and across different material classes. Providing a coherent framework that ties together analytic results for $M^{*}(T)$, model calculations, and experimental scaling while preserving quasiparticles addresses this central interpretive gap and offers a unified explanation for observed universal NFL thermodynamics.",
+            "id": "paper:811982964823949313::conclusion_7_subproblem",
+            "source_package": "paper:811982964823949313"
+          }
+        ],
+        "source_package": "paper:811982964823949313"
+      }
+    ],
+    "papers": {
+      "paper:811982964823949313": {
+        "area": "Physics and Astrophysics",
+        "authors": "V. R. Shaginyan | K. G. Popov | S. A. Artamonov",
+        "available_online": "",
+        "cover_date_start": "2007-06-01",
+        "created_at": "2022-12-20T07:30:24+08:00",
+        "doi": "10.1134/s0021364007080115",
+        "en_title": "Universal behavior of CePd1−x Rh x ferromagnet at the quantum critical point",
+        "id": "811982964823949313",
+        "keywords": "",
+        "publication_date": "2007-6",
+        "publication_id": "675",
+        "publication_name": "JETP Letters _ Jetp Lett.",
+        "research_categories": "",
+        "zh_title": "铈钯（$CePd_{1 - x}Rh_x$）铁磁体在量子临界点的普适行为"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "cb9f523a9f328ff79225b4566b5f02f9"
+}

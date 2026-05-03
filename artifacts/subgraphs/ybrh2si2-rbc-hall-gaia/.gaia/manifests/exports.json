@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)≈290 states/(eV unit cell) and γ≈680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)≈48 states/(eV unit cell) and γ≈113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+      "content_hash": "ea5bd74c2921cc572dcff959347e3264bd16604b3e6aa51a4c2eca5ff76cbe83",
+      "label": "gcn_42a4ff_rbc_hall_dos_values",
+      "qid": "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:fed4daddb07fe1dbe707469be727b3c49ee8453bac14e2d7dd52b19d58c892b5",
+  "manifest_schema_version": 1,
+  "package": "ybrh2si2-rbc-hall",
+  "version": "0.1.0"
+}

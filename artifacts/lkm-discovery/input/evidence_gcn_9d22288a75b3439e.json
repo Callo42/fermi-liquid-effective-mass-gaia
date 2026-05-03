@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The MCM phase is interpreted within a hole-driven extension of the Brinkman–Rice picture of the Mott transition as a correlated metallic state in which electron–electron interactions produce a strongly enhanced quasiparticle effective mass $m^*$ as the MIT is approached; here $m^*$ denotes the interaction-renormalized quasiparticle mass and $m$ denotes a noninteracting band reference mass. In this interpretation the electrical conductivity $\\sigma$ in the MCM regime is proposed to scale as $\\sigma \\propto \\bigl(m^*/m\\bigr)^2$, so that a large effective-mass enhancement near the MIT corresponds to enhanced conductivity that is characteristic of correlation-dominated (Mott-type) physics rather than a rutile-band-metal formed solely by lattice rearrangement.",
+      "content_hash": "de348d3e223d61aca5260440cefe75fbc0b44dda0dd35a2e9e530c9c7070c954",
+      "id": "gcn_9d22288a75b3439e",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The MCM phase is interpreted within a hole-driven extension of the Brinkman–Rice picture of the Mott transition as a correlated metallic state in which electron–electron interactions produce a strongly enhanced quasiparticle effective mass $m^*$ as the MIT is approached; here $m^*$ denotes the interaction-renormalized quasiparticle mass and $m$ denotes a noninteracting band reference mass. In this interpretation the electrical conductivity $\\sigma$ in the MCM regime is proposed to scale as $\\sigma \\propto \\bigl(m^*/m\\bigr)^2$, so that a large effective-mass enhancement near the MIT corresponds to enhanced conductivity that is characteristic of correlation-dominated (Mott-type) physics rather than a rutile-band-metal formed solely by lattice rearrangement.",
+              "id": "gcn_9d22288a75b3439e"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_f7408e721c314cd4",
+            "premises": [
+              {
+                "content": "Let $\\sigma$ denote the measured electrical conductivity in the correlated metallic state, let $m^*$ denote the quasiparticle effective mass renormalized by electron–electron interactions in that state, and let $m$ denote a noninteracting band reference mass; the proposition for the monoclinic and correlated metal (MCM) regime is that the conductivity scales as $\\sigma \\propto \\bigl(m^*/m\\bigr)^2$, i.e., that an enhancement of the effective mass near the MIT produces a conductivity increase following this squared proportionality.",
+                "id": "gcn_f875bf552df64c28"
+              },
+              {
+                "content": "Let $m^*(U)$ denote the quasiparticle effective mass predicted by the Brinkman–Rice theory as a function of an interaction parameter $U$, which diverges at the theoretical Mott critical point in the homogeneous single-band model; the proposition is that the Brinkman–Rice scenario of a near-diverging effective mass $m^*$ as the Mott transition is approached applies qualitatively (and potentially quantitatively with caveats) to the experimentally prepared VO2 thin films that exhibit structural and electronic inhomogeneity, so that observed transport and optical signatures may be interpreted in terms of a Brinkman–Rice-like enhancement of $m^*$ in these inhomogeneous samples.",
+                "id": "gcn_b3d11310ce2a4cac"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State the upstream result being taken as known: start from the identification of the MCM phase as a correlated metal that is metallic while retaining monoclinic lattice signatures (conclusion 2); treat that conclusion as established for the purposes of this interpretation.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Introduce the Brinkman-Rice framework and define symbols: define $m^*$ as the quasiparticle effective mass in the correlated metal, define $m$ as the band (reference) mass in the absence of correlation renormalization, and define $\\sigma$ as the electrical conductivity.\n[15]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Quote the authors' explicit proposed scaling relation between conductivity and effective mass in the MCM regime: the authors state that the MCM phase \"is supposed to have a maximum conductivity, related to the maximum effective mass, $m^*$, near the MIT as $\\sigma \\propto (m^*/m)^2$\"; record this proportionality exactly as the authors present it and treat it as their proposed conductivity scaling in the correlated-metal regime.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Record the authors' identification of the behavior of $m^*$ near the MIT: state that the authors regard the maximum effective mass $m^*$ in the MCM phase as being large and as approaching a diverging (in the Brinkman-Rice sense) true effective mass near the MIT; explicitly record their phrasing that the maximum effective mass \"can be regarded as a diverging true effective mass in the Brinkman-Rice picture.\"\n[15]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Connect this scaling and effective-mass picture to the interpretation of the MCM as a Mott-type correlated metal: because the MCM phase exhibits metallic conductivity while remaining interaction-dominated and because the authors propose that $\\sigma\\propto (m^*/m)^2$ with $m^*$ large near the MIT, state the authors' conclusion that the MCM phase corresponds to a correlated-metal regime with enhanced effective mass consistent with a Mott-type electronic-transition scenario rather than a simple band-gap closing driven by lattice rearrangement.",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Establishing that a metallic state in VO2 is correlation-dominated requires not only showing metallic conductivity with monoclinic lattice symmetry, but also connecting transport and spectroscopic signatures to many-body electronic parameters such as effective mass. Prior analyses lacked a combined interpretation linking the existence of an intermediate metallic monoclinic phase to an expected Brinkman-Rice divergence of $m^*$. Without positing and checking a relation between enhanced effective mass and conductivity in the intermediate metallic state, one cannot argue that the metallicity is correlation-driven rather than a trivial band effect; this gap limited the ability to classify the metallic phase mechanistically.",
+            "id": "paper:812027594579902464::conclusion_5_subproblem",
+            "source_package": "paper:812027594579902464"
+          }
+        ],
+        "source_package": "paper:812027594579902464"
+      }
+    ],
+    "papers": {
+      "paper:812027594579902464": {
+        "area": "Physics and Astrophysics",
+        "authors": "Hyun-Tak Kim | Yong Wook Lee | Bong-Jun Kim | Byung-Gyu Chae | Sun Jin Yun | Kwang-Yong Kang | Kang-Jeon Han | Ki-Ju Yee | Yong-Sik Lim",
+        "available_online": "2006-12-26",
+        "cover_date_start": "2006-12-26",
+        "created_at": "2022-12-20T10:27:45+08:00",
+        "doi": "10.1103/physrevlett.97.266401",
+        "en_title": "Monoclinic and Correlated Metal Phase in VO 2 as Evidence of the Mott Transition: Coherent Phonon Analysis",
+        "id": "812027594579902464",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "VO₂ 中的单斜相和关联金属相作为莫特转变的证据：相干声子分析"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "7c8b6171d52408b7ba8fc090ba94430b"
+}

@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Define the Sommerfeld coefficient γ by γ = lim_{T→0} C(T)/T for the molar electronic specific heat C(T) of a metallic system at low temperature. The proposition is that, within the Fermi-liquid description applicable to heavy-fermion metals, the coefficient γ is proportional to the quasiparticle effective mass m* (i.e., γ ∝ m*), so that an observed enhancement of γ indicates a corresponding increase in the electronic quasiparticle effective mass or in the low-energy electronic density of states.",
+      "content_hash": "943502b929d6b780f89e16786f0d7d49c925915f9897ab390a28e61db230e8cb",
+      "id": "gcn_08df970f53d141f1",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "045ddcf19ec94b19e22d45697e950e97"
+}

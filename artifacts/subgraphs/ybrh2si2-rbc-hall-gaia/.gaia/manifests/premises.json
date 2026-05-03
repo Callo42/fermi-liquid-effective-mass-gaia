@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:fed4daddb07fe1dbe707469be727b3c49ee8453bac14e2d7dd52b19d58c892b5",
+  "manifest_schema_version": 1,
+  "package": "ybrh2si2-rbc-hall",
+  "premises": [
+    {
+      "content": "In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].",
+      "content_hash": "60e88c305b8b90104bcc9b2c3715a07ff9678318e8bb9db5ae20e5c50fe78235",
+      "exported": false,
+      "interface_hash": "sha256:c87105418b876b9376f010801713c139c8e5060dc1afe08946a91060f58f9768",
+      "label": "gcn_48bba377_specific_heat_calibration",
+      "qid": "github:ybrh2si2_rbc_hall::gcn_48bba377_specific_heat_calibration",
+      "required_by": [
+        "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].",
+      "content_hash": "20556ac693dc941a16d2ff494cfec1e3338ee186d34d69b59baaf53a95e45af2",
+      "exported": false,
+      "interface_hash": "sha256:92f6aaa53ea708010554342d9329482c2af119debf5a6e2353825f6b9d5a6bf7",
+      "label": "gcn_c243dcb_rbc_phase_shift_parametrization",
+      "qid": "github:ybrh2si2_rbc_hall::gcn_c243dcb_rbc_phase_shift_parametrization",
+      "required_by": [
+        "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

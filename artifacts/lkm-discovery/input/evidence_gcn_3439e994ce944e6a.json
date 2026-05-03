@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "At least one quantum phase transition of the fermion-condensation type (FCQPT) exists inside or at the edge of the superconducting dome of high-temperature superconductors (HTSC); this FCQPT constitutes a common quantum critical point (QCP) that governs the field-induced restoration of Landau Fermi-liquid behavior in both HTSC and heavy-fermion metals, and it accounts for (a) the magnetic-field dependence of the quasiparticle effective mass and of transport prefactors, (b) the approximately linear-in-field crossover temperature T^{*}(B), and (c) the universal normalized effective-mass scaling; for Tl_{2}Ba_{2}CuO_{6+x} the FCQPT critical field inferred from the crossover line is B_{c0}\\approx 6\\ \\mathrm{T}, placing at least one FCQPT inside or at the boundary of the superconducting region.",
+      "content_hash": "2fef1d63908367a0dc1f6d26e5e56de77c16ecb6fa08ea23f21153112152aac1",
+      "id": "gcn_3439e994ce944e6a",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "At least one quantum phase transition of the fermion-condensation type (FCQPT) exists inside or at the edge of the superconducting dome of high-temperature superconductors (HTSC); this FCQPT constitutes a common quantum critical point (QCP) that governs the field-induced restoration of Landau Fermi-liquid behavior in both HTSC and heavy-fermion metals, and it accounts for (a) the magnetic-field dependence of the quasiparticle effective mass and of transport prefactors, (b) the approximately linear-in-field crossover temperature T^{*}(B), and (c) the universal normalized effective-mass scaling; for Tl_{2}Ba_{2}CuO_{6+x} the FCQPT critical field inferred from the crossover line is B_{c0}\\approx 6\\ \\mathrm{T}, placing at least one FCQPT inside or at the boundary of the superconducting region.",
+              "id": "gcn_3439e994ce944e6a"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_1e81060434744c57",
+            "premises": [
+              {
+                "content": "The inference that at least one fermion-condensation quantum phase transition (FCQPT) lies inside the superconducting dome of a compound such as Tl_{2}Ba_{2}CuO_{6+x} (where the fitted crossover gives B_{c0}\\approx 6\\ \\mathrm{T} and the superconducting upper critical field is B_{c2}\\approx 8\\ \\mathrm{T}) is based on indirect evidentiary steps—namely (i) fitting a linear T^{*}(B) relation to crossover points and extracting B_{c0}, (ii) consistency between that transport-derived B_{c0} and independently estimated transport-field scales, and (iii) data-collapse of normalized transport prefactors—rather than on direct spectroscopic or thermodynamic detection of the FC state inside the superconducting phase, so that competing orders and the broad, criterion-dependent nature of the crossover can confound the placement of an FCQPT within the superconducting dome.\n      Fig. 3",
+                "id": "gcn_950f97c925c7491c"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Invoke the upstream conclusions established earlier as known starting points: (i) the field dependence of the effective mass $M^{*}(B)\\propto 1/\\sqrt{B-B_{c0}}$ (conclusion 1), (ii) the field dependence and universal normalization collapse of the transport prefactor $A(B)\\simeq A_{0}+D/(B-B_{c0})$ and its normalized collapse across materials (conclusion 2), and (iii) the universal normalized temperature dependence of the effective mass $M_{N}^{*}(T_{N})$ described by the interpolating form (conclusion 4). Treat these three results as established and use them to build the case that a fermion-condensation quantum phase transition (FCQPT) exists inside the superconducting dome and acts as a common quantum critical point (QCP).",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "From conclusion 3 (the linear crossover relation), the FCQPT critical field $B_{c0}$ for the HTSC $Tl_{2}Ba_{2}CuO_{6+x}$ is extracted as $B_{c0}\\approx 6\\ \\mathrm{T}$ using the linear fit $T^{*}(B)\\simeq a_{1}+a_{2}B\\sim\\mu_{B}(B-B_{c0})$, and independent transport measurements give $B_{c0}\\approx 5.8\\ \\mathrm{T}$. The superconducting upper critical field in this compound is $B_{c2}\\simeq 8\\ \\mathrm{T}$, so $B_{c2}\\gtrsim B_{c0}$, placing the inferred FCQPT critical field inside or at the edge of the superconducting dome for this HTSC.\nFig. 3\n[8]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Use the transport-coefficient result (conclusion 2) showing that the field dependence of $A(B)$ in $Tl_{2}Ba_{2}CuO_{6+x}$ and in the heavy-fermion metal $YbRh_{2}Si_{2}$ are both described by the same FCQPT-based expression and that when normalized by intrinsic scales the $A(B)$ data from both materials collapse onto a universal curve. This commonality indicates that the same FC-related field-driven scattering physics controls the reentrance of LFL behavior in both HTSC and HF metals.\nFig. 5",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Invoke the universal normalized effective-mass scaling (conclusion 4): thermodynamic observables proportional to $M^{*}$ from different HF metals and from 2D $^{3}$He collapse onto a single curve described by the interpolating function for $M_{N}^{*}(T_{N})$. That diverse systems with different microscopic constituents and dimensionalities exhibit the same normalized $M^{*}$ temperature dependence supports the notion of a single underlying quantum critical mechanism (FCQPT) controlling low-temperature thermodynamics near criticality.\nFig. 2",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Synthesize these observations: (i) FC theory predicts that FC produces a state with a flat single-particle spectrum in a momentum interval and that weak pairing in such a state yields a superconducting gap linear in coupling, so FC naturally provides strong propensity toward superconductivity; (ii) an applied magnetic field destroys FC and restores LFL behavior with a field-dependent $M^{*}$ and hence field-dependent transport coefficients; (iii) the same FC-derived field and temperature relations quantitatively describe both HTSC and HF metal data (field dependence of $M^{*}$ and $A(B)$, linear $T^{*}(B)$ crossover, and normalized $M^{*}$ scaling). Taken together, these points support the conclusion that there exists at least one FCQPT inside the superconducting dome and that this FCQPT acts as the common QCP governing the field-induced reentrance of LFL behavior in both HTSC and HF metals.\nFig. 2\nFig. 5",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Consequent claim and scope: consequently, a variety of quantum critical points previously invoked to explain non-Fermi-liquid behavior in these systems can be reduced, in the authors' view, to a single FCQPT-driven QCP because the FCQPT mechanism accounts for (a) the field dependence of the effective mass and transport prefactors via $M^{*}(B)\\propto 1/\\sqrt{B-B_{c0}}$ and $A\\propto (M^{*})^{2}$, (b) the approximately linear-in-field crossover temperature $T^{*}(B)\\sim\\mu_{B}(B-B_{c0})$, and (c) the universal normalized effective-mass scaling captured by the interpolating formula for $M_{N}^{*}(T_{N})$. For $Tl_{2}Ba_{2}CuO_{6+x}$, the inferred $B_{c0}\\approx 6\\ \\mathrm{T}$ places at least one FCQPT inside or at the edge of the superconducting dome, illustrating the proposed reduction of disparate QCP scenarios to a single FCQPT origin.\nFig. 3\nFig. 5",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The multiplicity of proposed QCPs and the hidden location of putative critical points beneath superconductivity have hindered a parsimonious understanding of NFL phenomena across correlated fermion materials. Resolving whether a single mechanism underlies the observed universality requires demonstrating that a FCQPT both (i) can occur inside or adjacent to the superconducting dome and (ii) yields the experimentally observed field and temperature dependencies of effective masses and transport/thermodynamic coefficients across materially different systems. Prior approaches did not provide a unified mapping from microscopic FCQPT physics to observable crossover lines and normalized scaling that can be tested on HF metals, HTSC, and neutral Fermi fluids. Establishing the existence of at least one FCQPT inside the superconducting region and showing that its signatures account for diverse experiments addresses that gap and supplies a single-picture alternative to multiple distinct QCP scenarios.",
+            "id": "paper:867762617609879828::conclusion_5_subproblem",
+            "source_package": "paper:867762617609879828"
+          }
+        ],
+        "source_package": "paper:867762617609879828"
+      }
+    ],
+    "papers": {
+      "paper:867762617609879828": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov | V.A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2008-06-24",
+        "created_at": "2023-05-23T05:38:50+08:00",
+        "doi": "10.48550/arXiv.0806.3936",
+        "en_title": "Common field-induced quantum critical point in high-temperature superconductors and heavy-fermion metals",
+        "id": "867762617609879828",
+        "keywords": "",
+        "publication_date": "2008-06-24",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "高温超导体和重费米子金属中常见的场致量子临界点"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "3cf05bed73c7d67dbaeb5fc8bce713cc"
+}

@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811056650327687169": {
+        "area": "Material science",
+        "authors": "E. Khamitcaeva | A. Tursina | A. Gribanov | D. Gnida | P. Wiśniewski | D. Kaczorowski",
+        "available_online": "",
+        "cover_date_start": "2017-06-01",
+        "created_at": "2022-12-17T18:09:35+08:00",
+        "doi": "10.1016/j.jallcom.2017.02.265",
+        "en_title": "Novel ternary intermetallics CePd3Al2 and LaPd3Al2",
+        "id": "811056650327687169",
+        "keywords": "[{\"ch_name\":\"反铁磁体\",\"en_name\":\"Antiferromagnets\"},{\"ch_name\":\"铈金属间化合物\",\"en_name\":\"Cerium intermetallics\"},{\"ch_name\":\"近藤效应\",\"en_name\":\"Kondo effect\"},{\"ch_name\":\"强电子相关性\",\"en_name\":\"Strong electronic correlations\"}]",
+        "publication_date": "2017-6",
+        "publication_id": "2082",
+        "publication_name": "Journal of Alloys and Compounds _ Journal of Alloys and Compounds",
+        "research_categories": "",
+        "zh_title": "新型三元金属间化合物CePd₃Al₂和LaPd₃Al₂"
+      },
+      "paper:811856184305778688": {
+        "area": "Material science",
+        "authors": "M. Kopeć | J. R. Dygas | F. Krok | A. Mauger | F. Gendron | B. Jaszczak-Figiel | A. Gagor | K. Zaghib | C. M. Julien",
+        "available_online": "2009-5-1",
+        "cover_date_start": "2009-05-01",
+        "created_at": "2022-12-19T23:06:38+08:00",
+        "doi": "10.1021/cm900609n",
+        "en_title": "Heavy-Fermion Behavior and Electrochemistry of Li 1.27 Mn 1.73 O 4",
+        "id": "811856184305778688",
+        "keywords": "",
+        "publication_date": "2009-6-23",
+        "publication_id": "2060",
+        "publication_name": "Chemistry of Materials _ Chem. Mater.",
+        "research_categories": "",
+        "zh_title": "Li1.27Mn1.73O4的重费米子行为与电化学"
+      },
+      "paper:811936350168154113": {
+        "area": "Geoscience",
+        "authors": "W. Henggeler | T. Chattopadhyay | B. Roessli | D. I. Zhigunov | S. N. Barilo | A. Furrer",
+        "available_online": "2007-11-28",
+        "cover_date_start": "1995-03-01",
+        "created_at": "2022-12-20T04:25:10+08:00",
+        "doi": "10.1007/bf02769968",
+        "en_title": "Dispersion of the Г 6 (1) -Г 6 (2) Nd crystal field excitation in Nd2CuO4",
+        "id": "811936350168154113",
+        "keywords": "",
+        "publication_date": "1995-3",
+        "publication_id": "12685",
+        "publication_name": "Zeitschrift für Physik B Condensed Matter _ Z. Phys. B - Condensed Matter",
+        "research_categories": "",
+        "zh_title": "Nd₂CuO₄中Г₆(1)-Г₆(2) Nd晶体场激发的色散"
+      },
+      "paper:812270517460402176": {
+        "area": "Physics and Astrophysics",
+        "authors": "B. K. Lee | J. B. Hong | J. W. Kim | Kwang-hyun Jang | E. D. Mun | M. H. Jung | S. Kimura | Tuson Park | J.-G. Park | Y. S. Kwon",
+        "available_online": "2005-6-30",
+        "cover_date_start": "2005-06-30",
+        "created_at": "2022-12-21T02:33:03+08:00",
+        "doi": "10.1103/physrevb.71.214433",
+        "en_title": "Kondo ground states and non-Fermi-liquid behavior in Ce Ni 1 − x Co x Ge 2",
+        "id": "812270517460402176",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "CeNi₁₋ₓCoxGe₂中的近藤基态和非费米液体行为"
+      },
+      "paper:812693106016124929": {
+        "area": "Physics and Astrophysics",
+        "authors": "Koichi Izawa | Takashi Suzuki | Toshizo Fujita | Toshiro Takabatake | Go Nakamoto | Hironobu Fujii | Kunihiko Maezawa",
+        "available_online": "1999-1-15",
+        "cover_date_start": "1999-01-15",
+        "created_at": "2022-12-22T06:32:17+08:00",
+        "doi": "10.1103/physrevb.59.2599",
+        "en_title": "Metallic ground state of CeNiSn",
+        "id": "812693106016124929",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "CeNiSn的金属基态"
+      },
+      "paper:814528075973787649": {
+        "area": "Physics and Astrophysics",
+        "authors": "J. S. Kim | G. R. Stewart",
+        "available_online": "1995-6-1",
+        "cover_date_start": "1995-06-01",
+        "created_at": "2022-12-27T08:03:47+08:00",
+        "doi": "10.1103/physrevb.51.16190",
+        "en_title": "Observation of low-lying levels in UBe 13",
+        "id": "814528075973787649",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "UBe₁₃中低激发态的观测"
+      },
+      "paper:867756446157112241": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan",
+        "available_online": "",
+        "cover_date_start": "2004-07-14",
+        "created_at": "2023-05-23T05:14:19+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0407350",
+        "en_title": "Investigation of the Field-Tuned Quantum Critical Point in CeCoIn_5",
+        "id": "867756446157112241",
+        "keywords": "",
+        "publication_date": "2004-07-14",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "CeCoIn₅中磁场调控量子临界点的研究"
+      },
+      "paper:867757373517726674": {
+        "area": "arXiv-Physics",
+        "authors": "Wei-Li Lee | M.K. Hass | G. Lawes | A.P. Remirez | R.J. Cava | N.P. Ong",
+        "available_online": "",
+        "cover_date_start": "2003-05-19",
+        "created_at": "2023-05-23T05:18:00+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0305451",
+        "en_title": "Field-Tuning of the electron and hole populations in the ruthenate Bi_3Ru_3O_11",
+        "id": "867757373517726674",
+        "keywords": "",
+        "publication_date": "2003-05-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "钌酸盐Bi_3Ru_3O_11中电子和空穴载流子数的场调控"
+      },
+      "paper:867762022580749080": {
+        "area": "arXiv-Physics",
+        "authors": "Michael O Ogunbunmi | André M Strydom",
+        "available_online": "",
+        "cover_date_start": "2019-03-29",
+        "created_at": "2023-05-23T05:36:28+08:00",
+        "doi": "10.48550/arXiv.1903.12362",
+        "en_title": "Magnetic and physical properties of new hexagonal compounds PrPt$_4X$ ($X$ = Ag, Au)",
+        "id": "867762022580749080",
+        "keywords": "",
+        "publication_date": "2019-03-29",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Chemical Sciences\", \"Inorganic Chemistry\", \"Physical Sciences\"]",
+        "zh_title": "新型六方化合物PrPt₄X（X = Ag，Au）的磁性和物理性质"
+      },
+      "paper:867771963882340954": {
+        "area": "arXiv-Physics",
+        "authors": "Y. Aoki | T. Namiki | T. D. Matsuda | K. Abe | H. Sugawara | H. Sato",
+        "available_online": "",
+        "cover_date_start": "2002-01-04",
+        "created_at": "2023-05-23T06:15:58+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0201046",
+        "en_title": "Anomalous heavy-fermion and ordered states in the filled skutterudite PrFe4P12",
+        "id": "867771963882340954",
+        "keywords": "",
+        "publication_date": "2002-01-04",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "填充式方钴矿PrFe₄P₁₂中的反常重费米子和有序态"
+      }
+    },
+    "variables": [
+      {
+        "content": "Define the Sommerfeld coefficient γ by γ = lim_{T→0} C(T)/T for the molar electronic specific heat C(T) of a metallic system at low temperature. The proposition is that, within the Fermi-liquid description applicable to heavy-fermion metals, the coefficient γ is proportional to the quasiparticle effective mass m* (i.e., γ ∝ m*), so that an observed enhancement of γ indicates a corresponding increase in the electronic quasiparticle effective mass or in the low-energy electronic density of states.",
+        "content_hash": "943502b929d6b780f89e16786f0d7d49c925915f9897ab390a28e61db230e8cb",
+        "id": "gcn_08df970f53d141f1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814528075973787649::P11",
+            "package_id": "paper:814528075973787649",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814528075973787649"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03200204813108039,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Interpreting the Sommerfeld coefficient $\\gamma\\equiv\\lim_{T\\to0}C_{el}/T$ as a measure of the quasiparticle effective-mass density of states in a Fermi liquid, the observed reduction of $\\gamma$ from $\\sim1\\ \\mathrm{J\\,K^{-2}\\,mol^{-1}}$ in the high-field heavy-fermion state to $\\simeq0.1\\ \\mathrm{J\\,K^{-2}\\,mol^{-1}}$ in the ordered state (ODS) is taken to indicate a substantial quenching of the heavy-fermion enhancement (a large decrease of the quasiparticle density of states), and other possible mechanisms that can reduce $C/T$ (for example, partial gapping of a Fermi-surface sheet, strong carrier depletion, or changes in electron-phonon coupling) are considered subdominant or insufficient to account for the magnitude and magnetic-field dependence of the observed suppression.",
+        "content_hash": "84afe7a5db18b7f260b19515b4c7233a51ffa127e1df08f62dbacba015b850ca",
+        "id": "gcn_3cb2259fbe5f4d37",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771963882340954::P13",
+            "package_id": "paper:867771963882340954",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771963882340954"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03028233151183971,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $C(T)$ denote the electronic specific heat of a metal and define the Sommerfeld coefficient $\\gamma\\equiv\\lim_{T\\to 0}C(T)/T$; let $M^{*}$ be the quasiparticle effective mass determining the single-particle density of states at the Fermi level within a quasiparticle description. In the quasiparticle regime the Sommerfeld coefficient is proportional to the effective mass,\n      $$\n      \\gamma \\;=\\; C_\\gamma\\,M^{*},\n      $$\n      for some positive constant $C_\\gamma$ that depends on microscopic factors (for example, the Fermi momentum and band degeneracy), i.e., $\\gamma\\propto M^{*}$ as in Landau Fermi-liquid theory.\n      L.D. Landau, Sov. Phys. JETP 3, 920 (1956); E.M. Lifshitz and L.P. Pitaevskii, Statistical Physics, Part 2.",
+        "content_hash": "ca0a45c418bcf298e92639955f0a47dc5cebdd7454ab9cc2a9a9d924186f9035",
+        "id": "gcn_d79b2cf289264ffa",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756446157112241::P4",
+            "package_id": "paper:867756446157112241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756446157112241"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02832415420928403,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "If the low-temperature electronic states that produce the measured molar Sommerfeld coefficient γ_{\\mathrm{mol}} are carried by itinerant quasiparticles obeying the conventional Fermi-liquid relation between γ and the quasiparticle effective mass m^{*}, then an anomalously large Sommerfeld coefficient per carrier (for example, γ_{\\mathrm{per\\ carrier}} ∼ 10^{4} mJ/K^{2}\\,mol per carrier as estimated) implies that those carriers have a correspondingly very large effective mass m^{*} ≫ m_{e}, consistent with a picture of strongly renormalized heavy quasiparticles arising from many-body electronic correlations.",
+        "content_hash": "8a79f9d900b35571926a3696b59a328aacf8a9776e8b1ce972cf7a8f5f25bf7d",
+        "id": "gcn_61eadd28499348fb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812693106016124929::P10",
+            "package_id": "paper:812693106016124929",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812693106016124929"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02797339593114241,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The experimentally determined Sommerfeld coefficient $\\gamma$ of the low-temperature specific heat can be related to an effective quasiparticle mass $m$ by the free-electron–type relation\n      $$\n      \\gamma = \\frac{2}{3}\\left(\\frac{\\pi k_{\\mathrm{B}}}{\\hbar}\\right)^{2} m_0 (3\\pi^2)^{-2/3} V \\left(\\frac{m}{m_0}\\right) N^{-2/3},\n      $$\n      where $m_0$ is the free-electron mass, $V$ the volume per formula unit, and $N$ the itinerant-electron count per formula; this relation is used as a phenomenological estimator of a mass enhancement $m/m_0$ even in a strongly correlated heavy-fermion material, with the explicit caveat that band renormalization, many-body density-of-states enhancements, band degeneracy factors, and non-parabolic dispersion can modify prefactors and the microscopic interpretation of $m$ beyond a simple free-electron picture.\n      Eq (5) and discussion in the paper",
+        "content_hash": "96a9f934d7749b75502ff63dede051df873977554e10cfad8f35a60884150d7b",
+        "id": "gcn_11f769c3dfbd491a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811856184305778688::P9",
+            "package_id": "paper:811856184305778688",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811856184305778688"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For an intermetallic compound whose low-temperature molar specific heat is well described by an electronic Sommerfeld term $\\gamma$, a Sommerfeld coefficient $\\gamma$ that exceeds values typical of ordinary simple metals by more than two orders of magnitude implies a substantial enhancement of the electronic density of states at the Fermi level and corresponds to a strongly renormalized quasiparticle effective mass; this heavy-fermion phenomenology conclusion assumes that $\\gamma$ is not dominated by non-electronic contributions.",
+        "content_hash": "6aafaba7b94916a3fdba5ecf27c47e78e1b315558bfe2b6dc29fa1af12d2630a",
+        "id": "gcn_cd3c57f2939743d5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762022580749080::P9",
+            "package_id": "paper:867762022580749080",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762022580749080"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A fitted Sommerfeld coefficient γ = 1.24 J/(mol K²) extracted from low-temperature specific-heat data predominantly represents the electronic linear-in-temperature contribution to C(T) and thus implies a strongly enhanced quasiparticle effective mass (heavy-fermion behavior), provided that other potential low-temperature contributions in the same temperature range (for example Schottky anomalies from CEF-split levels, nuclear Schottky terms, or impurity contributions) are absent or sufficiently small compared with the electronic term within the fitted temperature window.",
+        "content_hash": "e3fc90fd574bc765ac7d65bfb29acff86a4e37906a3512a9a772ad1041c488cc",
+        "id": "gcn_85467feadfd343a3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811056650327687169::P10",
+            "package_id": "paper:811056650327687169",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811056650327687169"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For compositions x ≥ 0.4 in CeNi_{1-x}Co_{x}Ge_{2} where conventional Fermi-liquid behavior is observed at low temperature, the low-temperature T^{2} resistivity coefficient A (defined by ρ = ρ_0 + A T^{2}) and the electronic Sommerfeld coefficient γ (defined by C/T → γ as T → 0 in the Fermi-liquid regime) satisfy approximately the Kadowaki–Woods empirical relation A/γ^{2} ≈ 1×10^{-5} μΩ·cm·mol^{2}·K^{2}·mJ^{-2}; additionally, the ratio γ/χ(0), with χ(0) the zero-temperature magnetic susceptibility, is consistent with the Wilson-ratio magnitude expected for conventional heavy-fermion systems. These empirical consistencies indicate that, away from the quantum-critical composition, the low-temperature electronic state is a conventional heavy Fermi liquid with effective-mass and quasiparticle-scattering magnitudes comparable to other heavy-fermion materials.",
+        "content_hash": "d63acfaf8cdd76632c24b9dfdbb65d6fa89ac27eb93fe8cc8933d5970e3b0843",
+        "id": "gcn_38bb495ce150450b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812270517460402176::conclusion_6",
+            "package_id": "paper:812270517460402176",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812270517460402176"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let \\gamma denote the Sommerfeld coefficient defined by C_{\\mathrm{el}}(T)=\\gamma T (units J mol^{-1} K^{-2}). Let N(0) denote the quasiparticle density of states per mole at the Fermi level and let m^{*} denote the quasiparticle effective mass entering the low-energy Fermi-liquid description. In a conventional single-component Fermi liquid the relation \\gamma=\\tfrac{\\pi^{2}}{3}k_{B}^{2}N(0) holds, and for bands whose density of states scales with effective mass one has N(0)\\propto m^{*}, so that \\gamma\\propto m^{*}; therefore, to the extent that a Fermi-liquid description applies to the low-temperature electronic states under consideration, a measured change in \\gamma(T) by a factor \\sim 5 corresponds approximately to a fivefold change in the quasiparticle effective mass m^{*}.",
+        "content_hash": "66d6dfaeae9f8233fc545e2494ceace3891256aade9c464971de8ed0b918c820",
+        "id": "gcn_4af5b8c5e8d94069",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757373517726674::P2",
+            "package_id": "paper:867757373517726674",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757373517726674"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In Ce-doped Nd$_{2-x}$Ce$_x$CuO$_{4-\\delta}$ compositions where experiments report heavy-fermion-like thermodynamic signatures (notably a large linear-in-temperature specific-heat coefficient, i.e., an enhanced Sommerfeld coefficient and corresponding large quasiparticle effective mass at very low temperature), an effective hybridization between localized Nd $4f$ moments and correlated electrons of the CuO$_2$ planes can produce a substantial enhancement of the low-temperature quasiparticle effective mass and Sommerfeld coefficient, so that this hybridization mechanism could account for, or make a significant contribution to, the observed heavy-fermion-like behavior.",
+        "content_hash": "e4d68b3059cb00673ff4bbcdfb2b4d7e5af6e83a678aa4f2e5ad33c11d36cbf5",
+        "id": "gcn_d242ae9b17b2409e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811936350168154113::P17",
+            "package_id": "paper:811936350168154113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811936350168154113"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "5b69186507ef66e46b5a1608435254cd"
+}

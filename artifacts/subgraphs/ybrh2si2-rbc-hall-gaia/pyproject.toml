@@ -1,0 +1,20 @@
+[project]
+name = "ybrh2si2-rbc-hall-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for YbRh2Si2 renormalized-band Hall and effective-mass evidence."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "4de8bafa-bd4d-4fed-9e8b-2effd9541496"
+generated_by = "lkm-to-gaia"
+generated_from_search = "graph-guided YbRh2Si2 renormalized-band Hall effective mass extension"
+generated_from_roots = ["gcn_42a4ff7fd004413f"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ybrh2si2_rbc_hall"]

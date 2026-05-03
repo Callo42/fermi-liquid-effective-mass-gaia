@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The paper asserts that the extended Brinkman–Rice picture with $U=\\kappa\\rho^{2}U_{c}$ better explains the Mott transition in the examined materials than the $d=\\infty$ Hubbard model, supporting this claim by citing the qualitative difference in mechanisms (in the $d=\\infty$ Hubbard model the coherent‑peak weight of the spectral function decreases with increasing $U$ and the Mott transition occurs via loss of coherence, whereas in the extended Brinkman–Rice picture the transition is associated with a diverging quasiparticle effective mass as $\\rho\\to1$) together with the fitted agreement of the extended Brinkman–Rice formula to selected specific‑heat data.\n      X. Y. Zhang, M. J. Rozenberg, and G. Kotliar, Phys. Rev. Lett. 70, 1666 (1993)",
+      "content_hash": "7d0bf40415ac768d2563cb5d79153bed270ed015325ab09964b917a62cc47da5",
+      "id": "gcn_aede37b68e2a48cf",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "cef8bd3fdd16cbd02e52c7b0dec68f88"
+}

@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811829238402383873": {
+        "area": "Geoscience",
+        "authors": "Jung Young Cho | Evan L. Thomas | Yusuke Nambu | Cigdem Capan | Amar B. Karki | David P. Young | Kentarou Kuga | Satoru Nakatsuji | Julia Y. Chan",
+        "available_online": "",
+        "cover_date_start": "2009-10-27",
+        "created_at": "2022-12-19T21:19:34+08:00",
+        "doi": "10.1002/chin.200943009",
+        "en_title": "ChemInform Abstract: Crystal Growth, Structure, and Physical Properties of Ln(Cu,Ga) 13-x (Ln: La-Nd, Eu; x ≈ 0.2).",
+        "id": "811829238402383873",
+        "keywords": "",
+        "publication_date": "2009-10-27",
+        "publication_id": "15191",
+        "publication_name": "ChemInform _ ChemInform",
+        "research_categories": "[\"Chemical Sciences\", \"Inorganic Chemistry\", \"Language, Communication and Culture\"]",
+        "zh_title": "《化学资讯摘要》：Ln(Cu,Ga)₁₃₋ₓ的晶体生长、结构及物理性质（Ln：La - Nd，Eu；x ≈ 0.2）"
+      },
+      "paper:812296166334005249": {
+        "area": "Physics and Astrophysics",
+        "authors": "V.R. Shaginyan | A.Z. Msezane | M.Ya. Amusia",
+        "available_online": "",
+        "cover_date_start": "2005-05-01",
+        "created_at": "2022-12-21T04:14:58+08:00",
+        "doi": "10.1016/j.physleta.2005.02.036",
+        "en_title": "Quasiparticles and order parameter near quantum phase transition in heavy fermion metals",
+        "id": "812296166334005249",
+        "keywords": "[{\"ch_name\":\"重费米子\",\"en_name\":\"Heavy fermions\"},{\"ch_name\":\"量子相变\",\"en_name\":\"Quantum phase transitions\"},{\"ch_name\":\"准粒子\",\"en_name\":\"Quasiparticles\"}]",
+        "publication_date": "2005-5",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "重费米子金属中量子相变附近的准粒子与序参量"
+      },
+      "paper:812737924608032769": {
+        "area": "Physics and Astrophysics",
+        "authors": "Swathi S | Arun K | Andrea Dzubinska | Marian Reiffers | Nagalakshmi R",
+        "available_online": "",
+        "cover_date_start": "2019-12-01",
+        "created_at": "2022-12-22T09:30:23+08:00",
+        "doi": "10.1016/j.physb.2019.411679",
+        "en_title": "Systematic investigations on the magnetic properties of moderate heavy Fermion CeAg0.68Si1.32 alloy",
+        "id": "812737924608032769",
+        "keywords": "[{\"ch_name\":\"晶体电场\",\"en_name\":\"Crystalline electric field\"},{\"ch_name\":\"金属间化合物\",\"en_name\":\"Intermetallic compound\"},{\"ch_name\":\"变磁转变\",\"en_name\":\"Metamagnetic transition\"},{\"ch_name\":\"Rietveld精修\",\"en_name\":\"Rietveld refinement\"}]",
+        "publication_date": "2019-12",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "对中等重费米子CeAg0.68Si1.32合金磁性的系统研究"
+      },
+      "paper:813219117229146113": {
+        "area": "Material science",
+        "authors": "U.B. Paramanik | Anupam | U. Burkhardt | R. Prasad | C. Geibel | Z. Hossain",
+        "available_online": "",
+        "cover_date_start": "2013-12-01",
+        "created_at": "2022-12-23T17:22:27+08:00",
+        "doi": "10.1016/j.jallcom.2013.05.169",
+        "en_title": "Valence fluctuation in CeMo2Si2C",
+        "id": "813219117229146113",
+        "keywords": "[{\"ch_name\":\"电子结构\",\"en_name\":\"Electronic structure\"},{\"ch_name\":\"热容\",\"en_name\":\"Heat capacity\"},{\"ch_name\":\"磁性测量\",\"en_name\":\"Magnetic measurements\"},{\"ch_name\":\"稀土合金和化合物\",\"en_name\":\"Rare earth alloys and compounds\"},{\"ch_name\":\"价态波动\",\"en_name\":\"Valence fluctuations\"},{\"ch_name\":\"X射线吸收光谱\",\"en_name\":\"X-ray absorption spectroscopy\"}]",
+        "publication_date": "2013-12",
+        "publication_id": "2082",
+        "publication_name": "Journal of Alloys and Compounds _ Journal of Alloys and Compounds",
+        "research_categories": "",
+        "zh_title": "CeMo₂Si₂C中的价态涨落"
+      },
+      "paper:814567007792922626": {
+        "area": "Physics and Astrophysics",
+        "authors": "Hai Huang | Bin-Peng Zhao",
+        "available_online": "2016-1-8",
+        "cover_date_start": "2016-01-08",
+        "created_at": "2022-12-27T10:38:29+08:00",
+        "doi": "10.1007/s10948-015-3361-6",
+        "en_title": "Ginzburg-Landau Analysis on the Superconductivity in TlNi2Se2",
+        "id": "814567007792922626",
+        "keywords": "[{\"ch_name\":\"重费米子化合物\",\"en_name\":\"Heavy-fermion compound\"},{\"ch_name\":\"各向同性Ginzburg-Landau理论\",\"en_name\":\"Isotropic Ginzburg-Landau theory\"},{\"ch_name\":\"双能隙超导\",\"en_name\":\"Two-gap superconductivity\"}]",
+        "publication_date": "2016-4",
+        "publication_id": "673",
+        "publication_name": "Journal of Superconductivity and Novel Magnetism _ J Supercond Nov Magn",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "关于TlNi₂Se₂中超导性的金兹堡-朗道分析"
+      },
+      "paper:867745135209742910": {
+        "area": "arXiv-Physics",
+        "authors": "T.C.Kobayashi | K.Hanazono | N.Tateiwa | K.Amaya | Y.Haga | R.Settai | Y. Onuki",
+        "available_online": "",
+        "cover_date_start": "2001-07-29",
+        "created_at": "2023-05-23T04:29:22+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0107584",
+        "en_title": "Pressure-induced Superconductivity in a Ferromagnet UGe$_2$ -- Resistivity Measurements in Magnetic Field --",
+        "id": "867745135209742910",
+        "keywords": "",
+        "publication_date": "2001-07-29",
+        "publication_id": "108638",
+        "publication_name": "Condensed Matter _ Physics.cond-mat.cond-mat",
+        "research_categories": "",
+        "zh_title": "铁磁体UGe₂中压力诱导的超导性——磁场中的电阻率测量"
+      },
+      "paper:867746557213016555": {
+        "area": "arXiv-Physics",
+        "authors": "Mathieu Taupin | Silke Paschen",
+        "available_online": "",
+        "cover_date_start": "2022-01-08",
+        "created_at": "2023-05-23T04:35:01+08:00",
+        "doi": "10.48550/arXiv.2201.02820",
+        "en_title": "Are Heavy Fermion Strange Metals Planckian?",
+        "id": "867746557213016555",
+        "keywords": "",
+        "publication_date": "2022-01-08",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "重费米子奇异金属是普朗克量级的吗？"
+      },
+      "paper:867752065919615698": {
+        "area": "arXiv-Physics",
+        "authors": "Shinji Watanabe | Kazumasa Miyake",
+        "available_online": "",
+        "cover_date_start": "2011-01-12",
+        "created_at": "2023-05-23T04:56:54+08:00",
+        "doi": "10.48550/arXiv.1101.2294",
+        "en_title": "Influence of Quantum Critical Point of First Order Valence Transition on Ce- and Yb-Based Heavy Fermions",
+        "id": "867752065919615698",
+        "keywords": "",
+        "publication_date": "2011-01-12",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "一级价态转变量子临界点对铈基和镱基重费米子的影响"
+      },
+      "paper:867764485933237203": {
+        "area": "arXiv-Physics",
+        "authors": "D. H. Nguyen | A. Sidorenko | M. Taupin | G. Knebel | G. Lapertot | E. Schuberth | S. Paschen",
+        "available_online": "",
+        "cover_date_start": "2021-06-28",
+        "created_at": "2023-05-23T05:46:16+08:00",
+        "doi": "10.48550/arXiv.2106.14849",
+        "en_title": "Superconductivity in an extreme strange metal",
+        "id": "867764485933237203",
+        "keywords": "",
+        "publication_date": "2021-06-28",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "极端奇异金属中的超导性"
+      },
+      "paper:867766954562159102": {
+        "area": "arXiv-Physics",
+        "authors": "Yu.G. Pogorelov | V.R. Shaginyan",
+        "available_online": "",
+        "cover_date_start": "2002-09-21",
+        "created_at": "2023-05-23T05:56:04+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0209503",
+        "en_title": "Transition from non Fermi Liquid Behavior to Landau Fermi Liquid Behavior Induced by Magnetic Fields",
+        "id": "867766954562159102",
+        "keywords": "",
+        "publication_date": "2002-09-21",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "磁场诱导的从非费米液体行为到朗道费米液体行为的转变"
+      }
+    },
+    "variables": [
+      {
+        "content": "Let $\\Delta\\rho(T)=A(B)T^{2}$ denote the low-temperature quasiparticle contribution to the resistivity in a Landau Fermi liquid and let $\\gamma_{0}\\equiv C/T$ denote the low-temperature specific-heat coefficient. The proposition is: in heavy-fermion and strongly correlated Fermi liquids of the type considered, the resistivity prefactor $A(B)$ scales with the quasiparticle effective mass according to $A(B)\\propto\\big(M^{*}(B)\\big)^{2}$, consistent with empirical Kadowaki–Woods phenomenology and Fermi-liquid scattering-phase-space arguments, at least in the regime where quasiparticles remain well defined.\n      K. Kadowaki and S.B. Woods, Solid State Commun. 58, 507 (1986); V.A. Khodel and P. Schuck, Z. Phys. B 104, 505 (1997)",
+        "content_hash": "25f53ef464fdd3c436eb715e92c53b2d529cd7ba827f4e66cdf3aab42a8866d8",
+        "id": "gcn_b83f9e515cd64fed",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766954562159102::P12",
+            "package_id": "paper:867766954562159102",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766954562159102"
+          ]
+        },
+        "role": "premise",
+        "score": 0.029051670471052088,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define the Fermi-liquid electrical resistivity prefactor A via the low-temperature expansion ρ = ρ₀ + A T² where ρ is expressed in μΩ·cm and T in kelvin, and define the Sommerfeld electronic specific-heat coefficient γ via C_p = γ T with γ expressed in J·mol⁻¹·K⁻². The empirical Kadowaki–Woods relation asserts that for many heavy-fermion compounds the ratio\n      A / γ² ≈ 10⁻⁵ μΩ·cm · (mol·K / mJ)²,\n      and this numerical proportionality is used here to convert a measured A into an estimate of γ, and hence into an estimate of the quasiparticle effective mass m (via γ ∝ m). This conversion is taken to be sufficiently accurate for the class of heavy-fermion materials analyzed that it does not introduce errors larger than the quoted uncertainties.\n      Kadowaki & Woods, Solid State Commun. 1986; see also refs. in the paper.",
+        "content_hash": "1e702f9d5548dcdffab874e960f6c456545ec6426109886810bfc3a0281c2c65",
+        "id": "gcn_8cbce08b8de34b9d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746557213016555::P3",
+            "package_id": "paper:867746557213016555",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746557213016555"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02877846790890269,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The empirical Kadowaki–Woods relation, which in classic heavy-fermion compounds asserts an approximate proportionality A/γ^2 ≈ 1×10^−5 μΩ·cm·(mol·K/mJ)^2 between the coefficient A of the low-temperature resistivity term ρ(T) = ρ0 + A T^2 and the electronic specific-heat coefficient γ (where γ is the coefficient of the electronic linear-in-temperature term C_e = γT in the specific heat), is here treated as sufficient evidence that the specimen Pr(Cu,Ga)_{12.85} is a heavy-fermion compound with substantially enhanced quasiparticle effective mass m* when the experimentally measured values of A and γ fall within the empirical scatter of that Kadowaki–Woods ratio; this premise therefore equates numeric consistency with the Kadowaki–Woods relation to the interpretive classification \"heavy-fermion\" without requiring additional spectroscopic or thermodynamic confirmation of mass enhancement.\n      Kadowaki, K. & Woods, S. B., Solid State Commun. 58 (1986) 507–509; CHO et al., Chem. Mater. 21 (2009) 3072-3078.",
+        "content_hash": "609ccec322a15f10d64ac3c5518ac395da98700b6d94650f5657ca07570fbca8",
+        "id": "gcn_b8850cec75cd4597",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811829238402383873::P7",
+            "package_id": "paper:811829238402383873",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811829238402383873"
+          ]
+        },
+        "role": "premise",
+        "score": 0.026333789329685362,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Comparing the fitted Fermi-liquid transport coefficient $A=0.138\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}$ with the measured Sommerfeld coefficient $\\gamma=159.77\\ \\mathrm{mJ\\,mol^{-1}\\,K^{-2}}$ yields an $A/\\gamma^{2}$ value that lies near the empirical Kadowaki–Woods scaling band $A/\\gamma^{2}\\sim 10^{-5}\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}\\ (\\mathrm{mJ\\,mol^{-1}\\,K^{-2}})^{-2}$ often observed for heavy-fermion materials, and therefore the transport and heat-capacity data of this compound are consistent with enhanced effective mass and strong electronic correlations within the usual empirical uncertainty of that relation.",
+        "content_hash": "a7ee0617f7f3a56465e8be0947a8da574b6666403e2b936862491194c0f2556a",
+        "id": "gcn_c6788f7093e1404c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812737924608032769::conclusion_9",
+            "package_id": "paper:812737924608032769",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812737924608032769"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02564102564102564,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The empirical Kadowaki–Woods relation A\\propto \\gamma_{e}^{2}, where A is the coefficient of the low-temperature resistivity \\rho=\\rho_{0}+AT^{2} and \\gamma_{e} is the electronic Sommerfeld coefficient, is assumed to remain approximately valid across the valence-crossover regime in Ce- and Yb-based heavy fermion systems, so that a sharp reduction of \\gamma_{e} (via a sharp reduction in the effective mass m^{*} associated with a change in n_{f}) produces a commensurate sharp decrease in A as observed experimentally.\n      Kadowaki and Woods relation as discussed in the paper and refs [13]",
+        "content_hash": "ac4dc69cb3c9f12fd9869c27afb6e78f934f781296de3ed3ad9e9d747e7e8e8d",
+        "id": "gcn_2f62af65854b4e07",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752065919615698::P10",
+            "package_id": "paper:867752065919615698",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752065919615698"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02454819277108434,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The interpretation adopted for the Fermi-liquid coefficient A is that, in heavy-electron metals of the class that includes UGe₂, A scales approximately as (m*)² up to material-dependent constants (an empirical Kadowaki–Woods type relation), where m* denotes the quasiparticle effective mass characterizing low-energy electronic excitations; consequently, an observed increase of A with pressure or applied field is taken here to imply an increase of the quasiparticle effective mass m*.",
+        "content_hash": "d66315abad8d2f960495aeef6b521aa7c5abd4c328e93f5be58d2e35d35731f7",
+        "id": "gcn_5e6b0b1b71ef44d0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745135209742910::P5",
+            "package_id": "paper:867745135209742910",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745135209742910"
+          ]
+        },
+        "role": "premise",
+        "score": 0.024444444444444446,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a two-band metal with one band having effective mass $m_1\\sim 20m_{\\mathrm{e}}$ and another having effective mass $m_2\\sim 0.6m_{\\mathrm{e}}$, the Kadowaki–Woods ratio defined as $A/\\gamma_{\\mathrm{el}}^2$ (with $\\rho(T)=\\rho_0+AT^2$ and $\\gamma_{\\mathrm{el}}$ the electronic Sommerfeld coefficient) naturally takes an intermediate magnitude between the canonical heavy-fermion value $\\sim 1.0\\times 10^{-5}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol}\\ \\mathrm{K}^{2}\\ \\mathrm{mJ})^{-2}$ and the typical transition-metal value $\\sim 0.9\\times 10^{-6}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol}\\ \\mathrm{K}^{2}\\ \\mathrm{mJ})^{-2}$ because the heavy band strongly enhances both $\\gamma_{\\mathrm{el}}$ and electron–electron scattering while the light band partially dilutes the overall enhancement.\n      Kadowaki, K., Woods, S.B.: Solid State Commun. 58, 507 (1986)",
+        "content_hash": "9ae3d7380e45b1ff180664f0753c1d95a84a56c1f03be0acfbb10369503ea679",
+        "id": "gcn_a455cbe0b08c46ea",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814567007792922626::P15",
+            "package_id": "paper:814567007792922626",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814567007792922626"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Sommerfeld coefficient $\\gamma$ used in subsequent estimates of Fermi wavevector, effective mass, and transport parameters is taken from the non‑quantum‑critical contribution $\\gamma_{\\mathrm{KW}}^{0\\mathrm{T}}$ obtained by inverting the empirical Kadowaki–Woods relation $A/\\gamma^2 = 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\,(\\mathrm{mol\\,K})^2/(\\mathrm{mJ})^2$, where $A$ is the measured Fermi‑liquid $A$ coefficient of $\\rho=\\rho_0+AT^2$; the proposition is that this Kadowaki–Woods‑derived $\\gamma_{\\mathrm{KW}}^{0\\mathrm{T}}$ provides a representative estimate of the non‑quantum‑critical electronic density‑of‑states parameter suitable for use in the subsequent Drude‑informed estimates of $k_{\\mathrm{F}}$, effective mass $m$, and transport scattering lengths in these Yb‑based heavy‑fermion single crystals.",
+        "content_hash": "9569d205df4c47e394d167c26028160bf49c96b26b71b6d18ca12eed97675504",
+        "id": "gcn_d1f7d9beafb54a8d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764485933237203::P9",
+            "package_id": "paper:867764485933237203",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764485933237203"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+        "content_hash": "89ee7fa644a6d33444a409109820041a25c5b3322f8d64d06adff028940a79f7",
+        "id": "gcn_bc46d7d5f5284a0e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813219117229146113::conclusion_6",
+            "package_id": "paper:813219117229146113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813219117229146113"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define the low-temperature electrical resistivity increment Δρ(T,B) by Δρ(T,B)=A(B)T^{2} where A(B) is a transport prefactor depending on magnetic field B, and define the low-temperature specific-heat coefficient γ_0(B)=\\lim_{T\\to 0}C(T,B)/T; for a quasiparticle description of a heavy-fermion electronic liquid the prefactors obey the proportionalities\n      $$\n      A(B)\\;\\propto\\;\\big(M^{*}(B)\\big)^{2},\\qquad \\gamma_0(B)\\;\\propto\\;M^{*}(B),\n      $$\n      where M^{*}(B) is the quasiparticle effective mass at field B, so that the combination K\\equiv A/\\gamma_0^2 is approximately independent of M^{*} up to degeneracy and numerical prefactors.\n      Empirical Kadowaki–Woods relation; cited theory Refs. in paper",
+        "content_hash": "7dc44a1cdc0f5d6f7615cde3b85287d1ec159986627452ea93525559234cda9a",
+        "id": "gcn_e1dcacd485ed4ebb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812296166334005249::P3",
+            "package_id": "paper:812296166334005249",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812296166334005249"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "47dcb7fd14a6f5b47fa0f17e7d4be129"
+}

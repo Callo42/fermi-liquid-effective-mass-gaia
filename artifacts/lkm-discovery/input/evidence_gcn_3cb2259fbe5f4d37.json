@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Interpreting the Sommerfeld coefficient $\\gamma\\equiv\\lim_{T\\to0}C_{el}/T$ as a measure of the quasiparticle effective-mass density of states in a Fermi liquid, the observed reduction of $\\gamma$ from $\\sim1\\ \\mathrm{J\\,K^{-2}\\,mol^{-1}}$ in the high-field heavy-fermion state to $\\simeq0.1\\ \\mathrm{J\\,K^{-2}\\,mol^{-1}}$ in the ordered state (ODS) is taken to indicate a substantial quenching of the heavy-fermion enhancement (a large decrease of the quasiparticle density of states), and other possible mechanisms that can reduce $C/T$ (for example, partial gapping of a Fermi-surface sheet, strong carrier depletion, or changes in electron-phonon coupling) are considered subdominant or insufficient to account for the magnitude and magnetic-field dependence of the observed suppression.",
+      "content_hash": "84afe7a5db18b7f260b19515b4c7233a51ffa127e1df08f62dbacba015b850ca",
+      "id": "gcn_3cb2259fbe5f4d37",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "3a70a5b91c0d4ed0b799f11d2c228141"
+}

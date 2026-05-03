@@ -62,7 +62,7 @@
 |---|---|---|---|
 | He-3 root versus YbRh2Si2 root | parent discovery + subgraph audits | no equivalence | Both concern effective mass, but one maps liquid He-3 gamma to m*/m while the other computes heavy-electron M*(T,B) near FCQPT. |
 | He-3 standard mapping versus YbRh2Si2 FCQPT/crossover model | parent `contradictions.md` note | no contradiction | Different material regimes and assumptions can both be true under their scopes. |
-| TiS2 damping mismatch and NiS2 Brinkman-Rice candidate | parent candidate list | not incorporated | Not selected roots for this two-root synthesis and not direct contradictions of the two validated subgraphs. |
+| TiS2 damping mismatch and NiS2 Brinkman-Rice candidate | parent candidate list | not incorporated | Not selected roots for the initial He-3/YbRh2Si2 synthesis and not direct contradictions of the validated subgraphs. |
 
 ## Priors
 
@@ -76,3 +76,66 @@ Leaf priors were merged from the two validated subgraphs into `src/fermi_liquid_
 | `gaia check --brief .` | pass | 8 independent premises with priors, 6 derived conclusions, 10 internal orphaned helper claims. |
 | `gaia check --hole .` | pass | 0 holes / 8 independent claims; all direct priors present and capped at 0.90. |
 | `gaia infer .` | pass | Inferred 18 beliefs using exact JT; converged after 2 iterations. |
+
+## Friedemann2010 extension synthesis -- 2026-05-03
+
+### Checklist delta
+
+| step | status | audit note |
+|---|---|---|
+| 1. Bootstrap | done | Incorporated validated extension subgraph `artifacts/subgraphs/ybrh2si2-rbc-hall-gaia`; root evidence file `artifacts/lkm-discovery/input/evidence_gcn_42a4ff7fd004413f.json` was already preserved in the parent input folder. |
+| 2. Refine | done | Copied the subgraph's self-contained Friedemann2010 claim text and preserved `lkm_id`, `source_paper`, `provenance_source`, `lkm_original`, and `derived_from_lkm_ids` decomposition metadata. |
+| 3. Decompose | done | Preserved the compound root `gcn_42a4ff_rbc_hall_dos_values` and copied its three validated helper claims for RBC parametrization, Hall-product cancellation, and DOS/gamma values. |
+| 4. Hunt open problems | done | Compared the Friedemann2010 RBC/Hall/DOS claims to the existing YbRh2Si2 homogeneous-isotropic FCQPT premise; dismissed contradiction because the model scopes can coexist. |
+| 5. Mark suspicions | done | Recorded that material-specific band, CEF, DOS, and Hall evidence qualifies the homogeneous isotropic universal-scaling premise. |
+| 6. Compile + infer | done | `gaia compile .`, `gaia check --brief .`, `gaia check --hole .`, and `gaia infer .` passed from the parent package directory. |
+| 7. Review obligations/holes | done | `gaia check --hole .` reported 0 holes / 10 independent claims; the two new Friedemann2010 leaf priors are capped below 0.90 and marked `TODO:review`. |
+| 8. Search/support synthesis | done | Added support-only cross-paper wiring from the RBC root/helpers plus the homogeneous-isotropic premise to a new scope-qualification claim. |
+| 9. Repeat/exit rationale | done | Exit condition met for the requested synthesis: no duplicate labels, no promoted contradiction/equivalence, 0 holes, and successful inference. |
+
+### Friedemann2010 claims
+
+| label | lkm id / helper | source paper | action |
+|---|---|---|---|
+| `gcn_c243dcb_rbc_phase_shift_parametrization` | `gcn_c243dcb58cae4418` | `paper:811773737962569729` | Friedemann2010 RBC phase-shift/CEF parametrization premise copied from validated subgraph. |
+| `gcn_48bba377_specific_heat_calibration` | `gcn_48bba377911d4985` | `paper:811773737962569729` | Friedemann2010 specific-heat/DOS calibration premise copied from validated subgraph. |
+| `gcn_42a4ff_rbc_hall_dos_values` | `gcn_42a4ff7fd004413f` | `paper:811773737962569729` | Selected extension root copied from validated subgraph and exported. |
+| `helper_rbc_parameterization_constrained_by_cef_gamma` | helper | `paper:811773737962569729` | Decomposition helper copied from validated subgraph. |
+| `helper_ybrh2si2_opposite_hall_transport_products` | helper | `paper:811773737962569729` | Decomposition helper copied from validated subgraph. |
+| `helper_rbc_dos_gamma_ybrh2si2_ybir2si2` | helper | `paper:811773737962569729` | Decomposition helper copied from validated subgraph. |
+| `cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope` | synthesis | synthesis | New supported scope-qualification meta-claim, not a leaf prior. |
+
+### Friedemann2010 factors -> deductions
+
+| factor_id | source_paper | premises | conclusion | dsl_kind | prior |
+|---|---|---|---|---|---|
+| `gfac_0b967f9e875749e8` | `paper:811773737962569729` | `gcn_c243dcb_rbc_phase_shift_parametrization`, `gcn_48bba377_specific_heat_calibration` | `gcn_42a4ff_rbc_hall_dos_values` | `deduction` | 0.95 |
+| root decomposition | `paper:811773737962569729` | `gcn_42a4ff_rbc_hall_dos_values` | `helper_rbc_parameterization_constrained_by_cef_gamma` | `support` | 0.90 |
+| root decomposition | `paper:811773737962569729` | `gcn_42a4ff_rbc_hall_dos_values` | `helper_ybrh2si2_opposite_hall_transport_products` | `support` | 0.90 |
+| root decomposition | `paper:811773737962569729` | `gcn_42a4ff_rbc_hall_dos_values` | `helper_rbc_dos_gamma_ybrh2si2_ybir2si2` | `support` | 0.90 |
+
+### Friedemann2010 cross-paper decisions
+
+| item | decision | dsl_action | rationale |
+|---|---|---|---|
+| Material-specific RBC/Hall/DOS evidence vs homogeneous isotropic FCQPT premise | scope qualification | `support([...], cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope, prior=0.90)` | The Shaginyan premise explicitly omits anisotropy, band topology, multiple bands, and anisotropic effective masses, while Friedemann2010 explicitly supplies CEF/gamma calibration, band-resolved Hall cancellation, and DOS/gamma values for YbRh2Si2. |
+| FCQPT model and RBC calculation | dismissed equivalence | no `equivalence()` | The model surfaces address related YbRh2Si2 effective-mass physics but are not the same proposition. |
+| FCQPT homogeneous-isotropic premise and RBC material-specific evidence | dismissed contradiction | no `contradiction()` | The two claims can both be true under their stated scopes; the RBC evidence qualifies model scope rather than logically excluding it. |
+
+### Friedemann2010 priors
+
+Merged new leaf priors into `src/fermi_liquid_effective_mass/priors.py` without changing existing priors:
+
+| claim | prior | status |
+|---|---|---|
+| `gcn_c243dcb_rbc_phase_shift_parametrization` | 0.82 | capped direct claim prior with `TODO:review` |
+| `gcn_48bba377_specific_heat_calibration` | 0.76 | capped direct claim prior with `TODO:review` |
+
+### Gaia CLI verification after Friedemann2010 extension
+
+| command | status | note |
+|---|---|---|
+| `gaia compile .` | pass | Compiled 38 knowledge, 11 strategies, 0 operators; IR hash `sha256:40777a6dbe1830cf56c3c09691ed7f120267977c7fdd7e8db0329a8195005a75`. |
+| `gaia check --brief .` | pass | 10 independent premises with priors, 11 derived conclusions, 17 internal orphaned helper/operator-result claims. |
+| `gaia check --hole .` | pass | 0 holes / 10 independent claims; all direct priors present and capped at 0.90. |
+| `gaia infer .` | pass | Inferred 27 beliefs using exact JT; converged after 2 iterations. |

@@ -1,0 +1,110 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "A normal Fermi liquid state is defined here as an electronic phase with a well-defined Fermi surface, a finite quasiparticle weight $Z>0$ (where $Z\\equiv m/m_{*}$ with $m$ the bare band mass and $m_{*}$ the quasiparticle effective mass), and a low-energy coherence scale $T_{K}$ (effective Fermi energy $E_{F}^{*}$) below which thermodynamic quantities are those of a Fermi liquid. In a Brinkman–Rice type scenario the approach to the Mott transition is characterized by a divergent effective mass $m_{*}\\to\\infty$ and a vanishing quasiparticle weight $Z\\to0$, so that $T_{K}\\to0$ and the Fermi-liquid electronic entropy per lattice site at $T\\sim T_{K}$, $S(T_{K})$, remains of order unity for any $T_{K}>0$. A nondegenerate singlet Mott insulator is defined as an insulating phase whose ground state is a unique spin-singlet with a finite spin gap and strictly zero entropy as $T\\to0$. Under these definitions, and assuming no motion of the chemical potential that would convert the transition into a metal–band-insulator crossover and assuming no spontaneous symmetry breaking that changes the entropy budget, a continuous adiabatic connection (a direct crossover without a thermodynamic phase transition or symmetry breaking) from the described Brinkman–Rice Fermi liquid to the defined nondegenerate singlet Mott insulator is impossible because the finite low-temperature entropy of the Fermi liquid cannot be removed continuously as $T_{K}\\to0$ while the insulator has zero entropy; therefore some intervening thermodynamic instability or a distinct intermediate phase must occur between the Fermi-liquid metal and the singlet Mott insulator rather than a direct continuous Fermi-liquid–insulator crossover.",
+      "content_hash": "19d2c49939460603f40131b4745229099de327c17b0ab4764f4f5e5b274ad33c",
+      "id": "gcn_e4ecd721edd14d3f",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "A normal Fermi liquid state is defined here as an electronic phase with a well-defined Fermi surface, a finite quasiparticle weight $Z>0$ (where $Z\\equiv m/m_{*}$ with $m$ the bare band mass and $m_{*}$ the quasiparticle effective mass), and a low-energy coherence scale $T_{K}$ (effective Fermi energy $E_{F}^{*}$) below which thermodynamic quantities are those of a Fermi liquid. In a Brinkman–Rice type scenario the approach to the Mott transition is characterized by a divergent effective mass $m_{*}\\to\\infty$ and a vanishing quasiparticle weight $Z\\to0$, so that $T_{K}\\to0$ and the Fermi-liquid electronic entropy per lattice site at $T\\sim T_{K}$, $S(T_{K})$, remains of order unity for any $T_{K}>0$. A nondegenerate singlet Mott insulator is defined as an insulating phase whose ground state is a unique spin-singlet with a finite spin gap and strictly zero entropy as $T\\to0$. Under these definitions, and assuming no motion of the chemical potential that would convert the transition into a metal–band-insulator crossover and assuming no spontaneous symmetry breaking that changes the entropy budget, a continuous adiabatic connection (a direct crossover without a thermodynamic phase transition or symmetry breaking) from the described Brinkman–Rice Fermi liquid to the defined nondegenerate singlet Mott insulator is impossible because the finite low-temperature entropy of the Fermi liquid cannot be removed continuously as $T_{K}\\to0$ while the insulator has zero entropy; therefore some intervening thermodynamic instability or a distinct intermediate phase must occur between the Fermi-liquid metal and the singlet Mott insulator rather than a direct continuous Fermi-liquid–insulator crossover.",
+              "id": "gcn_e4ecd721edd14d3f"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_2737af3324f345e8",
+            "premises": [
+              {
+                "content": "In a Fermi liquid with a low-energy coherence scale $T_{K}$ (identified here with the effective coherence scale $E_{F}^{*}$), the electronic entropy per lattice site for temperatures $T\\le T_{K}$ follows the low-temperature Fermi-liquid form $S(T)/N\\sim T/T_{K}$, which implies that the entropy evaluated at the coherence scale, $S(T_{K})$, is of order unity and therefore finite for any $T_{K}>0$; this statement assumes a standard Fermi-liquid quasiparticle description with a low-temperature specific-heat coefficient proportional to $1/T_{K}$ and the absence of other comparably low-energy degrees of freedom contributing to the entropy.",
+                "id": "gcn_31bc66ca16a44508"
+              },
+              {
+                "content": "For the interacting lattice Hamiltonian $H=\\sum_{ij\\sigma}\\sum_{a,b=1}^{3}t_{ij}^{ab}d_{ia\\sigma}^{\\dagger}d_{jb\\sigma}+\\sum_{i}H_{i}^{int}$ with orbital-diagonal hopping $t_{n}^{\\alpha\\beta}=t\\delta_{\\alpha\\beta}$, on-site interaction term $H_{i}^{int}$ containing $U$ and $J$, and a metallic solution that remains a Fermi liquid, Luttinger's theorem implies that the interacting chemical potential $\\mu$ coincides with the noninteracting chemical potential $\\mu_{0}$ for the given filling and that the single-particle spectral density at the chemical potential is pinned to the noninteracting value, $\\rho(\\mu)=\\rho_{0}(\\mu_{0})$; under these conditions the Mott transition proceeds by a narrowing of the quasiparticle resonance at fixed chemical potential (the resonance height remaining pinned) rather than by moving the chemical potential to the band edge.",
+                "id": "gcn_795699f572b24ed5"
+              },
+              {
+                "content": "Consider a Fermi-liquid metallic phase with coherence scale $T_{K}>0$ whose entropy per site at $T\\sim T_{K}$ is of order unity, and consider a target Mott insulating phase that is a nondegenerate spin singlet with strictly zero entropy as $T\\to0$; under the assumption of thermodynamic continuity (no phase transition or spontaneous symmetry breaking) and with the chemical potential pinned (as by Luttinger's theorem), a continuous adiabatic connection from the finite-$T_{K}$ Fermi liquid to the zero-entropy singlet Mott insulator is impossible because the finite low-temperature entropy of the metal cannot be removed continuously as $T_{K}\\to0$ without either (i) moving the chemical potential to the band edge, (ii) breaking a symmetry that alters the entropy counting, or (iii) encountering a thermodynamic instability that creates a new phase which removes the entropy; hence, absent (i) or (ii), some thermodynamic instability or new intermediate phase must intervene prior to or at the transition.",
+                "id": "gcn_dd12256615264dfb"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define \"Fermi liquid (FL)\" as a normal metallic state characterized by a finite quasiparticle weight $Z>0$, where the quasiparticle effective mass is $m_{*}$ and $Z\\equiv m/m_{*}$ with $m$ the noninteracting mass; define the coherence (effective Fermi) energy scale $E_{F}^{*}$ as the width of the low-energy quasiparticle resonance and identify it later with $E_{F}^{*}\\simeq ZW/2$, where $W$ is the noninteracting bandwidth.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the DMFT picture for a Brinkman–Rice type Mott transition: within Dynamical Mean Field Theory (DMFT) the metal near the Mott transition is described by a narrow low-energy Kondo-like quasiparticle resonance sitting at the chemical potential together with high-energy Hubbard bands; the resonance width plays the role of an effective Kondo temperature $T_{K}$ or effective Fermi energy $E_{F}^{*}$ below which the system behaves as a FL. [1]\n[1]\nFig. 1",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Introduce the quantitative relation between the resonance width and the quasiparticle weight: the peak width is given by $E_{F}^{*}\\simeq ZW/2$, where $Z\\equiv m/m_{*}$ and $W$ is the bare bandwidth; consequently $T_{K}\\sim E_{F}^{*}\\sim ZW/2$, so that $T_{K}\\to0$ as $Z\\to0$ when $m_{*}\\to\\infty$.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Relate low-temperature entropy of the FL to the coherence scale: for temperature $T\\leq T_{K}$ the entropy per site $S(T)/N$ behaves as $S(T)/N\\sim T/T_{K}$ so that the entropy at the coherence scale, $S(T_{K})$, is of order unity (i.e., finite) for $U$ up to the critical value where $T_{K}$ vanishes; thus a FL with a finite $T_{K}$ carries a finite low-temperature entropy per site on the order of one at temperatures of order $T_{K}$.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Characterize the nondegenerate singlet Mott insulator targeted in the paper: the insulator is nondegenerate and a spin singlet, hence it has zero entropy at zero temperature and a finite spin gap for spin excitations.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Invoke the numerical/DMFT observation that, in the Brinkman–Rice scenario relevant to the models considered, $Z$ decreases continuously to zero as $U$ approaches the critical value $U_{c2}$, so that the FL coherence scale $T_{K}$ vanishes continuously at the transition (the paper reports this continuous vanishing numerically and displays the narrowing resonance in the spectral function). [2]\n[2]\nFig. 1; Fig. 2(a)",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Point out the entropy mismatch at a continuous crossover: because the FL for $U\\lesssim U_{c2}$ possesses a finite low-temperature entropy on the scale $T_{K}$ and the singlet Mott insulator for $U\\gtrsim U_{c2}$ has zero entropy, a continuous crossover that smoothly transforms the FL into the zero-entropy singlet insulator would require that the finite entropy of the FL be continuously removed exactly as $T_{K}\\to0$ at the transition; this is incompatible with the insulator having zero entropy unless some phase transition or instability removes the entropy of the metallic solution prior to or at the MT.",
+                "step_id": "7"
+              },
+              {
+                "reasoning": "Explain why Luttinger's theorem prevents a trivial resolution: by Luttinger's theorem the chemical potential in the interacting system must coincide with the bare chemical potential, and the spectral density at the chemical potential must be pinned to the noninteracting value; hence, within solutions obeying Luttinger theorem, the MT proceeds by narrowing of the resonance at fixed chemical potential (rather than by shifting the chemical potential to the band edge), and therefore the finite FL entropy associated with the finite $T_{K}$ cannot be transferred continuously into a zero-entropy insulator without violating this constraint. This argument relies on the DMFT/FL picture and Luttinger theorem as discussed in the paper. [2]\n[2]",
+                "step_id": "8"
+              },
+              {
+                "reasoning": "List the only possible ways out discussed in the paper and rule them out or note them as alternatives: (a) a breakdown of Luttinger's theorem before the MT could allow the chemical potential to move and connect smoothly to a zero-entropy insulator — the authors regard this as a possible but nonstandard scenario; (b) the insulator could break a symmetry (e.g., spin SU(2)), in which case the metal could break the same symmetry and the transition could be of a metal–band-insulator type — this is not the present case because the insulator under study is nondegenerate and does not break symmetry; therefore neither of these standard resolutions applies to the singlet, nondegenerate Mott insulator considered.",
+                "step_id": "9"
+              },
+              {
+                "reasoning": "Conclude that continuity is impossible: combining the finite FL entropy at the vanishing coherence scale, the pinning enforced by Luttinger theorem, and the zero entropy of the singlet Mott insulator, the FL state characterized by finite $Z$ (for $U$ just below the MT) cannot be continuously connected, within a Brinkman–Rice type scenario where $m_{*}\\to\\infty$ and $Z\\to0$, to a nondegenerate singlet Mott insulator; therefore some intermediate phase must intrude between the FL metal and the singlet Mott insulator rather than a direct continuous FL–insulator crossover.",
+                "step_id": "10"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In models like the SBHM the MT in the paramagnetic sector is described by a continuous narrowing and eventual disappearance of a Kondo-like quasiparticle resonance of width $E_{F}^{*}\\sim ZW/2$, while Luttinger's theorem pins the chemical potential so that the density of states at the chemical potential remains equal to the noninteracting value. This picture implies a finite entropy associated with quasiparticles just above the vanishing coherence scale, which can be continuously released into the high-entropy paramagnetic Mott insulator. In contrast, when the insulating end state is a nondegenerate spin and orbital singlet (zero entropy), there is a mismatch: the correlated metal approaching the MT would possess finite entropy on the vanishing quasiparticle scale, but the insulator has none. Prior approaches did not provide a mechanism to reconcile this entropy mismatch while respecting Luttinger constraints, nor did they address the possibility that the metal might become unstable (e.g., by breaking a remaining symmetry or by developing an order parameter) before $Z$ strictly reaches zero. Thus the field lacked a clear criterion or controlled calculation identifying whether the continuous FL-to-singlet-insulator route is possible or whether some new phase must appear to resolve the entropy and Luttinger-theorem conflict.",
+            "id": "paper:867770551072981407::conclusion_1_subproblem",
+            "source_package": "paper:867770551072981407"
+          }
+        ],
+        "source_package": "paper:867770551072981407"
+      }
+    ],
+    "papers": {
+      "paper:867770551072981407": {
+        "area": "arXiv-Physics",
+        "authors": "M. Capone | M. Fabrizio | E. Tosatti",
+        "available_online": "",
+        "cover_date_start": "2001-01-26",
+        "created_at": "2023-05-23T06:10:22+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0101402",
+        "en_title": "Direct Transition Between a Singlet Mott Insulator and a Superconductor",
+        "id": "867770551072981407",
+        "keywords": "",
+        "publication_date": "2001-01-26",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "单重态莫特绝缘体与超导体之间的直接转变"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "7ba63e7f0e595676f8c213b503d620f5"
+}

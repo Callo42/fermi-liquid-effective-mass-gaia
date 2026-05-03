@@ -8,10 +8,17 @@
       "type": "claim"
     },
     {
-      "content": "Across the two selected LKM roots, low-energy thermodynamic quantities are used as operational routes to quasiparticle effective mass: Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
-      "content_hash": "fa414c836a3620a2d1ab25d1459412c70ff0fae59e9052597a94f66c16e0684d",
+      "content": "Across the He-3 and Shaginyan YbRh2Si2 roots, low-energy thermodynamic quantities are used as operational routes to quasiparticle effective mass: Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
+      "content_hash": "8176af6a8b4f77b73689818747333865b2f36987e3a21d9601cf7304640d5603",
       "label": "cross_thermodynamic_routes_to_effective_mass",
       "qid": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
+      "type": "claim"
+    },
+    {
+      "content": "Material-specific YbRh2Si2 renormalized-band evidence from Friedemann et al. qualifies, rather than refutes, the homogeneous isotropic FCQPT premise in the Shaginyan et al. branch: the FCQPT premise is a universal-scaling approximation that deliberately omits lattice anisotropy, band topology, multiple bands, CEF splitting, and band-resolved Hall cancellations, while the RBC/Hall/DOS chain supplies those omitted material-specific details for YbRh2Si2.",
+      "content_hash": "0f72bca11cf42406451c3403c4c9e741a965b356cf010f111676ecc254e1ccfd",
+      "label": "cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope",
+      "qid": "github:fermi_liquid_effective_mass::cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope",
       "type": "claim"
     },
     {
@@ -22,6 +29,13 @@
       "type": "claim"
     },
     {
+      "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+      "content_hash": "9f755e90f06006ccb7d5abcf593d2e03ca475550ccd8d27fd925389223e7df3f",
+      "label": "gcn_42a4ff_rbc_hall_dos_values",
+      "qid": "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
+      "type": "claim"
+    },
+    {
       "content": "For the normal-state liquid He-3 setting reported by Alvesalo et al. 1979, assuming the standard Landau Fermi-liquid relation between the low-temperature linear specific-heat coefficient gamma and the quasiparticle density of states, the measured gamma = 2.11 K^-1 implies m*/m approximately 2.12 and F1 approximately 3.36 [@Alvesalo1979].",
       "content_hash": "677cfd58e219594a85552f432260319c7fd6f3e1a2e1311395a042b2de238689",
       "label": "gcn_800070efac5e476d",
@@ -29,7 +43,7 @@
       "type": "claim"
     }
   ],
-  "ir_hash": "sha256:7144e2d657d3f46df836592df826be25f55e8dab2778fd7f62ed390417ccd7ab",
+  "ir_hash": "sha256:40777a6dbe1830cf56c3c09691ed7f120267977c7fdd7e8db0329a8195005a75",
   "manifest_schema_version": 1,
   "package": "fermi-liquid-effective-mass",
   "version": "0.1.0"

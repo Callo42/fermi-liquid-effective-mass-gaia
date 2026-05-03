@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+      "content_hash": "89ee7fa644a6d33444a409109820041a25c5b3322f8d64d06adff028940a79f7",
+      "id": "gcn_bc46d7d5f5284a0e",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+              "id": "gcn_bc46d7d5f5284a0e"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_19fb01af249a451c",
+            "premises": [
+              {
+                "content": "For a correlated metal characterized at low temperatures by a resistivity coefficient A (defined via ρ(T) = ρ_0 + A T^2) and an electronic specific-heat coefficient γ (defined via C(T) = γ T + ...), the empirical Kadowaki–Woods observation is that the ratio A/γ^2 typically falls near the scale ≈ 1×10^−5 μΩ·cm·(mol·K/mJ)^2 for many heavy-fermion and valence-fluctuating materials, so that proximity of the measured A/γ^2 to this scale is evidence that the standard correlated Fermi-liquid phenomenology applies to the compound.\n      K. Kadowaki, S.B. Woods, Solid State Commun. 58 (1986) 507.",
+                "id": "gcn_2dc55af0490a4727"
+              },
+              {
+                "content": "For a metal with a temperature-independent low-temperature molar susceptibility χ_FL and Sommerfeld coefficient γ, the Wilson–Sommerfeld ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff an effective moment scale) is expected to be of order unity for a correlated Fermi liquid when μ_eff is taken either as the free-ion Ce^{3+} moment μ_eff = 2.54 μ_B (for a 4f^1, J = 5/2 ion) or as a conduction-electron reference value μ_eff = 1.73 μ_B; either choice therefore yields a physically interpretable R_W for judging Fermi-liquid consistency.",
+                "id": "gcn_7459a44654dc416e"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "This conclusion starts from the already established low-temperature transport coefficient $A=2.57\\times10^{-3}\\ \\mu\\Omega\\ \\mathrm{cm\\ K^{-2}}$ from the fit $\\rho(T)=\\rho_0+AT^2$, the Sommerfeld coefficient $\\gamma=23.4\\ \\mathrm{mJ/mol\\ K^2}$ from the fit $C(T)=\\gamma T+\\beta T^3$, and the impurity-corrected low-temperature susceptibility $\\chi_{\\mathrm{FL}}\\approx5.6\\times10^{-4}\\ \\mathrm{emu/mol}$ extracted from the corrected susceptibility curve.\nFig. 4; Fig. 6; Fig. 7",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Within Fermi-liquid theory, the paper states that the coefficient $A$ is related to $\\gamma^2$. It then invokes the empirical Kadowaki-Woods ratio\n$$\n\\frac{A}{\\gamma^2},\n$$\nfor which heavy-fermion and valence-fluctuating systems are reported to have values of order $1\\times10^{-5}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol\\ K/mJ})^2$.\n[38]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Using the measured $A$ and $\\gamma$, the paper computes\n$$\n\\frac{A}{\\gamma^2}=0.5\\times10^{-5}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol\\ K/mJ})^2.\n$$\nThis is described as being essentially the original Kadowaki-Woods value.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "The paper also notes an alternative scaling proposed by Tsujii, Kontani, and Yoshimura, according to which the ratio scales as $2/N(N-1)$ with $N$ the orbital degeneracy of the $f$ state. For an intermediate-valent Ce system, taking $N=6$ gives $A/\\gamma^2=6.7\\times10^{-7}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol\\ K/mJ})^2$. This comparison is quoted, but the text emphasizes that the measured value for $CeMo_2Si_2C$ is at the original Kadowaki-Woods scale.\n[39]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "For susceptibility and specific heat, the paper uses the Wilson-Sommerfeld ratio\n$$\nR_W=\\frac{\\pi^2 k_B^2 \\chi_{\\mathrm{FL}}}{\\gamma \\mu_{\\mathrm{eff}}^2},\n$$\nwhere $k_B$ is the Boltzmann constant, $\\chi_{\\mathrm{FL}}$ is the low-temperature Fermi-liquid susceptibility, $\\gamma$ is the Sommerfeld coefficient, and $\\mu_{\\mathrm{eff}}$ is the effective magnetic moment used in the normalization.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Substituting $\\chi_{\\mathrm{FL}}\\approx5.6\\times10^{-4}\\ \\mathrm{emu/mol}$, $\\gamma=23.4\\ \\mathrm{mJ/mol\\ K^2}$, and $\\mu_{\\mathrm{eff}}=2.54\\ \\mu_B$ as the free $Ce^{3+}$ moment gives\n$$\nR_W=0.81.\n$$\nIf instead $\\mu_{\\mathrm{eff}}=1.73\\ \\mu_B$ is used as for a free conduction electron, the paper states that one gets\n$$\nR_W=1.7.\n$$",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Because the Kadowaki-Woods ratio is of the expected order and the Wilson ratio is close to the range expected for correlated Fermi liquids, the paper concludes that the low-temperature susceptibility, specific heat, and resistivity are mutually consistent with Fermi-liquid behavior in $CeMo_2Si_2C$.",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Establishing whether $CeMo_2Si_2C$ behaves as a correlated Fermi liquid requires not only separate measurements of $\\gamma$, $A$ and $\\chi_{\\mathrm{FL}}$ but also the consistency check through dimensionless/empirical ratios such as $A/\\gamma^2$ (Kadowaki–Woods) and the Wilson ratio $R_W$. Prior to the present combined experimental dataset these key cross-checks could not be performed, so the correlated-metal character of $CeMo_2Si_2C$ remained unsettled. Demonstrating that the material yields ratios comparable to known Fermi-liquid systems supports the assignment of a renormalized, Fermi-liquid ground state in spite of intermediate Ce valence.",
+            "id": "paper:813219117229146113::conclusion_6_subproblem",
+            "source_package": "paper:813219117229146113"
+          }
+        ],
+        "source_package": "paper:813219117229146113"
+      }
+    ],
+    "papers": {
+      "paper:813219117229146113": {
+        "area": "Material science",
+        "authors": "U.B. Paramanik | Anupam | U. Burkhardt | R. Prasad | C. Geibel | Z. Hossain",
+        "available_online": "",
+        "cover_date_start": "2013-12-01",
+        "created_at": "2022-12-23T17:22:27+08:00",
+        "doi": "10.1016/j.jallcom.2013.05.169",
+        "en_title": "Valence fluctuation in CeMo2Si2C",
+        "id": "813219117229146113",
+        "keywords": "[{\"ch_name\":\"电子结构\",\"en_name\":\"Electronic structure\"},{\"ch_name\":\"热容\",\"en_name\":\"Heat capacity\"},{\"ch_name\":\"磁性测量\",\"en_name\":\"Magnetic measurements\"},{\"ch_name\":\"稀土合金和化合物\",\"en_name\":\"Rare earth alloys and compounds\"},{\"ch_name\":\"价态波动\",\"en_name\":\"Valence fluctuations\"},{\"ch_name\":\"X射线吸收光谱\",\"en_name\":\"X-ray absorption spectroscopy\"}]",
+        "publication_date": "2013-12",
+        "publication_id": "2082",
+        "publication_name": "Journal of Alloys and Compounds _ Journal of Alloys and Compounds",
+        "research_categories": "",
+        "zh_title": "CeMo₂Si₂C中的价态涨落"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "7c0c665a23f2a45b0e336156138323d5"
+}

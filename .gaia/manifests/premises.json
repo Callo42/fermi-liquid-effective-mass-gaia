@@ -1,5 +1,5 @@
 {
-  "ir_hash": "sha256:7144e2d657d3f46df836592df826be25f55e8dab2778fd7f62ed390417ccd7ab",
+  "ir_hash": "sha256:40777a6dbe1830cf56c3c09691ed7f120267977c7fdd7e8db0329a8195005a75",
   "manifest_schema_version": 1,
   "package": "fermi-liquid-effective-mass",
   "premises": [
@@ -12,6 +12,7 @@
       "qid": "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
       "required_by": [
         "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope",
         "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
       ],
       "role": "local_hole"
@@ -55,6 +56,18 @@
       "role": "local_hole"
     },
     {
+      "content": "In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].",
+      "content_hash": "60e88c305b8b90104bcc9b2c3715a07ff9678318e8bb9db5ae20e5c50fe78235",
+      "exported": false,
+      "interface_hash": "sha256:cb5df487c91793e28c2b7b24cce4543bde8c16bdeb844a8ee83a6ed56d026d85",
+      "label": "gcn_48bba377_specific_heat_calibration",
+      "qid": "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "role": "local_hole"
+    },
+    {
       "content": "For a homogeneous three-dimensional interacting-fermion system near FCQPT, the temperature-dependent Landau integral relation defines the quasiparticle effective mass M*(T) from the bare mass, Fermi momentum, Landau interaction amplitude, quasiparticle occupation derivative, and a three-dimensional momentum integral; in Shaginyan et al. 2010 this phenomenological equation is used as the numerical starting point when a Landau amplitude exists, quasiparticles remain reasonably well defined, and n(p,T) correctly represents the distribution [@Shaginyan2010].",
       "content_hash": "2e691487d6e67d243b7d8ed02f0ae3bf1b55595971e4fed0a5e8125385db377f",
       "exported": false,
@@ -75,6 +88,18 @@
       "qid": "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
       "required_by": [
         "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].",
+      "content_hash": "20556ac693dc941a16d2ff494cfec1e3338ee186d34d69b59baaf53a95e45af2",
+      "exported": false,
+      "interface_hash": "sha256:fd80fafb042a0e13c1f42e8a13631e0ce4cd351266c701c475e9a8b123c07862",
+      "label": "gcn_c243dcb_rbc_phase_shift_parametrization",
+      "qid": "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
       ],
       "role": "local_hole"
     },

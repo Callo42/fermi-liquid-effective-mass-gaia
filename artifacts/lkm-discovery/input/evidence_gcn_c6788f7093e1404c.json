@@ -1,0 +1,74 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Comparing the fitted Fermi-liquid transport coefficient $A=0.138\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}$ with the measured Sommerfeld coefficient $\\gamma=159.77\\ \\mathrm{mJ\\,mol^{-1}\\,K^{-2}}$ yields an $A/\\gamma^{2}$ value that lies near the empirical Kadowaki–Woods scaling band $A/\\gamma^{2}\\sim 10^{-5}\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}\\ (\\mathrm{mJ\\,mol^{-1}\\,K^{-2}})^{-2}$ often observed for heavy-fermion materials, and therefore the transport and heat-capacity data of this compound are consistent with enhanced effective mass and strong electronic correlations within the usual empirical uncertainty of that relation.",
+      "content_hash": "a7ee0617f7f3a56465e8be0947a8da574b6666403e2b936862491194c0f2556a",
+      "id": "gcn_c6788f7093e1404c",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Comparing the fitted Fermi-liquid transport coefficient $A=0.138\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}$ with the measured Sommerfeld coefficient $\\gamma=159.77\\ \\mathrm{mJ\\,mol^{-1}\\,K^{-2}}$ yields an $A/\\gamma^{2}$ value that lies near the empirical Kadowaki–Woods scaling band $A/\\gamma^{2}\\sim 10^{-5}\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}\\ (\\mathrm{mJ\\,mol^{-1}\\,K^{-2}})^{-2}$ often observed for heavy-fermion materials, and therefore the transport and heat-capacity data of this compound are consistent with enhanced effective mass and strong electronic correlations within the usual empirical uncertainty of that relation.",
+              "id": "gcn_c6788f7093e1404c"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_ca150d10ae724d8d",
+            "premises": [
+              {
+                "content": "The empirical Kadowaki–Woods relation, in which the ratio $A/\\gamma^{2}$ for many heavy-fermion compounds clusters near $10^{-5}\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}\\ (\\mathrm{mJ\\,mol^{-1}\\,K^{-2}})^{-2}$, is applied to the measured parameters $A=0.138\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}$ and $\\gamma=159.77\\ \\mathrm{mJ\\,mol^{-1}\\,K^{-2}}$ of CeAg$_{0.68}$Si$_{1.32}$ to assess heavy-fermion character; this empirical comparison is indicative but not definitive because $A/\\gamma^{2}$ shows known material-specific scatter and depends on details such as carrier concentration and dominant scattering channels that are not constrained here.",
+                "id": "gcn_0905139c27db4e6d"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Upstream results used as starting points: the low-temperature resistivity analysis yielded $A=0.138\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}$ (from the $\\rho=\\rho_{0}+A T^{2}$ fit) and the heat-capacity analysis yielded $\\gamma=159.77\\ \\mathrm{mJ/mol\\ K^{2}}$; these two experimentally determined parameters are taken as known inputs for the Kadowaki–Woods comparison.\n(Upstream conclusions referenced: conclusion id=\"8\" and conclusion id=\"7\")\nFig. 10; Fig. 9",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Statement of the Kadowaki–Woods empirical relation: the Kadowaki–Woods relation for heavy-fermion systems is given in the paper as $A/\\gamma^{2}\\sim 10^{-5}\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}\\ (\\mathrm{mJ\\ mol^{-1}\\ K^{-2}})^{-2}$, an empirical scaling known to hold approximately for many heavy-fermion compounds and cited by the authors.\n[52]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Comparison and conclusion: using the experimentally measured $A=0.138\\ \\mu\\Omega\\text{-cm}\\ \\mathrm{K^{-2}}$ and $\\gamma=159.77\\ \\mathrm{mJ/mol\\ K^{2}}$, the authors state that the compound is consistent with the Kadowaki–Woods empirical scaling (i.e., $A/\\gamma^{2}$ is of the same order as $10^{-5}$ in the units given), and they take this consistency as further support for enhanced effective mass and strong electronic correlations characteristic of heavy-fermion systems.\nFig. 10; Fig. 9",
+                "step_id": "3"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "A standard empirical test for the consistency of enhanced $\\gamma$ (thermodynamic mass) with transport scattering is the Kadowaki–Woods relation. Before this study, no simultaneous values of $A$ and $\\gamma$ were reported for CeAg$_{0.68}$Si$_{1.32}$, so it was unknown whether transport and thermodynamic indicators of correlations followed the heavy-fermion scaling. Demonstrating that $A/\\gamma^{2}$ lies near the canonical heavy-fermion value supports the interpretation that mass enhancement is intrinsic and reflected across thermodynamic and transport observables.",
+            "id": "paper:812737924608032769::conclusion_9_subproblem",
+            "source_package": "paper:812737924608032769"
+          }
+        ],
+        "source_package": "paper:812737924608032769"
+      }
+    ],
+    "papers": {
+      "paper:812737924608032769": {
+        "area": "Physics and Astrophysics",
+        "authors": "Swathi S | Arun K | Andrea Dzubinska | Marian Reiffers | Nagalakshmi R",
+        "available_online": "",
+        "cover_date_start": "2019-12-01",
+        "created_at": "2022-12-22T09:30:23+08:00",
+        "doi": "10.1016/j.physb.2019.411679",
+        "en_title": "Systematic investigations on the magnetic properties of moderate heavy Fermion CeAg0.68Si1.32 alloy",
+        "id": "812737924608032769",
+        "keywords": "[{\"ch_name\":\"晶体电场\",\"en_name\":\"Crystalline electric field\"},{\"ch_name\":\"金属间化合物\",\"en_name\":\"Intermetallic compound\"},{\"ch_name\":\"变磁转变\",\"en_name\":\"Metamagnetic transition\"},{\"ch_name\":\"Rietveld精修\",\"en_name\":\"Rietveld refinement\"}]",
+        "publication_date": "2019-12",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "对中等重费米子CeAg0.68Si1.32合金磁性的系统研究"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "dddc7bde150a18372946cba0a9376372"
+}

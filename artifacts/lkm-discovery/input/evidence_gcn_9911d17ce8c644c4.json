@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a homogeneous fermion system tuned to the fermion-condensation quantum phase transition (FCQPT) quantum critical point, the temperature-dependent Landau integral equation\n      $$\n      \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_{F}\\cdot\\mathbf{p}_{1}}{p_{F}^{3}}\\,F(\\mathbf{p}_{F},\\mathbf{p}_{1})\\;\\frac{\\partial n_{1}(p_{1},T)}{\\partial p_{1}}\\frac{d\\mathbf{p}_{1}}{(2\\pi)^{3}},\n      $$\n      becomes homogeneous because the zero-temperature reciprocal effective mass $1/M^{*}$ (with $M^{*}$ the $T=0$ renormalized quasiparticle effective mass) can be neglected when $M^{*}\\to\\infty$ at the quantum critical point; here $\\mathbf{p}_{F}$ is the Fermi momentum vector, $p_F=|\\mathbf{p}_F|$, $F(\\mathbf{p}_{F},\\mathbf{p}_{1})$ is the Landau interaction amplitude, and $n_{1}(p,T)=n(p,T)-n(p)$ is the temperature-induced deviation of the quasiparticle occupation $n(p,T)$ from the $T=0$ step function $n(p)$. Solving this homogeneous integral equation in the regime where the momentum-integral term controls the temperature dependence yields the non-Fermi-liquid asymptotic scaling of the thermodynamic quasiparticle effective mass\n      $$\n      M^{*}(T)\\propto T^{-2/3},\n      $$\n      valid in the temperature range where the integral term in the Landau equation dominates and $M^{*}$ is the thermodynamic effective mass that governs quantities such as the specific-heat coefficient $C/T$ and the magnetic susceptibility $\\chi$.",
+      "content_hash": "950119efc4bbe3a3ff4fe6aabf49e5d108eab45629fdb99c52e0f1c20f7d017e",
+      "id": "gcn_9911d17ce8c644c4",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For a homogeneous fermion system tuned to the fermion-condensation quantum phase transition (FCQPT) quantum critical point, the temperature-dependent Landau integral equation\n      $$\n      \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_{F}\\cdot\\mathbf{p}_{1}}{p_{F}^{3}}\\,F(\\mathbf{p}_{F},\\mathbf{p}_{1})\\;\\frac{\\partial n_{1}(p_{1},T)}{\\partial p_{1}}\\frac{d\\mathbf{p}_{1}}{(2\\pi)^{3}},\n      $$\n      becomes homogeneous because the zero-temperature reciprocal effective mass $1/M^{*}$ (with $M^{*}$ the $T=0$ renormalized quasiparticle effective mass) can be neglected when $M^{*}\\to\\infty$ at the quantum critical point; here $\\mathbf{p}_{F}$ is the Fermi momentum vector, $p_F=|\\mathbf{p}_F|$, $F(\\mathbf{p}_{F},\\mathbf{p}_{1})$ is the Landau interaction amplitude, and $n_{1}(p,T)=n(p,T)-n(p)$ is the temperature-induced deviation of the quasiparticle occupation $n(p,T)$ from the $T=0$ step function $n(p)$. Solving this homogeneous integral equation in the regime where the momentum-integral term controls the temperature dependence yields the non-Fermi-liquid asymptotic scaling of the thermodynamic quasiparticle effective mass\n      $$\n      M^{*}(T)\\propto T^{-2/3},\n      $$\n      valid in the temperature range where the integral term in the Landau equation dominates and $M^{*}$ is the thermodynamic effective mass that governs quantities such as the specific-heat coefficient $C/T$ and the magnetic susceptibility $\\chi$.",
+              "id": "gcn_9911d17ce8c644c4"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_bcf5ee679a2b4a9e",
+            "premises": [
+              {
+                "content": "For a homogeneous heavy-electron liquid exactly at the fermion-condensation quantum phase transition, the temperature-dependent Landau integral equation\n      $$\n      \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_{F}\\cdot\\mathbf{p}_{1}}{p_{F}^{3}}\\,F(\\mathbf{p}_{F},\\mathbf{p}_{1})\\;\\frac{\\partial n_{1}(p_{1},T)}{\\partial p_{1}}\\frac{d\\mathbf{p}_{1}}{(2\\pi)^{3}}\n      $$\n      applies, where $M^{*}(T)$ is the temperature-dependent thermodynamic quasiparticle effective mass, $M^{*}$ is its $T=0$ value, $\\mathbf{p}_F$ is the Fermi momentum vector, $F(\\mathbf{p}_{F},\\mathbf{p}_{1})$ is the Landau interaction amplitude, and $n_{1}(p,T)=n(p,T)-n(p)$ with $n(p)$ the $T=0$ step-function occupation; when the system is exactly at FCQPT so that the zero-temperature effective mass diverges and the additive term $1/M^{*}$ can be neglected, the remaining homogeneous integral equation has the asymptotic non-Fermi-liquid solution $M^{*}(T)\\propto T^{-2/3}$ in the temperature regime where the integral term dominates.\n      J. W. Clark, V. A. Khodel, and M. V. Zverev, Phys. Rev. B 71, 012401 (2005).",
+                "id": "gcn_846559c70aaa4e6b"
+              },
+              {
+                "content": "For a homogeneous Fermi liquid tuned to the fermion-condensation quantum phase transition, the zero-temperature renormalized effective mass $M^{*}$ diverges at $T=0$, so that in the temperature-dependent Landau integral equation\n      $$\n      \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_{F}\\cdot\\mathbf{p}_{1}}{p_{F}^{3}}\\,F(\\mathbf{p}_{F},\\mathbf{p}_{1})\\;\\frac{\\partial n_{1}(p_{1},T)}{\\partial p_{1}}\\frac{d\\mathbf{p}_{1}}{(2\\pi)^{3}}\n      $$\n      the additive term $1/M^{*}$ remains negligible over the finite temperatures used to identify the non-Fermi-liquid asymptotic behavior, so that the temperature dependence of $M^{*}(T)$ is controlled by the momentum-integral term alone.",
+                "id": "gcn_9c4c294384c647ea"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Introduce the Landau quasiparticle effective mass relation and the temperature-dependent quasiparticle distribution: the quasiparticle occupation number is $n(\\mathbf{p},T)$, the Fermi-step (zero-temperature distribution) is $n(\\mathbf{p})$, and the deviation is $n_1(\\mathbf{p}) = n(\\mathbf{p},T) - n(\\mathbf{p})$; the Landau equation relating the inverse effective mass $1/M^{*}$ to the bare mass $1/m$ and the Landau interaction amplitude $F(\\mathbf{p}_F,\\mathbf{p}_1)$ is\n        $$\n        \\frac{1}{M^{*}(T)} = \\frac{1}{M^{*}} + \\int \\frac{\\mathbf{p}_F\\mathbf{p}_1}{p_F^3} F(\\mathbf{p}_F,\\mathbf{p}_1)\\frac{\\partial n_1(p_1,T)}{\\partial p_1}\\frac{d\\mathbf{p}_1}{(2\\pi)^3},\n        $$\n        where $M^{*}(T)$ denotes the quasiparticle effective mass at temperature $T$, $m$ is the bare electron mass, $p_F$ is the Fermi momentum, and $F$ is the Landau amplitude. This is the temperature-dependent form of the Landau equation used as the starting point for analyzing FCQPT and is the full integral equation referred to by the authors.\n        [8]",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the fermion-condensation quantum phase transition (FCQPT) and its implication for the effective mass: FCQPT is the quantum critical point (QCP) where the effective mass $M^{*}$ diverges at $T=0$ due to the Landau interaction reaching a threshold that makes the denominator in the zero-temperature Landau relation vanish; at this point the first derivative(s) of the single-particle spectrum at $p_F$ vanish, producing an inflection in the spectrum and leading to anomalous temperature dependence of $M^{*}$.\n        [9][12][15]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State the situation at QCP for the temperature-dependent Landau equation: at QCP the zero-temperature term $1/M^{*}$ on the right-hand side of the temperature-dependent Landau equation becomes negligible because $M^{*}\\to\\infty$, so the equation becomes homogeneous in $M^{*}$ and in the temperature-dependent part; explicitly, when the first (constant) term is negligible the integral equation reduces to a homogeneous equation in $M^{*}(T)$ obtained by retaining only the second (integral) term of the expression in the previous step.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Present the authors' stated asymptotic solution of the homogeneous equation at QCP: the paper displays the relation\n        $$\n        M^{*}(T)\\propto T^{2/3},\n        $$\n        which is written by the authors as the result of solving the homogeneous form of the temperature-dependent Landau equation at the FCQPT criticality and is labeled in the text as the temperature dependence of the effective mass determined by the homogeneous equation.\n        [12][15]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Record and reconcile the textual description that accompanies and interprets the displayed asymptotic formula: elsewhere in the text the authors describe the high-temperature (NFL) asymptotic behavior as \"$M^{*}$ decreases as $T^{-2/3}$\" when the homogeneous term dominates, and they characterize the NFL regime by this $T^{-2/3}$ dependence; this verbal statement assigns the asymptotic power-law exponent $-2/3$ to $M^{*}(T)$ in the NFL regime.\n        Fig. 2",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Record the logical gap/inconsistency explicitly: the authors both display the formula $M^{*}(T)\\propto T^{2/3}$ in the displayed equation derived from the homogeneous equation and elsewhere state verbally that the NFL asymptotic is $M^{*}\\propto T^{-2/3}$; the derivation steps from the homogeneous integral equation to the explicit power-law exponent are not shown in the text, and the paper does not resolve the sign discrepancy between the displayed formula and the verbal description—this mismatch is recorded as stated by the authors without repair.",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "State the conclusion the authors assert for the NFL asymptotic: taking the authors' verbal characterization of the NFL behavior together with their statement that the homogeneous form of the temperature-dependent Landau equation determines the asymptotic, the authors assert that at FCQPT the quasiparticle effective mass is a homogeneous function of temperature and follows the asymptotic power law $M^{*}(T)\\propto T^{-2/3}$ in the NFL regime where the integral (temperature-dependent) term of the Landau equation dominates.\n        [12][15]",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Researchers lack a theoretically justified, explicit asymptotic form for how the quasiparticle effective mass depends on temperature exactly at a fermion-condensation quantum critical point. In the physical context of strongly correlated Fermi liquids approaching FCQPT (the situation realized in some heavy-fermion compounds), prior approaches either invoke the disappearance of quasiparticles or leave the temperature dependence unspecified or model-dependent, preventing clear identification of the NFL power-law regime and its crossover from LFL behavior. Without an explicit asymptotic relation, one cannot unambiguously connect thermodynamic observables (e.g., $C/T$) to a critical scaling form, nor predict how thermodynamic coefficients diverge as $T\\to0$ at the QCP. Theoretical guidance yielding an explicit $T$-power law is necessary to anchor interpolation formulas and to interpret experimentally observed NFL exponents and divergences.",
+            "id": "paper:811832562438635524::conclusion_1_subproblem",
+            "source_package": "paper:811832562438635524"
+          }
+        ],
+        "source_package": "paper:811832562438635524"
+      }
+    ],
+    "papers": {
+      "paper:811832562438635524": {
+        "area": "Physics and Astrophysics",
+        "authors": "V. R. Shaginyan | M. Ya. Amusia | K. G. Popov | S. A. Artamonov",
+        "available_online": "2009-9-11",
+        "cover_date_start": "2009-09-01",
+        "created_at": "2022-12-19T21:32:46+08:00",
+        "doi": "10.1134/s0021364009130104",
+        "en_title": "Energy scales and the non-Fermi liquid behavior in YbRh2Si2",
+        "id": "811832562438635524",
+        "keywords": "",
+        "publication_date": "2009-9",
+        "publication_id": "675",
+        "publication_name": "JETP Letters _ Jetp Lett.",
+        "research_categories": "",
+        "zh_title": "镱铑硅化物（YbRh₂Si₂）中的能标与非费米液体行为"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "340bdd106a0150e21e08bc0adfae8ba0"
+}

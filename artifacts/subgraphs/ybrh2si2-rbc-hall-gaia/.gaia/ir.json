@@ -1,0 +1,391 @@
+{
+  "ir_hash": "sha256:fed4daddb07fe1dbe707469be727b3c49ee8453bac14e2d7dd52b19d58c892b5",
+  "knowledges": [
+    {
+      "content": "For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].",
+      "content_hash": "20556ac693dc941a16d2ff494cfec1e3338ee186d34d69b59baaf53a95e45af2",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::gcn_c243dcb_rbc_phase_shift_parametrization",
+      "label": "gcn_c243dcb_rbc_phase_shift_parametrization",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_c243dcb58cae4418",
+        "lkm_original": "In the renormalized-band method (RBC) for heavy-fermion compounds the low-energy contribution of local 4f states is modeled by introducing resonance-type phase shifts for each crystalline-electric-field (CEF) eigenstate m according to\n      \\widetilde{\\eta}_f(E) = arctan[ \\widetilde{\\Delta}_f / (E - \\widetilde{\\epsilon}_f ) ],\n      with resonance-center energies \\widetilde{\\epsilon}_{fm} = \\widetilde{\\epsilon}_f + δ_m where δ_m are the measured CEF excitation energies, and with a single adjustable parameter \\widetilde{\\Delta}_f > 0 that controls the effective quasiparticle resonance width and thereby the mass renormalization; the proposition is that representing the low-energy 4f contribution to the quasiparticle self-energy by this single-parameter resonance form, with \\widetilde{\\Delta}_f fixed by experiment, captures the essential renormalization physics (mass enhancement, 4f-derived band formation, and resulting Fermi-surface topology changes) sufficiently accurately to predict the sign and the near-cancellation of band-resolved transverse transport integrals in YbRh2Si2.\n      G. Zwicknagl, Adv. Phys. 41, 203 (1992); P. Thalmeier and G. Zwicknagl, Handbook on the Physics and Chemistry of Rare Earths, Vol. 34 (2005).",
+        "prior": 0.82,
+        "prior_justification": "The LKM chain anchors the RBC phase-shift parametrization to established renormalized-band references and to Friedemann et al.'s YbRh2Si2 implementation, but it remains a phenomenological single-width representation of 4f quasiparticles; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811773737962569729"
+      },
+      "module": "paper_friedemann2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].",
+      "content_hash": "60e88c305b8b90104bcc9b2c3715a07ff9678318e8bb9db5ae20e5c50fe78235",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::gcn_48bba377_specific_heat_calibration",
+      "label": "gcn_48bba377_specific_heat_calibration",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_48bba377911d4985",
+        "lkm_original": "Let \\widetilde{\\Delta}_f be the single resonance-width parameter of the renormalized-band parametrization introduced above, and let γ_exp denote the experimentally measured linear coefficient of the low-temperature electronic specific heat C(T) = γ_exp T; the proposition is that adjusting \\widetilde{\\Delta}_f so that the computed quasiparticle density of states at the Fermi level N(E_F) reproduces γ_exp yields an RBC band structure whose quasiparticle effective masses and Fermi-surface occupations are sufficiently accurate that the derived reduced transport integrals \\bar{\\sigma}_{xx}(i) and \\bar{\\sigma}_{xyz}(i) and their products with the band occupations \\bar{n}(i) provide reliable indicators of the material's low-temperature transport tendencies.",
+        "prior": 0.76,
+        "prior_justification": "The LKM chain makes the thermodynamic calibration explicit, yet the inference from reproducing gamma_exp to reliable band occupations and transport integrals is approximation-sensitive and not independently checked inside this selected chain; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811773737962569729"
+      },
+      "module": "paper_friedemann2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)≈290 states/(eV unit cell) and γ≈680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)≈48 states/(eV unit cell) and γ≈113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+      "content_hash": "ea5bd74c2921cc572dcff959347e3264bd16604b3e6aa51a4c2eca5ff76cbe83",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values",
+      "label": "gcn_42a4ff_rbc_hall_dos_values",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2010"
+            ]
+          }
+        },
+        "lkm_id": "gcn_42a4ff7fd004413f",
+        "lkm_original": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and −0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum — which enters the numerator of the low-field Hall coefficient in the Boltzmann formula — is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ≈ 290 states/(eV·unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient γ ≈ 680 mJ·mol^−1·K^−2, while for YbIr2Si2 the RBC gives N(E_F) ≈ 48 states/(eV·unit cell) and γ ≈ 113 mJ·mol^−1·K^−2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:811773737962569729"
+      },
+      "module": "paper_friedemann2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In the Friedemann et al. 2010 YbRh2Si2 renormalized-band calculation, experimental CEF excitation energies set the resonance-center splittings and the single resonance-width parameter is fixed by reproducing the low-temperature specific-heat coefficient, making the calculation a material-specific thermodynamically constrained RBC parametrization [@Friedemann2010].",
+      "content_hash": "ea81b427c24747592c276f431991fb596db3de88597d759b19641fb473ec29fd",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::helper_rbc_parameterization_constrained_by_cef_gamma",
+      "label": "helper_rbc_parameterization_constrained_by_cef_gamma",
+      "metadata": {
+        "derived_from_lkm_ids": [
+          "gcn_42a4ff7fd004413f",
+          "gcn_c243dcb58cae4418",
+          "gcn_48bba377911d4985"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2010"
+            ]
+          }
+        },
+        "lkm_original": "Summarize the renormalized band method inputs and parameter determination: transform the $4f$ states into crystalline-electric-field (CEF) eigenstates $|m\\rangle$ and introduce resonance-type phase shifts\n$\\widetilde{\\eta}_{f}(E)\\simeq\\arctan\\dfrac{\\widetilde{\\Delta}_{f}}{E-\\widetilde{\\epsilon}_{f}}$,\nwhere $\\widetilde{\\Delta}_{f}$ is the resonance width accounting for the renormalized quasiparticle mass and $\\widetilde{\\epsilon}_{f}$ the position of the $f$-derived band center; the CEF-split resonance centers are $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}+\\delta_{m}$ (for the Yb hole analog the sign convention leads to $\\widetilde{\\epsilon}_{f}<0$ and $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}-\\delta_{m}$). The single free parameter $\\widetilde{\\Delta}_{f}$ is fixed by reproducing the experimentally observed low-temperature linear-in-$T$ specific-heat coefficient, thereby grounding the RBC parametrization in thermodynamic data. \n[24]",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_friedemann2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For YbRh2Si2 in the Friedemann et al. 2010 heavy-Fermi-liquid RBC calculation, the band-resolved products entering the Hall numerator have opposite signs and nearly equal magnitudes: +0.0037675 for the donut band and -0.0041076 for the jungle-gym band, implying strong cancellation in the low-field Hall coefficient numerator [@Friedemann2010].",
+      "content_hash": "1a24212698e2e8191c41a724bce51ca4deec78593895b72ad1c134128e2d66a5",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::helper_ybrh2si2_opposite_hall_transport_products",
+      "label": "helper_ybrh2si2_opposite_hall_transport_products",
+      "metadata": {
+        "derived_from_lkm_ids": [
+          "gcn_42a4ff7fd004413f"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2010"
+            ]
+          }
+        },
+        "lkm_original": "Report the numerical RBC results for YbRh$_2$Si$_2$: the renormalized-band calculation yields for band 1 (donut) a positive reduced transverse transport product $\\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675$ and for band 2 (jungle-gym) a negative product $\\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076$ as listed in the transport-results Table I. These opposite signs indicate that band 1 remains predominantly holelike while band 2 becomes predominantly electronlike in the heavy-Fermi-liquid limit. The near equality in magnitude implies strong cancellation when summing the two contributions in the numerator of $R_{H}$. \nTable I",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_friedemann2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "The Friedemann et al. 2010 RBC density-of-states calculation gives N(E_F)≈290 states/(eV unit cell) and γ≈680 mJ mol^-1 K^-2 for YbRh2Si2, while the same RBC parametrization gives N(E_F)≈48 states/(eV unit cell) and γ≈113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+      "content_hash": "c96dd5d0077fba84047f0777ab2983f6d530193eb6f4bf76e5bc4985b92b394c",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+      "label": "helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+      "metadata": {
+        "derived_from_lkm_ids": [
+          "gcn_42a4ff7fd004413f"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2010"
+            ]
+          }
+        },
+        "lkm_original": "State the RBC prediction for the renormalized density of states at the Fermi energy and its thermodynamic implication: for YbRh$_2$Si$_2$ the RBC yields $N(E_{F})\\approx 290\\ \\mathrm{states/(eV\\ unit\\ cell)}$, which corresponds (via the standard relation between DOS and the Sommerfeld coefficient for the electronic specific heat) to a Sommerfeld coefficient $\\gamma\\approx680\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$; for YbIr$_2$Si$_2$ RBC gives $N(E_{F})\\approx48\\ \\mathrm{states/(eV\\ unit\\ cell)}$ and $\\gamma\\approx113\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$. These values follow from the calculated renormalized quasiparticle DOS displayed in the RBC results. \nFig. 4",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_friedemann2010",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:ybrh2si2_rbc_hall::gcn_c243dcb_rbc_phase_shift_parametrization,github:ybrh2si2_rbc_hall::gcn_48bba377_specific_heat_calibration)",
+      "content_hash": "2bf3df3536f931c20779886cf2d37e88a500098dd5d4fba560eeb3fed97aa13a",
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::__conjunction_result_236eb782",
+      "label": "__conjunction_result_236eb782",
+      "metadata": {
+        "canonical_name": "all_true(github:ybrh2si2_rbc_hall::gcn_c243dcb_rbc_phase_shift_parametrization,github:ybrh2si2_rbc_hall::gcn_48bba377_specific_heat_calibration)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_02fc24b674e7a58b",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ybrh2si2_rbc_hall::__conjunction_result_236eb782,github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values)",
+      "content_hash": "0e21ada3fd9234b442b820e726eefa305c1d18244496176d1af5e4bcb7a2640c",
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::__implication_result_795a3ddb",
+      "label": "__implication_result_795a3ddb",
+      "metadata": {
+        "canonical_name": "implies(github:ybrh2si2_rbc_hall::__conjunction_result_236eb782,github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_02fc24b674e7a58b",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values,github:ybrh2si2_rbc_hall::helper_rbc_parameterization_constrained_by_cef_gamma)",
+      "content_hash": "b70f26b4b63351519402895f66c87d6ea08156561e509f75c7b8aa6bbebbde2b",
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::__implication_result_528e5067",
+      "label": "__implication_result_528e5067",
+      "metadata": {
+        "canonical_name": "implies(github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values,github:ybrh2si2_rbc_hall::helper_rbc_parameterization_constrained_by_cef_gamma)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_01281dd104ab2012",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values,github:ybrh2si2_rbc_hall::helper_ybrh2si2_opposite_hall_transport_products)",
+      "content_hash": "2cde4ba8dc571934db636843bb8a7b077efc005668aba379e91a5f858d8eab7c",
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::__implication_result_55ccde50",
+      "label": "__implication_result_55ccde50",
+      "metadata": {
+        "canonical_name": "implies(github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values,github:ybrh2si2_rbc_hall::helper_ybrh2si2_opposite_hall_transport_products)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_6cb8a7092310f78b",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values,github:ybrh2si2_rbc_hall::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
+      "content_hash": "a0481fa81303f72e15b48eee68b0f3e0116110f6b06967a6c05d0c57069112b7",
+      "exported": false,
+      "id": "github:ybrh2si2_rbc_hall::__implication_result_6820bea8",
+      "label": "__implication_result_6820bea8",
+      "metadata": {
+        "canonical_name": "implies(github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values,github:ybrh2si2_rbc_hall::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_6e16b6f20b0b495d",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_friedemann2010"
+  ],
+  "module_titles": {
+    "paper_friedemann2010": "paper_friedemann2010 -- claims and deductions from Friedemann et al. 2010."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "ybrh2si2_rbc_hall",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ybrh2si2_rbc_hall::__conjunction_result_236eb782",
+            "operator": "conjunction",
+            "variables": [
+              "github:ybrh2si2_rbc_hall::gcn_c243dcb_rbc_phase_shift_parametrization",
+              "github:ybrh2si2_rbc_hall::gcn_48bba377_specific_heat_calibration"
+            ]
+          },
+          {
+            "conclusion": "github:ybrh2si2_rbc_hall::__implication_result_795a3ddb",
+            "operator": "implication",
+            "variables": [
+              "github:ybrh2si2_rbc_hall::__conjunction_result_236eb782",
+              "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Start from the established upstream result that two principal bands (donut $i=1$ and jungle-gym $i=2$) dominate the Hall transport integrals, and aim to determine how inclusion of $4f$-derived quasiparticles in a renormalized-band calculation (RBC) modifies the band-resolved transport integrals and their signs.\n2. Summarize the renormalized band method inputs and parameter determination: transform the $4f$ states into crystalline-electric-field (CEF) eigenstates $|m\\rangle$ and introduce resonance-type phase shifts\n$\\widetilde{\\eta}_{f}(E)\\simeq\\arctan\\dfrac{\\widetilde{\\Delta}_{f}}{E-\\widetilde{\\epsilon}_{f}}$,\nwhere $\\widetilde{\\Delta}_{f}$ is the resonance width accounting for the renormalized quasiparticle mass and $\\widetilde{\\epsilon}_{f}$ the position of the $f$-derived band center; the CEF-split resonance centers are $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}+\\delta_{m}$ (for the Yb hole analog the sign convention leads to $\\widetilde{\\epsilon}_{f}<0$ and $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}-\\delta_{m}$). The single free parameter $\\widetilde{\\Delta}_{f}$ is fixed by reproducing the experimentally observed low-temperature linear-in-$T$ specific-heat coefficient, thereby grounding the RBC parametrization in thermodynamic data.\n[24]\n3. Compute the renormalized band dispersions $E(i,\\mathbf{k})$ using the RBC Hamiltonian and the experimental CEF scheme and resonance widths; from these dispersions evaluate the band-resolved reduced transport integrals $\\bar{\\sigma}_{xx}(i)$ and $\\bar{\\sigma}_{xyz}(i)$ as defined by the decomposition\n$\\sigma_{xx}(i)=\\sigma(i)\\bar{\\sigma}_{xx}(i)$ and $\\sigma_{xyz}(i)=\\sigma_{B}(i)\\bar{\\sigma}_{xyz}(i)$\nwith the prefactors $\\sigma(i)=\\dfrac{e^{2}}{m}\\pi(i)\\bar{n}(i)$ and $\\sigma_{B}(i)=\\dfrac{|e|^{3}}{m^{2}c}[\\pi(i)]^{2}\\bar{n}(i)$ and $\\bar{n}(i)$ the band occupation per unit cell. This defines the reduced-transport products $\\bar{n}(i)\\bar{\\sigma}_{xyz}(i)$ which directly enter the numerator of the Hall coefficient.\n(Equations reproduced from the transport decomposition in the paper.)\n4. Report the numerical RBC results for YbRh$_2$Si$_2$: the renormalized-band calculation yields for band 1 (donut) a positive reduced transverse transport product $\\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675$ and for band 2 (jungle-gym) a negative product $\\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076$ as listed in the transport-results Table I. These opposite signs indicate that band 1 remains predominantly holelike while band 2 becomes predominantly electronlike in the heavy-Fermi-liquid limit. The near equality in magnitude implies strong cancellation when summing the two contributions in the numerator of $R_{H}$.\nTable I\n5. State the RBC prediction for the renormalized density of states at the Fermi energy and its thermodynamic implication: for YbRh$_2$Si$_2$ the RBC yields $N(E_{F})\\approx 290\\ \\mathrm{states/(eV\\ unit\\ cell)}$, which corresponds (via the standard relation between DOS and the Sommerfeld coefficient for the electronic specific heat) to a Sommerfeld coefficient $\\gamma\\approx680\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$; for YbIr$_2$Si$_2$ RBC gives $N(E_{F})\\approx48\\ \\mathrm{states/(eV\\ unit\\ cell)}$ and $\\gamma\\approx113\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$. These values follow from the calculated renormalized quasiparticle DOS displayed in the RBC results.\nFig. 4\n6. Conclude that in the heavy-Fermi-liquid limit the RBC produces two dominant bands with opposite Hall character for YbRh$_2$Si$_2$, with nearly compensating contributions to the Hall numerator (the products $\\bar{n}(i)\\bar{\\sigma}_{xyz}(i)$ are close in magnitude and opposite in sign), thereby explaining why the total Hall coefficient is expected to be small and highly sensitive to weighting factors (such as band-dependent relaxation times). This explains the RBC-based mechanistic origin of cancellation and near-compensation observed in the numerical transport integrals.\nTable I"
+      },
+      "premises": [
+        "github:ybrh2si2_rbc_hall::gcn_c243dcb_rbc_phase_shift_parametrization",
+        "github:ybrh2si2_rbc_hall::gcn_48bba377_specific_heat_calibration"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_02fc24b674e7a58b",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:ybrh2si2_rbc_hall::helper_rbc_parameterization_constrained_by_cef_gamma",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ybrh2si2_rbc_hall::__implication_result_528e5067",
+            "operator": "implication",
+            "variables": [
+              "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values",
+              "github:ybrh2si2_rbc_hall::helper_rbc_parameterization_constrained_by_cef_gamma"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The root LKM claim explicitly states that the RBC incorporates CEF excitation energies from experiment and adjusts the resonance width to reproduce the low-temperature specific-heat coefficient; this helper isolates that method/parameterization component."
+      },
+      "premises": [
+        "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_01281dd104ab2012",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:ybrh2si2_rbc_hall::helper_ybrh2si2_opposite_hall_transport_products",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ybrh2si2_rbc_hall::__implication_result_55ccde50",
+            "operator": "implication",
+            "variables": [
+              "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values",
+              "github:ybrh2si2_rbc_hall::helper_ybrh2si2_opposite_hall_transport_products"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The root LKM claim and factor step 4 explicitly give the YbRh2Si2 band-1 and band-2 reduced transverse transport products and their opposite signs; this helper isolates the Hall-cancellation component."
+      },
+      "premises": [
+        "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_6cb8a7092310f78b",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:ybrh2si2_rbc_hall::helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ybrh2si2_rbc_hall::__implication_result_6820bea8",
+            "operator": "implication",
+            "variables": [
+              "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values",
+              "github:ybrh2si2_rbc_hall::helper_rbc_dos_gamma_ybrh2si2_ybir2si2"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The root LKM claim and factor step 5 explicitly give the RBC density-of-states and Sommerfeld-coefficient values for YbRh2Si2 and YbIr2Si2; this helper isolates the DOS/gamma component."
+      },
+      "premises": [
+        "github:ybrh2si2_rbc_hall::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_6e16b6f20b0b495d",
+      "type": "support"
+    }
+  ]
+}
