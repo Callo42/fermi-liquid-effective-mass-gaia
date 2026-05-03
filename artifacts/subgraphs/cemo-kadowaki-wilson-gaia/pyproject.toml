@@ -1,0 +1,20 @@
+[project]
+name = "cemo-kadowaki-wilson-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for CeMo2Si2C Kadowaki-Woods and Wilson/Sommerfeld ratio evidence."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "6f4c910d-f9dc-4e9b-94bb-9b4d055cfa28"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted CeMo2Si2C Kadowaki-Woods Wilson/Sommerfeld Fermi-liquid extension"
+generated_from_roots = ["gcn_bc46d7d5f5284a0e"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cemo_kadowaki_wilson"]

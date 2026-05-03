@@ -1,21 +1,46 @@
 # fermi-liquid-effective-mass-gaia
 
-Combined Gaia knowledge package for two LKM roots on Fermi-liquid effective-mass reasoning.
+Combined Gaia knowledge package for LKM roots on Fermi-liquid effective-mass, Brinkman-Rice, and correlated-FL reasoning.
 
 ## Overview
 
 ```mermaid
 graph LR
     gcn_800070efac5e476d["gcn_800070efac5e476d (0.80)"]:::derived
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point["gcn_7ae79f_kondo_brinkman_rice_fixed_point (0.77)"]:::derived
+    gcn_e4ecd721edd14d3f["gcn_e4ecd721edd14d3f (0.74)"]:::derived
     gcn_42a4ff_rbc_hall_dos_values["gcn_42a4ff_rbc_hall_dos_values (0.80)"]:::derived
+    gcn_2b8dd97_lurh2si2_reference_reanalysis["gcn_2b8dd97_lurh2si2_reference_reanalysis (0.73)"]:::derived
+    gcn_29401e42_nis2_brinkman_rice["gcn_29401e42_nis2_brinkman_rice (0.77)"]:::derived
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch["gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch (0.81)"]:::derived
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency["gcn_bc46d7_cemo_kw_wilson_fl_consistency (0.79)"]:::derived
     gcn_2741cdef_practical_effective_mass_scheme["gcn_2741cdef_practical_effective_mass_scheme (0.59)"]:::derived
     cross_thermodynamic_routes_to_effective_mass["cross_thermodynamic_routes_to_effective_mass (0.77)"]:::derived
     cross_scope_caution_standard_fl_vs_fcqpt["cross_scope_caution_standard_fl_vs_fcqpt (0.64)"]:::derived
     cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope["cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope (0.71)"]:::derived
+    cross_ybrh2si2_material_specific_fs_constraints["cross_ybrh2si2_material_specific_fs_constraints (0.67)"]:::derived
+    cross_ybrh2si2_field_method_scope_caution["cross_ybrh2si2_field_method_scope_caution (0.60)"]:::derived
+    cross_brinkman_rice_mott_boundary_family["cross_brinkman_rice_mott_boundary_family (0.67)"]:::derived
+    cross_brinkman_rice_scope_caution["cross_brinkman_rice_scope_caution (0.65)"]:::derived
+    cross_thermo_transport_correlated_fl_consistency["cross_thermo_transport_correlated_fl_consistency (0.65)"]:::derived
     gcn_2741cdef_practical_effective_mass_scheme --> cross_scope_caution_standard_fl_vs_fcqpt
+    gcn_29401e42_nis2_brinkman_rice --> cross_brinkman_rice_mott_boundary_family
+    gcn_29401e42_nis2_brinkman_rice --> cross_brinkman_rice_scope_caution
+    gcn_2b8dd97_lurh2si2_reference_reanalysis --> cross_ybrh2si2_field_method_scope_caution
+    gcn_2b8dd97_lurh2si2_reference_reanalysis --> cross_ybrh2si2_material_specific_fs_constraints
+    gcn_42a4ff_rbc_hall_dos_values --> cross_thermo_transport_correlated_fl_consistency
+    gcn_42a4ff_rbc_hall_dos_values --> cross_ybrh2si2_material_specific_fs_constraints
     gcn_42a4ff_rbc_hall_dos_values --> cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> cross_brinkman_rice_mott_boundary_family
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> cross_brinkman_rice_scope_caution
     gcn_800070efac5e476d --> cross_scope_caution_standard_fl_vs_fcqpt
+    gcn_800070efac5e476d --> cross_thermo_transport_correlated_fl_consistency
     gcn_800070efac5e476d --> cross_thermodynamic_routes_to_effective_mass
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency --> cross_thermo_transport_correlated_fl_consistency
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> cross_ybrh2si2_field_method_scope_caution
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> cross_ybrh2si2_material_specific_fs_constraints
+    gcn_e4ecd721edd14d3f --> cross_brinkman_rice_mott_boundary_family
+    gcn_e4ecd721edd14d3f --> cross_brinkman_rice_scope_caution
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -48,6 +73,62 @@ graph LR
 </details>
 
 
+#### gcn_7ae79f_kondo_brinkman_rice_fixed_point ★
+
+📌 `gcn_7ae79f_kondo_brinkman_rice_fixed_point`   |   Belief: **0.77**
+
+> For Anderson 1984 heavy-electron Kondo-lattice materials such as CeAl3, CeCu2Si2, UBe13, and UPt3, when localized f-ion moments are quenched by Kondo screening and inter-site collective effects do not qualitatively override the local Nozieres Fermi-liquid physics, the ground state is described as a Brinkman-Rice type Fermi-liquid fixed point: a coherent heavy-quasiparticle Fermi liquid with very large quasiparticle effective-mass renormalization and a finite, order-unity Stoner enhancement of the uniform spin susceptibility rather than a divergent almost-ferromagnetic enhancement [@Anderson1984].
+
+🔗 **deduction**([gcn_40f111_nozieres_local_fl_kondo_sites](#gcn_40f111_nozieres_local_fl_kondo_sites), [gcn_8f275a_brinkman_rice_scope_condition](#gcn_8f275a_brinkman_rice_scope_condition))
+
+<details><summary>Reasoning</summary>
+
+1. Define "Kondo-lattice": a periodic array of magnetic $f$-ions whose local moments are quenched by Kondo screening so that the low-energy degrees of freedom form a Fermi liquid of very heavy quasiparticles; this definition is taken from the identification of certain U and Ce compounds as such systems (examples: $CeAl_{3}$, $CeCu_{2}Si_{2}$, $UBe_{13}$, $UPt_3$) which are described in the paper as "Kondo lattices".
+1
+2. Define "Brinkman–Rice liquid" (Brinkman–Rice Fermi-liquid fixed point): a Fermi-liquid fixed point near a Mott- or local-moment instability characterized by (a) very large effective-mass renormalization (heavy quasiparticles) and (b) a Stoner enhancement factor that attains an $O(1)$ finite constant (rather than diverging) as the paramagnetic instability is approached; this characterization is taken from the paper's discussion of Brinkman and Rice and of the Brinkman–Rice viewpoint for $^3$He analogies.
+6
+3. Note the empirical observation motivating the analogy: a number of U and Ce compounds appear best described as Kondo-lattice systems in which the $f$-shell magnetism is quenched by the Kondo effect, leaving a Fermi liquid of extremely heavy electrons, and several of these compounds become superconducting in a low temperature range (between 1 and 0.1 K) as listed in the paper.
+1
+4. Invoke the Nozières Fermi-liquid ansatz for Kondo ions: treat each Kondo ion by the Fermi-liquid representation of the single-impurity Kondo problem (the Nozières ansatz), with only slight modifications due to inter-ion interactions; the paper justifies this by stating that many Fermi-liquid parameters are fixed by general sum rules (for example the Friedel sum rule for phase shifts) and thus band formation should not strongly modify them.
+9
+5. Explain the characteristic Brinkman–Rice signature as used in the paper: the "Stoner enhancement" factor (the factor by which the uniform spin susceptibility is enhanced relative to the noninteracting quasiparticle density-of-states contribution) takes on a near-constant value (the paper cites an example value "near 4") across pressures rather than diverging while the effective mass appears to be increasing; this observation is described as the characteristic sign of Brinkman–Rice behavior and is used as a key empirical/theoretical signature.
+7
+6. Connect the Kondo-lattice picture to Brinkman–Rice behavior: using the facts that (i) the local $f$-site physics is essentially the single-impurity Kondo problem represented by the Nozières Fermi-liquid ansatz, and (ii) the Stoner enhancement in this context is controlled by an interaction effective only in the opposite-spin (antiparallel-spin) channel on a site, conclude that the same mechanism that produces a finite, substantial Stoner enhancement in the single-impurity Kondo problem should apply to the periodic Kondo lattice as well; hence the ground state should be described by the Brinkman–Rice Fermi-liquid fixed point rather than by a conventional almost-ferromagnetic spin-fluctuation fixed point.
+4
+7. Record the explicit statement of the claim: the appropriate fixed point to describe the ground state of the Kondo lattice is the Brinkman–Rice liquid (the paper states this assertion directly), i.e., a Fermi-liquid fixed point characterized by large mass renormalization and a finite Stoner enhancement factor.
+
+</details>
+
+
+#### gcn_e4ecd721edd14d3f ★
+
+📌 `gcn_e4ecd721edd14d3f`   |   Belief: **0.74**
+
+> For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice-type route toward a nondegenerate singlet Mott insulator, a normal Fermi liquid has a well-defined Fermi surface, finite quasiparticle weight Z > 0 with Z = m/m*, and coherence scale T_K ~ E_F*; as m* -> infinity, Z -> 0 and T_K -> 0, while S(T_K) remains order unity for each T_K > 0. Because the target singlet Mott insulator has a unique spin-singlet ground state, a spin gap, and zero entropy as T -> 0, a direct continuous Fermi-liquid-to-insulator crossover is impossible under fixed chemical potential and no-symmetry-breaking assumptions; an intervening thermodynamic instability or distinct intermediate phase must occur [@Capone2001].
+
+🔗 **deduction**([gcn_31bc66ca16a44508](#gcn_31bc66ca16a44508), [gcn_795699f572b24ed5](#gcn_795699f572b24ed5), [gcn_dd12256615264dfb](#gcn_dd12256615264dfb))
+
+<details><summary>Reasoning</summary>
+
+1. Define "Fermi liquid (FL)" as a normal metallic state characterized by a finite quasiparticle weight $Z>0$, where the quasiparticle effective mass is $m_{*}$ and $Z\equiv m/m_{*}$ with $m$ the noninteracting mass; define the coherence (effective Fermi) energy scale $E_{F}^{*}$ as the width of the low-energy quasiparticle resonance and identify it later with $E_{F}^{*}\simeq ZW/2$, where $W$ is the noninteracting bandwidth.
+2. State the DMFT picture for a Brinkman-Rice type Mott transition: within Dynamical Mean Field Theory (DMFT) the metal near the Mott transition is described by a narrow low-energy Kondo-like quasiparticle resonance sitting at the chemical potential together with high-energy Hubbard bands; the resonance width plays the role of an effective Kondo temperature $T_{K}$ or effective Fermi energy $E_{F}^{*}$ below which the system behaves as a FL. [1]
+[1]
+Fig. 1
+3. Introduce the quantitative relation between the resonance width and the quasiparticle weight: the peak width is given by $E_{F}^{*}\simeq ZW/2$, where $Z\equiv m/m_{*}$ and $W$ is the bare bandwidth; consequently $T_{K}\sim E_{F}^{*}\sim ZW/2$, so that $T_{K}\to0$ as $Z\to0$ when $m_{*}\to\infty$.
+4. Relate low-temperature entropy of the FL to the coherence scale: for temperature $T\leq T_{K}$ the entropy per site $S(T)/N$ behaves as $S(T)/N\sim T/T_{K}$ so that the entropy at the coherence scale, $S(T_{K})$, is of order unity (i.e., finite) for $U$ up to the critical value where $T_{K}$ vanishes; thus a FL with a finite $T_{K}$ carries a finite low-temperature entropy per site on the order of one at temperatures of order $T_{K}$.
+5. Characterize the nondegenerate singlet Mott insulator targeted in the paper: the insulator is nondegenerate and a spin singlet, hence it has zero entropy at zero temperature and a finite spin gap for spin excitations.
+6. Invoke the numerical/DMFT observation that, in the Brinkman-Rice scenario relevant to the models considered, $Z$ decreases continuously to zero as $U$ approaches the critical value $U_{c2}$, so that the FL coherence scale $T_{K}$ vanishes continuously at the transition (the paper reports this continuous vanishing numerically and displays the narrowing resonance in the spectral function). [2]
+[2]
+Fig. 1; Fig. 2(a)
+7. Point out the entropy mismatch at a continuous crossover: because the FL for $U\lesssim U_{c2}$ possesses a finite low-temperature entropy on the scale $T_{K}$ and the singlet Mott insulator for $U\gtrsim U_{c2}$ has zero entropy, a continuous crossover that smoothly transforms the FL into the zero-entropy singlet insulator would require that the finite entropy of the FL be continuously removed exactly as $T_{K}\to0$ at the transition; this is incompatible with the insulator having zero entropy unless some phase transition or instability removes the entropy of the metallic solution prior to or at the MT.
+8. Explain why Luttinger's theorem prevents a trivial resolution: by Luttinger's theorem the chemical potential in the interacting system must coincide with the bare chemical potential, and the spectral density at the chemical potential must be pinned to the noninteracting value; hence, within solutions obeying Luttinger theorem, the MT proceeds by narrowing of the resonance at fixed chemical potential (rather than by shifting the chemical potential to the band edge), and therefore the finite FL entropy associated with the finite $T_{K}$ cannot be transferred continuously into a zero-entropy insulator without violating this constraint. This argument relies on the DMFT/FL picture and Luttinger theorem as discussed in the paper. [2]
+[2]
+9. List the only possible ways out discussed in the paper and rule them out or note them as alternatives: (a) a breakdown of Luttinger's theorem before the MT could allow the chemical potential to move and connect smoothly to a zero-entropy insulator - the authors regard this as a possible but nonstandard scenario; (b) the insulator could break a symmetry (e.g., spin SU(2)), in which case the metal could break the same symmetry and the transition could be of a metal-band-insulator type - this is not the present case because the insulator under study is nondegenerate and does not break symmetry; therefore neither of these standard resolutions applies to the singlet, nondegenerate Mott insulator considered.
+10. Conclude that continuity is impossible: combining the finite FL entropy at the vanishing coherence scale, the pinning enforced by Luttinger theorem, and the zero entropy of the singlet Mott insulator, the FL state characterized by finite $Z$ (for $U$ just below the MT) cannot be continuously connected, within a Brinkman-Rice type scenario where $m_{*}\to\infty$ and $Z\to0$, to a nondegenerate singlet Mott insulator; therefore some intermediate phase must intrude between the FL metal and the singlet Mott insulator rather than a direct continuous FL-insulator crossover.
+
+</details>
+
+
 #### gcn_42a4ff_rbc_hall_dos_values ★
 
 📌 `gcn_42a4ff_rbc_hall_dos_values`   |   Belief: **0.80**
@@ -73,6 +154,129 @@ Table I
 Fig. 4
 6. Conclude that in the heavy-Fermi-liquid limit the RBC produces two dominant bands with opposite Hall character for YbRh$_2$Si$_2$, with nearly compensating contributions to the Hall numerator (the products $\bar{n}(i)\bar{\sigma}_{xyz}(i)$ are close in magnitude and opposite in sign), thereby explaining why the total Hall coefficient is expected to be small and highly sensitive to weighting factors (such as band-dependent relaxation times). This explains the RBC-based mechanistic origin of cancellation and near-compensation observed in the numerical transport integrals.
 Table I
+
+</details>
+
+
+#### gcn_2b8dd97_lurh2si2_reference_reanalysis ★
+
+📌 `gcn_2b8dd97_lurh2si2_reference_reanalysis`   |   Belief: **0.73**
+
+> Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 "small" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].
+
+🔗 **deduction**([gcn_c131e014_ybrh2si2_midband_harmonic_assignment](#gcn_c131e014_ybrh2si2_midband_harmonic_assignment), [gcn_3dc248d_ybrh2si2_14kt_not_small_fs](#gcn_3dc248d_ybrh2si2_14kt_not_small_fs), [gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference))
+
+<details><summary>Reasoning</summary>
+
+1. Start from the refined "small" Fermi-surface reference provided by LuRh$_2$Si$_2$ calculations and from the identification that harmonics and magnetic-interaction mixing are prevalent in LuRh$_2$Si$_2$: the previously established calculated "small" Fermi surface for LuRh$_2$Si$_2$ using $z_{\text{Si}}=0.379\,c$ serves as a reference for analogous "small" Fermi-surface calculations on YbRh$_2$Si$_2$ in which the Yb $4f$ electrons are treated as core-like (non-hybridizing), and the presence of many harmonics and mixing products in LuRh$_2$Si$_2$ motivates re-examination of published de Haas-van Alphen (dHvA) data on YbRh$_2$Si$_2$ for possible harmonic assignments.
+Fig. 10
+[13]
+2. Describe the re-analysis procedure and evidence for harmonics in YbRh$_2$Si$_2$: the dHvA frequencies reported previously for YbRh$_2$Si$_2$ were compared to calculated fundamental frequencies of the "small" Fermi-surface calculation and to integer multiples (harmonics) of the low-frequency fundamentals (below $\sim 4\ \mathrm{kT}$); the authors overlay second and higher harmonic angular dependences on the experimental dHvA frequency-versus-angle plot and find that the experimental frequencies in the range approximately $5\ \mathrm{kT}$ to $7\ \mathrm{kT}$ match the angular dependence expected for second harmonics of the lower-frequency fundamentals, as illustrated in the comparison plot and summarized in a table that compares expected harmonic values to measured frequencies and masses.
+Fig. 10
+Table III
+3. Report the reduced set of independent fundamental frequencies implied by the harmonic reassignment: if the frequencies between $\sim 5\ \mathrm{kT}$ and $7\ \mathrm{kT}$ in the published YbRh$_2$Si$_2$ data are reinterpreted as second (or higher) harmonics of fundamentals below $4\ \mathrm{kT}$, then the number of independent fundamental frequencies in YbRh$_2$Si$_2$ is reduced to a set of fundamentals below $4\ \mathrm{kT}$ plus a distinct high-frequency fundamental near $\sim 14\ \mathrm{kT}$ (the latter is not accounted for as a harmonic of the low-frequency group).
+Fig. 10
+Table III
+4. Contrast the high-frequency fundamental with the "small" Fermi-surface prediction and infer $f$-electron involvement: within the refined "small" Fermi-surface calculation for YbRh$_2$Si$_2$ (i.e., treating Yb $4f$ electrons as core-like), no high-frequency orbit near $\sim 14\ \mathrm{kT}$ is predicted for fields along the (100) direction; because the experimentally observed $\sim 14\ \mathrm{kT}$ frequency behaves as an independent fundamental (not a harmonic of lower frequencies) in the dHvA data, its presence indicates that the "small" $f$-core calculation does not account for this orbit, supporting the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields (i.e., the $4f$ electrons are at least partially itinerant under those conditions rather than fully localized).
+Fig. 10
+[13]
+5. State the authors' interpretive conclusion and suggested further checks: the re-examination reduces the set of independent fundamentals in YbRh$_2$Si$_2$ to low-frequency fundamentals below $4\ \mathrm{kT}$ plus a single high-frequency near $\sim 14\ \mathrm{kT}$; because the refined "small" Fermi-surface calculation does not predict the $\sim 14\ \mathrm{kT}$ orbit for fields along (100), the presence of that high-frequency fundamental supports the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields rather than being fully localized; the authors also suggest further experimental checks (extended angular range measurements and complementary techniques) to solidify the harmonic assignments.
+Fig. 10
+[10]
+
+</details>
+
+
+#### gcn_29401e42_nis2_brinkman_rice ★
+
+📌 `gcn_29401e42_nis2_brinkman_rice`   |   Belief: **0.77**
+
+> In NiS2 pressurized to approximately 3.8 GPa, the simultaneous observation of a large Fermi-surface cross-sectional area, specifically the 6.03 kT belly orbit, and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e is consistent with the Brinkman-Rice picture of a correlated Fermi liquid near a Mott insulator: coherent heavy quasiparticles retain the uncorrelated-band Fermi-surface volume while quasiparticle spectral weight Z and quasiparticle velocities are strongly reduced [@Friedemann2016].
+
+🔗 **deduction**([gcn_8a1a2748_alternative_mechanisms_assumption](#gcn_8a1a2748_alternative_mechanisms_assumption))
+
+<details><summary>Reasoning</summary>
+
+1. Treat conclusion 2 (the metallic state has a large Fermi surface matching the uncorrelated-band prediction) and conclusion 3 (the quasiparticle effective mass is strongly enhanced to $m^* = 6(2)\ m_e$) as established upstream results to be taken as known starting points for the present reasoning.
+2. Define the Brinkman-Rice picture as the theoretical framework in which, on approaching a Mott insulating state by bandwidth reduction, the quasiparticle weight $Z$ is suppressed (possibly to $Z\to 0$), quasiparticle velocities are reduced, the effective mass $m^*$ is strongly enhanced (and in some treatments can diverge), while the Fermi surface volume remains that of the corresponding uncorrelated metal as required by Luttinger's theorem; cite the original Brinkman-Rice argument and Luttinger's theorem as the conceptual bases.
+[6]
+[9]
+3. Observe that the empirical combination established in conclusions 2 and 3 -- a large Fermi surface volume equal to the uncorrelated-band value and a strongly enhanced quasiparticle mass -- matches the key qualitative signatures of a Brinkman-Rice correlated Fermi liquid proximate to a Mott insulator, namely: preserved large Fermi volume and suppressed quasiparticle weight manifesting as heavy quasiparticles.
+Fig. 5
+Fig. 4
+4. Note that alternative theoretical scenarios that envisage a continuous depletion of carrier concentration or Fermi-surface reconstruction on approach to the insulating state would predict a reduced Fermi surface volume or the absence of a large uncorrelated-like Fermi surface in the immediate metallic regime; because the measured experimental combination does not display such carrier depletion or reconstruction, the experimental findings are consistent with the Brinkman-Rice description rather than with those alternative scenarios.
+[40]
+5. Conclude that the coexistence of a large Fermi surface volume (conclusion 2) and a strongly enhanced quasiparticle mass (conclusion 3) in pressure-metalized NiS$_2$ is consistent with the Brinkman-Rice picture of a correlated Fermi liquid proximate to a Mott insulator: coherent quasiparticles form a heavy Fermi liquid whose Fermi surface volume remains that of the uncorrelated band while the quasiparticle weight $Z$ and quasiparticle velocities are reduced.
+Table 1
+
+</details>
+
+
+#### gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch ★
+
+📌 `gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch`   |   Belief: **0.81**
+
+> For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].
+
+🔗 **deduction**([gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope), [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity))
+
+<details><summary>Reasoning</summary>
+
+1. Start from the upstream established result: accept as already established the upstream conclusion that LDA band-structure calculations place significant sensitivity of predicted Fermi-surface angular dependence to the $4f$ position and that itinerant-4f LDA angular dependence does not match experiment (upstream conclusion known and available for use).
+2. Define experimental method and conditions for the quantum-oscillation measurements: de Haas–van Alphen (dHvA) measurements were performed on highest-quality single crystals (RRR $\approx300$) at ambient pressure using a cantilever torque meter in steady magnetic fields between $12$ and $28\ \mathrm{T}$ with a dilution refrigerator base temperature of $30\ \mathrm{mK}$; the magnetic field was applied parallel to the crystallographic $a$ axis ($H\parallel a$) for the principal data set.
+3. Report the observed dHvA frequency spectrum and its extraction: the oscillatory torque signal for $H\parallel a$ shows reproducible oscillations whose Fourier transform yields four unambiguous frequencies at $2730\ \mathrm{T}$, $3510\ \mathrm{T}$, $5370\ \mathrm{T}$, and $7050\ \mathrm{T}$ from a field window $12$–$28\ \mathrm{T}$; these frequencies correspond to extremal cross-sectional areas of Fermi-surface orbits according to the Onsager relation (frequency $F$ in tesla proportional to extremal area).
+Fig.7
+4. Describe how effective masses were determined and report the numerical values: the temperature dependence of each oscillation amplitude follows the Lifshitz–Kosevich thermal damping factor, and fitting that temperature dependence yields cyclotron effective masses $m^{\ast}$ of $(15.0\pm0.7)\,m_{e}$ for $2730\ \mathrm{T}$, $(8.4\pm0.2)\,m_{e}$ for $3510\ \mathrm{T}$, $(10.1\pm0.2)\,m_{e}$ for $5370\ \mathrm{T}$, and $(14.9\pm0.9)\,m_{e}$ for $7050\ \mathrm{T}$, where $m_{e}$ is the free-electron mass.
+Fig.7
+5. Report the angular dependence of the observed frequencies within the basal plane: the two extreme frequencies (lowest and highest) are observable over the full angular sweep in the basal plane while the two intermediate frequencies are detectable only at small angles near $H\parallel a$; the measured angular dependence of the observed dHvA frequencies in the basal plane is plotted and shows a specific angular variation that is compared to calculated angular dependencies.
+Fig.8
+6. Compare experimental angular dependence and frequencies with band-structure calculations and note the mismatch: the experimentally observed frequencies (all in the few-kilotesla range) and their angular evolution are inconsistent with the LDA-calculated angular dependences for $YbRh_{2}Si_{2}$ in which itinerant $4f$ electrons produce calculated frequencies mostly below $1\ \mathrm{kT}$ or above $10\ \mathrm{kT}$, and the shapes of the calculated angular dependencies differ markedly from experiment; by contrast, LDA calculations for $LuRh_{2}Si_{2}$ (where $4f$ are well below $E_{\mathrm{F}}$) produce an angular dependence that shows qualitative similarity to the measured angular dependence, indicating that the measured spectrum does not match itinerant-4f predictions but resembles a Lu-like $4f$-localized reference.
+Fig.9; Fig.11
+7. Conclude the significance of the dHvA measurements: these dHvA frequencies and extracted effective masses constitute the first experimental Fermi-surface information for $YbRh_{2}Si_{2}$; the measured oscillation spectrum and heavy effective masses reveal a significant mismatch with itinerant-4f LDA band-structure predictions, thereby providing experimental constraints that point to intermediate valence and sensitivity of the $4f$ contribution rather than the simple itinerant-$4f$ LDA picture.
+Fig.7; Fig.8; Fig.9; Fig.11
+
+</details>
+
+
+#### gcn_bc46d7_cemo_kw_wilson_fl_consistency ★
+
+📌 `gcn_bc46d7_cemo_kw_wilson_fl_consistency`   |   Belief: **0.79**
+
+> For CeMo2Si2C in Paramanik et al. 2013, the experimentally determined low-temperature coefficients A=2.57e-3 muOmega cm K^-2, gamma=23.4 mJ mol^-1 K^-2, and impurity-corrected chi_FL~=5.6e-4 emu mol^-1 give A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2 and Wilson-Sommerfeld estimates R_W~=0.81 using mu_eff=2.54 mu_B or R_W~=1.7 using mu_eff=1.73 mu_B; the selected LKM chain concludes that these Kadowaki-Woods and Wilson/Sommerfeld ratios are consistent with correlated Fermi-liquid phenomenology in the low-temperature state [@Paramanik2013].
+
+🔗 **deduction**([gcn_2dc55af_kw_empirical_scale](#gcn_2dc55af_kw_empirical_scale), [gcn_7459a446_wilson_ratio_interpretation](#gcn_7459a446_wilson_ratio_interpretation))
+
+<details><summary>Reasoning</summary>
+
+1. This conclusion starts from the already established low-temperature transport coefficient $A=2.57\times10^{-3}\ \mu\Omega\ \mathrm{cm\ K^{-2}}$ from the fit $\rho(T)=\rho_0+AT^2$, the Sommerfeld coefficient $\gamma=23.4\ \mathrm{mJ/mol\ K^2}$ from the fit $C(T)=\gamma T+\beta T^3$, and the impurity-corrected low-temperature susceptibility $\chi_{\mathrm{FL}}\approx5.6\times10^{-4}\ \mathrm{emu/mol}$ extracted from the corrected susceptibility curve.
+Fig. 4; Fig. 6; Fig. 7
+2. Within Fermi-liquid theory, the paper states that the coefficient $A$ is related to $\gamma^2$. It then invokes the empirical Kadowaki-Woods ratio
+$$
+\frac{A}{\gamma^2},
+$$
+for which heavy-fermion and valence-fluctuating systems are reported to have values of order $1\times10^{-5}\ \mu\Omega\ \mathrm{cm}\ (\mathrm{mol\ K/mJ})^2$.
+[38]
+3. Using the measured $A$ and $\gamma$, the paper computes
+$$
+\frac{A}{\gamma^2}=0.5\times10^{-5}\ \mu\Omega\ \mathrm{cm}\ (\mathrm{mol\ K/mJ})^2.
+$$
+This is described as being essentially the original Kadowaki-Woods value.
+4. The paper also notes an alternative scaling proposed by Tsujii, Kontani, and Yoshimura, according to which the ratio scales as $2/N(N-1)$ with $N$ the orbital degeneracy of the $f$ state. For an intermediate-valent Ce system, taking $N=6$ gives $A/\gamma^2=6.7\times10^{-7}\ \mu\Omega\ \mathrm{cm}\ (\mathrm{mol\ K/mJ})^2$. This comparison is quoted, but the text emphasizes that the measured value for $CeMo_2Si_2C$ is at the original Kadowaki-Woods scale.
+[39]
+5. For susceptibility and specific heat, the paper uses the Wilson-Sommerfeld ratio
+$$
+R_W=\frac{\pi^2 k_B^2 \chi_{\mathrm{FL}}}{\gamma \mu_{\mathrm{eff}}^2},
+$$
+where $k_B$ is the Boltzmann constant, $\chi_{\mathrm{FL}}$ is the low-temperature Fermi-liquid susceptibility, $\gamma$ is the Sommerfeld coefficient, and $\mu_{\mathrm{eff}}$ is the effective magnetic moment used in the normalization.
+6. Substituting $\chi_{\mathrm{FL}}\approx5.6\times10^{-4}\ \mathrm{emu/mol}$, $\gamma=23.4\ \mathrm{mJ/mol\ K^2}$, and $\mu_{\mathrm{eff}}=2.54\ \mu_B$ as the free $Ce^{3+}$ moment gives
+$$
+R_W=0.81.
+$$
+If instead $\mu_{\mathrm{eff}}=1.73\ \mu_B$ is used as for a free conduction electron, the paper states that one gets
+$$
+R_W=1.7.
+$$
+7. Because the Kadowaki-Woods ratio is of the expected order and the Wilson ratio is close to the range expected for correlated Fermi liquids, the paper concludes that the low-temperature susceptibility, specific heat, and resistivity are mutually consistent with Fermi-liquid behavior in $CeMo_2Si_2C$.
 
 </details>
 
@@ -159,6 +363,81 @@ The Shaginyan premise explicitly says the homogeneous isotropic model neglects c
 </details>
 
 
+#### cross_ybrh2si2_material_specific_fs_constraints ★
+
+📌 `cross_ybrh2si2_material_specific_fs_constraints`   |   Belief: **0.67**
+
+> Within YbRh2Si2, Friedemann 2010 RBC/Hall/DOS evidence, Knebel 2006 high-field dHvA frequencies and cyclotron masses, and Friedemann 2013 LuRh2Si2 small-Fermi-surface reanalysis jointly constrain the material-specific Fermi-surface/effective-mass picture. The synthesis is a field- and method-scoped constraint claim, not an equivalence among RBC, high-field dHvA, and homogeneous FCQPT descriptions.
+
+🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values), [helper_rbc_parameterization_constrained_by_cef_gamma](#helper_rbc_parameterization_constrained_by_cef_gamma), [helper_dhva_frequencies_masses_h_parallel_a](#helper_dhva_frequencies_masses_h_parallel_a), [helper_dhva_angular_dependence_itinerant_lda_mismatch](#helper_dhva_angular_dependence_itinerant_lda_mismatch), [gcn_2b8dd97_lurh2si2_reference_reanalysis](#gcn_2b8dd97_lurh2si2_reference_reanalysis), [gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference))
+
+<details><summary>Reasoning</summary>
+
+All premises are material-specific YbRh2Si2 or LuRh2Si2-reference constraints: RBC supplies thermodynamically calibrated band/DOS/Hall information, Knebel dHvA supplies high-field frequencies and cyclotron masses plus an LDA mismatch, and Friedemann 2013 supplies the LuRh2Si2 small-FS reanalysis. The support is scoped to joint constraints and does not assert equivalence of the methods.
+
+</details>
+
+
+#### cross_ybrh2si2_field_method_scope_caution ★
+
+📌 `cross_ybrh2si2_field_method_scope_caution`   |   Belief: **0.60**
+
+> The YbRh2Si2 material-specific evidence should be read with field and method scope intact: Knebel dHvA uses 12-28 T fields and reports an itinerant-4f LDA mismatch, Friedemann 2013 reassigns published mid-band peaks using a LuRh2Si2 small-FS reference, and Friedemann 2010 RBC uses thermodynamically calibrated renormalized bands. These branches qualify low-field/QCP and homogeneous isotropic claims without creating a same-condition contradiction.
+
+🔗 **support**([gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope), [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity), [helper_dhva_first_fs_information_scope](#helper_dhva_first_fs_information_scope), [gcn_c131e014_ybrh2si2_midband_harmonic_assignment](#gcn_c131e014_ybrh2si2_midband_harmonic_assignment), [helper_ybrh2si2_reduced_fundamental_set](#helper_ybrh2si2_reduced_fundamental_set), [gcn_3dc248d_ybrh2si2_14kt_not_small_fs](#gcn_3dc248d_ybrh2si2_14kt_not_small_fs), [gcn_03614e9b_homogeneous_isotropic_model](#gcn_03614e9b_homogeneous_isotropic_model))
+
+<details><summary>Reasoning</summary>
+
+The dHvA and reanalysis branches explicitly carry high-field, harmonic assignment, small-FS-reference, and LDA-sensitivity caveats, while the Shaginyan premise explicitly states the homogeneous isotropic model scope. Those conditions ground a caution claim rather than a contradiction.
+
+</details>
+
+
+#### cross_brinkman_rice_mott_boundary_family ★
+
+📌 `cross_brinkman_rice_mott_boundary_family`   |   Belief: **0.67**
+
+> The Anderson Kondo-lattice Brinkman-Rice fixed point, the Capone-Fabrizio-Tosatti Mott entropy/Z/T_K boundary argument, and the Friedemann NiS2 large-FS plus m*=6(2)m_e result form a coherent Mott-boundary/heavy-quasiparticle theme: large effective mass or suppressed Z appears near a local-moment or Mott instability while Fermi-liquid coherence remains central to the claim.
+
+🔗 **support**([gcn_7ae79f_kondo_brinkman_rice_fixed_point](#gcn_7ae79f_kondo_brinkman_rice_fixed_point), [helper_brinkman_rice_large_mass_renormalization](#helper_brinkman_rice_large_mass_renormalization), [capone_brinkman_rice_mass_z_tk_limit](#capone_brinkman_rice_mass_z_tk_limit), [gcn_31bc66ca16a44508](#gcn_31bc66ca16a44508), [gcn_29401e42_nis2_brinkman_rice](#gcn_29401e42_nis2_brinkman_rice), [helper_nis2_large_fs_603kt_belly_orbit](#helper_nis2_large_fs_603kt_belly_orbit), [helper_nis2_mstar_6_me](#helper_nis2_mstar_6_me))
+
+<details><summary>Reasoning</summary>
+
+The three branches independently invoke heavy quasiparticles, mass enhancement or Z/T_K collapse, and proximity to a Mott or local-moment boundary. The support is thematic and mechanism-scoped, preserving the different material settings.
+
+</details>
+
+
+#### cross_brinkman_rice_scope_caution ★
+
+📌 `cross_brinkman_rice_scope_caution`   |   Belief: **0.65**
+
+> The Brinkman-Rice-related branches are not interchangeable: Anderson 1984 addresses a screened Kondo-lattice fixed point with finite Stoner enhancement, Capone-Fabrizio-Tosatti 2001 gives a conditional entropy obstruction for a direct Fermi-liquid to singlet-Mott crossover, and Friedemann 2016 reports NiS2 pressure-tuned quantum-oscillation evidence consistent with Brinkman-Rice large-Fermi-surface heavy quasiparticles.
+
+🔗 **support**([helper_kondo_lattice_screened_heavy_quasiparticles](#helper_kondo_lattice_screened_heavy_quasiparticles), [helper_brinkman_rice_finite_stoner_enhancement](#helper_brinkman_rice_finite_stoner_enhancement), [gcn_8f275a_brinkman_rice_scope_condition](#gcn_8f275a_brinkman_rice_scope_condition), [gcn_e4ecd721edd14d3f](#gcn_e4ecd721edd14d3f), [gcn_dd12256615264dfb](#gcn_dd12256615264dfb), [helper_brinkman_rice_large_fs_heavy_quasiparticles](#helper_brinkman_rice_large_fs_heavy_quasiparticles))
+
+<details><summary>Reasoning</summary>
+
+The imported helpers spell out distinct scopes: screened f-ion Kondo lattices with finite Stoner enhancement, a conditional singlet-Mott entropy obstruction, and pressure-metalized NiS2 large-FS heavy quasiparticles. They justify a non-equivalence caution.
+
+</details>
+
+
+#### cross_thermo_transport_correlated_fl_consistency ★
+
+📌 `cross_thermo_transport_correlated_fl_consistency`   |   Belief: **0.65**
+
+> CeMo2Si2C Kadowaki-Woods and Wilson/Sommerfeld ratios extend the package's thermodynamic effective-mass theme into transport and susceptibility phenomenology: low-temperature A/gamma^2 and R_W values are used as correlated Fermi-liquid consistency checks, complementary to He-3 gamma-based mass extraction and YbRh2Si2 thermodynamic/RBC effective-mass constraints.
+
+🔗 **support**([gcn_bc46d7_cemo_kw_wilson_fl_consistency](#gcn_bc46d7_cemo_kw_wilson_fl_consistency), [helper_cemo_kw_ratio_original_scale](#helper_cemo_kw_ratio_original_scale), [helper_cemo_wilson_ratio_dual_reference](#helper_cemo_wilson_ratio_dual_reference), [helper_cemo_ratio_consistency_correlated_fl](#helper_cemo_ratio_consistency_correlated_fl), [he3_gamma_implies_mstar_ratio_2_12](#he3_gamma_implies_mstar_ratio_2_12), [gcn_2e693115_entropy_over_temperature_mass](#gcn_2e693115_entropy_over_temperature_mass), [helper_rbc_dos_gamma_ybrh2si2_ybir2si2](#helper_rbc_dos_gamma_ybrh2si2_ybir2si2))
+
+<details><summary>Reasoning</summary>
+
+CeMo2Si2C supplies ratio-based transport/susceptibility consistency checks, while the existing He-3 and YbRh2Si2 branches supply gamma, S/T, and DOS/gamma thermodynamic effective-mass routes. Together they ground a correlated-FL phenomenology theme without equating the materials.
+
+</details>
+
+
 
 ## paper_alvesalo1979 -- He-3 heat-capacity claims from Alvesalo et al. 1979.
 
@@ -234,6 +513,328 @@ The Shaginyan premise explicitly says the homogeneous isotropic model neglects c
 </details>
 
 
+## paper_anderson1984 -- claims and deductions from Anderson 1984.
+
+```mermaid
+graph TD
+    gcn_40f111_nozieres_local_fl_kondo_sites["gcn_40f111_nozieres_local_fl_kondo_sites (0.78)"]:::premise
+    gcn_8f275a_brinkman_rice_scope_condition["gcn_8f275a_brinkman_rice_scope_condition (0.72)"]:::premise
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point["gcn_7ae79f_kondo_brinkman_rice_fixed_point (0.77)"]:::derived
+    helper_kondo_lattice_screened_heavy_quasiparticles["helper_kondo_lattice_screened_heavy_quasiparticles (0.86)"]:::derived
+    helper_brinkman_rice_large_mass_renormalization["helper_brinkman_rice_large_mass_renormalization (0.86)"]:::derived
+    helper_brinkman_rice_finite_stoner_enhancement["helper_brinkman_rice_finite_stoner_enhancement (0.86)"]:::derived
+    helper_nozieres_to_kondo_lattice_fixed_point["helper_nozieres_to_kondo_lattice_fixed_point (0.77)"]:::derived
+    strat_3(["deduction"])
+    gcn_40f111_nozieres_local_fl_kondo_sites --> strat_3
+    gcn_8f275a_brinkman_rice_scope_condition --> strat_3
+    strat_3 --> gcn_7ae79f_kondo_brinkman_rice_fixed_point
+    strat_4(["deduction"])
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_4
+    strat_4 --> helper_kondo_lattice_screened_heavy_quasiparticles
+    strat_5(["deduction"])
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_5
+    strat_5 --> helper_brinkman_rice_large_mass_renormalization
+    strat_6(["deduction"])
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_6
+    strat_6 --> helper_brinkman_rice_finite_stoner_enhancement
+    strat_7(["deduction"])
+    gcn_40f111_nozieres_local_fl_kondo_sites --> strat_7
+    gcn_8f275a_brinkman_rice_scope_condition --> strat_7
+    strat_7 --> helper_nozieres_to_kondo_lattice_fixed_point
+
+    classDef setting fill:#f0f0f0,stroke:#999,color:#333
+    classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef question fill:#fff3dd,stroke:#cc9944,color:#333
+    classDef background fill:#f5f5f5,stroke:#bbb,stroke-dasharray: 5 5,color:#333
+    classDef orphan fill:#fff,stroke:#ccc,stroke-dasharray: 5 5,color:#333
+    classDef external fill:#fff,stroke:#aaa,stroke-dasharray: 3 3,color:#333
+    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
+    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+```
+
+<a id="gcn_40f111_nozieres_local_fl_kondo_sites"></a>
+
+#### gcn_40f111_nozieres_local_fl_kondo_sites
+
+📌 `gcn_40f111_nozieres_local_fl_kondo_sites`   |   Prior: 0.78   |   Belief: **0.78**
+
+> For a metallic Kondo lattice made of a periodic subset of localized magnetic f-electron shells hybridized with conduction electrons, Anderson 1984 treats the leading low-energy local physics at each screened f-ion site as the Nozieres single-impurity Fermi-liquid representation: for energies E << T_K, scattering is described by Friedel-sum-rule phase shifts and finite analytic residual interactions, with inter-site corrections assumed small compared with the single-site Kondo scale [@Anderson1984].
+
+
+<a id="gcn_8f275a_brinkman_rice_scope_condition"></a>
+
+#### gcn_8f275a_brinkman_rice_scope_condition
+
+📌 `gcn_8f275a_brinkman_rice_scope_condition`   |   Prior: 0.72   |   Belief: **0.72**
+
+> Anderson 1984 defines the relevant Brinkman-Rice Fermi-liquid fixed point for Kondo-lattice metals as a Fermi liquid proximate to a Mott or local-moment instability, with very large effective-mass renormalization but finite nondivergent Stoner enhancement; the selected chain applies this description when direct inter-site exchange, RKKY coupling, and incipient magnetic order are weak or irrelevant enough that local Nozieres-type Kondo Fermi-liquid physics remains qualitatively intact [@Anderson1984].
+
+
+<a id="gcn_7ae79f_kondo_brinkman_rice_fixed_point"></a>
+
+#### gcn_7ae79f_kondo_brinkman_rice_fixed_point ★
+
+📌 `gcn_7ae79f_kondo_brinkman_rice_fixed_point`   |   Belief: **0.77**
+
+> For Anderson 1984 heavy-electron Kondo-lattice materials such as CeAl3, CeCu2Si2, UBe13, and UPt3, when localized f-ion moments are quenched by Kondo screening and inter-site collective effects do not qualitatively override the local Nozieres Fermi-liquid physics, the ground state is described as a Brinkman-Rice type Fermi-liquid fixed point: a coherent heavy-quasiparticle Fermi liquid with very large quasiparticle effective-mass renormalization and a finite, order-unity Stoner enhancement of the uniform spin susceptibility rather than a divergent almost-ferromagnetic enhancement [@Anderson1984].
+
+🔗 **deduction**([gcn_40f111_nozieres_local_fl_kondo_sites](#gcn_40f111_nozieres_local_fl_kondo_sites), [gcn_8f275a_brinkman_rice_scope_condition](#gcn_8f275a_brinkman_rice_scope_condition))
+
+<details><summary>Reasoning</summary>
+
+1. Define "Kondo-lattice": a periodic array of magnetic $f$-ions whose local moments are quenched by Kondo screening so that the low-energy degrees of freedom form a Fermi liquid of very heavy quasiparticles; this definition is taken from the identification of certain U and Ce compounds as such systems (examples: $CeAl_{3}$, $CeCu_{2}Si_{2}$, $UBe_{13}$, $UPt_3$) which are described in the paper as "Kondo lattices".
+1
+2. Define "Brinkman–Rice liquid" (Brinkman–Rice Fermi-liquid fixed point): a Fermi-liquid fixed point near a Mott- or local-moment instability characterized by (a) very large effective-mass renormalization (heavy quasiparticles) and (b) a Stoner enhancement factor that attains an $O(1)$ finite constant (rather than diverging) as the paramagnetic instability is approached; this characterization is taken from the paper's discussion of Brinkman and Rice and of the Brinkman–Rice viewpoint for $^3$He analogies.
+6
+3. Note the empirical observation motivating the analogy: a number of U and Ce compounds appear best described as Kondo-lattice systems in which the $f$-shell magnetism is quenched by the Kondo effect, leaving a Fermi liquid of extremely heavy electrons, and several of these compounds become superconducting in a low temperature range (between 1 and 0.1 K) as listed in the paper.
+1
+4. Invoke the Nozières Fermi-liquid ansatz for Kondo ions: treat each Kondo ion by the Fermi-liquid representation of the single-impurity Kondo problem (the Nozières ansatz), with only slight modifications due to inter-ion interactions; the paper justifies this by stating that many Fermi-liquid parameters are fixed by general sum rules (for example the Friedel sum rule for phase shifts) and thus band formation should not strongly modify them.
+9
+5. Explain the characteristic Brinkman–Rice signature as used in the paper: the "Stoner enhancement" factor (the factor by which the uniform spin susceptibility is enhanced relative to the noninteracting quasiparticle density-of-states contribution) takes on a near-constant value (the paper cites an example value "near 4") across pressures rather than diverging while the effective mass appears to be increasing; this observation is described as the characteristic sign of Brinkman–Rice behavior and is used as a key empirical/theoretical signature.
+7
+6. Connect the Kondo-lattice picture to Brinkman–Rice behavior: using the facts that (i) the local $f$-site physics is essentially the single-impurity Kondo problem represented by the Nozières Fermi-liquid ansatz, and (ii) the Stoner enhancement in this context is controlled by an interaction effective only in the opposite-spin (antiparallel-spin) channel on a site, conclude that the same mechanism that produces a finite, substantial Stoner enhancement in the single-impurity Kondo problem should apply to the periodic Kondo lattice as well; hence the ground state should be described by the Brinkman–Rice Fermi-liquid fixed point rather than by a conventional almost-ferromagnetic spin-fluctuation fixed point.
+4
+7. Record the explicit statement of the claim: the appropriate fixed point to describe the ground state of the Kondo lattice is the Brinkman–Rice liquid (the paper states this assertion directly), i.e., a Fermi-liquid fixed point characterized by large mass renormalization and a finite Stoner enhancement factor.
+
+</details>
+
+
+<a id="helper_kondo_lattice_screened_heavy_quasiparticles"></a>
+
+#### helper_kondo_lattice_screened_heavy_quasiparticles
+
+📌 `helper_kondo_lattice_screened_heavy_quasiparticles`   |   Belief: **0.86**
+
+> In the Anderson 1984 usage isolated by the LKM chain, a Kondo lattice is a periodic array of magnetic f-ions in U or Ce heavy-electron compounds whose local moments are quenched by Kondo screening, leaving coherent very-heavy quasiparticles at low energy [@Anderson1984].
+
+🔗 **deduction**([gcn_7ae79f_kondo_brinkman_rice_fixed_point](#gcn_7ae79f_kondo_brinkman_rice_fixed_point))
+
+<details><summary>Reasoning</summary>
+
+1. The selected root and factor step 1 explicitly define the Kondo-lattice setting as a periodic array of screened f-ion moments forming very heavy low-energy quasiparticles.
+
+</details>
+
+
+<a id="helper_brinkman_rice_large_mass_renormalization"></a>
+
+#### helper_brinkman_rice_large_mass_renormalization
+
+📌 `helper_brinkman_rice_large_mass_renormalization`   |   Belief: **0.86**
+
+> The Brinkman-Rice liquid component in the Anderson 1984 Kondo-lattice chain asserts a strongly renormalized Fermi liquid with very large quasiparticle effective-mass enhancement near a Mott or local-moment instability [@Anderson1984].
+
+🔗 **deduction**([gcn_7ae79f_kondo_brinkman_rice_fixed_point](#gcn_7ae79f_kondo_brinkman_rice_fixed_point))
+
+<details><summary>Reasoning</summary>
+
+1. The selected root and factor step 2 explicitly include very large effective-mass renormalization as one component of the Brinkman-Rice Fermi-liquid fixed point.
+
+</details>
+
+
+<a id="helper_brinkman_rice_finite_stoner_enhancement"></a>
+
+#### helper_brinkman_rice_finite_stoner_enhancement
+
+📌 `helper_brinkman_rice_finite_stoner_enhancement`   |   Belief: **0.86**
+
+> The Brinkman-Rice liquid component in the Anderson 1984 Kondo-lattice chain asserts that the uniform-spin susceptibility enhancement remains finite and order unity, with the paper using a near-constant Stoner enhancement factor around 4 as the characteristic sign rather than a divergent almost-ferromagnetic enhancement [@Anderson1984].
+
+🔗 **deduction**([gcn_7ae79f_kondo_brinkman_rice_fixed_point](#gcn_7ae79f_kondo_brinkman_rice_fixed_point))
+
+<details><summary>Reasoning</summary>
+
+1. The selected root and factor step 5 explicitly state that the Stoner enhancement remains finite and near constant, rather than diverging, in the Brinkman-Rice interpretation.
+
+</details>
+
+
+<a id="helper_nozieres_to_kondo_lattice_fixed_point"></a>
+
+#### helper_nozieres_to_kondo_lattice_fixed_point
+
+📌 `helper_nozieres_to_kondo_lattice_fixed_point`   |   Belief: **0.77**
+
+> The Anderson 1984 chain transfers the Nozieres single-impurity Kondo Fermi-liquid mechanism to a periodic Kondo lattice by treating inter-ion interactions as slight modifications and by using sum-rule-fixed local phase shifts and opposite-spin on-site residual interactions to motivate the same finite-Stoner, large-mass fixed-point structure [@Anderson1984].
+
+🔗 **deduction**([gcn_40f111_nozieres_local_fl_kondo_sites](#gcn_40f111_nozieres_local_fl_kondo_sites), [gcn_8f275a_brinkman_rice_scope_condition](#gcn_8f275a_brinkman_rice_scope_condition))
+
+<details><summary>Reasoning</summary>
+
+1. Factor steps 4 and 6 explicitly transfer the Nozieres single-impurity Fermi-liquid ansatz to periodic Kondo ions under slight inter-ion modifications, then use this transfer to justify the finite-Stoner Brinkman-Rice fixed-point picture.
+
+</details>
+
+
+## paper_capone2001 -- Capone, Fabrizio, and Tosatti Mott-entropy claims.
+
+```mermaid
+graph TD
+    gcn_31bc66ca16a44508["gcn_31bc66ca16a44508 (0.82)"]:::premise
+    gcn_795699f572b24ed5["gcn_795699f572b24ed5 (0.78)"]:::premise
+    gcn_dd12256615264dfb["gcn_dd12256615264dfb (0.80)"]:::premise
+    gcn_e4ecd721edd14d3f["gcn_e4ecd721edd14d3f (0.74)"]:::derived
+    capone_fl_definition_z_tk["capone_fl_definition_z_tk (0.85)"]:::derived
+    capone_brinkman_rice_mass_z_tk_limit["capone_brinkman_rice_mass_z_tk_limit (0.85)"]:::derived
+    capone_singlet_mott_zero_entropy["capone_singlet_mott_zero_entropy (0.85)"]:::derived
+    capone_luttinger_pinning_blocks_band_edge_route["capone_luttinger_pinning_blocks_band_edge_route (0.87)"]:::derived
+    strat_8(["deduction"])
+    gcn_31bc66ca16a44508 --> strat_8
+    gcn_795699f572b24ed5 --> strat_8
+    gcn_dd12256615264dfb --> strat_8
+    strat_8 --> gcn_e4ecd721edd14d3f
+    strat_9(["deduction"])
+    gcn_e4ecd721edd14d3f --> strat_9
+    strat_9 --> capone_fl_definition_z_tk
+    strat_10(["deduction"])
+    gcn_e4ecd721edd14d3f --> strat_10
+    strat_10 --> capone_brinkman_rice_mass_z_tk_limit
+    strat_11(["deduction"])
+    gcn_e4ecd721edd14d3f --> strat_11
+    strat_11 --> capone_singlet_mott_zero_entropy
+    strat_12(["deduction"])
+    gcn_795699f572b24ed5 --> strat_12
+    strat_12 --> capone_luttinger_pinning_blocks_band_edge_route
+
+    classDef setting fill:#f0f0f0,stroke:#999,color:#333
+    classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef question fill:#fff3dd,stroke:#cc9944,color:#333
+    classDef background fill:#f5f5f5,stroke:#bbb,stroke-dasharray: 5 5,color:#333
+    classDef orphan fill:#fff,stroke:#ccc,stroke-dasharray: 5 5,color:#333
+    classDef external fill:#fff,stroke:#aaa,stroke-dasharray: 3 3,color:#333
+    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
+    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+```
+
+<a id="gcn_31bc66ca16a44508"></a>
+
+#### gcn_31bc66ca16a44508
+
+📌 `gcn_31bc66ca16a44508`   |   Prior: 0.82   |   Belief: **0.82**
+
+> For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice/DMFT discussion, a Fermi-liquid metal with coherence scale T_K identified with E_F* has electronic entropy per lattice site S(T)/N ~ T/T_K for T <= T_K; therefore S(T_K) is finite and of order unity for every T_K > 0, assuming ordinary Fermi-liquid quasiparticles and no additional comparably low-energy entropy carriers [@Capone2001].
+
+
+<a id="gcn_795699f572b24ed5"></a>
+
+#### gcn_795699f572b24ed5
+
+📌 `gcn_795699f572b24ed5`   |   Prior: 0.78   |   Belief: **0.78**
+
+> For the three-orbital interacting lattice Hamiltonian considered by Capone, Fabrizio, and Tosatti 2001, if the metallic solution remains a Fermi liquid then Luttinger's theorem pins the interacting chemical potential to the noninteracting value and pins the spectral density at the chemical potential to rho_0(mu_0); the Mott transition then occurs by narrowing the quasiparticle resonance at fixed chemical potential rather than by shifting mu to a band edge [@Capone2001].
+
+
+<a id="gcn_dd12256615264dfb"></a>
+
+#### gcn_dd12256615264dfb
+
+📌 `gcn_dd12256615264dfb`   |   Prior: 0.80   |   Belief: **0.80**
+
+> In the Capone-Fabrizio-Tosatti 2001 setting, a Fermi-liquid metal with T_K > 0 and order-unity entropy near T ~ T_K cannot be continuously and adiabatically connected to a nondegenerate spin-singlet Mott insulator with zero T -> 0 entropy while Luttinger's theorem pins the chemical potential and no symmetry breaking changes the entropy accounting; absent chemical-potential motion or symmetry breaking, a thermodynamic instability or intermediate phase must intervene [@Capone2001].
+
+
+<a id="gcn_e4ecd721edd14d3f"></a>
+
+#### gcn_e4ecd721edd14d3f ★
+
+📌 `gcn_e4ecd721edd14d3f`   |   Belief: **0.74**
+
+> For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice-type route toward a nondegenerate singlet Mott insulator, a normal Fermi liquid has a well-defined Fermi surface, finite quasiparticle weight Z > 0 with Z = m/m*, and coherence scale T_K ~ E_F*; as m* -> infinity, Z -> 0 and T_K -> 0, while S(T_K) remains order unity for each T_K > 0. Because the target singlet Mott insulator has a unique spin-singlet ground state, a spin gap, and zero entropy as T -> 0, a direct continuous Fermi-liquid-to-insulator crossover is impossible under fixed chemical potential and no-symmetry-breaking assumptions; an intervening thermodynamic instability or distinct intermediate phase must occur [@Capone2001].
+
+🔗 **deduction**([gcn_31bc66ca16a44508](#gcn_31bc66ca16a44508), [gcn_795699f572b24ed5](#gcn_795699f572b24ed5), [gcn_dd12256615264dfb](#gcn_dd12256615264dfb))
+
+<details><summary>Reasoning</summary>
+
+1. Define "Fermi liquid (FL)" as a normal metallic state characterized by a finite quasiparticle weight $Z>0$, where the quasiparticle effective mass is $m_{*}$ and $Z\equiv m/m_{*}$ with $m$ the noninteracting mass; define the coherence (effective Fermi) energy scale $E_{F}^{*}$ as the width of the low-energy quasiparticle resonance and identify it later with $E_{F}^{*}\simeq ZW/2$, where $W$ is the noninteracting bandwidth.
+2. State the DMFT picture for a Brinkman-Rice type Mott transition: within Dynamical Mean Field Theory (DMFT) the metal near the Mott transition is described by a narrow low-energy Kondo-like quasiparticle resonance sitting at the chemical potential together with high-energy Hubbard bands; the resonance width plays the role of an effective Kondo temperature $T_{K}$ or effective Fermi energy $E_{F}^{*}$ below which the system behaves as a FL. [1]
+[1]
+Fig. 1
+3. Introduce the quantitative relation between the resonance width and the quasiparticle weight: the peak width is given by $E_{F}^{*}\simeq ZW/2$, where $Z\equiv m/m_{*}$ and $W$ is the bare bandwidth; consequently $T_{K}\sim E_{F}^{*}\sim ZW/2$, so that $T_{K}\to0$ as $Z\to0$ when $m_{*}\to\infty$.
+4. Relate low-temperature entropy of the FL to the coherence scale: for temperature $T\leq T_{K}$ the entropy per site $S(T)/N$ behaves as $S(T)/N\sim T/T_{K}$ so that the entropy at the coherence scale, $S(T_{K})$, is of order unity (i.e., finite) for $U$ up to the critical value where $T_{K}$ vanishes; thus a FL with a finite $T_{K}$ carries a finite low-temperature entropy per site on the order of one at temperatures of order $T_{K}$.
+5. Characterize the nondegenerate singlet Mott insulator targeted in the paper: the insulator is nondegenerate and a spin singlet, hence it has zero entropy at zero temperature and a finite spin gap for spin excitations.
+6. Invoke the numerical/DMFT observation that, in the Brinkman-Rice scenario relevant to the models considered, $Z$ decreases continuously to zero as $U$ approaches the critical value $U_{c2}$, so that the FL coherence scale $T_{K}$ vanishes continuously at the transition (the paper reports this continuous vanishing numerically and displays the narrowing resonance in the spectral function). [2]
+[2]
+Fig. 1; Fig. 2(a)
+7. Point out the entropy mismatch at a continuous crossover: because the FL for $U\lesssim U_{c2}$ possesses a finite low-temperature entropy on the scale $T_{K}$ and the singlet Mott insulator for $U\gtrsim U_{c2}$ has zero entropy, a continuous crossover that smoothly transforms the FL into the zero-entropy singlet insulator would require that the finite entropy of the FL be continuously removed exactly as $T_{K}\to0$ at the transition; this is incompatible with the insulator having zero entropy unless some phase transition or instability removes the entropy of the metallic solution prior to or at the MT.
+8. Explain why Luttinger's theorem prevents a trivial resolution: by Luttinger's theorem the chemical potential in the interacting system must coincide with the bare chemical potential, and the spectral density at the chemical potential must be pinned to the noninteracting value; hence, within solutions obeying Luttinger theorem, the MT proceeds by narrowing of the resonance at fixed chemical potential (rather than by shifting the chemical potential to the band edge), and therefore the finite FL entropy associated with the finite $T_{K}$ cannot be transferred continuously into a zero-entropy insulator without violating this constraint. This argument relies on the DMFT/FL picture and Luttinger theorem as discussed in the paper. [2]
+[2]
+9. List the only possible ways out discussed in the paper and rule them out or note them as alternatives: (a) a breakdown of Luttinger's theorem before the MT could allow the chemical potential to move and connect smoothly to a zero-entropy insulator - the authors regard this as a possible but nonstandard scenario; (b) the insulator could break a symmetry (e.g., spin SU(2)), in which case the metal could break the same symmetry and the transition could be of a metal-band-insulator type - this is not the present case because the insulator under study is nondegenerate and does not break symmetry; therefore neither of these standard resolutions applies to the singlet, nondegenerate Mott insulator considered.
+10. Conclude that continuity is impossible: combining the finite FL entropy at the vanishing coherence scale, the pinning enforced by Luttinger theorem, and the zero entropy of the singlet Mott insulator, the FL state characterized by finite $Z$ (for $U$ just below the MT) cannot be continuously connected, within a Brinkman-Rice type scenario where $m_{*}\to\infty$ and $Z\to0$, to a nondegenerate singlet Mott insulator; therefore some intermediate phase must intrude between the FL metal and the singlet Mott insulator rather than a direct continuous FL-insulator crossover.
+
+</details>
+
+
+<a id="capone_fl_definition_z_tk"></a>
+
+#### capone_fl_definition_z_tk
+
+📌 `capone_fl_definition_z_tk`   |   Belief: **0.85**
+
+> In the Capone-Fabrizio-Tosatti 2001 root, the scoped normal Fermi liquid is a metal with a well-defined Fermi surface, finite quasiparticle weight Z > 0, Z = m/m* with m the bare band mass and m* the quasiparticle effective mass, and a low-energy coherence scale T_K identified with E_F* below which thermodynamics are Fermi-liquid-like [@Capone2001].
+
+🔗 **deduction**([gcn_e4ecd721edd14d3f](#gcn_e4ecd721edd14d3f))
+
+<details><summary>Reasoning</summary>
+
+1. The root explicitly defines the scoped normal Fermi liquid by its Fermi surface, finite Z > 0, Z = m/m*, and coherence scale T_K.
+
+</details>
+
+
+<a id="capone_brinkman_rice_mass_z_tk_limit"></a>
+
+#### capone_brinkman_rice_mass_z_tk_limit
+
+📌 `capone_brinkman_rice_mass_z_tk_limit`   |   Belief: **0.85**
+
+> In the Brinkman-Rice-type scenario described by Capone, Fabrizio, and Tosatti 2001, approaching the Mott transition drives m* -> infinity and Z -> 0; because the low-energy resonance width satisfies E_F* ~ ZW/2 and T_K ~ E_F*, the coherence scale T_K also tends to zero [@Capone2001].
+
+🔗 **deduction**([gcn_e4ecd721edd14d3f](#gcn_e4ecd721edd14d3f))
+
+<details><summary>Reasoning</summary>
+
+1. The root explicitly states the Brinkman-Rice limiting behavior: m* -> infinity, Z -> 0, and T_K -> 0.
+
+</details>
+
+
+<a id="capone_singlet_mott_zero_entropy"></a>
+
+#### capone_singlet_mott_zero_entropy
+
+📌 `capone_singlet_mott_zero_entropy`   |   Belief: **0.85**
+
+> The target Mott insulator in the Capone-Fabrizio-Tosatti 2001 argument is nondegenerate, has a unique spin-singlet ground state and finite spin gap, and therefore has strictly zero entropy in the T -> 0 limit [@Capone2001].
+
+🔗 **deduction**([gcn_e4ecd721edd14d3f](#gcn_e4ecd721edd14d3f))
+
+<details><summary>Reasoning</summary>
+
+1. The root explicitly defines the nondegenerate singlet Mott insulator as a unique spin-singlet, spin-gapped endpoint with zero entropy as T -> 0.
+
+</details>
+
+
+<a id="capone_luttinger_pinning_blocks_band_edge_route"></a>
+
+#### capone_luttinger_pinning_blocks_band_edge_route
+
+📌 `capone_luttinger_pinning_blocks_band_edge_route`   |   Belief: **0.87**
+
+> Within the Capone-Fabrizio-Tosatti Fermi-liquid solution obeying Luttinger's theorem, the chemical potential remains pinned to the noninteracting value, so the Mott transition cannot be converted into a trivial metal-to-band-insulator crossover by sliding the chemical potential to a band edge [@Capone2001].
+
+🔗 **deduction**([gcn_795699f572b24ed5](#gcn_795699f572b24ed5))
+
+<details><summary>Reasoning</summary>
+
+1. Premise gcn_795699f572b24ed5 explicitly states that Luttinger's theorem pins mu to mu_0 and keeps the resonance at fixed chemical potential rather than moving to the band edge.
+
+</details>
+
+
 ## paper_friedemann2010 -- claims and deductions from Friedemann et al. 2010.
 
 ```mermaid
@@ -244,19 +845,19 @@ graph TD
     helper_rbc_parameterization_constrained_by_cef_gamma["helper_rbc_parameterization_constrained_by_cef_gamma (0.86)"]:::derived
     helper_ybrh2si2_opposite_hall_transport_products["helper_ybrh2si2_opposite_hall_transport_products (0.86)"]:::derived
     helper_rbc_dos_gamma_ybrh2si2_ybir2si2["helper_rbc_dos_gamma_ybrh2si2_ybir2si2 (0.86)"]:::derived
-    strat_3(["deduction"])
-    gcn_c243dcb_rbc_phase_shift_parametrization --> strat_3
-    gcn_48bba377_specific_heat_calibration --> strat_3
-    strat_3 --> gcn_42a4ff_rbc_hall_dos_values
-    strat_4(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_4
-    strat_4 --> helper_rbc_parameterization_constrained_by_cef_gamma
-    strat_5(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_5
-    strat_5 --> helper_ybrh2si2_opposite_hall_transport_products
-    strat_6(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_6
-    strat_6 --> helper_rbc_dos_gamma_ybrh2si2_ybir2si2
+    strat_13(["deduction"])
+    gcn_c243dcb_rbc_phase_shift_parametrization --> strat_13
+    gcn_48bba377_specific_heat_calibration --> strat_13
+    strat_13 --> gcn_42a4ff_rbc_hall_dos_values
+    strat_14(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_14
+    strat_14 --> helper_rbc_parameterization_constrained_by_cef_gamma
+    strat_15(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_15
+    strat_15 --> helper_ybrh2si2_opposite_hall_transport_products
+    strat_16(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_16
+    strat_16 --> helper_rbc_dos_gamma_ybrh2si2_ybir2si2
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -369,6 +970,512 @@ The root LKM claim and factor step 5 explicitly give the RBC density-of-states a
 </details>
 
 
+## paper_friedemann2013 -- claims and deductions from Friedemann et al. 2013.
+
+```mermaid
+graph TD
+    gcn_c131e014_ybrh2si2_midband_harmonic_assignment["gcn_c131e014_ybrh2si2_midband_harmonic_assignment (0.78)"]:::premise
+    gcn_3dc248d_ybrh2si2_14kt_not_small_fs["gcn_3dc248d_ybrh2si2_14kt_not_small_fs (0.74)"]:::premise
+    gcn_3a8394c_lurh2si2_small_fs_reference["gcn_3a8394c_lurh2si2_small_fs_reference (0.84)"]:::premise
+    gcn_2b8dd97_lurh2si2_reference_reanalysis["gcn_2b8dd97_lurh2si2_reference_reanalysis (0.73)"]:::derived
+    helper_ybrh2si2_reduced_fundamental_set["helper_ybrh2si2_reduced_fundamental_set (0.83)"]:::derived
+    strat_17(["deduction"])
+    gcn_c131e014_ybrh2si2_midband_harmonic_assignment --> strat_17
+    gcn_3dc248d_ybrh2si2_14kt_not_small_fs --> strat_17
+    gcn_3a8394c_lurh2si2_small_fs_reference --> strat_17
+    strat_17 --> gcn_2b8dd97_lurh2si2_reference_reanalysis
+    strat_18(["support"]):::weak
+    gcn_2b8dd97_lurh2si2_reference_reanalysis --> strat_18
+    strat_18 --> helper_ybrh2si2_reduced_fundamental_set
+
+    classDef setting fill:#f0f0f0,stroke:#999,color:#333
+    classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef question fill:#fff3dd,stroke:#cc9944,color:#333
+    classDef background fill:#f5f5f5,stroke:#bbb,stroke-dasharray: 5 5,color:#333
+    classDef orphan fill:#fff,stroke:#ccc,stroke-dasharray: 5 5,color:#333
+    classDef external fill:#fff,stroke:#aaa,stroke-dasharray: 3 3,color:#333
+    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
+    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+```
+
+<a id="gcn_c131e014_ybrh2si2_midband_harmonic_assignment"></a>
+
+#### gcn_c131e014_ybrh2si2_midband_harmonic_assignment
+
+📌 `gcn_c131e014_ybrh2si2_midband_harmonic_assignment`   |   Prior: 0.78   |   Belief: **0.78**
+
+> In the Friedemann et al. 2013 re-examination of published field-modulation dHvA data on YbRh2Si2, if the angular dependences of observed 5-7 kT peaks match two times lower-frequency branches below 4 kT and the method preferentially enhances harmonics, then the 5-7 kT peaks can be assigned as second, and in some cases higher, harmonics of lower-frequency fundamentals rather than independent fundamental orbits; the assignment is reported as consistent with tabulated frequency and mass comparisons from the published data [@Friedemann2013].
+
+
+<a id="gcn_3dc248d_ybrh2si2_14kt_not_small_fs"></a>
+
+#### gcn_3dc248d_ybrh2si2_14kt_not_small_fs
+
+📌 `gcn_3dc248d_ybrh2si2_14kt_not_small_fs`   |   Prior: 0.74   |   Belief: **0.74**
+
+> For YbRh2Si2 with fields along the (100) direction, Friedemann et al. 2013 define the "small" Fermi surface as an LDA/GGA band-structure calculation in which Yb 4f electrons are core-like and non-hybridizing; if the refined z_Si=0.379 c small-Fermi-surface calculation has no extremal orbit near 14 kT and the measured F_14 ~= 14 kT dHvA peak is an independent fundamental, then the observed 14 kT orbit indicates itinerant Yb 4f participation under the high-field measurement conditions, provided instrumental, magnetic-breakdown, or misassignment alternatives are unlikely [@Friedemann2013].
+
+
+<a id="gcn_3a8394c_lurh2si2_small_fs_reference"></a>
+
+#### gcn_3a8394c_lurh2si2_small_fs_reference
+
+📌 `gcn_3a8394c_lurh2si2_small_fs_reference`   |   Prior: 0.84   |   Belief: **0.84**
+
+> Friedemann et al. 2013 treat LuRh2Si2 as an isostructural, filled-4f-shell reference for the "small" Fermi surface of YbRh2Si2 with core-like non-hybridizing Yb 4f electrons, because the Lu and Yb compounds have nearly identical lattice parameters and non-f conduction-band characters when computed and measured using the experimental z_Si=0.379 c structure [@Friedemann2013].
+
+
+<a id="gcn_2b8dd97_lurh2si2_reference_reanalysis"></a>
+
+#### gcn_2b8dd97_lurh2si2_reference_reanalysis ★
+
+📌 `gcn_2b8dd97_lurh2si2_reference_reanalysis`   |   Belief: **0.73**
+
+> Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 "small" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].
+
+🔗 **deduction**([gcn_c131e014_ybrh2si2_midband_harmonic_assignment](#gcn_c131e014_ybrh2si2_midband_harmonic_assignment), [gcn_3dc248d_ybrh2si2_14kt_not_small_fs](#gcn_3dc248d_ybrh2si2_14kt_not_small_fs), [gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference))
+
+<details><summary>Reasoning</summary>
+
+1. Start from the refined "small" Fermi-surface reference provided by LuRh$_2$Si$_2$ calculations and from the identification that harmonics and magnetic-interaction mixing are prevalent in LuRh$_2$Si$_2$: the previously established calculated "small" Fermi surface for LuRh$_2$Si$_2$ using $z_{\text{Si}}=0.379\,c$ serves as a reference for analogous "small" Fermi-surface calculations on YbRh$_2$Si$_2$ in which the Yb $4f$ electrons are treated as core-like (non-hybridizing), and the presence of many harmonics and mixing products in LuRh$_2$Si$_2$ motivates re-examination of published de Haas-van Alphen (dHvA) data on YbRh$_2$Si$_2$ for possible harmonic assignments.
+Fig. 10
+[13]
+2. Describe the re-analysis procedure and evidence for harmonics in YbRh$_2$Si$_2$: the dHvA frequencies reported previously for YbRh$_2$Si$_2$ were compared to calculated fundamental frequencies of the "small" Fermi-surface calculation and to integer multiples (harmonics) of the low-frequency fundamentals (below $\sim 4\ \mathrm{kT}$); the authors overlay second and higher harmonic angular dependences on the experimental dHvA frequency-versus-angle plot and find that the experimental frequencies in the range approximately $5\ \mathrm{kT}$ to $7\ \mathrm{kT}$ match the angular dependence expected for second harmonics of the lower-frequency fundamentals, as illustrated in the comparison plot and summarized in a table that compares expected harmonic values to measured frequencies and masses.
+Fig. 10
+Table III
+3. Report the reduced set of independent fundamental frequencies implied by the harmonic reassignment: if the frequencies between $\sim 5\ \mathrm{kT}$ and $7\ \mathrm{kT}$ in the published YbRh$_2$Si$_2$ data are reinterpreted as second (or higher) harmonics of fundamentals below $4\ \mathrm{kT}$, then the number of independent fundamental frequencies in YbRh$_2$Si$_2$ is reduced to a set of fundamentals below $4\ \mathrm{kT}$ plus a distinct high-frequency fundamental near $\sim 14\ \mathrm{kT}$ (the latter is not accounted for as a harmonic of the low-frequency group).
+Fig. 10
+Table III
+4. Contrast the high-frequency fundamental with the "small" Fermi-surface prediction and infer $f$-electron involvement: within the refined "small" Fermi-surface calculation for YbRh$_2$Si$_2$ (i.e., treating Yb $4f$ electrons as core-like), no high-frequency orbit near $\sim 14\ \mathrm{kT}$ is predicted for fields along the (100) direction; because the experimentally observed $\sim 14\ \mathrm{kT}$ frequency behaves as an independent fundamental (not a harmonic of lower frequencies) in the dHvA data, its presence indicates that the "small" $f$-core calculation does not account for this orbit, supporting the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields (i.e., the $4f$ electrons are at least partially itinerant under those conditions rather than fully localized).
+Fig. 10
+[13]
+5. State the authors' interpretive conclusion and suggested further checks: the re-examination reduces the set of independent fundamentals in YbRh$_2$Si$_2$ to low-frequency fundamentals below $4\ \mathrm{kT}$ plus a single high-frequency near $\sim 14\ \mathrm{kT}$; because the refined "small" Fermi-surface calculation does not predict the $\sim 14\ \mathrm{kT}$ orbit for fields along (100), the presence of that high-frequency fundamental supports the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields rather than being fully localized; the authors also suggest further experimental checks (extended angular range measurements and complementary techniques) to solidify the harmonic assignments.
+Fig. 10
+[10]
+
+</details>
+
+
+<a id="helper_ybrh2si2_reduced_fundamental_set"></a>
+
+#### helper_ybrh2si2_reduced_fundamental_set
+
+📌 `helper_ybrh2si2_reduced_fundamental_set`   |   Belief: **0.83**
+
+> After the harmonic reassignment in Friedemann et al. 2013, the independent YbRh2Si2 dHvA frequencies retained by the analysis consist of lower-frequency fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT [@Friedemann2013].
+
+🔗 **support**([gcn_2b8dd97_lurh2si2_reference_reanalysis](#gcn_2b8dd97_lurh2si2_reference_reanalysis))
+
+<details><summary>Reasoning</summary>
+
+The root LKM claim and factor step 3 explicitly state the reduced set of independent YbRh2Si2 fundamentals after the harmonic reassignment.
+
+</details>
+
+
+## paper_friedemann2016 -- NiS2 quantum-oscillation Brinkman-Rice claims.
+
+```mermaid
+graph TD
+    gcn_8a1a2748_alternative_mechanisms_assumption["gcn_8a1a2748_alternative_mechanisms_assumption (0.58)"]:::premise
+    gcn_29401e42_nis2_brinkman_rice["gcn_29401e42_nis2_brinkman_rice (0.77)"]:::derived
+    helper_nis2_large_fs_603kt_belly_orbit["helper_nis2_large_fs_603kt_belly_orbit (0.87)"]:::derived
+    helper_nis2_mstar_6_me["helper_nis2_mstar_6_me (0.87)"]:::derived
+    helper_brinkman_rice_large_fs_heavy_quasiparticles["helper_brinkman_rice_large_fs_heavy_quasiparticles (0.87)"]:::derived
+    strat_19(["deduction"])
+    gcn_8a1a2748_alternative_mechanisms_assumption --> strat_19
+    strat_19 --> gcn_29401e42_nis2_brinkman_rice
+    strat_20(["deduction"])
+    gcn_29401e42_nis2_brinkman_rice --> strat_20
+    strat_20 --> helper_nis2_large_fs_603kt_belly_orbit
+    strat_21(["deduction"])
+    gcn_29401e42_nis2_brinkman_rice --> strat_21
+    strat_21 --> helper_nis2_mstar_6_me
+    strat_22(["deduction"])
+    gcn_29401e42_nis2_brinkman_rice --> strat_22
+    strat_22 --> helper_brinkman_rice_large_fs_heavy_quasiparticles
+
+    classDef setting fill:#f0f0f0,stroke:#999,color:#333
+    classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef question fill:#fff3dd,stroke:#cc9944,color:#333
+    classDef background fill:#f5f5f5,stroke:#bbb,stroke-dasharray: 5 5,color:#333
+    classDef orphan fill:#fff,stroke:#ccc,stroke-dasharray: 5 5,color:#333
+    classDef external fill:#fff,stroke:#aaa,stroke-dasharray: 3 3,color:#333
+    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
+    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+```
+
+<a id="gcn_8a1a2748_alternative_mechanisms_assumption"></a>
+
+#### gcn_8a1a2748_alternative_mechanisms_assumption
+
+📌 `gcn_8a1a2748_alternative_mechanisms_assumption`   |   Prior: 0.58   |   Belief: **0.58**
+
+> For pressure-metalized NiS2 near 3.8 GPa, interpreting the coexistence of a large Fermi-surface extremal area and enhanced quasiparticle effective mass as realization of the Brinkman-Rice correlated-metal scenario relies on the assumption that spin-fluctuation renormalization, enhanced electron-phonon coupling, or Fermi-surface reconstruction from proximate magnetic order cannot produce the same pair of observations without Brinkman-Rice physics [@Friedemann2016].
+
+
+<a id="gcn_29401e42_nis2_brinkman_rice"></a>
+
+#### gcn_29401e42_nis2_brinkman_rice ★
+
+📌 `gcn_29401e42_nis2_brinkman_rice`   |   Belief: **0.77**
+
+> In NiS2 pressurized to approximately 3.8 GPa, the simultaneous observation of a large Fermi-surface cross-sectional area, specifically the 6.03 kT belly orbit, and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e is consistent with the Brinkman-Rice picture of a correlated Fermi liquid near a Mott insulator: coherent heavy quasiparticles retain the uncorrelated-band Fermi-surface volume while quasiparticle spectral weight Z and quasiparticle velocities are strongly reduced [@Friedemann2016].
+
+🔗 **deduction**([gcn_8a1a2748_alternative_mechanisms_assumption](#gcn_8a1a2748_alternative_mechanisms_assumption))
+
+<details><summary>Reasoning</summary>
+
+1. Treat conclusion 2 (the metallic state has a large Fermi surface matching the uncorrelated-band prediction) and conclusion 3 (the quasiparticle effective mass is strongly enhanced to $m^* = 6(2)\ m_e$) as established upstream results to be taken as known starting points for the present reasoning.
+2. Define the Brinkman-Rice picture as the theoretical framework in which, on approaching a Mott insulating state by bandwidth reduction, the quasiparticle weight $Z$ is suppressed (possibly to $Z\to 0$), quasiparticle velocities are reduced, the effective mass $m^*$ is strongly enhanced (and in some treatments can diverge), while the Fermi surface volume remains that of the corresponding uncorrelated metal as required by Luttinger's theorem; cite the original Brinkman-Rice argument and Luttinger's theorem as the conceptual bases.
+[6]
+[9]
+3. Observe that the empirical combination established in conclusions 2 and 3 -- a large Fermi surface volume equal to the uncorrelated-band value and a strongly enhanced quasiparticle mass -- matches the key qualitative signatures of a Brinkman-Rice correlated Fermi liquid proximate to a Mott insulator, namely: preserved large Fermi volume and suppressed quasiparticle weight manifesting as heavy quasiparticles.
+Fig. 5
+Fig. 4
+4. Note that alternative theoretical scenarios that envisage a continuous depletion of carrier concentration or Fermi-surface reconstruction on approach to the insulating state would predict a reduced Fermi surface volume or the absence of a large uncorrelated-like Fermi surface in the immediate metallic regime; because the measured experimental combination does not display such carrier depletion or reconstruction, the experimental findings are consistent with the Brinkman-Rice description rather than with those alternative scenarios.
+[40]
+5. Conclude that the coexistence of a large Fermi surface volume (conclusion 2) and a strongly enhanced quasiparticle mass (conclusion 3) in pressure-metalized NiS$_2$ is consistent with the Brinkman-Rice picture of a correlated Fermi liquid proximate to a Mott insulator: coherent quasiparticles form a heavy Fermi liquid whose Fermi surface volume remains that of the uncorrelated band while the quasiparticle weight $Z$ and quasiparticle velocities are reduced.
+Table 1
+
+</details>
+
+
+<a id="helper_nis2_large_fs_603kt_belly_orbit"></a>
+
+#### helper_nis2_large_fs_603kt_belly_orbit
+
+📌 `helper_nis2_large_fs_603kt_belly_orbit`   |   Belief: **0.87**
+
+> For NiS2 pressurized to approximately 3.8 GPa, the selected LKM root treats the 6.03 kT belly quantum-oscillation orbit as a large Fermi-surface cross-sectional area matching the uncorrelated-band large-Fermi-surface expectation [@Friedemann2016].
+
+🔗 **deduction**([gcn_29401e42_nis2_brinkman_rice](#gcn_29401e42_nis2_brinkman_rice))
+
+<details><summary>Reasoning</summary>
+
+1. The LKM root explicitly contains the component assertion that NiS2 at approximately 3.8 GPa shows a large Fermi-surface cross-sectional area, identified as the 6.03 kT belly orbit.
+
+</details>
+
+
+<a id="helper_nis2_mstar_6_me"></a>
+
+#### helper_nis2_mstar_6_me
+
+📌 `helper_nis2_mstar_6_me`   |   Belief: **0.87**
+
+> For the same pressure-metalized NiS2 setting, the selected LKM root reports a strongly enhanced quasiparticle effective mass m* = 6(2) m_e for the observed Fermi-liquid quasiparticles [@Friedemann2016].
+
+🔗 **deduction**([gcn_29401e42_nis2_brinkman_rice](#gcn_29401e42_nis2_brinkman_rice))
+
+<details><summary>Reasoning</summary>
+
+1. The LKM root explicitly contains the component assertion that pressure-metalized NiS2 has a strongly enhanced quasiparticle effective mass m* = 6(2) m_e.
+
+</details>
+
+
+<a id="helper_brinkman_rice_large_fs_heavy_quasiparticles"></a>
+
+#### helper_brinkman_rice_large_fs_heavy_quasiparticles
+
+📌 `helper_brinkman_rice_large_fs_heavy_quasiparticles`   |   Belief: **0.87**
+
+> In the Brinkman-Rice picture invoked by the selected LKM factor, approaching a Mott insulating state by bandwidth reduction suppresses quasiparticle weight Z and quasiparticle velocities, strongly enhances m*, and preserves the large Fermi-surface volume of the corresponding uncorrelated metal [@Friedemann2016].
+
+🔗 **deduction**([gcn_29401e42_nis2_brinkman_rice](#gcn_29401e42_nis2_brinkman_rice))
+
+<details><summary>Reasoning</summary>
+
+1. The LKM factor step defining the Brinkman-Rice picture explicitly links preserved Fermi volume with reduced Z, reduced quasiparticle velocities, and enhanced effective mass near the Mott boundary.
+
+</details>
+
+
+## paper_knebel2006 -- claims and deductions from Knebel et al. 2006.
+
+```mermaid
+graph TD
+    gcn_5501e18a_high_field_dhva_scope["gcn_5501e18a_high_field_dhva_scope (0.84)"]:::premise
+    gcn_f20b1f42_itinerant_4f_lda_sensitivity["gcn_f20b1f42_itinerant_4f_lda_sensitivity (0.78)"]:::premise
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch["gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch (0.81)"]:::derived
+    helper_dhva_frequencies_masses_h_parallel_a["helper_dhva_frequencies_masses_h_parallel_a (0.86)"]:::derived
+    helper_dhva_angular_dependence_itinerant_lda_mismatch["helper_dhva_angular_dependence_itinerant_lda_mismatch (0.86)"]:::derived
+    helper_dhva_first_fs_information_scope["helper_dhva_first_fs_information_scope (0.86)"]:::derived
+    strat_23(["deduction"])
+    gcn_5501e18a_high_field_dhva_scope --> strat_23
+    gcn_f20b1f42_itinerant_4f_lda_sensitivity --> strat_23
+    strat_23 --> gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch
+    strat_24(["support"]):::weak
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_24
+    strat_24 --> helper_dhva_frequencies_masses_h_parallel_a
+    strat_25(["support"]):::weak
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_25
+    strat_25 --> helper_dhva_angular_dependence_itinerant_lda_mismatch
+    strat_26(["support"]):::weak
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_26
+    strat_26 --> helper_dhva_first_fs_information_scope
+
+    classDef setting fill:#f0f0f0,stroke:#999,color:#333
+    classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef question fill:#fff3dd,stroke:#cc9944,color:#333
+    classDef background fill:#f5f5f5,stroke:#bbb,stroke-dasharray: 5 5,color:#333
+    classDef orphan fill:#fff,stroke:#ccc,stroke-dasharray: 5 5,color:#333
+    classDef external fill:#fff,stroke:#aaa,stroke-dasharray: 3 3,color:#333
+    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
+    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+```
+
+<a id="gcn_5501e18a_high_field_dhva_scope"></a>
+
+#### gcn_5501e18a_high_field_dhva_scope
+
+📌 `gcn_5501e18a_high_field_dhva_scope`   |   Prior: 0.84   |   Belief: **0.84**
+
+> In Knebel et al. 2006, the YbRh2Si2 de Haas-van Alphen frequencies and cyclotron masses are measured on high-quality single crystals in steady fields from 12 T to 28 T with H parallel to the crystallographic a axis; because such high fields can polarize the system, suppress correlations, or shift bands, this high-field dHvA spectrum need not coincide with the zero- or low-field Fermi surface most directly relevant to the YbRh2Si2 quantum-critical regime [@Knebel2006].
+
+
+<a id="gcn_f20b1f42_itinerant_4f_lda_sensitivity"></a>
+
+#### gcn_f20b1f42_itinerant_4f_lda_sensitivity
+
+📌 `gcn_f20b1f42_itinerant_4f_lda_sensitivity`   |   Prior: 0.78   |   Belief: **0.78**
+
+> For YbRh2Si2, Knebel et al. 2006 report that LDA/FLAPW band-structure calculations with all 4f electrons treated as itinerant are sensitive to calculational details and to the assumed 4f energy position, making the predicted 4f-derived Fermi-surface topology and angular dependence unreliable enough that an experiment-theory mismatch need not by itself prove intrinsic 4f localization [@Knebel2006].
+
+
+<a id="gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"></a>
+
+#### gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch ★
+
+📌 `gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch`   |   Belief: **0.81**
+
+> For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].
+
+🔗 **deduction**([gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope), [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity))
+
+<details><summary>Reasoning</summary>
+
+1. Start from the upstream established result: accept as already established the upstream conclusion that LDA band-structure calculations place significant sensitivity of predicted Fermi-surface angular dependence to the $4f$ position and that itinerant-4f LDA angular dependence does not match experiment (upstream conclusion known and available for use).
+2. Define experimental method and conditions for the quantum-oscillation measurements: de Haas–van Alphen (dHvA) measurements were performed on highest-quality single crystals (RRR $\approx300$) at ambient pressure using a cantilever torque meter in steady magnetic fields between $12$ and $28\ \mathrm{T}$ with a dilution refrigerator base temperature of $30\ \mathrm{mK}$; the magnetic field was applied parallel to the crystallographic $a$ axis ($H\parallel a$) for the principal data set.
+3. Report the observed dHvA frequency spectrum and its extraction: the oscillatory torque signal for $H\parallel a$ shows reproducible oscillations whose Fourier transform yields four unambiguous frequencies at $2730\ \mathrm{T}$, $3510\ \mathrm{T}$, $5370\ \mathrm{T}$, and $7050\ \mathrm{T}$ from a field window $12$–$28\ \mathrm{T}$; these frequencies correspond to extremal cross-sectional areas of Fermi-surface orbits according to the Onsager relation (frequency $F$ in tesla proportional to extremal area).
+Fig.7
+4. Describe how effective masses were determined and report the numerical values: the temperature dependence of each oscillation amplitude follows the Lifshitz–Kosevich thermal damping factor, and fitting that temperature dependence yields cyclotron effective masses $m^{\ast}$ of $(15.0\pm0.7)\,m_{e}$ for $2730\ \mathrm{T}$, $(8.4\pm0.2)\,m_{e}$ for $3510\ \mathrm{T}$, $(10.1\pm0.2)\,m_{e}$ for $5370\ \mathrm{T}$, and $(14.9\pm0.9)\,m_{e}$ for $7050\ \mathrm{T}$, where $m_{e}$ is the free-electron mass.
+Fig.7
+5. Report the angular dependence of the observed frequencies within the basal plane: the two extreme frequencies (lowest and highest) are observable over the full angular sweep in the basal plane while the two intermediate frequencies are detectable only at small angles near $H\parallel a$; the measured angular dependence of the observed dHvA frequencies in the basal plane is plotted and shows a specific angular variation that is compared to calculated angular dependencies.
+Fig.8
+6. Compare experimental angular dependence and frequencies with band-structure calculations and note the mismatch: the experimentally observed frequencies (all in the few-kilotesla range) and their angular evolution are inconsistent with the LDA-calculated angular dependences for $YbRh_{2}Si_{2}$ in which itinerant $4f$ electrons produce calculated frequencies mostly below $1\ \mathrm{kT}$ or above $10\ \mathrm{kT}$, and the shapes of the calculated angular dependencies differ markedly from experiment; by contrast, LDA calculations for $LuRh_{2}Si_{2}$ (where $4f$ are well below $E_{\mathrm{F}}$) produce an angular dependence that shows qualitative similarity to the measured angular dependence, indicating that the measured spectrum does not match itinerant-4f predictions but resembles a Lu-like $4f$-localized reference.
+Fig.9; Fig.11
+7. Conclude the significance of the dHvA measurements: these dHvA frequencies and extracted effective masses constitute the first experimental Fermi-surface information for $YbRh_{2}Si_{2}$; the measured oscillation spectrum and heavy effective masses reveal a significant mismatch with itinerant-4f LDA band-structure predictions, thereby providing experimental constraints that point to intermediate valence and sensitivity of the $4f$ contribution rather than the simple itinerant-$4f$ LDA picture.
+Fig.7; Fig.8; Fig.9; Fig.11
+
+</details>
+
+
+<a id="helper_dhva_frequencies_masses_h_parallel_a"></a>
+
+#### helper_dhva_frequencies_masses_h_parallel_a
+
+📌 `helper_dhva_frequencies_masses_h_parallel_a`   |   Belief: **0.86**
+
+> For YbRh2Si2 at H parallel a in the 12-28 T dHvA window, Knebel et al. 2006 resolve four fundamental oscillation frequencies: 2730 T with m*=(15.0 +/- 0.7) m_e, 3510 T with m*=(8.4 +/- 0.2) m_e, 5370 T with m*=(10.1 +/- 0.2) m_e, and 7050 T with m*=(14.9 +/- 0.9) m_e [@Knebel2006].
+
+🔗 **support**([gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch))
+
+<details><summary>Reasoning</summary>
+
+The selected root explicitly reports the four H-parallel-a frequencies and cyclotron masses; this helper isolates the experimental quantum-oscillation measurement component without adding independent evidence.
+
+</details>
+
+
+<a id="helper_dhva_angular_dependence_itinerant_lda_mismatch"></a>
+
+#### helper_dhva_angular_dependence_itinerant_lda_mismatch
+
+📌 `helper_dhva_angular_dependence_itinerant_lda_mismatch`   |   Belief: **0.86**
+
+> For YbRh2Si2, the basal-plane angular evolution of the measured dHvA frequencies in Knebel et al. 2006 does not match the LDA/FLAPW angular dependences calculated with itinerant Yb 4f electrons, whose calculated orbits fall mostly below 1 kT or above 10 kT and have markedly different angular shapes; the measured angular dependence instead qualitatively resembles LuRh2Si2 LDA calculations where 4f states lie below the Fermi energy [@Knebel2006].
+
+🔗 **support**([gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch))
+
+<details><summary>Reasoning</summary>
+
+The selected root and LKM factor step 6 explicitly compare the observed basal-plane angular dependence with itinerant-4f YbRh2Si2 LDA/FLAPW and LuRh2Si2 reference calculations; this helper isolates the experiment-theory mismatch component.
+
+</details>
+
+
+<a id="helper_dhva_first_fs_information_scope"></a>
+
+#### helper_dhva_first_fs_information_scope
+
+📌 `helper_dhva_first_fs_information_scope`   |   Belief: **0.86**
+
+> The Knebel et al. 2006 dHvA frequencies and heavy cyclotron masses constitute first experimental Fermi-surface information for YbRh2Si2, but the selected LKM chain also records a high-field scope caution and an itinerant-4f LDA-method sensitivity caution when using those data to infer low-field quantum-critical 4f localization [@Knebel2006].
+
+🔗 **support**([gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch))
+
+<details><summary>Reasoning</summary>
+
+The selected root says the measurements provide first experimental Fermi-surface information, while the same chain's premises caution that high-field data and itinerant-4f LDA details limit direct low-field quantum-critical interpretation.
+
+</details>
+
+
+## paper_paramanik2013 -- claims and deductions from Paramanik et al. 2013.
+
+```mermaid
+graph TD
+    gcn_2dc55af_kw_empirical_scale["gcn_2dc55af_kw_empirical_scale (0.82)"]:::premise
+    gcn_7459a446_wilson_ratio_interpretation["gcn_7459a446_wilson_ratio_interpretation (0.74)"]:::premise
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency["gcn_bc46d7_cemo_kw_wilson_fl_consistency (0.79)"]:::derived
+    helper_cemo_kw_ratio_original_scale["helper_cemo_kw_ratio_original_scale (0.85)"]:::derived
+    helper_cemo_wilson_ratio_dual_reference["helper_cemo_wilson_ratio_dual_reference (0.85)"]:::derived
+    helper_cemo_ratio_consistency_correlated_fl["helper_cemo_ratio_consistency_correlated_fl (0.84)"]:::derived
+    strat_27(["deduction"])
+    gcn_2dc55af_kw_empirical_scale --> strat_27
+    gcn_7459a446_wilson_ratio_interpretation --> strat_27
+    strat_27 --> gcn_bc46d7_cemo_kw_wilson_fl_consistency
+    strat_28(["support"]):::weak
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency --> strat_28
+    strat_28 --> helper_cemo_kw_ratio_original_scale
+    strat_29(["support"]):::weak
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency --> strat_29
+    strat_29 --> helper_cemo_wilson_ratio_dual_reference
+    strat_30(["support"]):::weak
+    helper_cemo_kw_ratio_original_scale --> strat_30
+    helper_cemo_wilson_ratio_dual_reference --> strat_30
+    strat_30 --> helper_cemo_ratio_consistency_correlated_fl
+
+    classDef setting fill:#f0f0f0,stroke:#999,color:#333
+    classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef question fill:#fff3dd,stroke:#cc9944,color:#333
+    classDef background fill:#f5f5f5,stroke:#bbb,stroke-dasharray: 5 5,color:#333
+    classDef orphan fill:#fff,stroke:#ccc,stroke-dasharray: 5 5,color:#333
+    classDef external fill:#fff,stroke:#aaa,stroke-dasharray: 3 3,color:#333
+    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
+    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+```
+
+<a id="gcn_2dc55af_kw_empirical_scale"></a>
+
+#### gcn_2dc55af_kw_empirical_scale
+
+📌 `gcn_2dc55af_kw_empirical_scale`   |   Prior: 0.82   |   Belief: **0.82**
+
+> For low-temperature correlated metals, the empirical Kadowaki-Woods diagnostic compares the resistivity coefficient A from rho(T)=rho_0 + A T^2 with the Sommerfeld coefficient gamma from C(T)=gamma T+..., and A/gamma^2 near 1e-5 muOmega cm (mol K/mJ)^2 is treated by the selected LKM chain as evidence for standard correlated Fermi-liquid phenomenology in heavy-fermion and valence-fluctuating materials [@Paramanik2013].
+
+
+<a id="gcn_7459a446_wilson_ratio_interpretation"></a>
+
+#### gcn_7459a446_wilson_ratio_interpretation
+
+📌 `gcn_7459a446_wilson_ratio_interpretation`   |   Prior: 0.74   |   Belief: **0.74**
+
+> For a metal with temperature-independent low-temperature molar susceptibility chi_FL and Sommerfeld coefficient gamma, the selected LKM chain treats the Wilson-Sommerfeld ratio R_W=(pi^2 k_B^2 chi_FL)/(gamma mu_eff^2) as a correlated-Fermi-liquid consistency check when mu_eff is normalized either to the Ce3+ free-ion moment 2.54 mu_B or to the conduction-electron reference value 1.73 mu_B [@Paramanik2013].
+
+
+<a id="gcn_bc46d7_cemo_kw_wilson_fl_consistency"></a>
+
+#### gcn_bc46d7_cemo_kw_wilson_fl_consistency ★
+
+📌 `gcn_bc46d7_cemo_kw_wilson_fl_consistency`   |   Belief: **0.79**
+
+> For CeMo2Si2C in Paramanik et al. 2013, the experimentally determined low-temperature coefficients A=2.57e-3 muOmega cm K^-2, gamma=23.4 mJ mol^-1 K^-2, and impurity-corrected chi_FL~=5.6e-4 emu mol^-1 give A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2 and Wilson-Sommerfeld estimates R_W~=0.81 using mu_eff=2.54 mu_B or R_W~=1.7 using mu_eff=1.73 mu_B; the selected LKM chain concludes that these Kadowaki-Woods and Wilson/Sommerfeld ratios are consistent with correlated Fermi-liquid phenomenology in the low-temperature state [@Paramanik2013].
+
+🔗 **deduction**([gcn_2dc55af_kw_empirical_scale](#gcn_2dc55af_kw_empirical_scale), [gcn_7459a446_wilson_ratio_interpretation](#gcn_7459a446_wilson_ratio_interpretation))
+
+<details><summary>Reasoning</summary>
+
+1. This conclusion starts from the already established low-temperature transport coefficient $A=2.57\times10^{-3}\ \mu\Omega\ \mathrm{cm\ K^{-2}}$ from the fit $\rho(T)=\rho_0+AT^2$, the Sommerfeld coefficient $\gamma=23.4\ \mathrm{mJ/mol\ K^2}$ from the fit $C(T)=\gamma T+\beta T^3$, and the impurity-corrected low-temperature susceptibility $\chi_{\mathrm{FL}}\approx5.6\times10^{-4}\ \mathrm{emu/mol}$ extracted from the corrected susceptibility curve.
+Fig. 4; Fig. 6; Fig. 7
+2. Within Fermi-liquid theory, the paper states that the coefficient $A$ is related to $\gamma^2$. It then invokes the empirical Kadowaki-Woods ratio
+$$
+\frac{A}{\gamma^2},
+$$
+for which heavy-fermion and valence-fluctuating systems are reported to have values of order $1\times10^{-5}\ \mu\Omega\ \mathrm{cm}\ (\mathrm{mol\ K/mJ})^2$.
+[38]
+3. Using the measured $A$ and $\gamma$, the paper computes
+$$
+\frac{A}{\gamma^2}=0.5\times10^{-5}\ \mu\Omega\ \mathrm{cm}\ (\mathrm{mol\ K/mJ})^2.
+$$
+This is described as being essentially the original Kadowaki-Woods value.
+4. The paper also notes an alternative scaling proposed by Tsujii, Kontani, and Yoshimura, according to which the ratio scales as $2/N(N-1)$ with $N$ the orbital degeneracy of the $f$ state. For an intermediate-valent Ce system, taking $N=6$ gives $A/\gamma^2=6.7\times10^{-7}\ \mu\Omega\ \mathrm{cm}\ (\mathrm{mol\ K/mJ})^2$. This comparison is quoted, but the text emphasizes that the measured value for $CeMo_2Si_2C$ is at the original Kadowaki-Woods scale.
+[39]
+5. For susceptibility and specific heat, the paper uses the Wilson-Sommerfeld ratio
+$$
+R_W=\frac{\pi^2 k_B^2 \chi_{\mathrm{FL}}}{\gamma \mu_{\mathrm{eff}}^2},
+$$
+where $k_B$ is the Boltzmann constant, $\chi_{\mathrm{FL}}$ is the low-temperature Fermi-liquid susceptibility, $\gamma$ is the Sommerfeld coefficient, and $\mu_{\mathrm{eff}}$ is the effective magnetic moment used in the normalization.
+6. Substituting $\chi_{\mathrm{FL}}\approx5.6\times10^{-4}\ \mathrm{emu/mol}$, $\gamma=23.4\ \mathrm{mJ/mol\ K^2}$, and $\mu_{\mathrm{eff}}=2.54\ \mu_B$ as the free $Ce^{3+}$ moment gives
+$$
+R_W=0.81.
+$$
+If instead $\mu_{\mathrm{eff}}=1.73\ \mu_B$ is used as for a free conduction electron, the paper states that one gets
+$$
+R_W=1.7.
+$$
+7. Because the Kadowaki-Woods ratio is of the expected order and the Wilson ratio is close to the range expected for correlated Fermi liquids, the paper concludes that the low-temperature susceptibility, specific heat, and resistivity are mutually consistent with Fermi-liquid behavior in $CeMo_2Si_2C$.
+
+</details>
+
+
+<a id="helper_cemo_kw_ratio_original_scale"></a>
+
+#### helper_cemo_kw_ratio_original_scale
+
+📌 `helper_cemo_kw_ratio_original_scale`   |   Belief: **0.85**
+
+> For CeMo2Si2C in Paramanik et al. 2013, substituting A=2.57e-3 muOmega cm K^-2 and gamma=23.4 mJ mol^-1 K^-2 gives A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2, which the selected LKM chain describes as essentially the original Kadowaki-Woods scale for heavy-fermion and valence-fluctuating systems [@Paramanik2013].
+
+🔗 **support**([gcn_bc46d7_cemo_kw_wilson_fl_consistency](#gcn_bc46d7_cemo_kw_wilson_fl_consistency))
+
+<details><summary>Reasoning</summary>
+
+The selected LKM root and factor steps 1-4 explicitly give A, gamma, the computed A/gamma^2 value, and the comparison to the original Kadowaki-Woods scale; this helper isolates only that grounded component.
+
+</details>
+
+
+<a id="helper_cemo_wilson_ratio_dual_reference"></a>
+
+#### helper_cemo_wilson_ratio_dual_reference
+
+📌 `helper_cemo_wilson_ratio_dual_reference`   |   Belief: **0.85**
+
+> For CeMo2Si2C in Paramanik et al. 2013, using chi_FL~=5.6e-4 emu mol^-1 and gamma=23.4 mJ mol^-1 K^-2 in R_W=(pi^2 k_B^2 chi_FL)/(gamma mu_eff^2) gives R_W~=0.81 for mu_eff=2.54 mu_B and R_W~=1.7 for mu_eff=1.73 mu_B, and the selected LKM chain treats both normalizations as physically interpretable correlated-Fermi-liquid estimates [@Paramanik2013].
+
+🔗 **support**([gcn_bc46d7_cemo_kw_wilson_fl_consistency](#gcn_bc46d7_cemo_kw_wilson_fl_consistency))
+
+<details><summary>Reasoning</summary>
+
+The selected LKM root and factor steps 5-6 explicitly define the Wilson-Sommerfeld ratio and report the two mu_eff-normalized values; this helper isolates only that grounded component.
+
+</details>
+
+
+<a id="helper_cemo_ratio_consistency_correlated_fl"></a>
+
+#### helper_cemo_ratio_consistency_correlated_fl
+
+📌 `helper_cemo_ratio_consistency_correlated_fl`   |   Belief: **0.84**
+
+> For CeMo2Si2C, the selected LKM chain uses agreement of both empirical diagnostics--A/gamma^2 near the original Kadowaki-Woods scale and Wilson-Sommerfeld ratios of order unity under the two stated mu_eff normalizations--to support the narrower conclusion that low-temperature susceptibility, specific heat, and T^2 resistivity are mutually consistent with correlated Fermi-liquid phenomenology [@Paramanik2013].
+
+🔗 **support**([helper_cemo_kw_ratio_original_scale](#helper_cemo_kw_ratio_original_scale), [helper_cemo_wilson_ratio_dual_reference](#helper_cemo_wilson_ratio_dual_reference))
+
+<details><summary>Reasoning</summary>
+
+The selected LKM root and factor step 7 explicitly combine the KW and Wilson/Sommerfeld diagnostics to conclude mutual consistency among low-temperature susceptibility, specific heat, and resistivity.
+
+</details>
+
+
 ## paper_shaginyan2010 -- claims and deductions from Shaginyan et al. 2010.
 
 ```mermaid
@@ -380,14 +1487,14 @@ graph TD
     gcn_ecddfefa_fermion_entropy_formula["gcn_ecddfefa_fermion_entropy_formula (0.90)"]:::premise
     gcn_2e693115_entropy_over_temperature_mass["gcn_2e693115_entropy_over_temperature_mass (0.72)"]:::premise
     gcn_2741cdef_practical_effective_mass_scheme["gcn_2741cdef_practical_effective_mass_scheme (0.59)"]:::derived
-    strat_7(["deduction"])
-    gcn_677c6c_landau_integral_relation --> strat_7
-    gcn_03614e9b_homogeneous_isotropic_model --> strat_7
-    gcn_e0c364ff_inflection_fcqpt_condition --> strat_7
-    gcn_6bbfeb95_stable_landau_solutions --> strat_7
-    gcn_ecddfefa_fermion_entropy_formula --> strat_7
-    gcn_2e693115_entropy_over_temperature_mass --> strat_7
-    strat_7 --> gcn_2741cdef_practical_effective_mass_scheme
+    strat_31(["deduction"])
+    gcn_677c6c_landau_integral_relation --> strat_31
+    gcn_03614e9b_homogeneous_isotropic_model --> strat_31
+    gcn_e0c364ff_inflection_fcqpt_condition --> strat_31
+    gcn_6bbfeb95_stable_landau_solutions --> strat_31
+    gcn_ecddfefa_fermion_entropy_formula --> strat_31
+    gcn_2e693115_entropy_over_temperature_mass --> strat_31
+    strat_31 --> gcn_2741cdef_practical_effective_mass_scheme
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -500,52 +1607,173 @@ graph TD
     gcn_1587257a956f4d18["gcn_1587257a956f4d18 (0.82)"]:::external
     gcn_800070efac5e476d["gcn_800070efac5e476d (0.80)"]:::external
     he3_gamma_implies_mstar_ratio_2_12["he3_gamma_implies_mstar_ratio_2_12 (0.88)"]:::external
+    gcn_8f275a_brinkman_rice_scope_condition["gcn_8f275a_brinkman_rice_scope_condition (0.72)"]:::external
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point["gcn_7ae79f_kondo_brinkman_rice_fixed_point (0.77)"]:::external
+    helper_kondo_lattice_screened_heavy_quasiparticles["helper_kondo_lattice_screened_heavy_quasiparticles (0.86)"]:::external
+    helper_brinkman_rice_large_mass_renormalization["helper_brinkman_rice_large_mass_renormalization (0.86)"]:::external
+    helper_brinkman_rice_finite_stoner_enhancement["helper_brinkman_rice_finite_stoner_enhancement (0.86)"]:::external
+    gcn_31bc66ca16a44508["gcn_31bc66ca16a44508 (0.82)"]:::external
+    gcn_dd12256615264dfb["gcn_dd12256615264dfb (0.80)"]:::external
+    gcn_e4ecd721edd14d3f["gcn_e4ecd721edd14d3f (0.74)"]:::external
+    capone_brinkman_rice_mass_z_tk_limit["capone_brinkman_rice_mass_z_tk_limit (0.85)"]:::external
     gcn_42a4ff_rbc_hall_dos_values["gcn_42a4ff_rbc_hall_dos_values (0.80)"]:::external
     helper_rbc_parameterization_constrained_by_cef_gamma["helper_rbc_parameterization_constrained_by_cef_gamma (0.86)"]:::external
     helper_ybrh2si2_opposite_hall_transport_products["helper_ybrh2si2_opposite_hall_transport_products (0.86)"]:::external
     helper_rbc_dos_gamma_ybrh2si2_ybir2si2["helper_rbc_dos_gamma_ybrh2si2_ybir2si2 (0.86)"]:::external
+    gcn_c131e014_ybrh2si2_midband_harmonic_assignment["gcn_c131e014_ybrh2si2_midband_harmonic_assignment (0.78)"]:::external
+    gcn_3dc248d_ybrh2si2_14kt_not_small_fs["gcn_3dc248d_ybrh2si2_14kt_not_small_fs (0.74)"]:::external
+    gcn_3a8394c_lurh2si2_small_fs_reference["gcn_3a8394c_lurh2si2_small_fs_reference (0.84)"]:::external
+    gcn_2b8dd97_lurh2si2_reference_reanalysis["gcn_2b8dd97_lurh2si2_reference_reanalysis (0.73)"]:::external
+    helper_ybrh2si2_reduced_fundamental_set["helper_ybrh2si2_reduced_fundamental_set (0.83)"]:::external
+    gcn_29401e42_nis2_brinkman_rice["gcn_29401e42_nis2_brinkman_rice (0.77)"]:::external
+    helper_nis2_large_fs_603kt_belly_orbit["helper_nis2_large_fs_603kt_belly_orbit (0.87)"]:::external
+    helper_nis2_mstar_6_me["helper_nis2_mstar_6_me (0.87)"]:::external
+    helper_brinkman_rice_large_fs_heavy_quasiparticles["helper_brinkman_rice_large_fs_heavy_quasiparticles (0.87)"]:::external
+    gcn_5501e18a_high_field_dhva_scope["gcn_5501e18a_high_field_dhva_scope (0.84)"]:::external
+    gcn_f20b1f42_itinerant_4f_lda_sensitivity["gcn_f20b1f42_itinerant_4f_lda_sensitivity (0.78)"]:::external
+    helper_dhva_frequencies_masses_h_parallel_a["helper_dhva_frequencies_masses_h_parallel_a (0.86)"]:::external
+    helper_dhva_angular_dependence_itinerant_lda_mismatch["helper_dhva_angular_dependence_itinerant_lda_mismatch (0.86)"]:::external
+    helper_dhva_first_fs_information_scope["helper_dhva_first_fs_information_scope (0.86)"]:::external
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency["gcn_bc46d7_cemo_kw_wilson_fl_consistency (0.79)"]:::external
+    helper_cemo_kw_ratio_original_scale["helper_cemo_kw_ratio_original_scale (0.85)"]:::external
+    helper_cemo_wilson_ratio_dual_reference["helper_cemo_wilson_ratio_dual_reference (0.85)"]:::external
+    helper_cemo_ratio_consistency_correlated_fl["helper_cemo_ratio_consistency_correlated_fl (0.84)"]:::external
     gcn_03614e9b_homogeneous_isotropic_model["gcn_03614e9b_homogeneous_isotropic_model (0.68)"]:::external
     gcn_2e693115_entropy_over_temperature_mass["gcn_2e693115_entropy_over_temperature_mass (0.72)"]:::external
     gcn_2741cdef_practical_effective_mass_scheme["gcn_2741cdef_practical_effective_mass_scheme (0.59)"]:::external
     cross_thermodynamic_routes_to_effective_mass["cross_thermodynamic_routes_to_effective_mass (0.77)"]:::derived
     cross_scope_caution_standard_fl_vs_fcqpt["cross_scope_caution_standard_fl_vs_fcqpt (0.64)"]:::derived
     cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope["cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope (0.71)"]:::derived
+    cross_ybrh2si2_material_specific_fs_constraints["cross_ybrh2si2_material_specific_fs_constraints (0.67)"]:::derived
+    cross_ybrh2si2_field_method_scope_caution["cross_ybrh2si2_field_method_scope_caution (0.60)"]:::derived
+    cross_brinkman_rice_mott_boundary_family["cross_brinkman_rice_mott_boundary_family (0.67)"]:::derived
+    cross_brinkman_rice_scope_caution["cross_brinkman_rice_scope_caution (0.65)"]:::derived
+    cross_thermo_transport_correlated_fl_consistency["cross_thermo_transport_correlated_fl_consistency (0.65)"]:::derived
     strat_0(["deduction"])
     gcn_1587257a956f4d18 --> strat_0
     strat_0 --> gcn_800070efac5e476d
     strat_1(["deduction"])
     gcn_800070efac5e476d --> strat_1
     strat_1 --> he3_gamma_implies_mstar_ratio_2_12
-    strat_4(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_4
-    strat_4 --> helper_rbc_parameterization_constrained_by_cef_gamma
-    strat_5(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_5
-    strat_5 --> helper_ybrh2si2_opposite_hall_transport_products
-    strat_6(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_6
-    strat_6 --> helper_rbc_dos_gamma_ybrh2si2_ybir2si2
-    strat_7(["deduction"])
-    gcn_03614e9b_homogeneous_isotropic_model --> strat_7
-    gcn_2e693115_entropy_over_temperature_mass --> strat_7
-    strat_7 --> gcn_2741cdef_practical_effective_mass_scheme
-    strat_8(["support"]):::weak
-    he3_gamma_implies_mstar_ratio_2_12 --> strat_8
-    gcn_2e693115_entropy_over_temperature_mass --> strat_8
-    strat_8 --> cross_thermodynamic_routes_to_effective_mass
-    strat_9(["support"]):::weak
-    gcn_800070efac5e476d --> strat_9
-    gcn_2741cdef_practical_effective_mass_scheme --> strat_9
-    gcn_1587257a956f4d18 --> strat_9
-    gcn_03614e9b_homogeneous_isotropic_model --> strat_9
-    strat_9 --> cross_scope_caution_standard_fl_vs_fcqpt
-    strat_10(["support"]):::weak
-    gcn_03614e9b_homogeneous_isotropic_model --> strat_10
-    gcn_42a4ff_rbc_hall_dos_values --> strat_10
-    helper_rbc_parameterization_constrained_by_cef_gamma --> strat_10
-    helper_ybrh2si2_opposite_hall_transport_products --> strat_10
-    helper_rbc_dos_gamma_ybrh2si2_ybir2si2 --> strat_10
-    strat_10 --> cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope
+    strat_3(["deduction"])
+    gcn_8f275a_brinkman_rice_scope_condition --> strat_3
+    strat_3 --> gcn_7ae79f_kondo_brinkman_rice_fixed_point
+    strat_4(["deduction"])
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_4
+    strat_4 --> helper_kondo_lattice_screened_heavy_quasiparticles
+    strat_5(["deduction"])
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_5
+    strat_5 --> helper_brinkman_rice_large_mass_renormalization
+    strat_6(["deduction"])
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_6
+    strat_6 --> helper_brinkman_rice_finite_stoner_enhancement
+    strat_8(["deduction"])
+    gcn_31bc66ca16a44508 --> strat_8
+    gcn_dd12256615264dfb --> strat_8
+    strat_8 --> gcn_e4ecd721edd14d3f
+    strat_10(["deduction"])
+    gcn_e4ecd721edd14d3f --> strat_10
+    strat_10 --> capone_brinkman_rice_mass_z_tk_limit
+    strat_14(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_14
+    strat_14 --> helper_rbc_parameterization_constrained_by_cef_gamma
+    strat_15(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_15
+    strat_15 --> helper_ybrh2si2_opposite_hall_transport_products
+    strat_16(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_16
+    strat_16 --> helper_rbc_dos_gamma_ybrh2si2_ybir2si2
+    strat_17(["deduction"])
+    gcn_c131e014_ybrh2si2_midband_harmonic_assignment --> strat_17
+    gcn_3dc248d_ybrh2si2_14kt_not_small_fs --> strat_17
+    gcn_3a8394c_lurh2si2_small_fs_reference --> strat_17
+    strat_17 --> gcn_2b8dd97_lurh2si2_reference_reanalysis
+    strat_18(["support"]):::weak
+    gcn_2b8dd97_lurh2si2_reference_reanalysis --> strat_18
+    strat_18 --> helper_ybrh2si2_reduced_fundamental_set
+    strat_20(["deduction"])
+    gcn_29401e42_nis2_brinkman_rice --> strat_20
+    strat_20 --> helper_nis2_large_fs_603kt_belly_orbit
+    strat_21(["deduction"])
+    gcn_29401e42_nis2_brinkman_rice --> strat_21
+    strat_21 --> helper_nis2_mstar_6_me
+    strat_22(["deduction"])
+    gcn_29401e42_nis2_brinkman_rice --> strat_22
+    strat_22 --> helper_brinkman_rice_large_fs_heavy_quasiparticles
+    strat_28(["support"]):::weak
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency --> strat_28
+    strat_28 --> helper_cemo_kw_ratio_original_scale
+    strat_29(["support"]):::weak
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency --> strat_29
+    strat_29 --> helper_cemo_wilson_ratio_dual_reference
+    strat_30(["support"]):::weak
+    helper_cemo_kw_ratio_original_scale --> strat_30
+    helper_cemo_wilson_ratio_dual_reference --> strat_30
+    strat_30 --> helper_cemo_ratio_consistency_correlated_fl
+    strat_31(["deduction"])
+    gcn_03614e9b_homogeneous_isotropic_model --> strat_31
+    gcn_2e693115_entropy_over_temperature_mass --> strat_31
+    strat_31 --> gcn_2741cdef_practical_effective_mass_scheme
+    strat_32(["support"]):::weak
+    he3_gamma_implies_mstar_ratio_2_12 --> strat_32
+    gcn_2e693115_entropy_over_temperature_mass --> strat_32
+    strat_32 --> cross_thermodynamic_routes_to_effective_mass
+    strat_33(["support"]):::weak
+    gcn_800070efac5e476d --> strat_33
+    gcn_2741cdef_practical_effective_mass_scheme --> strat_33
+    gcn_1587257a956f4d18 --> strat_33
+    gcn_03614e9b_homogeneous_isotropic_model --> strat_33
+    strat_33 --> cross_scope_caution_standard_fl_vs_fcqpt
+    strat_34(["support"]):::weak
+    gcn_03614e9b_homogeneous_isotropic_model --> strat_34
+    gcn_42a4ff_rbc_hall_dos_values --> strat_34
+    helper_rbc_parameterization_constrained_by_cef_gamma --> strat_34
+    helper_ybrh2si2_opposite_hall_transport_products --> strat_34
+    helper_rbc_dos_gamma_ybrh2si2_ybir2si2 --> strat_34
+    strat_34 --> cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope
+    strat_35(["support"]):::weak
+    gcn_42a4ff_rbc_hall_dos_values --> strat_35
+    helper_rbc_parameterization_constrained_by_cef_gamma --> strat_35
+    helper_dhva_frequencies_masses_h_parallel_a --> strat_35
+    helper_dhva_angular_dependence_itinerant_lda_mismatch --> strat_35
+    gcn_2b8dd97_lurh2si2_reference_reanalysis --> strat_35
+    gcn_3a8394c_lurh2si2_small_fs_reference --> strat_35
+    strat_35 --> cross_ybrh2si2_material_specific_fs_constraints
+    strat_36(["support"]):::weak
+    gcn_5501e18a_high_field_dhva_scope --> strat_36
+    gcn_f20b1f42_itinerant_4f_lda_sensitivity --> strat_36
+    helper_dhva_first_fs_information_scope --> strat_36
+    gcn_c131e014_ybrh2si2_midband_harmonic_assignment --> strat_36
+    helper_ybrh2si2_reduced_fundamental_set --> strat_36
+    gcn_3dc248d_ybrh2si2_14kt_not_small_fs --> strat_36
+    gcn_03614e9b_homogeneous_isotropic_model --> strat_36
+    strat_36 --> cross_ybrh2si2_field_method_scope_caution
+    strat_37(["support"]):::weak
+    gcn_7ae79f_kondo_brinkman_rice_fixed_point --> strat_37
+    helper_brinkman_rice_large_mass_renormalization --> strat_37
+    capone_brinkman_rice_mass_z_tk_limit --> strat_37
+    gcn_31bc66ca16a44508 --> strat_37
+    gcn_29401e42_nis2_brinkman_rice --> strat_37
+    helper_nis2_large_fs_603kt_belly_orbit --> strat_37
+    helper_nis2_mstar_6_me --> strat_37
+    strat_37 --> cross_brinkman_rice_mott_boundary_family
+    strat_38(["support"]):::weak
+    helper_kondo_lattice_screened_heavy_quasiparticles --> strat_38
+    helper_brinkman_rice_finite_stoner_enhancement --> strat_38
+    gcn_8f275a_brinkman_rice_scope_condition --> strat_38
+    gcn_e4ecd721edd14d3f --> strat_38
+    gcn_dd12256615264dfb --> strat_38
+    helper_brinkman_rice_large_fs_heavy_quasiparticles --> strat_38
+    strat_38 --> cross_brinkman_rice_scope_caution
+    strat_39(["support"]):::weak
+    gcn_bc46d7_cemo_kw_wilson_fl_consistency --> strat_39
+    helper_cemo_kw_ratio_original_scale --> strat_39
+    helper_cemo_wilson_ratio_dual_reference --> strat_39
+    helper_cemo_ratio_consistency_correlated_fl --> strat_39
+    he3_gamma_implies_mstar_ratio_2_12 --> strat_39
+    gcn_2e693115_entropy_over_temperature_mass --> strat_39
+    helper_rbc_dos_gamma_ybrh2si2_ybir2si2 --> strat_39
+    strat_39 --> cross_thermo_transport_correlated_fl_consistency
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -609,30 +1837,157 @@ The Shaginyan premise explicitly says the homogeneous isotropic model neglects c
 </details>
 
 
+<a id="cross_ybrh2si2_material_specific_fs_constraints"></a>
+
+#### cross_ybrh2si2_material_specific_fs_constraints ★
+
+📌 `cross_ybrh2si2_material_specific_fs_constraints`   |   Belief: **0.67**
+
+> Within YbRh2Si2, Friedemann 2010 RBC/Hall/DOS evidence, Knebel 2006 high-field dHvA frequencies and cyclotron masses, and Friedemann 2013 LuRh2Si2 small-Fermi-surface reanalysis jointly constrain the material-specific Fermi-surface/effective-mass picture. The synthesis is a field- and method-scoped constraint claim, not an equivalence among RBC, high-field dHvA, and homogeneous FCQPT descriptions.
+
+🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values), [helper_rbc_parameterization_constrained_by_cef_gamma](#helper_rbc_parameterization_constrained_by_cef_gamma), [helper_dhva_frequencies_masses_h_parallel_a](#helper_dhva_frequencies_masses_h_parallel_a), [helper_dhva_angular_dependence_itinerant_lda_mismatch](#helper_dhva_angular_dependence_itinerant_lda_mismatch), [gcn_2b8dd97_lurh2si2_reference_reanalysis](#gcn_2b8dd97_lurh2si2_reference_reanalysis), [gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference))
+
+<details><summary>Reasoning</summary>
+
+All premises are material-specific YbRh2Si2 or LuRh2Si2-reference constraints: RBC supplies thermodynamically calibrated band/DOS/Hall information, Knebel dHvA supplies high-field frequencies and cyclotron masses plus an LDA mismatch, and Friedemann 2013 supplies the LuRh2Si2 small-FS reanalysis. The support is scoped to joint constraints and does not assert equivalence of the methods.
+
+</details>
+
+
+<a id="cross_ybrh2si2_field_method_scope_caution"></a>
+
+#### cross_ybrh2si2_field_method_scope_caution ★
+
+📌 `cross_ybrh2si2_field_method_scope_caution`   |   Belief: **0.60**
+
+> The YbRh2Si2 material-specific evidence should be read with field and method scope intact: Knebel dHvA uses 12-28 T fields and reports an itinerant-4f LDA mismatch, Friedemann 2013 reassigns published mid-band peaks using a LuRh2Si2 small-FS reference, and Friedemann 2010 RBC uses thermodynamically calibrated renormalized bands. These branches qualify low-field/QCP and homogeneous isotropic claims without creating a same-condition contradiction.
+
+🔗 **support**([gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope), [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity), [helper_dhva_first_fs_information_scope](#helper_dhva_first_fs_information_scope), [gcn_c131e014_ybrh2si2_midband_harmonic_assignment](#gcn_c131e014_ybrh2si2_midband_harmonic_assignment), [helper_ybrh2si2_reduced_fundamental_set](#helper_ybrh2si2_reduced_fundamental_set), [gcn_3dc248d_ybrh2si2_14kt_not_small_fs](#gcn_3dc248d_ybrh2si2_14kt_not_small_fs), [gcn_03614e9b_homogeneous_isotropic_model](#gcn_03614e9b_homogeneous_isotropic_model))
+
+<details><summary>Reasoning</summary>
+
+The dHvA and reanalysis branches explicitly carry high-field, harmonic assignment, small-FS-reference, and LDA-sensitivity caveats, while the Shaginyan premise explicitly states the homogeneous isotropic model scope. Those conditions ground a caution claim rather than a contradiction.
+
+</details>
+
+
+<a id="cross_brinkman_rice_mott_boundary_family"></a>
+
+#### cross_brinkman_rice_mott_boundary_family ★
+
+📌 `cross_brinkman_rice_mott_boundary_family`   |   Belief: **0.67**
+
+> The Anderson Kondo-lattice Brinkman-Rice fixed point, the Capone-Fabrizio-Tosatti Mott entropy/Z/T_K boundary argument, and the Friedemann NiS2 large-FS plus m*=6(2)m_e result form a coherent Mott-boundary/heavy-quasiparticle theme: large effective mass or suppressed Z appears near a local-moment or Mott instability while Fermi-liquid coherence remains central to the claim.
+
+🔗 **support**([gcn_7ae79f_kondo_brinkman_rice_fixed_point](#gcn_7ae79f_kondo_brinkman_rice_fixed_point), [helper_brinkman_rice_large_mass_renormalization](#helper_brinkman_rice_large_mass_renormalization), [capone_brinkman_rice_mass_z_tk_limit](#capone_brinkman_rice_mass_z_tk_limit), [gcn_31bc66ca16a44508](#gcn_31bc66ca16a44508), [gcn_29401e42_nis2_brinkman_rice](#gcn_29401e42_nis2_brinkman_rice), [helper_nis2_large_fs_603kt_belly_orbit](#helper_nis2_large_fs_603kt_belly_orbit), [helper_nis2_mstar_6_me](#helper_nis2_mstar_6_me))
+
+<details><summary>Reasoning</summary>
+
+The three branches independently invoke heavy quasiparticles, mass enhancement or Z/T_K collapse, and proximity to a Mott or local-moment boundary. The support is thematic and mechanism-scoped, preserving the different material settings.
+
+</details>
+
+
+<a id="cross_brinkman_rice_scope_caution"></a>
+
+#### cross_brinkman_rice_scope_caution ★
+
+📌 `cross_brinkman_rice_scope_caution`   |   Belief: **0.65**
+
+> The Brinkman-Rice-related branches are not interchangeable: Anderson 1984 addresses a screened Kondo-lattice fixed point with finite Stoner enhancement, Capone-Fabrizio-Tosatti 2001 gives a conditional entropy obstruction for a direct Fermi-liquid to singlet-Mott crossover, and Friedemann 2016 reports NiS2 pressure-tuned quantum-oscillation evidence consistent with Brinkman-Rice large-Fermi-surface heavy quasiparticles.
+
+🔗 **support**([helper_kondo_lattice_screened_heavy_quasiparticles](#helper_kondo_lattice_screened_heavy_quasiparticles), [helper_brinkman_rice_finite_stoner_enhancement](#helper_brinkman_rice_finite_stoner_enhancement), [gcn_8f275a_brinkman_rice_scope_condition](#gcn_8f275a_brinkman_rice_scope_condition), [gcn_e4ecd721edd14d3f](#gcn_e4ecd721edd14d3f), [gcn_dd12256615264dfb](#gcn_dd12256615264dfb), [helper_brinkman_rice_large_fs_heavy_quasiparticles](#helper_brinkman_rice_large_fs_heavy_quasiparticles))
+
+<details><summary>Reasoning</summary>
+
+The imported helpers spell out distinct scopes: screened f-ion Kondo lattices with finite Stoner enhancement, a conditional singlet-Mott entropy obstruction, and pressure-metalized NiS2 large-FS heavy quasiparticles. They justify a non-equivalence caution.
+
+</details>
+
+
+<a id="cross_thermo_transport_correlated_fl_consistency"></a>
+
+#### cross_thermo_transport_correlated_fl_consistency ★
+
+📌 `cross_thermo_transport_correlated_fl_consistency`   |   Belief: **0.65**
+
+> CeMo2Si2C Kadowaki-Woods and Wilson/Sommerfeld ratios extend the package's thermodynamic effective-mass theme into transport and susceptibility phenomenology: low-temperature A/gamma^2 and R_W values are used as correlated Fermi-liquid consistency checks, complementary to He-3 gamma-based mass extraction and YbRh2Si2 thermodynamic/RBC effective-mass constraints.
+
+🔗 **support**([gcn_bc46d7_cemo_kw_wilson_fl_consistency](#gcn_bc46d7_cemo_kw_wilson_fl_consistency), [helper_cemo_kw_ratio_original_scale](#helper_cemo_kw_ratio_original_scale), [helper_cemo_wilson_ratio_dual_reference](#helper_cemo_wilson_ratio_dual_reference), [helper_cemo_ratio_consistency_correlated_fl](#helper_cemo_ratio_consistency_correlated_fl), [he3_gamma_implies_mstar_ratio_2_12](#he3_gamma_implies_mstar_ratio_2_12), [gcn_2e693115_entropy_over_temperature_mass](#gcn_2e693115_entropy_over_temperature_mass), [helper_rbc_dos_gamma_ybrh2si2_ybir2si2](#helper_rbc_dos_gamma_ybrh2si2_ybir2si2))
+
+<details><summary>Reasoning</summary>
+
+CeMo2Si2C supplies ratio-based transport/susceptibility consistency checks, while the existing He-3 and YbRh2Si2 branches supply gamma, S/T, and DOS/gamma thermodynamic effective-mass routes. Together they ground a correlated-FL phenomenology theme without equating the materials.
+
+</details>
+
+
 ## Inference Results
 
 **BP converged:** True (2 iterations)
 
 | Label | Type | Prior | Belief | Role |
 |-------|------|-------|--------|------|
+| [gcn_8a1a2748_alternative_mechanisms_assumption](#gcn_8a1a2748_alternative_mechanisms_assumption) | claim | 0.58 | 0.5800 | independent |
 | [gcn_2741cdef_practical_effective_mass_scheme](#gcn_2741cdef_practical_effective_mass_scheme) | claim | — | 0.5938 | derived |
+| [cross_ybrh2si2_field_method_scope_caution](#cross_ybrh2si2_field_method_scope_caution) | claim | — | 0.5980 | derived |
 | [cross_scope_caution_standard_fl_vs_fcqpt](#cross_scope_caution_standard_fl_vs_fcqpt) | claim | — | 0.6359 | derived |
+| [cross_brinkman_rice_scope_caution](#cross_brinkman_rice_scope_caution) | claim | — | 0.6529 | derived |
+| [cross_thermo_transport_correlated_fl_consistency](#cross_thermo_transport_correlated_fl_consistency) | claim | — | 0.6534 | derived |
+| [cross_ybrh2si2_material_specific_fs_constraints](#cross_ybrh2si2_material_specific_fs_constraints) | claim | — | 0.6675 | derived |
+| [cross_brinkman_rice_mott_boundary_family](#cross_brinkman_rice_mott_boundary_family) | claim | — | 0.6695 | derived |
 | [gcn_03614e9b_homogeneous_isotropic_model](#gcn_03614e9b_homogeneous_isotropic_model) | claim | 0.68 | 0.6800 | independent |
 | [gcn_6bbfeb95_stable_landau_solutions](#gcn_6bbfeb95_stable_landau_solutions) | claim | 0.70 | 0.7000 | independent |
 | [cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope](#cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope) | claim | — | 0.7077 | derived |
 | [gcn_2e693115_entropy_over_temperature_mass](#gcn_2e693115_entropy_over_temperature_mass) | claim | 0.72 | 0.7200 | independent |
+| [gcn_8f275a_brinkman_rice_scope_condition](#gcn_8f275a_brinkman_rice_scope_condition) | claim | 0.72 | 0.7200 | independent |
+| [gcn_2b8dd97_lurh2si2_reference_reanalysis](#gcn_2b8dd97_lurh2si2_reference_reanalysis) | claim | — | 0.7299 | derived |
+| [gcn_3dc248d_ybrh2si2_14kt_not_small_fs](#gcn_3dc248d_ybrh2si2_14kt_not_small_fs) | claim | 0.74 | 0.7400 | independent |
+| [gcn_7459a446_wilson_ratio_interpretation](#gcn_7459a446_wilson_ratio_interpretation) | claim | 0.74 | 0.7400 | independent |
+| [gcn_e4ecd721edd14d3f](#gcn_e4ecd721edd14d3f) | claim | — | 0.7426 | derived |
 | [gcn_48bba377_specific_heat_calibration](#gcn_48bba377_specific_heat_calibration) | claim | 0.76 | 0.7600 | independent |
 | [cross_thermodynamic_routes_to_effective_mass](#cross_thermodynamic_routes_to_effective_mass) | claim | — | 0.7657 | derived |
+| [helper_nozieres_to_kondo_lattice_fixed_point](#helper_nozieres_to_kondo_lattice_fixed_point) | claim | — | 0.7662 | derived |
+| [gcn_7ae79f_kondo_brinkman_rice_fixed_point](#gcn_7ae79f_kondo_brinkman_rice_fixed_point) | claim | — | 0.7662 | derived |
+| [gcn_29401e42_nis2_brinkman_rice](#gcn_29401e42_nis2_brinkman_rice) | claim | — | 0.7749 | derived |
+| [gcn_795699f572b24ed5](#gcn_795699f572b24ed5) | claim | 0.78 | 0.7800 | independent |
 | [gcn_2ee995fe1e674e2a](#gcn_2ee995fe1e674e2a) | claim | 0.78 | 0.7800 | independent |
+| [gcn_40f111_nozieres_local_fl_kondo_sites](#gcn_40f111_nozieres_local_fl_kondo_sites) | claim | 0.78 | 0.7800 | independent |
+| [gcn_c131e014_ybrh2si2_midband_harmonic_assignment](#gcn_c131e014_ybrh2si2_midband_harmonic_assignment) | claim | 0.78 | 0.7800 | independent |
 | [gcn_e0c364ff_inflection_fcqpt_condition](#gcn_e0c364ff_inflection_fcqpt_condition) | claim | 0.78 | 0.7800 | independent |
+| [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity) | claim | 0.78 | 0.7800 | independent |
+| [gcn_bc46d7_cemo_kw_wilson_fl_consistency](#gcn_bc46d7_cemo_kw_wilson_fl_consistency) | claim | — | 0.7876 | derived |
 | [gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values) | claim | — | 0.7953 | derived |
+| [gcn_dd12256615264dfb](#gcn_dd12256615264dfb) | claim | 0.80 | 0.8000 | independent |
 | [gcn_800070efac5e476d](#gcn_800070efac5e476d) | claim | — | 0.8031 | derived |
+| [gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch) | claim | — | 0.8105 | derived |
 | [gcn_1587257a956f4d18](#gcn_1587257a956f4d18) | claim | 0.82 | 0.8200 | independent |
+| [gcn_2dc55af_kw_empirical_scale](#gcn_2dc55af_kw_empirical_scale) | claim | 0.82 | 0.8200 | independent |
+| [gcn_31bc66ca16a44508](#gcn_31bc66ca16a44508) | claim | 0.82 | 0.8200 | independent |
 | [gcn_677c6c_landau_integral_relation](#gcn_677c6c_landau_integral_relation) | claim | 0.82 | 0.8200 | independent |
 | [gcn_c243dcb_rbc_phase_shift_parametrization](#gcn_c243dcb_rbc_phase_shift_parametrization) | claim | 0.82 | 0.8200 | independent |
+| [helper_ybrh2si2_reduced_fundamental_set](#helper_ybrh2si2_reduced_fundamental_set) | claim | — | 0.8278 | derived |
+| [gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference) | claim | 0.84 | 0.8400 | independent |
+| [gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope) | claim | 0.84 | 0.8400 | independent |
+| [helper_cemo_ratio_consistency_correlated_fl](#helper_cemo_ratio_consistency_correlated_fl) | claim | — | 0.8422 | derived |
+| [capone_brinkman_rice_mass_z_tk_limit](#capone_brinkman_rice_mass_z_tk_limit) | claim | — | 0.8520 | derived |
+| [capone_fl_definition_z_tk](#capone_fl_definition_z_tk) | claim | — | 0.8520 | derived |
+| [capone_singlet_mott_zero_entropy](#capone_singlet_mott_zero_entropy) | claim | — | 0.8520 | derived |
+| [helper_cemo_kw_ratio_original_scale](#helper_cemo_kw_ratio_original_scale) | claim | — | 0.8537 | derived |
+| [helper_cemo_wilson_ratio_dual_reference](#helper_cemo_wilson_ratio_dual_reference) | claim | — | 0.8537 | derived |
 | [helper_rbc_dos_gamma_ybrh2si2_ybir2si2](#helper_rbc_dos_gamma_ybrh2si2_ybir2si2) | claim | — | 0.8572 | derived |
 | [helper_rbc_parameterization_constrained_by_cef_gamma](#helper_rbc_parameterization_constrained_by_cef_gamma) | claim | — | 0.8572 | derived |
 | [helper_ybrh2si2_opposite_hall_transport_products](#helper_ybrh2si2_opposite_hall_transport_products) | claim | — | 0.8572 | derived |
-| [he3_gamma_implies_mstar_ratio_2_12](#he3_gamma_implies_mstar_ratio_2_12) | claim | — | 0.8807 | derived |
+| [helper_brinkman_rice_finite_stoner_enhancement](#helper_brinkman_rice_finite_stoner_enhancement) | claim | — | 0.8632 | derived |
+| [helper_kondo_lattice_screened_heavy_quasiparticles](#helper_kondo_lattice_screened_heavy_quasiparticles) | claim | — | 0.8632 | derived |
+| [helper_brinkman_rice_large_mass_renormalization](#helper_brinkman_rice_large_mass_renormalization) | claim | — | 0.8632 | derived |
+| [helper_dhva_first_fs_information_scope](#helper_dhva_first_fs_information_scope) | claim | — | 0.8640 | derived |
+| [helper_dhva_angular_dependence_itinerant_lda_mismatch](#helper_dhva_angular_dependence_itinerant_lda_mismatch) | claim | — | 0.8640 | derived |
+| [helper_dhva_frequencies_masses_h_parallel_a](#helper_dhva_frequencies_masses_h_parallel_a) | claim | — | 0.8640 | derived |
+| [helper_brinkman_rice_large_fs_heavy_quasiparticles](#helper_brinkman_rice_large_fs_heavy_quasiparticles) | claim | — | 0.8674 | derived |
+| [helper_nis2_large_fs_603kt_belly_orbit](#helper_nis2_large_fs_603kt_belly_orbit) | claim | — | 0.8674 | derived |
+| [helper_nis2_mstar_6_me](#helper_nis2_mstar_6_me) | claim | — | 0.8674 | derived |
+| [capone_luttinger_pinning_blocks_band_edge_route](#capone_luttinger_pinning_blocks_band_edge_route) | claim | — | 0.8698 | derived |
 | [he3_mstar_ratio_yields_f1_3_36](#he3_mstar_ratio_yields_f1_3_36) | claim | — | 0.8807 | derived |
+| [he3_gamma_implies_mstar_ratio_2_12](#he3_gamma_implies_mstar_ratio_2_12) | claim | — | 0.8807 | derived |
 | [gcn_ecddfefa_fermion_entropy_formula](#gcn_ecddfefa_fermion_entropy_formula) | claim | 0.90 | 0.9000 | independent |

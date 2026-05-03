@@ -1,0 +1,55 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.774949,
+      "knowledge_id": "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+      "label": "gcn_29401e42_nis2_brinkman_rice"
+    },
+    {
+      "belief": 0.58,
+      "knowledge_id": "github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption",
+      "label": "gcn_8a1a2748_alternative_mechanisms_assumption"
+    },
+    {
+      "belief": 0.86736457345,
+      "knowledge_id": "github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles",
+      "label": "helper_brinkman_rice_large_fs_heavy_quasiparticles"
+    },
+    {
+      "belief": 0.86736457345,
+      "knowledge_id": "github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit",
+      "label": "helper_nis2_large_fs_603kt_belly_orbit"
+    },
+    {
+      "belief": 0.86736457345,
+      "knowledge_id": "github:nis2_brinkman_rice::helper_nis2_mstar_6_me",
+      "label": "helper_nis2_mstar_6_me"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice": [
+        0.774949
+      ],
+      "github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption": [
+        0.58
+      ],
+      "github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles": [
+        0.86736457345
+      ],
+      "github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit": [
+        0.86736457345
+      ],
+      "github:nis2_brinkman_rice::helper_nis2_mstar_6_me": [
+        0.86736457345
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 1
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:e78e2074badecc45e64de626cdb5dbc192111a4e5d0a07c199eb467799f58fa5"
+}

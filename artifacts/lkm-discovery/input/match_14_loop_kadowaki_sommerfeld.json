@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:1040536690264899604": {
+        "area": "arXiv-Physics",
+        "authors": "Kristin Kliemt | Jacintha Banda | Pavlo Khanenko | Ali Scherzad | Ulrike Stockert | Anna Efimenko | Kurt Kummer | Cornelius Krellner | Manuel Brando",
+        "available_online": "",
+        "cover_date_start": "2024-09-08",
+        "created_at": "2024-09-11T00:01:19+08:00",
+        "doi": "10.48550/arxiv.2409.05150",
+        "en_title": "Physical properties of the ferromagnetic quantum critical system YbNi$_4$(P$_{1-x}$As$_{x}$)$_2$",
+        "id": "1040536690264899604",
+        "keywords": "",
+        "publication_date": "2024-09-08",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "铁磁量子临界体系YbNi$_4$(P$_{1 - x}$As$_{x}$)$_2$的物理性质"
+      },
+      "paper:811757026181906432": {
+        "area": "Physics and Astrophysics",
+        "authors": "N. Büttgen | H.-A. Krug von Nidda | W. Kraetschmer | A. Günther | S. Widmann | S. Riegg | A. Krimmel | A. Loidl",
+        "available_online": "2010-8-11",
+        "cover_date_start": "2010-08-11",
+        "created_at": "2022-12-19T16:32:37+08:00",
+        "doi": "10.1007/s10909-010-0200-9",
+        "en_title": "Quantum Criticality in Transition-Metal Oxides",
+        "id": "811757026181906432",
+        "keywords": "[{\"en_name\": \"Frustrated spinels\", \"ch_name\": \"\"}, {\"en_name\": \"LiV<sub>2</sub>O<sub>4</sub>\", \"ch_name\": \"\"}, {\"en_name\": \"Quantum criticality\", \"ch_name\": \"\"}, {\"en_name\": \"Ruthenates\", \"ch_name\": \"\"}, {\"en_name\": \"Transition-metal oxides\", \"ch_name\": \"\"}]",
+        "publication_date": "2010-10",
+        "publication_id": "645",
+        "publication_name": "Journal of Low Temperature Physics _ J Low Temp Phys",
+        "research_categories": "",
+        "zh_title": "过渡金属氧化物中的量子临界性"
+      },
+      "paper:811961677649018882": {
+        "area": "Physics and Astrophysics",
+        "authors": "Y. Kasahara | Y. Shimono | T. Kato | K. Hashimoto | T. Shibauchi | Y. Matsuda | S. Yonezawa | Y. Muraoka | J. Yamaura | Y. Nagao | Z. Hiroi",
+        "available_online": "",
+        "cover_date_start": "2008-04-01",
+        "created_at": "2022-12-20T06:05:49+08:00",
+        "doi": "10.1016/j.physb.2007.10.090",
+        "en_title": "Full-gap superconductivity with strong electron correlations in the -pyrochlore KOs2O6",
+        "id": "811961677649018882",
+        "keywords": "[{\"ch_name\":\"微波表面阻抗\",\"en_name\":\"Microwave surface impedance\"},{\"ch_name\":\"嘎嘎声\",\"en_name\":\"Rattling\"},{\"ch_name\":\"热导率\",\"en_name\":\"Thermal conductivity\"},{\"ch_name\":\"β-烧绿石氧化物超导体\",\"en_name\":\"β-pyrochlore oxide superconductors\"}]",
+        "publication_date": "2008-4",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "",
+        "zh_title": "在烧绿石结构的KOs₂O₆中具有强电子关联的全能隙超导性"
+      },
+      "paper:812076390999392257": {
+        "area": "Physics and Astrophysics",
+        "authors": "Y. Kasahara | Y. Shimono | T. Shibauchi | Y. Matsuda | S. Yonezawa | Y. Muraoka | Z. Hiroi",
+        "available_online": "2006-6-23",
+        "cover_date_start": "2006-06-23",
+        "created_at": "2022-12-20T13:41:39+08:00",
+        "doi": "10.1103/physrevlett.96.247004",
+        "en_title": "Thermal Conductivity of the Pyrochlore Superconductor KOs 2 O 6 : Strong Electron Correlations and Fully Gapped Superconductivity",
+        "id": "812076390999392257",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "烧绿石超导体KOs₂O₆的热导率：强电子关联与完全能隙超导性"
+      },
+      "paper:812344182046720001": {
+        "area": "Physics and Astrophysics",
+        "authors": "V.R. Shaginyan | J.G. Han | J. Lee",
+        "available_online": "",
+        "cover_date_start": "2004-08-01",
+        "created_at": "2022-12-21T07:25:46+08:00",
+        "doi": "10.1016/j.physleta.2004.06.065",
+        "en_title": "Fermion condensation quantum phase transition versus conventional quantum phase transitions",
+        "id": "812344182046720001",
+        "keywords": "[{\"en_name\": \"71.10.Hf\", \"ch_name\": \"\"}, {\"en_name\": \"74.72.-h\", \"ch_name\": \"\"}, {\"en_name\": \"Heavy fermions\", \"ch_name\": \"\"}, {\"en_name\": \"Quantum phase transitions\", \"ch_name\": \"\"}, {\"en_name\": \"Transport properties\", \"ch_name\": \"\"}]",
+        "publication_date": "2004-8",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "费米子凝聚量子相变与传统量子相变的对比"
+      },
+      "paper:813219117229146113": {
+        "area": "Material science",
+        "authors": "U.B. Paramanik | Anupam | U. Burkhardt | R. Prasad | C. Geibel | Z. Hossain",
+        "available_online": "",
+        "cover_date_start": "2013-12-01",
+        "created_at": "2022-12-23T17:22:27+08:00",
+        "doi": "10.1016/j.jallcom.2013.05.169",
+        "en_title": "Valence fluctuation in CeMo2Si2C",
+        "id": "813219117229146113",
+        "keywords": "[{\"ch_name\":\"电子结构\",\"en_name\":\"Electronic structure\"},{\"ch_name\":\"热容\",\"en_name\":\"Heat capacity\"},{\"ch_name\":\"磁性测量\",\"en_name\":\"Magnetic measurements\"},{\"ch_name\":\"稀土合金和化合物\",\"en_name\":\"Rare earth alloys and compounds\"},{\"ch_name\":\"价态波动\",\"en_name\":\"Valence fluctuations\"},{\"ch_name\":\"X射线吸收光谱\",\"en_name\":\"X-ray absorption spectroscopy\"}]",
+        "publication_date": "2013-12",
+        "publication_id": "2082",
+        "publication_name": "Journal of Alloys and Compounds _ Journal of Alloys and Compounds",
+        "research_categories": "",
+        "zh_title": "CeMo₂Si₂C中的价态涨落"
+      },
+      "paper:814585457902878721": {
+        "area": "Comprehensive Periodical",
+        "authors": "Yongkang Luo | F. Ronning | N. Wakeham | Xin Lu | Tuson Park | Z.-A. Xu | J. D. Thompson",
+        "available_online": "2015-10-19",
+        "cover_date_start": "2015-10-19",
+        "created_at": "2022-12-27T11:51:48+08:00",
+        "doi": "10.1073/pnas.1509581112",
+        "en_title": "Pressure-tuned quantum criticality in the antiferromagnetic Kondo semimetal CeNi 2− δ As 2",
+        "id": "814585457902878721",
+        "keywords": "",
+        "publication_date": "2015-11-3",
+        "publication_id": "11299",
+        "publication_name": "Proceedings of the National Academy of Sciences _ Proc. Natl. Acad. Sci. U.S.A.",
+        "research_categories": "",
+        "zh_title": "反铁磁近藤半金属CeNi₂₋₈As₂中的压力调谐量子临界性"
+      },
+      "paper:867764485933237203": {
+        "area": "arXiv-Physics",
+        "authors": "D. H. Nguyen | A. Sidorenko | M. Taupin | G. Knebel | G. Lapertot | E. Schuberth | S. Paschen",
+        "available_online": "",
+        "cover_date_start": "2021-06-28",
+        "created_at": "2023-05-23T05:46:16+08:00",
+        "doi": "10.48550/arXiv.2106.14849",
+        "en_title": "Superconductivity in an extreme strange metal",
+        "id": "867764485933237203",
+        "keywords": "",
+        "publication_date": "2021-06-28",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "极端奇异金属中的超导性"
+      },
+      "paper:867768477341974986": {
+        "area": "arXiv-Physics",
+        "authors": "P. Limelette | V. Hardy | P. Auban-Senzier | D. Jerome | D. Flahaut | S. Hebert | R. Fresard | Ch. Simon | J. Noudem | A. Maignan",
+        "available_online": "",
+        "cover_date_start": "2005-05-19",
+        "created_at": "2023-05-23T06:02:08+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0505464",
+        "en_title": "Strongly correlated properties of the thermoelectric cobalt oxide Ca3Co4O9",
+        "id": "867768477341974986",
+        "keywords": "",
+        "publication_date": "2005-05-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "热电钴氧化物Ca3Co4O9的强关联特性"
+      },
+      "paper:941395755220861063": {
+        "area": "arXiv-Physics",
+        "authors": "Matteo Crispino | Pablo Villar Arribi | Anmol Shukla | Frédéric Hardy | Amir-Abbas Haghighirad | Thomas Wolf | Rolf Heid | Christoph Meingast | Tommaso Gorni | Adolfo Avella | Luca de' Medici",
+        "available_online": "",
+        "cover_date_start": "2023-12-11",
+        "created_at": "2023-12-12T10:12:37+08:00",
+        "doi": "10.48550/arXiv.2312.06511",
+        "en_title": "Paradigm for finding d-electron heavy fermions: the case of Cr-doped CsFe$_2$As$_2$",
+        "id": "941395755220861063",
+        "keywords": "",
+        "publication_date": "2023-12-11",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "寻找d电子重费米子的范例：以Cr掺杂的CsFe₂As₂为例"
+      }
+    },
+    "variables": [
+      {
+        "content": "For a metallic Fermi liquid whose low-temperature electrical resistivity follows ρ=ρ_0+A(B) T^2 and whose electronic specific-heat coefficient is γ(B)=lim_{T→0} C(T)/T, the electron–electron scattering contribution A(B) scales approximately as the square of the quasiparticle effective mass, A(B) ∝ (M*(B))^2, while the Sommerfeld coefficient scales linearly, γ(B) ∝ M*(B); consequently, the Kadowaki–Woods ratio K ≡ A(B)/γ^2(B) is approximately independent of M*(B) and hence field-independent in the LFL regime dominated by quasiparticles.\n      Kadowaki and Woods, Solid State Commun. 58 (1986) 507; empirical literature summarized in the provided paper.",
+        "content_hash": "97b861743987a0d9ab3c55e1a0c1837852a64f3dd1d89835bdc4f31e476b5e83",
+        "id": "gcn_fd6872dc7ea24207",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812344182046720001::P9",
+            "package_id": "paper:812344182046720001",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812344182046720001"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03128054740957967,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The transport coefficient extracted from the low-temperature Fermi-liquid fit, $A=3.63\\times10^{-2}\\ \\mu\\Omega\\mathrm{cm}/\\mathrm{K}^{2}$ (from $\\rho=\\rho_{0}+AT^{2}$), together with the Sommerfeld coefficient $\\gamma=93\\ \\mathrm{mJ}/(\\mathrm{mol}\\cdot\\mathrm{K}^{2})$, give the Kadowaki–Woods ratio $A/\\gamma^{2}\\approx 0.45\\times 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\cdot\\mathrm{K}^{2}/(\\mathrm{mJ}^{2}\\,\\mathrm{mol}^{-2})$, a value that lies within the empirical range observed for heavy-fermion and strongly correlated materials and is therefore consistent with strong quasiparticle mass renormalization in this system.",
+        "content_hash": "15ff16bff9e74e5f7f93ab45171f8f55f179be842a44373430ab4e88b764203c",
+        "id": "gcn_8a68e8f918b54bd9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768477341974986::conclusion_3",
+            "package_id": "paper:867768477341974986",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768477341974986"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.03047794966520434,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The empirical Kadowaki–Woods relation, observed for many strongly correlated Fermi liquids, relates the coefficient $A$ of the $T^2$ term in the low-temperature electrical resistivity $\\\\rho(T)=\\\\rho_0+AT^2$ to the Sommerfeld electronic specific-heat coefficient $\\\\gamma$ by\n      $$\n      A=a_{\\\\rm KW}\\\\,\\\\gamma^2,\n      $$\n      where $a_{\\\\rm KW}\\\\approx10^{-5}\\\\ \\\\mu\\\\Omega\\\\mathrm{cm}(\\\\mathrm{K\\\\,mol/mJ})^2$ is the approximately universal empirical prefactor; placement of an experimentally determined $(A,\\\\gamma)$ point near this empirical line is commonly used as diagnostic evidence that the material behaves as a strongly correlated, large-effective-mass Fermi liquid and that electron-electron inelastic scattering is significant in low-temperature transport, without asserting a microscopic derivation of the proportionality constant.\n      K. Kadowaki and S.B. Woods, Solid State Commun. 58, 507 (1986).",
+        "content_hash": "15bdc81620841baf5cc27533352fcbf8cade6e2326e9b132e281c42fe666431d",
+        "id": "gcn_374c6b9971df4cb3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812076390999392257::P3",
+            "package_id": "paper:812076390999392257",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812076390999392257"
+          ]
+        },
+        "role": "premise",
+        "score": 0.027623285131627734,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+        "content_hash": "89ee7fa644a6d33444a409109820041a25c5b3322f8d64d06adff028940a79f7",
+        "id": "gcn_bc46d7d5f5284a0e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813219117229146113::conclusion_6",
+            "package_id": "paper:813219117229146113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813219117229146113"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02701252236135957,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define the low-temperature electrical resistivity of a Fermi liquid as $\\rho(T)=\\rho_{0}+A T^{2}$ with coefficient $A$, and define the Sommerfeld coefficient of the electronic specific heat as $\\gamma$. The empirical Kadowaki–Woods relation asserts that the ratio $A/\\gamma^{2}=C_{\\mathrm{KW}}$ is approximately material-independent within classes of degeneracy; for a Kramers doublet crystalline-electric-field ground state an appropriate numerical value of $C_{\\mathrm{KW}}$ is used. The proposition is that this empirical proportionality is applicable to CeNi_{2-\\delta}As_2 in the measured pressure regime so that a measured $A$ coefficient can be converted to an estimate of $\\gamma$ (and hence of an effective mass) using the Kramers-doublet Kadowaki–Woods constant, while acknowledging that band-structure, multi-band effects, and strong anisotropy could in principle modify the proportionality.",
+        "content_hash": "eda5bd635f6b5c450df660f5cf3c9b4f7d726db5fa22a227b4108fb561ca2158",
+        "id": "gcn_b19949f71c4a4337",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814585457902878721::P6",
+            "package_id": "paper:814585457902878721",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814585457902878721"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02658450704225352,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $\\gamma$ be the Sommerfeld coefficient defined by the electronic linear term in the low-temperature specific heat, $C(T)=\\gamma T+\\dots$, and let $A$ be the coefficient of the $T^{2}$ term in the resistivity $\\rho(T)=\\rho_{0}+AT^{2}$. In strongly correlated electron systems, the empirical Kadowaki-Woods relation gives $A/\\gamma^{2}\\approx 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\;(\\mathrm{K\\;mol/mJ})^{2}$. The observation that $\\mathrm{KOs}_{2}\\mathrm{O}_{6}$ has $A/\\gamma^{2}$ close to this value is evidence for strong electron-electron correlations and a large effective-mass enhancement consistent with correlated Fermi-liquid phenomenology.[6]",
+        "content_hash": "4dfe8faa6f881e95e5c23c4a71d4826374cd07775a502408cca3df71667b4418",
+        "id": "gcn_21749ce0b39d435e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811961677649018882::P14",
+            "package_id": "paper:811961677649018882",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811961677649018882"
+          ]
+        },
+        "role": "premise",
+        "score": 0.024725274725274724,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Kadowaki–Woods (KW) ratio is defined as A/γ_0^2, where A is the coefficient of the low-temperature resistivity ρ(T) = ρ_0 + A T^2 and γ_0 is the Sommerfeld coefficient from C(T) = γ_0 T in the Fermi-liquid regime; the proposition is that an observed decrease of A/γ_0^2 with increasing arsenic substitution, for the experimentally measured A and γ_0 values, reflects a genuine reduction of effective-mass renormalization and many-body electronic correlations (i.e., a crossover from heavy-fermion to more weakly correlated metallic behaviour), even though possible concurrent changes in quasiparticle degeneracy N or detailed band-structure factors are not explicitly accounted for in the simple ratio.",
+        "content_hash": "9bc352c788f69650be633e706693e5e955491fe4e5f3a9ed35c8956cb7a1a24b",
+        "id": "gcn_abf930b8f41946f2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1040536690264899604::P10",
+            "package_id": "paper:1040536690264899604",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1040536690264899604"
+          ]
+        },
+        "role": "premise",
+        "score": 0.024706420619185605,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Sommerfeld coefficient $\\gamma$ used in subsequent estimates of Fermi wavevector, effective mass, and transport parameters is taken from the non‑quantum‑critical contribution $\\gamma_{\\mathrm{KW}}^{0\\mathrm{T}}$ obtained by inverting the empirical Kadowaki–Woods relation $A/\\gamma^2 = 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\,(\\mathrm{mol\\,K})^2/(\\mathrm{mJ})^2$, where $A$ is the measured Fermi‑liquid $A$ coefficient of $\\rho=\\rho_0+AT^2$; the proposition is that this Kadowaki–Woods‑derived $\\gamma_{\\mathrm{KW}}^{0\\mathrm{T}}$ provides a representative estimate of the non‑quantum‑critical electronic density‑of‑states parameter suitable for use in the subsequent Drude‑informed estimates of $k_{\\mathrm{F}}$, effective mass $m$, and transport scattering lengths in these Yb‑based heavy‑fermion single crystals.",
+        "content_hash": "9569d205df4c47e394d167c26028160bf49c96b26b71b6d18ca12eed97675504",
+        "id": "gcn_d1f7d9beafb54a8d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764485933237203::P9",
+            "package_id": "paper:867764485933237203",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764485933237203"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02439384979302188,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a metallic compound, define the low‑temperature resistivity coefficient A via the Fermi‑liquid law ρ(T) = ρ0 + A T^2 and define the Sommerfeld coefficient γ via C(T) = γT + βT^3; the empirical Kadowaki–Woods ratio A/γ2 (an approximate constant observed across many correlated metals) and the Wilson ratio RW (an empirical ratio comparing the zero‑temperature bulk spin susceptibility χ(0) and γ) take characteristic ranges in mass‑enhanced Fermi liquids; the proposition is that for CaCu3Ru4O12 the experimentally obtained values of A, γ, and χ produce Kadowaki–Woods and Wilson ratios that lie within the empirical ranges associated with correlated Fermi liquids, and therefore these empirical scalings support identifying CaCu3Ru4O12 as a mass‑enhanced Fermi liquid, subject to experimental uncertainties in A, γ, and χ and to the assumption that these empirical relations apply to correlated d‑electron oxides as they do to other correlated metals.\n      A. Krimmel et al., Phys. Rev. B 78, 165126 (2008)",
+        "content_hash": "3624eab0737d76cd18be763aa10cfdfb49b7ffc3aa12664115c0fcdb5a53f0b9",
+        "id": "gcn_b467cd94e9ea4c9c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811757026181906432::P6",
+            "package_id": "paper:811757026181906432",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811757026181906432"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define the resistivity $\\rho(T)=\\rho_{0}+A T^{2}$ at low temperature and the Sommerfeld coefficient $\\gamma=(C/T)_{T\\to0}$. The Kadowaki–Woods ratio is $R_{\\mathrm{KW}}=A/\\gamma^{2}$. The proposition is: observed approximate constancy of $R_{\\mathrm{KW}}$ across small Cr doping levels indicates that both the enhancement of $A$ and of $\\gamma$ share a common Fermi-liquid quasiparticle origin (i.e. enhanced effective mass and scattering among coherent quasiparticles), rather than arising from unrelated mechanisms that would change $A$ and $\\gamma$ differently (e.g. increased impurity scattering altering $A$ but not $\\gamma$).",
+        "content_hash": "aa9f9526e1496d95d984a87e99f06d8351c54a2931c87910e6cef54a65ec9dc9",
+        "id": "gcn_68ed77d1db29423b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:941395755220861063::P13",
+            "package_id": "paper:941395755220861063",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:941395755220861063"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "957c9447fbc2c8562359f5878732a590"
+}

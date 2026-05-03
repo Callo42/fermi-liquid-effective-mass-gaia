@@ -1,0 +1,24 @@
+{
+  "Anderson1984": {
+    "type": "article-journal",
+    "id": "Anderson1984",
+    "title": "Heavy-electron superconductors, spin fluctuations, and triplet pairing",
+    "DOI": "10.1103/physrevb.30.1549",
+    "container-title": "Physical Review B _ Phys. Rev. B",
+    "issued": {
+      "date-parts": [
+        [
+          1984,
+          8,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "P. W."
+      }
+    ]
+  }
+}

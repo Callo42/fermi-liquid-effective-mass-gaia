@@ -1,5 +1,5 @@
 {
-  "ir_hash": "sha256:40777a6dbe1830cf56c3c09691ed7f120267977c7fdd7e8db0329a8195005a75",
+  "ir_hash": "sha256:0c8dc1a153a399df924c4300e2a480faaf07e05fa666c49dad4bb19fb2e51b4d",
   "manifest_schema_version": 1,
   "package": "fermi-liquid-effective-mass",
   "premises": [
@@ -12,6 +12,7 @@
       "qid": "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
       "required_by": [
         "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
         "github:fermi_liquid_effective_mass::cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope",
         "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
       ],
@@ -31,6 +32,18 @@
       "role": "local_hole"
     },
     {
+      "content": "For low-temperature correlated metals, the empirical Kadowaki-Woods diagnostic compares the resistivity coefficient A from rho(T)=rho_0 + A T^2 with the Sommerfeld coefficient gamma from C(T)=gamma T+..., and A/gamma^2 near 1e-5 muOmega cm (mol K/mJ)^2 is treated by the selected LKM chain as evidence for standard correlated Fermi-liquid phenomenology in heavy-fermion and valence-fluctuating materials [@Paramanik2013].",
+      "content_hash": "3e46f1dbc3a3d251ee91f6fd2d601d7a1489c196ce14193e742d9e6d966ca1da",
+      "exported": false,
+      "interface_hash": "sha256:38cfe136c9835b33a7b440d88415f7653fbedfe7b0b39a40094b02c60c5da5b6",
+      "label": "gcn_2dc55af_kw_empirical_scale",
+      "qid": "github:fermi_liquid_effective_mass::gcn_2dc55af_kw_empirical_scale",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      ],
+      "role": "local_hole"
+    },
+    {
       "content": "Shaginyan et al. 2010 operationally estimate the quasiparticle effective mass M*(T,B) from entropy by M*(T,B) = S(T,B)/T, using consistent units, as a density-of-states-like effective mass measure even in FCQPT crossover or non-Fermi-liquid regimes where the system is not strictly in the low-temperature Landau Fermi-liquid limit [@Shaginyan2010].",
       "content_hash": "5972801fab755f76d32c8e7187721a749eccb838cc7ea4917dd507d303e47d03",
       "exported": false,
@@ -38,6 +51,7 @@
       "label": "gcn_2e693115_entropy_over_temperature_mass",
       "qid": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
       "required_by": [
+        "github:fermi_liquid_effective_mass::cross_thermo_transport_correlated_fl_consistency",
         "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
         "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
       ],
@@ -56,6 +70,57 @@
       "role": "local_hole"
     },
     {
+      "content": "For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice/DMFT discussion, a Fermi-liquid metal with coherence scale T_K identified with E_F* has electronic entropy per lattice site S(T)/N ~ T/T_K for T <= T_K; therefore S(T_K) is finite and of order unity for every T_K > 0, assuming ordinary Fermi-liquid quasiparticles and no additional comparably low-energy entropy carriers [@Capone2001].",
+      "content_hash": "72c3413820709cc3b8dbd130c0a999e1067574179f5285339ecfe4eb84cee372",
+      "exported": false,
+      "interface_hash": "sha256:bfe10400061c269066da6140fea3359ba0d73227c402cf22708154916ac72888",
+      "label": "gcn_31bc66ca16a44508",
+      "qid": "github:fermi_liquid_effective_mass::gcn_31bc66ca16a44508",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_brinkman_rice_mott_boundary_family",
+        "github:fermi_liquid_effective_mass::gcn_e4ecd721edd14d3f"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "Friedemann et al. 2013 treat LuRh2Si2 as an isostructural, filled-4f-shell reference for the \"small\" Fermi surface of YbRh2Si2 with core-like non-hybridizing Yb 4f electrons, because the Lu and Yb compounds have nearly identical lattice parameters and non-f conduction-band characters when computed and measured using the experimental z_Si=0.379 c structure [@Friedemann2013].",
+      "content_hash": "21117cc74b4c6b50bf59a70a2f2fa3b11ad6d20b51ad0afdaf42b62fc6745c72",
+      "exported": false,
+      "interface_hash": "sha256:dd3693eefbdb63ba37d733ec04d395d95092ef294d03b395e09af2bc6cfba7be",
+      "label": "gcn_3a8394c_lurh2si2_small_fs_reference",
+      "qid": "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_material_specific_fs_constraints",
+        "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For YbRh2Si2 with fields along the (100) direction, Friedemann et al. 2013 define the \"small\" Fermi surface as an LDA/GGA band-structure calculation in which Yb 4f electrons are core-like and non-hybridizing; if the refined z_Si=0.379 c small-Fermi-surface calculation has no extremal orbit near 14 kT and the measured F_14 ~= 14 kT dHvA peak is an independent fundamental, then the observed 14 kT orbit indicates itinerant Yb 4f participation under the high-field measurement conditions, provided instrumental, magnetic-breakdown, or misassignment alternatives are unlikely [@Friedemann2013].",
+      "content_hash": "4296a751bfcfc69f34ed30f38db7dc8bbd47884aa3c62e715befd8c1b16ac7bf",
+      "exported": false,
+      "interface_hash": "sha256:9a0c0bd4cb4f6b58bb45b376ff11307ceca2e248a4abb9ef0d7be6cb26ac3200",
+      "label": "gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
+      "qid": "github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
+        "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For a metallic Kondo lattice made of a periodic subset of localized magnetic f-electron shells hybridized with conduction electrons, Anderson 1984 treats the leading low-energy local physics at each screened f-ion site as the Nozieres single-impurity Fermi-liquid representation: for energies E << T_K, scattering is described by Friedel-sum-rule phase shifts and finite analytic residual interactions, with inter-site corrections assumed small compared with the single-site Kondo scale [@Anderson1984].",
+      "content_hash": "19ffaf14ca3be00286227c046e57c79b4c07f824257629cc972e9dd43338d88c",
+      "exported": false,
+      "interface_hash": "sha256:fa82cb156ab490fd1c42d5e4074e87ab689034114618b0d4d4ca06bea180646e",
+      "label": "gcn_40f111_nozieres_local_fl_kondo_sites",
+      "qid": "github:fermi_liquid_effective_mass::gcn_40f111_nozieres_local_fl_kondo_sites",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_7ae79f_kondo_brinkman_rice_fixed_point"
+      ],
+      "role": "local_hole"
+    },
+    {
       "content": "In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].",
       "content_hash": "60e88c305b8b90104bcc9b2c3715a07ff9678318e8bb9db5ae20e5c50fe78235",
       "exported": false,
@@ -64,6 +129,19 @@
       "qid": "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration",
       "required_by": [
         "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In Knebel et al. 2006, the YbRh2Si2 de Haas-van Alphen frequencies and cyclotron masses are measured on high-quality single crystals in steady fields from 12 T to 28 T with H parallel to the crystallographic a axis; because such high fields can polarize the system, suppress correlations, or shift bands, this high-field dHvA spectrum need not coincide with the zero- or low-field Fermi surface most directly relevant to the YbRh2Si2 quantum-critical regime [@Knebel2006].",
+      "content_hash": "24cd3d9dc0be49378f7b0a29a6549068af61b58de535cdd34a0e7cf09b7f7f78",
+      "exported": false,
+      "interface_hash": "sha256:b201fa8b6280ab9e4476aa078062145da2237dce585ce6004c6dfdf49c2050c5",
+      "label": "gcn_5501e18a_high_field_dhva_scope",
+      "qid": "github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
+        "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
       ],
       "role": "local_hole"
     },
@@ -92,6 +170,68 @@
       "role": "local_hole"
     },
     {
+      "content": "For a metal with temperature-independent low-temperature molar susceptibility chi_FL and Sommerfeld coefficient gamma, the selected LKM chain treats the Wilson-Sommerfeld ratio R_W=(pi^2 k_B^2 chi_FL)/(gamma mu_eff^2) as a correlated-Fermi-liquid consistency check when mu_eff is normalized either to the Ce3+ free-ion moment 2.54 mu_B or to the conduction-electron reference value 1.73 mu_B [@Paramanik2013].",
+      "content_hash": "764f3140f694e72808fe32d82bfa3e0e4c2184c21389a53639fa8adec48068ef",
+      "exported": false,
+      "interface_hash": "sha256:4e7cb1dbd549706ddc5329cada4b28c4ab108af3f150958de7e2376dbb4ecaf6",
+      "label": "gcn_7459a446_wilson_ratio_interpretation",
+      "qid": "github:fermi_liquid_effective_mass::gcn_7459a446_wilson_ratio_interpretation",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For the three-orbital interacting lattice Hamiltonian considered by Capone, Fabrizio, and Tosatti 2001, if the metallic solution remains a Fermi liquid then Luttinger's theorem pins the interacting chemical potential to the noninteracting value and pins the spectral density at the chemical potential to rho_0(mu_0); the Mott transition then occurs by narrowing the quasiparticle resonance at fixed chemical potential rather than by shifting mu to a band edge [@Capone2001].",
+      "content_hash": "fc7c0d4e18aaabc8d899ecb6ca66eb5707198273dc1b13233c6da375aa0ff719",
+      "exported": false,
+      "interface_hash": "sha256:205a49bf4c6b51569477bdfc7410923f728979fbd8ab76ff7f3a0e128d14c72c",
+      "label": "gcn_795699f572b24ed5",
+      "qid": "github:fermi_liquid_effective_mass::gcn_795699f572b24ed5",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_e4ecd721edd14d3f"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For pressure-metalized NiS2 near 3.8 GPa, interpreting the coexistence of a large Fermi-surface extremal area and enhanced quasiparticle effective mass as realization of the Brinkman-Rice correlated-metal scenario relies on the assumption that spin-fluctuation renormalization, enhanced electron-phonon coupling, or Fermi-surface reconstruction from proximate magnetic order cannot produce the same pair of observations without Brinkman-Rice physics [@Friedemann2016].",
+      "content_hash": "5fb4019ed5ed56a0b52116a313c2a730b22cc7ef4ffde852d8aa26651d1cb96d",
+      "exported": false,
+      "interface_hash": "sha256:9fa61a9e193311058c43598015daffd9295c208caa064f8642903e34b7aaa4f7",
+      "label": "gcn_8a1a2748_alternative_mechanisms_assumption",
+      "qid": "github:fermi_liquid_effective_mass::gcn_8a1a2748_alternative_mechanisms_assumption",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::gcn_29401e42_nis2_brinkman_rice"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "Anderson 1984 defines the relevant Brinkman-Rice Fermi-liquid fixed point for Kondo-lattice metals as a Fermi liquid proximate to a Mott or local-moment instability, with very large effective-mass renormalization but finite nondivergent Stoner enhancement; the selected chain applies this description when direct inter-site exchange, RKKY coupling, and incipient magnetic order are weak or irrelevant enough that local Nozieres-type Kondo Fermi-liquid physics remains qualitatively intact [@Anderson1984].",
+      "content_hash": "b9ed999d049fe67d2bf5d66f1b064eb2467021813324d76ff29e95590a3e8790",
+      "exported": false,
+      "interface_hash": "sha256:e07f290834410b75ba2d7dcb1806506fcab87bb15ba895a19cb561c1c0ff1828",
+      "label": "gcn_8f275a_brinkman_rice_scope_condition",
+      "qid": "github:fermi_liquid_effective_mass::gcn_8f275a_brinkman_rice_scope_condition",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_brinkman_rice_scope_caution",
+        "github:fermi_liquid_effective_mass::gcn_7ae79f_kondo_brinkman_rice_fixed_point"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In the Friedemann et al. 2013 re-examination of published field-modulation dHvA data on YbRh2Si2, if the angular dependences of observed 5-7 kT peaks match two times lower-frequency branches below 4 kT and the method preferentially enhances harmonics, then the 5-7 kT peaks can be assigned as second, and in some cases higher, harmonics of lower-frequency fundamentals rather than independent fundamental orbits; the assignment is reported as consistent with tabulated frequency and mass comparisons from the published data [@Friedemann2013].",
+      "content_hash": "402462c4e823392174c92531b3f2f2b90cc5d5438bc6494d2d83bd2235ed324a",
+      "exported": false,
+      "interface_hash": "sha256:1036c1184b2d95da60f1d04f43f7730b6a1e6238def5bee79f2b8be1986efb66",
+      "label": "gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
+      "qid": "github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
+        "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+      ],
+      "role": "local_hole"
+    },
+    {
       "content": "For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].",
       "content_hash": "20556ac693dc941a16d2ff494cfec1e3338ee186d34d69b59baaf53a95e45af2",
       "exported": false,
@@ -100,6 +240,19 @@
       "qid": "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization",
       "required_by": [
         "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In the Capone-Fabrizio-Tosatti 2001 setting, a Fermi-liquid metal with T_K > 0 and order-unity entropy near T ~ T_K cannot be continuously and adiabatically connected to a nondegenerate spin-singlet Mott insulator with zero T -> 0 entropy while Luttinger's theorem pins the chemical potential and no symmetry breaking changes the entropy accounting; absent chemical-potential motion or symmetry breaking, a thermodynamic instability or intermediate phase must intervene [@Capone2001].",
+      "content_hash": "d202e979d459e8b006dc645bc103fe3ebc5f855f5348c58fe6444a9b7173584a",
+      "exported": false,
+      "interface_hash": "sha256:539f8b74c797032917d557bf202e752fb772e3b71f1d43f65c7fc0a738e87c2a",
+      "label": "gcn_dd12256615264dfb",
+      "qid": "github:fermi_liquid_effective_mass::gcn_dd12256615264dfb",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_brinkman_rice_scope_caution",
+        "github:fermi_liquid_effective_mass::gcn_e4ecd721edd14d3f"
       ],
       "role": "local_hole"
     },
@@ -124,6 +277,19 @@
       "qid": "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
       "required_by": [
         "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For YbRh2Si2, Knebel et al. 2006 report that LDA/FLAPW band-structure calculations with all 4f electrons treated as itinerant are sensitive to calculational details and to the assumed 4f energy position, making the predicted 4f-derived Fermi-surface topology and angular dependence unreliable enough that an experiment-theory mismatch need not by itself prove intrinsic 4f localization [@Knebel2006].",
+      "content_hash": "ba3b695ab2f58430e5b7cea1b81374f51be4aa93447cd291a95f73c50a552ba7",
+      "exported": false,
+      "interface_hash": "sha256:b7876d46bfc84c41c36765bdb7cd3cf96029145cb4f464a5ce568464fed4db46",
+      "label": "gcn_f20b1f42_itinerant_4f_lda_sensitivity",
+      "qid": "github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity",
+      "required_by": [
+        "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
+        "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
       ],
       "role": "local_hole"
     }

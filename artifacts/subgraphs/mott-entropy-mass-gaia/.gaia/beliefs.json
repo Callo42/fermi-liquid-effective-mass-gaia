@@ -1,0 +1,103 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.51165664,
+      "knowledge_id": "github:mott_entropy_mass::__conjunction_result_dc0704f0",
+      "label": "__conjunction_result_dc0704f0"
+    },
+    {
+      "belief": 0.8520062210525177,
+      "knowledge_id": "github:mott_entropy_mass::capone_brinkman_rice_mass_z_tk_limit",
+      "label": "capone_brinkman_rice_mass_z_tk_limit"
+    },
+    {
+      "belief": 0.87924,
+      "knowledge_id": "github:mott_entropy_mass::capone_entropy_mismatch_requires_instability",
+      "label": "capone_entropy_mismatch_requires_instability"
+    },
+    {
+      "belief": 0.8520062210525177,
+      "knowledge_id": "github:mott_entropy_mass::capone_fl_definition_z_tk",
+      "label": "capone_fl_definition_z_tk"
+    },
+    {
+      "belief": 0.888721,
+      "knowledge_id": "github:mott_entropy_mass::capone_fl_entropy_order_unity_at_tk",
+      "label": "capone_fl_entropy_order_unity_at_tk"
+    },
+    {
+      "belief": 0.869759,
+      "knowledge_id": "github:mott_entropy_mass::capone_luttinger_pinning_blocks_band_edge_route",
+      "label": "capone_luttinger_pinning_blocks_band_edge_route"
+    },
+    {
+      "belief": 0.8520062210525177,
+      "knowledge_id": "github:mott_entropy_mass::capone_singlet_mott_zero_entropy",
+      "label": "capone_singlet_mott_zero_entropy"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:mott_entropy_mass::gcn_31bc66ca16a44508",
+      "label": "gcn_31bc66ca16a44508"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:mott_entropy_mass::gcn_795699f572b24ed5",
+      "label": "gcn_795699f572b24ed5"
+    },
+    {
+      "belief": 0.8,
+      "knowledge_id": "github:mott_entropy_mass::gcn_dd12256615264dfb",
+      "label": "gcn_dd12256615264dfb"
+    },
+    {
+      "belief": 0.742550830192,
+      "knowledge_id": "github:mott_entropy_mass::gcn_e4ecd721edd14d3f",
+      "label": "gcn_e4ecd721edd14d3f"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:mott_entropy_mass::__conjunction_result_dc0704f0": [
+        0.51165664
+      ],
+      "github:mott_entropy_mass::capone_brinkman_rice_mass_z_tk_limit": [
+        0.8520062210525177
+      ],
+      "github:mott_entropy_mass::capone_entropy_mismatch_requires_instability": [
+        0.87924
+      ],
+      "github:mott_entropy_mass::capone_fl_definition_z_tk": [
+        0.8520062210525177
+      ],
+      "github:mott_entropy_mass::capone_fl_entropy_order_unity_at_tk": [
+        0.888721
+      ],
+      "github:mott_entropy_mass::capone_luttinger_pinning_blocks_band_edge_route": [
+        0.869759
+      ],
+      "github:mott_entropy_mass::capone_singlet_mott_zero_entropy": [
+        0.8520062210525177
+      ],
+      "github:mott_entropy_mass::gcn_31bc66ca16a44508": [
+        0.82
+      ],
+      "github:mott_entropy_mass::gcn_795699f572b24ed5": [
+        0.78
+      ],
+      "github:mott_entropy_mass::gcn_dd12256615264dfb": [
+        0.8
+      ],
+      "github:mott_entropy_mass::gcn_e4ecd721edd14d3f": [
+        0.742550830192
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 3
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:a057f4e4a7c765c49c880f2265766ed77733a74f0a82be51ba19480522b1fd2e"
+}

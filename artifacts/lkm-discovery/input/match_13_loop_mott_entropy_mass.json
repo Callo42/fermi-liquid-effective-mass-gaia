@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811855974460555265": {
+        "area": "Physics and Astrophysics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov",
+        "available_online": "",
+        "cover_date_start": "2009-06-01",
+        "created_at": "2022-12-19T23:05:48+08:00",
+        "doi": "10.1016/j.physleta.2009.04.046",
+        "en_title": "Strongly correlated Fermi-systems: Non-Fermi liquid behavior, quasiparticle effective mass and their interplay",
+        "id": "811855974460555265",
+        "keywords": "[{\"ch_name\":\"能量尺度\",\"en_name\":\"Energy scales\"},{\"ch_name\":\"重费米子金属\",\"en_name\":\"Heavy-fermion metals\"},{\"ch_name\":\"磁熵\",\"en_name\":\"Magnetic entropy\"},{\"ch_name\":\"磁阻\",\"en_name\":\"Magnetoresistance\"},{\"ch_name\":\"量子临界性\",\"en_name\":\"Quantum criticality\"}]",
+        "publication_date": "2009-6",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "强关联费米系统：非费米液体行为、准粒子有效质量及其相互作用"
+      },
+      "paper:811936381528965120": {
+        "area": "Physics and Astrophysics",
+        "authors": "Takuma Ohashi | Tsutomu Momoi | Hirokazu Tsunetsugu | Norio Kawakami",
+        "available_online": "2008-2-20",
+        "cover_date_start": "2008-02-20",
+        "created_at": "2022-12-20T04:25:18+08:00",
+        "doi": "10.1103/physrevlett.100.076402",
+        "en_title": "Finite Temperature Mott Transition in Hubbard Model on Anisotropic Triangular Lattice",
+        "id": "811936381528965120",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "各向异性三角晶格上哈伯德模型中的有限温度莫特转变"
+      },
+      "paper:812304342135603201": {
+        "area": "Physics and Astrophysics",
+        "authors": "B. J. Powell | Ross H. McKenzie",
+        "available_online": "2005-2-1",
+        "cover_date_start": "2005-02-01",
+        "created_at": "2022-12-21T04:47:27+08:00",
+        "doi": "10.1103/physrevlett.94.047004",
+        "en_title": "Half-Filled Layered Organic Superconductors and the Resonating-Valence-Bond Theory of the Hubbard-Heisenberg Model",
+        "id": "812304342135603201",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "半填充层状有机超导体与哈伯德 - 海森堡模型的共振价键理论"
+      },
+      "paper:812681032267464705": {
+        "area": "Physics and Astrophysics",
+        "authors": "I. H. Inoue | O. Goto | H. Makino | N. E. Hussey | M. Ishikawa",
+        "available_online": "1998-8-15",
+        "cover_date_start": "1998-08-15",
+        "created_at": "2022-12-22T05:44:18+08:00",
+        "doi": "10.1103/physrevb.58.4372",
+        "en_title": "Bandwidth control in a perovskite-type 3 d 1 -correlated metal Ca 1 − x Sr x VO 3 . I. Evolution of the electronic properties and effective mass",
+        "id": "812681032267464705",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "钙钛矿型3d¹相关金属Ca₁₋ₓSrₓVO₃中的带宽控制。I. 电子性质和有效质量的演变 "
+      },
+      "paper:812684634172162049": {
+        "area": "Physics and Astrophysics",
+        "authors": "Massimo Capone | Michele Fabrizio | Erio Tosatti",
+        "available_online": "2001-6-4",
+        "cover_date_start": "2001-06-04",
+        "created_at": "2022-12-22T05:58:37+08:00",
+        "doi": "10.1103/physrevlett.86.5361",
+        "en_title": "Direct Transition between a Singlet Mott Insulator and a Superconductor",
+        "id": "812684634172162049",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "单重态莫特绝缘体与超导体之间的直接转变"
+      },
+      "paper:813189064218902528": {
+        "area": "Physics and Astrophysics",
+        "authors": "Yi Zhou | Tai-Kai Ng",
+        "available_online": "2013-10-21",
+        "cover_date_start": "2013-10-21",
+        "created_at": "2022-12-23T15:23:02+08:00",
+        "doi": "10.1103/physrevb.88.165130",
+        "en_title": "Spin liquid states in the vicinity of a metal-insulator transition",
+        "id": "813189064218902528",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "金属-绝缘体转变附近的自旋液体态"
+      },
+      "paper:814525482547544066": {
+        "area": "Comprehensive Periodical",
+        "authors": "S. Friedemann | H. Chang | M. B. Gamża | P. Reiss | X. Chen | P. Alireza | W. A. Coniglio | D. Graf | S. Tozer | F. M. Grosche",
+        "available_online": "2016-5-12",
+        "cover_date_start": "2016-05-12",
+        "created_at": "2022-12-27T07:53:29+08:00",
+        "doi": "10.1038/srep25335",
+        "en_title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+        "id": "814525482547544066",
+        "keywords": "",
+        "publication_date": "2016-5-31",
+        "publication_id": "9354",
+        "publication_name": "Scientific Reports _ Sci Rep",
+        "research_categories": "",
+        "zh_title": "NiS₂中处于莫特绝缘态边界的重电子的大费米面"
+      },
+      "paper:867767870476517624": {
+        "area": "arXiv-Physics",
+        "authors": "Fang Qin | Ji-sheng Chen",
+        "available_online": "",
+        "cover_date_start": "2009-04-01",
+        "created_at": "2023-05-23T05:59:43+08:00",
+        "doi": "10.48550/arXiv.0904.0053",
+        "en_title": "Comparative study of the finite-temperature thermodynamics of a unitary Fermi gas",
+        "id": "867767870476517624",
+        "keywords": "",
+        "publication_date": "2009-04-01",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "",
+        "zh_title": "幺正费米气体有限温度热力学的比较研究"
+      },
+      "paper:867770551072981407": {
+        "area": "arXiv-Physics",
+        "authors": "M. Capone | M. Fabrizio | E. Tosatti",
+        "available_online": "",
+        "cover_date_start": "2001-01-26",
+        "created_at": "2023-05-23T06:10:22+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0101402",
+        "en_title": "Direct Transition Between a Singlet Mott Insulator and a Superconductor",
+        "id": "867770551072981407",
+        "keywords": "",
+        "publication_date": "2001-01-26",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "单重态莫特绝缘体与超导体之间的直接转变"
+      },
+      "paper:867791033520357680": {
+        "area": "arXiv-Physics",
+        "authors": "Vaclav Janis",
+        "available_online": "",
+        "cover_date_start": "1998-10-15",
+        "created_at": "2023-05-23T07:31:45+08:00",
+        "doi": "10.48550/arXiv.cond-mat/9810175",
+        "en_title": "Strongly correlated electrons: Dynamical vertex renormalization",
+        "id": "867791033520357680",
+        "keywords": "",
+        "publication_date": "1998-10-15",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "强关联电子：动态顶点重整化"
+      }
+    },
+    "variables": [
+      {
+        "content": "Define $Z=m/m_{*}$ as the quasiparticle weight (with $m$ the noninteracting band mass and $m_{*}$ the quasiparticle effective mass) and $W$ as the noninteracting bare bandwidth ($W=4t$ for the Bethe lattice with hopping $t$). The effective low-energy scale (effective Fermi energy or Kondo temperature) is identified as $E_{F}^{*}\\simeq Z W/2$, and for temperatures $T\\leq T_{K}\\equiv E_{F}^{*}$ the entropy per site of a Fermi liquid satisfies $S(T)/N\\sim T/T_{K}$, so that evaluating at $T=T_{K}$ yields $S(T_{K})\\sim O(1)$. This proposition asserts both the estimate $E_{F}^{*}\\simeq ZW/2$ and the linear-in-$T$ low-temperature entropy scaling used to argue that the correlated metal near the MT carries an order-unity entropy at the scale $T_{K}$.",
+        "content_hash": "e6c1903c21d9cf01df80b03c638ae3a2f58f6ba3d582355d13b3da15f3bcf557",
+        "id": "gcn_5407089724b24dc4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812684634172162049::P4",
+            "package_id": "paper:812684634172162049",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812684634172162049"
+          ]
+        },
+        "role": "premise",
+        "score": 0.0288981288981289,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "After solving for the quasiparticle spectrum, the entropy $S(B,T)$ is calculated and then converted to the effective mass through the Landau-Fermi-liquid relation\n$M^{*}(B,T)=S(B,T)/T$.",
+        "content_hash": "78465980846ac06ea29c31d4c9b388751c8f7e351f8c3b938dec112f70d06680",
+        "id": "gcn_ae9c2413b3304dc8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811855974460555265::P14",
+            "package_id": "paper:811855974460555265",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811855974460555265"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02749266862170088,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a metallic Fermi-liquid state with one-particle self-energy function $\\Sigma(\\omega)$ analytic at $\\omega=0$ on the real axis, define the quasiparticle residue $Z$ by $Z^{-1}=1-\\Re\\Sigma'(\\omega)\\big|_{\\omega=0}$ in a band with dispersion $\\epsilon_{\\mathbf{k}}$ under standard Fermi-liquid assumptions; the effective mass renormalization $m^{*}/m$ is then proportional to the inverse quasiparticle residue so that, up to a model-dependent proportionality constant fixed by the bare dispersion at the Fermi surface,\n$$\n\\frac{m^{*}}{m}\\propto\\big|\\Sigma' (0)\\big|,\n$$\nand consequently divergence of $\\Re\\Sigma'(0)$ implies divergence of $m^{*}/m$ and hence signals a Mott–Hubbard metal–insulator transition under the Fermi-liquid to non-Fermi-liquid crossover assumptions.\n      W. F. Brinkman and T. M. Rice, Phys. Rev. B2 (1970) 4302 [cited in paper]",
+        "content_hash": "f433e9b1e37eec1b0891c9c200eeaf1bb2731949d610b49acf862d676d79055c",
+        "id": "gcn_f4c74a5922dd4aa1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867791033520357680::P17",
+            "package_id": "paper:867791033520357680",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867791033520357680"
+          ]
+        },
+        "role": "premise",
+        "score": 0.024961240310077522,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Consider a correlated electronic system described at low energy by Landau parameters including F_1^s(0,0) and spinon effective mass m^*. Define the quasiparticle renormalization weight Z as the quasiparticle spectral weight at the Fermi surface. An alternative scenario for the zero-temperature Mott metal–insulator transition is that tuning a microscopic control parameter (for example the Hubbard interaction strength U) to a critical value U_c drives the l=1 Landau parameter to the critical value from the metallic side so that\n      $$\n      1+\\frac{F_1^s(0,0)}{d}\\to 0^{+},\n      $$\n      while the spinon effective-mass ratio m^*/m remains finite. In this scenario the quasiparticle charge-current prefactor proportional to 1+F_1^s/d and the quasiparticle weight Z vanish at the transition, so that charged quasiparticles on the metallic side transmute into neutral fermionic spinons forming a Fermi surface in the insulating side, without a diverging effective mass m^*/m→∞; finite-temperature critical fluctuations in a region around U_c limit the strict applicability of the phenomenology at nonzero temperature.",
+        "content_hash": "f26fb79c6902d79d2ec5421f4714bcb0628ea0cc54293bf5129576d56f813661",
+        "id": "gcn_5f269db6cc3e4841",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813189064218902528::conclusion_6",
+            "package_id": "paper:813189064218902528",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813189064218902528"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.024422933730454205,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A normal Fermi liquid state is defined here as an electronic phase with a well-defined Fermi surface, a finite quasiparticle weight $Z>0$ (where $Z\\equiv m/m_{*}$ with $m$ the bare band mass and $m_{*}$ the quasiparticle effective mass), and a low-energy coherence scale $T_{K}$ (effective Fermi energy $E_{F}^{*}$) below which thermodynamic quantities are those of a Fermi liquid. In a Brinkman–Rice type scenario the approach to the Mott transition is characterized by a divergent effective mass $m_{*}\\to\\infty$ and a vanishing quasiparticle weight $Z\\to0$, so that $T_{K}\\to0$ and the Fermi-liquid electronic entropy per lattice site at $T\\sim T_{K}$, $S(T_{K})$, remains of order unity for any $T_{K}>0$. A nondegenerate singlet Mott insulator is defined as an insulating phase whose ground state is a unique spin-singlet with a finite spin gap and strictly zero entropy as $T\\to0$. Under these definitions, and assuming no motion of the chemical potential that would convert the transition into a metal–band-insulator crossover and assuming no spontaneous symmetry breaking that changes the entropy budget, a continuous adiabatic connection (a direct crossover without a thermodynamic phase transition or symmetry breaking) from the described Brinkman–Rice Fermi liquid to the defined nondegenerate singlet Mott insulator is impossible because the finite low-temperature entropy of the Fermi liquid cannot be removed continuously as $T_{K}\\to0$ while the insulator has zero entropy; therefore some intervening thermodynamic instability or a distinct intermediate phase must occur between the Fermi-liquid metal and the singlet Mott insulator rather than a direct continuous Fermi-liquid–insulator crossover.",
+        "content_hash": "19d2c49939460603f40131b4745229099de327c17b0ab4764f4f5e5b274ad33c",
+        "id": "gcn_e4ecd721edd14d3f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770551072981407::conclusion_1",
+            "package_id": "paper:867770551072981407",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770551072981407"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The variationally computed quasiparticle weight $g_{t}=8(1-2d)d$ is strongly reduced as the first-order Mott transition is approached from the metallic side; identifying $g_{t}$ with the quasiparticle residue $Z$ implies a low-energy quasiparticle effective mass scaling $m^{*}/m\\sim 1/g_{t}$ (where $m$ is the noninteracting band mass), so that the reductions of $g_{t}$ near $U_{c}$ correspond to mass-enhancement factors of order three to four, and to concomitant reductions in the Drude weight and in the superfluid stiffness in the variational mean-field description.",
+        "content_hash": "4b1e9acb4625bb79c28bf3853d7f18f74579948aebc55eea020563157f57e179",
+        "id": "gcn_7e1ddab200e94c11",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812304342135603201::conclusion_4",
+            "package_id": "paper:812304342135603201",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812304342135603201"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Consider the half-filled Hubbard model at finite temperature $T$ near the Mott transition and define the site entropy of a paramagnetic Mott-insulating-like state with essentially localized spins as $S_{\\mathrm{ins}}\\approx\\ln 2$ per site (reflecting spin-1/2 degeneracy) and the entropy of a coherent Fermi-liquid state as $S_{\\mathrm{FL}}(T)\\ll\\ln 2$ per site (reduced due to quasiparticle coherence); the thermodynamic claim is that when geometrical frustration suppresses the development of magnetic correlations down to an intermediate temperature range so that entropy release via magnetic ordering is unavailable, the system can lower its free energy by reducing entropy through electron itinerancy and formation of a low-entropy Fermi-liquid (i.e., entropy release via kinetic-energy-driven quasiparticle formation dominates over entropy release via magnetic ordering), thereby producing a metallic quasiparticle regime at intermediate $T$.",
+        "content_hash": "59f215ae8f0849c910b338ad400f794348df117dc19db5e796eda2ffd7eb427b",
+        "id": "gcn_0ccb9dd528ad445f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811936381528965120::P8",
+            "package_id": "paper:811936381528965120",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811936381528965120"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a metallic system near a Mott metal-insulator transition with quasiparticle self-energy $\\Sigma(\\mathbf{k},\\omega)$, the quasiparticle effective mass at the Fermi momentum $\\mathbf{k}_F$ can be factorized as $\\frac{m^*}{m_b}=\\left(1-\\left.\\frac{\\partial\\mathrm{Re}\\,\\Sigma(\\mathbf{k},\\omega)}{\\partial\\omega}\\right|_{\\omega=E_F,\\mathbf{k}_F}\\right)\\times\\frac{|\\partial_{\\mathbf{k}}\\varepsilon_{\\mathbf{k}}^{0}|_{\\mathbf{k}_F}}{|\\partial_{\\mathbf{k}}\\varepsilon_{\\mathbf{k}}^{0}|_{\\mathbf{k}_F}+\\left.\\partial_{\\mathbf{k}}\\mathrm{Re}\\,\\Sigma(\\mathbf{k},\\omega)\\right|_{\\omega=E_F,\\mathbf{k}_F}}$, i.e., $\\frac{m^*}{m_b}= \\frac{m_\\omega}{m_b}\\times\\frac{m_k}{m_b}$. If the frequency-dependent part (the \"$\\omega$-mass\" $m_\\omega/m_b$) increases strongly (quasiparticle weight $Z\\to0$) but the momentum-dependent term $\\partial_{\\mathbf{k}}\\mathrm{Re}\\,\\Sigma$ is of the sign and magnitude needed to reduce the second ($k$-mass) factor significantly, then the product can remain only moderately enhanced; this mechanism can reconcile large spectroscopic suppression of spectral weight near $E_F$ with moderate thermodynamic/magnetic masses. Symbols: $m^*$ quasiparticle mass, $m_b$ band mass, $\\varepsilon_{\\mathbf{k}}^{0}$ noninteracting band dispersion, $\\Sigma(\\mathbf{k},\\omega)$ self-energy, $E_F$ Fermi energy.\n      Analytic decomposition and qualitative proposal discussed in the paper and related theoretical literature (Refs. 41,42).",
+        "content_hash": "e145b7a65cd49931a59f7fae5871d441743d7ec84fac37561a370c0e645f9d23",
+        "id": "gcn_e0e1f20f66564111",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812681032267464705::P12",
+            "package_id": "paper:812681032267464705",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812681032267464705"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+        "content_hash": "c30bce45d29fe32088cd72b3264734efc14cbfc978292c2e4039d1eec64a3fe6",
+        "id": "gcn_29401e4284574aa2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814525482547544066::conclusion_4",
+            "package_id": "paper:814525482547544066",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814525482547544066"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Interpreting the low-temperature linear slope of the entropy per particle within Landau Fermi-liquid theory, where s/n≃(π^2/2)(T/T_F^*) with T_F^*∝1/m^*, gives differing quasiparticle effective-mass ratios from the two entropy curves: the quasi-linear entropy slope corresponds to m^*/m≈1.11 (greater than unity), while the GES entropy slope corresponds to m^*/m≈0.70 (less than unity); the quasi-linear estimate m^*/m≈1.11 is closer to recent quantum Monte Carlo estimates reported at m^*/m∼1.04–1.09.",
+        "content_hash": "0ef9cc7f8774e62936e378cc1d9f48d07f3ffb4d928a5c91bff8914ab50d20d8",
+        "id": "gcn_5cac2eb8099a4425",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767870476517624::conclusion_11",
+            "package_id": "paper:867767870476517624",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767870476517624"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "43a804a1bc6567b94acc5045ffd8e360"
+}

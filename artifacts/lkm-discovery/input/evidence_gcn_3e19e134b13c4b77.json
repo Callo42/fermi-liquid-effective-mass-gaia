@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The principal hole Fermi surface in the stoichiometric tetragonal compound YRu₂Si₂, denoted α (identified with band 14 in relativistic augmented‑plane‑wave band-structure nomenclature), is an approximately ellipsoidal closed sheet centered at the Z point of the Brillouin zone and occupies about one half of the primitive Brillouin‑zone volume. de Haas–van Alphen (dHvA) measurements give the extremal frequencies and cyclotron effective masses for the α sheet as follows: for an applied magnetic field H aligned parallel to the crystallographic [001] axis (H∥[001]), the dHvA frequency is F = 27.0×10^7 Oe and the cyclotron mass is m_c* = 3.74 m0; for H aligned parallel to [100] (H∥[100]), F = 15.2×10^7 Oe and m_c* = 1.99 m0. Here m0 denotes the free‑electron mass and the dHvA frequency F is the Onsager frequency corresponding to the extremal cross‑sectional area of the Fermi surface perpendicular to H; these numerical dHvA parameters quantify the size and effective mass of the main hole sheet in YRu₂Si₂.",
+      "content_hash": "43264182fd79001def40f9ea6ab79e85016e98c04799b035335028f65f137754",
+      "id": "gcn_3e19e134b13c4b77",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The principal hole Fermi surface in the stoichiometric tetragonal compound YRu₂Si₂, denoted α (identified with band 14 in relativistic augmented‑plane‑wave band-structure nomenclature), is an approximately ellipsoidal closed sheet centered at the Z point of the Brillouin zone and occupies about one half of the primitive Brillouin‑zone volume. de Haas–van Alphen (dHvA) measurements give the extremal frequencies and cyclotron effective masses for the α sheet as follows: for an applied magnetic field H aligned parallel to the crystallographic [001] axis (H∥[001]), the dHvA frequency is F = 27.0×10^7 Oe and the cyclotron mass is m_c* = 3.74 m0; for H aligned parallel to [100] (H∥[100]), F = 15.2×10^7 Oe and m_c* = 1.99 m0. Here m0 denotes the free‑electron mass and the dHvA frequency F is the Onsager frequency corresponding to the extremal cross‑sectional area of the Fermi surface perpendicular to H; these numerical dHvA parameters quantify the size and effective mass of the main hole sheet in YRu₂Si₂.",
+              "id": "gcn_3e19e134b13c4b77"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_3145fa2c618e4096",
+            "premises": [
+              {
+                "content": "The experimentally observed de Haas–van Alphen branch denoted α (measured extremal frequencies F_[001] = 27.0×10^7 Oe, F_[100] = 15.2×10^7 Oe and cyclotron masses m_c* = 3.74 m0 for H∥[001] and 1.99 m0 for H∥[100]) is assigned to band 14, where “band 14” is defined as the large closed hole Fermi‑surface sheet centered at the Z point of the Brillouin zone as found in the relativistic augmented‑plane‑wave (APW) band‑structure calculations for the isostructural La‑compound; this assignment is valid only if the crystal potential, band ordering, and electron count in YRu₂Si₂ are sufficiently similar to those in LaRu₂Si₂ so that the APW‑predicted band index 14 and its closed sheet topology map onto the experimental extremal areas and effective masses in YRu₂Si₂ without band reordering or the emergence of additional pockets that would change the correspondence.",
+                "id": "gcn_4fbb51dc605a4069"
+              },
+              {
+                "content": "For a closed Fermi‑surface pocket whose extremal cross‑sectional areas A_ext perpendicular to crystallographic directions are related to de Haas–van Alphen frequencies by the Onsager relation F = (ħ c / 2π e) A_ext (where ħ is the reduced Planck constant, c the speed of light and e the elementary charge), the inference that the pocket is an ellipsoid of revolution aligned with the crystal axes and that its occupied volume equals approximately one half of the primitive Brillouin‑zone volume V_BZ is justified only if: (i) the two measured extremal areas (here those giving F_[001] and F_[100]) uniquely determine the three principal semi‑axes of an axis‑aligned ellipsoid, (ii) the ellipsoid model accurately describes the Fermi‑surface curvature between those two cuts (no significant higher‑order deviations from ellipsoidal geometry), and (iii) the ellipsoidal volume computed from those semi‑axes satisfies V_pocket ≈ (1/2) V_BZ; if any of these conditions fail (for example, if additional undetected extremal orbits exist or the pocket is substantially non‑ellipsoidal), the conclusion of half‑Brillouin‑zone occupancy would not be supported by the two measured cuts alone.",
+                "id": "gcn_d5fc9dd1e5984490"
+              },
+              {
+                "content": "The extraction of reliable dHvA frequencies and cyclotron masses for the α branch from Fourier transforms carried out in finite high‑field windows used in these experiments (for example, primary FFTs performed in 50–80 kOe for several branches and detection of the α branch in field sweeps up to 170 kOe) assumes that the number of oscillation periods contained within each analyzed field window and the signal‑to‑noise ratio are sufficient to resolve the true extremal frequencies and to fit the temperature dependence for m_c* without significant bias from finite‑window spectral broadening, field‑dependent effective‑mass variation, or unresolved overlapping nearby frequency components.",
+                "id": "gcn_4fc9729e56464f12"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define the de Haas–van Alphen (dHvA) frequency $F$ as the extremal cross-sectional area of a Fermi-surface pocket expressed in magnetic-field units via the Onsager relation (authors use $F$ in units of $\\\\times10^7\\\\ \\\\mathrm{Oe}$ in the paper); define the cyclotron mass $m_{\\\\rm c}^*$ as the effective mass extracted from the temperature dependence of the dHvA amplitude; define $m_0$ as the free electron mass; define the notation $H\\\\parallel[001]$ and $H\\\\parallel[100]$ to mean the applied magnetic field is aligned with the crystallographic [001] and [100] directions, respectively.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Record the experimental methods and conditions that produce the measured dHvA data used to establish the principal hole sheet: the dHvA experiments were performed by a field-modulation method in magnetic fields up to $170\\\\ \\\\mathrm{kOe}$ and at temperatures down to $0.45\\\\ \\\\mathrm{K}$; the FFT spectrum for the field along [001] (magnetic field orientation $H\\\\parallel[001]$) exhibits a high-field branch denoted $\\\\alpha$, detected at higher fields up to $170\\\\ \\\\mathrm{kOe}$, as shown by the dHvA oscillation and FFT spectrum presented for $H\\\\parallel[001]$.\nFig. 5",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State the paper's identification of the principal hole Fermi surface: the main Fermi surface corresponding to band 14, denoted $\\\\alpha$, is identified as the large closed hole sheet centered at the Z point in the Brillouin zone (this identification is based on earlier relativistic APW band calculations for the isostructural La compound and the present dHvA assignments that map the observed $\\\\alpha$ branch to that band).\nref. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Extract the experimentally reported geometry and occupancy: the authors assert that the main hole Fermi surface $\\\\alpha$ is ellipsoidal in shape and \"occupies half of the Brillouin zone\" (i.e., the occupied volume of this closed sheet is approximately one half of the total Brillouin-zone volume); this qualitative geometric statement appears in the authors' summary of measured Fermi-surface topology and is used as a characterization of the $\\\\alpha$ pocket.\nFig. 6",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Provide the quantitative dHvA parameters for the $\\\\alpha$ orbit as listed in the experimental summary table: for $H\\\\parallel[001]$ the dHvA frequency is $F=27.0\\\\times10^{7}\\\\ \\\\mathrm{Oe}$ and the cyclotron mass is $m_{\\\\rm c}^*=3.74\\\\,m_0$; for $H\\\\parallel[100]$ the dHvA frequency is $F=15.2\\\\times10^{7}\\\\ \\\\mathrm{Oe}$ and the cyclotron mass is $m_{\\\\rm c}^*=1.99\\\\,m_0$. These values are the numbers reported in the tabulated dHvA frequencies and masses for YRu$_2$Si$_2$.\nTable I",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Connect the measured dHvA parameters to the characterization of size and effective mass: the reported frequencies $F$ quantify extremal cross-sectional areas of the $\\\\alpha$ sheet for two principal field orientations and thus determine its anisotropic size (larger $F$ for $H\\\\parallel[001]$ indicates a larger extremal area perpendicular to [001]); the reported $m_{\\\\rm c}^*$ values quantify the quasiparticle effective mass on this sheet (the larger value $3.74\\\\,m_0$ for $H\\\\parallel[001]$ and smaller $1.99\\\\,m_0$ for $H\\\\parallel[100]$ indicate anisotropic mass renormalization on the ellipsoidal $\\\\alpha$ pocket). The combination of the ellipsoidal geometry statement and these numerical $F$ and $m_{\\\\rm c}^*$ values constitutes the experimental characterization of the main hole Fermi surface in YRu$_2$Si$_2$.\nFig. 5; Fig. 6; Table I",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In tetragonal ThCr2Si2-type metals the large hole sheet centered at the Z point (the theoretical band-14 or $\\\\alpha$ sheet) controls much of the electronic density of states and transport anisotropy. Prior work provided band-structure predictions and experimental values for LaRu2Si2/LaRu2Ge2, but for YRu2Si2 the actual geometry and effective mass of this principal hole sheet were unknown: band energies might shift because Y has a smaller ionic radius and Y-4d conduction electrons (rather than La-5d), and this could change the occupied volume and mass renormalization. Without direct dHvA frequencies and cyclotron masses for the $\\\\alpha$ orbit in YRu2Si2 one could not quantitatively compare carrier counts, Fermi-surface volumes, or mass enhancements among Y-, La- and Ge-based compounds, nor assess how substitution of Y for La modifies the principal band responsible for low-temperature electronic properties.",
+            "id": "paper:812300306078498816::conclusion_1_subproblem",
+            "source_package": "paper:812300306078498816"
+          }
+        ],
+        "source_package": "paper:812300306078498816"
+      }
+    ],
+    "papers": {
+      "paper:812300306078498816": {
+        "area": "Physics and Astrophysics",
+        "authors": "Haruhisa Ikezawa | Rikio Settai | Masahiro Takashita | Noriaki Kimura | Takao Ebihara | Hitoshi Sugawara | Kazuyuki Motoki | Yoshichika Ōnuki | Tadashi Fukuhara | Kunihiko Maezawa",
+        "available_online": "",
+        "cover_date_start": "1995-09-15",
+        "created_at": "2022-12-21T04:31:25+08:00",
+        "doi": "10.1143/jpsj.64.3422",
+        "en_title": "Magnetoresistance and de Haas-van Alphen Effect in YRu 2 Si 2",
+        "id": "812300306078498816",
+        "keywords": "",
+        "publication_date": "1995-9-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "",
+        "zh_title": "YRu₂Si₂中的磁电阻和德哈斯-范阿尔芬效应"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "9b71c8e3498c74d261ac9756ddb63570"
+}

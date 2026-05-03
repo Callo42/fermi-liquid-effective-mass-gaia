@@ -1,0 +1,8 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "lurh2si2-small-fs-reference-gaia"
+version = "0.1.0"
+source = { editable = "." }

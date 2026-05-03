@@ -1,0 +1,79 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.7620067245426182,
+      "knowledge_id": "github:cemo_kadowaki_wilson::__conjunction_result_35af4380",
+      "label": "__conjunction_result_35af4380"
+    },
+    {
+      "belief": 0.6065864,
+      "knowledge_id": "github:cemo_kadowaki_wilson::__conjunction_result_994ac851",
+      "label": "__conjunction_result_994ac851"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale",
+      "label": "gcn_2dc55af_kw_empirical_scale"
+    },
+    {
+      "belief": 0.74,
+      "knowledge_id": "github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation",
+      "label": "gcn_7459a446_wilson_ratio_interpretation"
+    },
+    {
+      "belief": 0.78755228292,
+      "knowledge_id": "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "label": "gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+    },
+    {
+      "belief": 0.8536897302593721,
+      "knowledge_id": "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale",
+      "label": "helper_cemo_kw_ratio_original_scale"
+    },
+    {
+      "belief": 0.84221721999209,
+      "knowledge_id": "github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl",
+      "label": "helper_cemo_ratio_consistency_correlated_fl"
+    },
+    {
+      "belief": 0.8536897302593721,
+      "knowledge_id": "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference",
+      "label": "helper_cemo_wilson_ratio_dual_reference"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:cemo_kadowaki_wilson::__conjunction_result_35af4380": [
+        0.7620067245426182
+      ],
+      "github:cemo_kadowaki_wilson::__conjunction_result_994ac851": [
+        0.6065864
+      ],
+      "github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale": [
+        0.82
+      ],
+      "github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation": [
+        0.74
+      ],
+      "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency": [
+        0.78755228292
+      ],
+      "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale": [
+        0.8536897302593721
+      ],
+      "github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl": [
+        0.84221721999209
+      ],
+      "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference": [
+        0.8536897302593721
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:93e28a84863d6f24d64d68b7dfb7b231a0d9e76acfbdd2e89b92609c48b38ccc"
+}

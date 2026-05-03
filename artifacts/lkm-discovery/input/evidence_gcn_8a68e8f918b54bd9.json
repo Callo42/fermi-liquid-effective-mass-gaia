@@ -1,0 +1,74 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The transport coefficient extracted from the low-temperature Fermi-liquid fit, $A=3.63\\times10^{-2}\\ \\mu\\Omega\\mathrm{cm}/\\mathrm{K}^{2}$ (from $\\rho=\\rho_{0}+AT^{2}$), together with the Sommerfeld coefficient $\\gamma=93\\ \\mathrm{mJ}/(\\mathrm{mol}\\cdot\\mathrm{K}^{2})$, give the Kadowaki–Woods ratio $A/\\gamma^{2}\\approx 0.45\\times 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\cdot\\mathrm{K}^{2}/(\\mathrm{mJ}^{2}\\,\\mathrm{mol}^{-2})$, a value that lies within the empirical range observed for heavy-fermion and strongly correlated materials and is therefore consistent with strong quasiparticle mass renormalization in this system.",
+      "content_hash": "15ff16bff9e74e5f7f93ab45171f8f55f179be842a44373430ab4e88b764203c",
+      "id": "gcn_8a68e8f918b54bd9",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The transport coefficient extracted from the low-temperature Fermi-liquid fit, $A=3.63\\times10^{-2}\\ \\mu\\Omega\\mathrm{cm}/\\mathrm{K}^{2}$ (from $\\rho=\\rho_{0}+AT^{2}$), together with the Sommerfeld coefficient $\\gamma=93\\ \\mathrm{mJ}/(\\mathrm{mol}\\cdot\\mathrm{K}^{2})$, give the Kadowaki–Woods ratio $A/\\gamma^{2}\\approx 0.45\\times 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\cdot\\mathrm{K}^{2}/(\\mathrm{mJ}^{2}\\,\\mathrm{mol}^{-2})$, a value that lies within the empirical range observed for heavy-fermion and strongly correlated materials and is therefore consistent with strong quasiparticle mass renormalization in this system.",
+              "id": "gcn_8a68e8f918b54bd9"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_3210a207567c4a97",
+            "premises": [
+              {
+                "content": "Let $A$ be the transport coefficient in units $\\mu\\Omega\\,$cm/K$^{2}$ extracted from $\\rho=\\rho_{0}+AT^{2}$ and let $\\gamma$ be the Sommerfeld coefficient in mJ/(mol K$^{2}$); define the Kadowaki–Woods ratio $R_{KW}=A/\\gamma^{2}$ with units $\\mu\\Omega\\,$cm K$^{2}/(\\mathrm{mJ}^{2}\\ \\mathrm{mol}^{-2})$. The proposition is that if for Ca$_{3}$Co$_{4}$O$_{9}$ the computed value $R_{KW}\\approx0.45\\times10^{-5}$ lies within the empirical range observed for heavy-fermion compounds, then this numerical agreement has often been interpreted as evidence for comparable quasiparticle effective-mass renormalization to that in conventional heavy-fermion materials, while noting that material-specific factors such as band degeneracy, carrier density, and dimensionality can modify the expected numerical value of $R_{KW}$.",
+                "id": "gcn_b9fd7cd66eb54f18"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Starting points taken as known from upstream conclusions: the Fermi-liquid transport coefficient $A$ determined from resistivity is $A=3.63\\times 10^{-2}\\ \\mu\\Omega\\mathrm{cm}/\\mathrm{K}^{2}$ (conclusion 1) and the Sommerfeld coefficient from specific heat is $\\gamma=93\\ \\mathrm{mJ}/(\\mathrm{mol}\\cdot\\mathrm{K}^{2})$ (conclusion 2); these two quantities are used to evaluate the Kadowaki–Woods ratio.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "The Kadowaki–Woods ratio is defined here as the ratio $A/\\gamma^{2}$ with $A$ in units of $\\mu\\Omega\\mathrm{cm}/\\mathrm{K}^{2}$ and $\\gamma$ in units of $\\mathrm{mJ}/(\\mathrm{mol}\\cdot\\mathrm{K}^{2})$; substituting the experimentally determined values yields the empirical ratio $A/\\gamma^{2}\\approx 0.45\\times 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\cdot\\mathrm{K}^{2}/(\\mathrm{mJ}^{2}\\,\\mathrm{mol}^{-2})$ as reported by the authors.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "The numerical value $A/\\gamma^{2}\\approx 0.45\\times 10^{-5}\\ \\mu\\Omega\\mathrm{cm}\\cdot\\mathrm{K}^{2}/(\\mathrm{mJ}^{2}\\,\\mathrm{mol}^{-2})$ lies within the range typically found for heavy-fermion and strongly correlated materials, and the authors therefore interpret this agreement with the Kadowaki–Woods empirical scaling as further evidence of substantial quasiparticle mass renormalization in Ca$_{3}$Co$_{4}$O$_{9}$.\n[10]",
+                "step_id": "3"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "A quantitative test of whether Ca$_3$Co$_4$O$_9$ behaves like a strongly correlated metal requires checking established empirical scalings between transport and thermodynamic quantities. Before this study there was no direct experimental confirmation that the $A$ coefficient from $\\rho=\\rho_{0}+AT^{2}$ and the specific-heat coefficient $\\gamma$ obey the Kadowaki–Woods scaling appropriate for heavy quasiparticles. Without this comparison, the claim that correlations produce heavy quasiparticles (and thus potentially large thermopower) remained qualitative. Demonstrating $A/\\gamma^{2}$ within the heavy-fermion characteristic range provides a concrete, quantitative link between transport and thermodynamic renormalizations.",
+            "id": "paper:867768477341974986::conclusion_3_subproblem",
+            "source_package": "paper:867768477341974986"
+          }
+        ],
+        "source_package": "paper:867768477341974986"
+      }
+    ],
+    "papers": {
+      "paper:867768477341974986": {
+        "area": "arXiv-Physics",
+        "authors": "P. Limelette | V. Hardy | P. Auban-Senzier | D. Jerome | D. Flahaut | S. Hebert | R. Fresard | Ch. Simon | J. Noudem | A. Maignan",
+        "available_online": "",
+        "cover_date_start": "2005-05-19",
+        "created_at": "2023-05-23T06:02:08+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0505464",
+        "en_title": "Strongly correlated properties of the thermoelectric cobalt oxide Ca3Co4O9",
+        "id": "867768477341974986",
+        "keywords": "",
+        "publication_date": "2005-05-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "热电钴氧化物Ca3Co4O9的强关联特性"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "49f206ed8541c0b74848731461461e1c"
+}

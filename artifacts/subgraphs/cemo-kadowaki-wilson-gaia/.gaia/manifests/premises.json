@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:93e28a84863d6f24d64d68b7dfb7b231a0d9e76acfbdd2e89b92609c48b38ccc",
+  "manifest_schema_version": 1,
+  "package": "cemo-kadowaki-wilson",
+  "premises": [
+    {
+      "content": "For low-temperature correlated metals, the empirical Kadowaki-Woods diagnostic compares the resistivity coefficient A from rho(T)=rho_0 + A T^2 with the Sommerfeld coefficient gamma from C(T)=gamma T+..., and A/gamma^2 near 1e-5 muOmega cm (mol K/mJ)^2 is treated by the selected LKM chain as evidence for standard correlated Fermi-liquid phenomenology in heavy-fermion and valence-fluctuating materials [@Paramanik2013].",
+      "content_hash": "3e46f1dbc3a3d251ee91f6fd2d601d7a1489c196ce14193e742d9e6d966ca1da",
+      "exported": false,
+      "interface_hash": "sha256:8090159eb525de22943b65bad52481a3e0b88a8088bf966638b9f72c8b1c91d5",
+      "label": "gcn_2dc55af_kw_empirical_scale",
+      "qid": "github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale",
+      "required_by": [
+        "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For a metal with temperature-independent low-temperature molar susceptibility chi_FL and Sommerfeld coefficient gamma, the selected LKM chain treats the Wilson-Sommerfeld ratio R_W=(pi^2 k_B^2 chi_FL)/(gamma mu_eff^2) as a correlated-Fermi-liquid consistency check when mu_eff is normalized either to the Ce3+ free-ion moment 2.54 mu_B or to the conduction-electron reference value 1.73 mu_B [@Paramanik2013].",
+      "content_hash": "764f3140f694e72808fe32d82bfa3e0e4c2184c21389a53639fa8adec48068ef",
+      "exported": false,
+      "interface_hash": "sha256:56a9a9a185d166ea5714c058051de1347a49cc2a1915564ac61724d77906da0c",
+      "label": "gcn_7459a446_wilson_ratio_interpretation",
+      "qid": "github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation",
+      "required_by": [
+        "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

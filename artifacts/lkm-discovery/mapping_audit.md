@@ -139,3 +139,64 @@ Merged new leaf priors into `src/fermi_liquid_effective_mass/priors.py` without 
 | `gaia check --brief .` | pass | 10 independent premises with priors, 11 derived conclusions, 17 internal orphaned helper/operator-result claims. |
 | `gaia check --hole .` | pass | 0 holes / 10 independent claims; all direct priors present and capped at 0.90. |
 | `gaia infer .` | pass | Inferred 27 beliefs using exact JT; converged after 2 iterations. |
+
+
+## 100-node extension synthesis -- 2026-05-03
+
+### Checklist delta
+
+| step | status | audit note |
+|---|---|---|
+| 1. Bootstrap | done | Incorporated six validated subgraphs: `ybrh2si2-dhva-mass-gaia`, `lurh2si2-small-fs-reference-gaia`, `kondo-brinkman-rice-gaia`, `mott-entropy-mass-gaia`, `nis2-brinkman-rice-gaia`, and `cemo-kadowaki-wilson-gaia`. Subgraph directories remain unchanged under `artifacts/subgraphs/`. |
+| 2. Refine | done | Copied the validated per-paper modules into `src/fermi_liquid_effective_mass/`, preserving `lkm_id`, `source_paper`, `provenance_source`, `lkm_original`, `derived_from_lkm_ids`, and `decomposition_of` metadata. |
+| 3. Decompose | done | Preserved every validated helper/decomposition claim from the six subgraphs; no new decomposition rewrites were made during parent synthesis. |
+| 4. Hunt open problems | done | Rechecked YbRh2Si2 dHvA/RBC/FCQPT, Kondo/Mott/NiS2 Brinkman-Rice, and CeMo2Si2C thermodynamic/transport interfaces; no same-condition logical contradiction was promoted. |
+| 5. Mark suspicions | done | Added support-scoped caution claims for YbRh2Si2 field/method scope, Brinkman-Rice non-equivalence, and CeMo2Si2C ratio-normalization sensitivity. |
+| 6. Compile + infer | done | `gaia compile .`, `gaia check --brief .`, `gaia check --hole .`, and `gaia infer .` passed; final post-duplicate-audit IR hash `sha256:0c8dc1a153a399df924c4300e2a480faaf07e05fa666c49dad4bb19fb2e51b4d`. |
+| 7. Review obligations/holes | done | `gaia check --hole .` reported 0 holes / 23 independent claims; all direct priors retain `TODO:review` and are <= 0.90. |
+| 8. Search/support synthesis | done | Added five parent support-backed synthesis claims and no equivalence/contradiction operators. |
+| 9. Repeat/exit rationale | done | Final graph has 121 total knowledge nodes (63 science-facing, 58 internal helpers) after duplicate cleanup, above the ~100-node target; stopped without adding more branches. |
+
+### Subgraphs incorporated in this batch
+
+| subgraph | root | source paper | parent action |
+|---|---|---|---|
+| `artifacts/subgraphs/ybrh2si2-dhva-mass-gaia` | `gcn_c38f8ce989fd454a` | Knebel et al. 2006 | Copied `paper_knebel2006.py`; exported `gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch`; merged two priors and `Knebel2006` reference. |
+| `artifacts/subgraphs/lurh2si2-small-fs-reference-gaia` | `gcn_2b8dd97abcb44d53` | Friedemann et al. 2013 | Copied `paper_friedemann2013.py`; exported `gcn_2b8dd97_lurh2si2_reference_reanalysis`; merged three priors and `Friedemann2013` reference. |
+| `artifacts/subgraphs/kondo-brinkman-rice-gaia` | `gcn_7ae79f122f1c4fcb` | Anderson 1984 | Copied `paper_anderson1984.py`; exported `gcn_7ae79f_kondo_brinkman_rice_fixed_point`; merged two priors and `Anderson1984` reference. |
+| `artifacts/subgraphs/mott-entropy-mass-gaia` | `gcn_e4ecd721edd14d3f` | Capone/Fabrizio/Tosatti 2001 | Copied `paper_capone2001.py`; exported `gcn_e4ecd721edd14d3f`; merged three priors and `Capone2001` reference. |
+| `artifacts/subgraphs/nis2-brinkman-rice-gaia` | `gcn_29401e4284574aa2` | Friedemann et al. 2016 | Copied `paper_friedemann2016.py`; exported `gcn_29401e42_nis2_brinkman_rice`; merged one prior and `Friedemann2016` reference. |
+| `artifacts/subgraphs/cemo-kadowaki-wilson-gaia` | `gcn_bc46d7d5f5284a0e` | Paramanik et al. 2013 | Copied `paper_paramanik2013.py`; exported `gcn_bc46d7_cemo_kw_wilson_fl_consistency`; merged two priors and `Paramanik2013` reference. |
+
+### Cross-paper decisions
+
+| item | decision | dsl_action | rationale |
+|---|---|---|---|
+| YbRh2Si2 RBC/Hall/DOS + high-field dHvA + LuRh2Si2 reference | material-specific constraint synthesis | `support([...], cross_ybrh2si2_material_specific_fs_constraints, prior=0.88)` | All three branches constrain YbRh2Si2 Fermi-surface/effective-mass interpretation, but the methods and fields differ. |
+| YbRh2Si2 high-field/method caveats vs homogeneous FCQPT scope | scope caution | `support([...], cross_ybrh2si2_field_method_scope_caution, prior=0.90)` | High-field dHvA, LDA sensitivity, harmonic reassignment, small-FS reference, and homogeneous isotropic modeling can coexist under scoped conditions. |
+| Anderson Kondo BR + Capone Mott entropy + NiS2 BR | thematic support | `support([...], cross_brinkman_rice_mott_boundary_family, prior=0.86)` | The branches share heavy-quasiparticle/Mott-boundary vocabulary but are not the same claim. |
+| Anderson/Capone/NiS2 BR surfaces | non-equivalence caution | `support([...], cross_brinkman_rice_scope_caution, prior=0.89)` | Kondo-lattice fixed point, entropy obstruction, and NiS2 pressure-tuned quantum oscillations have distinct mechanisms and conditions. |
+| CeMo2Si2C KW/Wilson ratios + thermodynamic effective-mass routes | correlated-FL phenomenology support | `support([...], cross_thermo_transport_correlated_fl_consistency, prior=0.84)` | CeMo2Si2C adds transport/susceptibility consistency checks complementary to gamma, S/T, and DOS/gamma thermodynamic routes. |
+
+### Dismissed non-equivalences and false contradictions
+
+| pair_or_flag | origin | decision | rationale |
+|---|---|---|---|
+| YbRh2Si2 dHvA high-field spectrum vs low-field/QCP FCQPT branch | Knebel2006 audit + parent context | no contradiction | The dHvA measurements are 12-28 T high-field constraints; FCQPT branch is a homogeneous universal-scaling model. |
+| Itinerant-4f LDA mismatch vs Friedemann2010 RBC | Knebel2006 audit | no contradiction | LDA/FLAPW mismatch and thermodynamically calibrated RBC are different modeling surfaces. |
+| Friedemann2013 14 kT inference vs RBC/Hall branch | Friedemann2013 audit | no contradiction/equivalence | Small-FS reference and harmonic reassignment constrain high-field YbRh2Si2 interpretation, not the same proposition as RBC Hall/DOS values. |
+| Anderson Kondo-lattice Brinkman-Rice vs Shaginyan FCQPT | Anderson1984 audit | no contradiction | Finite Stoner enhancement and FCQPT effective-mass criticality involve different quantities/regimes. |
+| Capone entropy obstruction vs NiS2 pressure-metalized heavy FL | Capone2001 and NiS2 audits | no contradiction | Capone addresses a conditional FL-to-singlet-Mott transition; NiS2 reports a correlated metal near a Mott boundary. |
+| NiS2 BR interpretation vs named alternatives | NiS2 audit | not promoted | Alternative mechanisms are not independently established by a second selected root; reflected by low prior on the exclusion premise. |
+| CeMo2Si2C KW original scale vs degeneracy-scaled caution | CeMo2Si2C audit | no contradiction | The source itself quotes both normalization contexts; the issue is convention/material sensitivity. |
+
+### Gaia CLI verification after 100-node synthesis
+
+| command | status | note |
+|---|---|---|
+| `gaia compile .` | pass | Compiled 121 knowledge, 40 strategies, 0 operators; final post-duplicate-audit IR hash `sha256:0c8dc1a153a399df924c4300e2a480faaf07e05fa666c49dad4bb19fb2e51b4d`. |
+| `gaia check --brief .` | pass | 23 independent premises with priors, 40 derived conclusions, 58 internal helper claims. |
+| `gaia check --hole .` | pass | 0 holes / 23 independent claims. |
+| `gaia infer .` | pass | Inferred 81 beliefs using exact JT; converged after 2 iterations. |
+| `gaia render . --target github` | pass | Refreshed `.github-output/README.md`; generated overview graph preserved in `README.md`. |
+| `gaia render . --target docs` | pass | Refreshed `docs/detailed-reasoning.md`. |

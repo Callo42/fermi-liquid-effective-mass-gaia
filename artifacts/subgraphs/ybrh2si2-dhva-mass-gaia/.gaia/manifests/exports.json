@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].",
+      "content_hash": "ce3d0c0a769b22babcaa67315738675f72186e3fb3736778fb2c01195664a455",
+      "label": "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "qid": "github:ybrh2si2_dhva_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:bf101fbccc8d5c19ab5eaece813679aa62f7293f29e42865662f74499b9aaec5",
+  "manifest_schema_version": 1,
+  "package": "ybrh2si2-dhva-mass",
+  "version": "0.1.0"
+}

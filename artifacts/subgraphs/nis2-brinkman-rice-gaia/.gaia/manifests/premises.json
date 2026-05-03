@@ -1,0 +1,20 @@
+{
+  "ir_hash": "sha256:e78e2074badecc45e64de626cdb5dbc192111a4e5d0a07c199eb467799f58fa5",
+  "manifest_schema_version": 1,
+  "package": "nis2-brinkman-rice",
+  "premises": [
+    {
+      "content": "For pressure-metalized NiS2 near 3.8 GPa, interpreting the coexistence of a large Fermi-surface extremal area and enhanced quasiparticle effective mass as realization of the Brinkman-Rice correlated-metal scenario relies on the assumption that spin-fluctuation renormalization, enhanced electron-phonon coupling, or Fermi-surface reconstruction from proximate magnetic order cannot produce the same pair of observations without Brinkman-Rice physics [@Friedemann2016].",
+      "content_hash": "5fb4019ed5ed56a0b52116a313c2a730b22cc7ef4ffde852d8aa26651d1cb96d",
+      "exported": false,
+      "interface_hash": "sha256:4940a074393329d0773fd2bacb19a2b5ae4061eb91e43245f7c60b05f64c06ff",
+      "label": "gcn_8a1a2748_alternative_mechanisms_assumption",
+      "qid": "github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption",
+      "required_by": [
+        "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

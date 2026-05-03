@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In CeRu2Si2, quantum-oscillation (de Haas–van Alphen and Shubnikov–de Haas) studies in the paramagnetic low-field state reveal the coexistence of both light and heavy quasiparticle excitations; a phenomenological renormalised-band model that introduces a single, momentum-independent fitting parameter (the average thermal mass m_th) reproduces the observed orientation dependence of measured cyclotron effective masses and predicts a very large heavy \"hole\" Fermi-surface sheet whose low-minimum-mass cross-section along [100] and high-mass directions along [110] were subsequently observed in de Haas–van Alphen measurements.",
+      "content_hash": "5f9ad020136578cea5bb8fc2770f3c1211077b6e9a24410e5a52bdc4c3dace3c",
+      "id": "gcn_a054d81906ab4353",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "In CeRu2Si2, quantum-oscillation (de Haas–van Alphen and Shubnikov–de Haas) studies in the paramagnetic low-field state reveal the coexistence of both light and heavy quasiparticle excitations; a phenomenological renormalised-band model that introduces a single, momentum-independent fitting parameter (the average thermal mass m_th) reproduces the observed orientation dependence of measured cyclotron effective masses and predicts a very large heavy \"hole\" Fermi-surface sheet whose low-minimum-mass cross-section along [100] and high-mass directions along [110] were subsequently observed in de Haas–van Alphen measurements.",
+              "id": "gcn_a054d81906ab4353"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_8c3762bf6dc64fee",
+            "premises": [
+              {
+                "content": "Define a renormalised-band model as a modification of a conventional local-density-approximation-type electronic band-structure calculation in which each bare quasiparticle band dispersion E_{n}(k) is scaled or shifted by a momentum-independent mass-renormalisation factor specified by a single scalar fitting parameter m_{\\mathrm{th}} (the \"average thermal mass\"); let m^{*}_{\\mathrm{obs}}(\\theta) denote the measured cyclotron effective masses for extremal orbits parameterised by an orientation angle θ in the basal plane and let m^{*}_{\\mathrm{calc}}(\\theta;m_{\\mathrm{th}}) denote the masses computed from the renormalised-band model given m_{\\mathrm{th}}; the proposition is that there exists a single value of m_{\\mathrm{th}} such that m^{*}_{\\mathrm{calc}}(\\theta;m_{\\mathrm{th}}) reproduces m^{*}_{\\mathrm{obs}}(\\theta) within experimental uncertainties for all measured orientations θ, i.e. a single momentum-independent fitting parameter suffices to capture the observed variation of cyclotron masses with orbit orientation in CeRu2Si2.",
+                "id": "gcn_4be980872a4548e4"
+              },
+              {
+                "content": "For any predicted extremal Fermi-surface cross-section that has a very large cyclotron mass m^{*} and an orbit geometry that produces weak coupling to the experimental detection channel (e.g., poor torque or magnetisation coupling for a given orientation), and given that sample purity and carrier mean free path determine the strength of Dingle attenuation, the absence or extreme weakness of a detected de Haas–van Alphen signal for that predicted heavy cross-section can be explained by unfavourable orbit geometry combined with insufficient sample mean free path and strong Dingle damping and therefore does not by itself demonstrate the non-existence of the Fermi-surface sheet.",
+                "id": "gcn_b665a8764e5242f2"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat the new experimental facility results (conclusion 7) as established: the facility's sensitivity enabled detailed dHvA measurements in $CeRu_{2}Si_{2}$ that resolved multiple frequency branches and allowed determination of their orientation dependence and cyclotron masses $m^{*}$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Report initial quantum-oscillation findings in the paramagnetic low-field state: an exploratory dHvA study revealed six frequency branches with an orientational dependence and mass spectrum that tentatively suggested the f electrons contribute to the Fermi surface volume in $CeRu_{2}Si_{2}$, similar to the situation in $UPt_{3}$. \n[7]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State the coexistence observation: unlike $UPt_{3}$, the measurements in $CeRu_{2}Si_{2}$ showed the coexistence of both light quasiparticle branches (with relatively small cyclotron masses $m^{*}$) and heavy quasiparticle branches (with large $m^{*}$), i.e. the Fermi-surface excitations comprise a mix of light and heavy charged quasiparticles in the paramagnetic low-field state.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Introduce the renormalised-band model action: the renormalised-band model incorporates many-body mass renormalisations and uses a single fitting parameter, the average thermal mass $m_{\\\\text{th}}$, to account for the observed variation in measured cyclotron masses across different extremal orbits; the model was developed in response to the experimental observation of coexisting light and heavy excitations. \n[8]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "State the renormalised-band model prediction for the heavy hole surface: using the fitted $m_{\\\\text{th}}$, the model predicts a very large heavy \"hole\" Fermi-surface sheet whose minimum-mass extremal cross-section lies along the crystallographic [100] direction and whose high-mass directions include [110], and it predicts that the cross-sectional masses will vary strongly with orientation for this sheet. \nFig. 3",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Report the experimental verification of the prediction: subsequent dHvA measurements detected the predicted low-minimum-mass extremal cross-section along [100], and later the high-mass cross-section along [110] was observed (the [110] cross-section has a very large $m^{*}$ and produces only weak signals due to unfavourable geometry and large mass), thereby confirming the renormalised-band model's account of the mass variation and the existence and orientation-dependent mass structure of the large heavy hole surface. \n[9]\n[10]\nFig. 3",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Conclude that in $CeRu_{2}Si_{2}$ quantum-oscillation studies in the paramagnetic low-field state reveal coexistence of both light and heavy quasiparticle excitations, and that the renormalised-band model with a single fitting parameter (the average thermal mass $m_{\\\\text{th}}$) accounts for the measured variation of effective masses and predicted a very large heavy \"hole\" surface whose low-minimum-mass cross-section and high-mass directions were subsequently observed in dHvA measurements along [100] and [110], respectively.",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The physical question is how to reconcile coexisting light and heavy quasiparticle excitations within a single microscopic description of $CeRu_{2}Si_{2}$. Conventional LDA band calculations that treat f electrons as itinerant predicted large Fermi-surface sheets, but early experiments did not detect some heavy sheets because the associated cyclotron masses render dHvA signals extremely weak. Without a model that links band topology to strong mass renormalisation one cannot explain both the coexistence of light carriers and thermodynamically dominant heavy sheets nor predict where very massive orbits should be sought experimentally. The renormalised-band approach addresses this by parametrising the many-body mass enhancement and yielding concrete predictions for extremal orbits; experimental confirmation of the predicted heavy cross-sections thus validates a theoretical route to connect band topology with strong mass renormalisation in Ce-based heavy-fermion metals.",
+            "id": "paper:812446393976225792::conclusion_4_subproblem",
+            "source_package": "paper:812446393976225792"
+          }
+        ],
+        "source_package": "paper:812446393976225792"
+      }
+    ],
+    "papers": {
+      "paper:812446393976225792": {
+        "area": "Physics and Astrophysics",
+        "authors": "S.R. Julian | F.S. Tautz | G.J. McMullan | G.G. Lonzarich",
+        "available_online": "",
+        "cover_date_start": "1994-04-01",
+        "created_at": "2022-12-21T14:11:56+08:00",
+        "doi": "10.1016/0921-4526(94)91738-8",
+        "en_title": "Quantum oscillation measurements of band magnetism in UPt3 and CeRu2Si2",
+        "id": "812446393976225792",
+        "keywords": "",
+        "publication_date": "1994-4",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "",
+        "zh_title": "UPt₃和CeRu₂Si₂中能带磁性的量子振荡测量"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "14f2d2bc324c06eee7e8645b1a61c969"
+}

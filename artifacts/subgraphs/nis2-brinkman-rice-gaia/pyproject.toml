@@ -1,0 +1,19 @@
+[project]
+name = "nis2-brinkman-rice-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for pressure-metalized NiS2 Brinkman-Rice effective-mass reasoning."
+requires-python = ">=3.12"
+
+[tool.gaia]
+type = "knowledge-package"
+uuid = "a737a0e7-5e09-40e6-8a92-5afcf6de6d25"
+generated_by = "lkm-to-gaia"
+generated_from_search = "narrow target supplied: NiS2 pressure-metalized correlated Fermi liquid with Brinkman-Rice effective mass"
+generated_from_roots = ["gcn_29401e4284574aa2"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nis2_brinkman_rice"]

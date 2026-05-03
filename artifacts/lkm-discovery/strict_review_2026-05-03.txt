@@ -1,0 +1,113 @@
+Gaia Inquiry Review
+────────────────────
+
+## Focus
+  (no focus set)
+  mode: auto
+
+## Compile
+  status: ok
+  ir_hash: sha256:9862afc294ae18e82b95a8565d1df9f76b71c61e82afd73bef22081414b51949
+  knowledge: 129
+  strategies: 44
+  operators: 0
+
+## Semantic diff
+  baseline: 2026-05-03T14-20-32Z_9862afc2_auto
+  (no semantic changes)
+
+## Graph health
+  warnings: 0
+  errors: 0
+  orphaned claims: 62
+  background-only claims: 0
+  independent claims missing priors: 0
+  possible duplicate claims: 1
+
+## Inquiry tree
+  goals: 0
+  accepted warrants: 0
+  unreviewed warrants: 44
+  blocked paths: 0
+  structural holes: 62
+
+## Prior holes
+  (all independent claims have priors set)
+
+## Belief report
+  total claims with beliefs: 85
+  largest increases:
+    - cross_ybrh2si2_material_specific_fs_constraints: 0.6675454779047032 → 0.6675454779047033
+    - gcn_31bc66ca16a44508: 0.82 → 0.8200000000000001
+    - gcn_677c6c_landau_integral_relation: 0.82 → 0.8200000000000001
+  largest decreases:
+    - __conjunction_result_3eb4b259: 0.6548896000000001 → 0.6548896
+    - __conjunction_result_6cc538eb: 0.5116566400000001 → 0.51165664
+    - __conjunction_result_c6626be2: 0.5614768 → 0.5614767999999999
+
+## Next edits
+  1. Either connect `__conjunction_result_11fed0d5` to a strategy/operator, or remove it.
+  2. Either connect `__conjunction_result_1abd38c2` to a strategy/operator, or remove it.
+  3. Either connect `__conjunction_result_223065a6` to a strategy/operator, or remove it.
+  4. Either connect `__conjunction_result_26617e05` to a strategy/operator, or remove it.
+  5. Either connect `__conjunction_result_363f43bc` to a strategy/operator, or remove it.
+  6. Either connect `__conjunction_result_3eb4b259` to a strategy/operator, or remove it.
+  7. Either connect `__conjunction_result_6384c4d8` to a strategy/operator, or remove it.
+  8. Either connect `__conjunction_result_6867de0b` to a strategy/operator, or remove it.
+  9. Either connect `__conjunction_result_6cc538eb` to a strategy/operator, or remove it.
+  10. Either connect `__conjunction_result_6fd4d005` to a strategy/operator, or remove it.
+  11. Either connect `__conjunction_result_832747e3` to a strategy/operator, or remove it.
+  12. Either connect `__conjunction_result_ae3c1998` to a strategy/operator, or remove it.
+  13. Either connect `__conjunction_result_c6626be2` to a strategy/operator, or remove it.
+  14. Either connect `__conjunction_result_c71dbc19` to a strategy/operator, or remove it.
+  15. Either connect `__conjunction_result_d31f9799` to a strategy/operator, or remove it.
+  16. Either connect `__conjunction_result_d9f7fdb1` to a strategy/operator, or remove it.
+  17. Either connect `__conjunction_result_e10f23ac` to a strategy/operator, or remove it.
+  18. Either connect `__conjunction_result_fce6a3a8` to a strategy/operator, or remove it.
+  19. Either connect `__implication_result_0326f7b4` to a strategy/operator, or remove it.
+  20. Either connect `__implication_result_0da27b3b` to a strategy/operator, or remove it.
+  21. Either connect `__implication_result_1bbdf0c1` to a strategy/operator, or remove it.
+  22. Either connect `__implication_result_1f181881` to a strategy/operator, or remove it.
+  23. Either connect `__implication_result_1faf9e36` to a strategy/operator, or remove it.
+  24. Either connect `__implication_result_2ebad3a4` to a strategy/operator, or remove it.
+  25. Either connect `__implication_result_32477da6` to a strategy/operator, or remove it.
+  26. Either connect `__implication_result_3993f88f` to a strategy/operator, or remove it.
+  27. Either connect `__implication_result_3aa755c3` to a strategy/operator, or remove it.
+  28. Either connect `__implication_result_42de4be0` to a strategy/operator, or remove it.
+  29. Either connect `__implication_result_4b584b4a` to a strategy/operator, or remove it.
+  30. Either connect `__implication_result_58cd7313` to a strategy/operator, or remove it.
+  31. Either connect `__implication_result_59950fb7` to a strategy/operator, or remove it.
+  32. Either connect `__implication_result_61058d4f` to a strategy/operator, or remove it.
+  33. Either connect `__implication_result_62bfeaf5` to a strategy/operator, or remove it.
+  34. Either connect `__implication_result_633600ba` to a strategy/operator, or remove it.
+  35. Either connect `__implication_result_64ee76de` to a strategy/operator, or remove it.
+  36. Either connect `__implication_result_71b11551` to a strategy/operator, or remove it.
+  37. Either connect `__implication_result_720bc514` to a strategy/operator, or remove it.
+  38. Either connect `__implication_result_73b6c7a7` to a strategy/operator, or remove it.
+  39. Either connect `__implication_result_7c7798e2` to a strategy/operator, or remove it.
+  40. Either connect `__implication_result_9296d1a7` to a strategy/operator, or remove it.
+  41. Either connect `__implication_result_93a8c09f` to a strategy/operator, or remove it.
+  42. Either connect `__implication_result_970e0d16` to a strategy/operator, or remove it.
+  43. Either connect `__implication_result_98b147e1` to a strategy/operator, or remove it.
+  44. Either connect `__implication_result_98b2ac0c` to a strategy/operator, or remove it.
+  45. Either connect `__implication_result_9c59b6e0` to a strategy/operator, or remove it.
+  46. Either connect `__implication_result_9deb0e33` to a strategy/operator, or remove it.
+  47. Either connect `__implication_result_aa52c832` to a strategy/operator, or remove it.
+  48. Either connect `__implication_result_bb5fa373` to a strategy/operator, or remove it.
+  49. Either connect `__implication_result_c0075d13` to a strategy/operator, or remove it.
+  50. Either connect `__implication_result_c3802cfa` to a strategy/operator, or remove it.
+  51. Either connect `__implication_result_c8d35cbb` to a strategy/operator, or remove it.
+  52. Either connect `__implication_result_c92dbbab` to a strategy/operator, or remove it.
+  53. Either connect `__implication_result_cbc8e747` to a strategy/operator, or remove it.
+  54. Either connect `__implication_result_ce7baacc` to a strategy/operator, or remove it.
+  55. Either connect `__implication_result_d3bf9001` to a strategy/operator, or remove it.
+  56. Either connect `__implication_result_d7236d58` to a strategy/operator, or remove it.
+  57. Either connect `__implication_result_e2e04c7e` to a strategy/operator, or remove it.
+  58. Either connect `__implication_result_e5d56713` to a strategy/operator, or remove it.
+  59. Either connect `__implication_result_ee174e99` to a strategy/operator, or remove it.
+  60. Either connect `__implication_result_efd6dbd5` to a strategy/operator, or remove it.
+  61. Either connect `__implication_result_f600bb21` to a strategy/operator, or remove it.
+  62. Either connect `__implication_result_fa87756d` to a strategy/operator, or remove it.
+  63. Merge `__conjunction_result_c6626be2` and `__conjunction_result_26617e05`, or differentiate their content.
+  64. Run a review pass on `` and record a judgment in its metadata (e.g. metadata={"judgment": "accepted"}).
+  65. Update ``.metadata with a non-empty "provenance" or "justification" field describing why this warrant is taken to hold.

@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Define $Z=m/m_{*}$ as the quasiparticle weight (with $m$ the noninteracting band mass and $m_{*}$ the quasiparticle effective mass) and $W$ as the noninteracting bare bandwidth ($W=4t$ for the Bethe lattice with hopping $t$). The effective low-energy scale (effective Fermi energy or Kondo temperature) is identified as $E_{F}^{*}\\simeq Z W/2$, and for temperatures $T\\leq T_{K}\\equiv E_{F}^{*}$ the entropy per site of a Fermi liquid satisfies $S(T)/N\\sim T/T_{K}$, so that evaluating at $T=T_{K}$ yields $S(T_{K})\\sim O(1)$. This proposition asserts both the estimate $E_{F}^{*}\\simeq ZW/2$ and the linear-in-$T$ low-temperature entropy scaling used to argue that the correlated metal near the MT carries an order-unity entropy at the scale $T_{K}$.",
+      "content_hash": "e6c1903c21d9cf01df80b03c638ae3a2f58f6ba3d582355d13b3da15f3bcf557",
+      "id": "gcn_5407089724b24dc4",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "d70d0fac474a87abcf87abfae5ab1cdd"
+}

@@ -1,0 +1,38 @@
+{
+  "holes": [
+    {
+      "content": "Friedemann et al. 2013 treat LuRh2Si2 as an isostructural, filled-4f-shell reference for the \"small\" Fermi surface of YbRh2Si2 with core-like non-hybridizing Yb 4f electrons, because the Lu and Yb compounds have nearly identical lattice parameters and non-f conduction-band characters when computed and measured using the experimental z_Si=0.379 c structure [@Friedemann2013].",
+      "content_hash": "21117cc74b4c6b50bf59a70a2f2fa3b11ad6d20b51ad0afdaf42b62fc6745c72",
+      "interface_hash": "sha256:3593783738d8d9e5ebed5491f22ad53702baf0ce638e7438eb44f7f390a400fe",
+      "label": "gcn_3a8394c_lurh2si2_small_fs_reference",
+      "qid": "github:lurh2si2_small_fs_reference::gcn_3a8394c_lurh2si2_small_fs_reference",
+      "required_by": [
+        "github:lurh2si2_small_fs_reference::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+      ]
+    },
+    {
+      "content": "For YbRh2Si2 with fields along the (100) direction, Friedemann et al. 2013 define the \"small\" Fermi surface as an LDA/GGA band-structure calculation in which Yb 4f electrons are core-like and non-hybridizing; if the refined z_Si=0.379 c small-Fermi-surface calculation has no extremal orbit near 14 kT and the measured F_14 ~= 14 kT dHvA peak is an independent fundamental, then the observed 14 kT orbit indicates itinerant Yb 4f participation under the high-field measurement conditions, provided instrumental, magnetic-breakdown, or misassignment alternatives are unlikely [@Friedemann2013].",
+      "content_hash": "4296a751bfcfc69f34ed30f38db7dc8bbd47884aa3c62e715befd8c1b16ac7bf",
+      "interface_hash": "sha256:d3ce1db44431d126e8ea4d6cb817273390039e5c03e4061a85424b83c0e6102b",
+      "label": "gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
+      "qid": "github:lurh2si2_small_fs_reference::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
+      "required_by": [
+        "github:lurh2si2_small_fs_reference::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+      ]
+    },
+    {
+      "content": "In the Friedemann et al. 2013 re-examination of published field-modulation dHvA data on YbRh2Si2, if the angular dependences of observed 5-7 kT peaks match two times lower-frequency branches below 4 kT and the method preferentially enhances harmonics, then the 5-7 kT peaks can be assigned as second, and in some cases higher, harmonics of lower-frequency fundamentals rather than independent fundamental orbits; the assignment is reported as consistent with tabulated frequency and mass comparisons from the published data [@Friedemann2013].",
+      "content_hash": "402462c4e823392174c92531b3f2f2b90cc5d5438bc6494d2d83bd2235ed324a",
+      "interface_hash": "sha256:2da6b873e726210fc25850949651d8fb4f86b8d44d39541cf82749587cc46a07",
+      "label": "gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
+      "qid": "github:lurh2si2_small_fs_reference::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
+      "required_by": [
+        "github:lurh2si2_small_fs_reference::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:5dd629dd83816b8ce11ab768307d4eeb489826da5464b0cdb15a2ab1692ffac3",
+  "manifest_schema_version": 1,
+  "package": "lurh2si2-small-fs-reference",
+  "version": "0.1.0"
+}

@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a metallic Fermi-liquid state with one-particle self-energy function $\\Sigma(\\omega)$ analytic at $\\omega=0$ on the real axis, define the quasiparticle residue $Z$ by $Z^{-1}=1-\\Re\\Sigma'(\\omega)\\big|_{\\omega=0}$ in a band with dispersion $\\epsilon_{\\mathbf{k}}$ under standard Fermi-liquid assumptions; the effective mass renormalization $m^{*}/m$ is then proportional to the inverse quasiparticle residue so that, up to a model-dependent proportionality constant fixed by the bare dispersion at the Fermi surface,\n$$\n\\frac{m^{*}}{m}\\propto\\big|\\Sigma' (0)\\big|,\n$$\nand consequently divergence of $\\Re\\Sigma'(0)$ implies divergence of $m^{*}/m$ and hence signals a Mott–Hubbard metal–insulator transition under the Fermi-liquid to non-Fermi-liquid crossover assumptions.\n      W. F. Brinkman and T. M. Rice, Phys. Rev. B2 (1970) 4302 [cited in paper]",
+      "content_hash": "f433e9b1e37eec1b0891c9c200eeaf1bb2731949d610b49acf862d676d79055c",
+      "id": "gcn_f4c74a5922dd4aa1",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "8f64bcbca4545f712bf9e8c2679e56e9"
+}

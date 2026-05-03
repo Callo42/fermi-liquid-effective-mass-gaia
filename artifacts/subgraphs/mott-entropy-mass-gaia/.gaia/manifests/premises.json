@@ -1,0 +1,44 @@
+{
+  "ir_hash": "sha256:a057f4e4a7c765c49c880f2265766ed77733a74f0a82be51ba19480522b1fd2e",
+  "manifest_schema_version": 1,
+  "package": "mott-entropy-mass",
+  "premises": [
+    {
+      "content": "For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice/DMFT discussion, a Fermi-liquid metal with coherence scale T_K identified with E_F* has electronic entropy per lattice site S(T)/N ~ T/T_K for T <= T_K; therefore S(T_K) is finite and of order unity for every T_K > 0, assuming ordinary Fermi-liquid quasiparticles and no additional comparably low-energy entropy carriers [@Capone2001].",
+      "content_hash": "72c3413820709cc3b8dbd130c0a999e1067574179f5285339ecfe4eb84cee372",
+      "exported": false,
+      "interface_hash": "sha256:0aee5ce99cadc9e0212380bc6f3b04f5d198597e6814006e7b991194490cf449",
+      "label": "gcn_31bc66ca16a44508",
+      "qid": "github:mott_entropy_mass::gcn_31bc66ca16a44508",
+      "required_by": [
+        "github:mott_entropy_mass::gcn_e4ecd721edd14d3f"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For the three-orbital interacting lattice Hamiltonian considered by Capone, Fabrizio, and Tosatti 2001, if the metallic solution remains a Fermi liquid then Luttinger's theorem pins the interacting chemical potential to the noninteracting value and pins the spectral density at the chemical potential to rho_0(mu_0); the Mott transition then occurs by narrowing the quasiparticle resonance at fixed chemical potential rather than by shifting mu to a band edge [@Capone2001].",
+      "content_hash": "fc7c0d4e18aaabc8d899ecb6ca66eb5707198273dc1b13233c6da375aa0ff719",
+      "exported": false,
+      "interface_hash": "sha256:fec7f8844060b735f74c5a3edd00031b341cdbef1c6652c0c67abc6e64501373",
+      "label": "gcn_795699f572b24ed5",
+      "qid": "github:mott_entropy_mass::gcn_795699f572b24ed5",
+      "required_by": [
+        "github:mott_entropy_mass::gcn_e4ecd721edd14d3f"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In the Capone-Fabrizio-Tosatti 2001 setting, a Fermi-liquid metal with T_K > 0 and order-unity entropy near T ~ T_K cannot be continuously and adiabatically connected to a nondegenerate spin-singlet Mott insulator with zero T -> 0 entropy while Luttinger's theorem pins the chemical potential and no symmetry breaking changes the entropy accounting; absent chemical-potential motion or symmetry breaking, a thermodynamic instability or intermediate phase must intervene [@Capone2001].",
+      "content_hash": "d202e979d459e8b006dc645bc103fe3ebc5f855f5348c58fe6444a9b7173584a",
+      "exported": false,
+      "interface_hash": "sha256:1764d352bcd57220f19d0e28ca4cf72919bbdd86cd0ccd5de5eca9302effd93e",
+      "label": "gcn_dd12256615264dfb",
+      "qid": "github:mott_entropy_mass::gcn_dd12256615264dfb",
+      "required_by": [
+        "github:mott_entropy_mass::gcn_e4ecd721edd14d3f"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

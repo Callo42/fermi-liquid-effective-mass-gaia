@@ -1,0 +1,28 @@
+{
+  "holes": [
+    {
+      "content": "For a metallic Kondo lattice made of a periodic subset of localized magnetic f-electron shells hybridized with conduction electrons, Anderson 1984 treats the leading low-energy local physics at each screened f-ion site as the Nozieres single-impurity Fermi-liquid representation: for energies E << T_K, scattering is described by Friedel-sum-rule phase shifts and finite analytic residual interactions, with inter-site corrections assumed small compared with the single-site Kondo scale [@Anderson1984].",
+      "content_hash": "19ffaf14ca3be00286227c046e57c79b4c07f824257629cc972e9dd43338d88c",
+      "interface_hash": "sha256:52eaffe8720def10b87617f68ad35bb77900033742e6e5ba8721a92c2be2861f",
+      "label": "gcn_40f111_nozieres_local_fl_kondo_sites",
+      "qid": "github:kondo_brinkman_rice::gcn_40f111_nozieres_local_fl_kondo_sites",
+      "required_by": [
+        "github:kondo_brinkman_rice::gcn_7ae79f_kondo_brinkman_rice_fixed_point"
+      ]
+    },
+    {
+      "content": "Anderson 1984 defines the relevant Brinkman-Rice Fermi-liquid fixed point for Kondo-lattice metals as a Fermi liquid proximate to a Mott or local-moment instability, with very large effective-mass renormalization but finite nondivergent Stoner enhancement; the selected chain applies this description when direct inter-site exchange, RKKY coupling, and incipient magnetic order are weak or irrelevant enough that local Nozieres-type Kondo Fermi-liquid physics remains qualitatively intact [@Anderson1984].",
+      "content_hash": "b9ed999d049fe67d2bf5d66f1b064eb2467021813324d76ff29e95590a3e8790",
+      "interface_hash": "sha256:071a9a8673c63fc4756c8adb77a29791ae99e18f2b3dae3fe7801ca6b05ff439",
+      "label": "gcn_8f275a_brinkman_rice_scope_condition",
+      "qid": "github:kondo_brinkman_rice::gcn_8f275a_brinkman_rice_scope_condition",
+      "required_by": [
+        "github:kondo_brinkman_rice::gcn_7ae79f_kondo_brinkman_rice_fixed_point"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:ae08240cca71b1e9ec71ff927ed379d78018af0809351b4bb5d71e263e95ac98",
+  "manifest_schema_version": 1,
+  "package": "kondo-brinkman-rice",
+  "version": "0.1.0"
+}

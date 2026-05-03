@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Re-examination of published de Haas–van Alphen measurements on YbRh_{2}Si_{2}, using the refined LuRh_{2}Si_{2} \"small\" Fermi-surface reference computed with z_{Si}=0.379\\,c and accounting for the strong tendency to generate harmonics and mixed frequencies observed in LuRh_{2}Si_{2}, shows that the published spectral peaks between \\approx5\\ \\mathrm{kT} and \\approx7\\ \\mathrm{kT} can be mapped onto second (and in some cases higher) harmonics of lower-frequency fundamental branches observed below 4\\ \\mathrm{kT} (the angular dependences and, in two of three reported cases, the effective-mass scalings are consistent with this harmonic assignment as compiled from the published frequency and mass data); this reclassification reduces the set of independent fundamental frequencies in the published YbRh_{2}Si_{2} data to a group below 4\\ \\mathrm{kT} and a distinct high-frequency fundamental near \\sim14\\ \\mathrm{kT}, and because the refined \"small\" Fermi-surface LDA/GGA calculation with Yb 4f treated as core-like (non-hybridizing) does not predict an extremal orbit near \\sim14\\ \\mathrm{kT} for fields along the (100) direction, the presence of an independent \\sim14\\ \\mathrm{kT} fundamental in the experimental dHvA data supports the interpretation that Yb 4f electrons contribute itinerantly to the Fermi surface under the measurement conditions (high magnetic fields) rather than being fully localized.",
+      "content_hash": "61ef378b45e0364c08910b3ea166b1e20a2104449737edb8f80e8755e32d2e30",
+      "id": "gcn_2b8dd97abcb44d53",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Re-examination of published de Haas–van Alphen measurements on YbRh_{2}Si_{2}, using the refined LuRh_{2}Si_{2} \"small\" Fermi-surface reference computed with z_{Si}=0.379\\,c and accounting for the strong tendency to generate harmonics and mixed frequencies observed in LuRh_{2}Si_{2}, shows that the published spectral peaks between \\approx5\\ \\mathrm{kT} and \\approx7\\ \\mathrm{kT} can be mapped onto second (and in some cases higher) harmonics of lower-frequency fundamental branches observed below 4\\ \\mathrm{kT} (the angular dependences and, in two of three reported cases, the effective-mass scalings are consistent with this harmonic assignment as compiled from the published frequency and mass data); this reclassification reduces the set of independent fundamental frequencies in the published YbRh_{2}Si_{2} data to a group below 4\\ \\mathrm{kT} and a distinct high-frequency fundamental near \\sim14\\ \\mathrm{kT}, and because the refined \"small\" Fermi-surface LDA/GGA calculation with Yb 4f treated as core-like (non-hybridizing) does not predict an extremal orbit near \\sim14\\ \\mathrm{kT} for fields along the (100) direction, the presence of an independent \\sim14\\ \\mathrm{kT} fundamental in the experimental dHvA data supports the interpretation that Yb 4f electrons contribute itinerantly to the Fermi surface under the measurement conditions (high magnetic fields) rather than being fully localized.",
+              "id": "gcn_2b8dd97abcb44d53"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_468a4122e2fb414d",
+            "premises": [
+              {
+                "content": "Let F_{low}(\\theta) denote fundamental frequencies below 4\\ \\mathrm{kT} reported in prior de Haas–van Alphen studies of YbRh_{2}Si_{2} and let F_{mid}(\\theta) denote observed peaks between 5\\ \\mathrm{kT} and 7\\ \\mathrm{kT}; the proposition is that if the angular dependence F_{mid}(\\theta) of the 5–7\\ \\mathrm{kT} peaks coincides, within experimental uncertainty, with 2\\times F_{low}(\\theta) (the expected second-harmonic angular dependence) and if the measurement technique used in those studies (field-modulation dHvA) preferentially enhances detection of harmonics relative to fundamentals, then the 5–7\\ \\mathrm{kT} peaks can be assigned as second harmonics of fundamentals below 4\\ \\mathrm{kT} rather than as independent fundamental orbits, an assignment that is consistent with the tabulated comparisons of 2\\times F and measured frequencies and masses in the published data.\n      Refs. 10,13 and Fig. 10(c) in the provided paper",
+                "id": "gcn_c131e01470ea48ad"
+              },
+              {
+                "content": "Define the \"small\" Fermi surface as the Fermi surface obtained from band-structure calculations for YbRh_{2}Si_{2} with the Yb 4f electrons treated as core-like (non-hybridizing) in an LDA/GGA calculation; let F_{14}\\approx14\\ \\mathrm{kT} denote an experimentally observed de Haas–van Alphen frequency reported for fields along the (100) direction; the proposition is that if a refined \"small\" Fermi-surface LDA/GGA calculation performed with z_{Si}=0.379\\,c does not predict any extremal orbit with frequency near 14\\ \\mathrm{kT} for fields along (100), and if the observed F_{14} behaves as an independent fundamental in the experimental data (i.e., it is not a harmonic of a lower-frequency branch), then the presence of F_{14} in the measured spectrum indicates that Yb 4f electrons participate itinerantly in forming the Fermi surface under the measurement conditions (high magnetic fields), i.e., that the experimental Fermi surface is \"large\" due to f-electron contribution, assuming that alternative explanations (instrumental artefacts, magnetic-breakdown-generated high-frequency orbits, or misassignment) can be excluded or are unlikely.\n      Comparison figures and discussion in the provided paper (Fig. 10 and associated text)",
+                "id": "gcn_3dc248d9752a416c"
+              },
+              {
+                "content": "LuRh_{2}Si_{2} is the isostructural compound to YbRh_{2}Si_{2} with a filled Lu 4f shell whereas YbRh_{2}Si_{2} has a trivalent Yb with one 4f hole; the proposition is that band-structure calculations and quantum-oscillation measurements on LuRh_{2}Si_{2} (performed and computed using the experimentally determined z_{Si}=0.379\\,c) provide a valid and sufficiently accurate reference model for the \"small\" Fermi surface of YbRh_{2}Si_{2} in which the Yb 4f electrons are treated as core-like (non-hybridizing), because the lattice parameters and the non-f conduction-band characters are nearly identical between the two compounds, and therefore discrepancies between Lu- and Yb-based calculations and experiments can be attributed primarily to the presence or absence of Yb 4f hybridization rather than to gross structural differences.",
+                "id": "gcn_3a8394c769864f01"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start from the refined \"small\" Fermi-surface reference provided by LuRh$_2$Si$_2$ calculations and from the identification that harmonics and magnetic-interaction mixing are prevalent in LuRh$_2$Si$_2$: the previously established calculated \"small\" Fermi surface for LuRh$_2$Si$_2$ using $z_{\\text{Si}}=0.379\\,c$ serves as a reference for analogous \"small\" Fermi-surface calculations on YbRh$_2$Si$_2$ in which the Yb $4f$ electrons are treated as core-like (non-hybridizing), and the presence of many harmonics and mixing products in LuRh$_2$Si$_2$ motivates re-examination of published de Haas–van Alphen (dHvA) data on YbRh$_2$Si$_2$ for possible harmonic assignments.\nFig. 10\n[13]",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Describe the re-analysis procedure and evidence for harmonics in YbRh$_2$Si$_2$: the dHvA frequencies reported previously for YbRh$_2$Si$_2$ were compared to calculated fundamental frequencies of the \"small\" Fermi-surface calculation and to integer multiples (harmonics) of the low-frequency fundamentals (below $\\sim 4\\ \\mathrm{kT}$); the authors overlay second and higher harmonic angular dependences on the experimental dHvA frequency-versus-angle plot and find that the experimental frequencies in the range approximately $5\\ \\mathrm{kT}$ to $7\\ \\mathrm{kT}$ match the angular dependence expected for second harmonics of the lower-frequency fundamentals, as illustrated in the comparison plot and summarized in a table that compares expected harmonic values to measured frequencies and masses.\nFig. 10\nTable III",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report the reduced set of independent fundamental frequencies implied by the harmonic reassignment: if the frequencies between $\\sim 5\\ \\mathrm{kT}$ and $7\\ \\mathrm{kT}$ in the published YbRh$_2$Si$_2$ data are reinterpreted as second (or higher) harmonics of fundamentals below $4\\ \\mathrm{kT}$, then the number of independent fundamental frequencies in YbRh$_2$Si$_2$ is reduced to a set of fundamentals below $4\\ \\mathrm{kT}$ plus a distinct high-frequency fundamental near $\\sim 14\\ \\mathrm{kT}$ (the latter is not accounted for as a harmonic of the low-frequency group).\nFig. 10\nTable III",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Contrast the high-frequency fundamental with the \"small\" Fermi-surface prediction and infer $f$-electron involvement: within the refined \"small\" Fermi-surface calculation for YbRh$_2$Si$_2$ (i.e., treating Yb $4f$ electrons as core-like), no high-frequency orbit near $\\sim 14\\ \\mathrm{kT}$ is predicted for fields along the (100) direction; because the experimentally observed $\\sim 14\\ \\mathrm{kT}$ frequency behaves as an independent fundamental (not a harmonic of lower frequencies) in the dHvA data, its presence indicates that the \"small\" $f$-core calculation does not account for this orbit, supporting the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields (i.e., the $4f$ electrons are at least partially itinerant under those conditions rather than fully localized).\nFig. 10\n[13]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "State the authors' interpretive conclusion and suggested further checks: the re-examination reduces the set of independent fundamentals in YbRh$_2$Si$_2$ to low-frequency fundamentals below $4\\ \\mathrm{kT}$ plus a single high-frequency near $\\sim 14\\ \\mathrm{kT}$; because the refined \"small\" Fermi-surface calculation does not predict the $\\sim 14\\ \\mathrm{kT}$ orbit for fields along (100), the presence of that high-frequency fundamental supports the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields rather than being fully localized; the authors also suggest further experimental checks (extended angular range measurements and complementary techniques) to solidify the harmonic assignments.\nFig. 10\n[10]",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Resolving whether the Yb $4f$ electrons are itinerant (contribute to the Fermi surface) or localized (yielding a \"small\" Fermi surface) at elevated magnetic fields is central to interpretations of the quantum critical physics of YbRh₂Si₂. Prior comparisons between measured Yb oscillation frequencies and LDA \"small\" or \"large\" Fermi-surface calculations were inconclusive, partly because (i) earlier \"small\" references used non-refined structural input, and (ii) some observed Yb frequencies could be harmonics or mixed products rather than independent fundamentals. By establishing that LuRh₂Si₂ spectra host abundant harmonics/mixing and by recalculating \"small\" Fermi surfaces with the refined $z_{Si}$, the present analysis reduces the set of Yb fundamentals that must be explained by band theory; the remaining unmatched $\\sim14\\ \\mathrm{kT}$ fundamental then provides evidence for $f$-electron participation in the Yb Fermi surface at high fields, addressing the prior ambiguity.",
+            "id": "paper:867761295154217007::conclusion_7_subproblem",
+            "source_package": "paper:867761295154217007"
+          }
+        ],
+        "source_package": "paper:867761295154217007"
+      }
+    ],
+    "papers": {
+      "paper:867761295154217007": {
+        "area": "arXiv-Physics",
+        "authors": "Sven Friedemann | Swee K Goh | Patrick M C Rourke | Pascal Reiss | Michael L Sutherland | F Malte Grosche | Gertrud Zwicknagl | Zachary Fisk",
+        "available_online": "",
+        "cover_date_start": "2013-05-20",
+        "created_at": "2023-05-23T05:33:35+08:00",
+        "doi": "10.48550/arXiv.1305.4555",
+        "en_title": "Electronic Structure of LuRh2Si2: \"Small\" Fermi Surface Reference to YbRh2Si2",
+        "id": "867761295154217007",
+        "keywords": "",
+        "publication_date": "2013-05-20",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "镥铑硅化物（LuRh₂Si₂）的电子结构：与镱铑硅化物（YbRh₂Si₂）的“小”费米面比较 "
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "d8b99333a9ce7453e0fed7f08d464128"
+}

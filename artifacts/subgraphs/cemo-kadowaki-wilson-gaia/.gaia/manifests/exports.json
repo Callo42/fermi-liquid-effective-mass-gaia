@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For CeMo2Si2C in Paramanik et al. 2013, the experimentally determined low-temperature coefficients A=2.57e-3 muOmega cm K^-2, gamma=23.4 mJ mol^-1 K^-2, and impurity-corrected chi_FL~=5.6e-4 emu mol^-1 give A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2 and Wilson-Sommerfeld estimates R_W~=0.81 using mu_eff=2.54 mu_B or R_W~=1.7 using mu_eff=1.73 mu_B; the selected LKM chain concludes that these Kadowaki-Woods and Wilson/Sommerfeld ratios are consistent with correlated Fermi-liquid phenomenology in the low-temperature state [@Paramanik2013].",
+      "content_hash": "665a7d170dd45a78f7b25a9e4daaf9fecb3eeec6ff72c5c5749b8faf5c6f2f54",
+      "label": "gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "qid": "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:93e28a84863d6f24d64d68b7dfb7b231a0d9e76acfbdd2e89b92609c48b38ccc",
+  "manifest_schema_version": 1,
+  "package": "cemo-kadowaki-wilson",
+  "version": "0.1.0"
+}

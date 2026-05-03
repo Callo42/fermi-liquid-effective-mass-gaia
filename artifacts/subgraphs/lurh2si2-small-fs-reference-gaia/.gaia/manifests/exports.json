@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 \"small\" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].",
+      "content_hash": "62c125792a33fe462fe372b0990301647d0515a116c18a26937c229d54ce74de",
+      "label": "gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "qid": "github:lurh2si2_small_fs_reference::gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:5dd629dd83816b8ce11ab768307d4eeb489826da5464b0cdb15a2ab1692ffac3",
+  "manifest_schema_version": 1,
+  "package": "lurh2si2-small-fs-reference",
+  "version": "0.1.0"
+}

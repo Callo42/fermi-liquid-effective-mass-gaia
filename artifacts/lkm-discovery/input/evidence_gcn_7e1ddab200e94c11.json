@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The variationally computed quasiparticle weight $g_{t}=8(1-2d)d$ is strongly reduced as the first-order Mott transition is approached from the metallic side; identifying $g_{t}$ with the quasiparticle residue $Z$ implies a low-energy quasiparticle effective mass scaling $m^{*}/m\\sim 1/g_{t}$ (where $m$ is the noninteracting band mass), so that the reductions of $g_{t}$ near $U_{c}$ correspond to mass-enhancement factors of order three to four, and to concomitant reductions in the Drude weight and in the superfluid stiffness in the variational mean-field description.",
+      "content_hash": "4b1e9acb4625bb79c28bf3853d7f18f74579948aebc55eea020563157f57e179",
+      "id": "gcn_7e1ddab200e94c11",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The variationally computed quasiparticle weight $g_{t}=8(1-2d)d$ is strongly reduced as the first-order Mott transition is approached from the metallic side; identifying $g_{t}$ with the quasiparticle residue $Z$ implies a low-energy quasiparticle effective mass scaling $m^{*}/m\\sim 1/g_{t}$ (where $m$ is the noninteracting band mass), so that the reductions of $g_{t}$ near $U_{c}$ correspond to mass-enhancement factors of order three to four, and to concomitant reductions in the Drude weight and in the superfluid stiffness in the variational mean-field description.",
+              "id": "gcn_7e1ddab200e94c11"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_b8aa73bee6a446d1",
+            "premises": [
+              {
+                "content": "Let $g_{t}$ be the Gutzwiller renormalization factor given by $g_{t}=8(1-2d)d$, let $Z$ denote the quasiparticle residue (the weight of the coherent single-particle pole in the retarded Green's function), and let $m^{*}$ be the low-energy quasiparticle effective mass defined from the dispersion of the coherent quasiparticle band. Within the Gutzwiller approximation combined with a Hartree-Fock-Gorkov mean-field treatment of the Hubbard(-Heisenberg) model at half-filling on the anisotropic triangular lattice, $g_{t}$ is identified with $Z$, and the low-energy effective mass scales parametrically as $m^{*}/m\\approx 1/g_{t}$ (with $m$ the noninteracting band mass), so that reductions of $g_{t}$ map to enhancements of $m^{*}$ and to reductions of Drude weight and superfluid stiffness in the proportional sense used to estimate numeric enhancement factors.",
+                "id": "gcn_b4d6fe8ac620423e"
+              },
+              {
+                "content": "Using the counting-argument relation $g_{t}=8(1-2d)d$ and the identification $m^{*}/m\\approx1/g_{t}$, the numerical values of $g_{t}$ obtained in the variational calculation near the computed critical interaction $U_{c}$ imply effective-mass enhancements $m^{*}/m$ of order $3$–$4$ for the coherent quasiparticle excitations in the half-filled layered organic superconductor parameter regime considered, with the understanding that this estimate neglects additional many-body renormalizations beyond the Gutzwiller and Hartree-Fock-Gorkov approximations.",
+                "id": "gcn_3257ea8730a64246"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Take as established the upstream result that the quasiparticle renormalization factor $g_t$ is given by $g_t=8(1-2d)d$ and plays the role of the quasiparticle weight $Z$ which reduces band-width and Drude weight and enhances effective mass $m^*$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Describe the numerical behavior of $g_t$ approaching the Mott transition: the computed $g_t(U)$ curves (obtained by solving the mean-field/RVB equations and minimizing $d$) show that $g_t$ is strongly reduced as the Mott transition is approached from the metallic side, with $g_t$ dropping towards zero at the first-order transition point $U_c$.\nFig. 2",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Connect the reduction in $g_t$ to an effective mass enhancement using the relation between quasiparticle weight and mass: the effective mass renormalization is given parametrically by $m^*/m\\sim1/g_t$ (i.e., smaller $g_t$ implies larger $m^*$), so a strong reduction of $g_t$ implies a commensurate enhancement of $m^*$.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Give the quantitative estimate reported by the authors for the mass enhancement near the transition: from the magnitude of the computed $g_t$ near $U_c$ the authors infer an effective mass enhancement by factors of about 3–4 near the Mott transition.\nFig. 2",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "State the concomitant effects on transport and superconducting properties: because $g_t$ reduces the Drude weight and the superfluid stiffness (the superfluid stiffness scales with the quasiparticle weight in the simplest interpretation), the strong suppression of $g_t$ near the Mott transition corresponds to a suppression of the Drude weight and of the superfluid stiffness.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Note the comparison to experiment made by the authors: these quantitative trends in $g_t(U)$ and the inferred mass enhancement and reduced superfluid stiffness are stated to be consistent with the large effective masses and reduced superfluid stiffness observed experimentally in half-filled layered organic superconductors, with the authors citing experimental/theoretical literature supporting this comparison.\n[7]",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Layered organic superconductors close to the Mott insulating state display large enhancements of the quasiparticle effective mass and a superfluid stiffness much smaller than predicted by weak-coupling BCS theory. Weak-coupling and single-particle approximations do not capture the many-body renormalization of the low-energy spectral weight and hence cannot explain the magnitude of these experimental anomalies. A microscopic computation that yields an explicit quasiparticle renormalization factor as a function of $U$ and lattice anisotropy is required to show that strong correlation effects inherent in the minimal model can quantitatively account for the observed mass enhancement and suppressed stiffness.",
+            "id": "paper:812304342135603201::conclusion_4_subproblem",
+            "source_package": "paper:812304342135603201"
+          }
+        ],
+        "source_package": "paper:812304342135603201"
+      }
+    ],
+    "papers": {
+      "paper:812304342135603201": {
+        "area": "Physics and Astrophysics",
+        "authors": "B. J. Powell | Ross H. McKenzie",
+        "available_online": "2005-2-1",
+        "cover_date_start": "2005-02-01",
+        "created_at": "2022-12-21T04:47:27+08:00",
+        "doi": "10.1103/physrevlett.94.047004",
+        "en_title": "Half-Filled Layered Organic Superconductors and the Resonating-Valence-Bond Theory of the Hubbard-Heisenberg Model",
+        "id": "812304342135603201",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "半填充层状有机超导体与哈伯德 - 海森堡模型的共振价键理论"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "2e2bb58750d0c5c456ef6b750a11503d"
+}

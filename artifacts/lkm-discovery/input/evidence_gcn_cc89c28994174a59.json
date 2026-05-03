@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The interpretation that abrupt or large Hall‑voltage variations in YbRh2Si2 reflect strong sensitivity of multiband effective masses to minute changes in the 4f occupation number n_f (instead of a topological small‑to‑large Fermi‑surface jump) is plausible by analogy to CeRh2Si2 and by the measured multiband de Haas–van Alphen spectrum, but the present data set lacks simultaneous low‑temperature measurements of the Hall effect, thermodynamic quantities, and complete quantum‑oscillation mapping across the field‑driven quantum‑critical point and under pressure that would be required to decisively distinguish a mass‑weighting scenario from a genuine abrupt Fermi‑surface reconstruction.\n      Fig.29; Fig.30; Fig.31",
+      "content_hash": "b582b6672bcc6ac332a021eb80a1d1748524be36fce21bbf924e7bd590605824",
+      "id": "gcn_cc89c28994174a59",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "e1a10dd5abd8c97c5b3500113f0abb24"
+}

@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The Kadowaki–Woods (KW) ratio is defined as A/γ_0^2, where A is the coefficient of the low-temperature resistivity ρ(T) = ρ_0 + A T^2 and γ_0 is the Sommerfeld coefficient from C(T) = γ_0 T in the Fermi-liquid regime; the proposition is that an observed decrease of A/γ_0^2 with increasing arsenic substitution, for the experimentally measured A and γ_0 values, reflects a genuine reduction of effective-mass renormalization and many-body electronic correlations (i.e., a crossover from heavy-fermion to more weakly correlated metallic behaviour), even though possible concurrent changes in quasiparticle degeneracy N or detailed band-structure factors are not explicitly accounted for in the simple ratio.",
+      "content_hash": "9bc352c788f69650be633e706693e5e955491fe4e5f3a9ed35c8956cb7a1a24b",
+      "id": "gcn_abf930b8f41946f2",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "6ca6ac7076287e551540dc78b755b49e"
+}

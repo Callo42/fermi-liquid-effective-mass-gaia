@@ -1,0 +1,31 @@
+{
+  "Capone2001": {
+    "type": "article-journal",
+    "title": "Direct Transition Between a Singlet Mott Insulator and a Superconductor",
+    "DOI": "10.48550/arXiv.cond-mat/0101402",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          1,
+          26
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Capone",
+        "given": "M."
+      },
+      {
+        "family": "Fabrizio",
+        "given": "M."
+      },
+      {
+        "family": "Tosatti",
+        "given": "E."
+      }
+    ]
+  }
+}

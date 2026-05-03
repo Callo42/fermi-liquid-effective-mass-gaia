@@ -1,0 +1,79 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.484878304,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::__conjunction_result_f0326191",
+      "label": "__conjunction_result_f0326191"
+    },
+    {
+      "belief": 0.7298565600111999,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "label": "gcn_2b8dd97_lurh2si2_reference_reanalysis"
+    },
+    {
+      "belief": 0.84,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::gcn_3a8394c_lurh2si2_small_fs_reference",
+      "label": "gcn_3a8394c_lurh2si2_small_fs_reference"
+    },
+    {
+      "belief": 0.74,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
+      "label": "gcn_3dc248d_ybrh2si2_14kt_not_small_fs"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
+      "label": "gcn_c131e014_ybrh2si2_midband_harmonic_assignment"
+    },
+    {
+      "belief": 0.82777858110103,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::helper_14kt_orbit_supports_high_field_itinerant_4f",
+      "label": "helper_14kt_orbit_supports_high_field_itinerant_4f"
+    },
+    {
+      "belief": 0.82777858110103,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::helper_ybrh2si2_5_7kt_peaks_are_harmonics",
+      "label": "helper_ybrh2si2_5_7kt_peaks_are_harmonics"
+    },
+    {
+      "belief": 0.82777858110103,
+      "knowledge_id": "github:lurh2si2_small_fs_reference::helper_ybrh2si2_reduced_fundamental_set",
+      "label": "helper_ybrh2si2_reduced_fundamental_set"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:lurh2si2_small_fs_reference::__conjunction_result_f0326191": [
+        0.484878304
+      ],
+      "github:lurh2si2_small_fs_reference::gcn_2b8dd97_lurh2si2_reference_reanalysis": [
+        0.7298565600111999
+      ],
+      "github:lurh2si2_small_fs_reference::gcn_3a8394c_lurh2si2_small_fs_reference": [
+        0.84
+      ],
+      "github:lurh2si2_small_fs_reference::gcn_3dc248d_ybrh2si2_14kt_not_small_fs": [
+        0.74
+      ],
+      "github:lurh2si2_small_fs_reference::gcn_c131e014_ybrh2si2_midband_harmonic_assignment": [
+        0.78
+      ],
+      "github:lurh2si2_small_fs_reference::helper_14kt_orbit_supports_high_field_itinerant_4f": [
+        0.82777858110103
+      ],
+      "github:lurh2si2_small_fs_reference::helper_ybrh2si2_5_7kt_peaks_are_harmonics": [
+        0.82777858110103
+      ],
+      "github:lurh2si2_small_fs_reference::helper_ybrh2si2_reduced_fundamental_set": [
+        0.82777858110103
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 3
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:5dd629dd83816b8ce11ab768307d4eeb489826da5464b0cdb15a2ab1692ffac3"
+}

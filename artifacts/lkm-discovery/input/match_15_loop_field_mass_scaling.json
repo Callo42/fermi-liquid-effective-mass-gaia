@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811880085639397376": {
+        "area": "Physics and Astrophysics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov | V.A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2009-02-01",
+        "created_at": "2022-12-20T00:41:37+08:00",
+        "doi": "10.1016/j.physleta.2008.12.022",
+        "en_title": "Quantum critical point in high-temperature superconductors",
+        "id": "811880085639397376",
+        "keywords": "[{\"ch_name\":\"重费米子金属\",\"en_name\":\"Heavy-fermion metals\"},{\"ch_name\":\"高温超导\",\"en_name\":\"High-temperature superconductivity\"},{\"ch_name\":\"量子临界性\",\"en_name\":\"Quantum criticality\"}]",
+        "publication_date": "2009-2",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "高温超导体中的量子临界点"
+      },
+      "paper:811980501567930369": {
+        "area": "Physics and Astrophysics",
+        "authors": "V. A. KHODEL | J. W. CLARK | H. LI | V. M. YAKOVENKO | M. V. ZVEREV",
+        "available_online": "2012-1-25",
+        "cover_date_start": "2007-05-30",
+        "created_at": "2022-12-20T07:20:37+08:00",
+        "doi": "10.1142/s0217979207043488",
+        "en_title": "NON-FERMI-LIQUID BEHAVIOR FROM THE FERMI-LIQUID APPROACH",
+        "id": "811980501567930369",
+        "keywords": "[{\"en_name\": \"Strongly correlated Fermi systems\", \"ch_name\": \"\"}]",
+        "publication_date": "2007-5-30",
+        "publication_id": "713",
+        "publication_name": "International Journal of Modern Physics B _ Int. J. Mod. Phys. B",
+        "research_categories": "",
+        "zh_title": "从费米液体理论出发的非费米液体行为"
+      },
+      "paper:867745807611199650": {
+        "area": "arXiv-Physics",
+        "authors": "V. R. Shaginyan | A. Z. Msezane | K. G. Popov | G. S. Japaridze | V. A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2011-11-01",
+        "created_at": "2023-05-23T04:32:02+08:00",
+        "doi": "10.48550/arXiv.1111.0179",
+        "en_title": "Identification of Strongly Correlated Spin Liquid in Herbertsmithite",
+        "id": "867745807611199650",
+        "keywords": "",
+        "publication_date": "2011-11-01",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "在赫伯史密斯石中识别强关联自旋液体"
+      },
+      "paper:867747407591375193": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan",
+        "available_online": "",
+        "cover_date_start": "2005-01-28",
+        "created_at": "2023-05-23T04:38:24+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0501712",
+        "en_title": "Dissymmetrical tunnelling in heavy fermion metals",
+        "id": "867747407591375193",
+        "keywords": "",
+        "publication_date": "2005-01-28",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "重费米子金属中的不对称隧穿"
+      },
+      "paper:867757713977770477": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov | V.A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2009-02-15",
+        "created_at": "2023-05-23T05:19:21+08:00",
+        "doi": "10.48550/arXiv.0902.2557",
+        "en_title": "Quantum critical point in high-temperature superconductors",
+        "id": "867757713977770477",
+        "keywords": "",
+        "publication_date": "2009-02-15",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "高温超导体中的量子临界点"
+      },
+      "paper:867762617609879828": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov | V.A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2008-06-24",
+        "created_at": "2023-05-23T05:38:50+08:00",
+        "doi": "10.48550/arXiv.0806.3936",
+        "en_title": "Common field-induced quantum critical point in high-temperature superconductors and heavy-fermion metals",
+        "id": "867762617609879828",
+        "keywords": "",
+        "publication_date": "2008-06-24",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "高温超导体和重费米子金属中常见的场致量子临界点"
+      },
+      "paper:867764071666025192": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | J.W. Clark | G.S. Japaridze | A.Z. Msezane | V.A. Stephanovich | Y.S. Leevik | E.V. Kirichenko",
+        "available_online": "",
+        "cover_date_start": "2018-06-28",
+        "created_at": "2023-05-23T05:44:37+08:00",
+        "doi": "10.48550/arXiv.1806.11081",
+        "en_title": "Revealing quantum spin liquid in the herbertsmithite $\\rm ZnCu_{3}(OH)_6Cl_{2}$",
+        "id": "867764071666025192",
+        "keywords": "",
+        "publication_date": "2018-06-28",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "在赫伯史密斯石$\\rm ZnCu_{3}(OH)_6Cl_{2}$中揭示量子自旋液体"
+      },
+      "paper:867766038798795009": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | K.G. Popov | V. A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2007-06-05",
+        "created_at": "2023-05-23T05:52:26+08:00",
+        "doi": "10.48550/arXiv.0706.0742",
+        "en_title": "Universal low-temperature behavior of the CePd_{1-x}Rh_x ferromagnet",
+        "id": "867766038798795009",
+        "keywords": "",
+        "publication_date": "2007-06-05",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "CePd₁₋ₓRhₓ铁磁体的普适低温行为"
+      },
+      "paper:867770878820090410": {
+        "area": "arXiv-Physics",
+        "authors": "Yosuke Matsumoto | Satoru Nakatsuji | Kentaro Kuga | Yoshitomo Karaki | Naoki Horie | Yasuyuki Shimura | Toshiro Sakakibara | Andriy H. Nevidomskyy | Piers Coleman",
+        "available_online": "",
+        "cover_date_start": "2011-01-22",
+        "created_at": "2023-05-23T06:11:40+08:00",
+        "doi": "10.48550/arXiv.1101.4302",
+        "en_title": "Quantum Criticality without Tuning in the Mixed Valence Compound beta-YbAlB4",
+        "id": "867770878820090410",
+        "keywords": "",
+        "publication_date": "2011-01-22",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "混合价化合物β-YbAlB₄中无需调节的量子临界性"
+      },
+      "paper:966036063640354867": {
+        "area": "arXiv-Physics",
+        "authors": "V.R. Shaginyan | A.Z. Msezane | M.V. Zverev | Y.S. Leevik",
+        "available_online": "",
+        "cover_date_start": "2023-11-13",
+        "created_at": "2024-02-18T10:02:25+08:00",
+        "doi": "10.48550/arXiv.2311.07428",
+        "en_title": "Quantum Phase Transition in $\\rm CeCoIn_5$: Experimental Facts and Theory",
+        "id": "966036063640354867",
+        "keywords": "",
+        "publication_date": "2023-11-13",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "$\\rm CeCoIn_5$中的量子相变：实验事实与理论"
+      }
+    },
+    "variables": [
+      {
+        "content": "Inclusion of a static magnetic field $H$ introduces the dimensionless ratio $R=\\mu_B H/T$, where $\\mu_B$ is the Bohr magneton and $T$ the temperature, and modifies the critical effective-mass scaling at the quantum critical density $\\rho_\\infty$ to\n      $$\n      \\frac{M}{M^*(T,H,\\rho_\\infty)}\\propto T^{2/3}\\,a(R),\n      $$\n      with $a(R)$ a scaling function of $R$. In the zero-temperature limit $T\\to0$ (equivalently $R\\to\\infty$) this scaling yields the analytic field law\n      $$\n      M^*(T=0,H,\\rho_\\infty)\\propto H^{2/3}.\n      $$\n      Therefore, application of a static magnetic field satisfying $\\mu_B H>T$ renders the effective mass $M^*$ finite and restores conventional Landau Fermi-liquid behavior. Numerical calculations based on this field-dependent scaling reproduce the experimentally observed scaling of magnetization and susceptibility for the heavy-fermion metal CeRu$_2$Si$_2$ and of the ratio $C/T$ for the heavy-fermion compound YbRh(Si_{0.95}Ge_{0.05})_2 over ranges of small applied fields.",
+        "content_hash": "f4274da816abc1331b3e200abb2fde0777c9f8e7fc03db031dfb5432953b6520",
+        "id": "gcn_a7e46718106e45ee",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811980501567930369::conclusion_6",
+            "package_id": "paper:811980501567930369",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811980501567930369"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.031544957774465976,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a heavy-fermion metal tuned by an external magnetic field $B$ to a field-tuned quantum critical point at $B=B_{c0}$, the low-temperature Landau quasiparticle effective mass $M^{*}(B)$ in the restored Landau-Fermi-liquid regime for $B>B_{c0}$ exhibits power-law scaling with reduced field,\n      $$\n        M^{*}(B)\\propto (B-B_{c0})^{\\alpha},\n      $$\n      with critical exponent $\\alpha=-1/2$; here $B_{c0}$ denotes the critical magnetic field that tunes the system to the quantum critical point and $M^{*}(B)$ is the quasiparticle effective mass relevant to low-temperature thermodynamic and transport properties.\n      [1]\n      [12]",
+        "content_hash": "817bfba1a5b1b10ed10bd5dbcf09da29b3b84b4c9ace64016effd4ddfd56ae1e",
+        "id": "gcn_f5b9f5de7f0b40e3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747407591375193::P10",
+            "package_id": "paper:867747407591375193",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747407591375193"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03149801587301587,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a fermionic system with a field-driven quantum critical point at B=B_{c0}, when the fermion condensate is destroyed by an applied field and a Landau Fermi-liquid (LFL) state is restored at low temperature T\\ll T^{*}(B), the quasiparticle effective mass in the LFL state depends on field according to the asymptotic scaling law\n      $$\nM^{*}(B)\\propto\\frac{1}{\\sqrt{B-B_{c0}}},\n$$\n      valid for B approaching B_{c0} from above within the model of field-induced reconstruction.",
+        "content_hash": "ed98c759c5838c433ff8f018de24f2c7c4ceff7039b7276021de1e52dfa89599",
+        "id": "gcn_e84288894f5f410d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757713977770477::P9",
+            "package_id": "paper:867757713977770477",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757713977770477"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02819138376017471,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "An applied magnetic field $B$ destroys the fermion-condensate configuration and restores Landau-Fermi-liquid (LFL) behavior at low temperatures; an infinitesimal field $B\\ge B_{c0}$ splits the flat band and, in the low-temperature LFL regime, the dominant field dependence of the quasiparticle effective mass follows the scaling\n      $$\n      M^{*}(B)\\propto\\frac{1}{\\sqrt{B-B_{c0}}},\n      $$\n      where $B_{c0}$ denotes the critical magnetic field that tunes the field-induced quantum critical point to $T=0$ and the proportionality holds for $B\\gtrsim B_{c0}$ within the reconstruction model discussed.",
+        "content_hash": "a0e70b250c1505b7fc1920f8bf799eb6e4ffc07f098c20f14bbe65e1f2a5c188",
+        "id": "gcn_d6a5f201e3874105",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811880085639397376::conclusion_5",
+            "package_id": "paper:811880085639397376",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811880085639397376"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.027443609022556388,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a homogeneous heavy-electron liquid located on the Landau-Fermi-liquid side of the fermion-condensation quantum phase transition and at zero temperature, the zero-temperature quasiparticle effective mass in the field-induced LFL regime diverges as a power of the applied magnetic field when the field B is tuned toward the critical field B_{c0} that drives the magnetic-ordering temperature to zero; specifically,\n      $$\n      M^{*}(B)\\propto (B-B_{c0})^{-2/3},\n      $$\n      provided the magnetic-field dependence enters the quasiparticle distribution primarily through the dimensionless ratio R=\\mu_{B}B/T (with \\mu_{B} the Bohr magneton) and field-induced changes of the Landau interaction can be neglected to leading order; in some materials the critical field B_{c0} equals zero.",
+        "content_hash": "25330b3f105bcf69f47275cfa15387f12ae9182929d90f00c5283f998d85f2f6",
+        "id": "gcn_1e60e3ce6add480e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766038798795009::conclusion_3",
+            "package_id": "paper:867766038798795009",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766038798795009"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02666666666666667,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a spinon quantum spin liquid located near the fermion condensation quantum phase transition (FCQPT), an external magnetic field $B$ that couples to spinons via the Zeeman energy produces a field-dependent spinon effective mass scaling as $M^{*}(B)\\simeq a_{B}B^{-2/3}$, where $a_{B}$ is a constant and $B$ is the applied magnetic field; this $B^{-2/3}$ dependence reduces the effective mass as $B$ increases, driving the system from the non-Fermi-liquid (NFL) regime toward Landau Fermi-liquid (LFL) behavior and thereby suppressing observables that are proportional to $M^{*}$.",
+        "content_hash": "1d421917dcb4bc9058e9a753d3a8a3f364e6b679da5e0bb0e47081a7a29088b4",
+        "id": "gcn_69f416a2bc4a480b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745807611199650::conclusion_2",
+            "package_id": "paper:867745807611199650",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745807611199650"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02353266888150609,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "At least one quantum phase transition of the fermion-condensation type (FCQPT) exists inside or at the edge of the superconducting dome of high-temperature superconductors (HTSC); this FCQPT constitutes a common quantum critical point (QCP) that governs the field-induced restoration of Landau Fermi-liquid behavior in both HTSC and heavy-fermion metals, and it accounts for (a) the magnetic-field dependence of the quasiparticle effective mass and of transport prefactors, (b) the approximately linear-in-field crossover temperature T^{*}(B), and (c) the universal normalized effective-mass scaling; for Tl_{2}Ba_{2}CuO_{6+x} the FCQPT critical field inferred from the crossover line is B_{c0}\\approx 6\\ \\mathrm{T}, placing at least one FCQPT inside or at the boundary of the superconducting region.",
+        "content_hash": "2fef1d63908367a0dc1f6d26e5e56de77c16ecb6fa08ea23f21153112152aac1",
+        "id": "gcn_3439e994ce944e6a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762617609879828::conclusion_5",
+            "package_id": "paper:867762617609879828",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762617609879828"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The derivation of the T^{-2/3} temperature dependence of the effective mass M*(T) for ZnCu3(OH)6Cl2 assumes that the low-energy degrees of freedom of the S=1/2 kagome antiferromagnet are described by a strongly correlated quantum spin liquid (SCQSL) composed of neutral fermionic spinons that occupy a Fermi sphere with Fermi momentum p_F, have zero electrical charge, and acquire a large, renormalized effective mass M* due to proximity to a fermion-condensation quantum phase transition (FCQPT) treated as the quantum critical point; under this assumption the theoretical scaling relations and Landau Fermi-liquid quasiparticle reasoning developed for heavy-fermion electronic systems (where FCQPT gives rise to temperature- and field-dependent M*) are applied directly to the kagome spin system.\n      Refs. 9–14 (theoretical FCQPT literature) and Eqs. (1)–(3) in the paper",
+        "content_hash": "0528d456a9e0f79f42f73135e721dea09c36e9f6832dbf72862dc8358190eb91",
+        "id": "gcn_9a298482290643ef",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764071666025192::P1",
+            "package_id": "paper:867764071666025192",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764071666025192"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The crossover between non-Fermi-liquid and Fermi-liquid regimes is governed by a field-induced Fermi energy set by the Zeeman energy of the critical modes, k_{B}T_{F} ∼ gμ_{B}B, so that the characteristic Fermi temperature T_{F} grows linearly with applied field B; furthermore, for the empirically determined scaling exponent α = 3/2 the quasiparticle effective mass m^{*}(B), identified thermodynamically with the zero-temperature specific-heat coefficient, scales as m^{*}(B) ∝ B^{\\alpha-2} ∝ B^{-1/2}.",
+        "content_hash": "8c6ca26f6fc73dee86a25f231fcb3e2d054e8c4c818a972f3d0fe9106f86c7f6",
+        "id": "gcn_cab4428dcc5f4748",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770878820090410::conclusion_5",
+            "package_id": "paper:867770878820090410",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770878820090410"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a heavy-fermion metal tuned near a topological fermion-condensation quantum phase transition (FCQPT), define the quasiparticle effective mass $M^{*}(T)$ as the temperature-dependent mass at $B\\approx B_{c0}$ and $M^{*}(B)$ as the low-temperature field-dependent mass at $T\\to0$; the dominant asymptotic dependences in the experimentally relevant non-Fermi-liquid and field-tuned Landau-Fermi-liquid regimes are\n      $$\n      M^{*}(T)\\simeq a_T\\,T^{-2/3}\\quad\\text{(for }B\\approx B_{c0}\\text{)}\n      $$\n      and\n      $$\n      M^{*}(B)\\simeq a_B\\,(B-B_{c0})^{-2/3}\\quad\\text{(for }T\\to0,\\ B>B_{c0}\\text{)},\n      $$\n      with positive prefactors $a_T,a_B$ and critical field $B_{c0}$ (for CeCoIn$_5$, $B_{c0}\\simeq5.0\\ \\mathrm{T}$); these $-2/3$ exponents describe the effective-mass scaling in the temperature and field windows used to fit experimental data on CeCoIn$_5$.",
+        "content_hash": "21fc0c6ecc2f5ca0b21ca86e2cb1e248b64242834945ccaa82397f1cc6e51c9c",
+        "id": "gcn_4a20c25555a94f90",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036063640354867::P8",
+            "package_id": "paper:966036063640354867",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036063640354867"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "64db2a3109d889c6915dfc49de7eb38e"
+}

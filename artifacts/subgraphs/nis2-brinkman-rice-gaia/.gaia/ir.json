@@ -1,0 +1,337 @@
+{
+  "ir_hash": "sha256:e78e2074badecc45e64de626cdb5dbc192111a4e5d0a07c199eb467799f58fa5",
+  "knowledges": [
+    {
+      "content": "For pressure-metalized NiS2 near 3.8 GPa, interpreting the coexistence of a large Fermi-surface extremal area and enhanced quasiparticle effective mass as realization of the Brinkman-Rice correlated-metal scenario relies on the assumption that spin-fluctuation renormalization, enhanced electron-phonon coupling, or Fermi-surface reconstruction from proximate magnetic order cannot produce the same pair of observations without Brinkman-Rice physics [@Friedemann2016].",
+      "content_hash": "5fb4019ed5ed56a0b52116a313c2a730b22cc7ef4ffde852d8aa26651d1cb96d",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption",
+      "label": "gcn_8a1a2748_alternative_mechanisms_assumption",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2016"
+            ]
+          }
+        },
+        "lkm_id": "gcn_8a1a27485204457b",
+        "lkm_original": "The inference that the coexistence of a large Fermi-surface extremal area and an enhanced quasiparticle effective mass demonstrates realization of the Brinkman–Rice correlated-metal scenario (suppressed quasiparticle weight Z with preserved Luttinger volume) presumes that alternative mechanisms—such as strong renormalization by spin fluctuations, enhanced electron–phonon coupling, or Fermi-surface reconstruction associated with proximate magnetic order—cannot produce the same pair of experimental observations without invoking Brinkman–Rice physics.\n      Brinkman, W. F. & Rice, T. M. Application of Gutzwiller's Variational Method to the Metal-Insulator Transition. Phys. Rev. B 2, 4302–4304 (1970).",
+        "prior": 0.58,
+        "prior_justification": "Interpretive exclusion premise from the LKM chain: plausible for the selected NiS2 quantum-oscillation argument, but it explicitly depends on alternative spin-fluctuation, electron-phonon, and magnetic-reconstruction mechanisms not independently ruled out by this root JSON; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:814525482547544066"
+      },
+      "module": "paper_friedemann2016",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In NiS2 pressurized to approximately 3.8 GPa, the simultaneous observation of a large Fermi-surface cross-sectional area, specifically the 6.03 kT belly orbit, and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e is consistent with the Brinkman-Rice picture of a correlated Fermi liquid near a Mott insulator: coherent heavy quasiparticles retain the uncorrelated-band Fermi-surface volume while quasiparticle spectral weight Z and quasiparticle velocities are strongly reduced [@Friedemann2016].",
+      "content_hash": "d552c1b2580a8e9820d7c11678c1714bcc69d2453a7d1de95cd71206455b6612",
+      "declaration_index": 1,
+      "exported": true,
+      "id": "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+      "label": "gcn_29401e42_nis2_brinkman_rice",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2016"
+            ]
+          }
+        },
+        "lkm_id": "gcn_29401e4284574aa2",
+        "lkm_original": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:814525482547544066"
+      },
+      "module": "paper_friedemann2016",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For NiS2 pressurized to approximately 3.8 GPa, the selected LKM root treats the 6.03 kT belly quantum-oscillation orbit as a large Fermi-surface cross-sectional area matching the uncorrelated-band large-Fermi-surface expectation [@Friedemann2016].",
+      "content_hash": "68bfac3fa892c74b876cef6cd5811b560fbca34127d7fd4bc85aa351619f5199",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit",
+      "label": "helper_nis2_large_fs_603kt_belly_orbit",
+      "metadata": {
+        "decomposition_of": "gcn_29401e4284574aa2",
+        "derived_from_lkm_ids": [
+          "gcn_29401e4284574aa2"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2016"
+            ]
+          }
+        },
+        "lkm_original": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_friedemann2016",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the same pressure-metalized NiS2 setting, the selected LKM root reports a strongly enhanced quasiparticle effective mass m* = 6(2) m_e for the observed Fermi-liquid quasiparticles [@Friedemann2016].",
+      "content_hash": "30ad6d4497bfa1d7a998e8bafc6d554791c8b111700af683e20c2e374e9daa9f",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::helper_nis2_mstar_6_me",
+      "label": "helper_nis2_mstar_6_me",
+      "metadata": {
+        "decomposition_of": "gcn_29401e4284574aa2",
+        "derived_from_lkm_ids": [
+          "gcn_29401e4284574aa2"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2016"
+            ]
+          }
+        },
+        "lkm_original": "The simultaneous observation of a large Fermi-surface cross-sectional area (the 6.03 kT belly orbit) and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e in NiS₂ pressurized to ≈3.8 GPa is consistent with the Brinkman–Rice picture of a correlated Fermi liquid near a Mott insulator, in which coherent Fermi-liquid quasiparticles form a heavy Fermi liquid whose Fermi-surface volume remains equal to that of the corresponding uncorrelated band while the quasiparticle spectral weight Z (the residue of the single-particle Green's function at the quasiparticle pole) and the quasiparticle velocities are strongly reduced.",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_friedemann2016",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In the Brinkman-Rice picture invoked by the selected LKM factor, approaching a Mott insulating state by bandwidth reduction suppresses quasiparticle weight Z and quasiparticle velocities, strongly enhances m*, and preserves the large Fermi-surface volume of the corresponding uncorrelated metal [@Friedemann2016].",
+      "content_hash": "43b4556d14b3d5f1e585b650c5fda1410d94c2f7184c11a39384c42a514035da",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles",
+      "label": "helper_brinkman_rice_large_fs_heavy_quasiparticles",
+      "metadata": {
+        "decomposition_of": "gcn_29401e4284574aa2",
+        "derived_from_lkm_ids": [
+          "gcn_29401e4284574aa2"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Friedemann2016"
+            ]
+          }
+        },
+        "lkm_original": "Define the Brinkman-Rice picture as the theoretical framework in which, on approaching a Mott insulating state by bandwidth reduction, the quasiparticle weight $Z$ is suppressed (possibly to $Z\\to 0$), quasiparticle velocities are reduced, the effective mass $m^*$ is strongly enhanced (and in some treatments can diverge), while the Fermi surface volume remains that of the corresponding uncorrelated metal as required by Luttinger's theorem; cite the original Brinkman-Rice argument and Luttinger's theorem as the conceptual bases.\n[6]\n[9]",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_friedemann2016",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption,github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice)",
+      "content_hash": "63cacf31d31005f0e2a4240d0162ff75b19133834745956dabbf9c330506ffcf",
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::__implication_result_ca298d47",
+      "label": "__implication_result_ca298d47",
+      "metadata": {
+        "canonical_name": "implies(github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption,github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_4bd040de2489b907",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice,github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit)",
+      "content_hash": "4789621472b780139a3d1b2942621d0cb259d4a9ca5c3f48879cc691946fe57b",
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::__implication_result_3e04ca1a",
+      "label": "__implication_result_3e04ca1a",
+      "metadata": {
+        "canonical_name": "implies(github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice,github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_9d0538e5ea58b490",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice,github:nis2_brinkman_rice::helper_nis2_mstar_6_me)",
+      "content_hash": "33bad9ad8dde5e87c5b163a3337d015a96be4143d77dc69880d1e322107d69ff",
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::__implication_result_6f12d544",
+      "label": "__implication_result_6f12d544",
+      "metadata": {
+        "canonical_name": "implies(github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice,github:nis2_brinkman_rice::helper_nis2_mstar_6_me)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_175783853440e186",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice,github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles)",
+      "content_hash": "f8033366b3aad377c6325e11caf476d90b9fc80c84bbc588d6ee06d4d71194ac",
+      "exported": false,
+      "id": "github:nis2_brinkman_rice::__implication_result_e5b2284f",
+      "label": "__implication_result_e5b2284f",
+      "metadata": {
+        "canonical_name": "implies(github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice,github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_6a5837e2e382eaed",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_friedemann2016"
+  ],
+  "module_titles": {
+    "paper_friedemann2016": "paper_friedemann2016 -- NiS2 quantum-oscillation Brinkman-Rice claims."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "nis2_brinkman_rice",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:nis2_brinkman_rice::__implication_result_ca298d47",
+            "operator": "implication",
+            "variables": [
+              "github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption",
+              "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Treat conclusion 2 (the metallic state has a large Fermi surface matching the uncorrelated-band prediction) and conclusion 3 (the quasiparticle effective mass is strongly enhanced to $m^* = 6(2)\\ m_e$) as established upstream results to be taken as known starting points for the present reasoning.\n2. Define the Brinkman-Rice picture as the theoretical framework in which, on approaching a Mott insulating state by bandwidth reduction, the quasiparticle weight $Z$ is suppressed (possibly to $Z\\to 0$), quasiparticle velocities are reduced, the effective mass $m^*$ is strongly enhanced (and in some treatments can diverge), while the Fermi surface volume remains that of the corresponding uncorrelated metal as required by Luttinger's theorem; cite the original Brinkman-Rice argument and Luttinger's theorem as the conceptual bases.\n[6]\n[9]\n3. Observe that the empirical combination established in conclusions 2 and 3 -- a large Fermi surface volume equal to the uncorrelated-band value and a strongly enhanced quasiparticle mass -- matches the key qualitative signatures of a Brinkman-Rice correlated Fermi liquid proximate to a Mott insulator, namely: preserved large Fermi volume and suppressed quasiparticle weight manifesting as heavy quasiparticles.\nFig. 5\nFig. 4\n4. Note that alternative theoretical scenarios that envisage a continuous depletion of carrier concentration or Fermi-surface reconstruction on approach to the insulating state would predict a reduced Fermi surface volume or the absence of a large uncorrelated-like Fermi surface in the immediate metallic regime; because the measured experimental combination does not display such carrier depletion or reconstruction, the experimental findings are consistent with the Brinkman-Rice description rather than with those alternative scenarios.\n[40]\n5. Conclude that the coexistence of a large Fermi surface volume (conclusion 2) and a strongly enhanced quasiparticle mass (conclusion 3) in pressure-metalized NiS$_2$ is consistent with the Brinkman-Rice picture of a correlated Fermi liquid proximate to a Mott insulator: coherent quasiparticles form a heavy Fermi liquid whose Fermi surface volume remains that of the uncorrelated band while the quasiparticle weight $Z$ and quasiparticle velocities are reduced.\nTable 1"
+      },
+      "premises": [
+        "github:nis2_brinkman_rice::gcn_8a1a2748_alternative_mechanisms_assumption"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_4bd040de2489b907",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:nis2_brinkman_rice::__implication_result_3e04ca1a",
+            "operator": "implication",
+            "variables": [
+              "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+              "github:nis2_brinkman_rice::helper_nis2_large_fs_603kt_belly_orbit"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM root explicitly contains the component assertion that NiS2 at approximately 3.8 GPa shows a large Fermi-surface cross-sectional area, identified as the 6.03 kT belly orbit."
+      },
+      "premises": [
+        "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_9d0538e5ea58b490",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:nis2_brinkman_rice::helper_nis2_mstar_6_me",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:nis2_brinkman_rice::__implication_result_6f12d544",
+            "operator": "implication",
+            "variables": [
+              "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+              "github:nis2_brinkman_rice::helper_nis2_mstar_6_me"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM root explicitly contains the component assertion that pressure-metalized NiS2 has a strongly enhanced quasiparticle effective mass m* = 6(2) m_e."
+      },
+      "premises": [
+        "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_175783853440e186",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:nis2_brinkman_rice::__implication_result_e5b2284f",
+            "operator": "implication",
+            "variables": [
+              "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+              "github:nis2_brinkman_rice::helper_brinkman_rice_large_fs_heavy_quasiparticles"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. The LKM factor step defining the Brinkman-Rice picture explicitly links preserved Fermi volume with reduced Z, reduced quasiparticle velocities, and enhanced effective mass near the Mott boundary."
+      },
+      "premises": [
+        "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_6a5837e2e382eaed",
+      "type": "deduction"
+    }
+  ]
+}

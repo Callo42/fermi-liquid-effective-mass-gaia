@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Consider a correlated electronic system described at low energy by Landau parameters including F_1^s(0,0) and spinon effective mass m^*. Define the quasiparticle renormalization weight Z as the quasiparticle spectral weight at the Fermi surface. An alternative scenario for the zero-temperature Mott metal–insulator transition is that tuning a microscopic control parameter (for example the Hubbard interaction strength U) to a critical value U_c drives the l=1 Landau parameter to the critical value from the metallic side so that\n      $$\n      1+\\frac{F_1^s(0,0)}{d}\\to 0^{+},\n      $$\n      while the spinon effective-mass ratio m^*/m remains finite. In this scenario the quasiparticle charge-current prefactor proportional to 1+F_1^s/d and the quasiparticle weight Z vanish at the transition, so that charged quasiparticles on the metallic side transmute into neutral fermionic spinons forming a Fermi surface in the insulating side, without a diverging effective mass m^*/m→∞; finite-temperature critical fluctuations in a region around U_c limit the strict applicability of the phenomenology at nonzero temperature.",
+      "content_hash": "f26fb79c6902d79d2ec5421f4714bcb0628ea0cc54293bf5129576d56f813661",
+      "id": "gcn_5f269db6cc3e4841",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Consider a correlated electronic system described at low energy by Landau parameters including F_1^s(0,0) and spinon effective mass m^*. Define the quasiparticle renormalization weight Z as the quasiparticle spectral weight at the Fermi surface. An alternative scenario for the zero-temperature Mott metal–insulator transition is that tuning a microscopic control parameter (for example the Hubbard interaction strength U) to a critical value U_c drives the l=1 Landau parameter to the critical value from the metallic side so that\n      $$\n      1+\\frac{F_1^s(0,0)}{d}\\to 0^{+},\n      $$\n      while the spinon effective-mass ratio m^*/m remains finite. In this scenario the quasiparticle charge-current prefactor proportional to 1+F_1^s/d and the quasiparticle weight Z vanish at the transition, so that charged quasiparticles on the metallic side transmute into neutral fermionic spinons forming a Fermi surface in the insulating side, without a diverging effective mass m^*/m→∞; finite-temperature critical fluctuations in a region around U_c limit the strict applicability of the phenomenology at nonzero temperature.",
+              "id": "gcn_5f269db6cc3e4841"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_e9d4f0614c74441b",
+            "premises": [
+              {
+                "content": "The proposition: In a correlated electronic system described at low energy by Landau parameters including F_1^s(0,0), consider tuning a microscopic control parameter (for example the Hubbard interaction U) to a critical value U_c so that the l=1 Landau parameter approaches the critical value from the metallic side,\n      $$\n      1+\\frac{F_1^s(0,0)}{d}\\to 0^{+},\n      $$\n      while the spinon effective-mass ratio m^*/m remains finite. In the Brinkman–Rice picture the quasiparticle weight Z scales as Z∝m/m^* and vanishes when m^*/m→∞; in the alternative scenario claimed here, Z and the quasiparticle charge-current prefactor (proportional to 1+F_1^s/d) vanish at the transition even though m^*/m does not diverge, so that charged quasiparticles on the metallic side become neutral fermionic spinons with a Fermi surface on the insulating side. Realizing this scenario microscopically requires that the Landau-parameter mechanism and the phenomenological assumptions leading to it hold at the transition.",
+                "id": "gcn_1a3aa3d3e19b4bbe"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Begin from the Landau phenomenology and the identification of the marginal $l=1$ point as a Pomeranchuk critical point (previous conclusions): take as known that the Landau parameter combination $1+\\frac{F_{1}^{s}}{d}$ controls the quasiparticle charge-current renormalization and that the point $1+\\frac{F_{1}^{s}}{d}=0$ is a marginal Pomeranchuk critical point subject to strong fluctuations.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Contrast the proposed alternative picture with the Brinkman–Rice scenario for the Mott transition: recall the Brinkman–Rice picture where the metal–insulator transition is characterized by a diverging effective mass $m^{*}/m\\to\\infty$, vanishing quasiparticle weight $Z\\sim m/m^{*}\\to 0$, and vanishing compressibility at the transition; cite Brinkman and Rice as the original reference.\n[23]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State the alternative Landau-parameter–driven scenario for the zero-temperature Mott transition: define the control parameter (for example Hubbard $U$) and assert that the zero-temperature metal–insulator transition from a Fermi liquid to a QSL with a spinon Fermi surface is driven by the Landau parameter reaching the critical value\n$$\n1+\\frac{F_{1}^{s}(0,0)}{d}\\to 0^{+},\n$$\nacross which the quasiparticle charge current prefactor $\\propto 1+\\frac{F_{1}^{s}}{d}$ and the quasiparticle weight $Z$ vanish while the spinon effective mass ratio $m^{*}/m$ remains finite (i.e., $Z\\to 0$ without $m^{*}/m\\to\\infty$).",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Explain the physical implications at the transition: state that in this picture the Fermi surface persists at the transition (i.e., Fermi-surface volume and structure remain), but the charged quasiparticles transmute into neutral spinons because the charge-current prefactor vanishes; observe that this perspective is consistent with the experimental fact that candidate $U(1)$ QSL materials are close to the metal-insulator transition and can be reached from the metal by modest tuning (pressure), supporting a Mott transition that converts charged quasiparticles into neutral spinons.\nFig. 2",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Note limitations due to finite-temperature critical fluctuations: point out that finite-temperature critical fluctuations around the critical interaction strength $U_{c}$ produce a finite-temperature critical region where the phenomenological Landau description does not apply, and that the finite-$T$ crossover and instability toward other phases limit the direct applicability of the zero-temperature Landau picture except sufficiently close to $T=0$ outside the critical region.",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Physical context: the canonical Brinkman–Rice description of the Mott transition (from a Landau viewpoint) predicts a divergent effective mass ($m^*/m\\to\\infty$) and vanishing quasiparticle weight $Z\\sim m/m^*\\to0$ at the transition. Experimental candidate QSLs lie close to the metal–insulator boundary but do not always show signs of divergent effective mass. There was no Landau-parameter–level alternative that keeps a finite $m^*/m$ while explaining the loss of charge response at the transition. The absence of such a scenario prevented a simple phenomenological understanding of how quasiparticle charge, quasiparticle residue $Z$, and the Fermi surface evolve as interaction strength is tuned through the Mott transition in materials where spinon Fermi surfaces may appear.",
+            "id": "paper:813189064218902528::conclusion_6_subproblem",
+            "source_package": "paper:813189064218902528"
+          }
+        ],
+        "source_package": "paper:813189064218902528"
+      }
+    ],
+    "papers": {
+      "paper:813189064218902528": {
+        "area": "Physics and Astrophysics",
+        "authors": "Yi Zhou | Tai-Kai Ng",
+        "available_online": "2013-10-21",
+        "cover_date_start": "2013-10-21",
+        "created_at": "2022-12-23T15:23:02+08:00",
+        "doi": "10.1103/physrevb.88.165130",
+        "en_title": "Spin liquid states in the vicinity of a metal-insulator transition",
+        "id": "813189064218902528",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "金属-绝缘体转变附近的自旋液体态"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "75e9b4261c2468eaa41917ced51969ea"
+}

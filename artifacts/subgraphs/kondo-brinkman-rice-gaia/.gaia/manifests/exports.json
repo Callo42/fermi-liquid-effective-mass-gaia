@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For Anderson 1984 heavy-electron Kondo-lattice materials such as CeAl3, CeCu2Si2, UBe13, and UPt3, when localized f-ion moments are quenched by Kondo screening and inter-site collective effects do not qualitatively override the local Nozieres Fermi-liquid physics, the ground state is described as a Brinkman-Rice type Fermi-liquid fixed point: a coherent heavy-quasiparticle Fermi liquid with very large quasiparticle effective-mass renormalization and a finite, order-unity Stoner enhancement of the uniform spin susceptibility rather than a divergent almost-ferromagnetic enhancement [@Anderson1984].",
+      "content_hash": "10900606dd2049bf01d9bce185430bb98e34f269dd524c46b126bbefac2e04af",
+      "label": "gcn_7ae79f_kondo_brinkman_rice_fixed_point",
+      "qid": "github:kondo_brinkman_rice::gcn_7ae79f_kondo_brinkman_rice_fixed_point",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:ae08240cca71b1e9ec71ff927ed379d78018af0809351b4bb5d71e263e95ac98",
+  "manifest_schema_version": 1,
+  "package": "kondo-brinkman-rice",
+  "version": "0.1.0"
+}

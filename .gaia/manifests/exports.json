@@ -1,6 +1,20 @@
 {
   "exports": [
     {
+      "content": "The Anderson Kondo-lattice Brinkman-Rice fixed point, the Capone-Fabrizio-Tosatti Mott entropy/Z/T_K boundary argument, and the Friedemann NiS2 large-FS plus m*=6(2)m_e result form a coherent Mott-boundary/heavy-quasiparticle theme: large effective mass or suppressed Z appears near a local-moment or Mott instability while Fermi-liquid coherence remains central to the claim.",
+      "content_hash": "aef7011b591e02684f60f7ba2ac28ecee54f2de0e137ff79f9c7aacd58175a6b",
+      "label": "cross_brinkman_rice_mott_boundary_family",
+      "qid": "github:fermi_liquid_effective_mass::cross_brinkman_rice_mott_boundary_family",
+      "type": "claim"
+    },
+    {
+      "content": "The Brinkman-Rice-related branches are not interchangeable: Anderson 1984 addresses a screened Kondo-lattice fixed point with finite Stoner enhancement, Capone-Fabrizio-Tosatti 2001 gives a conditional entropy obstruction for a direct Fermi-liquid to singlet-Mott crossover, and Friedemann 2016 reports NiS2 pressure-tuned quantum-oscillation evidence consistent with Brinkman-Rice large-Fermi-surface heavy quasiparticles.",
+      "content_hash": "67d15805f1438af228970aa9aa2580e17988b1c2d1e58a11376308be31bb3bf4",
+      "label": "cross_brinkman_rice_scope_caution",
+      "qid": "github:fermi_liquid_effective_mass::cross_brinkman_rice_scope_caution",
+      "type": "claim"
+    },
+    {
       "content": "The He-3 and YbRh2Si2 effective-mass routes should not be treated as equivalent claims: the He-3 chain uses a standard low-temperature Landau Fermi-liquid mapping from gamma to m*/m, whereas the YbRh2Si2 chain uses a homogeneous isotropic heavy-electron model near FCQPT and applies S/T as an operational effective-mass measure through crossover or non-Fermi-liquid regimes.",
       "content_hash": "a86a147985c36df88d139a0d6aa3c8cb1d4bf8fcee3176b9801ca7c5636c803f",
       "label": "cross_scope_caution_standard_fl_vs_fcqpt",
@@ -8,10 +22,31 @@
       "type": "claim"
     },
     {
+      "content": "CeMo2Si2C Kadowaki-Woods and Wilson/Sommerfeld ratios extend the package's thermodynamic effective-mass theme into transport and susceptibility phenomenology: low-temperature A/gamma^2 and R_W values are used as correlated Fermi-liquid consistency checks, complementary to He-3 gamma-based mass extraction and YbRh2Si2 thermodynamic/RBC effective-mass constraints.",
+      "content_hash": "d407fd701903c71eec9bbc80e14f6bd83ca6e707827c7696f2bfd6d3eaf6a777",
+      "label": "cross_thermo_transport_correlated_fl_consistency",
+      "qid": "github:fermi_liquid_effective_mass::cross_thermo_transport_correlated_fl_consistency",
+      "type": "claim"
+    },
+    {
       "content": "Across the He-3 and Shaginyan YbRh2Si2 roots, low-energy thermodynamic quantities are used as operational routes to quasiparticle effective mass: Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
       "content_hash": "8176af6a8b4f77b73689818747333865b2f36987e3a21d9601cf7304640d5603",
       "label": "cross_thermodynamic_routes_to_effective_mass",
       "qid": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
+      "type": "claim"
+    },
+    {
+      "content": "The YbRh2Si2 material-specific evidence should be read with field and method scope intact: Knebel dHvA uses 12-28 T fields and reports an itinerant-4f LDA mismatch, Friedemann 2013 reassigns published mid-band peaks using a LuRh2Si2 small-FS reference, and Friedemann 2010 RBC uses thermodynamically calibrated renormalized bands. These branches qualify low-field/QCP and homogeneous isotropic claims without creating a same-condition contradiction.",
+      "content_hash": "4064c35f00f78689883367d8ebe654fc6928d45faff97f190fa4bb71f3f4acb8",
+      "label": "cross_ybrh2si2_field_method_scope_caution",
+      "qid": "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
+      "type": "claim"
+    },
+    {
+      "content": "Within YbRh2Si2, Friedemann 2010 RBC/Hall/DOS evidence, Knebel 2006 high-field dHvA frequencies and cyclotron masses, and Friedemann 2013 LuRh2Si2 small-Fermi-surface reanalysis jointly constrain the material-specific Fermi-surface/effective-mass picture. The synthesis is a field- and method-scoped constraint claim, not an equivalence among RBC, high-field dHvA, and homogeneous FCQPT descriptions.",
+      "content_hash": "903e42e974c5adb10bc27e605ad19c85c1e25d3dffc8b425117805c63d205359",
+      "label": "cross_ybrh2si2_material_specific_fs_constraints",
+      "qid": "github:fermi_liquid_effective_mass::cross_ybrh2si2_material_specific_fs_constraints",
       "type": "claim"
     },
     {
@@ -29,10 +64,31 @@
       "type": "claim"
     },
     {
+      "content": "In NiS2 pressurized to approximately 3.8 GPa, the simultaneous observation of a large Fermi-surface cross-sectional area, specifically the 6.03 kT belly orbit, and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e is consistent with the Brinkman-Rice picture of a correlated Fermi liquid near a Mott insulator: coherent heavy quasiparticles retain the uncorrelated-band Fermi-surface volume while quasiparticle spectral weight Z and quasiparticle velocities are strongly reduced [@Friedemann2016].",
+      "content_hash": "d552c1b2580a8e9820d7c11678c1714bcc69d2453a7d1de95cd71206455b6612",
+      "label": "gcn_29401e42_nis2_brinkman_rice",
+      "qid": "github:fermi_liquid_effective_mass::gcn_29401e42_nis2_brinkman_rice",
+      "type": "claim"
+    },
+    {
+      "content": "Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 \"small\" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].",
+      "content_hash": "62c125792a33fe462fe372b0990301647d0515a116c18a26937c229d54ce74de",
+      "label": "gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "qid": "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "type": "claim"
+    },
+    {
       "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
       "content_hash": "9f755e90f06006ccb7d5abcf593d2e03ca475550ccd8d27fd925389223e7df3f",
       "label": "gcn_42a4ff_rbc_hall_dos_values",
       "qid": "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
+      "type": "claim"
+    },
+    {
+      "content": "For Anderson 1984 heavy-electron Kondo-lattice materials such as CeAl3, CeCu2Si2, UBe13, and UPt3, when localized f-ion moments are quenched by Kondo screening and inter-site collective effects do not qualitatively override the local Nozieres Fermi-liquid physics, the ground state is described as a Brinkman-Rice type Fermi-liquid fixed point: a coherent heavy-quasiparticle Fermi liquid with very large quasiparticle effective-mass renormalization and a finite, order-unity Stoner enhancement of the uniform spin susceptibility rather than a divergent almost-ferromagnetic enhancement [@Anderson1984].",
+      "content_hash": "10900606dd2049bf01d9bce185430bb98e34f269dd524c46b126bbefac2e04af",
+      "label": "gcn_7ae79f_kondo_brinkman_rice_fixed_point",
+      "qid": "github:fermi_liquid_effective_mass::gcn_7ae79f_kondo_brinkman_rice_fixed_point",
       "type": "claim"
     },
     {
@@ -41,9 +97,30 @@
       "label": "gcn_800070efac5e476d",
       "qid": "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
       "type": "claim"
+    },
+    {
+      "content": "For CeMo2Si2C in Paramanik et al. 2013, the experimentally determined low-temperature coefficients A=2.57e-3 muOmega cm K^-2, gamma=23.4 mJ mol^-1 K^-2, and impurity-corrected chi_FL~=5.6e-4 emu mol^-1 give A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2 and Wilson-Sommerfeld estimates R_W~=0.81 using mu_eff=2.54 mu_B or R_W~=1.7 using mu_eff=1.73 mu_B; the selected LKM chain concludes that these Kadowaki-Woods and Wilson/Sommerfeld ratios are consistent with correlated Fermi-liquid phenomenology in the low-temperature state [@Paramanik2013].",
+      "content_hash": "665a7d170dd45a78f7b25a9e4daaf9fecb3eeec6ff72c5c5749b8faf5c6f2f54",
+      "label": "gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "qid": "github:fermi_liquid_effective_mass::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "type": "claim"
+    },
+    {
+      "content": "For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].",
+      "content_hash": "ce3d0c0a769b22babcaa67315738675f72186e3fb3736778fb2c01195664a455",
+      "label": "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "qid": "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "type": "claim"
+    },
+    {
+      "content": "For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice-type route toward a nondegenerate singlet Mott insulator, a normal Fermi liquid has a well-defined Fermi surface, finite quasiparticle weight Z > 0 with Z = m/m*, and coherence scale T_K ~ E_F*; as m* -> infinity, Z -> 0 and T_K -> 0, while S(T_K) remains order unity for each T_K > 0. Because the target singlet Mott insulator has a unique spin-singlet ground state, a spin gap, and zero entropy as T -> 0, a direct continuous Fermi-liquid-to-insulator crossover is impossible under fixed chemical potential and no-symmetry-breaking assumptions; an intervening thermodynamic instability or distinct intermediate phase must occur [@Capone2001].",
+      "content_hash": "d5a87bd60ea8fcaf1add1a7be4c6eb2a12331bcbc9481f19c2f3f143cf8e2ec1",
+      "label": "gcn_e4ecd721edd14d3f",
+      "qid": "github:fermi_liquid_effective_mass::gcn_e4ecd721edd14d3f",
+      "type": "claim"
     }
   ],
-  "ir_hash": "sha256:40777a6dbe1830cf56c3c09691ed7f120267977c7fdd7e8db0329a8195005a75",
+  "ir_hash": "sha256:0c8dc1a153a399df924c4300e2a480faaf07e05fa666c49dad4bb19fb2e51b4d",
   "manifest_schema_version": 1,
   "package": "fermi-liquid-effective-mass",
   "version": "0.1.0"

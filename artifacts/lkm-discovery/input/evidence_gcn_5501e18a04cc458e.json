@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The de Haas–van Alphen frequencies and cyclotron masses reported for YbRh2Si2 are measured in steady magnetic fields between 12 T and 28 T, field strengths at which magnetic polarization, suppression of correlations, or field-driven band shifts can modify band energies and quasiparticle renormalization; therefore the high-field dHvA spectrum obtained at these fields can differ from the zero- or low-field Fermi surface that is relevant for quantum‑critical‑point physics.\n      Fig.7; Fig.8",
+      "content_hash": "ca62602c47396119966a5eaaa76d0167d452d081348d6a80ee788e4852cd1d4e",
+      "id": "gcn_5501e18a04cc458e",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "2ff51092747b8234ed5ce024478e526c"
+}

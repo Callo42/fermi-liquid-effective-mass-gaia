@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a metallic system near a Mott metal-insulator transition with quasiparticle self-energy $\\Sigma(\\mathbf{k},\\omega)$, the quasiparticle effective mass at the Fermi momentum $\\mathbf{k}_F$ can be factorized as $\\frac{m^*}{m_b}=\\left(1-\\left.\\frac{\\partial\\mathrm{Re}\\,\\Sigma(\\mathbf{k},\\omega)}{\\partial\\omega}\\right|_{\\omega=E_F,\\mathbf{k}_F}\\right)\\times\\frac{|\\partial_{\\mathbf{k}}\\varepsilon_{\\mathbf{k}}^{0}|_{\\mathbf{k}_F}}{|\\partial_{\\mathbf{k}}\\varepsilon_{\\mathbf{k}}^{0}|_{\\mathbf{k}_F}+\\left.\\partial_{\\mathbf{k}}\\mathrm{Re}\\,\\Sigma(\\mathbf{k},\\omega)\\right|_{\\omega=E_F,\\mathbf{k}_F}}$, i.e., $\\frac{m^*}{m_b}= \\frac{m_\\omega}{m_b}\\times\\frac{m_k}{m_b}$. If the frequency-dependent part (the \"$\\omega$-mass\" $m_\\omega/m_b$) increases strongly (quasiparticle weight $Z\\to0$) but the momentum-dependent term $\\partial_{\\mathbf{k}}\\mathrm{Re}\\,\\Sigma$ is of the sign and magnitude needed to reduce the second ($k$-mass) factor significantly, then the product can remain only moderately enhanced; this mechanism can reconcile large spectroscopic suppression of spectral weight near $E_F$ with moderate thermodynamic/magnetic masses. Symbols: $m^*$ quasiparticle mass, $m_b$ band mass, $\\varepsilon_{\\mathbf{k}}^{0}$ noninteracting band dispersion, $\\Sigma(\\mathbf{k},\\omega)$ self-energy, $E_F$ Fermi energy.\n      Analytic decomposition and qualitative proposal discussed in the paper and related theoretical literature (Refs. 41,42).",
+      "content_hash": "e145b7a65cd49931a59f7fae5871d441743d7ec84fac37561a370c0e645f9d23",
+      "id": "gcn_e0e1f20f66564111",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "e7fab96286f27ac233619928e2669226"
+}

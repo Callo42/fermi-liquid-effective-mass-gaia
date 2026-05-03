@@ -1,0 +1,57 @@
+{
+  "Friedemann2016": {
+    "type": "article-journal",
+    "title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+    "DOI": "10.1038/srep25335",
+    "container-title": "Scientific Reports",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Friedemann",
+        "given": "S."
+      },
+      {
+        "family": "Chang",
+        "given": "H."
+      },
+      {
+        "family": "Gamza",
+        "given": "M. B."
+      },
+      {
+        "family": "Reiss",
+        "given": "P."
+      },
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Alireza",
+        "given": "P."
+      },
+      {
+        "family": "Coniglio",
+        "given": "W. A."
+      },
+      {
+        "family": "Graf",
+        "given": "D."
+      },
+      {
+        "family": "Tozer",
+        "given": "S."
+      },
+      {
+        "family": "Grosche",
+        "given": "F. M."
+      }
+    ]
+  }
+}

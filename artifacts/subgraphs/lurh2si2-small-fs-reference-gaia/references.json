@@ -1,0 +1,52 @@
+{
+  "Friedemann2013": {
+    "type": "article",
+    "id": "Friedemann2013",
+    "title": "Electronic Structure of LuRh2Si2: \"Small\" Fermi Surface Reference to YbRh2Si2",
+    "DOI": "10.48550/arXiv.1305.4555",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Friedemann",
+        "given": "Sven"
+      },
+      {
+        "family": "Goh",
+        "given": "Swee K"
+      },
+      {
+        "family": "Rourke",
+        "given": "Patrick M C"
+      },
+      {
+        "family": "Reiss",
+        "given": "Pascal"
+      },
+      {
+        "family": "Sutherland",
+        "given": "Michael L"
+      },
+      {
+        "family": "Grosche",
+        "given": "F Malte"
+      },
+      {
+        "family": "Zwicknagl",
+        "given": "Gertrud"
+      },
+      {
+        "family": "Fisk",
+        "given": "Zachary"
+      }
+    ]
+  }
+}

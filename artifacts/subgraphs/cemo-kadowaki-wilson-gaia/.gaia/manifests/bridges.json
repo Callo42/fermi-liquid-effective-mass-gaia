@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:93e28a84863d6f24d64d68b7dfb7b231a0d9e76acfbdd2e89b92609c48b38ccc",
+  "manifest_schema_version": 1,
+  "package": "cemo-kadowaki-wilson",
+  "version": "0.1.0"
+}

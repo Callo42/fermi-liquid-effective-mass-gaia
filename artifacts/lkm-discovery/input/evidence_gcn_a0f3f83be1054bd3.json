@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Given a computed band-structure energy eigenvalue field E_n(k) over the Brillouin zone for YbRh2Si2, the numerical algorithm used to identify extremal Fermi-surface cross-sectional areas and convert them to predicted de Haas–van Alphen frequencies via the Onsager relation F = (\\hbar/2\\pi e) A_ext yields accurate predictions of the angular dependence F(θ) for each Fermi-surface sheet provided the underlying band energies are sufficiently smooth and the k-space discretization resolves the extremal orbits; the algorithm's accuracy may be degraded if bands are extremely flat or if multiple nearly-degenerate sheets exist within the discretization error.\n      Rourke P M C and Julian S R Numerical extraction of de Haas-van Alphen frequencies from calculated band energies (Preprint arXiv:0803.1895)",
+      "content_hash": "aa4123618d0dc2ca7cd7c8b18151577948164b2d586d967892f227f602902fb2",
+      "id": "gcn_a0f3f83be1054bd3",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "839673e61b1de6446bfd5edb1303ca44"
+}

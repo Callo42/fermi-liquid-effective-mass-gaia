@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:ae08240cca71b1e9ec71ff927ed379d78018af0809351b4bb5d71e263e95ac98",
+  "manifest_schema_version": 1,
+  "package": "kondo-brinkman-rice",
+  "version": "0.1.0"
+}

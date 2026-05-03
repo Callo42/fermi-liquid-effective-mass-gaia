@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For the Capone-Fabrizio-Tosatti 2001 Brinkman-Rice-type route toward a nondegenerate singlet Mott insulator, a normal Fermi liquid has a well-defined Fermi surface, finite quasiparticle weight Z > 0 with Z = m/m*, and coherence scale T_K ~ E_F*; as m* -> infinity, Z -> 0 and T_K -> 0, while S(T_K) remains order unity for each T_K > 0. Because the target singlet Mott insulator has a unique spin-singlet ground state, a spin gap, and zero entropy as T -> 0, a direct continuous Fermi-liquid-to-insulator crossover is impossible under fixed chemical potential and no-symmetry-breaking assumptions; an intervening thermodynamic instability or distinct intermediate phase must occur [@Capone2001].",
+      "content_hash": "d5a87bd60ea8fcaf1add1a7be4c6eb2a12331bcbc9481f19c2f3f143cf8e2ec1",
+      "label": "gcn_e4ecd721edd14d3f",
+      "qid": "github:mott_entropy_mass::gcn_e4ecd721edd14d3f",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:a057f4e4a7c765c49c880f2265766ed77733a74f0a82be51ba19480522b1fd2e",
+  "manifest_schema_version": 1,
+  "package": "mott-entropy-mass",
+  "version": "0.1.0"
+}

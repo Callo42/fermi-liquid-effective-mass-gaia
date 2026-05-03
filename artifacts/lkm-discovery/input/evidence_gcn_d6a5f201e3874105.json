@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "An applied magnetic field $B$ destroys the fermion-condensate configuration and restores Landau-Fermi-liquid (LFL) behavior at low temperatures; an infinitesimal field $B\\ge B_{c0}$ splits the flat band and, in the low-temperature LFL regime, the dominant field dependence of the quasiparticle effective mass follows the scaling\n      $$\n      M^{*}(B)\\propto\\frac{1}{\\sqrt{B-B_{c0}}},\n      $$\n      where $B_{c0}$ denotes the critical magnetic field that tunes the field-induced quantum critical point to $T=0$ and the proportionality holds for $B\\gtrsim B_{c0}$ within the reconstruction model discussed.",
+      "content_hash": "a0e70b250c1505b7fc1920f8bf799eb6e4ffc07f098c20f14bbe65e1f2a5c188",
+      "id": "gcn_d6a5f201e3874105",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "An applied magnetic field $B$ destroys the fermion-condensate configuration and restores Landau-Fermi-liquid (LFL) behavior at low temperatures; an infinitesimal field $B\\ge B_{c0}$ splits the flat band and, in the low-temperature LFL regime, the dominant field dependence of the quasiparticle effective mass follows the scaling\n      $$\n      M^{*}(B)\\propto\\frac{1}{\\sqrt{B-B_{c0}}},\n      $$\n      where $B_{c0}$ denotes the critical magnetic field that tunes the field-induced quantum critical point to $T=0$ and the proportionality holds for $B\\gtrsim B_{c0}$ within the reconstruction model discussed.",
+              "id": "gcn_d6a5f201e3874105"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_0be37a3aeb4e416b",
+            "premises": [
+              {
+                "content": "Let $B$ denote an external magnetic field and consider its coupling to fermionic degrees of freedom through Zeeman and orbital terms. The proposition is: the leading-field dependence of the energy gain $\\Delta E_B$ associated with suppressing a fermion-condensate configuration (i.e. converting a flat-band occupation $n(p)$ into a field-polarized or Landau-split occupation) scales as\n$$\n\\Delta E_B\\propto B^2\n$$\nfor small $B$, i.e. the lowest-order nonzero contribution in $B$ is quadratic. This assumes time-reversal symmetric unbroken phases at $B=0$ so linear terms are absent and that no level crossings produce linear-in-$B$ contributions in the relevant field regime.",
+                "id": "gcn_abe634acd6b0427e"
+              },
+              {
+                "content": "Let $n(p)$ be a smooth quasiparticle occupation function on an interval $p_i\\le p\\le p_f$ forming a flat-band (fermion condensate). The proposition is: under application of a small magnetic field $B$ (with $B\\ge B_{c0}$, where $B_{c0}$ denotes the critical magnetic field that tunes the field-induced quantum critical point to $T=0$) the energetically favored reorganization of $n(p)$ can be represented, to leading approximation, by replacing the smooth $n(p)$ on $[p_i,p_f]$ with a multiconnected sequence of Heaviside-step (rectangular) blocks of unit height and zero height (fully occupied and empty regions), i.e. a set of alternating small Fermi pockets and gaps, which models splitting of the flat band into discrete Landau-level-like subbands. This is a modeling assumption that neglects microscopic energetics beyond the block construction and assumes such a coarse-grained picture captures the dominant field-induced reconstruction.\n      [21,27,28]",
+                "id": "gcn_9b35985b94dd4091"
+              },
+              {
+                "content": "Let $B$ denote an applied magnetic field and $B_{c0}$ a critical field parameter. Assuming the multiconnected rectangular-block model of the former flat-band region and that the characteristic scale of level splitting induced by $B-B_{c0}$ controls the inverse curvature (effective mass) of the reconstructed dispersion, the proposition is: the quasiparticle effective mass in the restored Landau-Fermi-liquid regime scales as\n$$\nM^*(B)\\propto\\frac{1}{\\sqrt{B-B_{c0}}}\n$$\nfor $B\\gtrsim B_{c0}$. This scaling assumes the block spacing or splitting energy is proportional to $(B-B_{c0})$ and the inverse-square-root relation emerges from geometric/kinematic estimates of density-of-states enhancement in the reconstructed pockets; it depends on the specific reconstruction model.\n      [20,28]",
+                "id": "gcn_20896977a51045de"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Take as starting assumption that a system with fermion condensate (FC) exists at $T=0$, characterized by a flat band over a momentum interval $p_i\\le p\\le p_f$ and corresponding large and strongly renormalized effective mass $M^{*}$. Define $B$ as the applied external magnetic field and $B_{c0}$ as the critical magnetic field that tunes the magnetic-field–induced quantum critical point (QCP) to $T=0$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the energetic competition under application of a magnetic field: the magnetic-field-induced energy gain from destroying the FC state is parametrically $\\Delta E_{B}\\propto B^{2}$ (energy gain from Zeeman and Landau splitting), which vanishes as $B\\to 0$. Meanwhile, the FC configuration with smooth $n(p)$ on $p_i\\le p\\le p_f$ yields a finite ground-state energy gain relative to a normal Fermi liquid. Therefore even an infinitesimal field tends to lift the degeneracy of the flat band by reorganizing the momentum occupation to maximize energy gain.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Describe the reconstruction of the momentum distribution in presence of $B\\neq 0$: the smooth occupation $n(p)$ in the FC interval is replaced by a multiconnected Fermi surface consisting of a sequence of rectangular blocks (Heaviside step functions), i.e. a set of small fully occupied and empty momentum regions. This multiconnected structure supports Landau-level-like splitting of the formerly flat band and restores well-defined quasiparticle excitations characteristic of a Landau-Fermi liquid (LFL) at low temperatures.\n[20,21,27,28]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "From the above reconstructed LFL state, assert the principal field-dependence of the effective mass: denote the effective mass in the field-induced LFL regime by $M^{*}(B)$ and state the dominant scaling provided by the authors,\n$$\nM^{*}(B)\\propto\\frac{1}{\\sqrt{B-B_{c0}}},\n$$\nso that $M^{*}(B)$ diverges as $B\\to B_{c0}^{+}$ and decreases with increasing $B$ in the LFL regime. This scaling captures that infinitesimal $B\\ge B_{c0}$ splits the flat band and reduces the mass from its FC-enhanced value.\n[20,28]",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Experiments probing the normal state of HTSC and HF metals under strong magnetic fields observe a crossover from NFL to LFL behavior and a pronounced field dependence of quasiparticle properties, but without an explicit mechanism connecting field-tuned suppression of correlated order to the mass renormalization form. Conventional treatments do not predict a universal singular field law for $M^*(B)$ emerging from the destruction of a flat spectral region. The relation above identifies how the destruction of FC by $B$ produces an LFL with a characteristic square-root singularity in $M^*(B)$, thereby providing a quantitative account of the field-induced reentrance of LFL behavior and of why substantial fields are needed to expose the underlying QCP which is otherwise hidden by superconductivity.",
+            "id": "paper:811880085639397376::conclusion_5_subproblem",
+            "source_package": "paper:811880085639397376"
+          }
+        ],
+        "source_package": "paper:811880085639397376"
+      }
+    ],
+    "papers": {
+      "paper:811880085639397376": {
+        "area": "Physics and Astrophysics",
+        "authors": "V.R. Shaginyan | M.Ya. Amusia | K.G. Popov | V.A. Stephanovich",
+        "available_online": "",
+        "cover_date_start": "2009-02-01",
+        "created_at": "2022-12-20T00:41:37+08:00",
+        "doi": "10.1016/j.physleta.2008.12.022",
+        "en_title": "Quantum critical point in high-temperature superconductors",
+        "id": "811880085639397376",
+        "keywords": "[{\"ch_name\":\"重费米子金属\",\"en_name\":\"Heavy-fermion metals\"},{\"ch_name\":\"高温超导\",\"en_name\":\"High-temperature superconductivity\"},{\"ch_name\":\"量子临界性\",\"en_name\":\"Quantum criticality\"}]",
+        "publication_date": "2009-2",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "高温超导体中的量子临界点"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "27f1abb96f71ee04178cce310f136f2f"
+}

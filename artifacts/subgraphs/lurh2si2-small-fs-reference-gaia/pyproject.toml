@@ -1,0 +1,20 @@
+[project]
+name = "lurh2si2-small-fs-reference-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for the LuRh2Si2 small-Fermi-surface reference used to reinterpret YbRh2Si2 dHvA measurements."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "f111713c-31e0-4b07-a609-3528529e3823"
+generated_by = "lkm-to-gaia"
+generated_from_search = "narrow target root evidence JSON for LuRh2Si2 small-Fermi-surface reference and YbRh2Si2 dHvA reinterpretation"
+generated_from_roots = ["gcn_2b8dd97abcb44d53"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lurh2si2_small_fs_reference"]

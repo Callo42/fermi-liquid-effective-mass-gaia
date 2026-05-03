@@ -1,0 +1,329 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811773737962569729": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Steffen Wirth | Niels Oeschler | Cornelius Krellner | Christoph Geibel | Frank Steglich | Sam MaQuilon | Zachary Fisk | Silke Paschen | Gertrud Zwicknagl",
+        "available_online": "2010-7-6",
+        "cover_date_start": "2010-07-06",
+        "created_at": "2022-12-19T17:39:01+08:00",
+        "doi": "10.1103/physrevb.82.035103",
+        "en_title": "Hall effect measurements and electronic structure calculations on YbRh 2 Si 2 and its reference compounds LuRh 2 Si 2 and YbIr 2 Si 2",
+        "id": "811773737962569729",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "对YbRh₂Si₂及其参考化合物LuRh₂Si₂和YbIr₂Si₂的霍尔效应测量与电子结构计算"
+      },
+      "paper:812036747075518464": {
+        "area": "Physics and Astrophysics",
+        "authors": "G. Knebel | R. Boursier | E. Hassinger | G. Lapertot | P. G. Niklowitz | A. Pourret | B. Salce | J. P. Sanchez | I. Sheikin | P. Bonville | H. Harima | J. Flouquet",
+        "available_online": "",
+        "cover_date_start": "2006-11-15",
+        "created_at": "2022-12-20T11:04:07+08:00",
+        "doi": "10.1143/jpsj.75.114709",
+        "en_title": "Localization of 4 f State in YbRh 2 Si 2 under Magnetic Field and High Pressure: Comparison with CeRh 2 Si 2",
+        "id": "812036747075518464",
+        "keywords": "",
+        "publication_date": "2006-11-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "磁场和高压下YbRh₂Si₂中4f态的局域化：与CeRh₂Si₂的比较"
+      },
+      "paper:812075872520503296": {
+        "area": "Physics and Astrophysics",
+        "authors": "Shin-ichi Fujimori | Atsushi Fujimori | Kenya Shimada | Takamasa Narimura | Kenichi Kobayashi | Hirofumi Namatame | Masaki Taniguchi | Hisatomo Harima | Hiroaki Shishido | Shugo Ikeda | Dai Aoki | Yoshifumi Tokiwa | Yoshinori Haga | Yoshichika Ōnuki",
+        "available_online": "2006-6-20",
+        "cover_date_start": "2006-06-20",
+        "created_at": "2022-12-20T13:39:36+08:00",
+        "doi": "10.1103/physrevb.73.224517",
+        "en_title": "Direct observation of a quasiparticle band in Ce Ir In 5 : An angle-resolved photoemission spectroscopy study",
+        "id": "812075872520503296",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "CeIrIn₅中准粒子能带的直接观测：一项角分辨光电子能谱研究"
+      },
+      "paper:812115331915972609": {
+        "area": "Physics and Astrophysics",
+        "authors": "A. Galatanu | Etsuji Yamamoto | Yoshinori Haga | Yoshichika Ōnuki",
+        "available_online": "",
+        "cover_date_start": "2006-05-01",
+        "created_at": "2022-12-20T16:16:23+08:00",
+        "doi": "10.1016/j.physb.2006.01.383",
+        "en_title": "Magnetic behaviour of at high temperatures",
+        "id": "812115331915972609",
+        "keywords": "[{\"en_name\": \"Heavy fermion\", \"ch_name\": \"\"}, {\"en_name\": \"Spin fluctuations\", \"ch_name\": \"\"}, {\"en_name\": \"Static magnetic susceptibility\", \"ch_name\": \"\"}, {\"en_name\": \"UB<sub>4</sub>\", \"ch_name\": \"\"}]",
+        "publication_date": "2006-5",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "",
+        "zh_title": "高温下的磁性行为"
+      },
+      "paper:812300306078498816": {
+        "area": "Physics and Astrophysics",
+        "authors": "Haruhisa Ikezawa | Rikio Settai | Masahiro Takashita | Noriaki Kimura | Takao Ebihara | Hitoshi Sugawara | Kazuyuki Motoki | Yoshichika Ōnuki | Tadashi Fukuhara | Kunihiko Maezawa",
+        "available_online": "",
+        "cover_date_start": "1995-09-15",
+        "created_at": "2022-12-21T04:31:25+08:00",
+        "doi": "10.1143/jpsj.64.3422",
+        "en_title": "Magnetoresistance and de Haas-van Alphen Effect in YRu 2 Si 2",
+        "id": "812300306078498816",
+        "keywords": "",
+        "publication_date": "1995-9-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "",
+        "zh_title": "YRu₂Si₂中的磁电阻和德哈斯-范阿尔芬效应"
+      },
+      "paper:812446393976225792": {
+        "area": "Physics and Astrophysics",
+        "authors": "S.R. Julian | F.S. Tautz | G.J. McMullan | G.G. Lonzarich",
+        "available_online": "",
+        "cover_date_start": "1994-04-01",
+        "created_at": "2022-12-21T14:11:56+08:00",
+        "doi": "10.1016/0921-4526(94)91738-8",
+        "en_title": "Quantum oscillation measurements of band magnetism in UPt3 and CeRu2Si2",
+        "id": "812446393976225792",
+        "keywords": "",
+        "publication_date": "1994-4",
+        "publication_id": "615",
+        "publication_name": "Physica B: Condensed Matter _ Physica B: Condensed Matter",
+        "research_categories": "",
+        "zh_title": "UPt₃和CeRu₂Si₂中能带磁性的量子振荡测量"
+      },
+      "paper:867757789622042872": {
+        "area": "arXiv-Physics",
+        "authors": "P.M.C. Rourke | A. McCollam | G. Lapertot | G. Knebel | J. Flouquet | S.R. Julian",
+        "available_online": "",
+        "cover_date_start": "2008-07-23",
+        "created_at": "2023-05-23T05:19:39+08:00",
+        "doi": "10.48550/arXiv.0807.3726",
+        "en_title": "The high-field Fermi surface of YbRh2Si2",
+        "id": "867757789622042872",
+        "keywords": "",
+        "publication_date": "2008-07-23",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "YbRh₂Si₂的高场费米面"
+      },
+      "paper:867761295154217007": {
+        "area": "arXiv-Physics",
+        "authors": "Sven Friedemann | Swee K Goh | Patrick M C Rourke | Pascal Reiss | Michael L Sutherland | F Malte Grosche | Gertrud Zwicknagl | Zachary Fisk",
+        "available_online": "",
+        "cover_date_start": "2013-05-20",
+        "created_at": "2023-05-23T05:33:35+08:00",
+        "doi": "10.48550/arXiv.1305.4555",
+        "en_title": "Electronic Structure of LuRh2Si2: \"Small\" Fermi Surface Reference to YbRh2Si2",
+        "id": "867761295154217007",
+        "keywords": "",
+        "publication_date": "2013-05-20",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "镥铑硅化物（LuRh₂Si₂）的电子结构：与镱铑硅化物（YbRh₂Si₂）的“小”费米面比较 "
+      }
+    },
+    "variables": [
+      {
+        "content": "The de Haas–van Alphen frequencies and cyclotron masses reported for YbRh2Si2 are measured in steady magnetic fields between 12 T and 28 T, field strengths at which magnetic polarization, suppression of correlations, or field-driven band shifts can modify band energies and quasiparticle renormalization; therefore the high-field dHvA spectrum obtained at these fields can differ from the zero- or low-field Fermi surface that is relevant for quantum‑critical‑point physics.\n      Fig.7; Fig.8",
+        "content_hash": "ca62602c47396119966a5eaaa76d0167d452d081348d6a80ee788e4852cd1d4e",
+        "id": "gcn_5501e18a04cc458e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812036747075518464::P5",
+            "package_id": "paper:812036747075518464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812036747075518464"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03076923076923077,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The interpretation that abrupt or large Hall‑voltage variations in YbRh2Si2 reflect strong sensitivity of multiband effective masses to minute changes in the 4f occupation number n_f (instead of a topological small‑to‑large Fermi‑surface jump) is plausible by analogy to CeRh2Si2 and by the measured multiband de Haas–van Alphen spectrum, but the present data set lacks simultaneous low‑temperature measurements of the Hall effect, thermodynamic quantities, and complete quantum‑oscillation mapping across the field‑driven quantum‑critical point and under pressure that would be required to decisively distinguish a mass‑weighting scenario from a genuine abrupt Fermi‑surface reconstruction.\n      Fig.29; Fig.30; Fig.31",
+        "content_hash": "b582b6672bcc6ac332a021eb80a1d1748524be36fce21bbf924e7bd590605824",
+        "id": "gcn_cc89c28994174a59",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812036747075518464::P12",
+            "package_id": "paper:812036747075518464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812036747075518464"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025974025974025976,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In UB$_{4}$, observations of de Haas–van Alphen (dHvA) quantum-oscillation frequencies and measured effective cyclotron masses that are interpretable within a renormalized electronic band-structure framework imply that, at low temperatures well below the susceptibility maxima, uranium $5f$ electrons contribute to the Fermi surface and participate in itinerant electronic states; here \"de Haas–van Alphen quantum oscillations\" denotes oscillations of the magnetization as a function of inverse magnetic field that reveal Fermi-surface cross-sectional areas and effective cyclotron masses (measured cyclotron masses reported for UB$_{4}$ are in the range approximately $3$ to $14.1\\ m_{0}$, where $m_{0}$ is the free-electron mass), and \"itinerant participation\" is defined as quasiparticle states crossing the Fermi level having appreciable $5f$ character and quantum-oscillation data consistent with band-structure-derived Fermi-surface sheets rather than purely localized-moment physics.",
+        "content_hash": "5fdb71c530f58650b5e70b2eb2c0866019d4d8739225168212eb518e83593c85",
+        "id": "gcn_75d4481cecf54565",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812115331915972609::P6",
+            "package_id": "paper:812115331915972609",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812115331915972609"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "De Haas–van Alphen quantum-oscillation measurements performed on high-quality YbRh2Si2 single crystals in steady magnetic fields between 12 T and 28 T with the field applied along the crystallographic a axis (H ∥ a) reveal four clear fundamental frequencies of 2730 T, 3510 T, 5370 T and 7050 T and corresponding cyclotron effective masses m* = (15.0 ± 0.7) m_e, (8.4 ± 0.2) m_e, (10.1 ± 0.2) m_e and (14.9 ± 0.9) m_e (m_e is the free-electron mass); the angular dependence of these measured frequencies in the basal plane is inconsistent with the angular dependences calculated within local‑density‑approximation (LDA) full‑potential augmented‑plane‑wave (FLAPW) band-structure calculations that assume fully itinerant 4f electrons for Yb, whereas the measured angular dependence shows qualitative resemblance to LDA calculations performed for LuRh2Si2 (where 4f states lie well below the Fermi energy), so that the measured oscillation spectrum and effective masses provide the first experimental Fermi-surface information for YbRh2Si2 and reveal a significant mismatch with one set of itinerant-4f band-structure predictions.",
+        "content_hash": "c383d01f0a0c518ae518a492ecfdf174072ccadab375fc9d02fdd2cf4a347fd4",
+        "id": "gcn_c38f8ce989fd454a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812036747075518464::conclusion_4",
+            "package_id": "paper:812036747075518464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812036747075518464"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For CeIrIn$_5$, de Haas-van Alphen measurements report a small spherical Fermi-surface branch with quasiparticle effective mass $m^{*}=6.3\\,m_{0}$, and an LDA calculation gives a corresponding band mass $m_{b}=0.64\\,m_{0}$ for a band believed to generate that branch. Identifying the observed de Haas-van Alphen branch with that calculated band yields an effective-mass enhancement factor $m^{*}/m_{b}\\approx 6.3/0.64\\approx 9.8\\sim 10$, which serves as a measure of many-body mass renormalization for that band.\nPaper text and Ref. [12]",
+        "content_hash": "2367170b73c5ebcccc97d9a1f7fc223c7b5afe6ff1befacbb005226b09c660cc",
+        "id": "gcn_ccf6563d857e4547",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812075872520503296::P14",
+            "package_id": "paper:812075872520503296",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812075872520503296"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Re-examination of published de Haas–van Alphen measurements on YbRh_{2}Si_{2}, using the refined LuRh_{2}Si_{2} \"small\" Fermi-surface reference computed with z_{Si}=0.379\\,c and accounting for the strong tendency to generate harmonics and mixed frequencies observed in LuRh_{2}Si_{2}, shows that the published spectral peaks between \\approx5\\ \\mathrm{kT} and \\approx7\\ \\mathrm{kT} can be mapped onto second (and in some cases higher) harmonics of lower-frequency fundamental branches observed below 4\\ \\mathrm{kT} (the angular dependences and, in two of three reported cases, the effective-mass scalings are consistent with this harmonic assignment as compiled from the published frequency and mass data); this reclassification reduces the set of independent fundamental frequencies in the published YbRh_{2}Si_{2} data to a group below 4\\ \\mathrm{kT} and a distinct high-frequency fundamental near \\sim14\\ \\mathrm{kT}, and because the refined \"small\" Fermi-surface LDA/GGA calculation with Yb 4f treated as core-like (non-hybridizing) does not predict an extremal orbit near \\sim14\\ \\mathrm{kT} for fields along the (100) direction, the presence of an independent \\sim14\\ \\mathrm{kT} fundamental in the experimental dHvA data supports the interpretation that Yb 4f electrons contribute itinerantly to the Fermi surface under the measurement conditions (high magnetic fields) rather than being fully localized.",
+        "content_hash": "61ef378b45e0364c08910b3ea166b1e20a2104449737edb8f80e8755e32d2e30",
+        "id": "gcn_2b8dd97abcb44d53",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761295154217007::conclusion_7",
+            "package_id": "paper:867761295154217007",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761295154217007"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Given a computed band-structure energy eigenvalue field E_n(k) over the Brillouin zone for YbRh2Si2, the numerical algorithm used to identify extremal Fermi-surface cross-sectional areas and convert them to predicted de Haas–van Alphen frequencies via the Onsager relation F = (\\hbar/2\\pi e) A_ext yields accurate predictions of the angular dependence F(θ) for each Fermi-surface sheet provided the underlying band energies are sufficiently smooth and the k-space discretization resolves the extremal orbits; the algorithm's accuracy may be degraded if bands are extremely flat or if multiple nearly-degenerate sheets exist within the discretization error.\n      Rourke P M C and Julian S R Numerical extraction of de Haas-van Alphen frequencies from calculated band energies (Preprint arXiv:0803.1895)",
+        "content_hash": "aa4123618d0dc2ca7cd7c8b18151577948164b2d586d967892f227f602902fb2",
+        "id": "gcn_a0f3f83be1054bd3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757789622042872::P8",
+            "package_id": "paper:867757789622042872",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757789622042872"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The principal hole Fermi surface in the stoichiometric tetragonal compound YRu₂Si₂, denoted α (identified with band 14 in relativistic augmented‑plane‑wave band-structure nomenclature), is an approximately ellipsoidal closed sheet centered at the Z point of the Brillouin zone and occupies about one half of the primitive Brillouin‑zone volume. de Haas–van Alphen (dHvA) measurements give the extremal frequencies and cyclotron effective masses for the α sheet as follows: for an applied magnetic field H aligned parallel to the crystallographic [001] axis (H∥[001]), the dHvA frequency is F = 27.0×10^7 Oe and the cyclotron mass is m_c* = 3.74 m0; for H aligned parallel to [100] (H∥[100]), F = 15.2×10^7 Oe and m_c* = 1.99 m0. Here m0 denotes the free‑electron mass and the dHvA frequency F is the Onsager frequency corresponding to the extremal cross‑sectional area of the Fermi surface perpendicular to H; these numerical dHvA parameters quantify the size and effective mass of the main hole sheet in YRu₂Si₂.",
+        "content_hash": "43264182fd79001def40f9ea6ab79e85016e98c04799b035335028f65f137754",
+        "id": "gcn_3e19e134b13c4b77",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812300306078498816::conclusion_1",
+            "package_id": "paper:812300306078498816",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812300306078498816"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In CeRu2Si2, quantum-oscillation (de Haas–van Alphen and Shubnikov–de Haas) studies in the paramagnetic low-field state reveal the coexistence of both light and heavy quasiparticle excitations; a phenomenological renormalised-band model that introduces a single, momentum-independent fitting parameter (the average thermal mass m_th) reproduces the observed orientation dependence of measured cyclotron effective masses and predicts a very large heavy \"hole\" Fermi-surface sheet whose low-minimum-mass cross-section along [100] and high-mass directions along [110] were subsequently observed in de Haas–van Alphen measurements.",
+        "content_hash": "5f9ad020136578cea5bb8fc2770f3c1211077b6e9a24410e5a52bdc4c3dace3c",
+        "id": "gcn_a054d81906ab4353",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812446393976225792::conclusion_4",
+            "package_id": "paper:812446393976225792",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812446393976225792"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and −0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum — which enters the numerator of the low-field Hall coefficient in the Boltzmann formula — is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ≈ 290 states/(eV·unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient γ ≈ 680 mJ·mol^−1·K^−2, while for YbIr2Si2 the RBC gives N(E_F) ≈ 48 states/(eV·unit cell) and γ ≈ 113 mJ·mol^−1·K^−2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+        "content_hash": "a95e4819f19d7273968a94f9ad7b2b383c122d4fbf8278cc6cf67eec1bd1e6e2",
+        "id": "gcn_42a4ff7fd004413f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811773737962569729::conclusion_3",
+            "package_id": "paper:811773737962569729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811773737962569729"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "ba26ca5d302fd8b9eccdcc24819045a2"
+}

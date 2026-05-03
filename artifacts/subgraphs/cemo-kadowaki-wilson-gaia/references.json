@@ -1,0 +1,42 @@
+{
+  "Paramanik2013": {
+    "type": "article-journal",
+    "title": "Valence fluctuation in CeMo2Si2C",
+    "DOI": "10.1016/j.jallcom.2013.05.169",
+    "container-title": "Journal of Alloys and Compounds",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Paramanik",
+        "given": "U.B."
+      },
+      {
+        "family": "Anupam",
+        "given": ""
+      },
+      {
+        "family": "Burkhardt",
+        "given": "U."
+      },
+      {
+        "family": "Prasad",
+        "given": "R."
+      },
+      {
+        "family": "Geibel",
+        "given": "C."
+      },
+      {
+        "family": "Hossain",
+        "given": "Z."
+      }
+    ]
+  }
+}

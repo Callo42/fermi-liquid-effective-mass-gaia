@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:bf101fbccc8d5c19ab5eaece813679aa62f7293f29e42865662f74499b9aaec5",
+  "manifest_schema_version": 1,
+  "package": "ybrh2si2-dhva-mass",
+  "premises": [
+    {
+      "content": "In Knebel et al. 2006, the YbRh2Si2 de Haas-van Alphen frequencies and cyclotron masses are measured on high-quality single crystals in steady fields from 12 T to 28 T with H parallel to the crystallographic a axis; because such high fields can polarize the system, suppress correlations, or shift bands, this high-field dHvA spectrum need not coincide with the zero- or low-field Fermi surface most directly relevant to the YbRh2Si2 quantum-critical regime [@Knebel2006].",
+      "content_hash": "24cd3d9dc0be49378f7b0a29a6549068af61b58de535cdd34a0e7cf09b7f7f78",
+      "exported": false,
+      "interface_hash": "sha256:3906a439ab3983d196e8ccddf4b820725e11287451ecaf0440297827818a8016",
+      "label": "gcn_5501e18a_high_field_dhva_scope",
+      "qid": "github:ybrh2si2_dhva_mass::gcn_5501e18a_high_field_dhva_scope",
+      "required_by": [
+        "github:ybrh2si2_dhva_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For YbRh2Si2, Knebel et al. 2006 report that LDA/FLAPW band-structure calculations with all 4f electrons treated as itinerant are sensitive to calculational details and to the assumed 4f energy position, making the predicted 4f-derived Fermi-surface topology and angular dependence unreliable enough that an experiment-theory mismatch need not by itself prove intrinsic 4f localization [@Knebel2006].",
+      "content_hash": "ba3b695ab2f58430e5b7cea1b81374f51be4aa93447cd291a95f73c50a552ba7",
+      "exported": false,
+      "interface_hash": "sha256:626d5083054bfeef9bae9cd6f8aea54b106d9f67bf420522a4b6aba659756db5",
+      "label": "gcn_f20b1f42_itinerant_4f_lda_sensitivity",
+      "qid": "github:ybrh2si2_dhva_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity",
+      "required_by": [
+        "github:ybrh2si2_dhva_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

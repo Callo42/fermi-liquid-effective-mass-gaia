@@ -1,0 +1,20 @@
+[project]
+name = "kondo-brinkman-rice-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for Kondo-lattice Brinkman-Rice Fermi-liquid fixed-point evidence."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "7e5f9d9f-03e2-4fdb-a928-cbed1b91a338"
+generated_by = "lkm-to-gaia"
+generated_from_search = "narrow root evidence JSON: kondo lattice Brinkman-Rice finite Stoner enhancement"
+generated_from_roots = ["gcn_7ae79f122f1c4fcb"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kondo_brinkman_rice"]

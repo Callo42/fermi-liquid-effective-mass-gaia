@@ -1,0 +1,71 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.6548896000000001,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::__conjunction_result_81277638",
+      "label": "__conjunction_result_81277638"
+    },
+    {
+      "belief": 0.84,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::gcn_5501e18a_high_field_dhva_scope",
+      "label": "gcn_5501e18a_high_field_dhva_scope"
+    },
+    {
+      "belief": 0.81045041488,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "label": "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity",
+      "label": "gcn_f20b1f42_itinerant_4f_lda_sensitivity"
+    },
+    {
+      "belief": 0.8639732813226081,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch",
+      "label": "helper_dhva_angular_dependence_itinerant_lda_mismatch"
+    },
+    {
+      "belief": 0.8639732813226081,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::helper_dhva_first_fs_information_scope",
+      "label": "helper_dhva_first_fs_information_scope"
+    },
+    {
+      "belief": 0.8639732813226081,
+      "knowledge_id": "github:ybrh2si2_dhva_mass::helper_dhva_frequencies_masses_h_parallel_a",
+      "label": "helper_dhva_frequencies_masses_h_parallel_a"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:ybrh2si2_dhva_mass::__conjunction_result_81277638": [
+        0.6548896000000001
+      ],
+      "github:ybrh2si2_dhva_mass::gcn_5501e18a_high_field_dhva_scope": [
+        0.84
+      ],
+      "github:ybrh2si2_dhva_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch": [
+        0.81045041488
+      ],
+      "github:ybrh2si2_dhva_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity": [
+        0.78
+      ],
+      "github:ybrh2si2_dhva_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch": [
+        0.8639732813226081
+      ],
+      "github:ybrh2si2_dhva_mass::helper_dhva_first_fs_information_scope": [
+        0.8639732813226081
+      ],
+      "github:ybrh2si2_dhva_mass::helper_dhva_frequencies_masses_h_parallel_a": [
+        0.8639732813226081
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:bf101fbccc8d5c19ab5eaece813679aa62f7293f29e42865662f74499b9aaec5"
+}

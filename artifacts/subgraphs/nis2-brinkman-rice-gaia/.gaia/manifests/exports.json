@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In NiS2 pressurized to approximately 3.8 GPa, the simultaneous observation of a large Fermi-surface cross-sectional area, specifically the 6.03 kT belly orbit, and a strongly enhanced quasiparticle effective mass m* = 6(2) m_e is consistent with the Brinkman-Rice picture of a correlated Fermi liquid near a Mott insulator: coherent heavy quasiparticles retain the uncorrelated-band Fermi-surface volume while quasiparticle spectral weight Z and quasiparticle velocities are strongly reduced [@Friedemann2016].",
+      "content_hash": "d552c1b2580a8e9820d7c11678c1714bcc69d2453a7d1de95cd71206455b6612",
+      "label": "gcn_29401e42_nis2_brinkman_rice",
+      "qid": "github:nis2_brinkman_rice::gcn_29401e42_nis2_brinkman_rice",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:e78e2074badecc45e64de626cdb5dbc192111a4e5d0a07c199eb467799f58fa5",
+  "manifest_schema_version": 1,
+  "package": "nis2-brinkman-rice",
+  "version": "0.1.0"
+}

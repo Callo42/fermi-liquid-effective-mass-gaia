@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:e78e2074badecc45e64de626cdb5dbc192111a4e5d0a07c199eb467799f58fa5",
+  "manifest_schema_version": 1,
+  "package": "nis2-brinkman-rice",
+  "version": "0.1.0"
+}

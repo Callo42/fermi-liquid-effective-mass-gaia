@@ -132,5 +132,267 @@
         "given": "Gertrud"
       }
     ]
+  },
+  "Knebel2006": {
+    "type": "article-journal",
+    "id": "Knebel2006",
+    "title": "Localization of 4 f State in YbRh 2 Si 2 under Magnetic Field and High Pressure: Comparison with CeRh 2 Si 2",
+    "DOI": "10.1143/jpsj.75.114709",
+    "container-title": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          11,
+          15
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Knebel",
+        "given": "G."
+      },
+      {
+        "family": "Boursier",
+        "given": "R."
+      },
+      {
+        "family": "Hassinger",
+        "given": "E."
+      },
+      {
+        "family": "Lapertot",
+        "given": "G."
+      },
+      {
+        "family": "Niklowitz",
+        "given": "P. G."
+      },
+      {
+        "family": "Pourret",
+        "given": "A."
+      },
+      {
+        "family": "Salce",
+        "given": "B."
+      },
+      {
+        "family": "Sanchez",
+        "given": "J. P."
+      },
+      {
+        "family": "Sheikin",
+        "given": "I."
+      },
+      {
+        "family": "Bonville",
+        "given": "P."
+      },
+      {
+        "family": "Harima",
+        "given": "H."
+      },
+      {
+        "family": "Flouquet",
+        "given": "J."
+      }
+    ]
+  },
+  "Friedemann2013": {
+    "type": "article",
+    "id": "Friedemann2013",
+    "title": "Electronic Structure of LuRh2Si2: \"Small\" Fermi Surface Reference to YbRh2Si2",
+    "DOI": "10.48550/arXiv.1305.4555",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Friedemann",
+        "given": "Sven"
+      },
+      {
+        "family": "Goh",
+        "given": "Swee K"
+      },
+      {
+        "family": "Rourke",
+        "given": "Patrick M C"
+      },
+      {
+        "family": "Reiss",
+        "given": "Pascal"
+      },
+      {
+        "family": "Sutherland",
+        "given": "Michael L"
+      },
+      {
+        "family": "Grosche",
+        "given": "F Malte"
+      },
+      {
+        "family": "Zwicknagl",
+        "given": "Gertrud"
+      },
+      {
+        "family": "Fisk",
+        "given": "Zachary"
+      }
+    ]
+  },
+  "Anderson1984": {
+    "type": "article-journal",
+    "id": "Anderson1984",
+    "title": "Heavy-electron superconductors, spin fluctuations, and triplet pairing",
+    "DOI": "10.1103/physrevb.30.1549",
+    "container-title": "Physical Review B _ Phys. Rev. B",
+    "issued": {
+      "date-parts": [
+        [
+          1984,
+          8,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "P. W."
+      }
+    ]
+  },
+  "Capone2001": {
+    "type": "article-journal",
+    "title": "Direct Transition Between a Singlet Mott Insulator and a Superconductor",
+    "DOI": "10.48550/arXiv.cond-mat/0101402",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          1,
+          26
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Capone",
+        "given": "M."
+      },
+      {
+        "family": "Fabrizio",
+        "given": "M."
+      },
+      {
+        "family": "Tosatti",
+        "given": "E."
+      }
+    ]
+  },
+  "Friedemann2016": {
+    "type": "article-journal",
+    "title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
+    "DOI": "10.1038/srep25335",
+    "container-title": "Scientific Reports",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Friedemann",
+        "given": "S."
+      },
+      {
+        "family": "Chang",
+        "given": "H."
+      },
+      {
+        "family": "Gamza",
+        "given": "M. B."
+      },
+      {
+        "family": "Reiss",
+        "given": "P."
+      },
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Alireza",
+        "given": "P."
+      },
+      {
+        "family": "Coniglio",
+        "given": "W. A."
+      },
+      {
+        "family": "Graf",
+        "given": "D."
+      },
+      {
+        "family": "Tozer",
+        "given": "S."
+      },
+      {
+        "family": "Grosche",
+        "given": "F. M."
+      }
+    ]
+  },
+  "Paramanik2013": {
+    "type": "article-journal",
+    "title": "Valence fluctuation in CeMo2Si2C",
+    "DOI": "10.1016/j.jallcom.2013.05.169",
+    "container-title": "Journal of Alloys and Compounds",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Paramanik",
+        "given": "U.B."
+      },
+      {
+        "family": "Anupam",
+        "given": ""
+      },
+      {
+        "family": "Burkhardt",
+        "given": "U."
+      },
+      {
+        "family": "Prasad",
+        "given": "R."
+      },
+      {
+        "family": "Geibel",
+        "given": "C."
+      },
+      {
+        "family": "Hossain",
+        "given": "Z."
+      }
+    ]
   }
 }

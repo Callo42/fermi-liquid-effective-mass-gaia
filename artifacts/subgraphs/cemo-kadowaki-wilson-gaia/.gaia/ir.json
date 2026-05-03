@@ -1,0 +1,421 @@
+{
+  "ir_hash": "sha256:93e28a84863d6f24d64d68b7dfb7b231a0d9e76acfbdd2e89b92609c48b38ccc",
+  "knowledges": [
+    {
+      "content": "For low-temperature correlated metals, the empirical Kadowaki-Woods diagnostic compares the resistivity coefficient A from rho(T)=rho_0 + A T^2 with the Sommerfeld coefficient gamma from C(T)=gamma T+..., and A/gamma^2 near 1e-5 muOmega cm (mol K/mJ)^2 is treated by the selected LKM chain as evidence for standard correlated Fermi-liquid phenomenology in heavy-fermion and valence-fluctuating materials [@Paramanik2013].",
+      "content_hash": "3e46f1dbc3a3d251ee91f6fd2d601d7a1489c196ce14193e742d9e6d966ca1da",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale",
+      "label": "gcn_2dc55af_kw_empirical_scale",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Paramanik2013"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2dc55af0490a4727",
+        "lkm_original": "For a correlated metal characterized at low temperatures by a resistivity coefficient A (defined via ρ(T) = ρ_0 + A T^2) and an electronic specific-heat coefficient γ (defined via C(T) = γ T + ...), the empirical Kadowaki–Woods observation is that the ratio A/γ^2 typically falls near the scale ≈ 1×10^−5 μΩ·cm·(mol·K/mJ)^2 for many heavy-fermion and valence-fluctuating materials, so that proximity of the measured A/γ^2 to this scale is evidence that the standard correlated Fermi-liquid phenomenology applies to the compound.\n      K. Kadowaki, S.B. Woods, Solid State Commun. 58 (1986) 507.",
+        "prior": 0.82,
+        "prior_justification": "The premise is a standard empirical correlated-metal diagnostic and is explicitly cited in the LKM chain, but the appropriate KW normalization can depend on degeneracy, carrier density, and material class; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:813219117229146113"
+      },
+      "module": "paper_paramanik2013",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For a metal with temperature-independent low-temperature molar susceptibility chi_FL and Sommerfeld coefficient gamma, the selected LKM chain treats the Wilson-Sommerfeld ratio R_W=(pi^2 k_B^2 chi_FL)/(gamma mu_eff^2) as a correlated-Fermi-liquid consistency check when mu_eff is normalized either to the Ce3+ free-ion moment 2.54 mu_B or to the conduction-electron reference value 1.73 mu_B [@Paramanik2013].",
+      "content_hash": "764f3140f694e72808fe32d82bfa3e0e4c2184c21389a53639fa8adec48068ef",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation",
+      "label": "gcn_7459a446_wilson_ratio_interpretation",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Paramanik2013"
+            ]
+          }
+        },
+        "lkm_id": "gcn_7459a44654dc416e",
+        "lkm_original": "For a metal with a temperature-independent low-temperature molar susceptibility χ_FL and Sommerfeld coefficient γ, the Wilson–Sommerfeld ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff an effective moment scale) is expected to be of order unity for a correlated Fermi liquid when μ_eff is taken either as the free-ion Ce^{3+} moment μ_eff = 2.54 μ_B (for a 4f^1, J = 5/2 ion) or as a conduction-electron reference value μ_eff = 1.73 μ_B; either choice therefore yields a physically interpretable R_W for judging Fermi-liquid consistency.",
+        "prior": 0.74,
+        "prior_justification": "The Wilson/Sommerfeld-ratio premise is grounded in the chain and gives both Ce3+ and conduction-electron normalizations, but the choice of mu_eff changes the numerical value substantially and remains a review-sensitive convention; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:813219117229146113"
+      },
+      "module": "paper_paramanik2013",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For CeMo2Si2C in Paramanik et al. 2013, the experimentally determined low-temperature coefficients A=2.57e-3 muOmega cm K^-2, gamma=23.4 mJ mol^-1 K^-2, and impurity-corrected chi_FL~=5.6e-4 emu mol^-1 give A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2 and Wilson-Sommerfeld estimates R_W~=0.81 using mu_eff=2.54 mu_B or R_W~=1.7 using mu_eff=1.73 mu_B; the selected LKM chain concludes that these Kadowaki-Woods and Wilson/Sommerfeld ratios are consistent with correlated Fermi-liquid phenomenology in the low-temperature state [@Paramanik2013].",
+      "content_hash": "665a7d170dd45a78f7b25a9e4daaf9fecb3eeec6ff72c5c5749b8faf5c6f2f54",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "label": "gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Paramanik2013"
+            ]
+          }
+        },
+        "lkm_id": "gcn_bc46d7d5f5284a0e",
+        "lkm_original": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:813219117229146113"
+      },
+      "module": "paper_paramanik2013",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For CeMo2Si2C in Paramanik et al. 2013, substituting A=2.57e-3 muOmega cm K^-2 and gamma=23.4 mJ mol^-1 K^-2 gives A/gamma^2~=0.5e-5 muOmega cm (mol K/mJ)^2, which the selected LKM chain describes as essentially the original Kadowaki-Woods scale for heavy-fermion and valence-fluctuating systems [@Paramanik2013].",
+      "content_hash": "6d7a838bac4e9a44a8dc5d9214a0ca0ca382076b4f56cf5b9740c9c5c0e6a8eb",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale",
+      "label": "helper_cemo_kw_ratio_original_scale",
+      "metadata": {
+        "decomposition_of": "gcn_bc46d7d5f5284a0e",
+        "derived_from_lkm_ids": [
+          "gcn_bc46d7d5f5284a0e"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Paramanik2013"
+            ]
+          }
+        },
+        "lkm_original": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_paramanik2013",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For CeMo2Si2C in Paramanik et al. 2013, using chi_FL~=5.6e-4 emu mol^-1 and gamma=23.4 mJ mol^-1 K^-2 in R_W=(pi^2 k_B^2 chi_FL)/(gamma mu_eff^2) gives R_W~=0.81 for mu_eff=2.54 mu_B and R_W~=1.7 for mu_eff=1.73 mu_B, and the selected LKM chain treats both normalizations as physically interpretable correlated-Fermi-liquid estimates [@Paramanik2013].",
+      "content_hash": "b5f824e6cdb8aac44693187b30d644e37fcd29b5022a02a3dbb853b92922b754",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference",
+      "label": "helper_cemo_wilson_ratio_dual_reference",
+      "metadata": {
+        "decomposition_of": "gcn_bc46d7d5f5284a0e",
+        "derived_from_lkm_ids": [
+          "gcn_bc46d7d5f5284a0e"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Paramanik2013"
+            ]
+          }
+        },
+        "lkm_original": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_paramanik2013",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For CeMo2Si2C, the selected LKM chain uses agreement of both empirical diagnostics--A/gamma^2 near the original Kadowaki-Woods scale and Wilson-Sommerfeld ratios of order unity under the two stated mu_eff normalizations--to support the narrower conclusion that low-temperature susceptibility, specific heat, and T^2 resistivity are mutually consistent with correlated Fermi-liquid phenomenology [@Paramanik2013].",
+      "content_hash": "b9ecd69c79eaf94add01161ebed7fba8da589e3d7141ce34254c9252bf9ae76a",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl",
+      "label": "helper_cemo_ratio_consistency_correlated_fl",
+      "metadata": {
+        "decomposition_of": "gcn_bc46d7d5f5284a0e",
+        "derived_from_lkm_ids": [
+          "gcn_bc46d7d5f5284a0e"
+        ],
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Paramanik2013"
+            ]
+          }
+        },
+        "lkm_original": "Combining the experimentally determined low-temperature resistivity coefficient A = 2.57×10^−3 μΩ·cm·K^−2 and the Sommerfeld coefficient γ = 23.4 mJ mol^−1 K^−2 yields the empirical Kadowaki–Woods ratio A/γ^2 ≈ 0.5×10^−5 μΩ·cm·(mol·K/mJ)^2, comparable to the original Kadowaki–Woods scale observed in many heavy-fermion and valence-fluctuating systems. Using the low-temperature impurity-corrected molar susceptibility value χ_FL ≈ 5.6×10^−4 emu mol^−1 and the measured γ in the Sommerfeld–Wilson ratio defined as R_W = (π^2 k_B^2 χ_FL) / (γ μ_eff^2) (with k_B the Boltzmann constant and μ_eff the effective moment) gives R_W ≈ 0.81 when μ_eff = 2.54 μ_B (the free-ion Ce^{3+} moment) is used, or R_W ≈ 1.7 when μ_eff = 1.73 μ_B (a conduction-electron reference value) is used; both R_W estimates lie in the range expected for correlated Fermi liquids and are therefore consistent with Fermi-liquid phenomenology in the low-temperature state.",
+        "provenance_source": "lkm_decomposition"
+      },
+      "module": "paper_paramanik2013",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale,github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation)",
+      "content_hash": "cdc9910610e950107e6aacb4c8af23281190155517c9550d5d9fac99deeaa7e0",
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::__conjunction_result_994ac851",
+      "label": "__conjunction_result_994ac851",
+      "metadata": {
+        "canonical_name": "all_true(github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale,github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_844a968b9e331abb",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:cemo_kadowaki_wilson::__conjunction_result_994ac851,github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency)",
+      "content_hash": "30a1ea291f726a6dbc1c97b386ea35be5f90dbc9ba09c9d7d5d9fc577c1606ed",
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::__implication_result_edfd62b3",
+      "label": "__implication_result_edfd62b3",
+      "metadata": {
+        "canonical_name": "implies(github:cemo_kadowaki_wilson::__conjunction_result_994ac851,github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_844a968b9e331abb",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency,github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale)",
+      "content_hash": "2f82a5d6f984183525547fd867b39cf0041c793be0a93cc320556431c8d175c1",
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::__implication_result_5f447abc",
+      "label": "__implication_result_5f447abc",
+      "metadata": {
+        "canonical_name": "implies(github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency,github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_69c4329b9cf11c20",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency,github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference)",
+      "content_hash": "9333ddd4deaec9a19304f64920e3d3ec2a04a987cfa1e6039edf4bb3bde719a9",
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::__implication_result_a1ea6f97",
+      "label": "__implication_result_a1ea6f97",
+      "metadata": {
+        "canonical_name": "implies(github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency,github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_6867eade9a68b174",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale,github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference)",
+      "content_hash": "faef988d6dcb9434c302f5daad448d1e399f571984a9de4887e2c53b593a2137",
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::__conjunction_result_35af4380",
+      "label": "__conjunction_result_35af4380",
+      "metadata": {
+        "canonical_name": "all_true(github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale,github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_da41c03776df5d65",
+        "owning_strategy_type": "support",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:cemo_kadowaki_wilson::__conjunction_result_35af4380,github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl)",
+      "content_hash": "03ca3a5f14865a9c366714550d954e42e0a0406f7ca2ed93d2b0e6aec49c4efd",
+      "exported": false,
+      "id": "github:cemo_kadowaki_wilson::__implication_result_4bad47a9",
+      "label": "__implication_result_4bad47a9",
+      "metadata": {
+        "canonical_name": "implies(github:cemo_kadowaki_wilson::__conjunction_result_35af4380,github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_da41c03776df5d65",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_paramanik2013"
+  ],
+  "module_titles": {
+    "paper_paramanik2013": "paper_paramanik2013 -- claims and deductions from Paramanik et al. 2013."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "cemo_kadowaki_wilson",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:cemo_kadowaki_wilson::__conjunction_result_994ac851",
+            "operator": "conjunction",
+            "variables": [
+              "github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale",
+              "github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation"
+            ]
+          },
+          {
+            "conclusion": "github:cemo_kadowaki_wilson::__implication_result_edfd62b3",
+            "operator": "implication",
+            "variables": [
+              "github:cemo_kadowaki_wilson::__conjunction_result_994ac851",
+              "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. This conclusion starts from the already established low-temperature transport coefficient $A=2.57\\times10^{-3}\\ \\mu\\Omega\\ \\mathrm{cm\\ K^{-2}}$ from the fit $\\rho(T)=\\rho_0+AT^2$, the Sommerfeld coefficient $\\gamma=23.4\\ \\mathrm{mJ/mol\\ K^2}$ from the fit $C(T)=\\gamma T+\\beta T^3$, and the impurity-corrected low-temperature susceptibility $\\chi_{\\mathrm{FL}}\\approx5.6\\times10^{-4}\\ \\mathrm{emu/mol}$ extracted from the corrected susceptibility curve.\nFig. 4; Fig. 6; Fig. 7\n2. Within Fermi-liquid theory, the paper states that the coefficient $A$ is related to $\\gamma^2$. It then invokes the empirical Kadowaki-Woods ratio\n$$\n\\frac{A}{\\gamma^2},\n$$\nfor which heavy-fermion and valence-fluctuating systems are reported to have values of order $1\\times10^{-5}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol\\ K/mJ})^2$.\n[38]\n3. Using the measured $A$ and $\\gamma$, the paper computes\n$$\n\\frac{A}{\\gamma^2}=0.5\\times10^{-5}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol\\ K/mJ})^2.\n$$\nThis is described as being essentially the original Kadowaki-Woods value.\n4. The paper also notes an alternative scaling proposed by Tsujii, Kontani, and Yoshimura, according to which the ratio scales as $2/N(N-1)$ with $N$ the orbital degeneracy of the $f$ state. For an intermediate-valent Ce system, taking $N=6$ gives $A/\\gamma^2=6.7\\times10^{-7}\\ \\mu\\Omega\\ \\mathrm{cm}\\ (\\mathrm{mol\\ K/mJ})^2$. This comparison is quoted, but the text emphasizes that the measured value for $CeMo_2Si_2C$ is at the original Kadowaki-Woods scale.\n[39]\n5. For susceptibility and specific heat, the paper uses the Wilson-Sommerfeld ratio\n$$\nR_W=\\frac{\\pi^2 k_B^2 \\chi_{\\mathrm{FL}}}{\\gamma \\mu_{\\mathrm{eff}}^2},\n$$\nwhere $k_B$ is the Boltzmann constant, $\\chi_{\\mathrm{FL}}$ is the low-temperature Fermi-liquid susceptibility, $\\gamma$ is the Sommerfeld coefficient, and $\\mu_{\\mathrm{eff}}$ is the effective magnetic moment used in the normalization.\n6. Substituting $\\chi_{\\mathrm{FL}}\\approx5.6\\times10^{-4}\\ \\mathrm{emu/mol}$, $\\gamma=23.4\\ \\mathrm{mJ/mol\\ K^2}$, and $\\mu_{\\mathrm{eff}}=2.54\\ \\mu_B$ as the free $Ce^{3+}$ moment gives\n$$\nR_W=0.81.\n$$\nIf instead $\\mu_{\\mathrm{eff}}=1.73\\ \\mu_B$ is used as for a free conduction electron, the paper states that one gets\n$$\nR_W=1.7.\n$$\n7. Because the Kadowaki-Woods ratio is of the expected order and the Wilson ratio is close to the range expected for correlated Fermi liquids, the paper concludes that the low-temperature susceptibility, specific heat, and resistivity are mutually consistent with Fermi-liquid behavior in $CeMo_2Si_2C$."
+      },
+      "premises": [
+        "github:cemo_kadowaki_wilson::gcn_2dc55af_kw_empirical_scale",
+        "github:cemo_kadowaki_wilson::gcn_7459a446_wilson_ratio_interpretation"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_844a968b9e331abb",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:cemo_kadowaki_wilson::__implication_result_5f447abc",
+            "operator": "implication",
+            "variables": [
+              "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+              "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor steps 1-4 explicitly give A, gamma, the computed A/gamma^2 value, and the comparison to the original Kadowaki-Woods scale; this helper isolates only that grounded component."
+      },
+      "premises": [
+        "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_69c4329b9cf11c20",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:cemo_kadowaki_wilson::__implication_result_a1ea6f97",
+            "operator": "implication",
+            "variables": [
+              "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
+              "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor steps 5-6 explicitly define the Wilson-Sommerfeld ratio and report the two mu_eff-normalized values; this helper isolates only that grounded component."
+      },
+      "premises": [
+        "github:cemo_kadowaki_wilson::gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_6867eade9a68b174",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:cemo_kadowaki_wilson::__conjunction_result_35af4380",
+            "operator": "conjunction",
+            "variables": [
+              "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale",
+              "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference"
+            ]
+          },
+          {
+            "conclusion": "github:cemo_kadowaki_wilson::__implication_result_4bad47a9",
+            "operator": "implication",
+            "variables": [
+              "github:cemo_kadowaki_wilson::__conjunction_result_35af4380",
+              "github:cemo_kadowaki_wilson::helper_cemo_ratio_consistency_correlated_fl"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor step 7 explicitly combine the KW and Wilson/Sommerfeld diagnostics to conclude mutual consistency among low-temperature susceptibility, specific heat, and resistivity."
+      },
+      "premises": [
+        "github:cemo_kadowaki_wilson::helper_cemo_kw_ratio_original_scale",
+        "github:cemo_kadowaki_wilson::helper_cemo_wilson_ratio_dual_reference"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_da41c03776df5d65",
+      "type": "support"
+    }
+  ]
+}

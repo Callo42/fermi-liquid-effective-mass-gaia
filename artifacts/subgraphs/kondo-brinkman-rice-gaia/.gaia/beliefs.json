@@ -1,0 +1,87 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.5614768,
+      "knowledge_id": "github:kondo_brinkman_rice::__conjunction_result_437f86b6",
+      "label": "__conjunction_result_437f86b6"
+    },
+    {
+      "belief": 0.5614768,
+      "knowledge_id": "github:kondo_brinkman_rice::__conjunction_result_d7d37503",
+      "label": "__conjunction_result_d7d37503"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:kondo_brinkman_rice::gcn_40f111_nozieres_local_fl_kondo_sites",
+      "label": "gcn_40f111_nozieres_local_fl_kondo_sites"
+    },
+    {
+      "belief": 0.76616807704,
+      "knowledge_id": "github:kondo_brinkman_rice::gcn_7ae79f_kondo_brinkman_rice_fixed_point",
+      "label": "gcn_7ae79f_kondo_brinkman_rice_fixed_point"
+    },
+    {
+      "belief": 0.72,
+      "knowledge_id": "github:kondo_brinkman_rice::gcn_8f275a_brinkman_rice_scope_condition",
+      "label": "gcn_8f275a_brinkman_rice_scope_condition"
+    },
+    {
+      "belief": 0.8632019769208119,
+      "knowledge_id": "github:kondo_brinkman_rice::helper_brinkman_rice_finite_stoner_enhancement",
+      "label": "helper_brinkman_rice_finite_stoner_enhancement"
+    },
+    {
+      "belief": 0.8632019769208119,
+      "knowledge_id": "github:kondo_brinkman_rice::helper_brinkman_rice_large_mass_renormalization",
+      "label": "helper_brinkman_rice_large_mass_renormalization"
+    },
+    {
+      "belief": 0.8632019769208119,
+      "knowledge_id": "github:kondo_brinkman_rice::helper_kondo_lattice_screened_heavy_quasiparticles",
+      "label": "helper_kondo_lattice_screened_heavy_quasiparticles"
+    },
+    {
+      "belief": 0.76616807704,
+      "knowledge_id": "github:kondo_brinkman_rice::helper_nozieres_to_kondo_lattice_fixed_point",
+      "label": "helper_nozieres_to_kondo_lattice_fixed_point"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:kondo_brinkman_rice::__conjunction_result_437f86b6": [
+        0.5614768
+      ],
+      "github:kondo_brinkman_rice::__conjunction_result_d7d37503": [
+        0.5614768
+      ],
+      "github:kondo_brinkman_rice::gcn_40f111_nozieres_local_fl_kondo_sites": [
+        0.78
+      ],
+      "github:kondo_brinkman_rice::gcn_7ae79f_kondo_brinkman_rice_fixed_point": [
+        0.76616807704
+      ],
+      "github:kondo_brinkman_rice::gcn_8f275a_brinkman_rice_scope_condition": [
+        0.72
+      ],
+      "github:kondo_brinkman_rice::helper_brinkman_rice_finite_stoner_enhancement": [
+        0.8632019769208119
+      ],
+      "github:kondo_brinkman_rice::helper_brinkman_rice_large_mass_renormalization": [
+        0.8632019769208119
+      ],
+      "github:kondo_brinkman_rice::helper_kondo_lattice_screened_heavy_quasiparticles": [
+        0.8632019769208119
+      ],
+      "github:kondo_brinkman_rice::helper_nozieres_to_kondo_lattice_fixed_point": [
+        0.76616807704
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:ae08240cca71b1e9ec71ff927ed379d78018af0809351b4bb5d71e263e95ac98"
+}
