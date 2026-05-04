@@ -39,7 +39,11 @@ uv run --project /home/rsw/ThisIsDP/dev/test_lkm2gaia gaia render . --target doc
 uv run --project /home/rsw/ThisIsDP/dev/test_lkm2gaia gaia starmap . --out docs/starmap.html
 ```
 
-Latest compile hash: `sha256:db40d085e49405c939e7e60c90709a6f78ccd1645003747f35a36d41fb08a114`.
+Latest compile hash: `sha256:2580858f67417cf6d0d62c20be8f608e7534fdb7522cc0742a071bfcf1afcc74`.
+
+## May 4 Semantic Label Refactor
+
+The May 4 presentation pass renamed source claim and deduction labels from raw `gcn_*` / `strat_gfac_*`-prefixed identifiers to semantic snake-case labels. Scientific claim text, priors, graph wiring, and LKM provenance metadata were preserved; the old-to-new mapping is recorded in `artifacts/lkm-discovery/semantic_label_audit.md`.
 
 ## Key Risks
 

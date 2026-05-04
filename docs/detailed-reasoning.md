@@ -6,30 +6,30 @@ Gaia knowledge package for a connected YbRh2Si2 effective-mass graph generated f
 
 ```mermaid
 graph LR
-    gcn_2741cdef_practical_effective_mass_scheme["gcn_2741cdef_practical_effective_mass_scheme (0.91)"]:::derived
-    gcn_45f24d_fcqpt_t_minus_two_thirds["gcn_45f24d_fcqpt_t_minus_two_thirds (0.87)"]:::derived
-    gcn_42a4ff_rbc_hall_dos_values["gcn_42a4ff_rbc_hall_dos_values (0.92)"]:::derived
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch["gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch (0.93)"]:::derived
-    gcn_2b8dd97_lurh2si2_reference_reanalysis["gcn_2b8dd97_lurh2si2_reference_reanalysis (0.95)"]:::derived
-    gcn_b4093_ybrh2si2_resistivity_mass_drop["gcn_b4093_ybrh2si2_resistivity_mass_drop (0.84)"]:::derived
-    gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy["gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy (0.98)"]:::derived
-    gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles["gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles (0.93)"]:::derived
-    gcn_4d206_ybrh2si2_kondo_lifshitz_interplay["gcn_4d206_ybrh2si2_kondo_lifshitz_interplay (0.99)"]:::derived
-    gcn_b5d9_ybrh2si2_lifshitz_derenormalization["gcn_b5d9_ybrh2si2_lifshitz_derenormalization (0.83)"]:::derived
-    gcn_d10f91_ybrh2si2_small_fs_mass_enhancement["gcn_d10f91_ybrh2si2_small_fs_mass_enhancement (0.82)"]:::derived
-    gcn_34ce9_ybrh2si2_many_body_methods_required["gcn_34ce9_ybrh2si2_many_body_methods_required (1.00)"]:::derived
-    gcn_2b8dd97_lurh2si2_reference_reanalysis --> gcn_34ce9_ybrh2si2_many_body_methods_required
-    gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy --> gcn_4d206_ybrh2si2_kondo_lifshitz_interplay
-    gcn_42a4ff_rbc_hall_dos_values --> gcn_2741cdef_practical_effective_mass_scheme
-    gcn_42a4ff_rbc_hall_dos_values --> gcn_34ce9_ybrh2si2_many_body_methods_required
-    gcn_45f24d_fcqpt_t_minus_two_thirds --> gcn_2741cdef_practical_effective_mass_scheme
-    gcn_b4093_ybrh2si2_resistivity_mass_drop --> gcn_2741cdef_practical_effective_mass_scheme
-    gcn_b4093_ybrh2si2_resistivity_mass_drop --> gcn_4d206_ybrh2si2_kondo_lifshitz_interplay
-    gcn_b5d9_ybrh2si2_lifshitz_derenormalization --> gcn_4d206_ybrh2si2_kondo_lifshitz_interplay
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> gcn_34ce9_ybrh2si2_many_body_methods_required
-    gcn_d10f91_ybrh2si2_small_fs_mass_enhancement --> gcn_2b8dd97_lurh2si2_reference_reanalysis
-    gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles --> gcn_2741cdef_practical_effective_mass_scheme
-    gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles --> gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy
+    ybrh2si2_entropy_effective_mass_scheme["ybrh2si2_entropy_effective_mass_scheme (0.91)"]:::derived
+    fcqpt_t_minus_two_thirds_mass_scaling["fcqpt_t_minus_two_thirds_mass_scaling (0.87)"]:::derived
+    ybrh2si2_rbc_hall_dos_gamma_values["ybrh2si2_rbc_hall_dos_gamma_values (0.92)"]:::derived
+    ybrh2si2_dhva_spectrum_lda_mismatch["ybrh2si2_dhva_spectrum_lda_mismatch (0.93)"]:::derived
+    ybrh2si2_lurh2si2_reference_reanalysis["ybrh2si2_lurh2si2_reference_reanalysis (0.95)"]:::derived
+    ybrh2si2_resistivity_mass_drop["ybrh2si2_resistivity_mass_drop (0.84)"]:::derived
+    ybrh2si2_kondo_lattice_hierarchy["ybrh2si2_kondo_lattice_hierarchy (0.98)"]:::derived
+    ybrh2si2_esr_heavy_quasiparticles["ybrh2si2_esr_heavy_quasiparticles (0.93)"]:::derived
+    ybrh2si2_kondo_lifshitz_interplay["ybrh2si2_kondo_lifshitz_interplay (0.99)"]:::derived
+    ybrh2si2_lifshitz_derenormalization["ybrh2si2_lifshitz_derenormalization (0.83)"]:::derived
+    ybrh2si2_small_fs_mass_enhancement["ybrh2si2_small_fs_mass_enhancement (0.82)"]:::derived
+    ybrh2si2_many_body_methods_required["ybrh2si2_many_body_methods_required (1.00)"]:::derived
+    fcqpt_t_minus_two_thirds_mass_scaling --> ybrh2si2_entropy_effective_mass_scheme
+    ybrh2si2_dhva_spectrum_lda_mismatch --> ybrh2si2_many_body_methods_required
+    ybrh2si2_esr_heavy_quasiparticles --> ybrh2si2_entropy_effective_mass_scheme
+    ybrh2si2_esr_heavy_quasiparticles --> ybrh2si2_kondo_lattice_hierarchy
+    ybrh2si2_kondo_lattice_hierarchy --> ybrh2si2_kondo_lifshitz_interplay
+    ybrh2si2_lifshitz_derenormalization --> ybrh2si2_kondo_lifshitz_interplay
+    ybrh2si2_lurh2si2_reference_reanalysis --> ybrh2si2_many_body_methods_required
+    ybrh2si2_rbc_hall_dos_gamma_values --> ybrh2si2_entropy_effective_mass_scheme
+    ybrh2si2_rbc_hall_dos_gamma_values --> ybrh2si2_many_body_methods_required
+    ybrh2si2_resistivity_mass_drop --> ybrh2si2_entropy_effective_mass_scheme
+    ybrh2si2_resistivity_mass_drop --> ybrh2si2_kondo_lifshitz_interplay
+    ybrh2si2_small_fs_mass_enhancement --> ybrh2si2_lurh2si2_reference_reanalysis
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -44,13 +44,13 @@ graph LR
 
 ## Introduction
 
-#### gcn_2741cdef_practical_effective_mass_scheme ★
+#### ybrh2si2_entropy_effective_mass_scheme ★
 
-📌 `gcn_2741cdef_practical_effective_mass_scheme`   |   Belief: **0.91**
+📌 `ybrh2si2_entropy_effective_mass_scheme`   |   Belief: **0.91**
 
 > For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].
 
-🔗 **support**([gcn_45f24d_fcqpt_t_minus_two_thirds](#gcn_45f24d_fcqpt_t_minus_two_thirds))
+🔗 **support**([fcqpt_t_minus_two_thirds_mass_scaling](#fcqpt_t_minus_two_thirds_mass_scaling))
 
 <details><summary>Reasoning</summary>
 
@@ -59,13 +59,13 @@ The Shaginyan 2009 LKM chain derives the FCQPT/NFL T^(-2/3) effective-mass solut
 </details>
 
 
-#### gcn_45f24d_fcqpt_t_minus_two_thirds ★
+#### fcqpt_t_minus_two_thirds_mass_scaling ★
 
-📌 `gcn_45f24d_fcqpt_t_minus_two_thirds`   |   Belief: **0.87**
+📌 `fcqpt_t_minus_two_thirds_mass_scaling`   |   Belief: **0.87**
 
 > At FCQPT, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies M*(T) proportional to T^(-2/3); in the non-Fermi-liquid regime near FCQPT, the quasiparticle effective mass therefore decreases with increasing temperature according to this power law [@Shaginyan2009].
 
-🔗 **deduction**([gcn_f82c178_fcqpt_inflection_cubic_spectrum](#gcn_f82c178_fcqpt_inflection_cubic_spectrum), [gcn_58746c_fcqpt_homogeneous_mass_equation](#gcn_58746c_fcqpt_homogeneous_mass_equation))
+🔗 **deduction**([fcqpt_cubic_spectrum_condition](#fcqpt_cubic_spectrum_condition), [fcqpt_homogeneous_mass_equation](#fcqpt_homogeneous_mass_equation))
 
 <details><summary>Reasoning</summary>
 
@@ -77,13 +77,13 @@ The Shaginyan 2009 LKM chain derives the FCQPT/NFL T^(-2/3) effective-mass solut
 </details>
 
 
-#### gcn_42a4ff_rbc_hall_dos_values ★
+#### ybrh2si2_rbc_hall_dos_gamma_values ★
 
-📌 `gcn_42a4ff_rbc_hall_dos_values`   |   Belief: **0.92**
+📌 `ybrh2si2_rbc_hall_dos_gamma_values`   |   Belief: **0.92**
 
 > Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \bar{n}(1)\bar{\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \bar{n}(2)\bar{\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].
 
-🔗 **deduction**([gcn_c243dcb_rbc_phase_shift_parametrization](#gcn_c243dcb_rbc_phase_shift_parametrization), [gcn_48bba377_specific_heat_calibration](#gcn_48bba377_specific_heat_calibration))
+🔗 **deduction**([rbc_phase_shift_parametrization](#rbc_phase_shift_parametrization), [rbc_specific_heat_calibration](#rbc_specific_heat_calibration))
 
 <details><summary>Reasoning</summary>
 
@@ -106,13 +106,13 @@ Table I
 </details>
 
 
-#### gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch ★
+#### ybrh2si2_dhva_spectrum_lda_mismatch ★
 
-📌 `gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch`   |   Belief: **0.93**
+📌 `ybrh2si2_dhva_spectrum_lda_mismatch`   |   Belief: **0.93**
 
 > For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].
 
-🔗 **deduction**([gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope), [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity))
+🔗 **deduction**([ybrh2si2_high_field_dhva_scope](#ybrh2si2_high_field_dhva_scope), [ybrh2si2_itinerant_4f_lda_sensitivity](#ybrh2si2_itinerant_4f_lda_sensitivity))
 
 <details><summary>Reasoning</summary>
 
@@ -132,13 +132,13 @@ Fig.7; Fig.8; Fig.9; Fig.11
 </details>
 
 
-#### gcn_2b8dd97_lurh2si2_reference_reanalysis ★
+#### ybrh2si2_lurh2si2_reference_reanalysis ★
 
-📌 `gcn_2b8dd97_lurh2si2_reference_reanalysis`   |   Belief: **0.95**
+📌 `ybrh2si2_lurh2si2_reference_reanalysis`   |   Belief: **0.95**
 
 > Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 "small" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].
 
-🔗 **support**([gcn_d10f91_ybrh2si2_small_fs_mass_enhancement](#gcn_d10f91_ybrh2si2_small_fs_mass_enhancement))
+🔗 **support**([ybrh2si2_small_fs_mass_enhancement](#ybrh2si2_small_fs_mass_enhancement))
 
 <details><summary>Reasoning</summary>
 
@@ -147,13 +147,13 @@ Rourke 2008 supplies chain-backed high-field dHvA evidence that a LuRh2Si2-like 
 </details>
 
 
-#### gcn_b4093_ybrh2si2_resistivity_mass_drop ★
+#### ybrh2si2_resistivity_mass_drop ★
 
-📌 `gcn_b4093_ybrh2si2_resistivity_mass_drop`   |   Belief: **0.84**
+📌 `ybrh2si2_resistivity_mass_drop`   |   Belief: **0.84**
 
 > For YbRh2Si2 with B perpendicular to c and B>0.06 T, low-temperature resistivity follows rho(T,B)=rho0(B)+A(B)T^2; A(B) drops drastically when B crosses B*=(9.5 +/- 0.5) T, indicating a step-like effective-mass decrease in a Fermi-liquid picture, and the low-field A proportional to gamma^2 scaling estimates gamma(16 T) near 70 mJ mol^-1 K^-2 [@Tokiwa2004].
 
-🔗 **deduction**([gcn_021fb1_high_field_a_gamma_scaling_assumption](#gcn_021fb1_high_field_a_gamma_scaling_assumption), [gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability](#gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability))
+🔗 **deduction**([high_field_a_gamma_scaling_assumption](#high_field_a_gamma_scaling_assumption), [ybrh2si2_t2_resistivity_fit_reliability](#ybrh2si2_t2_resistivity_fit_reliability))
 
 <details><summary>Reasoning</summary>
 
@@ -168,13 +168,13 @@ Rourke 2008 supplies chain-backed high-field dHvA evidence that a LuRh2Si2-like 
 </details>
 
 
-#### gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy ★
+#### ybrh2si2_kondo_lattice_hierarchy ★
 
-📌 `gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy`   |   Belief: **0.98**
+📌 `ybrh2si2_kondo_lattice_hierarchy`   |   Belief: **0.98**
 
 > In stoichiometric YbRh2Si2, lattice Kondo correlations are detectable around T_coh approximately T_K approximately 25-30 K, but they dominate low-energy electronic properties only below T_P approximately 3.3 K, about 0.1*T_coh; single-ion Kondo effects therefore persist well below T_coh before lattice coherence enables the observed non-Fermi-liquid quantum-critical behavior [@Seiro2017].
 
-🔗 **support**([gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles](#gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles))
+🔗 **support**([ybrh2si2_esr_heavy_quasiparticles](#ybrh2si2_esr_heavy_quasiparticles))
 
 <details><summary>Reasoning</summary>
 
@@ -183,13 +183,13 @@ The ESR LKM chain identifies coherent heavy quasiparticles below the single-ion 
 </details>
 
 
-#### gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles ★
+#### ybrh2si2_esr_heavy_quasiparticles ★
 
-📌 `gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles`   |   Belief: **0.93**
+📌 `ybrh2si2_esr_heavy_quasiparticles`   |   Belief: **0.93**
 
 > In YbRh2Si2, the anisotropic persistent ESR line, g-factor behavior tracking gamma=C_el/T and NMR observables, and low-temperature T^2 linewidth behavior show that ESR is a resonance of coherent heavy quasiparticles formed below T_K approximately T_0 approximately 25 K; ESR parameters are governed by m*(B,T), N(E_F;B,T), and quasiparticle spin relaxation, giving access to Kondo-state evolution and NFL-to-LFL crossover behavior [@Schaufuss2008].
 
-🔗 **deduction**([gcn_a76225_ybrh2si2_esr_collective_mode_assumption](#gcn_a76225_ybrh2si2_esr_collective_mode_assumption))
+🔗 **deduction**([ybrh2si2_esr_collective_mode_assumption](#ybrh2si2_esr_collective_mode_assumption))
 
 <details><summary>Reasoning</summary>
 
@@ -202,13 +202,13 @@ The ESR LKM chain identifies coherent heavy quasiparticles below the single-ion 
 </details>
 
 
-#### gcn_4d206_ybrh2si2_kondo_lifshitz_interplay ★
+#### ybrh2si2_kondo_lifshitz_interplay ★
 
-📌 `gcn_4d206_ybrh2si2_kondo_lifshitz_interplay`   |   Belief: **0.99**
+📌 `ybrh2si2_kondo_lifshitz_interplay`   |   Belief: **0.99**
 
 > YbRh2Si2 high-field phenomenology is explained by the interplay of CEF-induced anisotropic hybridization and g-factor anisotropy, smooth field suppression of Kondo screening that reduces m*(B), and Kondo-lattice coherence that creates van-Hove-type DOS structures whose Zeeman shifts produce successive Lifshitz transitions; this accounts for continuous mass reduction plus abrupt transport/thermodynamic anomalies [@Pfau2013].
 
-🔗 **support**([gcn_b5d9_ybrh2si2_lifshitz_derenormalization](#gcn_b5d9_ybrh2si2_lifshitz_derenormalization))
+🔗 **support**([ybrh2si2_lifshitz_derenormalization](#ybrh2si2_lifshitz_derenormalization))
 
 <details><summary>Reasoning</summary>
 
@@ -217,13 +217,13 @@ Naren 2013 separately states the same YbRh2Si2 field phenomenology in a chain-ba
 </details>
 
 
-#### gcn_b5d9_ybrh2si2_lifshitz_derenormalization ★
+#### ybrh2si2_lifshitz_derenormalization ★
 
-📌 `gcn_b5d9_ybrh2si2_lifshitz_derenormalization`   |   Belief: **0.83**
+📌 `ybrh2si2_lifshitz_derenormalization`   |   Belief: **0.83**
 
 > Combining magnetoresistance and Hall data on YbRh2Si2 down to 50 mK and up to 15 T with field-dependent renormalized-band calculations assigns anomalies at B1 about 3 T, B2 about 9 T, and B3 about 11-11.5 T to Zeeman-driven Lifshitz transitions, while Kondo quasiparticle de-renormalization proceeds as a smoother crossover; sharp Fermi-surface topology changes and smooth Kondo-weight suppression therefore coexist with distinct field dependences [@Naren2013].
 
-🔗 **deduction**([gcn_6ca2b_ybrh2si2_hall_compensation_scenario](#gcn_6ca2b_ybrh2si2_hall_compensation_scenario), [gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz](#gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz))
+🔗 **deduction**([ybrh2si2_hall_compensation_scenario](#ybrh2si2_hall_compensation_scenario), [ybrh2si2_thermopower_lifshitz_corroboration](#ybrh2si2_thermopower_lifshitz_corroboration))
 
 <details><summary>Reasoning</summary>
 
@@ -237,13 +237,13 @@ Naren 2013 separately states the same YbRh2Si2 field phenomenology in a chain-ba
 </details>
 
 
-#### gcn_d10f91_ybrh2si2_small_fs_mass_enhancement ★
+#### ybrh2si2_small_fs_mass_enhancement ★
 
-📌 `gcn_d10f91_ybrh2si2_small_fs_mass_enhancement`   |   Belief: **0.82**
+📌 `ybrh2si2_small_fs_mass_enhancement`   |   Belief: **0.82**
 
 > LDA+SOC calculations for LuRh2Si2 as the small-Fermi-surface analogue produce a D-sheet topology whose predicted orbits match YbRh2Si2 dHvA frequencies better than large-FS YbRh2Si2 LDA+SOC; comparing calculated band masses with measured cyclotron masses yields m*/m_b enhancements of order ten, consistent with strong many-body renormalization [@Rourke2008].
 
-🔗 **deduction**([gcn_848945_ybrh2si2_lusmall_fs_lda_assumption](#gcn_848945_ybrh2si2_lusmall_fs_lda_assumption), [gcn_5090f8_dhva_orbit_assignment_reliability](#gcn_5090f8_dhva_orbit_assignment_reliability))
+🔗 **deduction**([ybrh2si2_lusmall_fs_lda_assumption](#ybrh2si2_lusmall_fs_lda_assumption), [dhva_orbit_assignment_reliability](#dhva_orbit_assignment_reliability))
 
 <details><summary>Reasoning</summary>
 
@@ -256,13 +256,13 @@ Naren 2013 separately states the same YbRh2Si2 field phenomenology in a chain-ba
 </details>
 
 
-#### gcn_34ce9_ybrh2si2_many_body_methods_required ★
+#### ybrh2si2_many_body_methods_required ★
 
-📌 `gcn_34ce9_ybrh2si2_many_body_methods_required`   |   Belief: **1.00**
+📌 `ybrh2si2_many_body_methods_required`   |   Belief: **1.00**
 
 > Density-functional LDA calculations of YbRh2Si2 in both f-core small-FS and itinerant-4f large-FS variants fail to reproduce the complete set of quantum-oscillation branches and large quasiparticle masses, so quantitative YbRh2Si2 Fermi-surface and effective-mass modeling requires many-body approaches capturing local dynamic correlations and Kondo renormalization [@Friedemann2013b].
 
-🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values))
+🔗 **support**([ybrh2si2_rbc_hall_dos_gamma_values](#ybrh2si2_rbc_hall_dos_gamma_values))
 
 <details><summary>Reasoning</summary>
 
@@ -274,60 +274,60 @@ Friedemann 2010 provides LKM-backed renormalized-band calculations for YbRh2Si2 
 
 ## paper_shaginyan2010 -- claims and deductions from Shaginyan et al. 2010.
 
-<a id="gcn_677c6c_landau_integral_relation"></a>
+<a id="landau_mass_integral_relation"></a>
 
-#### gcn_677c6c_landau_integral_relation
+#### landau_mass_integral_relation
 
-📌 `gcn_677c6c_landau_integral_relation`   |   Prior: 0.82   |   Belief: **0.85**
+📌 `landau_mass_integral_relation`   |   Prior: 0.82   |   Belief: **0.85**
 
 > For a homogeneous three-dimensional interacting-fermion system near FCQPT, the temperature-dependent Landau integral relation defines the quasiparticle effective mass M*(T) from the bare mass, Fermi momentum, Landau interaction amplitude, quasiparticle occupation derivative, and a three-dimensional momentum integral; in Shaginyan et al. 2010 this phenomenological equation is used as the numerical starting point when a Landau amplitude exists, quasiparticles remain reasonably well defined, and n(p,T) correctly represents the distribution [@Shaginyan2010].
 
 
-<a id="gcn_03614e9b_homogeneous_isotropic_model"></a>
+<a id="homogeneous_isotropic_heavy_liquid_model"></a>
 
-#### gcn_03614e9b_homogeneous_isotropic_model
+#### homogeneous_isotropic_heavy_liquid_model
 
-📌 `gcn_03614e9b_homogeneous_isotropic_model`   |   Prior: 0.68   |   Belief: **0.74**
+📌 `homogeneous_isotropic_heavy_liquid_model`   |   Prior: 0.68   |   Belief: **0.74**
 
 > Shaginyan et al. 2010 model YbRh2Si2 and related heavy-fermion compounds by a spatially uniform, isotropic three-dimensional heavy-electron liquid in which quasiparticle quantities depend only on |p| and T; the model deliberately neglects crystal-lattice anisotropy, Brillouin-zone structure, multiple bands, and anisotropic effective masses while treating the approximation as adequate for universal scaling of M*(T,B) and normalized thermodynamic or transport functions [@Shaginyan2010].
 
 
-<a id="gcn_e0c364ff_inflection_fcqpt_condition"></a>
+<a id="fcqpt_inflection_critical_condition"></a>
 
-#### gcn_e0c364ff_inflection_fcqpt_condition
+#### fcqpt_inflection_critical_condition
 
-📌 `gcn_e0c364ff_inflection_fcqpt_condition`   |   Prior: 0.78   |   Belief: **0.95**
+📌 `fcqpt_inflection_critical_condition`   |   Prior: 0.78   |   Belief: **0.95**
 
 > In the homogeneous isotropic Landau model used by Shaginyan et al. 2010, the Landau interaction amplitude can be tuned so that the self-consistent single-particle spectrum ε(p) has both dε/dp and d²ε/dp² equal to zero at p = p_F, leaving a cubic leading term near p_F and enforcing the FCQPT critical condition 1/M* = 0 at T = 0 [@Shaginyan2010].
 
 
-<a id="gcn_6bbfeb95_stable_landau_solutions"></a>
+<a id="stable_landau_numerical_solutions"></a>
 
-#### gcn_6bbfeb95_stable_landau_solutions
+#### stable_landau_numerical_solutions
 
-📌 `gcn_6bbfeb95_stable_landau_solutions`   |   Prior: 0.70   |   Belief: **0.75**
+📌 `stable_landau_numerical_solutions`   |   Prior: 0.70   |   Belief: **0.75**
 
 > For the temperature and magnetic-field ranges considered by Shaginyan et al. 2010 for YbRh2Si2, including fields up to about 1.5 T, the homogeneous isotropic Landau integral equation with an inflection-point-enforcing amplitude admits stable numerical solutions for ε(p) and n(p,T) that are robust enough to compute entropy with controlled numerical error [@Shaginyan2010].
 
 
-<a id="gcn_ecddfefa_fermion_entropy_formula"></a>
+<a id="fermion_entropy_formula"></a>
 
-#### gcn_ecddfefa_fermion_entropy_formula
+#### fermion_entropy_formula
 
-📌 `gcn_ecddfefa_fermion_entropy_formula`   |   Prior: 0.90   |   Belief: **0.92**
+📌 `fermion_entropy_formula`   |   Prior: 0.90   |   Belief: **0.92**
 
 > For fermionic quasiparticle excitations whose occupation numbers n(p,T) encode the low-energy statistical state, the entropy per unit volume is given by the Fermi-Dirac combinatorial expression S(T) = -2 ∫[n ln n + (1-n) ln(1-n)] dp/(2π)^3, with spin degeneracy 2 and a three-dimensional momentum integral [@Shaginyan2010].
 
 
-<a id="gcn_2e693115_entropy_over_temperature_mass"></a>
+<a id="entropy_over_temperature_mass_proxy"></a>
 
-#### gcn_2e693115_entropy_over_temperature_mass
+#### entropy_over_temperature_mass_proxy
 
-📌 `gcn_2e693115_entropy_over_temperature_mass`   |   Prior: 0.72   |   Belief: **0.99**
+📌 `entropy_over_temperature_mass_proxy`   |   Prior: 0.72   |   Belief: **0.99**
 
 > Shaginyan et al. 2010 operationally estimate the quasiparticle effective mass M*(T,B) from entropy by M*(T,B) = S(T,B)/T, using consistent units, as a density-of-states-like effective mass measure even in FCQPT crossover or non-Fermi-liquid regimes where the system is not strictly in the low-temperature Landau Fermi-liquid limit [@Shaginyan2010].
 
-🔗 **support**([gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles](#gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles))
+🔗 **support**([ybrh2si2_esr_heavy_quasiparticles](#ybrh2si2_esr_heavy_quasiparticles))
 
 <details><summary>Reasoning</summary>
 
@@ -336,15 +336,15 @@ Schaufuss 2008 states that YbRh2Si2 ESR parameters track m*(B,T), N(E_F;B,T), an
 </details>
 
 
-<a id="gcn_2741cdef_practical_effective_mass_scheme"></a>
+<a id="ybrh2si2_entropy_effective_mass_scheme"></a>
 
-#### gcn_2741cdef_practical_effective_mass_scheme ★
+#### ybrh2si2_entropy_effective_mass_scheme ★
 
-📌 `gcn_2741cdef_practical_effective_mass_scheme`   |   Belief: **0.91**
+📌 `ybrh2si2_entropy_effective_mass_scheme`   |   Belief: **0.91**
 
 > For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].
 
-🔗 **support**([gcn_45f24d_fcqpt_t_minus_two_thirds](#gcn_45f24d_fcqpt_t_minus_two_thirds))
+🔗 **support**([fcqpt_t_minus_two_thirds_mass_scaling](#fcqpt_t_minus_two_thirds_mass_scaling))
 
 <details><summary>Reasoning</summary>
 
@@ -357,18 +357,18 @@ The Shaginyan 2009 LKM chain derives the FCQPT/NFL T^(-2/3) effective-mass solut
 
 ```mermaid
 graph TD
-    gcn_e0c364ff_inflection_fcqpt_condition["gcn_e0c364ff_inflection_fcqpt_condition (0.95)"]:::external
-    gcn_f82c178_fcqpt_inflection_cubic_spectrum["gcn_f82c178_fcqpt_inflection_cubic_spectrum (0.95)"]:::premise
-    gcn_58746c_fcqpt_homogeneous_mass_equation["gcn_58746c_fcqpt_homogeneous_mass_equation (0.80)"]:::premise
-    gcn_45f24d_fcqpt_t_minus_two_thirds["gcn_45f24d_fcqpt_t_minus_two_thirds (0.87)"]:::derived
+    fcqpt_inflection_critical_condition["fcqpt_inflection_critical_condition (0.95)"]:::external
+    fcqpt_cubic_spectrum_condition["fcqpt_cubic_spectrum_condition (0.95)"]:::premise
+    fcqpt_homogeneous_mass_equation["fcqpt_homogeneous_mass_equation (0.80)"]:::premise
+    fcqpt_t_minus_two_thirds_mass_scaling["fcqpt_t_minus_two_thirds_mass_scaling (0.87)"]:::derived
     eq_fcqpt_inflection_condition["eq_fcqpt_inflection_condition (1.00)"]:::external
     strat_1(["deduction"])
-    gcn_f82c178_fcqpt_inflection_cubic_spectrum --> strat_1
-    gcn_58746c_fcqpt_homogeneous_mass_equation --> strat_1
-    strat_1 --> gcn_45f24d_fcqpt_t_minus_two_thirds
+    fcqpt_cubic_spectrum_condition --> strat_1
+    fcqpt_homogeneous_mass_equation --> strat_1
+    strat_1 --> fcqpt_t_minus_two_thirds_mass_scaling
     oper_0{{"≡"}}
-    gcn_e0c364ff_inflection_fcqpt_condition --- oper_0
-    gcn_f82c178_fcqpt_inflection_cubic_spectrum --- oper_0
+    fcqpt_inflection_critical_condition --- oper_0
+    fcqpt_cubic_spectrum_condition --- oper_0
     oper_0 --- eq_fcqpt_inflection_condition
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
@@ -382,33 +382,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_f82c178_fcqpt_inflection_cubic_spectrum"></a>
+<a id="fcqpt_cubic_spectrum_condition"></a>
 
-#### gcn_f82c178_fcqpt_inflection_cubic_spectrum
+#### fcqpt_cubic_spectrum_condition
 
-📌 `gcn_f82c178_fcqpt_inflection_cubic_spectrum`   |   Prior: 0.80   |   Belief: **0.95**
+📌 `fcqpt_cubic_spectrum_condition`   |   Prior: 0.80   |   Belief: **0.95**
 
 > At the fermion-condensation quantum phase transition point in a homogeneous heavy-fermion liquid, the first two momentum derivatives of the single-particle spectrum vanish at the Fermi momentum p_F, so the spectrum has an inflection point at p_F and the leading nonzero Taylor term is proportional to (p-p_F)^3 [@Shaginyan2009].
 
 
-<a id="gcn_58746c_fcqpt_homogeneous_mass_equation"></a>
+<a id="fcqpt_homogeneous_mass_equation"></a>
 
-#### gcn_58746c_fcqpt_homogeneous_mass_equation
+#### fcqpt_homogeneous_mass_equation
 
-📌 `gcn_58746c_fcqpt_homogeneous_mass_equation`   |   Prior: 0.78   |   Belief: **0.80**
+📌 `fcqpt_homogeneous_mass_equation`   |   Prior: 0.78   |   Belief: **0.80**
 
 > At FCQPT, writing n_1(p,T)=n(p,T)-n(p) transforms the Landau effective-mass equation into a form where the zero-temperature inverse effective-mass term vanishes; the resulting homogeneous low-temperature equation has the solution M*(T) proportional to T^(-2/3) [@Shaginyan2009].
 
 
-<a id="gcn_45f24d_fcqpt_t_minus_two_thirds"></a>
+<a id="fcqpt_t_minus_two_thirds_mass_scaling"></a>
 
-#### gcn_45f24d_fcqpt_t_minus_two_thirds ★
+#### fcqpt_t_minus_two_thirds_mass_scaling ★
 
-📌 `gcn_45f24d_fcqpt_t_minus_two_thirds`   |   Belief: **0.87**
+📌 `fcqpt_t_minus_two_thirds_mass_scaling`   |   Belief: **0.87**
 
 > At FCQPT, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies M*(T) proportional to T^(-2/3); in the non-Fermi-liquid regime near FCQPT, the quasiparticle effective mass therefore decreases with increasing temperature according to this power law [@Shaginyan2009].
 
-🔗 **deduction**([gcn_f82c178_fcqpt_inflection_cubic_spectrum](#gcn_f82c178_fcqpt_inflection_cubic_spectrum), [gcn_58746c_fcqpt_homogeneous_mass_equation](#gcn_58746c_fcqpt_homogeneous_mass_equation))
+🔗 **deduction**([fcqpt_cubic_spectrum_condition](#fcqpt_cubic_spectrum_condition), [fcqpt_homogeneous_mass_equation](#fcqpt_homogeneous_mass_equation))
 
 <details><summary>Reasoning</summary>
 
@@ -424,24 +424,24 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_c243dcb_rbc_phase_shift_parametrization["gcn_c243dcb_rbc_phase_shift_parametrization (0.86)"]:::premise
-    gcn_48bba377_specific_heat_calibration["gcn_48bba377_specific_heat_calibration (0.87)"]:::premise
-    gcn_42a4ff_rbc_hall_dos_values["gcn_42a4ff_rbc_hall_dos_values (0.92)"]:::derived
+    rbc_phase_shift_parametrization["rbc_phase_shift_parametrization (0.86)"]:::premise
+    rbc_specific_heat_calibration["rbc_specific_heat_calibration (0.87)"]:::premise
+    ybrh2si2_rbc_hall_dos_gamma_values["ybrh2si2_rbc_hall_dos_gamma_values (0.92)"]:::derived
     helper_rbc_parameterization_constrained_by_cef_gamma["helper_rbc_parameterization_constrained_by_cef_gamma (0.91)"]:::derived
     helper_ybrh2si2_opposite_hall_transport_products["helper_ybrh2si2_opposite_hall_transport_products (0.91)"]:::derived
     helper_rbc_dos_gamma_ybrh2si2_ybir2si2["helper_rbc_dos_gamma_ybrh2si2_ybir2si2 (0.91)"]:::derived
     strat_2(["deduction"])
-    gcn_c243dcb_rbc_phase_shift_parametrization --> strat_2
-    gcn_48bba377_specific_heat_calibration --> strat_2
-    strat_2 --> gcn_42a4ff_rbc_hall_dos_values
+    rbc_phase_shift_parametrization --> strat_2
+    rbc_specific_heat_calibration --> strat_2
+    strat_2 --> ybrh2si2_rbc_hall_dos_gamma_values
     strat_3(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_3
+    ybrh2si2_rbc_hall_dos_gamma_values --> strat_3
     strat_3 --> helper_rbc_parameterization_constrained_by_cef_gamma
     strat_4(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_4
+    ybrh2si2_rbc_hall_dos_gamma_values --> strat_4
     strat_4 --> helper_ybrh2si2_opposite_hall_transport_products
     strat_5(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_5
+    ybrh2si2_rbc_hall_dos_gamma_values --> strat_5
     strat_5 --> helper_rbc_dos_gamma_ybrh2si2_ybir2si2
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
@@ -455,33 +455,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_c243dcb_rbc_phase_shift_parametrization"></a>
+<a id="rbc_phase_shift_parametrization"></a>
 
-#### gcn_c243dcb_rbc_phase_shift_parametrization
+#### rbc_phase_shift_parametrization
 
-📌 `gcn_c243dcb_rbc_phase_shift_parametrization`   |   Prior: 0.82   |   Belief: **0.86**
+📌 `rbc_phase_shift_parametrization`   |   Prior: 0.82   |   Belief: **0.86**
 
 > For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].
 
 
-<a id="gcn_48bba377_specific_heat_calibration"></a>
+<a id="rbc_specific_heat_calibration"></a>
 
-#### gcn_48bba377_specific_heat_calibration
+#### rbc_specific_heat_calibration
 
-📌 `gcn_48bba377_specific_heat_calibration`   |   Prior: 0.76   |   Belief: **0.87**
+📌 `rbc_specific_heat_calibration`   |   Prior: 0.76   |   Belief: **0.87**
 
 > In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].
 
 
-<a id="gcn_42a4ff_rbc_hall_dos_values"></a>
+<a id="ybrh2si2_rbc_hall_dos_gamma_values"></a>
 
-#### gcn_42a4ff_rbc_hall_dos_values ★
+#### ybrh2si2_rbc_hall_dos_gamma_values ★
 
-📌 `gcn_42a4ff_rbc_hall_dos_values`   |   Belief: **0.92**
+📌 `ybrh2si2_rbc_hall_dos_gamma_values`   |   Belief: **0.92**
 
 > Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \bar{n}(1)\bar{\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \bar{n}(2)\bar{\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].
 
-🔗 **deduction**([gcn_c243dcb_rbc_phase_shift_parametrization](#gcn_c243dcb_rbc_phase_shift_parametrization), [gcn_48bba377_specific_heat_calibration](#gcn_48bba377_specific_heat_calibration))
+🔗 **deduction**([rbc_phase_shift_parametrization](#rbc_phase_shift_parametrization), [rbc_specific_heat_calibration](#rbc_specific_heat_calibration))
 
 <details><summary>Reasoning</summary>
 
@@ -512,7 +512,7 @@ Table I
 
 > In the Friedemann et al. 2010 YbRh2Si2 renormalized-band calculation, experimental CEF excitation energies set the resonance-center splittings and the single resonance-width parameter is fixed by reproducing the low-temperature specific-heat coefficient, making the calculation a material-specific thermodynamically constrained RBC parametrization [@Friedemann2010].
 
-🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values))
+🔗 **support**([ybrh2si2_rbc_hall_dos_gamma_values](#ybrh2si2_rbc_hall_dos_gamma_values))
 
 <details><summary>Reasoning</summary>
 
@@ -529,7 +529,7 @@ The root LKM claim explicitly states that the RBC incorporates CEF excitation en
 
 > For YbRh2Si2 in the Friedemann et al. 2010 heavy-Fermi-liquid RBC calculation, the band-resolved products entering the Hall numerator have opposite signs and nearly equal magnitudes: +0.0037675 for the donut band and -0.0041076 for the jungle-gym band, implying strong cancellation in the low-field Hall coefficient numerator [@Friedemann2010].
 
-🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values))
+🔗 **support**([ybrh2si2_rbc_hall_dos_gamma_values](#ybrh2si2_rbc_hall_dos_gamma_values))
 
 <details><summary>Reasoning</summary>
 
@@ -546,7 +546,7 @@ The root LKM claim and factor step 4 explicitly give the YbRh2Si2 band-1 and ban
 
 > The Friedemann et al. 2010 RBC density-of-states calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, while the same RBC parametrization gives N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].
 
-🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values))
+🔗 **support**([ybrh2si2_rbc_hall_dos_gamma_values](#ybrh2si2_rbc_hall_dos_gamma_values))
 
 <details><summary>Reasoning</summary>
 
@@ -559,28 +559,28 @@ The root LKM claim and factor step 5 explicitly give the RBC density-of-states a
 
 ```mermaid
 graph TD
-    gcn_5501e18a_high_field_dhva_scope["gcn_5501e18a_high_field_dhva_scope (0.88)"]:::premise
-    gcn_f20b1f42_itinerant_4f_lda_sensitivity["gcn_f20b1f42_itinerant_4f_lda_sensitivity (0.83)"]:::premise
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch["gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch (0.93)"]:::derived
+    ybrh2si2_high_field_dhva_scope["ybrh2si2_high_field_dhva_scope (0.88)"]:::premise
+    ybrh2si2_itinerant_4f_lda_sensitivity["ybrh2si2_itinerant_4f_lda_sensitivity (0.83)"]:::premise
+    ybrh2si2_dhva_spectrum_lda_mismatch["ybrh2si2_dhva_spectrum_lda_mismatch (0.93)"]:::derived
     helper_dhva_frequencies_masses_h_parallel_a["helper_dhva_frequencies_masses_h_parallel_a (0.92)"]:::derived
     helper_dhva_angular_dependence_itinerant_lda_mismatch["helper_dhva_angular_dependence_itinerant_lda_mismatch (0.98)"]:::derived
     helper_dhva_first_fs_information_scope["helper_dhva_first_fs_information_scope (0.92)"]:::derived
-    gcn_3a8394c_lurh2si2_small_fs_reference["gcn_3a8394c_lurh2si2_small_fs_reference (0.92)"]:::external
+    lurh2si2_small_fs_reference["lurh2si2_small_fs_reference (0.92)"]:::external
     strat_6(["deduction"])
-    gcn_5501e18a_high_field_dhva_scope --> strat_6
-    gcn_f20b1f42_itinerant_4f_lda_sensitivity --> strat_6
-    strat_6 --> gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch
+    ybrh2si2_high_field_dhva_scope --> strat_6
+    ybrh2si2_itinerant_4f_lda_sensitivity --> strat_6
+    strat_6 --> ybrh2si2_dhva_spectrum_lda_mismatch
     strat_7(["support"]):::weak
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_7
+    ybrh2si2_dhva_spectrum_lda_mismatch --> strat_7
     strat_7 --> helper_dhva_frequencies_masses_h_parallel_a
     strat_8(["support"]):::weak
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_8
+    ybrh2si2_dhva_spectrum_lda_mismatch --> strat_8
     strat_8 --> helper_dhva_angular_dependence_itinerant_lda_mismatch
     strat_9(["support"]):::weak
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_9
+    ybrh2si2_dhva_spectrum_lda_mismatch --> strat_9
     strat_9 --> helper_dhva_first_fs_information_scope
     strat_21(["support"]):::weak
-    gcn_3a8394c_lurh2si2_small_fs_reference --> strat_21
+    lurh2si2_small_fs_reference --> strat_21
     strat_21 --> helper_dhva_angular_dependence_itinerant_lda_mismatch
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
@@ -594,33 +594,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_5501e18a_high_field_dhva_scope"></a>
+<a id="ybrh2si2_high_field_dhva_scope"></a>
 
-#### gcn_5501e18a_high_field_dhva_scope
+#### ybrh2si2_high_field_dhva_scope
 
-📌 `gcn_5501e18a_high_field_dhva_scope`   |   Prior: 0.84   |   Belief: **0.88**
+📌 `ybrh2si2_high_field_dhva_scope`   |   Prior: 0.84   |   Belief: **0.88**
 
 > In Knebel et al. 2006, the YbRh2Si2 de Haas-van Alphen frequencies and cyclotron masses are measured on high-quality single crystals in steady fields from 12 T to 28 T with H parallel to the crystallographic a axis; because such high fields can polarize the system, suppress correlations, or shift bands, this high-field dHvA spectrum need not coincide with the zero- or low-field Fermi surface most directly relevant to the YbRh2Si2 quantum-critical regime [@Knebel2006].
 
 
-<a id="gcn_f20b1f42_itinerant_4f_lda_sensitivity"></a>
+<a id="ybrh2si2_itinerant_4f_lda_sensitivity"></a>
 
-#### gcn_f20b1f42_itinerant_4f_lda_sensitivity
+#### ybrh2si2_itinerant_4f_lda_sensitivity
 
-📌 `gcn_f20b1f42_itinerant_4f_lda_sensitivity`   |   Prior: 0.78   |   Belief: **0.83**
+📌 `ybrh2si2_itinerant_4f_lda_sensitivity`   |   Prior: 0.78   |   Belief: **0.83**
 
 > For YbRh2Si2, Knebel et al. 2006 report that LDA/FLAPW band-structure calculations with all 4f electrons treated as itinerant are sensitive to calculational details and to the assumed 4f energy position, making the predicted 4f-derived Fermi-surface topology and angular dependence unreliable enough that an experiment-theory mismatch need not by itself prove intrinsic 4f localization [@Knebel2006].
 
 
-<a id="gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"></a>
+<a id="ybrh2si2_dhva_spectrum_lda_mismatch"></a>
 
-#### gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch ★
+#### ybrh2si2_dhva_spectrum_lda_mismatch ★
 
-📌 `gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch`   |   Belief: **0.93**
+📌 `ybrh2si2_dhva_spectrum_lda_mismatch`   |   Belief: **0.93**
 
 > For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].
 
-🔗 **deduction**([gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope), [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity))
+🔗 **deduction**([ybrh2si2_high_field_dhva_scope](#ybrh2si2_high_field_dhva_scope), [ybrh2si2_itinerant_4f_lda_sensitivity](#ybrh2si2_itinerant_4f_lda_sensitivity))
 
 <details><summary>Reasoning</summary>
 
@@ -648,7 +648,7 @@ Fig.7; Fig.8; Fig.9; Fig.11
 
 > For YbRh2Si2 at H parallel a in the 12-28 T dHvA window, Knebel et al. 2006 resolve four fundamental oscillation frequencies: 2730 T with m*=(15.0 +/- 0.7) m_e, 3510 T with m*=(8.4 +/- 0.2) m_e, 5370 T with m*=(10.1 +/- 0.2) m_e, and 7050 T with m*=(14.9 +/- 0.9) m_e [@Knebel2006].
 
-🔗 **support**([gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch))
+🔗 **support**([ybrh2si2_dhva_spectrum_lda_mismatch](#ybrh2si2_dhva_spectrum_lda_mismatch))
 
 <details><summary>Reasoning</summary>
 
@@ -665,7 +665,7 @@ The selected root explicitly reports the four H-parallel-a frequencies and cyclo
 
 > For YbRh2Si2, the basal-plane angular evolution of the measured dHvA frequencies in Knebel et al. 2006 does not match the LDA/FLAPW angular dependences calculated with itinerant Yb 4f electrons, whose calculated orbits fall mostly below 1 kT or above 10 kT and have markedly different angular shapes; the measured angular dependence instead qualitatively resembles LuRh2Si2 LDA calculations where 4f states lie below the Fermi energy [@Knebel2006].
 
-🔗 **support**([gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference))
+🔗 **support**([lurh2si2_small_fs_reference](#lurh2si2_small_fs_reference))
 
 <details><summary>Reasoning</summary>
 
@@ -682,7 +682,7 @@ Friedemann 2013 LKM evidence establishes LuRh2Si2 as a small-FS reference for Yb
 
 > The Knebel et al. 2006 dHvA frequencies and heavy cyclotron masses constitute first experimental Fermi-surface information for YbRh2Si2, but the selected LKM chain also records a high-field scope caution and an itinerant-4f LDA-method sensitivity caution when using those data to infer low-field quantum-critical 4f localization [@Knebel2006].
 
-🔗 **support**([gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch))
+🔗 **support**([ybrh2si2_dhva_spectrum_lda_mismatch](#ybrh2si2_dhva_spectrum_lda_mismatch))
 
 <details><summary>Reasoning</summary>
 
@@ -695,23 +695,23 @@ The selected root says the measurements provide first experimental Fermi-surface
 
 ```mermaid
 graph TD
-    gcn_c131e014_ybrh2si2_midband_harmonic_assignment["gcn_c131e014_ybrh2si2_midband_harmonic_assignment (0.84)"]:::premise
-    gcn_3dc248d_ybrh2si2_14kt_not_small_fs["gcn_3dc248d_ybrh2si2_14kt_not_small_fs (0.81)"]:::premise
-    gcn_3a8394c_lurh2si2_small_fs_reference["gcn_3a8394c_lurh2si2_small_fs_reference (0.92)"]:::premise
-    gcn_2b8dd97_lurh2si2_reference_reanalysis["gcn_2b8dd97_lurh2si2_reference_reanalysis (0.95)"]:::derived
+    ybrh2si2_midband_harmonic_assignment["ybrh2si2_midband_harmonic_assignment (0.84)"]:::premise
+    ybrh2si2_14kt_orbit_not_small_fs["ybrh2si2_14kt_orbit_not_small_fs (0.81)"]:::premise
+    lurh2si2_small_fs_reference["lurh2si2_small_fs_reference (0.92)"]:::premise
+    ybrh2si2_lurh2si2_reference_reanalysis["ybrh2si2_lurh2si2_reference_reanalysis (0.95)"]:::derived
     helper_ybrh2si2_reduced_fundamental_set["helper_ybrh2si2_reduced_fundamental_set (0.93)"]:::derived
-    gcn_d10f91_ybrh2si2_small_fs_mass_enhancement["gcn_d10f91_ybrh2si2_small_fs_mass_enhancement (0.82)"]:::external
+    ybrh2si2_small_fs_mass_enhancement["ybrh2si2_small_fs_mass_enhancement (0.82)"]:::external
     strat_10(["deduction"])
-    gcn_c131e014_ybrh2si2_midband_harmonic_assignment --> strat_10
-    gcn_3dc248d_ybrh2si2_14kt_not_small_fs --> strat_10
-    gcn_3a8394c_lurh2si2_small_fs_reference --> strat_10
-    strat_10 --> gcn_2b8dd97_lurh2si2_reference_reanalysis
+    ybrh2si2_midband_harmonic_assignment --> strat_10
+    ybrh2si2_14kt_orbit_not_small_fs --> strat_10
+    lurh2si2_small_fs_reference --> strat_10
+    strat_10 --> ybrh2si2_lurh2si2_reference_reanalysis
     strat_11(["support"]):::weak
-    gcn_2b8dd97_lurh2si2_reference_reanalysis --> strat_11
+    ybrh2si2_lurh2si2_reference_reanalysis --> strat_11
     strat_11 --> helper_ybrh2si2_reduced_fundamental_set
     strat_22(["support"]):::weak
-    gcn_d10f91_ybrh2si2_small_fs_mass_enhancement --> strat_22
-    strat_22 --> gcn_2b8dd97_lurh2si2_reference_reanalysis
+    ybrh2si2_small_fs_mass_enhancement --> strat_22
+    strat_22 --> ybrh2si2_lurh2si2_reference_reanalysis
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -724,42 +724,42 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_c131e014_ybrh2si2_midband_harmonic_assignment"></a>
+<a id="ybrh2si2_midband_harmonic_assignment"></a>
 
-#### gcn_c131e014_ybrh2si2_midband_harmonic_assignment
+#### ybrh2si2_midband_harmonic_assignment
 
-📌 `gcn_c131e014_ybrh2si2_midband_harmonic_assignment`   |   Prior: 0.78   |   Belief: **0.84**
+📌 `ybrh2si2_midband_harmonic_assignment`   |   Prior: 0.78   |   Belief: **0.84**
 
 > In the Friedemann et al. 2013 re-examination of published field-modulation dHvA data on YbRh2Si2, if the angular dependences of observed 5-7 kT peaks match two times lower-frequency branches below 4 kT and the method preferentially enhances harmonics, then the 5-7 kT peaks can be assigned as second, and in some cases higher, harmonics of lower-frequency fundamentals rather than independent fundamental orbits; the assignment is reported as consistent with tabulated frequency and mass comparisons from the published data [@Friedemann2013].
 
 
-<a id="gcn_3dc248d_ybrh2si2_14kt_not_small_fs"></a>
+<a id="ybrh2si2_14kt_orbit_not_small_fs"></a>
 
-#### gcn_3dc248d_ybrh2si2_14kt_not_small_fs
+#### ybrh2si2_14kt_orbit_not_small_fs
 
-📌 `gcn_3dc248d_ybrh2si2_14kt_not_small_fs`   |   Prior: 0.74   |   Belief: **0.81**
+📌 `ybrh2si2_14kt_orbit_not_small_fs`   |   Prior: 0.74   |   Belief: **0.81**
 
 > For YbRh2Si2 with fields along the (100) direction, Friedemann et al. 2013 define the "small" Fermi surface as an LDA/GGA band-structure calculation in which Yb 4f electrons are core-like and non-hybridizing; if the refined z_Si=0.379 c small-Fermi-surface calculation has no extremal orbit near 14 kT and the measured F_14 ~= 14 kT dHvA peak is an independent fundamental, then the observed 14 kT orbit indicates itinerant Yb 4f participation under the high-field measurement conditions, provided instrumental, magnetic-breakdown, or misassignment alternatives are unlikely [@Friedemann2013].
 
 
-<a id="gcn_3a8394c_lurh2si2_small_fs_reference"></a>
+<a id="lurh2si2_small_fs_reference"></a>
 
-#### gcn_3a8394c_lurh2si2_small_fs_reference
+#### lurh2si2_small_fs_reference
 
-📌 `gcn_3a8394c_lurh2si2_small_fs_reference`   |   Prior: 0.84   |   Belief: **0.92**
+📌 `lurh2si2_small_fs_reference`   |   Prior: 0.84   |   Belief: **0.92**
 
 > Friedemann et al. 2013 treat LuRh2Si2 as an isostructural, filled-4f-shell reference for the "small" Fermi surface of YbRh2Si2 with core-like non-hybridizing Yb 4f electrons, because the Lu and Yb compounds have nearly identical lattice parameters and non-f conduction-band characters when computed and measured using the experimental z_Si=0.379 c structure [@Friedemann2013].
 
 
-<a id="gcn_2b8dd97_lurh2si2_reference_reanalysis"></a>
+<a id="ybrh2si2_lurh2si2_reference_reanalysis"></a>
 
-#### gcn_2b8dd97_lurh2si2_reference_reanalysis ★
+#### ybrh2si2_lurh2si2_reference_reanalysis ★
 
-📌 `gcn_2b8dd97_lurh2si2_reference_reanalysis`   |   Belief: **0.95**
+📌 `ybrh2si2_lurh2si2_reference_reanalysis`   |   Belief: **0.95**
 
 > Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 "small" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].
 
-🔗 **support**([gcn_d10f91_ybrh2si2_small_fs_mass_enhancement](#gcn_d10f91_ybrh2si2_small_fs_mass_enhancement))
+🔗 **support**([ybrh2si2_small_fs_mass_enhancement](#ybrh2si2_small_fs_mass_enhancement))
 
 <details><summary>Reasoning</summary>
 
@@ -776,7 +776,7 @@ Rourke 2008 supplies chain-backed high-field dHvA evidence that a LuRh2Si2-like 
 
 > After the harmonic reassignment in Friedemann et al. 2013, the independent YbRh2Si2 dHvA frequencies retained by the analysis consist of lower-frequency fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT [@Friedemann2013].
 
-🔗 **support**([gcn_2b8dd97_lurh2si2_reference_reanalysis](#gcn_2b8dd97_lurh2si2_reference_reanalysis))
+🔗 **support**([ybrh2si2_lurh2si2_reference_reanalysis](#ybrh2si2_lurh2si2_reference_reanalysis))
 
 <details><summary>Reasoning</summary>
 
@@ -789,13 +789,13 @@ The root LKM claim and factor step 3 explicitly state the reduced set of indepen
 
 ```mermaid
 graph TD
-    gcn_021fb1_high_field_a_gamma_scaling_assumption["gcn_021fb1_high_field_a_gamma_scaling_assumption (0.67)"]:::premise
-    gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability["gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability (0.79)"]:::premise
-    gcn_b4093_ybrh2si2_resistivity_mass_drop["gcn_b4093_ybrh2si2_resistivity_mass_drop (0.84)"]:::derived
+    high_field_a_gamma_scaling_assumption["high_field_a_gamma_scaling_assumption (0.67)"]:::premise
+    ybrh2si2_t2_resistivity_fit_reliability["ybrh2si2_t2_resistivity_fit_reliability (0.79)"]:::premise
+    ybrh2si2_resistivity_mass_drop["ybrh2si2_resistivity_mass_drop (0.84)"]:::derived
     strat_12(["deduction"])
-    gcn_021fb1_high_field_a_gamma_scaling_assumption --> strat_12
-    gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability --> strat_12
-    strat_12 --> gcn_b4093_ybrh2si2_resistivity_mass_drop
+    high_field_a_gamma_scaling_assumption --> strat_12
+    ybrh2si2_t2_resistivity_fit_reliability --> strat_12
+    strat_12 --> ybrh2si2_resistivity_mass_drop
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -808,33 +808,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_021fb1_high_field_a_gamma_scaling_assumption"></a>
+<a id="high_field_a_gamma_scaling_assumption"></a>
 
-#### gcn_021fb1_high_field_a_gamma_scaling_assumption
+#### high_field_a_gamma_scaling_assumption
 
-📌 `gcn_021fb1_high_field_a_gamma_scaling_assumption`   |   Prior: 0.62   |   Belief: **0.67**
+📌 `high_field_a_gamma_scaling_assumption`   |   Prior: 0.62   |   Belief: **0.67**
 
 > For YbRh2Si2, using the low-field empirical scaling A proportional to gamma^2 to estimate gamma at 16 T assumes that the same A/gamma^2 proportionality established up to about 4 T continues to hold at much higher fields [@Tokiwa2004].
 
 
-<a id="gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability"></a>
+<a id="ybrh2si2_t2_resistivity_fit_reliability"></a>
 
-#### gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability
+#### ybrh2si2_t2_resistivity_fit_reliability
 
-📌 `gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability`   |   Prior: 0.76   |   Belief: **0.79**
+📌 `ybrh2si2_t2_resistivity_fit_reliability`   |   Prior: 0.76   |   Belief: **0.79**
 
 > Four-terminal AC resistivity measurements on YbRh2Si2 single crystals fit rho(T,B)=rho0(B)+A(B)T^2 over the reported low-temperature intervals; the LKM chain assumes the fitted A(B) values are reliable enough that systematic finite-temperature and sample effects are small compared with the observed step-like change across B* [@Tokiwa2004].
 
 
-<a id="gcn_b4093_ybrh2si2_resistivity_mass_drop"></a>
+<a id="ybrh2si2_resistivity_mass_drop"></a>
 
-#### gcn_b4093_ybrh2si2_resistivity_mass_drop ★
+#### ybrh2si2_resistivity_mass_drop ★
 
-📌 `gcn_b4093_ybrh2si2_resistivity_mass_drop`   |   Belief: **0.84**
+📌 `ybrh2si2_resistivity_mass_drop`   |   Belief: **0.84**
 
 > For YbRh2Si2 with B perpendicular to c and B>0.06 T, low-temperature resistivity follows rho(T,B)=rho0(B)+A(B)T^2; A(B) drops drastically when B crosses B*=(9.5 +/- 0.5) T, indicating a step-like effective-mass decrease in a Fermi-liquid picture, and the low-field A proportional to gamma^2 scaling estimates gamma(16 T) near 70 mJ mol^-1 K^-2 [@Tokiwa2004].
 
-🔗 **deduction**([gcn_021fb1_high_field_a_gamma_scaling_assumption](#gcn_021fb1_high_field_a_gamma_scaling_assumption), [gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability](#gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability))
+🔗 **deduction**([high_field_a_gamma_scaling_assumption](#high_field_a_gamma_scaling_assumption), [ybrh2si2_t2_resistivity_fit_reliability](#ybrh2si2_t2_resistivity_fit_reliability))
 
 <details><summary>Reasoning</summary>
 
@@ -853,15 +853,15 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_fb2747_ybrh2si2_tp_tcoh_ratio["gcn_fb2747_ybrh2si2_tp_tcoh_ratio (0.86)"]:::premise
-    gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy["gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy (0.98)"]:::derived
-    gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles["gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles (0.93)"]:::external
+    ybrh2si2_tp_tcoh_ratio["ybrh2si2_tp_tcoh_ratio (0.86)"]:::premise
+    ybrh2si2_kondo_lattice_hierarchy["ybrh2si2_kondo_lattice_hierarchy (0.98)"]:::derived
+    ybrh2si2_esr_heavy_quasiparticles["ybrh2si2_esr_heavy_quasiparticles (0.93)"]:::external
     strat_13(["deduction"])
-    gcn_fb2747_ybrh2si2_tp_tcoh_ratio --> strat_13
-    strat_13 --> gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy
+    ybrh2si2_tp_tcoh_ratio --> strat_13
+    strat_13 --> ybrh2si2_kondo_lattice_hierarchy
     strat_26(["support"]):::weak
-    gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles --> strat_26
-    strat_26 --> gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy
+    ybrh2si2_esr_heavy_quasiparticles --> strat_26
+    strat_26 --> ybrh2si2_kondo_lattice_hierarchy
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -874,24 +874,24 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_fb2747_ybrh2si2_tp_tcoh_ratio"></a>
+<a id="ybrh2si2_tp_tcoh_ratio"></a>
 
-#### gcn_fb2747_ybrh2si2_tp_tcoh_ratio
+#### ybrh2si2_tp_tcoh_ratio
 
-📌 `gcn_fb2747_ybrh2si2_tp_tcoh_ratio`   |   Prior: 0.78   |   Belief: **0.86**
+📌 `ybrh2si2_tp_tcoh_ratio`   |   Prior: 0.78   |   Belief: **0.86**
 
 > For stoichiometric YbRh2Si2, assigning T_coh approximately T_K approximately 25-30 K and extracting T_P approximately 3.3 K gives T_P/T_coh approximately 0.11; the LKM chain treats this hierarchy as meaningful for separating lattice-Kondo-dominated behavior from the onset of single-ion Kondo/coherence signatures [@Seiro2017].
 
 
-<a id="gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy"></a>
+<a id="ybrh2si2_kondo_lattice_hierarchy"></a>
 
-#### gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy ★
+#### ybrh2si2_kondo_lattice_hierarchy ★
 
-📌 `gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy`   |   Belief: **0.98**
+📌 `ybrh2si2_kondo_lattice_hierarchy`   |   Belief: **0.98**
 
 > In stoichiometric YbRh2Si2, lattice Kondo correlations are detectable around T_coh approximately T_K approximately 25-30 K, but they dominate low-energy electronic properties only below T_P approximately 3.3 K, about 0.1*T_coh; single-ion Kondo effects therefore persist well below T_coh before lattice coherence enables the observed non-Fermi-liquid quantum-critical behavior [@Seiro2017].
 
-🔗 **support**([gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles](#gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles))
+🔗 **support**([ybrh2si2_esr_heavy_quasiparticles](#ybrh2si2_esr_heavy_quasiparticles))
 
 <details><summary>Reasoning</summary>
 
@@ -904,11 +904,11 @@ The ESR LKM chain identifies coherent heavy quasiparticles below the single-ion 
 
 ```mermaid
 graph TD
-    gcn_a76225_ybrh2si2_esr_collective_mode_assumption["gcn_a76225_ybrh2si2_esr_collective_mode_assumption (0.75)"]:::premise
-    gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles["gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles (0.93)"]:::derived
+    ybrh2si2_esr_collective_mode_assumption["ybrh2si2_esr_collective_mode_assumption (0.75)"]:::premise
+    ybrh2si2_esr_heavy_quasiparticles["ybrh2si2_esr_heavy_quasiparticles (0.93)"]:::derived
     strat_14(["deduction"])
-    gcn_a76225_ybrh2si2_esr_collective_mode_assumption --> strat_14
-    strat_14 --> gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles
+    ybrh2si2_esr_collective_mode_assumption --> strat_14
+    strat_14 --> ybrh2si2_esr_heavy_quasiparticles
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -921,24 +921,24 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_a76225_ybrh2si2_esr_collective_mode_assumption"></a>
+<a id="ybrh2si2_esr_collective_mode_assumption"></a>
 
-#### gcn_a76225_ybrh2si2_esr_collective_mode_assumption
+#### ybrh2si2_esr_collective_mode_assumption
 
-📌 `gcn_a76225_ybrh2si2_esr_collective_mode_assumption`   |   Prior: 0.68   |   Belief: **0.75**
+📌 `ybrh2si2_esr_collective_mode_assumption`   |   Prior: 0.68   |   Belief: **0.75**
 
 > Identifying the YbRh2Si2 ESR line as a collective heavy-quasiparticle resonance rests on empirical ESR/thermodynamic/NMR crossovers and on many-body narrowing proposals, while requiring alternatives such as residual localized Yb3+ ESR or conventional conduction-electron spin resonance to be excluded in the same temperature-field domain [@Schaufuss2008].
 
 
-<a id="gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles"></a>
+<a id="ybrh2si2_esr_heavy_quasiparticles"></a>
 
-#### gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles ★
+#### ybrh2si2_esr_heavy_quasiparticles ★
 
-📌 `gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles`   |   Belief: **0.93**
+📌 `ybrh2si2_esr_heavy_quasiparticles`   |   Belief: **0.93**
 
 > In YbRh2Si2, the anisotropic persistent ESR line, g-factor behavior tracking gamma=C_el/T and NMR observables, and low-temperature T^2 linewidth behavior show that ESR is a resonance of coherent heavy quasiparticles formed below T_K approximately T_0 approximately 25 K; ESR parameters are governed by m*(B,T), N(E_F;B,T), and quasiparticle spin relaxation, giving access to Kondo-state evolution and NFL-to-LFL crossover behavior [@Schaufuss2008].
 
-🔗 **deduction**([gcn_a76225_ybrh2si2_esr_collective_mode_assumption](#gcn_a76225_ybrh2si2_esr_collective_mode_assumption))
+🔗 **deduction**([ybrh2si2_esr_collective_mode_assumption](#ybrh2si2_esr_collective_mode_assumption))
 
 <details><summary>Reasoning</summary>
 
@@ -955,27 +955,27 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_b4093_ybrh2si2_resistivity_mass_drop["gcn_b4093_ybrh2si2_resistivity_mass_drop (0.84)"]:::external
-    gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy["gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy (0.98)"]:::external
-    gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization["gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization (0.85)"]:::premise
-    gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression["gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression (0.86)"]:::derived
-    gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos["gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos (0.83)"]:::premise
-    gcn_4d206_ybrh2si2_kondo_lifshitz_interplay["gcn_4d206_ybrh2si2_kondo_lifshitz_interplay (0.99)"]:::derived
-    gcn_b5d9_ybrh2si2_lifshitz_derenormalization["gcn_b5d9_ybrh2si2_lifshitz_derenormalization (0.83)"]:::external
+    ybrh2si2_resistivity_mass_drop["ybrh2si2_resistivity_mass_drop (0.84)"]:::external
+    ybrh2si2_kondo_lattice_hierarchy["ybrh2si2_kondo_lattice_hierarchy (0.98)"]:::external
+    ybrh2si2_cef_anisotropic_hybridization["ybrh2si2_cef_anisotropic_hybridization (0.85)"]:::premise
+    ybrh2si2_smooth_kondo_mass_suppression["ybrh2si2_smooth_kondo_mass_suppression (0.86)"]:::derived
+    periodic_kondo_lattice_lifshitz_dos["periodic_kondo_lattice_lifshitz_dos (0.83)"]:::premise
+    ybrh2si2_kondo_lifshitz_interplay["ybrh2si2_kondo_lifshitz_interplay (0.99)"]:::derived
+    ybrh2si2_lifshitz_derenormalization["ybrh2si2_lifshitz_derenormalization (0.83)"]:::external
     strat_15(["deduction"])
-    gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization --> strat_15
-    gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression --> strat_15
-    gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos --> strat_15
-    strat_15 --> gcn_4d206_ybrh2si2_kondo_lifshitz_interplay
+    ybrh2si2_cef_anisotropic_hybridization --> strat_15
+    ybrh2si2_smooth_kondo_mass_suppression --> strat_15
+    periodic_kondo_lattice_lifshitz_dos --> strat_15
+    strat_15 --> ybrh2si2_kondo_lifshitz_interplay
     strat_24(["support"]):::weak
-    gcn_b4093_ybrh2si2_resistivity_mass_drop --> strat_24
-    strat_24 --> gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression
+    ybrh2si2_resistivity_mass_drop --> strat_24
+    strat_24 --> ybrh2si2_smooth_kondo_mass_suppression
     strat_25(["support"]):::weak
-    gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy --> strat_25
-    strat_25 --> gcn_4d206_ybrh2si2_kondo_lifshitz_interplay
+    ybrh2si2_kondo_lattice_hierarchy --> strat_25
+    strat_25 --> ybrh2si2_kondo_lifshitz_interplay
     strat_27(["support"]):::weak
-    gcn_b5d9_ybrh2si2_lifshitz_derenormalization --> strat_27
-    strat_27 --> gcn_4d206_ybrh2si2_kondo_lifshitz_interplay
+    ybrh2si2_lifshitz_derenormalization --> strat_27
+    strat_27 --> ybrh2si2_kondo_lifshitz_interplay
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -988,24 +988,24 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization"></a>
+<a id="ybrh2si2_cef_anisotropic_hybridization"></a>
 
-#### gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization
+#### ybrh2si2_cef_anisotropic_hybridization
 
-📌 `gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization`   |   Prior: 0.78   |   Belief: **0.85**
+📌 `ybrh2si2_cef_anisotropic_hybridization`   |   Prior: 0.78   |   Belief: **0.85**
 
 > In tetragonal YbRh2Si2, CEF ground-state symmetry of the Yb3+ 4f ion produces strongly anisotropic 4f-conduction hybridization and enhanced quasiparticle g-factor anisotropy, making particular f-derived bands sensitive to magnetic-field-driven Zeeman shifts [@Pfau2013].
 
 
-<a id="gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression"></a>
+<a id="ybrh2si2_smooth_kondo_mass_suppression"></a>
 
-#### gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression
+#### ybrh2si2_smooth_kondo_mass_suppression
 
-📌 `gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression`   |   Belief: **0.86**
+📌 `ybrh2si2_smooth_kondo_mass_suppression`   |   Belief: **0.86**
 
 > For Yb-based Kondo systems in fields of order the single-ion Kondo scale, local Kondo screening is suppressed continuously with B, producing a continuous decrease of quasiparticle effective mass m*(B), so field mainly reduces Kondo correlations smoothly rather than abruptly localizing the 4f electrons [@Pfau2013].
 
-🔗 **support**([gcn_b4093_ybrh2si2_resistivity_mass_drop](#gcn_b4093_ybrh2si2_resistivity_mass_drop))
+🔗 **support**([ybrh2si2_resistivity_mass_drop](#ybrh2si2_resistivity_mass_drop))
 
 <details><summary>Reasoning</summary>
 
@@ -1014,24 +1014,24 @@ Tokiwa 2004 reports a high-field reduction of the YbRh2Si2 Fermi-liquid A coeffi
 </details>
 
 
-<a id="gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos"></a>
+<a id="periodic_kondo_lattice_lifshitz_dos"></a>
 
-#### gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos
+#### periodic_kondo_lattice_lifshitz_dos
 
-📌 `gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos`   |   Prior: 0.76   |   Belief: **0.83**
+📌 `periodic_kondo_lattice_lifshitz_dos`   |   Prior: 0.76   |   Belief: **0.83**
 
 > In a periodic Kondo lattice, coherent hybridized quasiparticle bands can contain sharp van-Hove-type DOS peaks or flattened dispersions; Zeeman spin splitting can move these features through the Fermi energy and cause discrete Lifshitz transitions even while overall mass renormalization is reduced smoothly [@Pfau2013].
 
 
-<a id="gcn_4d206_ybrh2si2_kondo_lifshitz_interplay"></a>
+<a id="ybrh2si2_kondo_lifshitz_interplay"></a>
 
-#### gcn_4d206_ybrh2si2_kondo_lifshitz_interplay ★
+#### ybrh2si2_kondo_lifshitz_interplay ★
 
-📌 `gcn_4d206_ybrh2si2_kondo_lifshitz_interplay`   |   Belief: **0.99**
+📌 `ybrh2si2_kondo_lifshitz_interplay`   |   Belief: **0.99**
 
 > YbRh2Si2 high-field phenomenology is explained by the interplay of CEF-induced anisotropic hybridization and g-factor anisotropy, smooth field suppression of Kondo screening that reduces m*(B), and Kondo-lattice coherence that creates van-Hove-type DOS structures whose Zeeman shifts produce successive Lifshitz transitions; this accounts for continuous mass reduction plus abrupt transport/thermodynamic anomalies [@Pfau2013].
 
-🔗 **support**([gcn_b5d9_ybrh2si2_lifshitz_derenormalization](#gcn_b5d9_ybrh2si2_lifshitz_derenormalization))
+🔗 **support**([ybrh2si2_lifshitz_derenormalization](#ybrh2si2_lifshitz_derenormalization))
 
 <details><summary>Reasoning</summary>
 
@@ -1044,13 +1044,13 @@ Naren 2013 separately states the same YbRh2Si2 field phenomenology in a chain-ba
 
 ```mermaid
 graph TD
-    gcn_6ca2b_ybrh2si2_hall_compensation_scenario["gcn_6ca2b_ybrh2si2_hall_compensation_scenario (0.66)"]:::premise
-    gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz["gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz (0.81)"]:::premise
-    gcn_b5d9_ybrh2si2_lifshitz_derenormalization["gcn_b5d9_ybrh2si2_lifshitz_derenormalization (0.83)"]:::derived
+    ybrh2si2_hall_compensation_scenario["ybrh2si2_hall_compensation_scenario (0.66)"]:::premise
+    ybrh2si2_thermopower_lifshitz_corroboration["ybrh2si2_thermopower_lifshitz_corroboration (0.81)"]:::premise
+    ybrh2si2_lifshitz_derenormalization["ybrh2si2_lifshitz_derenormalization (0.83)"]:::derived
     strat_16(["deduction"])
-    gcn_6ca2b_ybrh2si2_hall_compensation_scenario --> strat_16
-    gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz --> strat_16
-    strat_16 --> gcn_b5d9_ybrh2si2_lifshitz_derenormalization
+    ybrh2si2_hall_compensation_scenario --> strat_16
+    ybrh2si2_thermopower_lifshitz_corroboration --> strat_16
+    strat_16 --> ybrh2si2_lifshitz_derenormalization
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -1063,33 +1063,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_6ca2b_ybrh2si2_hall_compensation_scenario"></a>
+<a id="ybrh2si2_hall_compensation_scenario"></a>
 
-#### gcn_6ca2b_ybrh2si2_hall_compensation_scenario
+#### ybrh2si2_hall_compensation_scenario
 
-📌 `gcn_6ca2b_ybrh2si2_hall_compensation_scenario`   |   Prior: 0.62   |   Belief: **0.66**
+📌 `ybrh2si2_hall_compensation_scenario`   |   Prior: 0.62   |   Belief: **0.66**
 
 > In multiband YbRh2Si2, two Fermi-surface sheets undergoing Lifshitz transitions near similar fields can contribute Hall-coefficient changes of opposite sign and comparable magnitude, partially cancelling the total Hall response near B2; the LKM chain treats this as viable but not uniquely established by transport data [@Naren2013].
 
 
-<a id="gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz"></a>
+<a id="ybrh2si2_thermopower_lifshitz_corroboration"></a>
 
-#### gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz
+#### ybrh2si2_thermopower_lifshitz_corroboration
 
-📌 `gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz`   |   Prior: 0.78   |   Belief: **0.81**
+📌 `ybrh2si2_thermopower_lifshitz_corroboration`   |   Prior: 0.78   |   Belief: **0.81**
 
 > Thermopower measurements on a YbRh2Si2 sample from the same growth batch as magnetotransport samples show anomalies near 9-11 T and around 9.5 T, corroborating that the magnetotransport anomalies have an electronic-structure origin such as Lifshitz transitions [@Naren2013].
 
 
-<a id="gcn_b5d9_ybrh2si2_lifshitz_derenormalization"></a>
+<a id="ybrh2si2_lifshitz_derenormalization"></a>
 
-#### gcn_b5d9_ybrh2si2_lifshitz_derenormalization ★
+#### ybrh2si2_lifshitz_derenormalization ★
 
-📌 `gcn_b5d9_ybrh2si2_lifshitz_derenormalization`   |   Belief: **0.83**
+📌 `ybrh2si2_lifshitz_derenormalization`   |   Belief: **0.83**
 
 > Combining magnetoresistance and Hall data on YbRh2Si2 down to 50 mK and up to 15 T with field-dependent renormalized-band calculations assigns anomalies at B1 about 3 T, B2 about 9 T, and B3 about 11-11.5 T to Zeeman-driven Lifshitz transitions, while Kondo quasiparticle de-renormalization proceeds as a smoother crossover; sharp Fermi-surface topology changes and smooth Kondo-weight suppression therefore coexist with distinct field dependences [@Naren2013].
 
-🔗 **deduction**([gcn_6ca2b_ybrh2si2_hall_compensation_scenario](#gcn_6ca2b_ybrh2si2_hall_compensation_scenario), [gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz](#gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz))
+🔗 **deduction**([ybrh2si2_hall_compensation_scenario](#ybrh2si2_hall_compensation_scenario), [ybrh2si2_thermopower_lifshitz_corroboration](#ybrh2si2_thermopower_lifshitz_corroboration))
 
 <details><summary>Reasoning</summary>
 
@@ -1107,13 +1107,13 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_848945_ybrh2si2_lusmall_fs_lda_assumption["gcn_848945_ybrh2si2_lusmall_fs_lda_assumption (0.76)"]:::premise
-    gcn_5090f8_dhva_orbit_assignment_reliability["gcn_5090f8_dhva_orbit_assignment_reliability (0.73)"]:::premise
-    gcn_d10f91_ybrh2si2_small_fs_mass_enhancement["gcn_d10f91_ybrh2si2_small_fs_mass_enhancement (0.82)"]:::derived
+    ybrh2si2_lusmall_fs_lda_assumption["ybrh2si2_lusmall_fs_lda_assumption (0.76)"]:::premise
+    dhva_orbit_assignment_reliability["dhva_orbit_assignment_reliability (0.73)"]:::premise
+    ybrh2si2_small_fs_mass_enhancement["ybrh2si2_small_fs_mass_enhancement (0.82)"]:::derived
     strat_17(["deduction"])
-    gcn_848945_ybrh2si2_lusmall_fs_lda_assumption --> strat_17
-    gcn_5090f8_dhva_orbit_assignment_reliability --> strat_17
-    strat_17 --> gcn_d10f91_ybrh2si2_small_fs_mass_enhancement
+    ybrh2si2_lusmall_fs_lda_assumption --> strat_17
+    dhva_orbit_assignment_reliability --> strat_17
+    strat_17 --> ybrh2si2_small_fs_mass_enhancement
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -1126,33 +1126,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_848945_ybrh2si2_lusmall_fs_lda_assumption"></a>
+<a id="ybrh2si2_lusmall_fs_lda_assumption"></a>
 
-#### gcn_848945_ybrh2si2_lusmall_fs_lda_assumption
+#### ybrh2si2_lusmall_fs_lda_assumption
 
-📌 `gcn_848945_ybrh2si2_lusmall_fs_lda_assumption`   |   Prior: 0.74   |   Belief: **0.76**
+📌 `ybrh2si2_lusmall_fs_lda_assumption`   |   Prior: 0.74   |   Belief: **0.76**
 
 > Using LuRh2Si2 LDA+SOC Fermi-surface topology as a qualitative small-Fermi-surface guide for YbRh2Si2 assumes isostructural substitution and neglect of heavy-fermion correlations do not change the gross topology relevant to orbit identification [@Rourke2008].
 
 
-<a id="gcn_5090f8_dhva_orbit_assignment_reliability"></a>
+<a id="dhva_orbit_assignment_reliability"></a>
 
-#### gcn_5090f8_dhva_orbit_assignment_reliability
+#### dhva_orbit_assignment_reliability
 
-📌 `gcn_5090f8_dhva_orbit_assignment_reliability`   |   Prior: 0.70   |   Belief: **0.73**
+📌 `dhva_orbit_assignment_reliability`   |   Prior: 0.70   |   Belief: **0.73**
 
 > Assigning YbRh2Si2 observed dHvA branches to calculated small-Fermi-surface D-sheet orbits assumes the calculated angular dispersions are distinct, no unexpected pockets produce coincident frequencies, and branch visibility does not confound the mapping [@Rourke2008].
 
 
-<a id="gcn_d10f91_ybrh2si2_small_fs_mass_enhancement"></a>
+<a id="ybrh2si2_small_fs_mass_enhancement"></a>
 
-#### gcn_d10f91_ybrh2si2_small_fs_mass_enhancement ★
+#### ybrh2si2_small_fs_mass_enhancement ★
 
-📌 `gcn_d10f91_ybrh2si2_small_fs_mass_enhancement`   |   Belief: **0.82**
+📌 `ybrh2si2_small_fs_mass_enhancement`   |   Belief: **0.82**
 
 > LDA+SOC calculations for LuRh2Si2 as the small-Fermi-surface analogue produce a D-sheet topology whose predicted orbits match YbRh2Si2 dHvA frequencies better than large-FS YbRh2Si2 LDA+SOC; comparing calculated band masses with measured cyclotron masses yields m*/m_b enhancements of order ten, consistent with strong many-body renormalization [@Rourke2008].
 
-🔗 **deduction**([gcn_848945_ybrh2si2_lusmall_fs_lda_assumption](#gcn_848945_ybrh2si2_lusmall_fs_lda_assumption), [gcn_5090f8_dhva_orbit_assignment_reliability](#gcn_5090f8_dhva_orbit_assignment_reliability))
+🔗 **deduction**([ybrh2si2_lusmall_fs_lda_assumption](#ybrh2si2_lusmall_fs_lda_assumption), [dhva_orbit_assignment_reliability](#dhva_orbit_assignment_reliability))
 
 <details><summary>Reasoning</summary>
 
@@ -1169,21 +1169,21 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_42a4ff_rbc_hall_dos_values["gcn_42a4ff_rbc_hall_dos_values (0.92)"]:::external
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch["gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch (0.93)"]:::external
-    gcn_2b8dd97_lurh2si2_reference_reanalysis["gcn_2b8dd97_lurh2si2_reference_reanalysis (0.95)"]:::external
-    gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations["gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations (0.90)"]:::premise
-    gcn_34ce9_ybrh2si2_many_body_methods_required["gcn_34ce9_ybrh2si2_many_body_methods_required (1.00)"]:::derived
+    ybrh2si2_rbc_hall_dos_gamma_values["ybrh2si2_rbc_hall_dos_gamma_values (0.92)"]:::external
+    ybrh2si2_dhva_spectrum_lda_mismatch["ybrh2si2_dhva_spectrum_lda_mismatch (0.93)"]:::external
+    ybrh2si2_lurh2si2_reference_reanalysis["ybrh2si2_lurh2si2_reference_reanalysis (0.95)"]:::external
+    ybrh2si2_lda_missing_dynamic_correlations["ybrh2si2_lda_missing_dynamic_correlations (0.90)"]:::premise
+    ybrh2si2_many_body_methods_required["ybrh2si2_many_body_methods_required (1.00)"]:::derived
     strat_18(["deduction"])
-    gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations --> strat_18
-    strat_18 --> gcn_34ce9_ybrh2si2_many_body_methods_required
+    ybrh2si2_lda_missing_dynamic_correlations --> strat_18
+    strat_18 --> ybrh2si2_many_body_methods_required
     strat_23(["support"]):::weak
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch --> strat_23
-    gcn_2b8dd97_lurh2si2_reference_reanalysis --> strat_23
-    strat_23 --> gcn_34ce9_ybrh2si2_many_body_methods_required
+    ybrh2si2_dhva_spectrum_lda_mismatch --> strat_23
+    ybrh2si2_lurh2si2_reference_reanalysis --> strat_23
+    strat_23 --> ybrh2si2_many_body_methods_required
     strat_28(["support"]):::weak
-    gcn_42a4ff_rbc_hall_dos_values --> strat_28
-    strat_28 --> gcn_34ce9_ybrh2si2_many_body_methods_required
+    ybrh2si2_rbc_hall_dos_gamma_values --> strat_28
+    strat_28 --> ybrh2si2_many_body_methods_required
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -1196,24 +1196,24 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations"></a>
+<a id="ybrh2si2_lda_missing_dynamic_correlations"></a>
 
-#### gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations
+#### ybrh2si2_lda_missing_dynamic_correlations
 
-📌 `gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations`   |   Prior: 0.82   |   Belief: **0.90**
+📌 `ybrh2si2_lda_missing_dynamic_correlations`   |   Prior: 0.82   |   Belief: **0.90**
 
 > YbRh2Si2 has strong local correlations and Kondo-driven heavy quasiparticles, seen through large Sommerfeld coefficients and strongly renormalized effective masses; conventional LDA lacks dynamic local correlations and Kondo renormalization, so many-body methods such as renormalized-band approaches or DMFT are required for quantitative Fermi-surface and mass descriptions [@Friedemann2013b].
 
 
-<a id="gcn_34ce9_ybrh2si2_many_body_methods_required"></a>
+<a id="ybrh2si2_many_body_methods_required"></a>
 
-#### gcn_34ce9_ybrh2si2_many_body_methods_required ★
+#### ybrh2si2_many_body_methods_required ★
 
-📌 `gcn_34ce9_ybrh2si2_many_body_methods_required`   |   Belief: **1.00**
+📌 `ybrh2si2_many_body_methods_required`   |   Belief: **1.00**
 
 > Density-functional LDA calculations of YbRh2Si2 in both f-core small-FS and itinerant-4f large-FS variants fail to reproduce the complete set of quantum-oscillation branches and large quasiparticle masses, so quantitative YbRh2Si2 Fermi-surface and effective-mass modeling requires many-body approaches capturing local dynamic correlations and Kondo renormalization [@Friedemann2013b].
 
-🔗 **support**([gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values))
+🔗 **support**([ybrh2si2_rbc_hall_dos_gamma_values](#ybrh2si2_rbc_hall_dos_gamma_values))
 
 <details><summary>Reasoning</summary>
 
@@ -1226,12 +1226,12 @@ Friedemann 2010 provides LKM-backed renormalized-band calculations for YbRh2Si2 
 
 ```mermaid
 graph TD
-    gcn_e0c364ff_inflection_fcqpt_condition["gcn_e0c364ff_inflection_fcqpt_condition (0.95)"]:::external
-    gcn_f82c178_fcqpt_inflection_cubic_spectrum["gcn_f82c178_fcqpt_inflection_cubic_spectrum (0.95)"]:::external
+    fcqpt_inflection_critical_condition["fcqpt_inflection_critical_condition (0.95)"]:::external
+    fcqpt_cubic_spectrum_condition["fcqpt_cubic_spectrum_condition (0.95)"]:::external
     eq_fcqpt_inflection_condition["eq_fcqpt_inflection_condition (1.00)"]:::derived
     oper_0{{"≡"}}
-    gcn_e0c364ff_inflection_fcqpt_condition --- oper_0
-    gcn_f82c178_fcqpt_inflection_cubic_spectrum --- oper_0
+    fcqpt_inflection_critical_condition --- oper_0
+    fcqpt_cubic_spectrum_condition --- oper_0
     oper_0 --- eq_fcqpt_inflection_condition
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
@@ -1260,50 +1260,50 @@ graph TD
 
 | Label | Type | Prior | Belief | Role |
 |-------|------|-------|--------|------|
-| [gcn_6ca2b_ybrh2si2_hall_compensation_scenario](#gcn_6ca2b_ybrh2si2_hall_compensation_scenario) | claim | 0.62 | 0.6633 | independent |
-| [gcn_021fb1_high_field_a_gamma_scaling_assumption](#gcn_021fb1_high_field_a_gamma_scaling_assumption) | claim | 0.62 | 0.6677 | independent |
-| [gcn_5090f8_dhva_orbit_assignment_reliability](#gcn_5090f8_dhva_orbit_assignment_reliability) | claim | 0.70 | 0.7285 | independent |
-| [gcn_03614e9b_homogeneous_isotropic_model](#gcn_03614e9b_homogeneous_isotropic_model) | claim | 0.68 | 0.7375 | independent |
-| [gcn_a76225_ybrh2si2_esr_collective_mode_assumption](#gcn_a76225_ybrh2si2_esr_collective_mode_assumption) | claim | 0.68 | 0.7531 | independent |
-| [gcn_6bbfeb95_stable_landau_solutions](#gcn_6bbfeb95_stable_landau_solutions) | claim | 0.70 | 0.7539 | independent |
-| [gcn_848945_ybrh2si2_lusmall_fs_lda_assumption](#gcn_848945_ybrh2si2_lusmall_fs_lda_assumption) | claim | 0.74 | 0.7647 | independent |
-| [gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability](#gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability) | claim | 0.76 | 0.7901 | independent |
-| [gcn_58746c_fcqpt_homogeneous_mass_equation](#gcn_58746c_fcqpt_homogeneous_mass_equation) | claim | 0.78 | 0.7968 | independent |
-| [gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz](#gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz) | claim | 0.78 | 0.8051 | independent |
-| [gcn_3dc248d_ybrh2si2_14kt_not_small_fs](#gcn_3dc248d_ybrh2si2_14kt_not_small_fs) | claim | 0.74 | 0.8101 | independent |
-| [gcn_d10f91_ybrh2si2_small_fs_mass_enhancement](#gcn_d10f91_ybrh2si2_small_fs_mass_enhancement) | claim | — | 0.8192 | derived |
-| [gcn_b5d9_ybrh2si2_lifshitz_derenormalization](#gcn_b5d9_ybrh2si2_lifshitz_derenormalization) | claim | — | 0.8276 | derived |
-| [gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos](#gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos) | claim | 0.76 | 0.8310 | independent |
-| [gcn_f20b1f42_itinerant_4f_lda_sensitivity](#gcn_f20b1f42_itinerant_4f_lda_sensitivity) | claim | 0.78 | 0.8312 | independent |
-| [gcn_b4093_ybrh2si2_resistivity_mass_drop](#gcn_b4093_ybrh2si2_resistivity_mass_drop) | claim | — | 0.8360 | derived |
-| [gcn_c131e014_ybrh2si2_midband_harmonic_assignment](#gcn_c131e014_ybrh2si2_midband_harmonic_assignment) | claim | 0.78 | 0.8393 | independent |
-| [gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization](#gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization) | claim | 0.78 | 0.8451 | independent |
-| [gcn_677c6c_landau_integral_relation](#gcn_677c6c_landau_integral_relation) | claim | 0.82 | 0.8523 | independent |
-| [gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression](#gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression) | claim | — | 0.8600 | derived |
-| [gcn_fb2747_ybrh2si2_tp_tcoh_ratio](#gcn_fb2747_ybrh2si2_tp_tcoh_ratio) | claim | 0.78 | 0.8605 | independent |
-| [gcn_c243dcb_rbc_phase_shift_parametrization](#gcn_c243dcb_rbc_phase_shift_parametrization) | claim | 0.82 | 0.8644 | independent |
-| [gcn_48bba377_specific_heat_calibration](#gcn_48bba377_specific_heat_calibration) | claim | 0.76 | 0.8672 | independent |
-| [gcn_45f24d_fcqpt_t_minus_two_thirds](#gcn_45f24d_fcqpt_t_minus_two_thirds) | claim | — | 0.8730 | derived |
-| [gcn_5501e18a_high_field_dhva_scope](#gcn_5501e18a_high_field_dhva_scope) | claim | 0.84 | 0.8772 | independent |
-| [gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations](#gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations) | claim | 0.82 | 0.8960 | independent |
-| [gcn_2741cdef_practical_effective_mass_scheme](#gcn_2741cdef_practical_effective_mass_scheme) | claim | — | 0.9101 | derived |
+| [ybrh2si2_hall_compensation_scenario](#ybrh2si2_hall_compensation_scenario) | claim | 0.62 | 0.6633 | independent |
+| [high_field_a_gamma_scaling_assumption](#high_field_a_gamma_scaling_assumption) | claim | 0.62 | 0.6677 | independent |
+| [dhva_orbit_assignment_reliability](#dhva_orbit_assignment_reliability) | claim | 0.70 | 0.7285 | independent |
+| [homogeneous_isotropic_heavy_liquid_model](#homogeneous_isotropic_heavy_liquid_model) | claim | 0.68 | 0.7375 | independent |
+| [ybrh2si2_esr_collective_mode_assumption](#ybrh2si2_esr_collective_mode_assumption) | claim | 0.68 | 0.7531 | independent |
+| [stable_landau_numerical_solutions](#stable_landau_numerical_solutions) | claim | 0.70 | 0.7539 | independent |
+| [ybrh2si2_lusmall_fs_lda_assumption](#ybrh2si2_lusmall_fs_lda_assumption) | claim | 0.74 | 0.7647 | independent |
+| [ybrh2si2_t2_resistivity_fit_reliability](#ybrh2si2_t2_resistivity_fit_reliability) | claim | 0.76 | 0.7901 | independent |
+| [fcqpt_homogeneous_mass_equation](#fcqpt_homogeneous_mass_equation) | claim | 0.78 | 0.7968 | independent |
+| [ybrh2si2_thermopower_lifshitz_corroboration](#ybrh2si2_thermopower_lifshitz_corroboration) | claim | 0.78 | 0.8051 | independent |
+| [ybrh2si2_14kt_orbit_not_small_fs](#ybrh2si2_14kt_orbit_not_small_fs) | claim | 0.74 | 0.8101 | independent |
+| [ybrh2si2_small_fs_mass_enhancement](#ybrh2si2_small_fs_mass_enhancement) | claim | — | 0.8192 | derived |
+| [ybrh2si2_lifshitz_derenormalization](#ybrh2si2_lifshitz_derenormalization) | claim | — | 0.8276 | derived |
+| [periodic_kondo_lattice_lifshitz_dos](#periodic_kondo_lattice_lifshitz_dos) | claim | 0.76 | 0.8310 | independent |
+| [ybrh2si2_itinerant_4f_lda_sensitivity](#ybrh2si2_itinerant_4f_lda_sensitivity) | claim | 0.78 | 0.8312 | independent |
+| [ybrh2si2_resistivity_mass_drop](#ybrh2si2_resistivity_mass_drop) | claim | — | 0.8360 | derived |
+| [ybrh2si2_midband_harmonic_assignment](#ybrh2si2_midband_harmonic_assignment) | claim | 0.78 | 0.8393 | independent |
+| [ybrh2si2_cef_anisotropic_hybridization](#ybrh2si2_cef_anisotropic_hybridization) | claim | 0.78 | 0.8451 | independent |
+| [landau_mass_integral_relation](#landau_mass_integral_relation) | claim | 0.82 | 0.8523 | independent |
+| [ybrh2si2_smooth_kondo_mass_suppression](#ybrh2si2_smooth_kondo_mass_suppression) | claim | — | 0.8600 | derived |
+| [ybrh2si2_tp_tcoh_ratio](#ybrh2si2_tp_tcoh_ratio) | claim | 0.78 | 0.8605 | independent |
+| [rbc_phase_shift_parametrization](#rbc_phase_shift_parametrization) | claim | 0.82 | 0.8644 | independent |
+| [rbc_specific_heat_calibration](#rbc_specific_heat_calibration) | claim | 0.76 | 0.8672 | independent |
+| [fcqpt_t_minus_two_thirds_mass_scaling](#fcqpt_t_minus_two_thirds_mass_scaling) | claim | — | 0.8730 | derived |
+| [ybrh2si2_high_field_dhva_scope](#ybrh2si2_high_field_dhva_scope) | claim | 0.84 | 0.8772 | independent |
+| [ybrh2si2_lda_missing_dynamic_correlations](#ybrh2si2_lda_missing_dynamic_correlations) | claim | 0.82 | 0.8960 | independent |
+| [ybrh2si2_entropy_effective_mass_scheme](#ybrh2si2_entropy_effective_mass_scheme) | claim | — | 0.9101 | derived |
 | [helper_rbc_dos_gamma_ybrh2si2_ybir2si2](#helper_rbc_dos_gamma_ybrh2si2_ybir2si2) | claim | — | 0.9125 | derived |
 | [helper_rbc_parameterization_constrained_by_cef_gamma](#helper_rbc_parameterization_constrained_by_cef_gamma) | claim | — | 0.9125 | derived |
 | [helper_ybrh2si2_opposite_hall_transport_products](#helper_ybrh2si2_opposite_hall_transport_products) | claim | — | 0.9125 | derived |
 | [helper_dhva_first_fs_information_scope](#helper_dhva_first_fs_information_scope) | claim | — | 0.9157 | derived |
 | [helper_dhva_frequencies_masses_h_parallel_a](#helper_dhva_frequencies_masses_h_parallel_a) | claim | — | 0.9157 | derived |
-| [gcn_ecddfefa_fermion_entropy_formula](#gcn_ecddfefa_fermion_entropy_formula) | claim | 0.90 | 0.9180 | independent |
-| [gcn_42a4ff_rbc_hall_dos_values](#gcn_42a4ff_rbc_hall_dos_values) | claim | — | 0.9186 | derived |
-| [gcn_3a8394c_lurh2si2_small_fs_reference](#gcn_3a8394c_lurh2si2_small_fs_reference) | claim | 0.84 | 0.9248 | independent |
-| [gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch](#gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch) | claim | — | 0.9257 | derived |
-| [gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles](#gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles) | claim | — | 0.9259 | derived |
+| [fermion_entropy_formula](#fermion_entropy_formula) | claim | 0.90 | 0.9180 | independent |
+| [ybrh2si2_rbc_hall_dos_gamma_values](#ybrh2si2_rbc_hall_dos_gamma_values) | claim | — | 0.9186 | derived |
+| [lurh2si2_small_fs_reference](#lurh2si2_small_fs_reference) | claim | 0.84 | 0.9248 | independent |
+| [ybrh2si2_dhva_spectrum_lda_mismatch](#ybrh2si2_dhva_spectrum_lda_mismatch) | claim | — | 0.9257 | derived |
+| [ybrh2si2_esr_heavy_quasiparticles](#ybrh2si2_esr_heavy_quasiparticles) | claim | — | 0.9259 | derived |
 | [helper_ybrh2si2_reduced_fundamental_set](#helper_ybrh2si2_reduced_fundamental_set) | claim | — | 0.9284 | derived |
-| [gcn_f82c178_fcqpt_inflection_cubic_spectrum](#gcn_f82c178_fcqpt_inflection_cubic_spectrum) | claim | 0.80 | 0.9456 | independent |
-| [gcn_e0c364ff_inflection_fcqpt_condition](#gcn_e0c364ff_inflection_fcqpt_condition) | claim | 0.78 | 0.9456 | independent |
-| [gcn_2b8dd97_lurh2si2_reference_reanalysis](#gcn_2b8dd97_lurh2si2_reference_reanalysis) | claim | — | 0.9539 | derived |
-| [gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy](#gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy) | claim | — | 0.9818 | derived |
+| [fcqpt_cubic_spectrum_condition](#fcqpt_cubic_spectrum_condition) | claim | 0.80 | 0.9456 | independent |
+| [fcqpt_inflection_critical_condition](#fcqpt_inflection_critical_condition) | claim | 0.78 | 0.9456 | independent |
+| [ybrh2si2_lurh2si2_reference_reanalysis](#ybrh2si2_lurh2si2_reference_reanalysis) | claim | — | 0.9539 | derived |
+| [ybrh2si2_kondo_lattice_hierarchy](#ybrh2si2_kondo_lattice_hierarchy) | claim | — | 0.9818 | derived |
 | [helper_dhva_angular_dependence_itinerant_lda_mismatch](#helper_dhva_angular_dependence_itinerant_lda_mismatch) | claim | — | 0.9827 | derived |
-| [gcn_4d206_ybrh2si2_kondo_lifshitz_interplay](#gcn_4d206_ybrh2si2_kondo_lifshitz_interplay) | claim | — | 0.9875 | derived |
-| [gcn_2e693115_entropy_over_temperature_mass](#gcn_2e693115_entropy_over_temperature_mass) | claim | 0.72 | 0.9940 | derived |
-| [gcn_34ce9_ybrh2si2_many_body_methods_required](#gcn_34ce9_ybrh2si2_many_body_methods_required) | claim | — | 0.9961 | derived |
+| [ybrh2si2_kondo_lifshitz_interplay](#ybrh2si2_kondo_lifshitz_interplay) | claim | — | 0.9875 | derived |
+| [entropy_over_temperature_mass_proxy](#entropy_over_temperature_mass_proxy) | claim | 0.72 | 0.9940 | derived |
+| [ybrh2si2_many_body_methods_required](#ybrh2si2_many_body_methods_required) | claim | — | 0.9961 | derived |
 | [eq_fcqpt_inflection_condition](#eq_fcqpt_inflection_condition) | claim | 0.93 | 0.9996 | structural |

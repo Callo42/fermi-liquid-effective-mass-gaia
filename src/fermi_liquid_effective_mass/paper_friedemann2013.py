@@ -10,7 +10,7 @@ Reference key (CSL): Friedemann2013
 from gaia.lang import claim, deduction, support
 
 
-gcn_c131e014_ybrh2si2_midband_harmonic_assignment = claim(
+ybrh2si2_midband_harmonic_assignment = claim(
     r"""In the Friedemann et al. 2013 re-examination of published field-modulation dHvA data on YbRh2Si2, if the angular dependences of observed 5-7 kT peaks match two times lower-frequency branches below 4 kT and the method preferentially enhances harmonics, then the 5-7 kT peaks can be assigned as second, and in some cases higher, harmonics of lower-frequency fundamentals rather than independent fundamental orbits; the assignment is reported as consistent with tabulated frequency and mass comparisons from the published data [@Friedemann2013].""",
     lkm_id="gcn_c131e01470ea48ad",
     source_paper="paper:867761295154217007",
@@ -19,7 +19,7 @@ gcn_c131e014_ybrh2si2_midband_harmonic_assignment = claim(
       Refs. 10,13 and Fig. 10(c) in the provided paper""",
 )
 
-gcn_3dc248d_ybrh2si2_14kt_not_small_fs = claim(
+ybrh2si2_14kt_orbit_not_small_fs = claim(
     r"""For YbRh2Si2 with fields along the (100) direction, Friedemann et al. 2013 define the "small" Fermi surface as an LDA/GGA band-structure calculation in which Yb 4f electrons are core-like and non-hybridizing; if the refined z_Si=0.379 c small-Fermi-surface calculation has no extremal orbit near 14 kT and the measured F_14 ~= 14 kT dHvA peak is an independent fundamental, then the observed 14 kT orbit indicates itinerant Yb 4f participation under the high-field measurement conditions, provided instrumental, magnetic-breakdown, or misassignment alternatives are unlikely [@Friedemann2013].""",
     lkm_id="gcn_3dc248d9752a416c",
     source_paper="paper:867761295154217007",
@@ -28,7 +28,7 @@ gcn_3dc248d_ybrh2si2_14kt_not_small_fs = claim(
       Comparison figures and discussion in the provided paper (Fig. 10 and associated text)""",
 )
 
-gcn_3a8394c_lurh2si2_small_fs_reference = claim(
+lurh2si2_small_fs_reference = claim(
     r"""Friedemann et al. 2013 treat LuRh2Si2 as an isostructural, filled-4f-shell reference for the "small" Fermi surface of YbRh2Si2 with core-like non-hybridizing Yb 4f electrons, because the Lu and Yb compounds have nearly identical lattice parameters and non-f conduction-band characters when computed and measured using the experimental z_Si=0.379 c structure [@Friedemann2013].""",
     lkm_id="gcn_3a8394c769864f01",
     source_paper="paper:867761295154217007",
@@ -36,7 +36,7 @@ gcn_3a8394c_lurh2si2_small_fs_reference = claim(
     lkm_original=r"""LuRh_{2}Si_{2} is the isostructural compound to YbRh_{2}Si_{2} with a filled Lu 4f shell whereas YbRh_{2}Si_{2} has a trivalent Yb with one 4f hole; the proposition is that band-structure calculations and quantum-oscillation measurements on LuRh_{2}Si_{2} (performed and computed using the experimentally determined z_{Si}=0.379\,c) provide a valid and sufficiently accurate reference model for the "small" Fermi surface of YbRh_{2}Si_{2} in which the Yb 4f electrons are treated as core-like (non-hybridizing), because the lattice parameters and the non-f conduction-band characters are nearly identical between the two compounds, and therefore discrepancies between Lu- and Yb-based calculations and experiments can be attributed primarily to the presence or absence of Yb 4f hybridization rather than to gross structural differences.""",
 )
 
-gcn_2b8dd97_lurh2si2_reference_reanalysis = claim(
+ybrh2si2_lurh2si2_reference_reanalysis = claim(
     r"""Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 "small" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].""",
     lkm_id="gcn_2b8dd97abcb44d53",
     source_paper="paper:867761295154217007",
@@ -54,13 +54,13 @@ helper_ybrh2si2_reduced_fundamental_set = claim(
     lkm_original=r"""Factor step 3 states that reinterpreting the 5-7 kT peaks as harmonics reduces the independent fundamental frequencies to a group below 4 kT plus a distinct high-frequency fundamental near about 14 kT.""",
 )
 
-strat_gfac_468a4122_lurh2si2_reference_reanalysis = deduction(
+derive_ybrh2si2_lurh2si2_reference_reanalysis = deduction(
     [
-        gcn_c131e014_ybrh2si2_midband_harmonic_assignment,
-        gcn_3dc248d_ybrh2si2_14kt_not_small_fs,
-        gcn_3a8394c_lurh2si2_small_fs_reference,
+        ybrh2si2_midband_harmonic_assignment,
+        ybrh2si2_14kt_orbit_not_small_fs,
+        lurh2si2_small_fs_reference,
     ],
-    gcn_2b8dd97_lurh2si2_reference_reanalysis,
+    ybrh2si2_lurh2si2_reference_reanalysis,
     reason=r"""1. Start from the refined "small" Fermi-surface reference provided by LuRh$_2$Si$_2$ calculations and from the identification that harmonics and magnetic-interaction mixing are prevalent in LuRh$_2$Si$_2$: the previously established calculated "small" Fermi surface for LuRh$_2$Si$_2$ using $z_{\text{Si}}=0.379\,c$ serves as a reference for analogous "small" Fermi-surface calculations on YbRh$_2$Si$_2$ in which the Yb $4f$ electrons are treated as core-like (non-hybridizing), and the presence of many harmonics and mixing products in LuRh$_2$Si$_2$ motivates re-examination of published de Haas-van Alphen (dHvA) data on YbRh$_2$Si$_2$ for possible harmonic assignments.
 Fig. 10
 [13]
@@ -80,7 +80,7 @@ Fig. 10
 )
 
 strat_decompose_ybrh2si2_fundamental_set = support(
-    [gcn_2b8dd97_lurh2si2_reference_reanalysis],
+    [ybrh2si2_lurh2si2_reference_reanalysis],
     helper_ybrh2si2_reduced_fundamental_set,
     reason=(
         "The root LKM claim and factor step 3 explicitly state the reduced set of "

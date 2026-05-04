@@ -1,6 +1,6 @@
 {
   "bridges": [],
-  "ir_hash": "sha256:db40d085e49405c939e7e60c90709a6f78ccd1645003747f35a36d41fb08a114",
+  "ir_hash": "sha256:2580858f67417cf6d0d62c20be8f608e7534fdb7522cc0742a071bfcf1afcc74",
   "manifest_schema_version": 1,
   "package": "fermi-liquid-effective-mass",
   "version": "0.1.0"

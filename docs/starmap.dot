@@ -1,0 +1,288 @@
+digraph starmap {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Helvetica", fontsize=10];
+    edge [fontname="Helvetica", fontsize=9];
+
+    subgraph cluster_cross_paper {
+        label="cross_paper";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition" [label="eq_fcqpt_inflection_condition\n(0.93 → 1.00)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+    }
+
+    subgraph cluster_paper_friedemann2010 {
+        label="paper_friedemann2010";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization" [label="rbc_phase_shift_parametrization\n(0.82 → 0.86)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration" [label="rbc_specific_heat_calibration\n(0.76 → 0.87)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values" [label="★ ybrh2si2_rbc_hall_dos_gamma_values\n(0.92)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma" [label="helper_rbc_parameterization_constrained_by_cef_gamma\n(0.91)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products" [label="helper_ybrh2si2_opposite_hall_transport_products\n(0.91)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2" [label="helper_rbc_dos_gamma_ybrh2si2_ybir2si2\n(0.91)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "strat_2" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_3" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_4" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_5" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_friedemann2013 {
+        label="paper_friedemann2013";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment" [label="ybrh2si2_midband_harmonic_assignment\n(0.78 → 0.84)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs" [label="ybrh2si2_14kt_orbit_not_small_fs\n(0.74 → 0.81)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference" [label="lurh2si2_small_fs_reference\n(0.84 → 0.92)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis" [label="★ ybrh2si2_lurh2si2_reference_reanalysis\n(0.95)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set" [label="helper_ybrh2si2_reduced_fundamental_set\n(0.93)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "strat_10" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_11" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_friedemann2013_field {
+        label="paper_friedemann2013_field";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations" [label="ybrh2si2_lda_missing_dynamic_correlations\n(0.82 → 0.90)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required" [label="★ ybrh2si2_many_body_methods_required\n(1.00)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_18" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_knebel2006 {
+        label="paper_knebel2006";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope" [label="ybrh2si2_high_field_dhva_scope\n(0.84 → 0.88)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity" [label="ybrh2si2_itinerant_4f_lda_sensitivity\n(0.78 → 0.83)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch" [label="★ ybrh2si2_dhva_spectrum_lda_mismatch\n(0.93)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a" [label="helper_dhva_frequencies_masses_h_parallel_a\n(0.92)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch" [label="helper_dhva_angular_dependence_itinerant_lda_mismatch\n(0.98)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope" [label="helper_dhva_first_fs_information_scope\n(0.92)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "strat_6" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_7" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_8" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+        "strat_9" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_naren2013 {
+        label="paper_naren2013";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario" [label="ybrh2si2_hall_compensation_scenario\n(0.62 → 0.66)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration" [label="ybrh2si2_thermopower_lifshitz_corroboration\n(0.78 → 0.81)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization" [label="★ ybrh2si2_lifshitz_derenormalization\n(0.83)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_16" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_pfau2013 {
+        label="paper_pfau2013";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization" [label="ybrh2si2_cef_anisotropic_hybridization\n(0.78 → 0.85)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression" [label="ybrh2si2_smooth_kondo_mass_suppression\n(0.86)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos" [label="periodic_kondo_lattice_lifshitz_dos\n(0.76 → 0.83)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay" [label="★ ybrh2si2_kondo_lifshitz_interplay\n(0.99)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_15" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_rourke2008 {
+        label="paper_rourke2008";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption" [label="ybrh2si2_lusmall_fs_lda_assumption\n(0.74 → 0.76)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability" [label="dhva_orbit_assignment_reliability\n(0.70 → 0.73)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement" [label="★ ybrh2si2_small_fs_mass_enhancement\n(0.82)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_17" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_schaufuss2008 {
+        label="paper_schaufuss2008";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption" [label="ybrh2si2_esr_collective_mode_assumption\n(0.68 → 0.75)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles" [label="★ ybrh2si2_esr_heavy_quasiparticles\n(0.93)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_14" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_seiro2017 {
+        label="paper_seiro2017";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio" [label="ybrh2si2_tp_tcoh_ratio\n(0.78 → 0.86)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy" [label="★ ybrh2si2_kondo_lattice_hierarchy\n(0.98)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_13" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_shaginyan2009 {
+        label="paper_shaginyan2009";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition" [label="fcqpt_cubic_spectrum_condition\n(0.80 → 0.95)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation" [label="fcqpt_homogeneous_mass_equation\n(0.78 → 0.80)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling" [label="★ fcqpt_t_minus_two_thirds_mass_scaling\n(0.87)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_1" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_shaginyan2010 {
+        label="paper_shaginyan2010";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::landau_mass_integral_relation" [label="landau_mass_integral_relation\n(0.82 → 0.85)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model" [label="homogeneous_isotropic_heavy_liquid_model\n(0.68 → 0.74)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition" [label="fcqpt_inflection_critical_condition\n(0.78 → 0.95)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions" [label="stable_landau_numerical_solutions\n(0.70 → 0.75)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::fermion_entropy_formula" [label="fermion_entropy_formula\n(0.90 → 0.92)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy" [label="entropy_over_temperature_mass_proxy\n(0.72 → 0.99)", shape=box, style=filled, fillcolor="#ddffdd", color="#44bb44"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme" [label="★ ybrh2si2_entropy_effective_mass_scheme\n(0.91)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_0" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_tokiwa2004 {
+        label="paper_tokiwa2004";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption" [label="high_field_a_gamma_scaling_assumption\n(0.62 → 0.67)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability" [label="ybrh2si2_t2_resistivity_fit_reliability\n(0.76 → 0.79)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop" [label="★ ybrh2si2_resistivity_mass_drop\n(0.84)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_12" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    // cross-module strategy/operator nodes (outside clusters)
+    "strat_19" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_20" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_21" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_22" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_23" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_24" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_25" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_26" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_27" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_28" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_29" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_30" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "oper_0" [label="⊙ equivalence", shape=hexagon, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+
+    // edges
+    "github:fermi_liquid_effective_mass::landau_mass_integral_relation" -> "strat_0";
+    "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model" -> "strat_0";
+    "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition" -> "strat_0";
+    "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions" -> "strat_0";
+    "github:fermi_liquid_effective_mass::fermion_entropy_formula" -> "strat_0";
+    "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy" -> "strat_0";
+    "strat_0" -> "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme";
+    "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition" -> "strat_1";
+    "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation" -> "strat_1";
+    "strat_1" -> "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling";
+    "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization" -> "strat_2";
+    "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration" -> "strat_2";
+    "strat_2" -> "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values";
+    "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values" -> "strat_3";
+    "strat_3" -> "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma";
+    "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values" -> "strat_4";
+    "strat_4" -> "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products";
+    "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values" -> "strat_5";
+    "strat_5" -> "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2";
+    "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope" -> "strat_6";
+    "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity" -> "strat_6";
+    "strat_6" -> "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch";
+    "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch" -> "strat_7";
+    "strat_7" -> "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a";
+    "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch" -> "strat_8";
+    "strat_8" -> "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch";
+    "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch" -> "strat_9";
+    "strat_9" -> "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope";
+    "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment" -> "strat_10";
+    "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs" -> "strat_10";
+    "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference" -> "strat_10";
+    "strat_10" -> "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis";
+    "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis" -> "strat_11";
+    "strat_11" -> "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set";
+    "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption" -> "strat_12";
+    "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability" -> "strat_12";
+    "strat_12" -> "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop";
+    "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio" -> "strat_13";
+    "strat_13" -> "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy";
+    "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption" -> "strat_14";
+    "strat_14" -> "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles";
+    "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization" -> "strat_15";
+    "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression" -> "strat_15";
+    "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos" -> "strat_15";
+    "strat_15" -> "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay";
+    "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario" -> "strat_16";
+    "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration" -> "strat_16";
+    "strat_16" -> "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization";
+    "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption" -> "strat_17";
+    "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability" -> "strat_17";
+    "strat_17" -> "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement";
+    "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations" -> "strat_18";
+    "strat_18" -> "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required";
+    "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling" -> "strat_19";
+    "strat_19" -> "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme";
+    "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration" -> "strat_20";
+    "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values" -> "strat_20";
+    "strat_20" -> "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy";
+    "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference" -> "strat_21";
+    "strat_21" -> "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch";
+    "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement" -> "strat_22";
+    "strat_22" -> "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis";
+    "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch" -> "strat_23";
+    "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis" -> "strat_23";
+    "strat_23" -> "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required";
+    "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop" -> "strat_24";
+    "strat_24" -> "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression";
+    "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy" -> "strat_25";
+    "strat_25" -> "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay";
+    "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles" -> "strat_26";
+    "strat_26" -> "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy";
+    "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization" -> "strat_27";
+    "strat_27" -> "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay";
+    "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values" -> "strat_28";
+    "strat_28" -> "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required";
+    "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop" -> "strat_29";
+    "strat_29" -> "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy";
+    "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles" -> "strat_30";
+    "strat_30" -> "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy";
+    "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition" -> "oper_0";
+    "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition" -> "oper_0";
+    "oper_0" -> "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition";
+}

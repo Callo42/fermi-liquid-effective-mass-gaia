@@ -21,16 +21,16 @@ from .priors import PRIORS
 
 
 __all__ = [
-    "gcn_2741cdef_practical_effective_mass_scheme",
-    "gcn_45f24d_fcqpt_t_minus_two_thirds",
-    "gcn_42a4ff_rbc_hall_dos_values",
-    "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
-    "gcn_2b8dd97_lurh2si2_reference_reanalysis",
-    "gcn_b4093_ybrh2si2_resistivity_mass_drop",
-    "gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
-    "gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
-    "gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
-    "gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
-    "gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
-    "gcn_34ce9_ybrh2si2_many_body_methods_required",
+    "ybrh2si2_entropy_effective_mass_scheme",
+    "fcqpt_t_minus_two_thirds_mass_scaling",
+    "ybrh2si2_rbc_hall_dos_gamma_values",
+    "ybrh2si2_dhva_spectrum_lda_mismatch",
+    "ybrh2si2_lurh2si2_reference_reanalysis",
+    "ybrh2si2_resistivity_mass_drop",
+    "ybrh2si2_kondo_lattice_hierarchy",
+    "ybrh2si2_esr_heavy_quasiparticles",
+    "ybrh2si2_kondo_lifshitz_interplay",
+    "ybrh2si2_lifshitz_derenormalization",
+    "ybrh2si2_small_fs_mass_enhancement",
+    "ybrh2si2_many_body_methods_required",
 ]

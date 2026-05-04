@@ -12,7 +12,7 @@ Reference key (CSL): Friedemann2010
 from gaia.lang import claim, deduction, support
 
 
-gcn_c243dcb_rbc_phase_shift_parametrization = claim(
+rbc_phase_shift_parametrization = claim(
     r"""For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].""",
     lkm_id="gcn_c243dcb58cae4418",
     source_paper="paper:811773737962569729",
@@ -23,7 +23,7 @@ gcn_c243dcb_rbc_phase_shift_parametrization = claim(
       G. Zwicknagl, Adv. Phys. 41, 203 (1992); P. Thalmeier and G. Zwicknagl, Handbook on the Physics and Chemistry of Rare Earths, Vol. 34 (2005).""",
 )
 
-gcn_48bba377_specific_heat_calibration = claim(
+rbc_specific_heat_calibration = claim(
     r"""In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].""",
     lkm_id="gcn_48bba377911d4985",
     source_paper="paper:811773737962569729",
@@ -31,7 +31,7 @@ gcn_48bba377_specific_heat_calibration = claim(
     lkm_original=r"""Let \widetilde{\Delta}_f be the single resonance-width parameter of the renormalized-band parametrization introduced above, and let gamma_exp denote the experimentally measured linear coefficient of the low-temperature electronic specific heat C(T) = gamma_exp T; the proposition is that adjusting \widetilde{\Delta}_f so that the computed quasiparticle density of states at the Fermi level N(E_F) reproduces gamma_exp yields an RBC band structure whose quasiparticle effective masses and Fermi-surface occupations are sufficiently accurate that the derived reduced transport integrals \bar{\sigma}_{xx}(i) and \bar{\sigma}_{xyz}(i) and their products with the band occupations \bar{n}(i) provide reliable indicators of the material's low-temperature transport tendencies.""",
 )
 
-gcn_42a4ff_rbc_hall_dos_values = claim(
+ybrh2si2_rbc_hall_dos_gamma_values = claim(
     r"""Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \bar{n}(1)\bar{\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \bar{n}(2)\bar{\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].""",
     lkm_id="gcn_42a4ff7fd004413f",
     source_paper="paper:811773737962569729",
@@ -70,12 +70,12 @@ Fig. 4""",
 )
 
 
-strat_gfac_0b967f9e875749e8_rbc_hall_dos = deduction(
+derive_ybrh2si2_rbc_hall_dos_gamma_values = deduction(
     [
-        gcn_c243dcb_rbc_phase_shift_parametrization,
-        gcn_48bba377_specific_heat_calibration,
+        rbc_phase_shift_parametrization,
+        rbc_specific_heat_calibration,
     ],
-    gcn_42a4ff_rbc_hall_dos_values,
+    ybrh2si2_rbc_hall_dos_gamma_values,
     reason=r"""1. Start from the established upstream result that two principal bands (donut $i=1$ and jungle-gym $i=2$) dominate the Hall transport integrals, and aim to determine how inclusion of $4f$-derived quasiparticles in a renormalized-band calculation (RBC) modifies the band-resolved transport integrals and their signs.
 2. Summarize the renormalized band method inputs and parameter determination: transform the $4f$ states into crystalline-electric-field (CEF) eigenstates $|m\rangle$ and introduce resonance-type phase shifts
 $\widetilde{\eta}_{f}(E)\simeq\arctan\dfrac{\widetilde{\Delta}_{f}}{E-\widetilde{\epsilon}_{f}}$,
@@ -95,7 +95,7 @@ Table I""",
 )
 
 strat_decompose_rbc_parameterization = support(
-    [gcn_42a4ff_rbc_hall_dos_values],
+    [ybrh2si2_rbc_hall_dos_gamma_values],
     helper_rbc_parameterization_constrained_by_cef_gamma,
     reason=(
         "The root LKM claim explicitly states that the RBC incorporates CEF excitation "
@@ -107,7 +107,7 @@ strat_decompose_rbc_parameterization = support(
 )
 
 strat_decompose_ybrh2si2_hall_products = support(
-    [gcn_42a4ff_rbc_hall_dos_values],
+    [ybrh2si2_rbc_hall_dos_gamma_values],
     helper_ybrh2si2_opposite_hall_transport_products,
     reason=(
         "The root LKM claim and factor step 4 explicitly give the YbRh2Si2 band-1 "
@@ -118,7 +118,7 @@ strat_decompose_ybrh2si2_hall_products = support(
 )
 
 strat_decompose_rbc_dos_gamma_values = support(
-    [gcn_42a4ff_rbc_hall_dos_values],
+    [ybrh2si2_rbc_hall_dos_gamma_values],
     helper_rbc_dos_gamma_ybrh2si2_ybir2si2,
     reason=(
         "The root LKM claim and factor step 5 explicitly give the RBC density-of-states "

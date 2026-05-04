@@ -56,11 +56,19 @@
 | LuRh2Si2 small-FS reference / Knebel dHvA-LDA mismatch / Rourke high-field branch / Friedemann 2013 reanalysis | support | All connections are grounded in raw YbRh2Si2/LuRh2Si2 dHvA and reference-model claims. |
 | Tokiwa/Seiro/Naren high-field Kondo evidence / Pfau high-field Kondo-Lifshitz interpretation | support | The raw claims share YbRh2Si2 high-field Kondo suppression, mass reduction, and Lifshitz/de-renormalization evidence. |
 
+## Semantic label presentation pass
+
+| item | action | rationale |
+|---|---|---|
+| source `gcn_*` claim labels | renamed to semantic snake-case labels | Presentation-only refactor; claim content, LKM IDs, provenance metadata, priors, and graph wiring are unchanged. Full old-to-new mapping is in `semantic_label_audit.md`. |
+| source `strat_gfac_*` deduction labels | renamed to semantic `derive_*` labels | Avoid raw factor-id fragments in rendered strategy labels while preserving factor IDs in this audit and raw LKM JSON. |
+| `helper_*`, `sx_*`, `eq_*`, `strat_decompose_*`, generated `__*` labels | left unchanged | These labels were already semantic or compiler-generated internals. |
+
 ## Verification snapshot
 
 | command | status | note |
 |---|---|---|
-| `uv run --project /home/rsw/ThisIsDP/dev/test_lkm2gaia gaia compile .` | pass | 89 knowledge, 31 strategies, 1 operator; IR hash `sha256:db40d085e...`. |
+| `uv run --project /home/rsw/ThisIsDP/dev/test_lkm2gaia gaia compile .` | pass | 89 knowledge, 31 strategies, 1 operator; IR hash `sha256:2580858f...`. |
 | `uv run --project /home/rsw/ThisIsDP/dev/test_lkm2gaia gaia check --hole .` | pass | 0 holes / 25 independent claims. |
 | `uv run --project /home/rsw/ThisIsDP/dev/test_lkm2gaia gaia infer .` | pass | 58 beliefs inferred; exact JT converged after 2 iterations. |
 

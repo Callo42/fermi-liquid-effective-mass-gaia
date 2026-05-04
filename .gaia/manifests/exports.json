@@ -1,91 +1,91 @@
 {
   "exports": [
     {
-      "content": "For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].",
-      "content_hash": "ede67149f3596864bc22c9816d084cc54b557288442db61ec350a936d5a824da",
-      "label": "gcn_2741cdef_practical_effective_mass_scheme",
-      "qid": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
-      "type": "claim"
-    },
-    {
-      "content": "Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 \"small\" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].",
-      "content_hash": "62c125792a33fe462fe372b0990301647d0515a116c18a26937c229d54ce74de",
-      "label": "gcn_2b8dd97_lurh2si2_reference_reanalysis",
-      "qid": "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
-      "type": "claim"
-    },
-    {
-      "content": "Density-functional LDA calculations of YbRh2Si2 in both f-core small-FS and itinerant-4f large-FS variants fail to reproduce the complete set of quantum-oscillation branches and large quasiparticle masses, so quantitative YbRh2Si2 Fermi-surface and effective-mass modeling requires many-body approaches capturing local dynamic correlations and Kondo renormalization [@Friedemann2013b].",
-      "content_hash": "a62329462085de3da6f62a8eb4166211791c5db080285184489fb6a1ca686594",
-      "label": "gcn_34ce9_ybrh2si2_many_body_methods_required",
-      "qid": "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required",
-      "type": "claim"
-    },
-    {
-      "content": "In stoichiometric YbRh2Si2, lattice Kondo correlations are detectable around T_coh approximately T_K approximately 25-30 K, but they dominate low-energy electronic properties only below T_P approximately 3.3 K, about 0.1*T_coh; single-ion Kondo effects therefore persist well below T_coh before lattice coherence enables the observed non-Fermi-liquid quantum-critical behavior [@Seiro2017].",
-      "content_hash": "01be77c61b24695660e1b3723117298c245290e996f130804972c40add100863",
-      "label": "gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
-      "qid": "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
-      "type": "claim"
-    },
-    {
-      "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
-      "content_hash": "9f755e90f06006ccb7d5abcf593d2e03ca475550ccd8d27fd925389223e7df3f",
-      "label": "gcn_42a4ff_rbc_hall_dos_values",
-      "qid": "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
-      "type": "claim"
-    },
-    {
       "content": "At FCQPT, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies M*(T) proportional to T^(-2/3); in the non-Fermi-liquid regime near FCQPT, the quasiparticle effective mass therefore decreases with increasing temperature according to this power law [@Shaginyan2009].",
       "content_hash": "61508225c13314d142a4cb34a679c12a92e88c5689be2c617500247dff5a9e32",
-      "label": "gcn_45f24d_fcqpt_t_minus_two_thirds",
-      "qid": "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds",
-      "type": "claim"
-    },
-    {
-      "content": "YbRh2Si2 high-field phenomenology is explained by the interplay of CEF-induced anisotropic hybridization and g-factor anisotropy, smooth field suppression of Kondo screening that reduces m*(B), and Kondo-lattice coherence that creates van-Hove-type DOS structures whose Zeeman shifts produce successive Lifshitz transitions; this accounts for continuous mass reduction plus abrupt transport/thermodynamic anomalies [@Pfau2013].",
-      "content_hash": "437189d8d0a60848243fbee8aef5aa29ab2691b2e4a2e0afdf9f237f21020692",
-      "label": "gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
-      "qid": "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
-      "type": "claim"
-    },
-    {
-      "content": "For YbRh2Si2 with B perpendicular to c and B>0.06 T, low-temperature resistivity follows rho(T,B)=rho0(B)+A(B)T^2; A(B) drops drastically when B crosses B*=(9.5 +/- 0.5) T, indicating a step-like effective-mass decrease in a Fermi-liquid picture, and the low-field A proportional to gamma^2 scaling estimates gamma(16 T) near 70 mJ mol^-1 K^-2 [@Tokiwa2004].",
-      "content_hash": "54629f672d3be2e2480c1930a5ebb5f5756f1b94bcf4ecd798c01f1fd05c007c",
-      "label": "gcn_b4093_ybrh2si2_resistivity_mass_drop",
-      "qid": "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop",
-      "type": "claim"
-    },
-    {
-      "content": "Combining magnetoresistance and Hall data on YbRh2Si2 down to 50 mK and up to 15 T with field-dependent renormalized-band calculations assigns anomalies at B1 about 3 T, B2 about 9 T, and B3 about 11-11.5 T to Zeeman-driven Lifshitz transitions, while Kondo quasiparticle de-renormalization proceeds as a smoother crossover; sharp Fermi-surface topology changes and smooth Kondo-weight suppression therefore coexist with distinct field dependences [@Naren2013].",
-      "content_hash": "16cc8d064026ceb22a71747e35eeb183d256f2454092c9d2e425217ce53e7617",
-      "label": "gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
-      "qid": "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
+      "label": "fcqpt_t_minus_two_thirds_mass_scaling",
+      "qid": "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
       "type": "claim"
     },
     {
       "content": "For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].",
       "content_hash": "ce3d0c0a769b22babcaa67315738675f72186e3fb3736778fb2c01195664a455",
-      "label": "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
-      "qid": "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "label": "ybrh2si2_dhva_spectrum_lda_mismatch",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
       "type": "claim"
     },
     {
-      "content": "LDA+SOC calculations for LuRh2Si2 as the small-Fermi-surface analogue produce a D-sheet topology whose predicted orbits match YbRh2Si2 dHvA frequencies better than large-FS YbRh2Si2 LDA+SOC; comparing calculated band masses with measured cyclotron masses yields m*/m_b enhancements of order ten, consistent with strong many-body renormalization [@Rourke2008].",
-      "content_hash": "147860b84cc82d83ce1908edddffe46e0916836dd1434055fb03fcb39d7b9825",
-      "label": "gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
-      "qid": "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
+      "content": "For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].",
+      "content_hash": "ede67149f3596864bc22c9816d084cc54b557288442db61ec350a936d5a824da",
+      "label": "ybrh2si2_entropy_effective_mass_scheme",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
       "type": "claim"
     },
     {
       "content": "In YbRh2Si2, the anisotropic persistent ESR line, g-factor behavior tracking gamma=C_el/T and NMR observables, and low-temperature T^2 linewidth behavior show that ESR is a resonance of coherent heavy quasiparticles formed below T_K approximately T_0 approximately 25 K; ESR parameters are governed by m*(B,T), N(E_F;B,T), and quasiparticle spin relaxation, giving access to Kondo-state evolution and NFL-to-LFL crossover behavior [@Schaufuss2008].",
       "content_hash": "d65864d3a8d5b57f940da448bfd965aeaab87901bd0cd5c360583a8d04aef906",
-      "label": "gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
-      "qid": "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
+      "label": "ybrh2si2_esr_heavy_quasiparticles",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+      "type": "claim"
+    },
+    {
+      "content": "In stoichiometric YbRh2Si2, lattice Kondo correlations are detectable around T_coh approximately T_K approximately 25-30 K, but they dominate low-energy electronic properties only below T_P approximately 3.3 K, about 0.1*T_coh; single-ion Kondo effects therefore persist well below T_coh before lattice coherence enables the observed non-Fermi-liquid quantum-critical behavior [@Seiro2017].",
+      "content_hash": "01be77c61b24695660e1b3723117298c245290e996f130804972c40add100863",
+      "label": "ybrh2si2_kondo_lattice_hierarchy",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+      "type": "claim"
+    },
+    {
+      "content": "YbRh2Si2 high-field phenomenology is explained by the interplay of CEF-induced anisotropic hybridization and g-factor anisotropy, smooth field suppression of Kondo screening that reduces m*(B), and Kondo-lattice coherence that creates van-Hove-type DOS structures whose Zeeman shifts produce successive Lifshitz transitions; this accounts for continuous mass reduction plus abrupt transport/thermodynamic anomalies [@Pfau2013].",
+      "content_hash": "437189d8d0a60848243fbee8aef5aa29ab2691b2e4a2e0afdf9f237f21020692",
+      "label": "ybrh2si2_kondo_lifshitz_interplay",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+      "type": "claim"
+    },
+    {
+      "content": "Combining magnetoresistance and Hall data on YbRh2Si2 down to 50 mK and up to 15 T with field-dependent renormalized-band calculations assigns anomalies at B1 about 3 T, B2 about 9 T, and B3 about 11-11.5 T to Zeeman-driven Lifshitz transitions, while Kondo quasiparticle de-renormalization proceeds as a smoother crossover; sharp Fermi-surface topology changes and smooth Kondo-weight suppression therefore coexist with distinct field dependences [@Naren2013].",
+      "content_hash": "16cc8d064026ceb22a71747e35eeb183d256f2454092c9d2e425217ce53e7617",
+      "label": "ybrh2si2_lifshitz_derenormalization",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
+      "type": "claim"
+    },
+    {
+      "content": "Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 \"small\" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].",
+      "content_hash": "62c125792a33fe462fe372b0990301647d0515a116c18a26937c229d54ce74de",
+      "label": "ybrh2si2_lurh2si2_reference_reanalysis",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
+      "type": "claim"
+    },
+    {
+      "content": "Density-functional LDA calculations of YbRh2Si2 in both f-core small-FS and itinerant-4f large-FS variants fail to reproduce the complete set of quantum-oscillation branches and large quasiparticle masses, so quantitative YbRh2Si2 Fermi-surface and effective-mass modeling requires many-body approaches capturing local dynamic correlations and Kondo renormalization [@Friedemann2013b].",
+      "content_hash": "a62329462085de3da6f62a8eb4166211791c5db080285184489fb6a1ca686594",
+      "label": "ybrh2si2_many_body_methods_required",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+      "type": "claim"
+    },
+    {
+      "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+      "content_hash": "9f755e90f06006ccb7d5abcf593d2e03ca475550ccd8d27fd925389223e7df3f",
+      "label": "ybrh2si2_rbc_hall_dos_gamma_values",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
+      "type": "claim"
+    },
+    {
+      "content": "For YbRh2Si2 with B perpendicular to c and B>0.06 T, low-temperature resistivity follows rho(T,B)=rho0(B)+A(B)T^2; A(B) drops drastically when B crosses B*=(9.5 +/- 0.5) T, indicating a step-like effective-mass decrease in a Fermi-liquid picture, and the low-field A proportional to gamma^2 scaling estimates gamma(16 T) near 70 mJ mol^-1 K^-2 [@Tokiwa2004].",
+      "content_hash": "54629f672d3be2e2480c1930a5ebb5f5756f1b94bcf4ecd798c01f1fd05c007c",
+      "label": "ybrh2si2_resistivity_mass_drop",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+      "type": "claim"
+    },
+    {
+      "content": "LDA+SOC calculations for LuRh2Si2 as the small-Fermi-surface analogue produce a D-sheet topology whose predicted orbits match YbRh2Si2 dHvA frequencies better than large-FS YbRh2Si2 LDA+SOC; comparing calculated band masses with measured cyclotron masses yields m*/m_b enhancements of order ten, consistent with strong many-body renormalization [@Rourke2008].",
+      "content_hash": "147860b84cc82d83ce1908edddffe46e0916836dd1434055fb03fcb39d7b9825",
+      "label": "ybrh2si2_small_fs_mass_enhancement",
+      "qid": "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
       "type": "claim"
     }
   ],
-  "ir_hash": "sha256:db40d085e49405c939e7e60c90709a6f78ccd1645003747f35a36d41fb08a114",
+  "ir_hash": "sha256:2580858f67417cf6d0d62c20be8f608e7534fdb7522cc0742a071bfcf1afcc74",
   "manifest_schema_version": 1,
   "package": "fermi-liquid-effective-mass",
   "version": "0.1.0"

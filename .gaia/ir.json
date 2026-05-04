@@ -1,13 +1,13 @@
 {
-  "ir_hash": "sha256:db40d085e49405c939e7e60c90709a6f78ccd1645003747f35a36d41fb08a114",
+  "ir_hash": "sha256:2580858f67417cf6d0d62c20be8f608e7534fdb7522cc0742a071bfcf1afcc74",
   "knowledges": [
     {
       "content": "For a homogeneous three-dimensional interacting-fermion system near FCQPT, the temperature-dependent Landau integral relation defines the quasiparticle effective mass M*(T) from the bare mass, Fermi momentum, Landau interaction amplitude, quasiparticle occupation derivative, and a three-dimensional momentum integral; in Shaginyan et al. 2010 this phenomenological equation is used as the numerical starting point when a Landau amplitude exists, quasiparticles remain reasonably well defined, and n(p,T) correctly represents the distribution [@Shaginyan2010].",
       "content_hash": "2e691487d6e67d243b7d8ed02f0ae3bf1b55595971e4fed0a5e8125385db377f",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
-      "label": "gcn_677c6c_landau_integral_relation",
+      "id": "github:fermi_liquid_effective_mass::landau_mass_integral_relation",
+      "label": "landau_mass_integral_relation",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -32,8 +32,8 @@
       "content_hash": "7b84e1461ac5b892edd34d80be11d8318f1b8a241c071ccdff5c2b44d88f96ab",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
-      "label": "gcn_03614e9b_homogeneous_isotropic_model",
+      "id": "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model",
+      "label": "homogeneous_isotropic_heavy_liquid_model",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -58,8 +58,8 @@
       "content_hash": "f6d9a21fe9506b5206330269fb5d7c7fc168070de4e2ef4a6bd9614903751164",
       "declaration_index": 2,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
-      "label": "gcn_e0c364ff_inflection_fcqpt_condition",
+      "id": "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+      "label": "fcqpt_inflection_critical_condition",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -84,8 +84,8 @@
       "content_hash": "d5f5b9b866642c61b169f1c17c3b304ab6d30c1f2b49d64dce657fa3eb370acd",
       "declaration_index": 3,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
-      "label": "gcn_6bbfeb95_stable_landau_solutions",
+      "id": "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions",
+      "label": "stable_landau_numerical_solutions",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -110,8 +110,8 @@
       "content_hash": "4493401eb07d15554424c841994801edb0bb513379110e6d05530f2580c25bcc",
       "declaration_index": 4,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
-      "label": "gcn_ecddfefa_fermion_entropy_formula",
+      "id": "github:fermi_liquid_effective_mass::fermion_entropy_formula",
+      "label": "fermion_entropy_formula",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -136,8 +136,8 @@
       "content_hash": "5972801fab755f76d32c8e7187721a749eccb838cc7ea4917dd507d303e47d03",
       "declaration_index": 5,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
-      "label": "gcn_2e693115_entropy_over_temperature_mass",
+      "id": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
+      "label": "entropy_over_temperature_mass_proxy",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -162,8 +162,8 @@
       "content_hash": "ede67149f3596864bc22c9816d084cc54b557288442db61ec350a936d5a824da",
       "declaration_index": 6,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
-      "label": "gcn_2741cdef_practical_effective_mass_scheme",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
+      "label": "ybrh2si2_entropy_effective_mass_scheme",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -186,8 +186,8 @@
       "content_hash": "69e774f2ee45cfd0e192c4ad2a67ef787861a2a59db0f12cb05749a167a1d16c",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum",
-      "label": "gcn_f82c178_fcqpt_inflection_cubic_spectrum",
+      "id": "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition",
+      "label": "fcqpt_cubic_spectrum_condition",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -212,8 +212,8 @@
       "content_hash": "e8862c09e5d303e344dfcbea53018b31bae2c922f583b25dac2f47d25125e8b4",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation",
-      "label": "gcn_58746c_fcqpt_homogeneous_mass_equation",
+      "id": "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation",
+      "label": "fcqpt_homogeneous_mass_equation",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -238,8 +238,8 @@
       "content_hash": "61508225c13314d142a4cb34a679c12a92e88c5689be2c617500247dff5a9e32",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds",
-      "label": "gcn_45f24d_fcqpt_t_minus_two_thirds",
+      "id": "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
+      "label": "fcqpt_t_minus_two_thirds_mass_scaling",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -262,8 +262,8 @@
       "content_hash": "20556ac693dc941a16d2ff494cfec1e3338ee186d34d69b59baaf53a95e45af2",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization",
-      "label": "gcn_c243dcb_rbc_phase_shift_parametrization",
+      "id": "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization",
+      "label": "rbc_phase_shift_parametrization",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -288,8 +288,8 @@
       "content_hash": "60e88c305b8b90104bcc9b2c3715a07ff9678318e8bb9db5ae20e5c50fe78235",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration",
-      "label": "gcn_48bba377_specific_heat_calibration",
+      "id": "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration",
+      "label": "rbc_specific_heat_calibration",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -314,8 +314,8 @@
       "content_hash": "9f755e90f06006ccb7d5abcf593d2e03ca475550ccd8d27fd925389223e7df3f",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
-      "label": "gcn_42a4ff_rbc_hall_dos_values",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
+      "label": "ybrh2si2_rbc_hall_dos_gamma_values",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -415,8 +415,8 @@
       "content_hash": "24cd3d9dc0be49378f7b0a29a6549068af61b58de535cdd34a0e7cf09b7f7f78",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope",
-      "label": "gcn_5501e18a_high_field_dhva_scope",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope",
+      "label": "ybrh2si2_high_field_dhva_scope",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -441,8 +441,8 @@
       "content_hash": "ba3b695ab2f58430e5b7cea1b81374f51be4aa93447cd291a95f73c50a552ba7",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity",
-      "label": "gcn_f20b1f42_itinerant_4f_lda_sensitivity",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity",
+      "label": "ybrh2si2_itinerant_4f_lda_sensitivity",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -467,8 +467,8 @@
       "content_hash": "ce3d0c0a769b22babcaa67315738675f72186e3fb3736778fb2c01195664a455",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
-      "label": "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+      "label": "ybrh2si2_dhva_spectrum_lda_mismatch",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -569,8 +569,8 @@
       "content_hash": "402462c4e823392174c92531b3f2f2b90cc5d5438bc6494d2d83bd2235ed324a",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
-      "label": "gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment",
+      "label": "ybrh2si2_midband_harmonic_assignment",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -595,8 +595,8 @@
       "content_hash": "4296a751bfcfc69f34ed30f38db7dc8bbd47884aa3c62e715befd8c1b16ac7bf",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
-      "label": "gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs",
+      "label": "ybrh2si2_14kt_orbit_not_small_fs",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -621,8 +621,8 @@
       "content_hash": "21117cc74b4c6b50bf59a70a2f2fa3b11ad6d20b51ad0afdaf42b62fc6745c72",
       "declaration_index": 2,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference",
-      "label": "gcn_3a8394c_lurh2si2_small_fs_reference",
+      "id": "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference",
+      "label": "lurh2si2_small_fs_reference",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -647,8 +647,8 @@
       "content_hash": "62c125792a33fe462fe372b0990301647d0515a116c18a26937c229d54ce74de",
       "declaration_index": 3,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
-      "label": "gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
+      "label": "ybrh2si2_lurh2si2_reference_reanalysis",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -697,8 +697,8 @@
       "content_hash": "658a1b7dfa607ad1f8477ed6342b0c9f7ab1d0103ad96497a7fea34667fa7708",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption",
-      "label": "gcn_021fb1_high_field_a_gamma_scaling_assumption",
+      "id": "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption",
+      "label": "high_field_a_gamma_scaling_assumption",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -723,8 +723,8 @@
       "content_hash": "99bc5d647518f71c4240a7f4c87aac6863d192e585bc7fcb9c42acfe695ad689",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability",
-      "label": "gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability",
+      "label": "ybrh2si2_t2_resistivity_fit_reliability",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -749,8 +749,8 @@
       "content_hash": "54629f672d3be2e2480c1930a5ebb5f5756f1b94bcf4ecd798c01f1fd05c007c",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop",
-      "label": "gcn_b4093_ybrh2si2_resistivity_mass_drop",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+      "label": "ybrh2si2_resistivity_mass_drop",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -773,8 +773,8 @@
       "content_hash": "181ee5fd21e8619e2530323269d13dea808d71f29f3c1459d4578c5d9b6e5bfe",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio",
-      "label": "gcn_fb2747_ybrh2si2_tp_tcoh_ratio",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio",
+      "label": "ybrh2si2_tp_tcoh_ratio",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -799,8 +799,8 @@
       "content_hash": "01be77c61b24695660e1b3723117298c245290e996f130804972c40add100863",
       "declaration_index": 1,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
-      "label": "gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+      "label": "ybrh2si2_kondo_lattice_hierarchy",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -823,8 +823,8 @@
       "content_hash": "364b5eaabca6eeaa06964f52682f02263c28aa30284f57273a6baa87bdf20635",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption",
-      "label": "gcn_a76225_ybrh2si2_esr_collective_mode_assumption",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption",
+      "label": "ybrh2si2_esr_collective_mode_assumption",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -849,8 +849,8 @@
       "content_hash": "d65864d3a8d5b57f940da448bfd965aeaab87901bd0cd5c360583a8d04aef906",
       "declaration_index": 1,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
-      "label": "gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+      "label": "ybrh2si2_esr_heavy_quasiparticles",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -873,8 +873,8 @@
       "content_hash": "3981c53f8decafe7f83176cc1a9597b790984b9bfd681719b843f9b474ca9d5e",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization",
-      "label": "gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization",
+      "label": "ybrh2si2_cef_anisotropic_hybridization",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -899,8 +899,8 @@
       "content_hash": "03bffe9932072c78f444ecb94be133ca098e913c57ac92f45ba7a7b4cbf308da",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression",
-      "label": "gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+      "label": "ybrh2si2_smooth_kondo_mass_suppression",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -923,8 +923,8 @@
       "content_hash": "44b5f43ce3649ec7e372f98a07a05ca36133047977b5f44574ef1ce37a258937",
       "declaration_index": 2,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos",
-      "label": "gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos",
+      "id": "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos",
+      "label": "periodic_kondo_lattice_lifshitz_dos",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -949,8 +949,8 @@
       "content_hash": "437189d8d0a60848243fbee8aef5aa29ab2691b2e4a2e0afdf9f237f21020692",
       "declaration_index": 3,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
-      "label": "gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+      "label": "ybrh2si2_kondo_lifshitz_interplay",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -973,8 +973,8 @@
       "content_hash": "2485f802e1f22f795963ada88fd773a4c9cd48879ae433e540ca6e0cc4571160",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario",
-      "label": "gcn_6ca2b_ybrh2si2_hall_compensation_scenario",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario",
+      "label": "ybrh2si2_hall_compensation_scenario",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -999,8 +999,8 @@
       "content_hash": "751d7e71128dad2587db6c0b5437e73dc8905da9005f9ef1c47ec42f8f391997",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz",
-      "label": "gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration",
+      "label": "ybrh2si2_thermopower_lifshitz_corroboration",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1025,8 +1025,8 @@
       "content_hash": "16cc8d064026ceb22a71747e35eeb183d256f2454092c9d2e425217ce53e7617",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
-      "label": "gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
+      "label": "ybrh2si2_lifshitz_derenormalization",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1049,8 +1049,8 @@
       "content_hash": "05e8dc0531c4f2f544352c3951e68d026e0e776c653fe6928fa4186b8c31096a",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption",
-      "label": "gcn_848945_ybrh2si2_lusmall_fs_lda_assumption",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption",
+      "label": "ybrh2si2_lusmall_fs_lda_assumption",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1075,8 +1075,8 @@
       "content_hash": "e7243cb12b485a8ee06583d627019a2c293f511d68107e7549fcd14085f791e5",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability",
-      "label": "gcn_5090f8_dhva_orbit_assignment_reliability",
+      "id": "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability",
+      "label": "dhva_orbit_assignment_reliability",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1101,8 +1101,8 @@
       "content_hash": "147860b84cc82d83ce1908edddffe46e0916836dd1434055fb03fcb39d7b9825",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
-      "label": "gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
+      "label": "ybrh2si2_small_fs_mass_enhancement",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1125,8 +1125,8 @@
       "content_hash": "2ad1bafd48962922a6a92141ad1eb12353e539b315aa9acf6a0c211bbf1f596e",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations",
-      "label": "gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations",
+      "label": "ybrh2si2_lda_missing_dynamic_correlations",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1151,8 +1151,8 @@
       "content_hash": "a62329462085de3da6f62a8eb4166211791c5db080285184489fb6a1ca686594",
       "declaration_index": 1,
       "exported": true,
-      "id": "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required",
-      "label": "gcn_34ce9_ybrh2si2_many_body_methods_required",
+      "id": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+      "label": "ybrh2si2_many_body_methods_required",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -1186,19 +1186,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation,github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model,github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition,github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions,github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
-      "content_hash": "4cd696431cea6d109277f32d5f36a5e79dface7aa9215d0f8f0c927a967fb98a",
+      "content": "all_true(github:fermi_liquid_effective_mass::landau_mass_integral_relation,github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model,github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition,github:fermi_liquid_effective_mass::stable_landau_numerical_solutions,github:fermi_liquid_effective_mass::fermion_entropy_formula,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+      "content_hash": "fc0b9b192374aa851c5a2bd31e5ff79afc578729752d16acf443522e1a6dc4ad",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
-      "label": "__conjunction_result_11fed0d5",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20",
+      "label": "__conjunction_result_9bf49f20",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation,github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model,github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition,github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions,github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::landau_mass_integral_relation,github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model,github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition,github:fermi_liquid_effective_mass::stable_landau_numerical_solutions,github:fermi_liquid_effective_mass::fermion_entropy_formula,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_0d1b5abf46062b74",
+        "owning_strategy_id": "lcs_a9d58c4d85bb8b06",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1206,19 +1206,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme)",
-      "content_hash": "002d634d4c0500c5323b7e3c7ca332236d0b6d19b923acf42a82760687b37302",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+      "content_hash": "ccd6ed80a6deb046faf3730345a1d71c39070a0bb18981aaaf31d0bedb565ad4",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_1bbdf0c1",
-      "label": "__implication_result_1bbdf0c1",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_ab33e4be",
+      "label": "__implication_result_ab33e4be",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_0d1b5abf46062b74",
+        "owning_strategy_id": "lcs_a9d58c4d85bb8b06",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1227,19 +1227,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum,github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation)",
-      "content_hash": "b7316a4ee4f62bd3c8fe6bf7d142889eb34521c169857e049ad6355a2c40ad69",
+      "content": "all_true(github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition,github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation)",
+      "content_hash": "6e4367028488de9b172300b4aadc9b07b58878479ecae6754fea0a3d31e5307c",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f",
-      "label": "__conjunction_result_e3dddd7f",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948",
+      "label": "__conjunction_result_5e2b0948",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum,github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition,github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_d990c805a4be58f3",
+        "owning_strategy_id": "lcs_c8ecc3d96acf251f",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1247,19 +1247,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f,github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds)",
-      "content_hash": "13b1aece6ac315f2e58ca81263a92e2b71290f032480f517cfd6b073040a0f0b",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948,github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling)",
+      "content_hash": "b081eb2984498fefda92d750582cb5e538a752544ab081ab56b23971912c27ff",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_97e1201a",
-      "label": "__implication_result_97e1201a",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_1866ca50",
+      "label": "__implication_result_1866ca50",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f,github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948,github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_d990c805a4be58f3",
+        "owning_strategy_id": "lcs_c8ecc3d96acf251f",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1268,19 +1268,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization,github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration)",
-      "content_hash": "62d051acbd2b11cf4a51ffe699423734f974804348fde589740256cb3f5e4ed0",
+      "content": "all_true(github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization,github:fermi_liquid_effective_mass::rbc_specific_heat_calibration)",
+      "content_hash": "414a565bc33cd3d7adca2d1fa97358b245ba5d07b2f221cf6ed69c526aac7544",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005",
-      "label": "__conjunction_result_6fd4d005",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0",
+      "label": "__conjunction_result_32d00ff0",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization,github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization,github:fermi_liquid_effective_mass::rbc_specific_heat_calibration)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_20e4a50893629912",
+        "owning_strategy_id": "lcs_79129b6d670a82ba",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1288,19 +1288,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005,github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values)",
-      "content_hash": "9366d67c40f684f21dec6a8a4092979e84ab2d2af0b250e0949e33a4806ac028",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
+      "content_hash": "e7600609a04e7368ac2cf310d74514af2befc437047e622de430c5b04e99a51d",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_fa87756d",
-      "label": "__implication_result_fa87756d",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_126019bc",
+      "label": "__implication_result_126019bc",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005,github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_20e4a50893629912",
+        "owning_strategy_id": "lcs_79129b6d670a82ba",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1309,19 +1309,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma)",
-      "content_hash": "695304c2f47c86d05eae4d70c18bd237cdf2fe0948b941507979771678f521b9",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma)",
+      "content_hash": "fdc54fbfded962ebf7718510ab65c3adb92699ff13f6aa5b49dc562538db5f0c",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_0326f7b4",
-      "label": "__implication_result_0326f7b4",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_e6f868d5",
+      "label": "__implication_result_e6f868d5",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_861b11df98413b8c",
+        "owning_strategy_id": "lcs_7fcb03eba393c18a",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1330,19 +1330,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products)",
-      "content_hash": "6e74adb2e8fc17c69a25838a2e855abe7c7b94b38660a6df9853c87b061997dd",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products)",
+      "content_hash": "8d0c7fb1806516f48b5a4a698e9d856f1fe29de212910d038473d595cf726e63",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_720bc514",
-      "label": "__implication_result_720bc514",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_af06781a",
+      "label": "__implication_result_af06781a",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_ff3348e0af4c76b4",
+        "owning_strategy_id": "lcs_0971d42e0c6d710f",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1351,19 +1351,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
-      "content_hash": "d99f401d7652ca3dd4813e20baa26c6d159ec01b6c550ab8f3c3da2eae310fe2",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
+      "content_hash": "a03d0a5b46c26f162acd1ace4d6e360e83d581e64eac62330bea563af63d775e",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_98b147e1",
-      "label": "__implication_result_98b147e1",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_97b9504f",
+      "label": "__implication_result_97b9504f",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_762950f9b5b1a5eb",
+        "owning_strategy_id": "lcs_662e2f053fec0305",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1372,19 +1372,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope,github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity)",
-      "content_hash": "9037fd97aa0cf7aa252ef5ea13818f550c7a47edfc5f13c770aaf3099303c42e",
+      "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope,github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity)",
+      "content_hash": "fb57fdb233862df89f6553cbba0392b41197d1d6a93c4504da3e45b927740ad2",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259",
-      "label": "__conjunction_result_3eb4b259",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6",
+      "label": "__conjunction_result_897f0ff6",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope,github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope,github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_7aaf2eb57d547484",
+        "owning_strategy_id": "lcs_1821be2756390cee",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1392,19 +1392,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259,github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch)",
-      "content_hash": "a2b5e7db0414870dac2069384c4b254e647795caa515d6001bd957ede5bec386",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6,github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch)",
+      "content_hash": "f61607a5e0a7cc2e585298dd50e8af82cb65b9986b3c97d6b527a591f3af7e4d",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_c8d35cbb",
-      "label": "__implication_result_c8d35cbb",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_e89d5a55",
+      "label": "__implication_result_e89d5a55",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259,github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6,github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_7aaf2eb57d547484",
+        "owning_strategy_id": "lcs_1821be2756390cee",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1413,19 +1413,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a)",
-      "content_hash": "5f5cb38cdab0c35c0555ab479d8217dbad1eb72a4fc142ff25d4d41764c35b8c",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a)",
+      "content_hash": "50fb7cd12f3a575b254dbfe76df018477e3592d961812f900ac8d0b87809610e",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_73b6c7a7",
-      "label": "__implication_result_73b6c7a7",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_a6ca6103",
+      "label": "__implication_result_a6ca6103",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_379517d5ba9e7b78",
+        "owning_strategy_id": "lcs_477f0592e9b74db5",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1434,19 +1434,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
-      "content_hash": "dbfb4a0d702a6c962f5be7b079841c4274f7c3b3913e89520f13b3b346681fb7",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+      "content_hash": "8e8e4e118980d816b4c791aa77bacf5e805c13daa116ec845129bf847f408912",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_32477da6",
-      "label": "__implication_result_32477da6",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_eefbfbb7",
+      "label": "__implication_result_eefbfbb7",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_486d8fcc035d6362",
+        "owning_strategy_id": "lcs_0c913fdd772478d3",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1455,19 +1455,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope)",
-      "content_hash": "9671915b901fb1a56814d23860a83b3d1457cf11f7fd32c94ac12c1dcce5aa92",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope)",
+      "content_hash": "87245c74b917c039c4fd8dd1891a0146721acc064c027da16932ee687deb04ec",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_ce7baacc",
-      "label": "__implication_result_ce7baacc",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_1a700f8d",
+      "label": "__implication_result_1a700f8d",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_c04f5808baca36ae",
+        "owning_strategy_id": "lcs_ef8d02ab988168c7",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1476,19 +1476,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment,github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs,github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference)",
-      "content_hash": "21076075b1032550b76c24c63d54284d9f4bdd19c56daa819b0894371557db41",
+      "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment,github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs,github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference)",
+      "content_hash": "f69ceaaf4224d538d617f4dcb00c72a46181f7b7d038dc7decd4ddeecb54927b",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_6867de0b",
-      "label": "__conjunction_result_6867de0b",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4",
+      "label": "__conjunction_result_b27a69a4",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment,github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs,github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment,github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs,github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_4d1fbff6c87b80d3",
+        "owning_strategy_id": "lcs_8271448cbc1f6c84",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1496,19 +1496,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_6867de0b,github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis)",
-      "content_hash": "e879abfa993e1f03325f0c64e3e7d5e44d59370e79306adb73140555dbc56c70",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+      "content_hash": "dd29af4139c38a1c5a65115f25a6b8b8fbc139d73cd3801228870db03121e164",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_c3802cfa",
-      "label": "__implication_result_c3802cfa",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_1414ae5a",
+      "label": "__implication_result_1414ae5a",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_6867de0b,github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_4d1fbff6c87b80d3",
+        "owning_strategy_id": "lcs_8271448cbc1f6c84",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1517,19 +1517,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis,github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set)",
-      "content_hash": "ecaa88c896cc7f2584c5bc9a4daeb2370925981889ba160b06c3fc400d5bd829",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis,github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set)",
+      "content_hash": "f681ca1ac6f4b5f02e71cdca28d347aaa8aad1011d0f891cbd7c4ad2e1585aae",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_d7236d58",
-      "label": "__implication_result_d7236d58",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_ee278a79",
+      "label": "__implication_result_ee278a79",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis,github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis,github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_ff377d9c6019667f",
+        "owning_strategy_id": "lcs_18fa4af23a7413a5",
         "owning_strategy_type": "support",
         "prior": 0.9,
         "visibility": "formal_internal"
@@ -1538,19 +1538,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption,github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability)",
-      "content_hash": "4b2855c50df5e0eb486de23aa1832ae3a172f8575e0bc6f0716bba5ba9cb222d",
+      "content": "all_true(github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption,github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability)",
+      "content_hash": "e0d50cf9d73d7fd2f14ed1d2a052e2570e3d8cb2967eb4b273ecea6823c0c06b",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f",
-      "label": "__conjunction_result_a46eda5f",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_84ecb660",
+      "label": "__conjunction_result_84ecb660",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption,github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption,github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_7e452b2413f29e79",
+        "owning_strategy_id": "lcs_1002d4188082801f",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1558,19 +1558,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f,github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop)",
-      "content_hash": "757a5001ba00d9b7b6ad43649c47975c73dfd5aada2b1e5f7fb9bcebf48e4b84",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_84ecb660,github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop)",
+      "content_hash": "d999ce4b6c281b7853eefeb02bb57b5247c2f9c781b83bb1b1c9eff02e072364",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_fd169386",
-      "label": "__implication_result_fd169386",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_49a3fa33",
+      "label": "__implication_result_49a3fa33",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f,github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_84ecb660,github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_7e452b2413f29e79",
+        "owning_strategy_id": "lcs_1002d4188082801f",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1579,19 +1579,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio,github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy)",
-      "content_hash": "365745ed9e761cf19562fd45180f95ea103052b0ce41cdcb2f80a1597d36763c",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
+      "content_hash": "802cb43af1d97808e00202fae269c8f7fb1e0bb85fd2fa3b560ad91c2eadb81d",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_7e232079",
-      "label": "__implication_result_7e232079",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_d15d4d9a",
+      "label": "__implication_result_d15d4d9a",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio,github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_d4e1f9b682ade92e",
+        "owning_strategy_id": "lcs_e56b2adeb598c808",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1600,19 +1600,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption,github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles)",
-      "content_hash": "e8d834559061c1a52fc4b9b6298210b50d25507bdd8a77e5da4bfc4d5f74deb2",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption,github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles)",
+      "content_hash": "92b0e17221162dad7a7d985f67dd9471419ad98a5df677beb1029c79d54bcf78",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_f4f08511",
-      "label": "__implication_result_f4f08511",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_4a99e763",
+      "label": "__implication_result_4a99e763",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption,github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption,github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_43012413c6f3f09a",
+        "owning_strategy_id": "lcs_9e61bf2238f37c14",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1621,19 +1621,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization,github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression,github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos)",
-      "content_hash": "22a15738ae6ee6ca08e21495ba83b4a3a7bf5fb8c2592fd53e97364f9ab912d3",
+      "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression,github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos)",
+      "content_hash": "62b23a1e6830a03a09eeb2b1f9489d3b1177bca03a2662404144a770d3eb2302",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_2042e056",
-      "label": "__conjunction_result_2042e056",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_1097d263",
+      "label": "__conjunction_result_1097d263",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization,github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression,github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression,github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_38b025a6501bc19b",
+        "owning_strategy_id": "lcs_f4940811272dcd89",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1641,19 +1641,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_2042e056,github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay)",
-      "content_hash": "ad07d2cd3c959017893aaf5f7969f81bfa7c15fe821f295816732bcab3e1496c",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_1097d263,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+      "content_hash": "49791f0b6f0f8727cc1537c72a2b0a787c06927aebb2a80bf3a554bf8bb449e7",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_216b5084",
-      "label": "__implication_result_216b5084",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_19a3e984",
+      "label": "__implication_result_19a3e984",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_2042e056,github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_1097d263,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_38b025a6501bc19b",
+        "owning_strategy_id": "lcs_f4940811272dcd89",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1662,19 +1662,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario,github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz)",
-      "content_hash": "9002826074c02bc0910896abe08eeb6f077982d293886abfc8c19d895a8709c2",
+      "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario,github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration)",
+      "content_hash": "5ac6a90715e31dfae73968d73ebdbe46ae75184c9fcd8b65a139dd8d2b6c6540",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9",
-      "label": "__conjunction_result_260ed3c9",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb",
+      "label": "__conjunction_result_ea41b1bb",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario,github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario,github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_1498832fa9ae7f60",
+        "owning_strategy_id": "lcs_7d883e237facbf26",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1682,19 +1682,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9,github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization)",
-      "content_hash": "58136d54c7f181bd0e907e0c47414159e770f2d8f00da71ad3caa35ed0aea350",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb,github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization)",
+      "content_hash": "a7ecca2a5334dcc1065d49b27f2882a2d9728cdfa04ccd931adf5f037515745f",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_9a1d00d8",
-      "label": "__implication_result_9a1d00d8",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_ed6ea74a",
+      "label": "__implication_result_ed6ea74a",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9,github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb,github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_1498832fa9ae7f60",
+        "owning_strategy_id": "lcs_7d883e237facbf26",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1703,19 +1703,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption,github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability)",
-      "content_hash": "1b29fc7b7acea3823453ef654d3e49caa763cb83b45af7b9427c30d0a7e626c7",
+      "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption,github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability)",
+      "content_hash": "b4be17c896d2051b9eb329d718b6557e7a548a59e24572a4f95d69cf1b7c3267",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f",
-      "label": "__conjunction_result_b35fa89f",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_4871aa16",
+      "label": "__conjunction_result_4871aa16",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption,github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption,github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_38dd8b16c1951c0d",
+        "owning_strategy_id": "lcs_563b0f572bd5e653",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1723,40 +1723,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f,github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement)",
-      "content_hash": "c8fef39105653b12f87a44fb86f4d0f6387fe9e336d8473510df445c7cd6f505",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_4871aa16,github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement)",
+      "content_hash": "49bcc08c1b310611351af7feea63ea08d5d0e2b46b9d21306ba2057921e6c83f",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_4dabb36e",
-      "label": "__implication_result_4dabb36e",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_a2bbdf2e",
+      "label": "__implication_result_a2bbdf2e",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f,github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_4871aa16,github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_38dd8b16c1951c0d",
-        "owning_strategy_type": "deduction",
-        "prior": 0.95,
-        "visibility": "formal_internal"
-      },
-      "parameters": [],
-      "type": "claim"
-    },
-    {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations,github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required)",
-      "content_hash": "a097e29832721b1d37deaa1842022515f5f992f503a81b9f4152ef9db85b8727",
-      "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_3f46ec2a",
-      "label": "__implication_result_3f46ec2a",
-      "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations,github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required)",
-        "generated": true,
-        "generated_kind": "helper_claim",
-        "helper_kind": "implication_result",
-        "helper_visibility": "formal_internal",
-        "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_34feb8f019f65a1d",
+        "owning_strategy_id": "lcs_563b0f572bd5e653",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1765,19 +1744,40 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme)",
-      "content_hash": "81ab29e16c2a3a084f865762e31a491b92cb821a25306b8f5c22bb33487cadb4",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+      "content_hash": "de566d486547b89ce68f617b1824476bb004599b660b9b2fb1219ffd79105f36",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_b49f9b78",
-      "label": "__implication_result_b49f9b78",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_0edd2d6d",
+      "label": "__implication_result_0edd2d6d",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds,github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_17af42d0be43c5d3",
+        "owning_strategy_id": "lcs_50680700b7341a92",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+      "content_hash": "8af65708e103bab06d1dff6498ba7e29d1ab23cc9e5215880ae3f72f205d8a57",
+      "exported": false,
+      "id": "github:fermi_liquid_effective_mass::__implication_result_4cb01989",
+      "label": "__implication_result_4cb01989",
+      "metadata": {
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_eddcfaa3eedc939e",
         "owning_strategy_type": "support",
         "prior": 0.82,
         "visibility": "formal_internal"
@@ -1786,19 +1786,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration,github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values)",
-      "content_hash": "c74330df98fe0cc381f8c848733ce2147fa2e7f40478b88a4b93512229843dfa",
+      "content": "all_true(github:fermi_liquid_effective_mass::rbc_specific_heat_calibration,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
+      "content_hash": "f14060f6e58b5c3d683885ec6a76211a6d926489b2b1300273900692bf35e2e3",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa",
-      "label": "__conjunction_result_1b3d30fa",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_fafc538a",
+      "label": "__conjunction_result_fafc538a",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration,github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::rbc_specific_heat_calibration,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_1a3dcecb96eed027",
+        "owning_strategy_id": "lcs_378d78f3d10e867d",
         "owning_strategy_type": "support",
         "visibility": "formal_internal"
       },
@@ -1806,19 +1806,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
-      "content_hash": "fab3587d05def471080c014e356481804416545116f2f1c0b9f93848266f1ddb",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_fafc538a,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+      "content_hash": "9d0b444c2b9508ee1d16295382be5faa99970a54b957c781e29c82dac3e3fbcf",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_24c11c29",
-      "label": "__implication_result_24c11c29",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_f46ed5d2",
+      "label": "__implication_result_f46ed5d2",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_fafc538a,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_1a3dcecb96eed027",
+        "owning_strategy_id": "lcs_378d78f3d10e867d",
         "owning_strategy_type": "support",
         "prior": 0.78,
         "visibility": "formal_internal"
@@ -1827,19 +1827,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
-      "content_hash": "ba12adec5fc4660b082802b0d97d20b2154986934196f57bfa9ef76fb717059e",
+      "content": "implies(github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+      "content_hash": "8bc32376d2abb7c83544b73e2032cd6f49b31c746e9f8058e468d421ad707b74",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_2d709729",
-      "label": "__implication_result_2d709729",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_6fc9107f",
+      "label": "__implication_result_6fc9107f",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_f1a4f35e07304afb",
+        "owning_strategy_id": "lcs_a73eda4dedc435d1",
         "owning_strategy_type": "support",
         "prior": 0.84,
         "visibility": "formal_internal"
@@ -1848,19 +1848,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement,github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis)",
-      "content_hash": "2767a8e574512b47af32ed53d4fa8815b930a72f924fd31894aee475e4ae6b89",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+      "content_hash": "635438d535befa01197f6cdbf69c50367bd4c10be02f4b139e0c916c5dc4c381",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_08a159e6",
-      "label": "__implication_result_08a159e6",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_66ce87c2",
+      "label": "__implication_result_66ce87c2",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement,github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_b91e79685d3f9511",
+        "owning_strategy_id": "lcs_231604149abad2f6",
         "owning_strategy_type": "support",
         "prior": 0.82,
         "visibility": "formal_internal"
@@ -1869,19 +1869,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis)",
-      "content_hash": "7dc551a39dc2a868aff2efbeb6ba4f5fac944bf83d8a29f7b368b5a72f7b1b3c",
+      "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+      "content_hash": "b2a95b404563380d9d4cf9d8629f4bd253b4b5b829e918e39c0a5a31643a38d7",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb",
-      "label": "__conjunction_result_5428bfeb",
+      "id": "github:fermi_liquid_effective_mass::__conjunction_result_f41516bf",
+      "label": "__conjunction_result_f41516bf",
       "metadata": {
-        "canonical_name": "all_true(github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis)",
+        "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_c0ea4ece9ab4cdd8",
+        "owning_strategy_id": "lcs_0970465d89e638b4",
         "owning_strategy_type": "support",
         "visibility": "formal_internal"
       },
@@ -1889,19 +1889,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb,github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required)",
-      "content_hash": "dfc222d8ab03ed329ee25f939094171b630a2c22f9d78682805c51e9b1f84cf6",
+      "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_f41516bf,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+      "content_hash": "836013dd68f0409d8a630004e4166515ab96feea301d85fa9ff3d43e9bb86908",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_6e39e14c",
-      "label": "__implication_result_6e39e14c",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_cc4028a8",
+      "label": "__implication_result_cc4028a8",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb,github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_f41516bf,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_c0ea4ece9ab4cdd8",
+        "owning_strategy_id": "lcs_0970465d89e638b4",
         "owning_strategy_type": "support",
         "prior": 0.86,
         "visibility": "formal_internal"
@@ -1910,19 +1910,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression)",
-      "content_hash": "e97f74107b95dd580db0ce3a6cc4070a773cf5a136970f45282a9b26aa4ed620",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression)",
+      "content_hash": "5d2bbc25239a78399871e6e80c2cb58e36de6fccfca623f0e56e11d95f1694df",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_d09cdfaf",
-      "label": "__implication_result_d09cdfaf",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_2832b193",
+      "label": "__implication_result_2832b193",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_a681355c02511ca0",
+        "owning_strategy_id": "lcs_7ef7602154307f10",
         "owning_strategy_type": "support",
         "prior": 0.74,
         "visibility": "formal_internal"
@@ -1931,19 +1931,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy,github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay)",
-      "content_hash": "c793ba9876f69e78b6b6064ada65e1e92116f06161b0b09aa6f3316a8243b744",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+      "content_hash": "9bfe20369426d4411498bff6afb934bc7aaac1fbee676e0c84b37f0ff6cc912f",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_14aad86b",
-      "label": "__implication_result_14aad86b",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_70f1816d",
+      "label": "__implication_result_70f1816d",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy,github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_2af3b835a51fcc4a",
+        "owning_strategy_id": "lcs_a720a3e59477beb3",
         "owning_strategy_type": "support",
         "prior": 0.76,
         "visibility": "formal_internal"
@@ -1952,19 +1952,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy)",
-      "content_hash": "f3460dfe7393388ae994da5bc3a7e13c4170ab9cbec71fb443430eb8e90c6741",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
+      "content_hash": "064b684ecda9e0d1045806d3dd21f1c579d40ba7be35a863612e6adaec3c1a0f",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_3ca10b7f",
-      "label": "__implication_result_3ca10b7f",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_06384373",
+      "label": "__implication_result_06384373",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_2c99907b4e082564",
+        "owning_strategy_id": "lcs_f8ca1fe14f0bfd52",
         "owning_strategy_type": "support",
         "prior": 0.75,
         "visibility": "formal_internal"
@@ -1973,19 +1973,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization,github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay)",
-      "content_hash": "ee8d1c0c96580b0f9acd4e33432636be90b6ef5f60eca79e913c8ded6dbfa3f4",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+      "content_hash": "f0e5d9af8e079698c25d5a15090bb46975305d23049114f454452ac9bfa2a025",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_fbbeacfa",
-      "label": "__implication_result_fbbeacfa",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_32554ca9",
+      "label": "__implication_result_32554ca9",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization,github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_5116efd88079db9a",
+        "owning_strategy_id": "lcs_c00933117c75b427",
         "owning_strategy_type": "support",
         "prior": 0.88,
         "visibility": "formal_internal"
@@ -1994,19 +1994,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required)",
-      "content_hash": "299d3c1e57b688e31450682751f106d9680936d023aded5daac8175afe4f54a1",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+      "content_hash": "d459b5906c597528dc8ab4a565a61371c1721d3904bb0a1cace8d0a15e143394",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_04df5432",
-      "label": "__implication_result_04df5432",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_ddf0f900",
+      "label": "__implication_result_ddf0f900",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values,github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_68893444df5b23a7",
+        "owning_strategy_id": "lcs_a1828d79984eb225",
         "owning_strategy_type": "support",
         "prior": 0.82,
         "visibility": "formal_internal"
@@ -2015,19 +2015,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
-      "content_hash": "045d4c22469700ef7a430b83bd62870ed02002c7cdb05a467da44dc95e429403",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+      "content_hash": "aadd310c39ebf46fb1d8113c7593d392f055e83106f0be45ea3b43efd1f03df4",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_999afa32",
-      "label": "__implication_result_999afa32",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_ac31ccd1",
+      "label": "__implication_result_ac31ccd1",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_e9fbe25f8130bdc4",
+        "owning_strategy_id": "lcs_df610d04d5c98c63",
         "owning_strategy_type": "support",
         "prior": 0.72,
         "visibility": "formal_internal"
@@ -2036,19 +2036,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
-      "content_hash": "0214ac3eed936a817ed5a40465514e2e78909fee872272f39231512cf00644d9",
+      "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+      "content_hash": "727fd747f7690cad06bf7881333231fb06b2d10ef941e1c161922da150d609c2",
       "exported": false,
-      "id": "github:fermi_liquid_effective_mass::__implication_result_ed6d055c",
-      "label": "__implication_result_ed6d055c",
+      "id": "github:fermi_liquid_effective_mass::__implication_result_0f6c1d3d",
+      "label": "__implication_result_0f6c1d3d",
       "metadata": {
-        "canonical_name": "implies(github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass)",
+        "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_a23cc7bb7f9ddfe6",
+        "owning_strategy_id": "lcs_17931488be522e50",
         "owning_strategy_type": "support",
         "prior": 0.7,
         "visibility": "formal_internal"
@@ -2095,11 +2095,11 @@
         "reason": "Both LKM-backed claims state the same FCQPT inflection-point condition: the first two derivatives of epsilon(p) vanish at p_F and the cubic term is the leading nonzero term. The 2010 chain uses it in the YbRh2Si2 effective-mass scheme; the 2009 chain uses it to derive T^(-2/3) scaling."
       },
       "operator": "equivalence",
-      "operator_id": "lco_2ec644a455583a49",
+      "operator_id": "lco_c2d5ea92516e744c",
       "scope": "local",
       "variables": [
-        "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
-        "github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum"
+        "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+        "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition"
       ]
     }
   ],
@@ -2107,27 +2107,27 @@
   "scope": "local",
   "strategies": [
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
-              "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
-              "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
-              "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
-              "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
-              "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+              "github:fermi_liquid_effective_mass::landau_mass_integral_relation",
+              "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model",
+              "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+              "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions",
+              "github:fermi_liquid_effective_mass::fermion_entropy_formula",
+              "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_1bbdf0c1",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ab33e4be",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
-              "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+              "github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20",
+              "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme"
             ]
           }
         ]
@@ -2139,35 +2139,35 @@
         "reason": "1. State the fundamental equation used to compute the temperature- and field-dependent quasiparticle effective mass $M^{*}(T,B)$: the Landau form relating the inverse effective mass to the bare mass $m$ and the quasiparticle distribution, written explicitly as\n$$\n\\frac{1}{M^{*}(T)}=\\frac{1}{m}+\\int \\frac{\\mathbf{p}_{F}\\cdot\\mathbf{p}_1}{p_{F}^{3}}\\;F(\\mathbf{p}_{F},\\mathbf{p}_1)\\;\\frac{\\partial n(p_1,T)}{\\partial p_1}\\;\\frac{d\\mathbf{p}_1}{(2\\pi)^3},\n$$\nwhere $M^{*}(T)$ is the quasiparticle effective mass as a function of temperature $T$, $m$ is the bare electron mass, $\\mathbf{p}_F$ is the Fermi momentum vector, $p_F=|\\mathbf{p}_F|$, $F(\\mathbf{p}_F,\\mathbf{p}_1)$ is the Landau interaction amplitude, and $n(p,T)$ is the quasiparticle occupation number. This equation is the starting point for the numerical solution described below.\n2. Specify the model assumption for the calculations: use the homogeneous heavy-electron (fermion) liquid model (a spatially uniform system), thereby neglecting crystal-lattice anisotropy; this means the occupation numbers depend only on momentum magnitude $p$ and temperature $T$, $n(p,T)$, and spatial inhomogeneities and band-structure anisotropies are not included.\n3. Choose a special form of the Landau interaction amplitude $F(\\mathbf{p}_F,\\mathbf{p}_1)$ whose coefficients are tuned so that the single-particle spectrum $\\varepsilon(p)$ has an inflection point at the Fermi momentum $p_F$; concretely, impose that the first and second derivatives of $\\varepsilon(p)$ with respect to $p$ vanish at $p=p_F$, i.e. $\\left.\\frac{d\\varepsilon}{dp}\\right|_{p=p_F}=0$ and $\\left.\\frac{d^2\\varepsilon}{dp^2}\\right|_{p=p_F}=0$, where $\\varepsilon(p)$ is the single-particle spectrum and $p$ is momentum. The vanishing of the first derivative is equivalent to $1/M^{*}=0$ at the QCP, and the vanishing of two derivatives ensures the lowest nonzero term in the Taylor expansion of $\\varepsilon(p)$ about $p_F$ is proportional to $(p-p_F)^3$. This choice enforces that the system is placed at the fermion-condensation quantum phase transition (FCQPT) critical condition for the calculation. [12][15]\n[12]\n4. Solve the Landau integral equation given in the first step numerically (the temperature-dependent Landau equation reproduced there) with the specially chosen Landau amplitude from the previous step. The numerical solution yields the single-particle spectrum $\\varepsilon(p)$ and the temperature-dependent occupation numbers $n(p,T)$ consistent with the interaction amplitude and imposed inflection-point condition; these are obtained for given external parameters $T$ and magnetic field $B$ (with $B$ entering via Zeeman splitting and through the dependence of $n(p,T)$ and the amplitude on polarization, implemented as in the computational scheme described).\n[15]\n5. Compute the thermodynamic entropy $S(B,T)$ from the occupation numbers $n(p,T)$ using the combinatorial formula for the entropy of a system of fermionic quasiparticles,\n$$\nS=-2\\int\\Bigl[n(p)\\ln n(p)+(1-n(p))\\ln(1-n(p))\\Bigr]\\frac{d\\mathbf{p}}{(2\\pi)^3},\n$$\nwhere $S$ is the entropy at given magnetic field $B$ and temperature $T$, $n(p)=n(p,T)$ is the quasiparticle occupation number, and the factor $-2$ accounts for spin degeneracy. This formula gives $S(B,T)$ directly from the computed $n(p,T)$.\n6. Extract the effective mass $M^{*}(T,B)$ from the computed entropy using the Landau relation connecting entropy and effective mass in a Fermi liquid, written explicitly as\n$$\nM^{*}(T,B)=\\frac{S(T,B)}{T},\n$$\nwhere $S(T,B)$ is the entropy per mole (or per particle, depending on units) computed in the previous step and $T$ is temperature. This relation is applied to obtain $M^{*}(T,B)$ from the numerically computed $S(T,B)$ for each $(T,B)$ point.\n7. Normalize the computed effective mass $M^{*}(T,B)$ by its maximum value $M_{M}^{*}$ occurring at the temperature $T=T_M$ for a given $B$, and introduce the normalized temperature $y=T/T_M$; the normalized effective mass is $M_N^{*}(y)=M^{*}(T,B)/M_{M}^{*}$. Use these normalized quantities to examine the interpolating/scaling properties of the computed $M^{*}(T,B)$ and to compare directly with experiment on a common dimensionless axis. The computed normalized entropy and normalized effective mass as functions of normalized variables show collapse onto single curves, corroborating the scaling picture (this computed normalized entropy behavior is presented graphically in the calculations shown).\nFig. 3\n8. State the practical computational scheme in a concise sequence usable for reproducing theoretical curves and for comparison with experiments: (i) choose a Landau amplitude whose coefficients produce an inflection point in $\\varepsilon(p)$ at $p_F$ (first two derivatives zero); (ii) numerically solve the temperature-dependent Landau equation reproduced above to obtain $\\varepsilon(p)$ and $n(p,T)$; (iii) compute the entropy $S(B,T)$ from $n(p,T)$ using the combinatorial entropy formula reproduced above; (iv) obtain $M^{*}(T,B)$ by $M^{*}=S/T$ and construct normalized quantities $M_N^{*}=M^{*}/M_{M}^{*}$ and $y=T/T_M$ for scaling analysis. This scheme is implemented within the homogeneous heavy-electron liquid model (neglecting crystal-lattice anisotropy) and yields $M^{*}(T,B)$ exhibiting the interpolating and scaling properties used elsewhere in the paper."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
-        "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
-        "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
-        "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
-        "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
-        "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+        "github:fermi_liquid_effective_mass::landau_mass_integral_relation",
+        "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model",
+        "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+        "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions",
+        "github:fermi_liquid_effective_mass::fermion_entropy_formula",
+        "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy"
       ],
       "scope": "local",
-      "strategy_id": "lcs_0d1b5abf46062b74",
+      "strategy_id": "lcs_a9d58c4d85bb8b06",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds",
+      "conclusion": "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum",
-              "github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation"
+              "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition",
+              "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_97e1201a",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_1866ca50",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f",
-              "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds"
+              "github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948",
+              "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling"
             ]
           }
         ]
@@ -2179,31 +2179,31 @@
         "reason": "1. Treat the exact inverse effective-mass relation as known and introduce the finite-temperature quasiparticle-distribution deviation n_1(p,T)=n(p,T)-n(p).\n2. Invoke the FCQPT condition where the zero-temperature effective mass diverges, making the zero-temperature inverse-mass term vanish and the finite-temperature equation homogeneous.\n3. Use the asymptotic low-temperature solution of the homogeneous equation, M*(T) proportional to T^(-2/3), as the non-Fermi-liquid FCQPT effective-mass law.\n4. Note that away from FCQPT the system has finite-M*(0) Landau-Fermi-liquid behavior at low T, so the T^(-2/3) law identifies the FCQPT/NFL regime."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum",
-        "github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation"
+        "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition",
+        "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation"
       ],
       "scope": "local",
-      "strategy_id": "lcs_d990c805a4be58f3",
+      "strategy_id": "lcs_c8ecc3d96acf251f",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization",
-              "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration"
+              "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization",
+              "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_fa87756d",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_126019bc",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005",
-              "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+              "github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0",
+              "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
             ]
           }
         ]
@@ -2215,11 +2215,11 @@
         "reason": "1. Start from the established upstream result that two principal bands (donut $i=1$ and jungle-gym $i=2$) dominate the Hall transport integrals, and aim to determine how inclusion of $4f$-derived quasiparticles in a renormalized-band calculation (RBC) modifies the band-resolved transport integrals and their signs.\n2. Summarize the renormalized band method inputs and parameter determination: transform the $4f$ states into crystalline-electric-field (CEF) eigenstates $|m\\rangle$ and introduce resonance-type phase shifts\n$\\widetilde{\\eta}_{f}(E)\\simeq\\arctan\\dfrac{\\widetilde{\\Delta}_{f}}{E-\\widetilde{\\epsilon}_{f}}$,\nwhere $\\widetilde{\\Delta}_{f}$ is the resonance width accounting for the renormalized quasiparticle mass and $\\widetilde{\\epsilon}_{f}$ the position of the $f$-derived band center; the CEF-split resonance centers are $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}+\\delta_{m}$ (for the Yb hole analog the sign convention leads to $\\widetilde{\\epsilon}_{f}<0$ and $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}-\\delta_{m}$). The single free parameter $\\widetilde{\\Delta}_{f}$ is fixed by reproducing the experimentally observed low-temperature linear-in-$T$ specific-heat coefficient, thereby grounding the RBC parametrization in thermodynamic data.\n[24]\n3. Compute the renormalized band dispersions $E(i,\\mathbf{k})$ using the RBC Hamiltonian and the experimental CEF scheme and resonance widths; from these dispersions evaluate the band-resolved reduced transport integrals $\\bar{\\sigma}_{xx}(i)$ and $\\bar{\\sigma}_{xyz}(i)$ as defined by the decomposition\n$\\sigma_{xx}(i)=\\sigma(i)\\bar{\\sigma}_{xx}(i)$ and $\\sigma_{xyz}(i)=\\sigma_{B}(i)\\bar{\\sigma}_{xyz}(i)$\nwith the prefactors $\\sigma(i)=\\dfrac{e^{2}}{m}\\pi(i)\\bar{n}(i)$ and $\\sigma_{B}(i)=\\dfrac{|e|^{3}}{m^{2}c}[\\pi(i)]^{2}\\bar{n}(i)$ and $\\bar{n}(i)$ the band occupation per unit cell. This defines the reduced-transport products $\\bar{n}(i)\\bar{\\sigma}_{xyz}(i)$ which directly enter the numerator of the Hall coefficient.\n(Equations reproduced from the transport decomposition in the paper.)\n4. Report the numerical RBC results for YbRh$_2$Si$_2$: the renormalized-band calculation yields for band 1 (donut) a positive reduced transverse transport product $\\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675$ and for band 2 (jungle-gym) a negative product $\\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076$ as listed in the transport-results Table I. These opposite signs indicate that band 1 remains predominantly holelike while band 2 becomes predominantly electronlike in the heavy-Fermi-liquid limit. The near equality in magnitude implies strong cancellation when summing the two contributions in the numerator of $R_{H}$.\nTable I\n5. State the RBC prediction for the renormalized density of states at the Fermi energy and its thermodynamic implication: for YbRh$_2$Si$_2$ the RBC yields $N(E_{F})\\approx 290\\ \\mathrm{states/(eV\\ unit\\ cell)}$, which corresponds (via the standard relation between DOS and the Sommerfeld coefficient for the electronic specific heat) to a Sommerfeld coefficient $\\gamma\\approx680\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$; for YbIr$_2$Si$_2$ RBC gives $N(E_{F})\\approx48\\ \\mathrm{states/(eV\\ unit\\ cell)}$ and $\\gamma\\approx113\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$. These values follow from the calculated renormalized quasiparticle DOS displayed in the RBC results.\nFig. 4\n6. Conclude that in the heavy-Fermi-liquid limit the RBC produces two dominant bands with opposite Hall character for YbRh$_2$Si$_2$, with nearly compensating contributions to the Hall numerator (the products $\\bar{n}(i)\\bar{\\sigma}_{xyz}(i)$ are close in magnitude and opposite in sign), thereby explaining why the total Hall coefficient is expected to be small and highly sensitive to weighting factors (such as band-dependent relaxation times). This explains the RBC-based mechanistic origin of cancellation and near-compensation observed in the numerical transport integrals.\nTable I"
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization",
-        "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration"
+        "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization",
+        "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration"
       ],
       "scope": "local",
-      "strategy_id": "lcs_20e4a50893629912",
+      "strategy_id": "lcs_79129b6d670a82ba",
       "type": "deduction"
     },
     {
@@ -2227,10 +2227,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_0326f7b4",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_e6f868d5",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
+              "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
               "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma"
             ]
           }
@@ -2243,10 +2243,10 @@
         "reason": "The root LKM claim explicitly states that the RBC incorporates CEF excitation energies from experiment and adjusts the resonance width to reproduce the low-temperature specific-heat coefficient; this helper isolates that method/parameterization component."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+        "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
       ],
       "scope": "local",
-      "strategy_id": "lcs_861b11df98413b8c",
+      "strategy_id": "lcs_7fcb03eba393c18a",
       "type": "support"
     },
     {
@@ -2254,10 +2254,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_720bc514",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_af06781a",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
+              "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
               "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products"
             ]
           }
@@ -2270,10 +2270,10 @@
         "reason": "The root LKM claim and factor step 4 explicitly give the YbRh2Si2 band-1 and band-2 reduced transverse transport products and their opposite signs; this helper isolates the Hall-cancellation component."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+        "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
       ],
       "scope": "local",
-      "strategy_id": "lcs_ff3348e0af4c76b4",
+      "strategy_id": "lcs_0971d42e0c6d710f",
       "type": "support"
     },
     {
@@ -2281,10 +2281,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_98b147e1",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_97b9504f",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
+              "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
               "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2"
             ]
           }
@@ -2297,30 +2297,30 @@
         "reason": "The root LKM claim and factor step 5 explicitly give the RBC density-of-states and Sommerfeld-coefficient values for YbRh2Si2 and YbIr2Si2; this helper isolates the DOS/gamma component."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+        "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
       ],
       "scope": "local",
-      "strategy_id": "lcs_762950f9b5b1a5eb",
+      "strategy_id": "lcs_662e2f053fec0305",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope",
-              "github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity"
+              "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope",
+              "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_c8d35cbb",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_e89d5a55",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259",
-              "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+              "github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6",
+              "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
             ]
           }
         ]
@@ -2332,11 +2332,11 @@
         "reason": "1. Start from the upstream established result: accept as already established the upstream conclusion that LDA band-structure calculations place significant sensitivity of predicted Fermi-surface angular dependence to the $4f$ position and that itinerant-4f LDA angular dependence does not match experiment (upstream conclusion known and available for use).\n2. Define experimental method and conditions for the quantum-oscillation measurements: de Haas–van Alphen (dHvA) measurements were performed on highest-quality single crystals (RRR $\\approx300$) at ambient pressure using a cantilever torque meter in steady magnetic fields between $12$ and $28\\ \\mathrm{T}$ with a dilution refrigerator base temperature of $30\\ \\mathrm{mK}$; the magnetic field was applied parallel to the crystallographic $a$ axis ($H\\parallel a$) for the principal data set.\n3. Report the observed dHvA frequency spectrum and its extraction: the oscillatory torque signal for $H\\parallel a$ shows reproducible oscillations whose Fourier transform yields four unambiguous frequencies at $2730\\ \\mathrm{T}$, $3510\\ \\mathrm{T}$, $5370\\ \\mathrm{T}$, and $7050\\ \\mathrm{T}$ from a field window $12$–$28\\ \\mathrm{T}$; these frequencies correspond to extremal cross-sectional areas of Fermi-surface orbits according to the Onsager relation (frequency $F$ in tesla proportional to extremal area).\nFig.7\n4. Describe how effective masses were determined and report the numerical values: the temperature dependence of each oscillation amplitude follows the Lifshitz–Kosevich thermal damping factor, and fitting that temperature dependence yields cyclotron effective masses $m^{\\ast}$ of $(15.0\\pm0.7)\\,m_{e}$ for $2730\\ \\mathrm{T}$, $(8.4\\pm0.2)\\,m_{e}$ for $3510\\ \\mathrm{T}$, $(10.1\\pm0.2)\\,m_{e}$ for $5370\\ \\mathrm{T}$, and $(14.9\\pm0.9)\\,m_{e}$ for $7050\\ \\mathrm{T}$, where $m_{e}$ is the free-electron mass.\nFig.7\n5. Report the angular dependence of the observed frequencies within the basal plane: the two extreme frequencies (lowest and highest) are observable over the full angular sweep in the basal plane while the two intermediate frequencies are detectable only at small angles near $H\\parallel a$; the measured angular dependence of the observed dHvA frequencies in the basal plane is plotted and shows a specific angular variation that is compared to calculated angular dependencies.\nFig.8\n6. Compare experimental angular dependence and frequencies with band-structure calculations and note the mismatch: the experimentally observed frequencies (all in the few-kilotesla range) and their angular evolution are inconsistent with the LDA-calculated angular dependences for $YbRh_{2}Si_{2}$ in which itinerant $4f$ electrons produce calculated frequencies mostly below $1\\ \\mathrm{kT}$ or above $10\\ \\mathrm{kT}$, and the shapes of the calculated angular dependencies differ markedly from experiment; by contrast, LDA calculations for $LuRh_{2}Si_{2}$ (where $4f$ are well below $E_{\\mathrm{F}}$) produce an angular dependence that shows qualitative similarity to the measured angular dependence, indicating that the measured spectrum does not match itinerant-4f predictions but resembles a Lu-like $4f$-localized reference.\nFig.9; Fig.11\n7. Conclude the significance of the dHvA measurements: these dHvA frequencies and extracted effective masses constitute the first experimental Fermi-surface information for $YbRh_{2}Si_{2}$; the measured oscillation spectrum and heavy effective masses reveal a significant mismatch with itinerant-4f LDA band-structure predictions, thereby providing experimental constraints that point to intermediate valence and sensitivity of the $4f$ contribution rather than the simple itinerant-$4f$ LDA picture.\nFig.7; Fig.8; Fig.9; Fig.11"
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope",
-        "github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity"
+        "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope",
+        "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity"
       ],
       "scope": "local",
-      "strategy_id": "lcs_7aaf2eb57d547484",
+      "strategy_id": "lcs_1821be2756390cee",
       "type": "deduction"
     },
     {
@@ -2344,10 +2344,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_73b6c7a7",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_a6ca6103",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+              "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
               "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a"
             ]
           }
@@ -2360,10 +2360,10 @@
         "reason": "The selected root explicitly reports the four H-parallel-a frequencies and cyclotron masses; this helper isolates the experimental quantum-oscillation measurement component without adding independent evidence."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+        "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
       ],
       "scope": "local",
-      "strategy_id": "lcs_379517d5ba9e7b78",
+      "strategy_id": "lcs_477f0592e9b74db5",
       "type": "support"
     },
     {
@@ -2371,10 +2371,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_32477da6",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_eefbfbb7",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+              "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
               "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch"
             ]
           }
@@ -2387,10 +2387,10 @@
         "reason": "The selected root and LKM factor step 6 explicitly compare the observed basal-plane angular dependence with itinerant-4f YbRh2Si2 LDA/FLAPW and LuRh2Si2 reference calculations; this helper isolates the experiment-theory mismatch component."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+        "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
       ],
       "scope": "local",
-      "strategy_id": "lcs_486d8fcc035d6362",
+      "strategy_id": "lcs_0c913fdd772478d3",
       "type": "support"
     },
     {
@@ -2398,10 +2398,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ce7baacc",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_1a700f8d",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
+              "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
               "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope"
             ]
           }
@@ -2414,31 +2414,31 @@
         "reason": "The selected root says the measurements provide first experimental Fermi-surface information, while the same chain's premises caution that high-field data and itinerant-4f LDA details limit direct low-field quantum-critical interpretation."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
+        "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
       ],
       "scope": "local",
-      "strategy_id": "lcs_c04f5808baca36ae",
+      "strategy_id": "lcs_ef8d02ab988168c7",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_6867de0b",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
-              "github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
-              "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference"
+              "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment",
+              "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs",
+              "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_c3802cfa",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_1414ae5a",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_6867de0b",
-              "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+              "github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4",
+              "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
             ]
           }
         ]
@@ -2450,12 +2450,12 @@
         "reason": "1. Start from the refined \"small\" Fermi-surface reference provided by LuRh$_2$Si$_2$ calculations and from the identification that harmonics and magnetic-interaction mixing are prevalent in LuRh$_2$Si$_2$: the previously established calculated \"small\" Fermi surface for LuRh$_2$Si$_2$ using $z_{\\text{Si}}=0.379\\,c$ serves as a reference for analogous \"small\" Fermi-surface calculations on YbRh$_2$Si$_2$ in which the Yb $4f$ electrons are treated as core-like (non-hybridizing), and the presence of many harmonics and mixing products in LuRh$_2$Si$_2$ motivates re-examination of published de Haas-van Alphen (dHvA) data on YbRh$_2$Si$_2$ for possible harmonic assignments.\nFig. 10\n[13]\n2. Describe the re-analysis procedure and evidence for harmonics in YbRh$_2$Si$_2$: the dHvA frequencies reported previously for YbRh$_2$Si$_2$ were compared to calculated fundamental frequencies of the \"small\" Fermi-surface calculation and to integer multiples (harmonics) of the low-frequency fundamentals (below $\\sim 4\\ \\mathrm{kT}$); the authors overlay second and higher harmonic angular dependences on the experimental dHvA frequency-versus-angle plot and find that the experimental frequencies in the range approximately $5\\ \\mathrm{kT}$ to $7\\ \\mathrm{kT}$ match the angular dependence expected for second harmonics of the lower-frequency fundamentals, as illustrated in the comparison plot and summarized in a table that compares expected harmonic values to measured frequencies and masses.\nFig. 10\nTable III\n3. Report the reduced set of independent fundamental frequencies implied by the harmonic reassignment: if the frequencies between $\\sim 5\\ \\mathrm{kT}$ and $7\\ \\mathrm{kT}$ in the published YbRh$_2$Si$_2$ data are reinterpreted as second (or higher) harmonics of fundamentals below $4\\ \\mathrm{kT}$, then the number of independent fundamental frequencies in YbRh$_2$Si$_2$ is reduced to a set of fundamentals below $4\\ \\mathrm{kT}$ plus a distinct high-frequency fundamental near $\\sim 14\\ \\mathrm{kT}$ (the latter is not accounted for as a harmonic of the low-frequency group).\nFig. 10\nTable III\n4. Contrast the high-frequency fundamental with the \"small\" Fermi-surface prediction and infer $f$-electron involvement: within the refined \"small\" Fermi-surface calculation for YbRh$_2$Si$_2$ (i.e., treating Yb $4f$ electrons as core-like), no high-frequency orbit near $\\sim 14\\ \\mathrm{kT}$ is predicted for fields along the (100) direction; because the experimentally observed $\\sim 14\\ \\mathrm{kT}$ frequency behaves as an independent fundamental (not a harmonic of lower frequencies) in the dHvA data, its presence indicates that the \"small\" $f$-core calculation does not account for this orbit, supporting the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields (i.e., the $4f$ electrons are at least partially itinerant under those conditions rather than fully localized).\nFig. 10\n[13]\n5. State the authors' interpretive conclusion and suggested further checks: the re-examination reduces the set of independent fundamentals in YbRh$_2$Si$_2$ to low-frequency fundamentals below $4\\ \\mathrm{kT}$ plus a single high-frequency near $\\sim 14\\ \\mathrm{kT}$; because the refined \"small\" Fermi-surface calculation does not predict the $\\sim 14\\ \\mathrm{kT}$ orbit for fields along (100), the presence of that high-frequency fundamental supports the conclusion that the Yb $4f$ electrons contribute to the Fermi surface at high magnetic fields rather than being fully localized; the authors also suggest further experimental checks (extended angular range measurements and complementary techniques) to solidify the harmonic assignments.\nFig. 10\n[10]"
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
-        "github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
-        "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference"
+        "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment",
+        "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs",
+        "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference"
       ],
       "scope": "local",
-      "strategy_id": "lcs_4d1fbff6c87b80d3",
+      "strategy_id": "lcs_8271448cbc1f6c84",
       "type": "deduction"
     },
     {
@@ -2463,10 +2463,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_d7236d58",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ee278a79",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
+              "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
               "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set"
             ]
           }
@@ -2479,30 +2479,30 @@
         "reason": "The root LKM claim and factor step 3 explicitly state the reduced set of independent YbRh2Si2 fundamentals after the harmonic reassignment."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+        "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
       ],
       "scope": "local",
-      "strategy_id": "lcs_ff377d9c6019667f",
+      "strategy_id": "lcs_18fa4af23a7413a5",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_84ecb660",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption",
-              "github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability"
+              "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption",
+              "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_fd169386",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_49a3fa33",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f",
-              "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop"
+              "github:fermi_liquid_effective_mass::__conjunction_result_84ecb660",
+              "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop"
             ]
           }
         ]
@@ -2514,23 +2514,23 @@
         "reason": "1. Treat the broadened anomaly at B* about 9.5 T and its susceptibility, magnetostriction, and magnetization signatures as prior context.\n2. Define the Landau-Fermi-liquid resistivity form rho(T,B)=rho0+A(B)T^2 for B>0.06 T with B perpendicular to c.\n3. Fit low-temperature resistivity data to extract A(B).\n4. Observe a drastic step-like decrease of A(B) when B crosses B*.\n5. Use the earlier empirical YbRh2Si2 relation A proportional to gamma^2.\n6. Apply the same A/gamma^2 constant at high field to estimate gamma(16 T) near 70 mJ mol^-1 K^-2.\n7. Conclude that the A(B) drop indicates a step-like quasiparticle effective-mass decrease in the Fermi-liquid picture."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption",
-        "github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability"
+        "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption",
+        "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability"
       ],
       "scope": "local",
-      "strategy_id": "lcs_7e452b2413f29e79",
+      "strategy_id": "lcs_1002d4188082801f",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_7e232079",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_d15d4d9a",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio",
-              "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy"
+              "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio",
+              "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy"
             ]
           }
         ]
@@ -2542,22 +2542,22 @@
         "reason": "1. Use STS observations that hybridization features begin below about 30 K while the Kondo-lattice peak dominates only below T_P about 3.3 K.\n2. Define the target hierarchy: lattice correlations onset near T_coh approximately T_K but dominate only near 0.1*T_coh.\n3. Use STS temperature evolution to separate onset near 30 K from dominance below T_P.\n4. Use thermopower and Hall-mobility changes below T_P as bulk corroboration.\n5. Note that the zero-bias minimum associated with single-ion Kondo effects persists to lower temperatures.\n6. Combine T_coh about 25-30 K with T_P about 3.3 K to get T_P/T_coh about 0.1.\n7. Conclude that lattice Kondo correlations dominate low-energy YbRh2Si2 behavior only well below the onset scale."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio"
+        "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio"
       ],
       "scope": "local",
-      "strategy_id": "lcs_d4e1f9b682ade92e",
+      "strategy_id": "lcs_e56b2adeb598c808",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_f4f08511",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_4a99e763",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption",
-              "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles"
+              "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption",
+              "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles"
             ]
           }
         ]
@@ -2569,31 +2569,31 @@
         "reason": "1. Start from the observed anisotropic ESR resonance, the ESR g-factor crossover that tracks gamma and NMR quantities, and the ESR linewidth crossover to low-temperature T^2 behavior.\n2. Identify ESR as a heavy-quasiparticle collective resonance below T0 about 25 K using empirical crossovers and many-body-narrowing proposals.\n3. Relate resonance field/g-factor and linewidth to m*(B,T), N(E_F;B,T), and quasiparticle spin relaxation.\n4. Exclude local-moment, conventional conduction-electron, and bottleneck alternatives within the same temperature-field domain.\n5. Conclude that ESR probes Kondo-state evolution and the NFL-to-LFL crossover in YbRh2Si2."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption"
+        "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption"
       ],
       "scope": "local",
-      "strategy_id": "lcs_43012413c6f3f09a",
+      "strategy_id": "lcs_9e61bf2238f37c14",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_2042e056",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_1097d263",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization",
-              "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression",
-              "github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos"
+              "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization",
+              "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+              "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_216b5084",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_19a3e984",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_2042e056",
-              "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay"
+              "github:fermi_liquid_effective_mass::__conjunction_result_1097d263",
+              "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay"
             ]
           }
         ]
@@ -2605,32 +2605,32 @@
         "reason": "1. Treat the three high-field transitions, renormalized-band Lifshitz predictions, and Hall evidence for continuous Kondo suppression as established starting points.\n2. Identify CEF-induced anisotropic hybridization, smooth field-driven Kondo suppression, and periodic-lattice coherence with van-Hove-like DOS structures as the three ingredients.\n3. Explain that anisotropic hybridization controls field-sensitive f-derived bands, smooth Kondo suppression reduces m*, and lattice coherence supplies sharp DOS features.\n4. Account for distinct Lifshitz transitions at fields of order the Kondo scale, continuous m* reduction, and abrupt transport/thermodynamic signatures.\n5. Use moderate gamma(B) reduction and single-impurity NRG expectations to reject a single abrupt f-localization jump.\n6. Conclude that the combined mechanism explains multiple high-field YbRh2Si2 transitions without requiring a single metamagnetic jump."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization",
-        "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression",
-        "github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos"
+        "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization",
+        "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+        "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos"
       ],
       "scope": "local",
-      "strategy_id": "lcs_38b025a6501bc19b",
+      "strategy_id": "lcs_f4940811272dcd89",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario",
-              "github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz"
+              "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario",
+              "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_9a1d00d8",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ed6ea74a",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9",
-              "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization"
+              "github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb",
+              "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization"
             ]
           }
         ]
@@ -2642,31 +2642,31 @@
         "reason": "1. Use the multiband Hall-compensation scenario to explain why the intermediate B2 feature may appear weak in the total Hall coefficient.\n2. Use thermopower anomalies near the same fields to corroborate the electronic-structure origin of the magnetotransport anomalies.\n3. Combine magnetoresistance/Hall data with field-dependent renormalized-band calculations that track van-Hove peak positions and Fermi-surface topology.\n4. Assign B1, B2, and B3 anomalies to Lifshitz transitions in heavy-fermion bands.\n5. Distinguish these narrow topology changes from the broader smooth Kondo quasiparticle de-renormalization.\n6. Conclude that YbRh2Si2 exhibits coexisting sharp Fermi-surface topology changes and smooth Kondo-weight suppression."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario",
-        "github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz"
+        "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario",
+        "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration"
       ],
       "scope": "local",
-      "strategy_id": "lcs_1498832fa9ae7f60",
+      "strategy_id": "lcs_7d883e237facbf26",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_4871aa16",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption",
-              "github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability"
+              "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption",
+              "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_4dabb36e",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_a2bbdf2e",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f",
-              "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement"
+              "github:fermi_liquid_effective_mass::__conjunction_result_4871aa16",
+              "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement"
             ]
           }
         ]
@@ -2678,23 +2678,23 @@
         "reason": "1. Perform all-itinerant LDA+SOC calculations for LuRh2Si2 as the small-FS analogue and YbRh2Si2 as the large-FS case.\n2. Match observed YbRh2Si2 dHvA frequencies and angular dependences to calculated D-sheet hole orbits.\n3. Note that the LuRh2Si2 small-FS topology matches the detected orbits better than the large-FS YbRh2Si2 calculation.\n4. Compare measured cyclotron masses with calculated band masses.\n5. Conclude that the observed branches carry mass enhancements of order ten, consistent with strong many-body renormalization."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption",
-        "github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability"
+        "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption",
+        "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability"
       ],
       "scope": "local",
-      "strategy_id": "lcs_38dd8b16c1951c0d",
+      "strategy_id": "lcs_563b0f572bd5e653",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_3f46ec2a",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_0edd2d6d",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations",
-              "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required"
+              "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations",
+              "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required"
             ]
           }
         ]
@@ -2706,22 +2706,22 @@
         "reason": "1. Start from the refined small-FS LDA and fully itinerant LDA failures to reproduce key YbRh2Si2 quantum-oscillation branches.\n2. Identify dynamic local correlations and Kondo renormalization as missing ingredients in static one-electron LDA.\n3. Note that these missing ingredients affect f-derived bands, hybridization, Fermi-surface topology, and effective masses.\n4. Conclude that many-body electronic-structure methods, including renormalized-band approaches or DMFT with suitable impurity solvers, are needed for quantitative YbRh2Si2 Fermi-surface and mass modeling."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations"
+        "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations"
       ],
       "scope": "local",
-      "strategy_id": "lcs_34feb8f019f65a1d",
+      "strategy_id": "lcs_50680700b7341a92",
       "type": "deduction"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_b49f9b78",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_4cb01989",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds",
-              "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme"
+              "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
+              "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme"
             ]
           }
         ]
@@ -2733,30 +2733,30 @@
         "reason": "The Shaginyan 2009 LKM chain derives the FCQPT/NFL T^(-2/3) effective-mass solution from the same homogeneous Landau effective-mass equation and inflection condition used inside the Shaginyan 2010 YbRh2Si2 procedure. This supports the FCQPT scaling component of the starting root without adding a parent synthesis claim."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds"
+        "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling"
       ],
       "scope": "local",
-      "strategy_id": "lcs_17af42d0be43c5d3",
+      "strategy_id": "lcs_eddcfaa3eedc939e",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "conclusion": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_fafc538a",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration",
-              "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+              "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration",
+              "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_24c11c29",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_f46ed5d2",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa",
-              "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+              "github:fermi_liquid_effective_mass::__conjunction_result_fafc538a",
+              "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy"
             ]
           }
         ]
@@ -2768,11 +2768,11 @@
         "reason": "Friedemann 2010 LKM evidence independently uses YbRh2Si2 low-temperature specific heat and density of states to calibrate quasiparticle masses. That chain supports the starting root's use of thermodynamic entropy or specific-heat-like density-of-states quantities as an operational effective-mass proxy in YbRh2Si2."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration",
-        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+        "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration",
+        "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
       ],
       "scope": "local",
-      "strategy_id": "lcs_1a3dcecb96eed027",
+      "strategy_id": "lcs_378d78f3d10e867d",
       "type": "support"
     },
     {
@@ -2780,10 +2780,10 @@
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_2d709729",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_6fc9107f",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference",
+              "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference",
               "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch"
             ]
           }
@@ -2796,22 +2796,22 @@
         "reason": "Friedemann 2013 LKM evidence establishes LuRh2Si2 as a small-FS reference for YbRh2Si2; Knebel 2006 LKM evidence reports that the YbRh2Si2 dHvA angular dependence resembles the LuRh2Si2 reference more than itinerant-4f YbRh2Si2 LDA. The source claims therefore connect through the same LuRh2Si2-reference comparison."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference"
+        "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference"
       ],
       "scope": "local",
-      "strategy_id": "lcs_f1a4f35e07304afb",
+      "strategy_id": "lcs_a73eda4dedc435d1",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_08a159e6",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_66ce87c2",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
-              "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+              "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
+              "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
             ]
           }
         ]
@@ -2823,30 +2823,30 @@
         "reason": "Rourke 2008 supplies chain-backed high-field dHvA evidence that a LuRh2Si2-like small-FS D sheet matches observed YbRh2Si2 branches and implies order-ten mass enhancement. Friedemann 2013 reuses the LuRh2Si2 small-FS reference to reinterpret YbRh2Si2 dHvA branches, so the former supports the latter's reference-frame choice."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement"
+        "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement"
       ],
       "scope": "local",
-      "strategy_id": "lcs_b91e79685d3f9511",
+      "strategy_id": "lcs_231604149abad2f6",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb",
+            "conclusion": "github:fermi_liquid_effective_mass::__conjunction_result_f41516bf",
             "operator": "conjunction",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
-              "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+              "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+              "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
             ]
           },
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_6e39e14c",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_cc4028a8",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb",
-              "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required"
+              "github:fermi_liquid_effective_mass::__conjunction_result_f41516bf",
+              "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required"
             ]
           }
         ]
@@ -2858,23 +2858,23 @@
         "reason": "Knebel 2006 and Friedemann 2013 both provide LKM-backed YbRh2Si2 dHvA evidence where simple LDA/f-core or itinerant-4f descriptions are insufficient or strongly qualified. Those source claims directly support the Friedemann 2013 published conclusion that quantitative mass and Fermi-surface modeling needs many-body renormalization."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
-        "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis"
+        "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+        "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
       ],
       "scope": "local",
-      "strategy_id": "lcs_c0ea4ece9ab4cdd8",
+      "strategy_id": "lcs_0970465d89e638b4",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_d09cdfaf",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_2832b193",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop",
-              "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression"
+              "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+              "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression"
             ]
           }
         ]
@@ -2886,22 +2886,22 @@
         "reason": "Tokiwa 2004 reports a high-field reduction of the YbRh2Si2 Fermi-liquid A coefficient and the inferred effective-mass scale. Pfau 2013 uses field-driven Kondo suppression as the mass-reduction ingredient in the same material and field regime, so the transport mass evidence supports that ingredient while preserving the step-like versus smooth distinction in the audit log."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop"
+        "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop"
       ],
       "scope": "local",
-      "strategy_id": "lcs_a681355c02511ca0",
+      "strategy_id": "lcs_7ef7602154307f10",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_14aad86b",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_70f1816d",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
-              "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay"
+              "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+              "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay"
             ]
           }
         ]
@@ -2913,22 +2913,22 @@
         "reason": "Seiro 2017 gives chain-backed temperature hierarchy evidence for when YbRh2Si2 lattice Kondo correlations dominate low-energy properties. Pfau 2013's mechanism requires periodic Kondo-lattice coherence in the same compound, so this source supports that ingredient."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy"
+        "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy"
       ],
       "scope": "local",
-      "strategy_id": "lcs_2af3b835a51fcc4a",
+      "strategy_id": "lcs_a720a3e59477beb3",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_3ca10b7f",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_06384373",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
-              "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy"
+              "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+              "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy"
             ]
           }
         ]
@@ -2940,22 +2940,22 @@
         "reason": "The ESR LKM chain identifies coherent heavy quasiparticles below the single-ion Kondo scale and ties ESR observables to m*(B,T). That evidence supports Seiro 2017's chain-backed separation between Kondo onset and the lower-temperature lattice-dominated regime."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles"
+        "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles"
       ],
       "scope": "local",
-      "strategy_id": "lcs_2c99907b4e082564",
+      "strategy_id": "lcs_f8ca1fe14f0bfd52",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_fbbeacfa",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_32554ca9",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
-              "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay"
+              "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
+              "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay"
             ]
           }
         ]
@@ -2967,22 +2967,22 @@
         "reason": "Naren 2013 separately states the same YbRh2Si2 field phenomenology in a chain-backed form: narrow Lifshitz anomalies coexist with smoother Kondo de-renormalization. This directly supports Pfau 2013's combined Kondo-suppression/Lifshitz interpretation."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization"
+        "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization"
       ],
       "scope": "local",
-      "strategy_id": "lcs_5116efd88079db9a",
+      "strategy_id": "lcs_c00933117c75b427",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required",
+      "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_04df5432",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ddf0f900",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
-              "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required"
+              "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
+              "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required"
             ]
           }
         ]
@@ -2994,22 +2994,22 @@
         "reason": "Friedemann 2010 provides LKM-backed renormalized-band calculations for YbRh2Si2 masses, DOS, and Hall transport. Friedemann 2013b concludes that quantitative YbRh2Si2 Fermi-surface and mass modeling requires many-body renormalization beyond static LDA. The RBC result is direct source evidence for the kind of many-body method named by that conclusion."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values"
+        "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
       ],
       "scope": "local",
-      "strategy_id": "lcs_68893444df5b23a7",
+      "strategy_id": "lcs_a1828d79984eb225",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "conclusion": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_999afa32",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ac31ccd1",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop",
-              "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+              "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+              "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy"
             ]
           }
         ]
@@ -3021,22 +3021,22 @@
         "reason": "Tokiwa 2004 gives LKM-backed YbRh2Si2 field-dependent effective-mass evidence through the Fermi-liquid A coefficient and gamma estimate. The Shaginyan 2010 premise uses entropy over temperature as a density-of-states effective-mass proxy in the same compound. This supports the broader thermodynamic effective-mass proxy while keeping the transport and entropy routes distinct in the audit log."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop"
+        "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop"
       ],
       "scope": "local",
-      "strategy_id": "lcs_e9fbe25f8130bdc4",
+      "strategy_id": "lcs_df610d04d5c98c63",
       "type": "support"
     },
     {
-      "conclusion": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
+      "conclusion": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_ed6d055c",
+            "conclusion": "github:fermi_liquid_effective_mass::__implication_result_0f6c1d3d",
             "operator": "implication",
             "variables": [
-              "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
-              "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass"
+              "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+              "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy"
             ]
           }
         ]
@@ -3048,10 +3048,10 @@
         "reason": "Schaufuss 2008 states that YbRh2Si2 ESR parameters track m*(B,T), N(E_F;B,T), and gamma-linked heavy-quasiparticle behavior. That raw LKM claim supports the Shaginyan 2010 use of thermodynamic density-of-states quantities as effective-mass proxies without asserting equivalence."
       },
       "premises": [
-        "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles"
+        "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles"
       ],
       "scope": "local",
-      "strategy_id": "lcs_a23cc7bb7f9ddfe6",
+      "strategy_id": "lcs_17931488be522e50",
       "type": "support"
     }
   ]

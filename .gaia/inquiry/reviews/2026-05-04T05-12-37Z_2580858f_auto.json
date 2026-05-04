@@ -1,0 +1,2361 @@
+{
+  "review_id": "2026-05-04T05-12-37Z_2580858f_auto",
+  "created_at": "2026-05-04T05:12:37Z",
+  "ir_hash": "sha256:2580858f67417cf6d0d62c20be8f608e7534fdb7522cc0742a071bfcf1afcc74",
+  "ir": {
+    "knowledges": [
+      {
+        "id": "github:fermi_liquid_effective_mass::landau_mass_integral_relation",
+        "label": "landau_mass_integral_relation",
+        "type": "claim",
+        "content": "For a homogeneous three-dimensional interacting-fermion system near FCQPT, the temperature-dependent Landau integral relation defines the quasiparticle effective mass M*(T) from the bare mass, Fermi momentum, Landau interaction amplitude, quasiparticle occupation derivative, and a three-dimensional momentum integral; in Shaginyan et al. 2010 this phenomenological equation is used as the numerical starting point when a Landau amplitude exists, quasiparticles remain reasonably well defined, and n(p,T) correctly represents the distribution [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_677c6c11780945f1",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "For a homogeneous three-dimensional system of interacting fermions near the fermion-condensation quantum phase transition (FCQPT), the quasiparticle effective mass M*(T) can be defined by the temperature-dependent Landau integral relation\n      1/M*(T) = 1/m + ∫[(p_F·p_1)/p_F^3] F(p_F,p_1) [∂n(p_1,T)/∂p_1] d p_1/(2π)^3,\n      where m is the bare electron mass, p_F is the Fermi momentum, F(p_F,p_1) is the Landau interaction amplitude that parameterizes low-energy quasiparticle interactions, n(p,T) is the quasiparticle occupation number (average occupancy of the single-particle state with momentum p at temperature T), and the momentum integral is over three-dimensional momentum space; this relation is taken as the starting, phenomenological equation for numerical calculations even when M* becomes very large, provided (i) a Landau amplitude F that parameterizes low-energy interactions exists, (ii) quasiparticle excitations remain reasonably well defined (finite lifetime compared with inverse relevant energy scales), and (iii) the occupation function n(p,T) correctly describes the quasiparticle distribution entering the integral.",
+          "prior": 0.82,
+          "prior_justification": "LKM chain treats the Landau effective-mass relation as a phenomenological starting equation near FCQPT; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model",
+        "label": "homogeneous_isotropic_heavy_liquid_model",
+        "type": "claim",
+        "content": "Shaginyan et al. 2010 model YbRh2Si2 and related heavy-fermion compounds by a spatially uniform, isotropic three-dimensional heavy-electron liquid in which quasiparticle quantities depend only on |p| and T; the model deliberately neglects crystal-lattice anisotropy, Brillouin-zone structure, multiple bands, and anisotropic effective masses while treating the approximation as adequate for universal scaling of M*(T,B) and normalized thermodynamic or transport functions [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_03614e9b5933496a",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "The low-energy electronic state of the material of interest is modeled as a spatially uniform (homogeneous), isotropic heavy-electron (fermion) liquid in three-dimensional momentum space so that quasiparticle quantities depend only on the magnitude p = |p| and temperature T (n(p,T)), and crystal-lattice anisotropy, Brillouin-zone structure, multiple bands, and momentum-space anisotropic effective masses are neglected; this homogeneous isotropic model is used as an adequate representation of the universal scaling behavior of M*(T,B) and of normalized thermodynamic and transport functions for heavy-fermion compounds such as YbRh2Si2.",
+          "prior": 0.68,
+          "prior_justification": "Model adequacy is a universal-scaling approximation for YbRh2Si2 that omits material anisotropy and band structure; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+        "label": "fcqpt_inflection_critical_condition",
+        "type": "claim",
+        "content": "In the homogeneous isotropic Landau model used by Shaginyan et al. 2010, the Landau interaction amplitude can be tuned so that the self-consistent single-particle spectrum ε(p) has both dε/dp and d²ε/dp² equal to zero at p = p_F, leaving a cubic leading term near p_F and enforcing the FCQPT critical condition 1/M* = 0 at T = 0 [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_e0c364ff93804e75",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "It is possible to choose the Landau interaction amplitude F(p_F,p_1) so that the self-consistent single-particle spectrum ε(p) obtained from the corresponding Landau functional has an inflection point at the Fermi momentum p_F, i.e. the first and second derivatives of ε(p) with respect to p vanish at p = p_F,\n      (dε/dp)|_{p=p_F} = 0,  (d^2ε/dp^2)|_{p=p_F} = 0,\n      which implies the lowest nonzero term in the Taylor expansion of ε(p) about p_F is ∝ (p − p_F)^3; imposing these conditions places the system at the fermion-condensation quantum phase transition (FCQPT) critical condition by enforcing 1/M* = 0 at T = 0, and such an amplitude can be tuned in practical model implementations to represent the critical condition rather than being a purely formal construction.",
+          "prior": 0.78,
+          "prior_justification": "The inflection-point condition is explicitly used in the LKM chain but remains a tuned critical model construction; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions",
+        "label": "stable_landau_numerical_solutions",
+        "type": "claim",
+        "content": "For the temperature and magnetic-field ranges considered by Shaginyan et al. 2010 for YbRh2Si2, including fields up to about 1.5 T, the homogeneous isotropic Landau integral equation with an inflection-point-enforcing amplitude admits stable numerical solutions for ε(p) and n(p,T) that are robust enough to compute entropy with controlled numerical error [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_6bbfeb95290d413d",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "The homogeneous isotropic Landau integral equation for the reciprocal effective mass,\n      1/M*(T) = 1/m + ∫ K(p_F,p_1;F) [∂n(p_1,T)/∂p_1] dp_1,\n      where the kernel K is determined by a chosen Landau amplitude F that enforces an inflection point at p_F, admits stable numerical solutions for the self-consistent single-particle spectrum ε(p) and occupation n(p,T) using standard numerical iterative schemes or matrix-discretization methods; in practice these numerical methods converge for the range of temperatures and magnetic fields considered in the calculations and in the experimental datasets on YbRh2Si2 (magnetic fields up to about 1.5 T), the convergence is robust to discretization and to reasonable variations of the amplitude coefficients, and the resulting solutions are sufficiently resolved to compute thermodynamic quantities such as entropy with controlled numerical error.",
+          "prior": 0.7,
+          "prior_justification": "Numerical stability is reported for the selected temperature and field window but not independently audited in the root JSON; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::fermion_entropy_formula",
+        "label": "fermion_entropy_formula",
+        "type": "claim",
+        "content": "For fermionic quasiparticle excitations whose occupation numbers n(p,T) encode the low-energy statistical state, the entropy per unit volume is given by the Fermi-Dirac combinatorial expression S(T) = -2 ∫[n ln n + (1-n) ln(1-n)] dp/(2π)^3, with spin degeneracy 2 and a three-dimensional momentum integral [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_ecddfefac84c4b46",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "The thermodynamic entropy per unit volume S(T) of a system of fermionic quasiparticle excitations characterized by occupation numbers n(p,T) is given by the Fermi-Dirac combinatorial expression\n      S(T) = −2 ∫ [ n(p,T) ln n(p,T) + (1 − n(p,T)) ln (1 − n(p,T)) ] d p/(2π)^3,\n      where the prefactor 2 accounts for spin degeneracy and the momentum integral is over three-dimensional momentum space; this formula yields the entropy of the quasiparticle distribution under the assumption that the occupations n(p,T) encode the full statistical state of the low-energy degrees of freedom.",
+          "prior": 0.9,
+          "prior_justification": "Fermi-Dirac entropy expression for quasiparticle occupations, capped at the direct-claim prior limit; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
+        "label": "entropy_over_temperature_mass_proxy",
+        "type": "claim",
+        "content": "Shaginyan et al. 2010 operationally estimate the quasiparticle effective mass M*(T,B) from entropy by M*(T,B) = S(T,B)/T, using consistent units, as a density-of-states-like effective mass measure even in FCQPT crossover or non-Fermi-liquid regimes where the system is not strictly in the low-temperature Landau Fermi-liquid limit [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_2e69311592b04bcb",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "The quasiparticle effective mass M*(T,B) is operationally estimated from the thermodynamic entropy S(T,B) computed from the quasiparticle occupation numbers by the relation\n      M*(T,B) = S(T,B)/T,\n      where S(T,B) is the entropy per unit volume (or per particle/mole with consistent units) and T is temperature; this relation is used as an operational measure of an effective density-of-states proportional to an effective mass even in crossover or non-Fermi-liquid regimes near FCQPT where the system is not strictly in the low-temperature Landau Fermi-liquid limit.",
+          "prior": 0.72,
+          "prior_justification": "Operational entropy-over-temperature effective-mass proxy is credible but approximation-sensitive in crossover/NFL regimes; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
+        "label": "ybrh2si2_entropy_effective_mass_scheme",
+        "type": "claim",
+        "content": "For YbRh2Si2 in the homogeneous isotropic heavy-electron liquid model of Shaginyan et al. 2010, a practical scheme for field- and temperature-dependent effective mass is to solve the Landau effective-mass integral equation for ε(p) and n(p,T,B), tune the Landau amplitude so ε(p) has an inflection point at p_F and realizes 1/M* = 0 at T = 0, compute entropy from the Fermi-Dirac occupation formula, and extract M*(T,B) = S(T,B)/T; this procedure yields the interpolating and scaling behavior used for the YbRh2Si2 comparison [@Shaginyan2010].",
+        "metadata": {
+          "lkm_id": "gcn_2741cdef209a457a",
+          "source_paper": "paper:867752612177379569",
+          "provenance_source": "lkm",
+          "lkm_original": "A practical computational scheme for obtaining the temperature- and field-dependent effective mass in a homogeneous heavy-electron liquid is: (i) solve the temperature-dependent Landau integral equation\n      1/M*(T,B) = 1/m + ∫[(p_F·p1)/p_F^3] F(p_F,p1;B) [∂n(p1,T,B)/∂p1] d p1/(2π)^3,\n      for the self-consistent single-particle spectrum ε(p) and occupation numbers n(p,T,B), where m is the bare electron mass, p_F the Fermi momentum, F(p_F,p1;B) a chosen Landau interaction amplitude possibly dependent on field B, and the momentum integrals are over three-dimensional momentum space; (ii) choose the Landau amplitude coefficients so that ε(p) has an inflection point at p = p_F (i.e., the first and second derivatives dε/dp and d^2ε/dp^2 vanish at p_F), which enforces the fermion-condensation critical condition 1/M* = 0 at T = 0; (iii) compute the thermodynamic entropy S(T,B) per unit volume from the obtained occupations n(p,T,B) using the Fermi-Dirac combinatorial formula S(T,B) = −2 ∫ [n ln n + (1−n) ln(1−n)] d p/(2π)^3 (spin degeneracy 2); and (iv) extract the effective mass operationally via the Landau relation M*(T,B) = S(T,B)/T (with consistent units); this procedure, applied within the homogeneous isotropic heavy-electron liquid model (i.e., neglecting crystal-lattice anisotropy and band structure), yields M*(T,B) exhibiting the interpolating and scaling properties described above.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2010"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition",
+        "label": "fcqpt_cubic_spectrum_condition",
+        "type": "claim",
+        "content": "At the fermion-condensation quantum phase transition point in a homogeneous heavy-fermion liquid, the first two momentum derivatives of the single-particle spectrum vanish at the Fermi momentum p_F, so the spectrum has an inflection point at p_F and the leading nonzero Taylor term is proportional to (p-p_F)^3 [@Shaginyan2009].",
+        "metadata": {
+          "lkm_id": "gcn_f82c17897c274163",
+          "source_paper": "paper:811855974460555265",
+          "provenance_source": "lkm",
+          "lkm_original": "At the fermion-condensation quantum phase transition point, the first two momentum derivatives of the single-particle spectrum vanish at the Fermi momentum $p_F$. The spectrum therefore has an inflection point at $p_F$, and the lowest nonvanishing term in the Taylor expansion of $\\varepsilon(\\mathbf{p})$ about $p_F$ is proportional to $(p-p_F)^3$.",
+          "prior": 0.8,
+          "prior_justification": "Independent LKM chain states the FCQPT inflection/cubic-spectrum condition also present in the start-root chain; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2009"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation",
+        "label": "fcqpt_homogeneous_mass_equation",
+        "type": "claim",
+        "content": "At FCQPT, writing n_1(p,T)=n(p,T)-n(p) transforms the Landau effective-mass equation into a form where the zero-temperature inverse effective-mass term vanishes; the resulting homogeneous low-temperature equation has the solution M*(T) proportional to T^(-2/3) [@Shaginyan2009].",
+        "metadata": {
+          "lkm_id": "gcn_58746c141eb145c4",
+          "source_paper": "paper:811855974460555265",
+          "provenance_source": "lkm",
+          "lkm_original": "Writing the thermal deviation of the quasiparticle distribution as $n_1(\\mathbf{p})=n(\\mathbf{p},T)-n(\\mathbf{p})$, where $n(\\mathbf{p})$ is the zero-temperature step function, transforms the Landau effective-mass equation into\n$\\displaystyle \\frac{1}{M^{*}(T)}=\\frac{1}{M^{*}}+\\int \\frac{\\mathbf{p}_{F}\\mathbf{p}_{1}}{p_{F}^{3}}F(\\mathbf{p}_{F},\\mathbf{p}_{1})\\frac{\\partial n_{1}(p_{1},T)}{\\partial p_{1}}\\frac{d\\mathbf{p}_{1}}{(2\\pi)^{3}}.$\nAt the fermion-condensation quantum phase transition, the zero-temperature effective mass diverges, so the first term on the right-hand side vanishes and the equation becomes homogeneous. The low-temperature solution of this homogeneous equation is\n$M^{*}(T)\\propto T^{-2/3}$.\n[13]",
+          "prior": 0.78,
+          "prior_justification": "Asymptotic FCQPT mass equation premise follows the selected chain's homogeneous-limit derivation but is theory-scope sensitive; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2009"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
+        "label": "fcqpt_t_minus_two_thirds_mass_scaling",
+        "type": "claim",
+        "content": "At FCQPT, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies M*(T) proportional to T^(-2/3); in the non-Fermi-liquid regime near FCQPT, the quasiparticle effective mass therefore decreases with increasing temperature according to this power law [@Shaginyan2009].",
+        "metadata": {
+          "lkm_id": "gcn_45f24d454cd3448e",
+          "source_paper": "paper:811855974460555265",
+          "provenance_source": "lkm",
+          "lkm_original": "At the fermion-condensation quantum phase transition point, where the zero-temperature effective mass diverges and the Landau effective-mass equation becomes homogeneous, the low-temperature solution for a homogeneous heavy-fermion liquid satisfies\n      $\n      M^{*}(T)\\propto T^{-2/3}.\n      $\n      Therefore, in the non-Fermi-liquid regime near the fermion-condensation quantum phase transition, the quasiparticle effective mass decreases with increasing temperature according to the power law $T^{-2/3}$.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Shaginyan2009"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization",
+        "label": "rbc_phase_shift_parametrization",
+        "type": "claim",
+        "content": "For YbRh2Si2 heavy-fermion renormalized-band calculations, Friedemann et al. 2010 use a renormalized-band method in which the low-energy local 4f contribution is represented by resonance-type phase shifts for crystalline-electric-field eigenstates; the resonance centers are split by measured CEF excitation energies, and a single positive resonance-width parameter controls the quasiparticle mass renormalization and associated Fermi-surface and transport changes [@Friedemann2010].",
+        "metadata": {
+          "lkm_id": "gcn_c243dcb58cae4418",
+          "source_paper": "paper:811773737962569729",
+          "provenance_source": "lkm",
+          "lkm_original": "In the renormalized-band method (RBC) for heavy-fermion compounds the low-energy contribution of local 4f states is modeled by introducing resonance-type phase shifts for each crystalline-electric-field (CEF) eigenstate m according to\n      \\widetilde{\\eta}_f(E) = arctan[ \\widetilde{\\Delta}_f / (E - \\widetilde{\\epsilon}_f ) ],\n      with resonance-center energies \\widetilde{\\epsilon}_{fm} = \\widetilde{\\epsilon}_f + δ_m where δ_m are the measured CEF excitation energies, and with a single adjustable parameter \\widetilde{\\Delta}_f > 0 that controls the effective quasiparticle resonance width and thereby the mass renormalization; the proposition is that representing the low-energy 4f contribution to the quasiparticle self-energy by this single-parameter resonance form, with \\widetilde{\\Delta}_f fixed by experiment, captures the essential renormalization physics (mass enhancement, 4f-derived band formation, and resulting Fermi-surface topology changes) sufficiently accurately to predict the sign and the near-cancellation of band-resolved transverse transport integrals in YbRh2Si2.\n      G. Zwicknagl, Adv. Phys. 41, 203 (1992); P. Thalmeier and G. Zwicknagl, Handbook on the Physics and Chemistry of Rare Earths, Vol. 34 (2005).",
+          "prior": 0.82,
+          "prior_justification": "RBC phase-shift parametrization is anchored to CEF splittings and heavy-fermion renormalized-band practice, but remains phenomenological; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration",
+        "label": "rbc_specific_heat_calibration",
+        "type": "claim",
+        "content": "In the Friedemann et al. 2010 renormalized-band parametrization for YbRh2Si2 and related heavy-fermion compounds, the single resonance-width parameter is adjusted so that the computed quasiparticle density of states at the Fermi level reproduces the experimentally measured low-temperature electronic specific-heat coefficient; the LKM chain treats this thermodynamic calibration as making the calculated quasiparticle masses, Fermi-surface occupations, and reduced transport integrals reliable indicators of low-temperature transport tendencies [@Friedemann2010].",
+        "metadata": {
+          "lkm_id": "gcn_48bba377911d4985",
+          "source_paper": "paper:811773737962569729",
+          "provenance_source": "lkm",
+          "lkm_original": "Let \\widetilde{\\Delta}_f be the single resonance-width parameter of the renormalized-band parametrization introduced above, and let gamma_exp denote the experimentally measured linear coefficient of the low-temperature electronic specific heat C(T) = gamma_exp T; the proposition is that adjusting \\widetilde{\\Delta}_f so that the computed quasiparticle density of states at the Fermi level N(E_F) reproduces gamma_exp yields an RBC band structure whose quasiparticle effective masses and Fermi-surface occupations are sufficiently accurate that the derived reduced transport integrals \\bar{\\sigma}_{xx}(i) and \\bar{\\sigma}_{xyz}(i) and their products with the band occupations \\bar{n}(i) provide reliable indicators of the material's low-temperature transport tendencies.",
+          "prior": 0.76,
+          "prior_justification": "Thermodynamic calibration to gamma_exp is explicit, though transport reliability inferred from the calibrated bands is approximation-sensitive; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
+        "label": "ybrh2si2_rbc_hall_dos_gamma_values",
+        "type": "claim",
+        "content": "Renormalized-band calculations constrained by experimental CEF energies and low-temperature specific heat produce two dominant quasiparticle bands for YbRh2Si2 with opposite-sign reduced transverse transport products: band 1 (donut) remains holelike with \\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675, while band 2 (jungle-gym) becomes predominantly electronlike with \\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076, so their nearly equal magnitudes strongly cancel in the numerator of the low-field Hall coefficient. The same calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, and N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+        "metadata": {
+          "lkm_id": "gcn_42a4ff7fd004413f",
+          "source_paper": "paper:811773737962569729",
+          "provenance_source": "lkm",
+          "lkm_original": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and -0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum -- which enters the numerator of the low-field Hall coefficient in the Boltzmann formula -- is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ~= 290 states/(eV unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient gamma ~= 680 mJ mol^-1 K^-2, while for YbIr2Si2 the RBC gives N(E_F) ~= 48 states/(eV unit cell) and gamma ~= 113 mJ mol^-1 K^-2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2010"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma",
+        "label": "helper_rbc_parameterization_constrained_by_cef_gamma",
+        "type": "claim",
+        "content": "In the Friedemann et al. 2010 YbRh2Si2 renormalized-band calculation, experimental CEF excitation energies set the resonance-center splittings and the single resonance-width parameter is fixed by reproducing the low-temperature specific-heat coefficient, making the calculation a material-specific thermodynamically constrained RBC parametrization [@Friedemann2010].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_42a4ff7fd004413f",
+            "gcn_c243dcb58cae4418",
+            "gcn_48bba377911d4985"
+          ],
+          "lkm_original": "Summarize the renormalized band method inputs and parameter determination: transform the $4f$ states into crystalline-electric-field (CEF) eigenstates $|m\\rangle$ and introduce resonance-type phase shifts\n$\\widetilde{\\eta}_{f}(E)\\simeq\\arctan\\dfrac{\\widetilde{\\Delta}_{f}}{E-\\widetilde{\\epsilon}_{f}}$,\nwhere $\\widetilde{\\Delta}_{f}$ is the resonance width accounting for the renormalized quasiparticle mass and $\\widetilde{\\epsilon}_{f}$ the position of the $f$-derived band center; the CEF-split resonance centers are $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}+\\delta_{m}$ (for the Yb hole analog the sign convention leads to $\\widetilde{\\epsilon}_{f}<0$ and $\\widetilde{\\epsilon}_{fm}=\\widetilde{\\epsilon}_{f}-\\delta_{m}$). The single free parameter $\\widetilde{\\Delta}_{f}$ is fixed by reproducing the experimentally observed low-temperature linear-in-$T$ specific-heat coefficient, thereby grounding the RBC parametrization in thermodynamic data.\n[24]",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products",
+        "label": "helper_ybrh2si2_opposite_hall_transport_products",
+        "type": "claim",
+        "content": "For YbRh2Si2 in the Friedemann et al. 2010 heavy-Fermi-liquid RBC calculation, the band-resolved products entering the Hall numerator have opposite signs and nearly equal magnitudes: +0.0037675 for the donut band and -0.0041076 for the jungle-gym band, implying strong cancellation in the low-field Hall coefficient numerator [@Friedemann2010].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_42a4ff7fd004413f"
+          ],
+          "lkm_original": "Report the numerical RBC results for YbRh$_2$Si$_2$: the renormalized-band calculation yields for band 1 (donut) a positive reduced transverse transport product $\\bar{n}(1)\\bar{\\sigma}_{xyz}(1)=+0.0037675$ and for band 2 (jungle-gym) a negative product $\\bar{n}(2)\\bar{\\sigma}_{xyz}(2)=-0.0041076$ as listed in the transport-results Table I. These opposite signs indicate that band 1 remains predominantly holelike while band 2 becomes predominantly electronlike in the heavy-Fermi-liquid limit. The near equality in magnitude implies strong cancellation when summing the two contributions in the numerator of $R_{H}$.\nTable I",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+        "label": "helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+        "type": "claim",
+        "content": "The Friedemann et al. 2010 RBC density-of-states calculation gives N(E_F)~=290 states/(eV unit cell) and gamma~=680 mJ mol^-1 K^-2 for YbRh2Si2, while the same RBC parametrization gives N(E_F)~=48 states/(eV unit cell) and gamma~=113 mJ mol^-1 K^-2 for YbIr2Si2 [@Friedemann2010].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_42a4ff7fd004413f"
+          ],
+          "lkm_original": "State the RBC prediction for the renormalized density of states at the Fermi energy and its thermodynamic implication: for YbRh$_2$Si$_2$ the RBC yields $N(E_{F})\\approx 290\\ \\mathrm{states/(eV\\ unit\\ cell)}$, which corresponds (via the standard relation between DOS and the Sommerfeld coefficient for the electronic specific heat) to a Sommerfeld coefficient $\\gamma\\approx680\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$; for YbIr$_2$Si$_2$ RBC gives $N(E_{F})\\approx48\\ \\mathrm{states/(eV\\ unit\\ cell)}$ and $\\gamma\\approx113\\ \\mathrm{mJ\\ mol^{-1}K^{-2}}$. These values follow from the calculated renormalized quasiparticle DOS displayed in the RBC results.\nFig. 4",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2010"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope",
+        "label": "ybrh2si2_high_field_dhva_scope",
+        "type": "claim",
+        "content": "In Knebel et al. 2006, the YbRh2Si2 de Haas-van Alphen frequencies and cyclotron masses are measured on high-quality single crystals in steady fields from 12 T to 28 T with H parallel to the crystallographic a axis; because such high fields can polarize the system, suppress correlations, or shift bands, this high-field dHvA spectrum need not coincide with the zero- or low-field Fermi surface most directly relevant to the YbRh2Si2 quantum-critical regime [@Knebel2006].",
+        "metadata": {
+          "lkm_id": "gcn_5501e18a04cc458e",
+          "source_paper": "paper:812036747075518464",
+          "provenance_source": "lkm",
+          "lkm_original": "The de Haas–van Alphen frequencies and cyclotron masses reported for YbRh2Si2 are measured in steady magnetic fields between 12 T and 28 T, field strengths at which magnetic polarization, suppression of correlations, or field-driven band shifts can modify band energies and quasiparticle renormalization; therefore the high-field dHvA spectrum obtained at these fields can differ from the zero- or low-field Fermi surface that is relevant for quantum‑critical‑point physics.\n      Fig.7; Fig.8",
+          "prior": 0.84,
+          "prior_justification": "High-field dHvA scope caution is explicit in the LKM chain and important for low-field QCP interpretation; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Knebel2006"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity",
+        "label": "ybrh2si2_itinerant_4f_lda_sensitivity",
+        "type": "claim",
+        "content": "For YbRh2Si2, Knebel et al. 2006 report that LDA/FLAPW band-structure calculations with all 4f electrons treated as itinerant are sensitive to calculational details and to the assumed 4f energy position, making the predicted 4f-derived Fermi-surface topology and angular dependence unreliable enough that an experiment-theory mismatch need not by itself prove intrinsic 4f localization [@Knebel2006].",
+        "metadata": {
+          "lkm_id": "gcn_f20b1f42f35548fb",
+          "source_paper": "paper:812036747075518464",
+          "provenance_source": "lkm",
+          "lkm_original": "The LDA/FLAPW band-structure calculations that treat all 4f electrons as itinerant are known to be sensitive to calculational details and to predict the 4f energy position and resulting Fermi-surface topology in a way that can be unreliable for 4f-derived orbits; therefore a mismatch between the measured dHvA angular dependence and predictions from itinerant‑4f LDA calculations can arise from methodological shortcomings of those calculations rather than from an intrinsic localization of the 4f electrons.\n      Fig.9; Fig.11",
+          "prior": 0.78,
+          "prior_justification": "LDA/FLAPW sensitivity is grounded in the Knebel comparison but remains a method-level caution; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Knebel2006"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+        "label": "ybrh2si2_dhva_spectrum_lda_mismatch",
+        "type": "claim",
+        "content": "For high-quality YbRh2Si2 single crystals measured by de Haas-van Alphen torque magnetometry in steady fields of 12-28 T with H parallel a, Knebel et al. 2006 observe four fundamental frequencies, 2730 T, 3510 T, 5370 T, and 7050 T, with cyclotron masses (15.0 +/- 0.7) m_e, (8.4 +/- 0.2) m_e, (10.1 +/- 0.2) m_e, and (14.9 +/- 0.9) m_e. The measured basal-plane angular dependence is inconsistent with itinerant-4f LDA/FLAPW calculations for YbRh2Si2 and instead qualitatively resembles LuRh2Si2 LDA calculations with 4f states below the Fermi energy, giving the first experimental Fermi-surface information for YbRh2Si2 and exposing a significant mismatch with one itinerant-4f LDA prediction set [@Knebel2006].",
+        "metadata": {
+          "lkm_id": "gcn_c38f8ce989fd454a",
+          "source_paper": "paper:812036747075518464",
+          "provenance_source": "lkm",
+          "lkm_original": "De Haas–van Alphen quantum-oscillation measurements performed on high-quality YbRh2Si2 single crystals in steady magnetic fields between 12 T and 28 T with the field applied along the crystallographic a axis (H ∥ a) reveal four clear fundamental frequencies of 2730 T, 3510 T, 5370 T and 7050 T and corresponding cyclotron effective masses m* = (15.0 ± 0.7) m_e, (8.4 ± 0.2) m_e, (10.1 ± 0.2) m_e and (14.9 ± 0.9) m_e (m_e is the free-electron mass); the angular dependence of these measured frequencies in the basal plane is inconsistent with the angular dependences calculated within local‑density‑approximation (LDA) full‑potential augmented‑plane‑wave (FLAPW) band-structure calculations that assume fully itinerant 4f electrons for Yb, whereas the measured angular dependence shows qualitative resemblance to LDA calculations performed for LuRh2Si2 (where 4f states lie well below the Fermi energy), so that the measured oscillation spectrum and effective masses provide the first experimental Fermi-surface information for YbRh2Si2 and reveal a significant mismatch with one set of itinerant-4f band-structure predictions.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Knebel2006"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a",
+        "label": "helper_dhva_frequencies_masses_h_parallel_a",
+        "type": "claim",
+        "content": "For YbRh2Si2 at H parallel a in the 12-28 T dHvA window, Knebel et al. 2006 resolve four fundamental oscillation frequencies: 2730 T with m*=(15.0 +/- 0.7) m_e, 3510 T with m*=(8.4 +/- 0.2) m_e, 5370 T with m*=(10.1 +/- 0.2) m_e, and 7050 T with m*=(14.9 +/- 0.9) m_e [@Knebel2006].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_c38f8ce989fd454a"
+          ],
+          "lkm_original": "Report the observed dHvA frequency spectrum and its extraction: the oscillatory torque signal for $H\\parallel a$ shows reproducible oscillations whose Fourier transform yields four unambiguous frequencies at $2730\\ \\mathrm{T}$, $3510\\ \\mathrm{T}$, $5370\\ \\mathrm{T}$, and $7050\\ \\mathrm{T}$ from a field window $12$–$28\\ \\mathrm{T}$; these frequencies correspond to extremal cross-sectional areas of Fermi-surface orbits according to the Onsager relation (frequency $F$ in tesla proportional to extremal area).\nFig.7\nDescribe how effective masses were determined and report the numerical values: the temperature dependence of each oscillation amplitude follows the Lifshitz–Kosevich thermal damping factor, and fitting that temperature dependence yields cyclotron effective masses $m^{\\ast}$ of $(15.0\\pm0.7)\\,m_{e}$ for $2730\\ \\mathrm{T}$, $(8.4\\pm0.2)\\,m_{e}$ for $3510\\ \\mathrm{T}$, $(10.1\\pm0.2)\\,m_{e}$ for $5370\\ \\mathrm{T}$, and $(14.9\\pm0.9)\\,m_{e}$ for $7050\\ \\mathrm{T}$, where $m_{e}$ is the free-electron mass.\nFig.7",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Knebel2006"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch",
+        "label": "helper_dhva_angular_dependence_itinerant_lda_mismatch",
+        "type": "claim",
+        "content": "For YbRh2Si2, the basal-plane angular evolution of the measured dHvA frequencies in Knebel et al. 2006 does not match the LDA/FLAPW angular dependences calculated with itinerant Yb 4f electrons, whose calculated orbits fall mostly below 1 kT or above 10 kT and have markedly different angular shapes; the measured angular dependence instead qualitatively resembles LuRh2Si2 LDA calculations where 4f states lie below the Fermi energy [@Knebel2006].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_c38f8ce989fd454a",
+            "gcn_f20b1f42f35548fb"
+          ],
+          "lkm_original": "Report the angular dependence of the observed frequencies within the basal plane: the two extreme frequencies (lowest and highest) are observable over the full angular sweep in the basal plane while the two intermediate frequencies are detectable only at small angles near $H\\parallel a$; the measured angular dependence of the observed dHvA frequencies in the basal plane is plotted and shows a specific angular variation that is compared to calculated angular dependencies.\nFig.8\nCompare experimental angular dependence and frequencies with band-structure calculations and note the mismatch: the experimentally observed frequencies (all in the few-kilotesla range) and their angular evolution are inconsistent with the LDA-calculated angular dependences for $YbRh_{2}Si_{2}$ in which itinerant $4f$ electrons produce calculated frequencies mostly below $1\\ \\mathrm{kT}$ or above $10\\ \\mathrm{kT}$, and the shapes of the calculated angular dependencies differ markedly from experiment; by contrast, LDA calculations for $LuRh_{2}Si_{2}$ (where $4f$ are well below $E_{\\mathrm{F}}$) produce an angular dependence that shows qualitative similarity to the measured angular dependence, indicating that the measured spectrum does not match itinerant-4f predictions but resembles a Lu-like $4f$-localized reference.\nFig.9; Fig.11",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Knebel2006"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope",
+        "label": "helper_dhva_first_fs_information_scope",
+        "type": "claim",
+        "content": "The Knebel et al. 2006 dHvA frequencies and heavy cyclotron masses constitute first experimental Fermi-surface information for YbRh2Si2, but the selected LKM chain also records a high-field scope caution and an itinerant-4f LDA-method sensitivity caution when using those data to infer low-field quantum-critical 4f localization [@Knebel2006].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_c38f8ce989fd454a",
+            "gcn_5501e18a04cc458e",
+            "gcn_f20b1f42f35548fb"
+          ],
+          "lkm_original": "Start from the upstream established result: accept as already established the upstream conclusion that LDA band-structure calculations place significant sensitivity of predicted Fermi-surface angular dependence to the $4f$ position and that itinerant-4f LDA angular dependence does not match experiment (upstream conclusion known and available for use).\nDefine experimental method and conditions for the quantum-oscillation measurements: de Haas–van Alphen (dHvA) measurements were performed on highest-quality single crystals (RRR $\\approx300$) at ambient pressure using a cantilever torque meter in steady magnetic fields between $12$ and $28\\ \\mathrm{T}$ with a dilution refrigerator base temperature of $30\\ \\mathrm{mK}$; the magnetic field was applied parallel to the crystallographic $a$ axis ($H\\parallel a$) for the principal data set.\nConclude the significance of the dHvA measurements: these dHvA frequencies and extracted effective masses constitute the first experimental Fermi-surface information for $YbRh_{2}Si_{2}$; the measured oscillation spectrum and heavy effective masses reveal a significant mismatch with itinerant-4f LDA band-structure predictions, thereby providing experimental constraints that point to intermediate valence and sensitivity of the $4f$ contribution rather than the simple itinerant-$4f$ LDA picture.\nFig.7; Fig.8; Fig.9; Fig.11",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Knebel2006"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment",
+        "label": "ybrh2si2_midband_harmonic_assignment",
+        "type": "claim",
+        "content": "In the Friedemann et al. 2013 re-examination of published field-modulation dHvA data on YbRh2Si2, if the angular dependences of observed 5-7 kT peaks match two times lower-frequency branches below 4 kT and the method preferentially enhances harmonics, then the 5-7 kT peaks can be assigned as second, and in some cases higher, harmonics of lower-frequency fundamentals rather than independent fundamental orbits; the assignment is reported as consistent with tabulated frequency and mass comparisons from the published data [@Friedemann2013].",
+        "metadata": {
+          "lkm_id": "gcn_c131e01470ea48ad",
+          "source_paper": "paper:867761295154217007",
+          "provenance_source": "lkm",
+          "lkm_original": "Let F_{low}(\\theta) denote fundamental frequencies below 4\\ \\mathrm{kT} reported in prior de Haas–van Alphen studies of YbRh_{2}Si_{2} and let F_{mid}(\\theta) denote observed peaks between 5\\ \\mathrm{kT} and 7\\ \\mathrm{kT}; the proposition is that if the angular dependence F_{mid}(\\theta) of the 5–7\\ \\mathrm{kT} peaks coincides, within experimental uncertainty, with 2\\times F_{low}(\\theta) (the expected second-harmonic angular dependence) and if the measurement technique used in those studies (field-modulation dHvA) preferentially enhances detection of harmonics relative to fundamentals, then the 5–7\\ \\mathrm{kT} peaks can be assigned as second harmonics of fundamentals below 4\\ \\mathrm{kT} rather than as independent fundamental orbits, an assignment that is consistent with the tabulated comparisons of 2\\times F and measured frequencies and masses in the published data.\n      Refs. 10,13 and Fig. 10(c) in the provided paper",
+          "prior": 0.78,
+          "prior_justification": "Harmonic reassignment is anchored to angular and mass comparisons but remains sensitive to branch-identification assumptions; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs",
+        "label": "ybrh2si2_14kt_orbit_not_small_fs",
+        "type": "claim",
+        "content": "For YbRh2Si2 with fields along the (100) direction, Friedemann et al. 2013 define the \"small\" Fermi surface as an LDA/GGA band-structure calculation in which Yb 4f electrons are core-like and non-hybridizing; if the refined z_Si=0.379 c small-Fermi-surface calculation has no extremal orbit near 14 kT and the measured F_14 ~= 14 kT dHvA peak is an independent fundamental, then the observed 14 kT orbit indicates itinerant Yb 4f participation under the high-field measurement conditions, provided instrumental, magnetic-breakdown, or misassignment alternatives are unlikely [@Friedemann2013].",
+        "metadata": {
+          "lkm_id": "gcn_3dc248d9752a416c",
+          "source_paper": "paper:867761295154217007",
+          "provenance_source": "lkm",
+          "lkm_original": "Define the \"small\" Fermi surface as the Fermi surface obtained from band-structure calculations for YbRh_{2}Si_{2} with the Yb 4f electrons treated as core-like (non-hybridizing) in an LDA/GGA calculation; let F_{14}\\approx14\\ \\mathrm{kT} denote an experimentally observed de Haas–van Alphen frequency reported for fields along the (100) direction; the proposition is that if a refined \"small\" Fermi-surface LDA/GGA calculation performed with z_{Si}=0.379\\,c does not predict any extremal orbit with frequency near 14\\ \\mathrm{kT} for fields along (100), and if the observed F_{14} behaves as an independent fundamental in the experimental data (i.e., it is not a harmonic of a lower-frequency branch), then the presence of F_{14} in the measured spectrum indicates that Yb 4f electrons participate itinerantly in forming the Fermi surface under the measurement conditions (high magnetic fields), i.e., that the experimental Fermi surface is \"large\" due to f-electron contribution, assuming that alternative explanations (instrumental artefacts, magnetic-breakdown-generated high-frequency orbits, or misassignment) can be excluded or are unlikely.\n      Comparison figures and discussion in the provided paper (Fig. 10 and associated text)",
+          "prior": 0.74,
+          "prior_justification": "High-field 14 kT inference depends on excluding artefact, magnetic-breakdown, and misassignment alternatives; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference",
+        "label": "lurh2si2_small_fs_reference",
+        "type": "claim",
+        "content": "Friedemann et al. 2013 treat LuRh2Si2 as an isostructural, filled-4f-shell reference for the \"small\" Fermi surface of YbRh2Si2 with core-like non-hybridizing Yb 4f electrons, because the Lu and Yb compounds have nearly identical lattice parameters and non-f conduction-band characters when computed and measured using the experimental z_Si=0.379 c structure [@Friedemann2013].",
+        "metadata": {
+          "lkm_id": "gcn_3a8394c769864f01",
+          "source_paper": "paper:867761295154217007",
+          "provenance_source": "lkm",
+          "lkm_original": "LuRh_{2}Si_{2} is the isostructural compound to YbRh_{2}Si_{2} with a filled Lu 4f shell whereas YbRh_{2}Si_{2} has a trivalent Yb with one 4f hole; the proposition is that band-structure calculations and quantum-oscillation measurements on LuRh_{2}Si_{2} (performed and computed using the experimentally determined z_{Si}=0.379\\,c) provide a valid and sufficiently accurate reference model for the \"small\" Fermi surface of YbRh_{2}Si_{2} in which the Yb 4f electrons are treated as core-like (non-hybridizing), because the lattice parameters and the non-f conduction-band characters are nearly identical between the two compounds, and therefore discrepancies between Lu- and Yb-based calculations and experiments can be attributed primarily to the presence or absence of Yb 4f hybridization rather than to gross structural differences.",
+          "prior": 0.84,
+          "prior_justification": "LuRh2Si2 reference premise is grounded in isostructural chemistry and filled Lu 4f shells but remains a transfer-model approximation; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
+        "label": "ybrh2si2_lurh2si2_reference_reanalysis",
+        "type": "claim",
+        "content": "Re-examining published YbRh2Si2 de Haas-van Alphen measurements with the refined LuRh2Si2 \"small\" Fermi-surface reference calculated at z_Si=0.379 c supports reclassifying published 5-7 kT spectral peaks as harmonics of lower-frequency fundamentals below 4 kT, leaving independent fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT; because the refined small-Fermi-surface LDA/GGA calculation with core-like non-hybridizing Yb 4f electrons has no (100)-field orbit near 14 kT, the independent 14 kT experimental orbit supports itinerant Yb 4f contribution to the high-field YbRh2Si2 Fermi surface rather than fully localized 4f behavior [@Friedemann2013].",
+        "metadata": {
+          "lkm_id": "gcn_2b8dd97abcb44d53",
+          "source_paper": "paper:867761295154217007",
+          "provenance_source": "lkm",
+          "lkm_original": "Re-examination of published de Haas–van Alphen measurements on YbRh_{2}Si_{2}, using the refined LuRh_{2}Si_{2} \"small\" Fermi-surface reference computed with z_{Si}=0.379\\,c and accounting for the strong tendency to generate harmonics and mixed frequencies observed in LuRh_{2}Si_{2}, shows that the published spectral peaks between \\approx5\\ \\mathrm{kT} and \\approx7\\ \\mathrm{kT} can be mapped onto second (and in some cases higher) harmonics of lower-frequency fundamental branches observed below 4\\ \\mathrm{kT} (the angular dependences and, in two of three reported cases, the effective-mass scalings are consistent with this harmonic assignment as compiled from the published frequency and mass data); this reclassification reduces the set of independent fundamental frequencies in the published YbRh_{2}Si_{2} data to a group below 4\\ \\mathrm{kT} and a distinct high-frequency fundamental near \\sim14\\ \\mathrm{kT}, and because the refined \"small\" Fermi-surface LDA/GGA calculation with Yb 4f treated as core-like (non-hybridizing) does not predict an extremal orbit near \\sim14\\ \\mathrm{kT} for fields along the (100) direction, the presence of an independent \\sim14\\ \\mathrm{kT} fundamental in the experimental dHvA data supports the interpretation that Yb 4f electrons contribute itinerantly to the Fermi surface under the measurement conditions (high magnetic fields) rather than being fully localized.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set",
+        "label": "helper_ybrh2si2_reduced_fundamental_set",
+        "type": "claim",
+        "content": "After the harmonic reassignment in Friedemann et al. 2013, the independent YbRh2Si2 dHvA frequencies retained by the analysis consist of lower-frequency fundamentals below 4 kT plus a distinct high-frequency fundamental near 14 kT [@Friedemann2013].",
+        "metadata": {
+          "provenance_source": "lkm_decomposition",
+          "derived_from_lkm_ids": [
+            "gcn_2b8dd97abcb44d53",
+            "gcn_c131e01470ea48ad"
+          ],
+          "lkm_original": "Factor step 3 states that reinterpreting the 5-7 kT peaks as harmonics reduces the independent fundamental frequencies to a group below 4 kT plus a distinct high-frequency fundamental near about 14 kT.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption",
+        "label": "high_field_a_gamma_scaling_assumption",
+        "type": "claim",
+        "content": "For YbRh2Si2, using the low-field empirical scaling A proportional to gamma^2 to estimate gamma at 16 T assumes that the same A/gamma^2 proportionality established up to about 4 T continues to hold at much higher fields [@Tokiwa2004].",
+        "metadata": {
+          "lkm_id": "gcn_021fb1e050924558",
+          "source_paper": "paper:812369321199140865",
+          "provenance_source": "lkm",
+          "lkm_original": "Let A(B) denote the coefficient of the T^2 term in the low-temperature electrical resistivity rho(T,B) = rho0(B) + A(B) T^2 and let gamma(B) denote the electronic specific-heat coefficient defined by Cel(T,B) = gamma(B) T + ...; although an empirical scaling relation A proportional to gamma^2 has been demonstrated for YbRh2Si2 up to magnetic fields of approximately 4 T in previous work, we assume for the purpose of estimating gamma at 16 T that this proportionality relation continues to hold with the same proportionality constant at much higher fields (for example at 16 T), so that the measured reduction of A(B) at 16 T can be converted into an estimate gamma(16 T) approximately 70 mJ mol-1 K-2 by applying the same A/gamma^2 ratio determined at low fields.",
+          "prior": 0.62,
+          "prior_justification": "Extending A/gamma^2 scaling from low fields to 16 T is explicitly an assumption in the LKM chain; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Tokiwa2004"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability",
+        "label": "ybrh2si2_t2_resistivity_fit_reliability",
+        "type": "claim",
+        "content": "Four-terminal AC resistivity measurements on YbRh2Si2 single crystals fit rho(T,B)=rho0(B)+A(B)T^2 over the reported low-temperature intervals; the LKM chain assumes the fitted A(B) values are reliable enough that systematic finite-temperature and sample effects are small compared with the observed step-like change across B* [@Tokiwa2004].",
+        "metadata": {
+          "lkm_id": "gcn_24ebf85923cb4ba3",
+          "source_paper": "paper:812369321199140865",
+          "provenance_source": "lkm",
+          "lkm_original": "For four-terminal AC resistivity measurements on single crystals of YbRh2Si2 the measured resistivity is modeled as rho(T,B) = rho0(B) + A(B) T^2 and least-squares fits to this T^2 form are applied over the reported low-temperature interval; we assume that within the temperature range used for the fits the resistivity is well described by the pure T^2 behavior so that the fitted values of A(B) are reliable and that systematic uncertainties from higher-temperature scattering channels, finite-temperature crossovers, and sample-dependent inhomogeneities are small compared to the observed step-like change of A(B) across B*.",
+          "prior": 0.76,
+          "prior_justification": "T^2 fit reliability is plausible for the reported low-temperature windows but sensitive to finite-temperature and sample effects; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Tokiwa2004"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+        "label": "ybrh2si2_resistivity_mass_drop",
+        "type": "claim",
+        "content": "For YbRh2Si2 with B perpendicular to c and B>0.06 T, low-temperature resistivity follows rho(T,B)=rho0(B)+A(B)T^2; A(B) drops drastically when B crosses B*=(9.5 +/- 0.5) T, indicating a step-like effective-mass decrease in a Fermi-liquid picture, and the low-field A proportional to gamma^2 scaling estimates gamma(16 T) near 70 mJ mol^-1 K^-2 [@Tokiwa2004].",
+        "metadata": {
+          "lkm_id": "gcn_b4093fb2f2e44f3b",
+          "source_paper": "paper:812369321199140865",
+          "provenance_source": "lkm",
+          "lkm_original": "In measurements on single crystals of YbRh2Si2 the low-temperature electrical resistivity as a function of temperature T and magnetic field B applied perpendicular to the c axis is described for B > 0.06 T by a Landau Fermi-liquid form rho(T,B) = rho0(B) + A(B) T^2, where rho0(B) is the residual resistivity and A(B) is the transport coefficient; the empirically determined A(B) exhibits a drastic, step-like reduction when B is increased from below to above B* = (9.5 +/- 0.5) T, which indicates a step-like decrease of the quasiparticle effective mass in the Fermi-liquid picture; applying the empirical low-field scaling relation A proportional to gamma^2, where gamma(B) is the electronic specific-heat coefficient defined by Cel(T,B) = gamma(B) T + ..., and using the same A/gamma^2 proportionality constant determined at low fields, the electronic specific-heat coefficient is estimated to be gamma(16 T) approximately 70 mJ mol-1 K-2 at B = 16 T.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Tokiwa2004"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio",
+        "label": "ybrh2si2_tp_tcoh_ratio",
+        "type": "claim",
+        "content": "For stoichiometric YbRh2Si2, assigning T_coh approximately T_K approximately 25-30 K and extracting T_P approximately 3.3 K gives T_P/T_coh approximately 0.11; the LKM chain treats this hierarchy as meaningful for separating lattice-Kondo-dominated behavior from the onset of single-ion Kondo/coherence signatures [@Seiro2017].",
+        "metadata": {
+          "lkm_id": "gcn_fb2747a8ec634c3f",
+          "source_paper": "paper:867772725953823394",
+          "provenance_source": "lkm",
+          "lkm_original": "Using the assignments T_coh approximately T_K approximately 25-30 K and the experimentally extracted crossover temperature T_P approximately 3.3 K at which pronounced lattice-Kondo-dominated spectral and transport signatures appear, the numerical ratio T_P/T_coh approximately 0.11 follows for the studied stoichiometric YbRh2Si2 samples; this numerical hierarchy is meaningful for interpreting the temperature evolution in this material, while recognizing that disorder, sample dependence, surface effects, and other microscopic parameters may alter the ratio in other systems.",
+          "prior": 0.78,
+          "prior_justification": "T_P/T_coh hierarchy is a direct numerical extraction from the LKM chain but may vary with sample and surface conditions; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Seiro2017"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+        "label": "ybrh2si2_kondo_lattice_hierarchy",
+        "type": "claim",
+        "content": "In stoichiometric YbRh2Si2, lattice Kondo correlations are detectable around T_coh approximately T_K approximately 25-30 K, but they dominate low-energy electronic properties only below T_P approximately 3.3 K, about 0.1*T_coh; single-ion Kondo effects therefore persist well below T_coh before lattice coherence enables the observed non-Fermi-liquid quantum-critical behavior [@Seiro2017].",
+        "metadata": {
+          "lkm_id": "gcn_3a1514fde2d54682",
+          "source_paper": "paper:867772725953823394",
+          "provenance_source": "lkm",
+          "lkm_original": "For stoichiometric YbRh2Si2 the onset of lattice Kondo correlations is detectable around the coherence scale T_coh approximately T_K approximately25-30 K, yet the lattice Kondo correlations reach a regime in which they dominate low-energy electronic properties only below the crossover temperature T_P approximately 3.3 K, i.e., at T_P approximately 0.11*T_coh; consequently, single-ion Kondo effects persist down to temperatures well below T_coh before lattice coherence contributions grow sufficiently to enable the non-Fermi-liquid quantum-critical behavior observed in bulk and spectroscopic probes.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Seiro2017"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption",
+        "label": "ybrh2si2_esr_collective_mode_assumption",
+        "type": "claim",
+        "content": "Identifying the YbRh2Si2 ESR line as a collective heavy-quasiparticle resonance rests on empirical ESR/thermodynamic/NMR crossovers and on many-body narrowing proposals, while requiring alternatives such as residual localized Yb3+ ESR or conventional conduction-electron spin resonance to be excluded in the same temperature-field domain [@Schaufuss2008].",
+        "metadata": {
+          "lkm_id": "gcn_a76225d44bfb476d",
+          "source_paper": "paper:867762218521854503",
+          "provenance_source": "lkm",
+          "lkm_original": "The identification of the observed ESR in YbRh2Si2 as a collective resonance of the coherent heavy quasiparticles formed below T_0 approximately 25 K rests on (a) the empirical coincidence of crossovers in the ESR g-factor and linewidth with crossovers seen in thermodynamic (Sommerfeld coefficient gamma) and 29Si NMR observables, and (b) theoretical proposals that many-body narrowing can render a collective ESR observable in a Kondo lattice; this identification requires excluding quantitatively adequate alternative scenarios in the same temperature-field domain.",
+          "prior": 0.68,
+          "prior_justification": "ESR collective-mode identification is supported by crossovers but depends on excluding localized-moment and bottleneck alternatives; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Schaufuss2008"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+        "label": "ybrh2si2_esr_heavy_quasiparticles",
+        "type": "claim",
+        "content": "In YbRh2Si2, the anisotropic persistent ESR line, g-factor behavior tracking gamma=C_el/T and NMR observables, and low-temperature T^2 linewidth behavior show that ESR is a resonance of coherent heavy quasiparticles formed below T_K approximately T_0 approximately 25 K; ESR parameters are governed by m*(B,T), N(E_F;B,T), and quasiparticle spin relaxation, giving access to Kondo-state evolution and NFL-to-LFL crossover behavior [@Schaufuss2008].",
+        "metadata": {
+          "lkm_id": "gcn_d8b1b53ca8b44189",
+          "source_paper": "paper:867762218521854503",
+          "provenance_source": "lkm",
+          "lkm_original": "The combination of experimental facts — (i) the presence of a strongly anisotropic and persistent ESR line in YbRh2Si2, (ii) a g-factor whose temperature and magnetic-field dependences mirror the temperature- and field-dependent Sommerfeld coefficient gamma = C_el/T and the 29Si NMR Knight shift and 1/(T1T), and (iii) a linewidth that acquires a T^2 low-temperature behaviour together with a field-dependent residual broadening — demonstrates that the observed ESR in YbRh2Si2 is a resonance excitation of the coherent heavy quasiparticles that form below the single-ion Kondo scale T_K approximately T_0 approximately 25 K. Consequently, the ESR parameters are governed by the field- and temperature-dependent quasiparticle effective mass m*(B,T), the quasiparticle density of states at the Fermi level N(E_F;B,T), and the quasiparticle spin relaxation times; therefore ESR provides direct experimental access to the dynamics and evolution of the Kondo state and to the crossover between non-Fermi-liquid and Landau Fermi-liquid regimes in this Kondo-lattice system.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Schaufuss2008"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization",
+        "label": "ybrh2si2_cef_anisotropic_hybridization",
+        "type": "claim",
+        "content": "In tetragonal YbRh2Si2, CEF ground-state symmetry of the Yb3+ 4f ion produces strongly anisotropic 4f-conduction hybridization and enhanced quasiparticle g-factor anisotropy, making particular f-derived bands sensitive to magnetic-field-driven Zeeman shifts [@Pfau2013].",
+        "metadata": {
+          "lkm_id": "gcn_dbe6ecfc88864ea6",
+          "source_paper": "paper:867761748805944216",
+          "provenance_source": "lkm",
+          "lkm_original": "In tetragonal YbRh2Si2 the crystalline-electric-field ground-state symmetry of the Yb3+ 4f ion produces a strongly anisotropic hybridization matrix element between localized 4f states and conduction-electron states and simultaneously yields enhanced anisotropy of the effective quasiparticle g factor; this anisotropic CEF-induced hybridization can generate anisotropic renormalized bands and enhance the sensitivity of f-derived bands to applied magnetic field.",
+          "prior": 0.78,
+          "prior_justification": "CEF-induced hybridization anisotropy is an explicit ingredient of the LKM chain but not by itself a direct measurement; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Pfau2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+        "label": "ybrh2si2_smooth_kondo_mass_suppression",
+        "type": "claim",
+        "content": "For Yb-based Kondo systems in fields of order the single-ion Kondo scale, local Kondo screening is suppressed continuously with B, producing a continuous decrease of quasiparticle effective mass m*(B), so field mainly reduces Kondo correlations smoothly rather than abruptly localizing the 4f electrons [@Pfau2013].",
+        "metadata": {
+          "lkm_id": "gcn_faee88cfe22142a5",
+          "source_paper": "paper:867761748805944216",
+          "provenance_source": "lkm",
+          "lkm_original": "For Yb-based Kondo systems under an applied magnetic field of order the single-ion Kondo energy scale, the local Kondo screening of Yb 4f moments is suppressed continuously as a function of B, and this continuous suppression produces a corresponding continuous decrease of the quasiparticle effective mass m*(B); therefore the dominant effect of magnetic field on local Kondo physics in the relevant field range is a smooth reduction of Kondo correlations rather than an abrupt localization transition of the 4f electrons.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Pfau2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos",
+        "label": "periodic_kondo_lattice_lifshitz_dos",
+        "type": "claim",
+        "content": "In a periodic Kondo lattice, coherent hybridized quasiparticle bands can contain sharp van-Hove-type DOS peaks or flattened dispersions; Zeeman spin splitting can move these features through the Fermi energy and cause discrete Lifshitz transitions even while overall mass renormalization is reduced smoothly [@Pfau2013].",
+        "metadata": {
+          "lkm_id": "gcn_8f49e0480b7d4e0f",
+          "source_paper": "paper:867761748805944216",
+          "provenance_source": "lkm",
+          "lkm_original": "In a periodic Kondo-lattice system, coherent lattice effects produce renormalized quasiparticle bands with sharp van Hove-type peaks or flattened dispersions in N(epsilon); when a magnetic field spin-splits these quasiparticle bands, Zeeman shifts can move such DOS features through epsilon_F and cause discrete Fermi-surface topology changes even while the overall quasiparticle mass renormalization is reduced smoothly by Kondo suppression.",
+          "prior": 0.76,
+          "prior_justification": "Periodic-Kondo-lattice DOS/Lifshitz premise is physically central to the chain but model-dependent; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Pfau2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+        "label": "ybrh2si2_kondo_lifshitz_interplay",
+        "type": "claim",
+        "content": "YbRh2Si2 high-field phenomenology is explained by the interplay of CEF-induced anisotropic hybridization and g-factor anisotropy, smooth field suppression of Kondo screening that reduces m*(B), and Kondo-lattice coherence that creates van-Hove-type DOS structures whose Zeeman shifts produce successive Lifshitz transitions; this accounts for continuous mass reduction plus abrupt transport/thermodynamic anomalies [@Pfau2013].",
+        "metadata": {
+          "lkm_id": "gcn_4d206f9ebed246c8",
+          "source_paper": "paper:867761748805944216",
+          "provenance_source": "lkm",
+          "lkm_original": "The combined phenomenology of YbRh2Si2 in magnetic field is explained by the interplay of three microscopic ingredients: (a) CEF ground-state symmetry of the Yb3+ ion producing strongly anisotropic 4f-conduction hybridization and enhanced quasiparticle g-factor anisotropy, (b) smooth field-driven suppression of local Kondo screening that continuously reduces m*(B) and modifies the Kondo-derived coherence peak, and (c) coherence effects intrinsic to the periodic Kondo lattice that create sharp van Hove-type DOS structures so Zeeman spin-splitting moves these DOS features through the Fermi energy and produces successive Lifshitz transitions.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Pfau2013"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario",
+        "label": "ybrh2si2_hall_compensation_scenario",
+        "type": "claim",
+        "content": "In multiband YbRh2Si2, two Fermi-surface sheets undergoing Lifshitz transitions near similar fields can contribute Hall-coefficient changes of opposite sign and comparable magnitude, partially cancelling the total Hall response near B2; the LKM chain treats this as viable but not uniquely established by transport data [@Naren2013].",
+        "metadata": {
+          "lkm_id": "gcn_6ca2b25227f04480",
+          "source_paper": "paper:867773002954047503",
+          "provenance_source": "lkm",
+          "lkm_original": "In a multiband metal such as YbRh2Si2, if two distinct Fermi-surface sheets each undergo Lifshitz transitions at similar magnetic fields but produce Hall-coefficient changes of opposite sign and comparable magnitude, their net contributions can partially cancel so that the total Hall coefficient R_H shows only a weak or absent signature near the intermediate transition field B2; this compensation scenario is viable given the presence of multiple bands but is not uniquely established by the available transport data.",
+          "prior": 0.62,
+          "prior_justification": "Hall compensation is explicitly viable but not uniquely established by the transport data; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Naren2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration",
+        "label": "ybrh2si2_thermopower_lifshitz_corroboration",
+        "type": "claim",
+        "content": "Thermopower measurements on a YbRh2Si2 sample from the same growth batch as magnetotransport samples show anomalies near 9-11 T and around 9.5 T, corroborating that the magnetotransport anomalies have an electronic-structure origin such as Lifshitz transitions [@Naren2013].",
+        "metadata": {
+          "lkm_id": "gcn_3ba45e9eb8b44e29",
+          "source_paper": "paper:867773002954047503",
+          "provenance_source": "lkm",
+          "lkm_original": "Thermopower measurements performed on a sample from the same crystal-growth batch as the magnetotransport samples show anomalies at similar magnetic fields, features around 9-11 T and an additional feature near approximately 9.5 T, which corroborates that the transport anomalies observed in magnetotransport have an electronic-structure origin such as Lifshitz transitions.",
+          "prior": 0.78,
+          "prior_justification": "Thermopower anomalies from the same growth batch corroborate electronic-structure changes but are not uniquely diagnostic alone; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Naren2013"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
+        "label": "ybrh2si2_lifshitz_derenormalization",
+        "type": "claim",
+        "content": "Combining magnetoresistance and Hall data on YbRh2Si2 down to 50 mK and up to 15 T with field-dependent renormalized-band calculations assigns anomalies at B1 about 3 T, B2 about 9 T, and B3 about 11-11.5 T to Zeeman-driven Lifshitz transitions, while Kondo quasiparticle de-renormalization proceeds as a smoother crossover; sharp Fermi-surface topology changes and smooth Kondo-weight suppression therefore coexist with distinct field dependences [@Naren2013].",
+        "metadata": {
+          "lkm_id": "gcn_b5d9fe70ddb84b9d",
+          "source_paper": "paper:867773002954047503",
+          "provenance_source": "lkm",
+          "lkm_original": "Combining high-resolution magnetotransport data with field-dependent renormalized-band calculations, the experimental anomalies at B1 approximately 3 T, B2 approximately 9 T and B3 approximately 11-11.5 T can be assigned to Zeeman-driven Lifshitz transitions of heavy-fermion bands in narrow field windows, whereas the overall suppression of Kondo quasiparticle weight proceeds as a comparatively smooth crossover over a broader field range. The data support coexistence of sharp Fermi-surface topology changes and smooth Kondo de-renormalization with distinct field dependences in YbRh2Si2.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Naren2013"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption",
+        "label": "ybrh2si2_lusmall_fs_lda_assumption",
+        "type": "claim",
+        "content": "Using LuRh2Si2 LDA+SOC Fermi-surface topology as a qualitative small-Fermi-surface guide for YbRh2Si2 assumes isostructural substitution and neglect of heavy-fermion correlations do not change the gross topology relevant to orbit identification [@Rourke2008].",
+        "metadata": {
+          "lkm_id": "gcn_848945fcb6214456",
+          "source_paper": "paper:811888199457570817",
+          "provenance_source": "lkm",
+          "lkm_original": "Consider electronic-structure calculations within LDA+SOC on LuRh2Si2 with filled 4f shell and YbRh2Si2 with active 4f quasihole. The assumption is that the LuRh2Si2 LDA+SOC Fermi-surface topology gives a qualitatively accurate small-FS topology for YbRh2Si2 when 4f electrons are localized, even though strong many-body renormalizations in YbRh2Si2 are not captured by LDA.",
+          "prior": 0.74,
+          "prior_justification": "LuRh2Si2 as a small-FS guide is plausible but remains an LDA/reference-transfer assumption; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Rourke2008"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability",
+        "label": "dhva_orbit_assignment_reliability",
+        "type": "claim",
+        "content": "Assigning YbRh2Si2 observed dHvA branches to calculated small-Fermi-surface D-sheet orbits assumes the calculated angular dispersions are distinct, no unexpected pockets produce coincident frequencies, and branch visibility does not confound the mapping [@Rourke2008].",
+        "metadata": {
+          "lkm_id": "gcn_5090f81994f14b4c",
+          "source_paper": "paper:811888199457570817",
+          "provenance_source": "lkm",
+          "lkm_original": "Given experimentally observed dHvA frequencies and angular dependences and calculated extremal frequencies and angular dependences for candidate Fermi-surface sheets, matching frequencies and angular dependences allows assignment of each observed branch to a calculated orbit, assuming distinct calculated angular dispersions, no uncalculated coincident pockets, and no experimental-resolution or amplitude-variation confounding.",
+          "prior": 0.7,
+          "prior_justification": "Orbit assignment by angular/frequency matching is standard but sensitive to missing pockets and branch visibility; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Rourke2008"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
+        "label": "ybrh2si2_small_fs_mass_enhancement",
+        "type": "claim",
+        "content": "LDA+SOC calculations for LuRh2Si2 as the small-Fermi-surface analogue produce a D-sheet topology whose predicted orbits match YbRh2Si2 dHvA frequencies better than large-FS YbRh2Si2 LDA+SOC; comparing calculated band masses with measured cyclotron masses yields m*/m_b enhancements of order ten, consistent with strong many-body renormalization [@Rourke2008].",
+        "metadata": {
+          "lkm_id": "gcn_d10f91dd4b8e4f21",
+          "source_paper": "paper:811888199457570817",
+          "provenance_source": "lkm",
+          "lkm_original": "Band-structure calculations carried out within LDA+SOC for LuRh2Si2 produce a D-sheet Fermi-surface topology whose predicted extremal orbits and angular dependences qualitatively match the observed YbRh2Si2 dHvA frequencies and angular behavior better than the large-FS YbRh2Si2 calculation; band masses m_b computed from the small-FS D-sheet provide a reference against which measured cyclotron masses yield m*/m_b of order ten, consistent with strong many-body renormalization.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Rourke2008"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations",
+        "label": "ybrh2si2_lda_missing_dynamic_correlations",
+        "type": "claim",
+        "content": "YbRh2Si2 has strong local correlations and Kondo-driven heavy quasiparticles, seen through large Sommerfeld coefficients and strongly renormalized effective masses; conventional LDA lacks dynamic local correlations and Kondo renormalization, so many-body methods such as renormalized-band approaches or DMFT are required for quantitative Fermi-surface and mass descriptions [@Friedemann2013b].",
+        "metadata": {
+          "lkm_id": "gcn_b016160b38f34ce7",
+          "source_paper": "paper:813199962614530051",
+          "provenance_source": "lkm",
+          "lkm_original": "YbRh2Si2 exhibits strong local electronic correlations and Kondo-driven heavy quasiparticles, manifest as large Sommerfeld coefficients and strongly renormalized effective masses, and conventional LDA does not capture dynamic local correlations and Kondo renormalization; many-body methods such as renormalized-band approaches or DMFT are required to obtain a quantitative description.",
+          "prior": 0.82,
+          "prior_justification": "LDA inadequacy for YbRh2Si2 masses is directly grounded in the LKM comparison with observed branches and large mass renormalization; TODO:review",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013b"
+              ]
+            }
+          }
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+        "label": "ybrh2si2_many_body_methods_required",
+        "type": "claim",
+        "content": "Density-functional LDA calculations of YbRh2Si2 in both f-core small-FS and itinerant-4f large-FS variants fail to reproduce the complete set of quantum-oscillation branches and large quasiparticle masses, so quantitative YbRh2Si2 Fermi-surface and effective-mass modeling requires many-body approaches capturing local dynamic correlations and Kondo renormalization [@Friedemann2013b].",
+        "metadata": {
+          "lkm_id": "gcn_34ce9aa28e054fd1",
+          "source_paper": "paper:813199962614530051",
+          "provenance_source": "lkm",
+          "lkm_original": "Density-functional LDA calculations of YbRh2Si2 performed both in the 'f-core' approximation and in fully itinerant LDA using experimental lattice parameters fail to reproduce the complete set of experimentally observed quantum-oscillation branches and large quasiparticle masses; therefore many-body electronic-structure approaches that capture local dynamic correlations and Kondo renormalization, such as renormalized-band methods or DMFT, are required to obtain a quantitative description.",
+          "gaia": {
+            "provenance": {
+              "cited_refs": [
+                "Friedemann2013b"
+              ]
+            }
+          }
+        },
+        "exported": true
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition",
+        "label": "eq_fcqpt_inflection_condition",
+        "type": "claim",
+        "content": "same_truth(A, B)",
+        "metadata": {
+          "helper_kind": "equivalence_result",
+          "prior": 0.93
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20",
+        "label": "__conjunction_result_9bf49f20",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::landau_mass_integral_relation,github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model,github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition,github:fermi_liquid_effective_mass::stable_landau_numerical_solutions,github:fermi_liquid_effective_mass::fermion_entropy_formula,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::landau_mass_integral_relation,github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model,github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition,github:fermi_liquid_effective_mass::stable_landau_numerical_solutions,github:fermi_liquid_effective_mass::fermion_entropy_formula,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_a9d58c4d85bb8b06"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_ab33e4be",
+        "label": "__implication_result_ab33e4be",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_a9d58c4d85bb8b06"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948",
+        "label": "__conjunction_result_5e2b0948",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition,github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition,github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_c8ecc3d96acf251f"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_1866ca50",
+        "label": "__implication_result_1866ca50",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948,github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948,github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_c8ecc3d96acf251f"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0",
+        "label": "__conjunction_result_32d00ff0",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization,github:fermi_liquid_effective_mass::rbc_specific_heat_calibration)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization,github:fermi_liquid_effective_mass::rbc_specific_heat_calibration)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_79129b6d670a82ba"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_126019bc",
+        "label": "__implication_result_126019bc",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_79129b6d670a82ba"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_e6f868d5",
+        "label": "__implication_result_e6f868d5",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_7fcb03eba393c18a"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_af06781a",
+        "label": "__implication_result_af06781a",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_0971d42e0c6d710f"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_97b9504f",
+        "label": "__implication_result_97b9504f",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_662e2f053fec0305"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6",
+        "label": "__conjunction_result_897f0ff6",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope,github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope,github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_1821be2756390cee"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_e89d5a55",
+        "label": "__implication_result_e89d5a55",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6,github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6,github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_1821be2756390cee"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_a6ca6103",
+        "label": "__implication_result_a6ca6103",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_477f0592e9b74db5"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_eefbfbb7",
+        "label": "__implication_result_eefbfbb7",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_0c913fdd772478d3"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_1a700f8d",
+        "label": "__implication_result_1a700f8d",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_ef8d02ab988168c7"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4",
+        "label": "__conjunction_result_b27a69a4",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment,github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs,github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment,github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs,github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_8271448cbc1f6c84"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_1414ae5a",
+        "label": "__implication_result_1414ae5a",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_8271448cbc1f6c84"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_ee278a79",
+        "label": "__implication_result_ee278a79",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis,github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis,github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.9,
+          "owning_strategy_id": "lcs_18fa4af23a7413a5"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_84ecb660",
+        "label": "__conjunction_result_84ecb660",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption,github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption,github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_1002d4188082801f"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_49a3fa33",
+        "label": "__implication_result_49a3fa33",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_84ecb660,github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_84ecb660,github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_1002d4188082801f"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_d15d4d9a",
+        "label": "__implication_result_d15d4d9a",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_e56b2adeb598c808"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_4a99e763",
+        "label": "__implication_result_4a99e763",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption,github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption,github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_9e61bf2238f37c14"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_1097d263",
+        "label": "__conjunction_result_1097d263",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression,github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression,github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_f4940811272dcd89"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_19a3e984",
+        "label": "__implication_result_19a3e984",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_1097d263,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_1097d263,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_f4940811272dcd89"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb",
+        "label": "__conjunction_result_ea41b1bb",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario,github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario,github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_7d883e237facbf26"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_ed6ea74a",
+        "label": "__implication_result_ed6ea74a",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb,github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb,github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_7d883e237facbf26"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_4871aa16",
+        "label": "__conjunction_result_4871aa16",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption,github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption,github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_563b0f572bd5e653"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_a2bbdf2e",
+        "label": "__implication_result_a2bbdf2e",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_4871aa16,github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_4871aa16,github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_563b0f572bd5e653"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_0edd2d6d",
+        "label": "__implication_result_0edd2d6d",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+          "owning_strategy_type": "deduction",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.95,
+          "owning_strategy_id": "lcs_50680700b7341a92"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_4cb01989",
+        "label": "__implication_result_4cb01989",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling,github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.82,
+          "owning_strategy_id": "lcs_eddcfaa3eedc939e"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_fafc538a",
+        "label": "__conjunction_result_fafc538a",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::rbc_specific_heat_calibration,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::rbc_specific_heat_calibration,github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values)",
+          "owning_strategy_type": "support",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_378d78f3d10e867d"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_f46ed5d2",
+        "label": "__implication_result_f46ed5d2",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_fafc538a,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_fafc538a,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.78,
+          "owning_strategy_id": "lcs_378d78f3d10e867d"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_6fc9107f",
+        "label": "__implication_result_6fc9107f",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference,github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.84,
+          "owning_strategy_id": "lcs_a73eda4dedc435d1"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_66ce87c2",
+        "label": "__implication_result_66ce87c2",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.82,
+          "owning_strategy_id": "lcs_231604149abad2f6"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__conjunction_result_f41516bf",
+        "label": "__conjunction_result_f41516bf",
+        "type": "claim",
+        "content": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "conjunction_result",
+          "visibility": "formal_internal",
+          "canonical_name": "all_true(github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch,github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis)",
+          "owning_strategy_type": "support",
+          "helper_kind": "conjunction_result",
+          "helper_visibility": "formal_internal",
+          "owning_strategy_id": "lcs_0970465d89e638b4"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_cc4028a8",
+        "label": "__implication_result_cc4028a8",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::__conjunction_result_f41516bf,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::__conjunction_result_f41516bf,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.86,
+          "owning_strategy_id": "lcs_0970465d89e638b4"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_2832b193",
+        "label": "__implication_result_2832b193",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.74,
+          "owning_strategy_id": "lcs_7ef7602154307f10"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_70f1816d",
+        "label": "__implication_result_70f1816d",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.76,
+          "owning_strategy_id": "lcs_a720a3e59477beb3"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_06384373",
+        "label": "__implication_result_06384373",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.75,
+          "owning_strategy_id": "lcs_f8ca1fe14f0bfd52"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_32554ca9",
+        "label": "__implication_result_32554ca9",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization,github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.88,
+          "owning_strategy_id": "lcs_c00933117c75b427"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_ddf0f900",
+        "label": "__implication_result_ddf0f900",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values,github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.82,
+          "owning_strategy_id": "lcs_a1828d79984eb225"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_ac31ccd1",
+        "label": "__implication_result_ac31ccd1",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.72,
+          "owning_strategy_id": "lcs_df610d04d5c98c63"
+        },
+        "exported": false
+      },
+      {
+        "id": "github:fermi_liquid_effective_mass::__implication_result_0f6c1d3d",
+        "label": "__implication_result_0f6c1d3d",
+        "type": "claim",
+        "content": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+        "metadata": {
+          "generated": true,
+          "generated_kind": "helper_claim",
+          "intermediate_role": "implication_result",
+          "visibility": "formal_internal",
+          "canonical_name": "implies(github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles,github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy)",
+          "owning_strategy_type": "support",
+          "helper_kind": "implication_result",
+          "helper_visibility": "formal_internal",
+          "prior": 0.7,
+          "owning_strategy_id": "lcs_17931488be522e50"
+        },
+        "exported": false
+      }
+    ],
+    "strategies": [
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
+        "premises": [
+          "github:fermi_liquid_effective_mass::landau_mass_integral_relation",
+          "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model",
+          "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+          "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions",
+          "github:fermi_liquid_effective_mass::fermion_entropy_formula",
+          "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
+        "premises": [
+          "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition",
+          "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
+        "premises": [
+          "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization",
+          "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope",
+          "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment",
+          "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs",
+          "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+        "premises": [
+          "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption",
+          "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization",
+          "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+          "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario",
+          "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption",
+          "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
+        "premises": [
+          "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
+        "premises": [
+          "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration",
+          "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch",
+        "premises": [
+          "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+          "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop"
+        ],
+        "background": []
+      },
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
+        "premises": [
+          "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles"
+        ],
+        "background": []
+      }
+    ],
+    "operators": [
+      {
+        "id": "",
+        "conclusion": "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition",
+        "variables": [
+          "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+          "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition"
+        ]
+      }
+    ]
+  },
+  "beliefs": [
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_1097d263",
+      "label": "__conjunction_result_1097d263",
+      "belief": 0.6305846115639545
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_32d00ff0",
+      "label": "__conjunction_result_32d00ff0",
+      "belief": 0.7553525866808474
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_4871aa16",
+      "label": "__conjunction_result_4871aa16",
+      "belief": 0.5639039192672047
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_5e2b0948",
+      "label": "__conjunction_result_5e2b0948",
+      "belief": 0.7539756168512421
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_84ecb660",
+      "label": "__conjunction_result_84ecb660",
+      "belief": 0.5377339155506583
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_897f0ff6",
+      "label": "__conjunction_result_897f0ff6",
+      "belief": 0.7352955915235976
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_9bf49f20",
+      "label": "__conjunction_result_9bf49f20",
+      "belief": 0.44739772515122694
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_b27a69a4",
+      "label": "__conjunction_result_b27a69a4",
+      "belief": 0.6479744354430526
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_ea41b1bb",
+      "label": "__conjunction_result_ea41b1bb",
+      "belief": 0.5426148514932929
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_f41516bf",
+      "label": "__conjunction_result_f41516bf",
+      "belief": 0.8854974083499441
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_fafc538a",
+      "label": "__conjunction_result_fafc538a",
+      "belief": 0.8333077527056567
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::dhva_orbit_assignment_reliability",
+      "label": "dhva_orbit_assignment_reliability",
+      "belief": 0.7285359761513838
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::entropy_over_temperature_mass_proxy",
+      "label": "entropy_over_temperature_mass_proxy",
+      "belief": 0.99397640582768
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition",
+      "label": "eq_fcqpt_inflection_condition",
+      "belief": 0.9995654609419843
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::fcqpt_cubic_spectrum_condition",
+      "label": "fcqpt_cubic_spectrum_condition",
+      "belief": 0.9455993515901168
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::fcqpt_homogeneous_mass_equation",
+      "label": "fcqpt_homogeneous_mass_equation",
+      "belief": 0.79681871673029
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::fcqpt_inflection_critical_condition",
+      "label": "fcqpt_inflection_critical_condition",
+      "belief": 0.945601862937817
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::fcqpt_t_minus_two_thirds_mass_scaling",
+      "label": "fcqpt_t_minus_two_thirds_mass_scaling",
+      "belief": 0.8729632127398327
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::fermion_entropy_formula",
+      "label": "fermion_entropy_formula",
+      "belief": 0.9179665828927982
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch",
+      "label": "helper_dhva_angular_dependence_itinerant_lda_mismatch",
+      "belief": 0.982713857179336
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope",
+      "label": "helper_dhva_first_fs_information_scope",
+      "belief": 0.9157495157936008
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a",
+      "label": "helper_dhva_frequencies_masses_h_parallel_a",
+      "belief": 0.9157495157936008
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+      "label": "helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
+      "belief": 0.9125492207588581
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma",
+      "label": "helper_rbc_parameterization_constrained_by_cef_gamma",
+      "belief": 0.9125492207588581
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products",
+      "label": "helper_ybrh2si2_opposite_hall_transport_products",
+      "belief": 0.9125492207588581
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set",
+      "label": "helper_ybrh2si2_reduced_fundamental_set",
+      "belief": 0.9284092149497937
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::high_field_a_gamma_scaling_assumption",
+      "label": "high_field_a_gamma_scaling_assumption",
+      "belief": 0.667674248423977
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::homogeneous_isotropic_heavy_liquid_model",
+      "label": "homogeneous_isotropic_heavy_liquid_model",
+      "belief": 0.7374930652569542
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::landau_mass_integral_relation",
+      "label": "landau_mass_integral_relation",
+      "belief": 0.8523398492070366
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::lurh2si2_small_fs_reference",
+      "label": "lurh2si2_small_fs_reference",
+      "belief": 0.9248084390331481
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::periodic_kondo_lattice_lifshitz_dos",
+      "label": "periodic_kondo_lattice_lifshitz_dos",
+      "belief": 0.8309877494190694
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::rbc_phase_shift_parametrization",
+      "label": "rbc_phase_shift_parametrization",
+      "belief": 0.8644114297712512
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::rbc_specific_heat_calibration",
+      "label": "rbc_specific_heat_calibration",
+      "belief": 0.8672142294180956
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::stable_landau_numerical_solutions",
+      "label": "stable_landau_numerical_solutions",
+      "belief": 0.7538997486783945
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_14kt_orbit_not_small_fs",
+      "label": "ybrh2si2_14kt_orbit_not_small_fs",
+      "belief": 0.8100733292263432
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_cef_anisotropic_hybridization",
+      "label": "ybrh2si2_cef_anisotropic_hybridization",
+      "belief": 0.8450721036341471
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_dhva_spectrum_lda_mismatch",
+      "label": "ybrh2si2_dhva_spectrum_lda_mismatch",
+      "belief": 0.9257392914575835
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_entropy_effective_mass_scheme",
+      "label": "ybrh2si2_entropy_effective_mass_scheme",
+      "belief": 0.910126989726803
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_esr_collective_mode_assumption",
+      "label": "ybrh2si2_esr_collective_mode_assumption",
+      "belief": 0.7531450910339782
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_esr_heavy_quasiparticles",
+      "label": "ybrh2si2_esr_heavy_quasiparticles",
+      "belief": 0.9259436546208105
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_hall_compensation_scenario",
+      "label": "ybrh2si2_hall_compensation_scenario",
+      "belief": 0.6633157570533426
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_high_field_dhva_scope",
+      "label": "ybrh2si2_high_field_dhva_scope",
+      "belief": 0.8772208840257293
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_itinerant_4f_lda_sensitivity",
+      "label": "ybrh2si2_itinerant_4f_lda_sensitivity",
+      "belief": 0.8311787155353778
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lattice_hierarchy",
+      "label": "ybrh2si2_kondo_lattice_hierarchy",
+      "belief": 0.9818222643897868
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_kondo_lifshitz_interplay",
+      "label": "ybrh2si2_kondo_lifshitz_interplay",
+      "belief": 0.9875295486386197
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_lda_missing_dynamic_correlations",
+      "label": "ybrh2si2_lda_missing_dynamic_correlations",
+      "belief": 0.8959986083580355
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_lifshitz_derenormalization",
+      "label": "ybrh2si2_lifshitz_derenormalization",
+      "belief": 0.8276332506755989
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_lurh2si2_reference_reanalysis",
+      "label": "ybrh2si2_lurh2si2_reference_reanalysis",
+      "belief": 0.953928334334878
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_lusmall_fs_lda_assumption",
+      "label": "ybrh2si2_lusmall_fs_lda_assumption",
+      "belief": 0.7647311793311993
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_many_body_methods_required",
+      "label": "ybrh2si2_many_body_methods_required",
+      "belief": 0.9961381902252989
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_midband_harmonic_assignment",
+      "label": "ybrh2si2_midband_harmonic_assignment",
+      "belief": 0.8392928170376751
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_rbc_hall_dos_gamma_values",
+      "label": "ybrh2si2_rbc_hall_dos_gamma_values",
+      "belief": 0.9186132726761481
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_resistivity_mass_drop",
+      "label": "ybrh2si2_resistivity_mass_drop",
+      "belief": 0.8360081953324872
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_small_fs_mass_enhancement",
+      "label": "ybrh2si2_small_fs_mass_enhancement",
+      "belief": 0.8191745235718371
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_smooth_kondo_mass_suppression",
+      "label": "ybrh2si2_smooth_kondo_mass_suppression",
+      "belief": 0.8599511940785268
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_t2_resistivity_fit_reliability",
+      "label": "ybrh2si2_t2_resistivity_fit_reliability",
+      "belief": 0.790110051636196
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_thermopower_lifshitz_corroboration",
+      "label": "ybrh2si2_thermopower_lifshitz_corroboration",
+      "belief": 0.8050775435571983
+    },
+    {
+      "knowledge_id": "github:fermi_liquid_effective_mass::ybrh2si2_tp_tcoh_ratio",
+      "label": "ybrh2si2_tp_tcoh_ratio",
+      "belief": 0.8604744561148019
+    }
+  ]
+}
