@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "YbRh2Si2 exhibits strong local electronic correlations and Kondo-driven heavy quasiparticles (manifest experimentally as large Sommerfeld coefficients and strongly renormalized effective masses), and the conventional local-density approximation within density-functional theory does not capture dynamic local correlations and Kondo renormalization; consequently, LDA is inadequate to quantitatively reproduce the experimentally observed Fermi-surface cross sections and large quasiparticle masses in YbRh2Si2, and many-body electronic-structure methods that explicitly include local dynamic correlations (for example renormalized-band approaches or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency) are required to obtain a quantitative description.",
+      "content_hash": "a3f1a3a50d32bdddebc92c7036d360d6c1d52f26bbf3fdf926cb5605dcf495d5",
+      "id": "gcn_b016160b38f34ce7",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "8fe03d59f7ebc2cf3e3a8c9508e2bce8"
+}

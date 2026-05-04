@@ -1,407 +1,292 @@
 {
   "beliefs": [
     {
-      "belief": 0.1978887741184,
+      "belief": 0.44739772515122694,
       "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5",
       "label": "__conjunction_result_11fed0d5"
     },
     {
-      "belief": 0.6065864,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_1abd38c2",
-      "label": "__conjunction_result_1abd38c2"
+      "belief": 0.8333077527056567,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa",
+      "label": "__conjunction_result_1b3d30fa"
     },
     {
-      "belief": 0.5614767999999999,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_26617e05",
-      "label": "__conjunction_result_26617e05"
+      "belief": 0.6305846115639545,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_2042e056",
+      "label": "__conjunction_result_2042e056"
     },
     {
-      "belief": 0.3095727624858932,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc",
-      "label": "__conjunction_result_363f43bc"
+      "belief": 0.5426148514932929,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9",
+      "label": "__conjunction_result_260ed3c9"
     },
     {
-      "belief": 0.6548896000000001,
+      "belief": 0.7352955915235976,
       "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259",
       "label": "__conjunction_result_3eb4b259"
     },
     {
-      "belief": 0.34438572338789747,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_55bfd9a3",
-      "label": "__conjunction_result_55bfd9a3"
+      "belief": 0.8854974083499441,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb",
+      "label": "__conjunction_result_5428bfeb"
     },
     {
-      "belief": 0.6338324474373462,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8",
-      "label": "__conjunction_result_6384c4d8"
-    },
-    {
-      "belief": 0.48487830400000004,
+      "belief": 0.6479744354430526,
       "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_6867de0b",
       "label": "__conjunction_result_6867de0b"
     },
     {
-      "belief": 0.51165664,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_6cc538eb",
-      "label": "__conjunction_result_6cc538eb"
-    },
-    {
-      "belief": 0.6229535999999998,
+      "belief": 0.7553525866808474,
       "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005",
       "label": "__conjunction_result_6fd4d005"
     },
     {
-      "belief": 0.2182647637833419,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_94a7343d",
-      "label": "__conjunction_result_94a7343d"
+      "belief": 0.5377339155506582,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f",
+      "label": "__conjunction_result_a46eda5f"
     },
     {
-      "belief": 0.3660628282665953,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_ae3c1998",
-      "label": "__conjunction_result_ae3c1998"
+      "belief": 0.5639039192672047,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f",
+      "label": "__conjunction_result_b35fa89f"
     },
     {
-      "belief": 0.5614767999999999,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_c6626be2",
-      "label": "__conjunction_result_c6626be2"
+      "belief": 0.753975616851242,
+      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f",
+      "label": "__conjunction_result_e3dddd7f"
     },
     {
-      "belief": 0.46243703442017187,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_c71dbc19",
-      "label": "__conjunction_result_c71dbc19"
+      "belief": 0.9995654609419843,
+      "knowledge_id": "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition",
+      "label": "eq_fcqpt_inflection_condition"
     },
     {
-      "belief": 0.38154827360335053,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_d9f7fdb1",
-      "label": "__conjunction_result_d9f7fdb1"
+      "belief": 0.667674248423977,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption",
+      "label": "gcn_021fb1_high_field_a_gamma_scaling_assumption"
     },
     {
-      "belief": 0.7620067245426182,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_e10f23ac",
-      "label": "__conjunction_result_e10f23ac"
-    },
-    {
-      "belief": 0.3948966578905784,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_e3ef4627",
-      "label": "__conjunction_result_e3ef4627"
-    },
-    {
-      "belief": 0.6393208,
-      "knowledge_id": "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8",
-      "label": "__conjunction_result_fce6a3a8"
-    },
-    {
-      "belief": 0.8520062210525176,
-      "knowledge_id": "github:fermi_liquid_effective_mass::capone_brinkman_rice_mass_z_tk_limit",
-      "label": "capone_brinkman_rice_mass_z_tk_limit"
-    },
-    {
-      "belief": 0.8520062210525177,
-      "knowledge_id": "github:fermi_liquid_effective_mass::capone_fl_definition_z_tk",
-      "label": "capone_fl_definition_z_tk"
-    },
-    {
-      "belief": 0.869759,
-      "knowledge_id": "github:fermi_liquid_effective_mass::capone_luttinger_pinning_blocks_band_edge_route",
-      "label": "capone_luttinger_pinning_blocks_band_edge_route"
-    },
-    {
-      "belief": 0.8520062210525177,
-      "knowledge_id": "github:fermi_liquid_effective_mass::capone_singlet_mott_zero_entropy",
-      "label": "capone_singlet_mott_zero_entropy"
-    },
-    {
-      "belief": 0.6694659517671628,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_brinkman_rice_mott_boundary_family",
-      "label": "cross_brinkman_rice_mott_boundary_family"
-    },
-    {
-      "belief": 0.6529451436137992,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_brinkman_rice_scope_caution",
-      "label": "cross_brinkman_rice_scope_caution"
-    },
-    {
-      "belief": 0.6359395914628054,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt",
-      "label": "cross_scope_caution_standard_fl_vs_fcqpt"
-    },
-    {
-      "belief": 0.6534388950962261,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_thermo_transport_correlated_fl_consistency",
-      "label": "cross_thermo_transport_correlated_fl_consistency"
-    },
-    {
-      "belief": 0.765677208667838,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass",
-      "label": "cross_thermodynamic_routes_to_effective_mass"
-    },
-    {
-      "belief": 0.5980227054150988,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution",
-      "label": "cross_ybrh2si2_field_method_scope_caution"
-    },
-    {
-      "belief": 0.6675454779047033,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_ybrh2si2_material_specific_fs_constraints",
-      "label": "cross_ybrh2si2_material_specific_fs_constraints"
-    },
-    {
-      "belief": 0.7076804721580993,
-      "knowledge_id": "github:fermi_liquid_effective_mass::cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope",
-      "label": "cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope"
-    },
-    {
-      "belief": 0.68,
+      "belief": 0.7374930652569543,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model",
       "label": "gcn_03614e9b_homogeneous_isotropic_model"
     },
     {
-      "belief": 0.82,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18",
-      "label": "gcn_1587257a956f4d18"
+      "belief": 0.7901100516361961,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability",
+      "label": "gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability"
     },
     {
-      "belief": 0.5938091733708275,
+      "belief": 0.9101269897268028,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme",
       "label": "gcn_2741cdef_practical_effective_mass_scheme"
     },
     {
-      "belief": 0.774949,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_29401e42_nis2_brinkman_rice",
-      "label": "gcn_29401e42_nis2_brinkman_rice"
-    },
-    {
-      "belief": 0.7298565600111999,
+      "belief": 0.953928334334878,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis",
       "label": "gcn_2b8dd97_lurh2si2_reference_reanalysis"
     },
     {
-      "belief": 0.82,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2dc55af_kw_empirical_scale",
-      "label": "gcn_2dc55af_kw_empirical_scale"
-    },
-    {
-      "belief": 0.72,
+      "belief": 0.99397640582768,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass",
       "label": "gcn_2e693115_entropy_over_temperature_mass"
     },
     {
-      "belief": 0.78,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a",
-      "label": "gcn_2ee995fe1e674e2a"
+      "belief": 0.9961381902252989,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required",
+      "label": "gcn_34ce9_ybrh2si2_many_body_methods_required"
     },
     {
-      "belief": 0.82,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_31bc66ca16a44508",
-      "label": "gcn_31bc66ca16a44508"
+      "belief": 0.9818222643897868,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy",
+      "label": "gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy"
     },
     {
-      "belief": 0.84,
+      "belief": 0.924808439033148,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference",
       "label": "gcn_3a8394c_lurh2si2_small_fs_reference"
     },
     {
-      "belief": 0.74,
+      "belief": 0.8050775435571983,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz",
+      "label": "gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz"
+    },
+    {
+      "belief": 0.8100733292263432,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs",
       "label": "gcn_3dc248d_ybrh2si2_14kt_not_small_fs"
     },
     {
-      "belief": 0.78,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_40f111_nozieres_local_fl_kondo_sites",
-      "label": "gcn_40f111_nozieres_local_fl_kondo_sites"
-    },
-    {
-      "belief": 0.7953111540799997,
+      "belief": 0.9186132726761481,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values",
       "label": "gcn_42a4ff_rbc_hall_dos_values"
     },
     {
-      "belief": 0.7599999999999999,
+      "belief": 0.8729632127398327,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds",
+      "label": "gcn_45f24d_fcqpt_t_minus_two_thirds"
+    },
+    {
+      "belief": 0.8672142294180956,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration",
       "label": "gcn_48bba377_specific_heat_calibration"
     },
     {
-      "belief": 0.84,
+      "belief": 0.9875295486386197,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay",
+      "label": "gcn_4d206_ybrh2si2_kondo_lifshitz_interplay"
+    },
+    {
+      "belief": 0.7285359761513838,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability",
+      "label": "gcn_5090f8_dhva_orbit_assignment_reliability"
+    },
+    {
+      "belief": 0.8772208840257293,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope",
       "label": "gcn_5501e18a_high_field_dhva_scope"
     },
     {
-      "belief": 0.82,
+      "belief": 0.79681871673029,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation",
+      "label": "gcn_58746c_fcqpt_homogeneous_mass_equation"
+    },
+    {
+      "belief": 0.8523398492070368,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation",
       "label": "gcn_677c6c_landau_integral_relation"
     },
     {
-      "belief": 0.7,
+      "belief": 0.7538997486783946,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions",
       "label": "gcn_6bbfeb95_stable_landau_solutions"
     },
     {
-      "belief": 0.74,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_7459a446_wilson_ratio_interpretation",
-      "label": "gcn_7459a446_wilson_ratio_interpretation"
+      "belief": 0.6633157570533426,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario",
+      "label": "gcn_6ca2b_ybrh2si2_hall_compensation_scenario"
     },
     {
-      "belief": 0.7799999999999999,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_795699f572b24ed5",
-      "label": "gcn_795699f572b24ed5"
+      "belief": 0.7647311793311994,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption",
+      "label": "gcn_848945_ybrh2si2_lusmall_fs_lda_assumption"
     },
     {
-      "belief": 0.76616807704,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_7ae79f_kondo_brinkman_rice_fixed_point",
-      "label": "gcn_7ae79f_kondo_brinkman_rice_fixed_point"
+      "belief": 0.8309877494190694,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos",
+      "label": "gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos"
     },
     {
-      "belief": 0.8030700252399999,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_800070efac5e476d",
-      "label": "gcn_800070efac5e476d"
+      "belief": 0.7531450910339782,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption",
+      "label": "gcn_a76225_ybrh2si2_esr_collective_mode_assumption"
     },
     {
-      "belief": 0.58,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_8a1a2748_alternative_mechanisms_assumption",
-      "label": "gcn_8a1a2748_alternative_mechanisms_assumption"
+      "belief": 0.8959986083580356,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations",
+      "label": "gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations"
     },
     {
-      "belief": 0.72,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_8f275a_brinkman_rice_scope_condition",
-      "label": "gcn_8f275a_brinkman_rice_scope_condition"
+      "belief": 0.8360081953324872,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop",
+      "label": "gcn_b4093_ybrh2si2_resistivity_mass_drop"
     },
     {
-      "belief": 0.7875522829199999,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_bc46d7_cemo_kw_wilson_fl_consistency",
-      "label": "gcn_bc46d7_cemo_kw_wilson_fl_consistency"
+      "belief": 0.827633250675599,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization",
+      "label": "gcn_b5d9_ybrh2si2_lifshitz_derenormalization"
     },
     {
-      "belief": 0.78,
+      "belief": 0.8392928170376751,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment",
       "label": "gcn_c131e014_ybrh2si2_midband_harmonic_assignment"
     },
     {
-      "belief": 0.82,
+      "belief": 0.8644114297712512,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization",
       "label": "gcn_c243dcb_rbc_phase_shift_parametrization"
     },
     {
-      "belief": 0.81045041488,
+      "belief": 0.9257392914575835,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch",
       "label": "gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch"
     },
     {
-      "belief": 0.8,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_dd12256615264dfb",
-      "label": "gcn_dd12256615264dfb"
+      "belief": 0.8191745235718371,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement",
+      "label": "gcn_d10f91_ybrh2si2_small_fs_mass_enhancement"
     },
     {
-      "belief": 0.78,
+      "belief": 0.9259436546208106,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles",
+      "label": "gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles"
+    },
+    {
+      "belief": 0.8450721036341471,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization",
+      "label": "gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization"
+    },
+    {
+      "belief": 0.945601862937817,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition",
       "label": "gcn_e0c364ff_inflection_fcqpt_condition"
     },
     {
-      "belief": 0.7425508301920001,
-      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_e4ecd721edd14d3f",
-      "label": "gcn_e4ecd721edd14d3f"
-    },
-    {
-      "belief": 0.9,
+      "belief": 0.9179665828927982,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula",
       "label": "gcn_ecddfefa_fermion_entropy_formula"
     },
     {
-      "belief": 0.78,
+      "belief": 0.8311787155353778,
       "knowledge_id": "github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity",
       "label": "gcn_f20b1f42_itinerant_4f_lda_sensitivity"
     },
     {
-      "belief": 0.880695345465022,
-      "knowledge_id": "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12",
-      "label": "he3_gamma_implies_mstar_ratio_2_12"
+      "belief": 0.9455993515901168,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum",
+      "label": "gcn_f82c178_fcqpt_inflection_cubic_spectrum"
     },
     {
-      "belief": 0.8806953454650219,
-      "knowledge_id": "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36",
-      "label": "he3_mstar_ratio_yields_f1_3_36"
+      "belief": 0.8599511940785268,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression",
+      "label": "gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression"
     },
     {
-      "belief": 0.8632019769208119,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_brinkman_rice_finite_stoner_enhancement",
-      "label": "helper_brinkman_rice_finite_stoner_enhancement"
+      "belief": 0.8604744561148018,
+      "knowledge_id": "github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio",
+      "label": "gcn_fb2747_ybrh2si2_tp_tcoh_ratio"
     },
     {
-      "belief": 0.86736457345,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_brinkman_rice_large_fs_heavy_quasiparticles",
-      "label": "helper_brinkman_rice_large_fs_heavy_quasiparticles"
-    },
-    {
-      "belief": 0.863201976920812,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_brinkman_rice_large_mass_renormalization",
-      "label": "helper_brinkman_rice_large_mass_renormalization"
-    },
-    {
-      "belief": 0.8536897302593719,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_cemo_kw_ratio_original_scale",
-      "label": "helper_cemo_kw_ratio_original_scale"
-    },
-    {
-      "belief": 0.8422172199920899,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_cemo_ratio_consistency_correlated_fl",
-      "label": "helper_cemo_ratio_consistency_correlated_fl"
-    },
-    {
-      "belief": 0.8536897302593719,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_cemo_wilson_ratio_dual_reference",
-      "label": "helper_cemo_wilson_ratio_dual_reference"
-    },
-    {
-      "belief": 0.8639732813226081,
+      "belief": 0.982713857179336,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch",
       "label": "helper_dhva_angular_dependence_itinerant_lda_mismatch"
     },
     {
-      "belief": 0.863973281322608,
+      "belief": 0.9157495157936009,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope",
       "label": "helper_dhva_first_fs_information_scope"
     },
     {
-      "belief": 0.8639732813226081,
+      "belief": 0.9157495157936009,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a",
       "label": "helper_dhva_frequencies_masses_h_parallel_a"
     },
     {
-      "belief": 0.8632019769208119,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_kondo_lattice_screened_heavy_quasiparticles",
-      "label": "helper_kondo_lattice_screened_heavy_quasiparticles"
-    },
-    {
-      "belief": 0.86736457345,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_nis2_large_fs_603kt_belly_orbit",
-      "label": "helper_nis2_large_fs_603kt_belly_orbit"
-    },
-    {
-      "belief": 0.86736457345,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_nis2_mstar_6_me",
-      "label": "helper_nis2_mstar_6_me"
-    },
-    {
-      "belief": 0.7661680770399999,
-      "knowledge_id": "github:fermi_liquid_effective_mass::helper_nozieres_to_kondo_lattice_fixed_point",
-      "label": "helper_nozieres_to_kondo_lattice_fixed_point"
-    },
-    {
-      "belief": 0.857174239297328,
+      "belief": 0.9125492207588581,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2",
       "label": "helper_rbc_dos_gamma_ybrh2si2_ybir2si2"
     },
     {
-      "belief": 0.857174239297328,
+      "belief": 0.9125492207588581,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma",
       "label": "helper_rbc_parameterization_constrained_by_cef_gamma"
     },
     {
-      "belief": 0.8571742392973281,
+      "belief": 0.9125492207588581,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products",
       "label": "helper_ybrh2si2_opposite_hall_transport_products"
     },
     {
-      "belief": 0.82777858110103,
+      "belief": 0.9284092149497938,
       "knowledge_id": "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set",
       "label": "helper_ybrh2si2_reduced_fundamental_set"
     }
@@ -409,255 +294,186 @@
   "diagnostics": {
     "belief_history": {
       "github:fermi_liquid_effective_mass::__conjunction_result_11fed0d5": [
-        0.1978887741184
+        0.44739772515122694
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_1abd38c2": [
-        0.6065864
+      "github:fermi_liquid_effective_mass::__conjunction_result_1b3d30fa": [
+        0.8333077527056567
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_26617e05": [
-        0.5614767999999999
+      "github:fermi_liquid_effective_mass::__conjunction_result_2042e056": [
+        0.6305846115639545
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_363f43bc": [
-        0.3095727624858932
+      "github:fermi_liquid_effective_mass::__conjunction_result_260ed3c9": [
+        0.5426148514932929
       ],
       "github:fermi_liquid_effective_mass::__conjunction_result_3eb4b259": [
-        0.6548896000000001
+        0.7352955915235976
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_55bfd9a3": [
-        0.34438572338789747
-      ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_6384c4d8": [
-        0.6338324474373462
+      "github:fermi_liquid_effective_mass::__conjunction_result_5428bfeb": [
+        0.8854974083499441
       ],
       "github:fermi_liquid_effective_mass::__conjunction_result_6867de0b": [
-        0.48487830400000004
-      ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_6cc538eb": [
-        0.51165664
+        0.6479744354430526
       ],
       "github:fermi_liquid_effective_mass::__conjunction_result_6fd4d005": [
-        0.6229535999999998
+        0.7553525866808474
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_94a7343d": [
-        0.2182647637833419
+      "github:fermi_liquid_effective_mass::__conjunction_result_a46eda5f": [
+        0.5377339155506582
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_ae3c1998": [
-        0.3660628282665953
+      "github:fermi_liquid_effective_mass::__conjunction_result_b35fa89f": [
+        0.5639039192672047
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_c6626be2": [
-        0.5614767999999999
+      "github:fermi_liquid_effective_mass::__conjunction_result_e3dddd7f": [
+        0.753975616851242
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_c71dbc19": [
-        0.46243703442017187
+      "github:fermi_liquid_effective_mass::eq_fcqpt_inflection_condition": [
+        0.9995654609419843
       ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_d9f7fdb1": [
-        0.38154827360335053
-      ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_e10f23ac": [
-        0.7620067245426182
-      ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_e3ef4627": [
-        0.3948966578905784
-      ],
-      "github:fermi_liquid_effective_mass::__conjunction_result_fce6a3a8": [
-        0.6393208
-      ],
-      "github:fermi_liquid_effective_mass::capone_brinkman_rice_mass_z_tk_limit": [
-        0.8520062210525176
-      ],
-      "github:fermi_liquid_effective_mass::capone_fl_definition_z_tk": [
-        0.8520062210525177
-      ],
-      "github:fermi_liquid_effective_mass::capone_luttinger_pinning_blocks_band_edge_route": [
-        0.869759
-      ],
-      "github:fermi_liquid_effective_mass::capone_singlet_mott_zero_entropy": [
-        0.8520062210525177
-      ],
-      "github:fermi_liquid_effective_mass::cross_brinkman_rice_mott_boundary_family": [
-        0.6694659517671628
-      ],
-      "github:fermi_liquid_effective_mass::cross_brinkman_rice_scope_caution": [
-        0.6529451436137992
-      ],
-      "github:fermi_liquid_effective_mass::cross_scope_caution_standard_fl_vs_fcqpt": [
-        0.6359395914628054
-      ],
-      "github:fermi_liquid_effective_mass::cross_thermo_transport_correlated_fl_consistency": [
-        0.6534388950962261
-      ],
-      "github:fermi_liquid_effective_mass::cross_thermodynamic_routes_to_effective_mass": [
-        0.765677208667838
-      ],
-      "github:fermi_liquid_effective_mass::cross_ybrh2si2_field_method_scope_caution": [
-        0.5980227054150988
-      ],
-      "github:fermi_liquid_effective_mass::cross_ybrh2si2_material_specific_fs_constraints": [
-        0.6675454779047033
-      ],
-      "github:fermi_liquid_effective_mass::cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope": [
-        0.7076804721580993
+      "github:fermi_liquid_effective_mass::gcn_021fb1_high_field_a_gamma_scaling_assumption": [
+        0.667674248423977
       ],
       "github:fermi_liquid_effective_mass::gcn_03614e9b_homogeneous_isotropic_model": [
-        0.68
+        0.7374930652569543
       ],
-      "github:fermi_liquid_effective_mass::gcn_1587257a956f4d18": [
-        0.82
+      "github:fermi_liquid_effective_mass::gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability": [
+        0.7901100516361961
       ],
       "github:fermi_liquid_effective_mass::gcn_2741cdef_practical_effective_mass_scheme": [
-        0.5938091733708275
-      ],
-      "github:fermi_liquid_effective_mass::gcn_29401e42_nis2_brinkman_rice": [
-        0.774949
+        0.9101269897268028
       ],
       "github:fermi_liquid_effective_mass::gcn_2b8dd97_lurh2si2_reference_reanalysis": [
-        0.7298565600111999
-      ],
-      "github:fermi_liquid_effective_mass::gcn_2dc55af_kw_empirical_scale": [
-        0.82
+        0.953928334334878
       ],
       "github:fermi_liquid_effective_mass::gcn_2e693115_entropy_over_temperature_mass": [
-        0.72
+        0.99397640582768
       ],
-      "github:fermi_liquid_effective_mass::gcn_2ee995fe1e674e2a": [
-        0.78
+      "github:fermi_liquid_effective_mass::gcn_34ce9_ybrh2si2_many_body_methods_required": [
+        0.9961381902252989
       ],
-      "github:fermi_liquid_effective_mass::gcn_31bc66ca16a44508": [
-        0.82
+      "github:fermi_liquid_effective_mass::gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy": [
+        0.9818222643897868
       ],
       "github:fermi_liquid_effective_mass::gcn_3a8394c_lurh2si2_small_fs_reference": [
-        0.84
+        0.924808439033148
+      ],
+      "github:fermi_liquid_effective_mass::gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz": [
+        0.8050775435571983
       ],
       "github:fermi_liquid_effective_mass::gcn_3dc248d_ybrh2si2_14kt_not_small_fs": [
-        0.74
-      ],
-      "github:fermi_liquid_effective_mass::gcn_40f111_nozieres_local_fl_kondo_sites": [
-        0.78
+        0.8100733292263432
       ],
       "github:fermi_liquid_effective_mass::gcn_42a4ff_rbc_hall_dos_values": [
-        0.7953111540799997
+        0.9186132726761481
+      ],
+      "github:fermi_liquid_effective_mass::gcn_45f24d_fcqpt_t_minus_two_thirds": [
+        0.8729632127398327
       ],
       "github:fermi_liquid_effective_mass::gcn_48bba377_specific_heat_calibration": [
-        0.7599999999999999
+        0.8672142294180956
+      ],
+      "github:fermi_liquid_effective_mass::gcn_4d206_ybrh2si2_kondo_lifshitz_interplay": [
+        0.9875295486386197
+      ],
+      "github:fermi_liquid_effective_mass::gcn_5090f8_dhva_orbit_assignment_reliability": [
+        0.7285359761513838
       ],
       "github:fermi_liquid_effective_mass::gcn_5501e18a_high_field_dhva_scope": [
-        0.84
+        0.8772208840257293
+      ],
+      "github:fermi_liquid_effective_mass::gcn_58746c_fcqpt_homogeneous_mass_equation": [
+        0.79681871673029
       ],
       "github:fermi_liquid_effective_mass::gcn_677c6c_landau_integral_relation": [
-        0.82
+        0.8523398492070368
       ],
       "github:fermi_liquid_effective_mass::gcn_6bbfeb95_stable_landau_solutions": [
-        0.7
+        0.7538997486783946
       ],
-      "github:fermi_liquid_effective_mass::gcn_7459a446_wilson_ratio_interpretation": [
-        0.74
+      "github:fermi_liquid_effective_mass::gcn_6ca2b_ybrh2si2_hall_compensation_scenario": [
+        0.6633157570533426
       ],
-      "github:fermi_liquid_effective_mass::gcn_795699f572b24ed5": [
-        0.7799999999999999
+      "github:fermi_liquid_effective_mass::gcn_848945_ybrh2si2_lusmall_fs_lda_assumption": [
+        0.7647311793311994
       ],
-      "github:fermi_liquid_effective_mass::gcn_7ae79f_kondo_brinkman_rice_fixed_point": [
-        0.76616807704
+      "github:fermi_liquid_effective_mass::gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos": [
+        0.8309877494190694
       ],
-      "github:fermi_liquid_effective_mass::gcn_800070efac5e476d": [
-        0.8030700252399999
+      "github:fermi_liquid_effective_mass::gcn_a76225_ybrh2si2_esr_collective_mode_assumption": [
+        0.7531450910339782
       ],
-      "github:fermi_liquid_effective_mass::gcn_8a1a2748_alternative_mechanisms_assumption": [
-        0.58
+      "github:fermi_liquid_effective_mass::gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations": [
+        0.8959986083580356
       ],
-      "github:fermi_liquid_effective_mass::gcn_8f275a_brinkman_rice_scope_condition": [
-        0.72
+      "github:fermi_liquid_effective_mass::gcn_b4093_ybrh2si2_resistivity_mass_drop": [
+        0.8360081953324872
       ],
-      "github:fermi_liquid_effective_mass::gcn_bc46d7_cemo_kw_wilson_fl_consistency": [
-        0.7875522829199999
+      "github:fermi_liquid_effective_mass::gcn_b5d9_ybrh2si2_lifshitz_derenormalization": [
+        0.827633250675599
       ],
       "github:fermi_liquid_effective_mass::gcn_c131e014_ybrh2si2_midband_harmonic_assignment": [
-        0.78
+        0.8392928170376751
       ],
       "github:fermi_liquid_effective_mass::gcn_c243dcb_rbc_phase_shift_parametrization": [
-        0.82
+        0.8644114297712512
       ],
       "github:fermi_liquid_effective_mass::gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch": [
-        0.81045041488
+        0.9257392914575835
       ],
-      "github:fermi_liquid_effective_mass::gcn_dd12256615264dfb": [
-        0.8
+      "github:fermi_liquid_effective_mass::gcn_d10f91_ybrh2si2_small_fs_mass_enhancement": [
+        0.8191745235718371
+      ],
+      "github:fermi_liquid_effective_mass::gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles": [
+        0.9259436546208106
+      ],
+      "github:fermi_liquid_effective_mass::gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization": [
+        0.8450721036341471
       ],
       "github:fermi_liquid_effective_mass::gcn_e0c364ff_inflection_fcqpt_condition": [
-        0.78
-      ],
-      "github:fermi_liquid_effective_mass::gcn_e4ecd721edd14d3f": [
-        0.7425508301920001
+        0.945601862937817
       ],
       "github:fermi_liquid_effective_mass::gcn_ecddfefa_fermion_entropy_formula": [
-        0.9
+        0.9179665828927982
       ],
       "github:fermi_liquid_effective_mass::gcn_f20b1f42_itinerant_4f_lda_sensitivity": [
-        0.78
+        0.8311787155353778
       ],
-      "github:fermi_liquid_effective_mass::he3_gamma_implies_mstar_ratio_2_12": [
-        0.880695345465022
+      "github:fermi_liquid_effective_mass::gcn_f82c178_fcqpt_inflection_cubic_spectrum": [
+        0.9455993515901168
       ],
-      "github:fermi_liquid_effective_mass::he3_mstar_ratio_yields_f1_3_36": [
-        0.8806953454650219
+      "github:fermi_liquid_effective_mass::gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression": [
+        0.8599511940785268
       ],
-      "github:fermi_liquid_effective_mass::helper_brinkman_rice_finite_stoner_enhancement": [
-        0.8632019769208119
-      ],
-      "github:fermi_liquid_effective_mass::helper_brinkman_rice_large_fs_heavy_quasiparticles": [
-        0.86736457345
-      ],
-      "github:fermi_liquid_effective_mass::helper_brinkman_rice_large_mass_renormalization": [
-        0.863201976920812
-      ],
-      "github:fermi_liquid_effective_mass::helper_cemo_kw_ratio_original_scale": [
-        0.8536897302593719
-      ],
-      "github:fermi_liquid_effective_mass::helper_cemo_ratio_consistency_correlated_fl": [
-        0.8422172199920899
-      ],
-      "github:fermi_liquid_effective_mass::helper_cemo_wilson_ratio_dual_reference": [
-        0.8536897302593719
+      "github:fermi_liquid_effective_mass::gcn_fb2747_ybrh2si2_tp_tcoh_ratio": [
+        0.8604744561148018
       ],
       "github:fermi_liquid_effective_mass::helper_dhva_angular_dependence_itinerant_lda_mismatch": [
-        0.8639732813226081
+        0.982713857179336
       ],
       "github:fermi_liquid_effective_mass::helper_dhva_first_fs_information_scope": [
-        0.863973281322608
+        0.9157495157936009
       ],
       "github:fermi_liquid_effective_mass::helper_dhva_frequencies_masses_h_parallel_a": [
-        0.8639732813226081
-      ],
-      "github:fermi_liquid_effective_mass::helper_kondo_lattice_screened_heavy_quasiparticles": [
-        0.8632019769208119
-      ],
-      "github:fermi_liquid_effective_mass::helper_nis2_large_fs_603kt_belly_orbit": [
-        0.86736457345
-      ],
-      "github:fermi_liquid_effective_mass::helper_nis2_mstar_6_me": [
-        0.86736457345
-      ],
-      "github:fermi_liquid_effective_mass::helper_nozieres_to_kondo_lattice_fixed_point": [
-        0.7661680770399999
+        0.9157495157936009
       ],
       "github:fermi_liquid_effective_mass::helper_rbc_dos_gamma_ybrh2si2_ybir2si2": [
-        0.857174239297328
+        0.9125492207588581
       ],
       "github:fermi_liquid_effective_mass::helper_rbc_parameterization_constrained_by_cef_gamma": [
-        0.857174239297328
+        0.9125492207588581
       ],
       "github:fermi_liquid_effective_mass::helper_ybrh2si2_opposite_hall_transport_products": [
-        0.8571742392973281
+        0.9125492207588581
       ],
       "github:fermi_liquid_effective_mass::helper_ybrh2si2_reduced_fundamental_set": [
-        0.82777858110103
+        0.9284092149497938
       ]
     },
     "converged": true,
     "direction_changes": {},
     "iterations_run": 2,
     "max_change_at_stop": 0.0,
-    "treewidth": 7
+    "treewidth": 6
   },
   "gaia_lang_version": "0.4.3",
-  "ir_hash": "sha256:0c8dc1a153a399df924c4300e2a480faaf07e05fa666c49dad4bb19fb2e51b4d"
+  "ir_hash": "sha256:db40d085e49405c939e7e60c90709a6f78ccd1645003747f35a36d41fb08a114"
 }

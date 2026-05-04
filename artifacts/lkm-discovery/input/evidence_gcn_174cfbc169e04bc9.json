@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The renormalized-band calculation exhibits a quasiparticle spectral weight associated with the narrow Kondo-derived f-electron peak that decreases smoothly with increasing magnetic field B (the computed peak amplitude and derived low-energy effective-mass indicators vary continuously and only gradually across the ≈10 T scale); under the assumption that the renormalized-band treatment captures the essential field-dependent many-body physics responsible for Kondo screening in the periodic lattice, this calculated smooth decrease is taken to imply that in the real material YbRh2Si2 the Kondo-singlet-derived quasiparticle weight is suppressed by a smooth crossover as a function of B rather than by an abrupt, discontinuous (first-order) transition at that field scale.",
+      "content_hash": "5d33f5115dbc40715e8d3bd31edb5d86f1c2d0adf645d5897340d54f29ee7348",
+      "id": "gcn_174cfbc169e04bc9",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "52f436706fb25b839b6ce1e748bbbdc1"
+}

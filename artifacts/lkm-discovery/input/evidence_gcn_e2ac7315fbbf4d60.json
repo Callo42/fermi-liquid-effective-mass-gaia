@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For a three-dimensional quasiparticle band in a metal, the quasiparticle effective mass m* and the quasiparticle density of states N(ε) at energy ε are related by the scaling m*(ε) ∝ [N(ε)]^{2/3}; accordingly, at the Fermi energy ε_F the renormalized quasiparticle effective mass is taken to satisfy m*(ε_F) ∝ [N(ε_F)]^{2/3}, and this three-dimensional relation is applied to the dominant quasiparticle bands of YbRh2Si2 in the field and temperature regime considered.",
+      "content_hash": "b090da1b17c587c222e69f6b81da25e78f488f2dcbf4bcdcee3b5f00e9e69a73",
+      "id": "gcn_e2ac7315fbbf4d60",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "824d6fc018b032eb6993d42873e0d2bd"
+}

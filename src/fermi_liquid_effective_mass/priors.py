@@ -1,33 +1,5 @@
-"""Leaf-claim priors for the combined Fermi-liquid effective-mass package."""
+"""Leaf-claim priors for the connected YbRh2Si2 effective-mass package."""
 
-from .paper_alvesalo1979 import gcn_1587257a956f4d18, gcn_2ee995fe1e674e2a
-from .paper_anderson1984 import (
-    gcn_40f111_nozieres_local_fl_kondo_sites,
-    gcn_8f275a_brinkman_rice_scope_condition,
-)
-from .paper_capone2001 import (
-    gcn_31bc66ca16a44508,
-    gcn_795699f572b24ed5,
-    gcn_dd12256615264dfb,
-)
-from .paper_friedemann2010 import (
-    gcn_48bba377_specific_heat_calibration,
-    gcn_c243dcb_rbc_phase_shift_parametrization,
-)
-from .paper_friedemann2013 import (
-    gcn_3a8394c_lurh2si2_small_fs_reference,
-    gcn_3dc248d_ybrh2si2_14kt_not_small_fs,
-    gcn_c131e014_ybrh2si2_midband_harmonic_assignment,
-)
-from .paper_friedemann2016 import gcn_8a1a2748_alternative_mechanisms_assumption
-from .paper_knebel2006 import (
-    gcn_5501e18a_high_field_dhva_scope,
-    gcn_f20b1f42_itinerant_4f_lda_sensitivity,
-)
-from .paper_paramanik2013 import (
-    gcn_2dc55af_kw_empirical_scale,
-    gcn_7459a446_wilson_ratio_interpretation,
-)
 from .paper_shaginyan2010 import (
     gcn_03614e9b_homogeneous_isotropic_model,
     gcn_2e693115_entropy_over_temperature_mass,
@@ -36,99 +8,147 @@ from .paper_shaginyan2010 import (
     gcn_e0c364ff_inflection_fcqpt_condition,
     gcn_ecddfefa_fermion_entropy_formula,
 )
+from .paper_shaginyan2009 import (
+    gcn_58746c_fcqpt_homogeneous_mass_equation,
+    gcn_f82c178_fcqpt_inflection_cubic_spectrum,
+)
+from .paper_friedemann2010 import (
+    gcn_48bba377_specific_heat_calibration,
+    gcn_c243dcb_rbc_phase_shift_parametrization,
+)
+from .paper_knebel2006 import (
+    gcn_5501e18a_high_field_dhva_scope,
+    gcn_f20b1f42_itinerant_4f_lda_sensitivity,
+)
+from .paper_friedemann2013 import (
+    gcn_3a8394c_lurh2si2_small_fs_reference,
+    gcn_3dc248d_ybrh2si2_14kt_not_small_fs,
+    gcn_c131e014_ybrh2si2_midband_harmonic_assignment,
+)
+from .paper_tokiwa2004 import (
+    gcn_021fb1_high_field_a_gamma_scaling_assumption,
+    gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability,
+)
+from .paper_seiro2017 import gcn_fb2747_ybrh2si2_tp_tcoh_ratio
+from .paper_schaufuss2008 import gcn_a76225_ybrh2si2_esr_collective_mode_assumption
+from .paper_pfau2013 import (
+    gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos,
+    gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization,
+)
+from .paper_naren2013 import (
+    gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz,
+    gcn_6ca2b_ybrh2si2_hall_compensation_scenario,
+)
+from .paper_rourke2008 import (
+    gcn_5090f8_dhva_orbit_assignment_reliability,
+    gcn_848945_ybrh2si2_lusmall_fs_lda_assumption,
+)
+from .paper_friedemann2013_field import gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations
 
 
 PRIORS = {
-    gcn_2ee995fe1e674e2a: (
-        0.78,
-        "Direct calorimetric premise from the LKM chain, but it extrapolates the observed T >= about 3 mK linear region to the T -> 0 Fermi-liquid limit near the superfluid transition; TODO:review",
-    ),
-    gcn_1587257a956f4d18: (
-        0.82,
-        "Standard Landau Fermi-liquid mapping premise with values reported in the LKM chain, but the chain records the numerical mapping rather than a full derivation; TODO:review",
-    ),
     gcn_677c6c_landau_integral_relation: (
         0.82,
-        "LKM chain treats the Landau effective-mass equation as a standard phenomenological starting point near FCQPT, conditional on quasiparticle and amplitude assumptions; TODO:review",
+        "LKM chain treats the Landau effective-mass relation as a phenomenological starting equation near FCQPT; TODO:review",
     ),
     gcn_03614e9b_homogeneous_isotropic_model: (
         0.68,
-        "Model adequacy is a deliberate universal-scaling approximation for YbRh2Si2 that neglects anisotropy and band structure, so it is plausible but scope-limited; TODO:review",
+        "Model adequacy is a universal-scaling approximation for YbRh2Si2 that omits material anisotropy and band structure; TODO:review",
     ),
     gcn_e0c364ff_inflection_fcqpt_condition: (
         0.78,
-        "The LKM chain presents the inflection-point amplitude tuning as the practical FCQPT critical construction rather than direct microscopic proof; TODO:review",
+        "The inflection-point condition is explicitly used in the LKM chain but remains a tuned critical model construction; TODO:review",
     ),
     gcn_6bbfeb95_stable_landau_solutions: (
         0.70,
-        "Numerical convergence and robustness are reported for the paper's temperature and field window, but no independent numerical error audit is included in the root evidence; TODO:review",
+        "Numerical stability is reported for the selected temperature and field window but not independently audited in the root JSON; TODO:review",
     ),
     gcn_ecddfefa_fermion_entropy_formula: (
         0.90,
-        "The Fermi-Dirac entropy expression is a standard quasiparticle combinatorial formula and is capped at the direct-claim prior limit; TODO:review",
+        "Fermi-Dirac entropy expression for quasiparticle occupations, capped at the direct-claim prior limit; TODO:review",
     ),
     gcn_2e693115_entropy_over_temperature_mass: (
         0.72,
-        "Using M*(T,B)=S(T,B)/T is an operational density-of-states proxy extended into crossover/NFL regimes, making it credible but approximation-sensitive; TODO:review",
+        "Operational entropy-over-temperature effective-mass proxy is credible but approximation-sensitive in crossover/NFL regimes; TODO:review",
+    ),
+    gcn_f82c178_fcqpt_inflection_cubic_spectrum: (
+        0.80,
+        "Independent LKM chain states the FCQPT inflection/cubic-spectrum condition also present in the start-root chain; TODO:review",
+    ),
+    gcn_58746c_fcqpt_homogeneous_mass_equation: (
+        0.78,
+        "Asymptotic FCQPT mass equation premise follows the selected chain's homogeneous-limit derivation but is theory-scope sensitive; TODO:review",
     ),
     gcn_c243dcb_rbc_phase_shift_parametrization: (
         0.82,
-        "The LKM chain anchors the RBC phase-shift parametrization to established renormalized-band references and to Friedemann et al.'s YbRh2Si2 implementation, but it remains a phenomenological single-width representation of 4f quasiparticles; TODO:review",
+        "RBC phase-shift parametrization is anchored to CEF splittings and heavy-fermion renormalized-band practice, but remains phenomenological; TODO:review",
     ),
     gcn_48bba377_specific_heat_calibration: (
         0.76,
-        "The LKM chain makes the thermodynamic calibration explicit, yet the inference from reproducing gamma_exp to reliable band occupations and transport integrals is approximation-sensitive and not independently checked inside this selected chain; TODO:review",
+        "Thermodynamic calibration to gamma_exp is explicit, though transport reliability inferred from the calibrated bands is approximation-sensitive; TODO:review",
     ),
     gcn_5501e18a_high_field_dhva_scope: (
         0.84,
-        "The high-field caveat is explicitly stated in the selected LKM chain and is physically plausible for a field-tuned heavy-fermion compound, but it is a scope caution rather than a direct measurement in this root; TODO:review",
+        "High-field dHvA scope caution is explicit in the LKM chain and important for low-field QCP interpretation; TODO:review",
     ),
     gcn_f20b1f42_itinerant_4f_lda_sensitivity: (
         0.78,
-        "The LKM chain ties the itinerant-4f LDA sensitivity to the Knebel et al. comparison figures, but the proposition is methodological and approximation-sensitive, so the direct prior remains below 0.9; TODO:review",
+        "LDA/FLAPW sensitivity is grounded in the Knebel comparison but remains a method-level caution; TODO:review",
     ),
     gcn_c131e014_ybrh2si2_midband_harmonic_assignment: (
         0.78,
-        "The LKM chain anchors the 5-7 kT harmonic reassignment to angular-dependence and mass comparisons, but the assignment is a reanalysis of published spectra and remains sensitive to harmonic/mixed-frequency identification; TODO:review",
+        "Harmonic reassignment is anchored to angular and mass comparisons but remains sensitive to branch-identification assumptions; TODO:review",
     ),
     gcn_3dc248d_ybrh2si2_14kt_not_small_fs: (
         0.74,
-        "The LKM chain directly states that the refined core-4f small-FS calculation lacks a (100)-field orbit near 14 kT and that the measured peak behaves as a fundamental, but the itinerant-4f inference is conditional on excluding artefact, magnetic-breakdown, and misassignment alternatives; TODO:review",
+        "High-field 14 kT inference depends on excluding artefact, magnetic-breakdown, and misassignment alternatives; TODO:review",
     ),
     gcn_3a8394c_lurh2si2_small_fs_reference: (
         0.84,
-        "The LuRh2Si2 reference premise is grounded in isostructural chemistry, filled Lu 4f shells, refined z_Si=0.379 c structure, and similar non-f conduction-band character, while transfer to YbRh2Si2 is still a reference-model approximation; TODO:review",
+        "LuRh2Si2 reference premise is grounded in isostructural chemistry and filled Lu 4f shells but remains a transfer-model approximation; TODO:review",
     ),
-    gcn_40f111_nozieres_local_fl_kondo_sites: (
+    gcn_021fb1_high_field_a_gamma_scaling_assumption: (
+        0.62,
+        "Extending A/gamma^2 scaling from low fields to 16 T is explicitly an assumption in the LKM chain; TODO:review",
+    ),
+    gcn_24ebf8_ybrh2si2_t2_resistivity_fit_reliability: (
+        0.76,
+        "T^2 fit reliability is plausible for the reported low-temperature windows but sensitive to finite-temperature and sample effects; TODO:review",
+    ),
+    gcn_fb2747_ybrh2si2_tp_tcoh_ratio: (
         0.78,
-        "The premise is grounded in Anderson's Nozieres/Friedel-sum-rule argument for screened Kondo ions, but the extrapolation from a single impurity to a periodic lattice is explicitly approximate and inter-site corrections are only bounded qualitatively; TODO:review",
+        "T_P/T_coh hierarchy is a direct numerical extraction from the LKM chain but may vary with sample and surface conditions; TODO:review",
     ),
-    gcn_8f275a_brinkman_rice_scope_condition: (
-        0.72,
-        "The premise is a scoped fixed-point identification rather than a direct measurement: it is plausible when RKKY, direct exchange, and incipient ordering are weak or irrelevant, but those boundary conditions are not independently established inside the selected root chain; TODO:review",
+    gcn_a76225_ybrh2si2_esr_collective_mode_assumption: (
+        0.68,
+        "ESR collective-mode identification is supported by crossovers but depends on excluding localized-moment and bottleneck alternatives; TODO:review",
     ),
-    gcn_31bc66ca16a44508: (
-        0.82,
-        "Fermi-liquid entropy scaling premise from the selected LKM chain; credible within the stated quasiparticle/coherence-scale assumptions but sensitive to the absence of other low-energy entropy carriers; TODO:review",
-    ),
-    gcn_795699f572b24ed5: (
+    gcn_dbe6ec_ybrh2si2_cef_anisotropic_hybridization: (
         0.78,
-        "Luttinger-pinning premise from the selected LKM chain for a metallic Fermi-liquid solution of the specified Hamiltonian; plausible but conditional on the solution remaining a conventional FL up to the transition; TODO:review",
+        "CEF-induced hybridization anisotropy is an explicit ingredient of the LKM chain but not by itself a direct measurement; TODO:review",
     ),
-    gcn_dd12256615264dfb: (
-        0.80,
-        "Conditional entropy-mismatch premise from the selected LKM chain; strong as a thermodynamic argument under fixed-mu/no-symmetry-breaking assumptions, but it is exactly where alternative transition routes must be reviewed; TODO:review",
+    gcn_8f49e0_periodic_kondo_lattice_lifshitz_dos: (
+        0.76,
+        "Periodic-Kondo-lattice DOS/Lifshitz premise is physically central to the chain but model-dependent; TODO:review",
     ),
-    gcn_8a1a2748_alternative_mechanisms_assumption: (
-        0.58,
-        "Interpretive exclusion premise from the LKM chain: plausible for the selected NiS2 quantum-oscillation argument, but it explicitly depends on alternative spin-fluctuation, electron-phonon, and magnetic-reconstruction mechanisms not independently ruled out by this root JSON; TODO:review",
+    gcn_6ca2b_ybrh2si2_hall_compensation_scenario: (
+        0.62,
+        "Hall compensation is explicitly viable but not uniquely established by the transport data; TODO:review",
     ),
-    gcn_2dc55af_kw_empirical_scale: (
-        0.82,
-        "The premise is a standard empirical correlated-metal diagnostic and is explicitly cited in the LKM chain, but the appropriate KW normalization can depend on degeneracy, carrier density, and material class; TODO:review",
+    gcn_3ba45e_ybrh2si2_thermopower_corrob_lifshitz: (
+        0.78,
+        "Thermopower anomalies from the same growth batch corroborate electronic-structure changes but are not uniquely diagnostic alone; TODO:review",
     ),
-    gcn_7459a446_wilson_ratio_interpretation: (
+    gcn_848945_ybrh2si2_lusmall_fs_lda_assumption: (
         0.74,
-        "The Wilson/Sommerfeld-ratio premise is grounded in the chain and gives both Ce3+ and conduction-electron normalizations, but the choice of mu_eff changes the numerical value substantially and remains a review-sensitive convention; TODO:review",
+        "LuRh2Si2 as a small-FS guide is plausible but remains an LDA/reference-transfer assumption; TODO:review",
+    ),
+    gcn_5090f8_dhva_orbit_assignment_reliability: (
+        0.70,
+        "Orbit assignment by angular/frequency matching is standard but sensitive to missing pockets and branch visibility; TODO:review",
+    ),
+    gcn_b01616_ybrh2si2_lda_inadequate_dynamic_correlations: (
+        0.82,
+        "LDA inadequacy for YbRh2Si2 masses is directly grounded in the LKM comparison with observed branches and large mass renormalization; TODO:review",
     ),
 }

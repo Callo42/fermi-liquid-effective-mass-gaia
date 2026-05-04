@@ -1,0 +1,345 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:811672068553703425": {
+        "area": "Physics and Astrophysics",
+        "authors": "Andreas Hackl | Matthias Vojta",
+        "available_online": "2011-3-29",
+        "cover_date_start": "2011-03-29",
+        "created_at": "2022-12-19T10:55:02+08:00",
+        "doi": "10.1103/physrevlett.106.137002",
+        "en_title": "Zeeman-Driven Lifshitz Transition: A Model for the Experimentally Observed Fermi-Surface Reconstruction in YbRh 2 Si 2",
+        "id": "811672068553703425",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "塞曼驱动的里夫希茨转变：一种用于解释在YbRh₂Si₂中实验观测到的费米面重构的模型 "
+      },
+      "paper:811773737962569729": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Steffen Wirth | Niels Oeschler | Cornelius Krellner | Christoph Geibel | Frank Steglich | Sam MaQuilon | Zachary Fisk | Silke Paschen | Gertrud Zwicknagl",
+        "available_online": "2010-7-6",
+        "cover_date_start": "2010-07-06",
+        "created_at": "2022-12-19T17:39:01+08:00",
+        "doi": "10.1103/physrevb.82.035103",
+        "en_title": "Hall effect measurements and electronic structure calculations on YbRh 2 Si 2 and its reference compounds LuRh 2 Si 2 and YbIr 2 Si 2",
+        "id": "811773737962569729",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "对YbRh₂Si₂及其参考化合物LuRh₂Si₂和YbIr₂Si₂的霍尔效应测量与电子结构计算"
+      },
+      "paper:811888199457570817": {
+        "area": "Physics and Astrophysics",
+        "authors": "P. M. C. Rourke | A. McCollam | G. Lapertot | G. Knebel | J. Flouquet | S. R. Julian",
+        "available_online": "2008-12-5",
+        "cover_date_start": "2008-12-05",
+        "created_at": "2022-12-20T01:13:50+08:00",
+        "doi": "10.1103/physrevlett.101.237205",
+        "en_title": "Magnetic-Field Dependence of the YbRh 2 Si 2 Fermi Surface",
+        "id": "811888199457570817",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "YbRh₂Si₂费米面的磁场依赖性"
+      },
+      "paper:812036747075518464": {
+        "area": "Physics and Astrophysics",
+        "authors": "G. Knebel | R. Boursier | E. Hassinger | G. Lapertot | P. G. Niklowitz | A. Pourret | B. Salce | J. P. Sanchez | I. Sheikin | P. Bonville | H. Harima | J. Flouquet",
+        "available_online": "",
+        "cover_date_start": "2006-11-15",
+        "created_at": "2022-12-20T11:04:07+08:00",
+        "doi": "10.1143/jpsj.75.114709",
+        "en_title": "Localization of 4 f State in YbRh 2 Si 2 under Magnetic Field and High Pressure: Comparison with CeRh 2 Si 2",
+        "id": "812036747075518464",
+        "keywords": "",
+        "publication_date": "2006-11-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "磁场和高压下YbRh₂Si₂中4f态的局域化：与CeRh₂Si₂的比较"
+      },
+      "paper:813070852353425410": {
+        "area": "Physics and Astrophysics",
+        "authors": "S Kambe | H Suderow | J Flouquet | P Haen | P Lejay",
+        "available_online": "",
+        "cover_date_start": "1995-08-01",
+        "created_at": "2022-12-23T07:33:17+08:00",
+        "doi": "10.1016/0038-1098(95)00243-x",
+        "en_title": "Field-induced renormalization observed by magnetoresistance in CeRu2Si2",
+        "id": "813070852353425410",
+        "keywords": "",
+        "publication_date": "1995-8",
+        "publication_id": "653",
+        "publication_name": "Solid State Communications _ Solid State Communications",
+        "research_categories": "",
+        "zh_title": "通过磁电阻在CeRu₂Si₂中观测到的场致重整化"
+      },
+      "paper:813199962614530051": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Swee K Goh | Patrick M C Rourke | Pascal Reiss | Michael L Sutherland | F Malte Grosche | Gertrud Zwicknagl | Zachary Fisk",
+        "available_online": "2013-9-10",
+        "cover_date_start": "2013-09-10",
+        "created_at": "2022-12-23T16:06:20+08:00",
+        "doi": "10.1088/1367-2630/15/9/093014",
+        "en_title": "Electronic structure of LuRh 2 Si 2 : ‘small’ Fermi surface reference to YbRh 2 Si 2",
+        "id": "813199962614530051",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "525",
+        "publication_name": "New Journal of Physics _ New J. Phys.",
+        "research_categories": "",
+        "zh_title": "镥铑硅化物（LuRh₂Si₂）的电子结构：与镱铑硅化物（YbRh₂Si₂）相比的“小”费米面 "
+      },
+      "paper:867761295154217007": {
+        "area": "arXiv-Physics",
+        "authors": "Sven Friedemann | Swee K Goh | Patrick M C Rourke | Pascal Reiss | Michael L Sutherland | F Malte Grosche | Gertrud Zwicknagl | Zachary Fisk",
+        "available_online": "",
+        "cover_date_start": "2013-05-20",
+        "created_at": "2023-05-23T05:33:35+08:00",
+        "doi": "10.48550/arXiv.1305.4555",
+        "en_title": "Electronic Structure of LuRh2Si2: \"Small\" Fermi Surface Reference to YbRh2Si2",
+        "id": "867761295154217007",
+        "keywords": "",
+        "publication_date": "2013-05-20",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "镥铑硅化物（LuRh₂Si₂）的电子结构：与镱铑硅化物（YbRh₂Si₂）的“小”费米面比较 "
+      },
+      "paper:867761748805944216": {
+        "area": "arXiv-Physics",
+        "authors": "H. Pfau | R. Daou | S. Lausberg | H.R. Naren | M. Brando | S. Friedemann | S. Wirth | T. Westerkamp | U. Stockert | P. Gegenwart | C. Krellner | C. Geibel | G. Zwicknagl | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2013-02-27",
+        "created_at": "2023-05-23T05:35:23+08:00",
+        "doi": "10.48550/arXiv.1302.6867",
+        "en_title": "Interplay between Kondo suppression and Lifshitz transitions in YbRh$_2$Si$_2$ at high magnetic fields",
+        "id": "867761748805944216",
+        "keywords": "",
+        "publication_date": "2013-02-27",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "高磁场下YbRh₂Si₂中近藤效应抑制与里夫希茨转变之间的相互作用"
+      },
+      "paper:956801476217274372": {
+        "area": "arXiv-Physics",
+        "authors": "Kaixin Tang | Hanjing Zhou | Houpu Li | Senyang Pan | Xueliang Wu | Hongyu Li | Nan Zhang | Chuanying Xi | Jinglei Zhang | Aifeng Wang | Xiangang Wan | Ziji Xiang | Xianhui Chen",
+        "available_online": "",
+        "cover_date_start": "2024-01-22",
+        "created_at": "2024-01-23T22:27:28+08:00",
+        "doi": "10.48550/arXiv.2401.11770",
+        "en_title": "Evidence for Unfolded Fermi Surfaces in the Charge-Density-Wave State of Kagome Metal FeGe Revealed by de Haas-van Alphen Effect",
+        "id": "956801476217274372",
+        "keywords": "",
+        "publication_date": "2024-01-22",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "德哈斯 - 范阿尔芬效应揭示的 Kagome 金属 FeGe 电荷密度波态中未折叠费米面的证据"
+      }
+    },
+    "variables": [
+      {
+        "content": "The de Haas–van Alphen frequencies and cyclotron masses reported for YbRh2Si2 are measured in steady magnetic fields between 12 T and 28 T, field strengths at which magnetic polarization, suppression of correlations, or field-driven band shifts can modify band energies and quasiparticle renormalization; therefore the high-field dHvA spectrum obtained at these fields can differ from the zero- or low-field Fermi surface that is relevant for quantum‑critical‑point physics.\n      Fig.7; Fig.8",
+        "content_hash": "ca62602c47396119966a5eaaa76d0167d452d081348d6a80ee788e4852cd1d4e",
+        "id": "gcn_5501e18a04cc458e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812036747075518464::P5",
+            "package_id": "paper:812036747075518464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812036747075518464"
+          ]
+        },
+        "role": "premise",
+        "score": 0.026916221033868093,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a three-dimensional quasiparticle band in a metal, the quasiparticle effective mass m* and the quasiparticle density of states N(ε) at energy ε are related by the scaling m*(ε) ∝ [N(ε)]^{2/3}; accordingly, at the Fermi energy ε_F the renormalized quasiparticle effective mass is taken to satisfy m*(ε_F) ∝ [N(ε_F)]^{2/3}, and this three-dimensional relation is applied to the dominant quasiparticle bands of YbRh2Si2 in the field and temperature regime considered.",
+        "content_hash": "b090da1b17c587c222e69f6b81da25e78f488f2dcbf4bcdcee3b5f00e9e69a73",
+        "id": "gcn_e2ac7315fbbf4d60",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761748805944216::P3",
+            "package_id": "paper:867761748805944216",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761748805944216"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02667140825035562,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The proposition is that the measured small effective cyclotron masses m* ≃ 0.18–0.30 m_e for the three detected small dHvA branches indicate that quasiparticle excitations on those specific bulk Fermi-surface pockets are not strongly renormalized by electron correlations, i.e., the cyclotron mass enhancement relative to noninteracting band-structure values is small on these pockets; this statement assumes that the detected orbits sample the correlated electronic states of interest, that dHvA does not strongly bias against light-mass detection, and acknowledges that other undetected bands may nevertheless be strongly renormalized.",
+        "content_hash": "194b0d071184bb795866e01036bf0114bed94cda2058773c92aeb11177e7e3ec",
+        "id": "gcn_a62c98837f434bcd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:956801476217274372::P11",
+            "package_id": "paper:956801476217274372",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:956801476217274372"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Renormalized-band calculations that incorporate a phenomenological 4f-derived quasiparticle resonance (with crystal-electric-field excitation energies taken from experiment and with the resonance width parameter adjusted to reproduce the low-temperature specific-heat coefficient) produce two dominant quasiparticle bands for YbRh2Si2 whose reduced transverse transport integrals have opposite sign: in the heavy-Fermi-liquid renormalized-band (RBC) description band 1 (donut) remains holelike, giving a positive reduced transverse transport integral, while band 2 (jungle-gym) becomes predominantly electronlike, giving a negative reduced transverse transport integral. Expressing the transport contributions in the RBC in terms of the band occupation per unit cell \\bar{n}(i) (the number of occupied states per unit cell in band i) and the reduced transverse transport integral \\bar{\\sigma}_{xyz}(i), the calculated products \\bar{n}(i)\\bar{\\sigma}_{xyz}(i) for YbRh2Si2 are +0.0037675 for band 1 and −0.0041076 for band 2, i.e., two contributions nearly equal in magnitude and opposite in sign so that their sum — which enters the numerator of the low-field Hall coefficient in the Boltzmann formula — is strongly cancelled. The same renormalized-band calculation yields a quasiparticle density of states at the Fermi energy N(E_F) ≈ 290 states/(eV·unit cell) for YbRh2Si2 corresponding to a Sommerfeld coefficient γ ≈ 680 mJ·mol^−1·K^−2, while for YbIr2Si2 the RBC gives N(E_F) ≈ 48 states/(eV·unit cell) and γ ≈ 113 mJ·mol^−1·K^−2; these density-of-states values are those computed within the RBC parametrization constrained by thermodynamic data.",
+        "content_hash": "a95e4819f19d7273968a94f9ad7b2b383c122d4fbf8278cc6cf67eec1bd1e6e2",
+        "id": "gcn_42a4ff7fd004413f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811773737962569729::conclusion_3",
+            "package_id": "paper:811773737962569729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811773737962569729"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Band-structure calculations carried out within the local-density approximation including spin–orbit coupling (LDA+SOC) for the isostructural compound LuRh₂Si₂ (which has a filled 4f shell and thus models the \"small\" Fermi surface case where the Yb 4f quasihole does not contribute to the Fermi volume) produce a D-sheet Fermi-surface topology whose predicted extremal orbits and angular dependences qualitatively match the experimentally observed dHvA frequencies and angular behavior better than the LDA+SOC calculation for the large-FS YbRh₂Si₂ case; in the experiment all detected dHvA frequencies correspond to hole orbits on the D sheet. Quantitative discrepancies remain—because the heavy-fermion bands in YbRh₂Si₂ are very flat so that Fermi-surface sizes are highly sensitive to small shifts of the Fermi energy—but the band masses m_b computed from the small-FS LDA+SOC D-sheet provide a reference against which the experimentally measured cyclotron masses m^* yield mass enhancements m^*/m_b of order ten, consistent with strong many-body renormalization.",
+        "content_hash": "58dc8289c917310942c2cbf6cb1587df0255c2e3f440bd7ef9250f603c7b4a13",
+        "id": "gcn_d10f91dd4b8e4f21",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811888199457570817::conclusion_5",
+            "package_id": "paper:811888199457570817",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811888199457570817"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "YbRh2Si2 exhibits strong local electronic correlations and Kondo-driven heavy quasiparticles (manifest experimentally as large Sommerfeld coefficients and strongly renormalized effective masses), and the conventional local-density approximation within density-functional theory does not capture dynamic local correlations and Kondo renormalization; consequently, LDA is inadequate to quantitatively reproduce the experimentally observed Fermi-surface cross sections and large quasiparticle masses in YbRh2Si2, and many-body electronic-structure methods that explicitly include local dynamic correlations (for example renormalized-band approaches or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency) are required to obtain a quantitative description.",
+        "content_hash": "a3f1a3a50d32bdddebc92c7036d360d6c1d52f26bbf3fdf926cb5605dcf495d5",
+        "id": "gcn_b016160b38f34ce7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813199962614530051::P10",
+            "package_id": "paper:813199962614530051",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813199962614530051"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The transport Fermi‑liquid coefficient A obtained from ρ(T)=ρ0 + A T^2 represents a Fermi‑surface average of quasiparticle scattering rates and thus encodes both effective‑mass (mass renormalization) effects and momentum‑dependent scattering contributions from different Fermi‑surface sheets; for CeRu2Si2 the band calculations and de Haas–van Alphen measurements reported in the cited literature identify four hole sheets and one multiply‑connected electron sheet at the Fermi surface, so the observed directional variation Aa(B) versus Ac(B) could reflect changes in the dominant scattering channels or in sheet‑specific transport weights rather than a one‑to‑one mapping to a simple anisotropic renormalized mass tensor.\n      Band calculations and dHvA measurements cited in paper: refs. 10,21",
+        "content_hash": "3ccabf976037a3ff966eef8e1e859e4407f68e0786f86b4c48c265b7fbe5b6ae",
+        "id": "gcn_9e9404812c0743c0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813070852353425410::P4",
+            "package_id": "paper:813070852353425410",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813070852353425410"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In YbRh$_2$Si$_2$, the relevant heavy-fermion band structure is assumed to contain a narrow piece of band at the Fermi level with tiny effective bandwidth $E_c \\sim 50\\,$mK, much smaller than the overall heavy-bandwidth scale $W\\sim 10$-$20\\,$K, so that the corresponding shallow Fermi pocket has effective Fermi energy of order $E_c$ and produces a pronounced zero-field density-of-states peak at the Fermi level.\n[15]",
+        "content_hash": "2252dd461af723b0f301734a056bd410b2a410bb54c655107f79869d55a527df",
+        "id": "gcn_c141f906e500435e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811672068553703425::P2",
+            "package_id": "paper:811672068553703425",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811672068553703425"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Density-functional LDA calculations of YbRh2Si2 performed both in the 'f-core' approximation (treating Yb 4f states as core electrons, i.e. a 'small' Fermi surface) and in fully itinerant LDA (treating Yb 4f states as bandlike) using the experimental lattice parameters fail to reproduce the complete set of experimentally observed quantum-oscillation branches and large quasiparticle masses in YbRh2Si2; therefore many-body electronic-structure approaches that capture local dynamic correlations and Kondo renormalization—such as renormalized-band methods or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency—are required to obtain a quantitative description of the YbRh2Si2 Fermi surface and quasiparticle masses.",
+        "content_hash": "3c831d42c9a841ca9c25e68dba1efdee66aed25ed665e8fa115758611f659b43",
+        "id": "gcn_34ce9aa28e054fd1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813199962614530051::conclusion_9",
+            "package_id": "paper:813199962614530051",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813199962614530051"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Re-examination of published de Haas–van Alphen measurements on YbRh_{2}Si_{2}, using the refined LuRh_{2}Si_{2} \"small\" Fermi-surface reference computed with z_{Si}=0.379\\,c and accounting for the strong tendency to generate harmonics and mixed frequencies observed in LuRh_{2}Si_{2}, shows that the published spectral peaks between \\approx5\\ \\mathrm{kT} and \\approx7\\ \\mathrm{kT} can be mapped onto second (and in some cases higher) harmonics of lower-frequency fundamental branches observed below 4\\ \\mathrm{kT} (the angular dependences and, in two of three reported cases, the effective-mass scalings are consistent with this harmonic assignment as compiled from the published frequency and mass data); this reclassification reduces the set of independent fundamental frequencies in the published YbRh_{2}Si_{2} data to a group below 4\\ \\mathrm{kT} and a distinct high-frequency fundamental near \\sim14\\ \\mathrm{kT}, and because the refined \"small\" Fermi-surface LDA/GGA calculation with Yb 4f treated as core-like (non-hybridizing) does not predict an extremal orbit near \\sim14\\ \\mathrm{kT} for fields along the (100) direction, the presence of an independent \\sim14\\ \\mathrm{kT} fundamental in the experimental dHvA data supports the interpretation that Yb 4f electrons contribute itinerantly to the Fermi surface under the measurement conditions (high magnetic fields) rather than being fully localized.",
+        "content_hash": "61ef378b45e0364c08910b3ea166b1e20a2104449737edb8f80e8755e32d2e30",
+        "id": "gcn_2b8dd97abcb44d53",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761295154217007::conclusion_7",
+            "package_id": "paper:867761295154217007",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761295154217007"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015625,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "d86547feeedb39b9e69b210b7368ee42"
+}

@@ -1,24 +1,29 @@
 [project]
 name = "fermi-liquid-effective-mass-gaia"
 version = "0.1.0"
-description = "Combined Gaia knowledge package for LKM roots on Fermi-liquid effective-mass, Brinkman-Rice, and correlated-FL reasoning."
+description = "Gaia knowledge package for a connected YbRh2Si2 effective-mass graph generated from LKM evidence chains."
 requires-python = ">=3.12"
 
 [tool.gaia]
 type = "knowledge-package"
 uuid = "a953846e-ef54-47cc-afb9-26ff44fa872d"
 generated_by = "lkm-to-gaia"
-generated_from_search = "Fermi liquid effective mass"
+generated_from_search = "YbRh2Si2 effective mass Kondo lattice FCQPT"
 generated_from_roots = [
-    "gcn_800070efac5e476d",
     "gcn_2741cdef209a457a",
+]
+accepted_extension_roots = [
+    "gcn_45f24d454cd3448e",
     "gcn_42a4ff7fd004413f",
     "gcn_c38f8ce989fd454a",
     "gcn_2b8dd97abcb44d53",
-    "gcn_7ae79f122f1c4fcb",
-    "gcn_e4ecd721edd14d3f",
-    "gcn_29401e4284574aa2",
-    "gcn_bc46d7d5f5284a0e",
+    "gcn_b4093fb2f2e44f3b",
+    "gcn_3a1514fde2d54682",
+    "gcn_d8b1b53ca8b44189",
+    "gcn_4d206f9ebed246c8",
+    "gcn_b5d9fe70ddb84b9d",
+    "gcn_d10f91dd4b8e4f21",
+    "gcn_34ce9aa28e054fd1",
 ]
 
 [build-system]

@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Density-functional LDA calculations of YbRh2Si2 performed both in the 'f-core' approximation (treating Yb 4f states as core electrons, i.e. a 'small' Fermi surface) and in fully itinerant LDA (treating Yb 4f states as bandlike) using the experimental lattice parameters fail to reproduce the complete set of experimentally observed quantum-oscillation branches and large quasiparticle masses in YbRh2Si2; therefore many-body electronic-structure approaches that capture local dynamic correlations and Kondo renormalization—such as renormalized-band methods or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency—are required to obtain a quantitative description of the YbRh2Si2 Fermi surface and quasiparticle masses.",
+      "content_hash": "3c831d42c9a841ca9c25e68dba1efdee66aed25ed665e8fa115758611f659b43",
+      "id": "gcn_34ce9aa28e054fd1",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Density-functional LDA calculations of YbRh2Si2 performed both in the 'f-core' approximation (treating Yb 4f states as core electrons, i.e. a 'small' Fermi surface) and in fully itinerant LDA (treating Yb 4f states as bandlike) using the experimental lattice parameters fail to reproduce the complete set of experimentally observed quantum-oscillation branches and large quasiparticle masses in YbRh2Si2; therefore many-body electronic-structure approaches that capture local dynamic correlations and Kondo renormalization—such as renormalized-band methods or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency—are required to obtain a quantitative description of the YbRh2Si2 Fermi surface and quasiparticle masses.",
+              "id": "gcn_34ce9aa28e054fd1"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_9d14afa95eda494a",
+            "premises": [
+              {
+                "content": "YbRh2Si2 exhibits strong local electronic correlations and Kondo-driven heavy quasiparticles (manifest experimentally as large Sommerfeld coefficients and strongly renormalized effective masses), and the conventional local-density approximation within density-functional theory does not capture dynamic local correlations and Kondo renormalization; consequently, LDA is inadequate to quantitatively reproduce the experimentally observed Fermi-surface cross sections and large quasiparticle masses in YbRh2Si2, and many-body electronic-structure methods that explicitly include local dynamic correlations (for example renormalized-band approaches or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency) are required to obtain a quantitative description.",
+                "id": "gcn_b016160b38f34ce7"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start from the conclusion that the refined 'small' LDA calculation for YbRh$_2$Si$_2$ fails to reproduce key experimental quantum-oscillation branches (conclusion 7) and that even refined fully itinerant LDA calculations do not capture the full set of measured branches, as discussed in the comparative analysis.\nFigure 10",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the observed insufficiency of LDA approaches: the refined LDA calculations—both treating Yb 4f states as core ('small' Fermi surface) and as fully itinerant ('large' Fermi surface) using the experimental lattice parameters—do not reproduce the full set of quantum-oscillation branches measured in YbRh$_2$Si$_2$, including the inability of 'small' calculations to produce the $\\sim 14\\,\\text{kT}$ orbit and limited agreement of the 'large' calculations with other angular dependences.\nFigure 10",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Connect these failures to the physics of f-electron correlations: the LDA approach is known to be inadequate for Yb-based heavy-fermion materials where strong correlations and Kondo-driven hybridization between conduction and f electrons renormalize quasiparticle bands and masses; hence LDA's shortcomings in reproducing the experimental frequencies and quasiparticle masses in YbRh$_2$Si$_2$ indicate a requirement for methods that incorporate strong correlation effects.\n[19]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Recommend more sophisticated many-body electronic-structure methods: to account for f-electron correlations, the authors motivate the application of renormalized band approaches (which explicitly treat renormalized quasiparticle bands for heavy-fermion systems) or dynamical mean-field theory (DMFT) methods (which include local dynamic correlations) to obtain a quantitative description of the YbRh$_2$Si$_2$ Fermi surface and quasiparticle masses; these approaches are cited as appropriate extensions beyond LDA.\n[37]\n[38]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Conclude that LDA (both f-core and fully itinerant) is insufficient and that renormalized/DMFT approaches are required: the discrepancies between refined LDA calculations and experimental quantum-oscillation data for YbRh$_2$Si$_2$ motivate the necessity of more sophisticated many-body electronic-structure methods (for example, renormalized band approaches or dynamical mean-field theory) to account for f-electron correlations and to achieve quantitative agreement with experiment.\nFigure 10",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "LDA lacks dynamical correlation effects important for Yb-based heavy-fermion materials and hence can misplace f-derived bands and their hybridization with conduction states, leading to incorrect Fermi-surface topology and effective masses. The failure of both small- and large-Fermi-surface LDA variants—when supplied with accurate structural parameters—to account for YbRh2Si2 quantum-oscillation data indicates that static one-electron approximations are insufficient and that methods incorporating many-body renormalizations and frequency-dependent self-energies are required to resolve the electronic structure of the heavy-fermion compound.",
+            "id": "paper:813199962614530051::conclusion_9_subproblem",
+            "source_package": "paper:813199962614530051"
+          }
+        ],
+        "source_package": "paper:813199962614530051"
+      }
+    ],
+    "papers": {
+      "paper:813199962614530051": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Swee K Goh | Patrick M C Rourke | Pascal Reiss | Michael L Sutherland | F Malte Grosche | Gertrud Zwicknagl | Zachary Fisk",
+        "available_online": "2013-9-10",
+        "cover_date_start": "2013-09-10",
+        "created_at": "2022-12-23T16:06:20+08:00",
+        "doi": "10.1088/1367-2630/15/9/093014",
+        "en_title": "Electronic structure of LuRh 2 Si 2 : ‘small’ Fermi surface reference to YbRh 2 Si 2",
+        "id": "813199962614530051",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "525",
+        "publication_name": "New Journal of Physics _ New J. Phys.",
+        "research_categories": "",
+        "zh_title": "镥铑硅化物（LuRh₂Si₂）的电子结构：与镱铑硅化物（YbRh₂Si₂）相比的“小”费米面 "
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "0b855483aca2ea9de477669c6d86a382"
+}

@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Band-structure calculations carried out within the local-density approximation including spin–orbit coupling (LDA+SOC) for the isostructural compound LuRh₂Si₂ (which has a filled 4f shell and thus models the \"small\" Fermi surface case where the Yb 4f quasihole does not contribute to the Fermi volume) produce a D-sheet Fermi-surface topology whose predicted extremal orbits and angular dependences qualitatively match the experimentally observed dHvA frequencies and angular behavior better than the LDA+SOC calculation for the large-FS YbRh₂Si₂ case; in the experiment all detected dHvA frequencies correspond to hole orbits on the D sheet. Quantitative discrepancies remain—because the heavy-fermion bands in YbRh₂Si₂ are very flat so that Fermi-surface sizes are highly sensitive to small shifts of the Fermi energy—but the band masses m_b computed from the small-FS LDA+SOC D-sheet provide a reference against which the experimentally measured cyclotron masses m^* yield mass enhancements m^*/m_b of order ten, consistent with strong many-body renormalization.",
+      "content_hash": "58dc8289c917310942c2cbf6cb1587df0255c2e3f440bd7ef9250f603c7b4a13",
+      "id": "gcn_d10f91dd4b8e4f21",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Band-structure calculations carried out within the local-density approximation including spin–orbit coupling (LDA+SOC) for the isostructural compound LuRh₂Si₂ (which has a filled 4f shell and thus models the \"small\" Fermi surface case where the Yb 4f quasihole does not contribute to the Fermi volume) produce a D-sheet Fermi-surface topology whose predicted extremal orbits and angular dependences qualitatively match the experimentally observed dHvA frequencies and angular behavior better than the LDA+SOC calculation for the large-FS YbRh₂Si₂ case; in the experiment all detected dHvA frequencies correspond to hole orbits on the D sheet. Quantitative discrepancies remain—because the heavy-fermion bands in YbRh₂Si₂ are very flat so that Fermi-surface sizes are highly sensitive to small shifts of the Fermi energy—but the band masses m_b computed from the small-FS LDA+SOC D-sheet provide a reference against which the experimentally measured cyclotron masses m^* yield mass enhancements m^*/m_b of order ten, consistent with strong many-body renormalization.",
+              "id": "gcn_d10f91dd4b8e4f21"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_7960d27e3ad54880",
+            "premises": [
+              {
+                "content": "Consider electronic-structure calculations performed within the local-density approximation including spin–orbit coupling (LDA+SOC) on two isostructural compounds: LuRh₂Si₂ (with a filled 4f shell, used to represent the \"small\" Fermi surface lacking an itinerant 4f quasihole) and YbRh₂Si₂ (with an active 4f quasihole, used to represent the \"large\" Fermi surface). The assumption is that the LDA+SOC Fermi-surface topology obtained for LuRh₂Si₂ provides a qualitatively accurate representation of the small-FS topology relevant to YbRh₂Si₂ when the 4f electrons are localized, in the sense that extremal-orbit labels (sheet geometry, toroidal vs. non-toroidal features) and approximate angular dependences are comparable, even though quantitative band-energy shifts and strong many-body renormalizations present in YbRh₂Si₂ are not captured by LDA. The use of LuRh₂Si₂ LDA+SOC results as a qualitative guide therefore presumes that isostructural chemical substitution and the neglect of heavy-fermion correlations do not alter the gross Fermi-surface topology relevant to orbit identification.\n      P. M. C. Rourke et al., Phys. Rev. Lett. 101, 237205 (2008)",
+                "id": "gcn_848945fcb6214456"
+              },
+              {
+                "content": "Given a set of experimentally observed dHvA frequencies and angular dependences and a set of calculated extremal frequencies and angular dependences for candidate Fermi-surface sheets from an LDA+SOC calculation, the proposition is that matching of frequencies and angular dependences allows a unique and reliable assignment of each observed branch to a specific calculated orbit (here assignment of experimental branches labeled d5,d6,d8,d11 to the small-FS calculation's D-sheet hole orbits). This presumes that (i) the calculated angular dispersions are qualitatively distinct among candidate sheets, (ii) there are no uncalculated or unexpected pockets producing coincident frequencies, and (iii) the mapping between calculated and observed angular ranges is not confounded by experimental resolution or by branches disappearing/reappearing due to amplitude variations.",
+                "id": "gcn_5090f81994f14b4c"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State the computational approach used for band-structure comparisons: all-itinerant local-density-approximation plus spin-orbit coupling (LDA+SOC) calculations were performed for the \"small\" Fermi surface case using the LuRh$_2$Si$_2$ analogue and for the \"large\" Fermi surface case using YbRh$_2$Si$_2$, employing the WIEN2K electronic-structure code; these calculations produced predicted Fermi-surface topologies labeled by sheet ($D$, $J$, $P$) and were visualized for comparison with experiment.\n[8]\n[9]\nFig. 1",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Explain extraction of predicted dHvA frequencies and band masses from the calculations: predicted dHvA frequencies and band masses $m_b$ were extracted from each calculated Fermi surface sheet using an algorithm described by the authors in prior work, providing theoretical frequency-versus-angle curves and theoretical band masses for comparison to experimental data.\n[14]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Compare calculated small-FS and large-FS frequencies to experiment qualitatively: the paper reports reasonable qualitative agreement between the small-FS calculation and experiment in the 14–16 T field-range data, with the small-FS calculation reproducing many of the observed branches and angular dependences, whereas the large-FS calculation shows significantly poorer qualitative agreement and misses numerous experimentally observed branches in the (100)-(110) crystallographic plane.\nFig. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "State the identification of experimentally observed branches: all experimentally detected dHvA frequencies correspond to hole orbits on the $D$ sheet according to the comparison between experiment and the small-FS calculation, and the matching of labels between calculated orbits (uppercase) and experimental orbits (lowercase) in the figure supports identifying the observed $d$-labelled branches with the $D$-sheet hole orbits of the small-FS calculation.\nFig. 3",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Discuss quantitative discrepancies and their origin as stated by the authors: quantitative agreement is not obtained in detail because heavy-fermion bands are very flat, making Fermi-surface sizes highly sensitive to small shifts in the Fermi energy; the authors therefore treat the LDA+SOC small-FS results as a qualitative guide rather than an exact quantitative prediction.\nFig. 3",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Report the calculated band masses and their use to obtain mass enhancements: the calculated band masses $m_b$ for the small-FS $D$-sheet orbits are tabulated in the paper's Table I, and comparison of these $m_b$ values with the experimentally measured cyclotron masses $m^*$ yields mass enhancements $m^*/m_b$ with an average value $\\sim10(1)$, showing that the calculated band masses provide a reference for quantifying the degree of mass renormalization in this heavy-fermion material.\nTable I",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Conclude the qualitative match and orbit identification: therefore, LDA + spin-orbit-coupling band-structure calculations for the \"small\" Fermi surface produce a $D$-sheet topology whose predicted extremal orbits qualitatively match the experimentally observed dHvA frequencies and angular dependence better than the calculated \"large\" Fermi surface, implying that all experimentally detected frequencies correspond to hole orbits on the $D$ sheet; quantitative discrepancies remain due to the sensitivity of flat heavy-fermion bands to small Fermi-energy shifts, but the calculated band masses $m_b$ provide the reference used to obtain the measured mass enhancements $m^*/m_b\\sim10$.\nFig. 1\nTable I",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Interpreting which theoretical FS topology (small vs large) corresponds to observed quantum oscillations requires direct comparison of predicted extremal orbits and band masses with experiment. Prior to these measurements, there was no comprehensive comparison showing which LDA-based topology better accounts for the observed orbits in the high-field regime near and above $H_0$, nor were the effective-mass renormalizations for identifiable orbits established experimentally. Because heavy-fermion band flatness amplifies sensitivity to small energy shifts, quantitative agreement between LDA predictions and experiment was not guaranteed, leaving open which calculated FS sheet corresponds to observed oscillations and how to relate those observations to scenarios of $4f$ itinerancy versus localization.",
+            "id": "paper:811888199457570817::conclusion_5_subproblem",
+            "source_package": "paper:811888199457570817"
+          }
+        ],
+        "source_package": "paper:811888199457570817"
+      }
+    ],
+    "papers": {
+      "paper:811888199457570817": {
+        "area": "Physics and Astrophysics",
+        "authors": "P. M. C. Rourke | A. McCollam | G. Lapertot | G. Knebel | J. Flouquet | S. R. Julian",
+        "available_online": "2008-12-5",
+        "cover_date_start": "2008-12-05",
+        "created_at": "2022-12-20T01:13:50+08:00",
+        "doi": "10.1103/physrevlett.101.237205",
+        "en_title": "Magnetic-Field Dependence of the YbRh 2 Si 2 Fermi Surface",
+        "id": "811888199457570817",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "YbRh₂Si₂费米面的磁场依赖性"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "eb9d1d44f3e9dde617bd1bbc97ce20a1"
+}

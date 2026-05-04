@@ -1,78 +1,29 @@
 {
-  "Alvesalo1979": {
-    "type": "article-journal",
-    "id": "Alvesalo1979",
-    "title": "Observation of Anomalous Heat Capacity in Liquid He 3 near the Superfluid Transition",
-    "DOI": "10.1103/physrevlett.43.1509",
-    "container-title": "Physical Review Letters",
-    "issued": {
-      "date-parts": [
-        [
-          1979,
-          11,
-          12
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Alvesalo",
-        "given": "T. A."
-      },
-      {
-        "family": "Haavasoja",
-        "given": "T."
-      },
-      {
-        "family": "Main",
-        "given": "P. C."
-      },
-      {
-        "family": "Manninen",
-        "given": "M. T."
-      },
-      {
-        "family": "Ray",
-        "given": "J."
-      },
-      {
-        "family": "Rehn",
-        "given": "Leila M. M."
-      }
-    ]
-  },
   "Shaginyan2010": {
     "type": "article",
     "id": "Shaginyan2010",
     "title": "Energy scales and the non-Fermi liquid behavior in YbRh2Si2",
     "DOI": "10.48550/arXiv.1002.3706",
     "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
-    "issued": {
-      "date-parts": [
-        [
-          2010,
-          2,
-          19
-        ]
-      ]
-    },
+    "issued": {"date-parts": [[2010, 2, 19]]},
     "author": [
-      {
-        "family": "Shaginyan",
-        "given": "V.R."
-      },
-      {
-        "family": "Amusia",
-        "given": "M.Ya."
-      },
-      {
-        "family": "Popov",
-        "given": "K.G."
-      },
-      {
-        "family": "Artamonov",
-        "given": "S.A."
-      }
+      {"family": "Shaginyan", "given": "V.R."},
+      {"family": "Amusia", "given": "M.Ya."},
+      {"family": "Popov", "given": "K.G."},
+      {"family": "Artamonov", "given": "S.A."}
+    ]
+  },
+  "Shaginyan2009": {
+    "type": "article-journal",
+    "id": "Shaginyan2009",
+    "title": "Strongly correlated Fermi-systems: Non-Fermi liquid behavior, quasiparticle effective mass and their interplay",
+    "DOI": "10.1016/j.physleta.2009.04.046",
+    "container-title": "Physics Letters A _ Physics Letters A",
+    "issued": {"date-parts": [[2009, 6]]},
+    "author": [
+      {"family": "Shaginyan", "given": "V.R."},
+      {"family": "Amusia", "given": "M.Ya."},
+      {"family": "Popov", "given": "K.G."}
     ]
   },
   "Friedemann2010": {
@@ -81,56 +32,18 @@
     "title": "Hall effect measurements and electronic structure calculations on YbRh 2 Si 2 and its reference compounds LuRh 2 Si 2 and YbIr 2 Si 2",
     "DOI": "10.1103/physrevb.82.035103",
     "container-title": "Physical Review B _ Phys. Rev. B",
-    "issued": {
-      "date-parts": [
-        [
-          2010,
-          7,
-          6
-        ]
-      ]
-    },
+    "issued": {"date-parts": [[2010, 7, 6]]},
     "author": [
-      {
-        "family": "Friedemann",
-        "given": "Sven"
-      },
-      {
-        "family": "Wirth",
-        "given": "Steffen"
-      },
-      {
-        "family": "Oeschler",
-        "given": "Niels"
-      },
-      {
-        "family": "Krellner",
-        "given": "Cornelius"
-      },
-      {
-        "family": "Geibel",
-        "given": "Christoph"
-      },
-      {
-        "family": "Steglich",
-        "given": "Frank"
-      },
-      {
-        "family": "MaQuilon",
-        "given": "Sam"
-      },
-      {
-        "family": "Fisk",
-        "given": "Zachary"
-      },
-      {
-        "family": "Paschen",
-        "given": "Silke"
-      },
-      {
-        "family": "Zwicknagl",
-        "given": "Gertrud"
-      }
+      {"family": "Friedemann", "given": "Sven"},
+      {"family": "Wirth", "given": "Steffen"},
+      {"family": "Oeschler", "given": "Niels"},
+      {"family": "Krellner", "given": "Cornelius"},
+      {"family": "Geibel", "given": "Christoph"},
+      {"family": "Steglich", "given": "Frank"},
+      {"family": "MaQuilon", "given": "Sam"},
+      {"family": "Fisk", "given": "Zachary"},
+      {"family": "Paschen", "given": "Silke"},
+      {"family": "Zwicknagl", "given": "Gertrud"}
     ]
   },
   "Knebel2006": {
@@ -139,64 +52,20 @@
     "title": "Localization of 4 f State in YbRh 2 Si 2 under Magnetic Field and High Pressure: Comparison with CeRh 2 Si 2",
     "DOI": "10.1143/jpsj.75.114709",
     "container-title": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
-    "issued": {
-      "date-parts": [
-        [
-          2006,
-          11,
-          15
-        ]
-      ]
-    },
+    "issued": {"date-parts": [[2006, 11, 15]]},
     "author": [
-      {
-        "family": "Knebel",
-        "given": "G."
-      },
-      {
-        "family": "Boursier",
-        "given": "R."
-      },
-      {
-        "family": "Hassinger",
-        "given": "E."
-      },
-      {
-        "family": "Lapertot",
-        "given": "G."
-      },
-      {
-        "family": "Niklowitz",
-        "given": "P. G."
-      },
-      {
-        "family": "Pourret",
-        "given": "A."
-      },
-      {
-        "family": "Salce",
-        "given": "B."
-      },
-      {
-        "family": "Sanchez",
-        "given": "J. P."
-      },
-      {
-        "family": "Sheikin",
-        "given": "I."
-      },
-      {
-        "family": "Bonville",
-        "given": "P."
-      },
-      {
-        "family": "Harima",
-        "given": "H."
-      },
-      {
-        "family": "Flouquet",
-        "given": "J."
-      }
+      {"family": "Knebel", "given": "G."},
+      {"family": "Boursier", "given": "R."},
+      {"family": "Hassinger", "given": "E."},
+      {"family": "Lapertot", "given": "G."},
+      {"family": "Niklowitz", "given": "P. G."},
+      {"family": "Pourret", "given": "A."},
+      {"family": "Salce", "given": "B."},
+      {"family": "Sanchez", "given": "J. P."},
+      {"family": "Sheikin", "given": "I."},
+      {"family": "Bonville", "given": "P."},
+      {"family": "Harima", "given": "H."},
+      {"family": "Flouquet", "given": "J."}
     ]
   },
   "Friedemann2013": {
@@ -205,194 +74,148 @@
     "title": "Electronic Structure of LuRh2Si2: \"Small\" Fermi Surface Reference to YbRh2Si2",
     "DOI": "10.48550/arXiv.1305.4555",
     "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
-    "issued": {
-      "date-parts": [
-        [
-          2013,
-          5,
-          20
-        ]
-      ]
-    },
+    "issued": {"date-parts": [[2013, 5, 20]]},
     "author": [
-      {
-        "family": "Friedemann",
-        "given": "Sven"
-      },
-      {
-        "family": "Goh",
-        "given": "Swee K"
-      },
-      {
-        "family": "Rourke",
-        "given": "Patrick M C"
-      },
-      {
-        "family": "Reiss",
-        "given": "Pascal"
-      },
-      {
-        "family": "Sutherland",
-        "given": "Michael L"
-      },
-      {
-        "family": "Grosche",
-        "given": "F Malte"
-      },
-      {
-        "family": "Zwicknagl",
-        "given": "Gertrud"
-      },
-      {
-        "family": "Fisk",
-        "given": "Zachary"
-      }
+      {"family": "Friedemann", "given": "Sven"},
+      {"family": "Goh", "given": "Swee K"},
+      {"family": "Rourke", "given": "Patrick M C"},
+      {"family": "Reiss", "given": "Pascal"},
+      {"family": "Sutherland", "given": "Michael L"},
+      {"family": "Grosche", "given": "F Malte"},
+      {"family": "Zwicknagl", "given": "Gertrud"},
+      {"family": "Fisk", "given": "Zachary"}
     ]
   },
-  "Anderson1984": {
+  "Tokiwa2004": {
     "type": "article-journal",
-    "id": "Anderson1984",
-    "title": "Heavy-electron superconductors, spin fluctuations, and triplet pairing",
-    "DOI": "10.1103/physrevb.30.1549",
-    "container-title": "Physical Review B _ Phys. Rev. B",
-    "issued": {
-      "date-parts": [
-        [
-          1984,
-          8,
-          1
-        ]
-      ]
-    },
+    "id": "Tokiwa2004",
+    "title": "Suppression of the Kondo state in YbRh2Si2 by large magnetic fields",
+    "DOI": "10.1016/j.jmmm.2003.12.398",
+    "container-title": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+    "issued": {"date-parts": [[2004, 5]]},
     "author": [
-      {
-        "family": "Anderson",
-        "given": "P. W."
-      }
+      {"family": "Tokiwa", "given": "Y"},
+      {"family": "Gegenwart", "given": "P"},
+      {"family": "Weickert", "given": "F"},
+      {"family": "Kuchler", "given": "R"},
+      {"family": "Custers", "given": "J"},
+      {"family": "Ferstl", "given": "J"},
+      {"family": "Geibel", "given": "C"},
+      {"family": "Steglich", "given": "F"}
     ]
   },
-  "Capone2001": {
-    "type": "article-journal",
-    "title": "Direct Transition Between a Singlet Mott Insulator and a Superconductor",
-    "DOI": "10.48550/arXiv.cond-mat/0101402",
+  "Seiro2017": {
+    "type": "article",
+    "id": "Seiro2017",
+    "title": "Evolution of the Kondo lattice and non-Fermi liquid excitations in a heavy-fermion metal",
+    "DOI": "10.48550/arXiv.1711.05151",
     "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
-    "issued": {
-      "date-parts": [
-        [
-          2001,
-          1,
-          26
-        ]
-      ]
-    },
+    "issued": {"date-parts": [[2017, 11, 14]]},
     "author": [
-      {
-        "family": "Capone",
-        "given": "M."
-      },
-      {
-        "family": "Fabrizio",
-        "given": "M."
-      },
-      {
-        "family": "Tosatti",
-        "given": "E."
-      }
+      {"family": "Seiro", "given": "S."},
+      {"family": "Jiao", "given": "L."},
+      {"family": "Kirchner", "given": "S."},
+      {"family": "Hartmann", "given": "S."},
+      {"family": "Friedemann", "given": "S."},
+      {"family": "Krellner", "given": "C."},
+      {"family": "Geibel", "given": "C."},
+      {"family": "Si", "given": "Q."},
+      {"family": "Steglich", "given": "F."},
+      {"family": "Wirth", "given": "S."}
     ]
   },
-  "Friedemann2016": {
-    "type": "article-journal",
-    "title": "Large Fermi Surface of Heavy Electrons at the Border of Mott Insulating State in NiS2",
-    "DOI": "10.1038/srep25335",
-    "container-title": "Scientific Reports",
-    "issued": {
-      "date-parts": [
-        [
-          2016
-        ]
-      ]
-    },
+  "Schaufuss2008": {
+    "type": "article",
+    "id": "Schaufuss2008",
+    "title": "Evolution of the Kondo state of YbRh2Si2 probed by high field ESR",
+    "DOI": "10.48550/arXiv.0804.4105",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {"date-parts": [[2008, 4, 25]]},
     "author": [
-      {
-        "family": "Friedemann",
-        "given": "S."
-      },
-      {
-        "family": "Chang",
-        "given": "H."
-      },
-      {
-        "family": "Gamza",
-        "given": "M. B."
-      },
-      {
-        "family": "Reiss",
-        "given": "P."
-      },
-      {
-        "family": "Chen",
-        "given": "X."
-      },
-      {
-        "family": "Alireza",
-        "given": "P."
-      },
-      {
-        "family": "Coniglio",
-        "given": "W. A."
-      },
-      {
-        "family": "Graf",
-        "given": "D."
-      },
-      {
-        "family": "Tozer",
-        "given": "S."
-      },
-      {
-        "family": "Grosche",
-        "given": "F. M."
-      }
+      {"family": "Schaufuss", "given": "U."},
+      {"family": "Kataev", "given": "V."},
+      {"family": "Zvyagin", "given": "A.A."},
+      {"family": "Buchner", "given": "B."},
+      {"family": "Sichelschmidt", "given": "J."},
+      {"family": "Wykhoff", "given": "J."},
+      {"family": "Krellner", "given": "C."},
+      {"family": "Geibel", "given": "C."},
+      {"family": "Steglich", "given": "F."}
     ]
   },
-  "Paramanik2013": {
-    "type": "article-journal",
-    "title": "Valence fluctuation in CeMo2Si2C",
-    "DOI": "10.1016/j.jallcom.2013.05.169",
-    "container-title": "Journal of Alloys and Compounds",
-    "issued": {
-      "date-parts": [
-        [
-          2013,
-          12
-        ]
-      ]
-    },
+  "Pfau2013": {
+    "type": "article",
+    "id": "Pfau2013",
+    "title": "Interplay between Kondo suppression and Lifshitz transitions in YbRh$_2$Si$_2$ at high magnetic fields",
+    "DOI": "10.48550/arXiv.1302.6867",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {"date-parts": [[2013, 2, 27]]},
     "author": [
-      {
-        "family": "Paramanik",
-        "given": "U.B."
-      },
-      {
-        "family": "Anupam",
-        "given": ""
-      },
-      {
-        "family": "Burkhardt",
-        "given": "U."
-      },
-      {
-        "family": "Prasad",
-        "given": "R."
-      },
-      {
-        "family": "Geibel",
-        "given": "C."
-      },
-      {
-        "family": "Hossain",
-        "given": "Z."
-      }
+      {"family": "Pfau", "given": "H."},
+      {"family": "Daou", "given": "R."},
+      {"family": "Lausberg", "given": "S."},
+      {"family": "Naren", "given": "H.R."},
+      {"family": "Brando", "given": "M."},
+      {"family": "Friedemann", "given": "S."},
+      {"family": "Wirth", "given": "S."},
+      {"family": "Westerkamp", "given": "T."},
+      {"family": "Stockert", "given": "U."},
+      {"family": "Gegenwart", "given": "P."},
+      {"family": "Krellner", "given": "C."},
+      {"family": "Geibel", "given": "C."},
+      {"family": "Zwicknagl", "given": "G."},
+      {"family": "Steglich", "given": "F."}
+    ]
+  },
+  "Naren2013": {
+    "type": "article",
+    "id": "Naren2013",
+    "title": "Lifshitz transitions and quasiparticle de-renormalization in YbRh$_2$Si$_2$",
+    "DOI": "10.48550/arXiv.1307.0436",
+    "container-title": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+    "issued": {"date-parts": [[2013, 7, 1]]},
+    "author": [
+      {"family": "Naren", "given": "H. R."},
+      {"family": "Friedemann", "given": "S."},
+      {"family": "Zwicknagl", "given": "G."},
+      {"family": "Krellner", "given": "C."},
+      {"family": "Geibel", "given": "C."},
+      {"family": "Steglich", "given": "F."},
+      {"family": "Wirth", "given": "S."}
+    ]
+  },
+  "Rourke2008": {
+    "type": "article-journal",
+    "id": "Rourke2008",
+    "title": "Magnetic-Field Dependence of the YbRh 2 Si 2 Fermi Surface",
+    "DOI": "10.1103/physrevlett.101.237205",
+    "container-title": "Physical Review Letters _ Phys. Rev. Lett.",
+    "issued": {"date-parts": [[2008, 12, 5]]},
+    "author": [
+      {"family": "Rourke", "given": "P. M. C."},
+      {"family": "McCollam", "given": "A."},
+      {"family": "Lapertot", "given": "G."},
+      {"family": "Knebel", "given": "G."},
+      {"family": "Flouquet", "given": "J."},
+      {"family": "Julian", "given": "S. R."}
+    ]
+  },
+  "Friedemann2013b": {
+    "type": "article-journal",
+    "id": "Friedemann2013b",
+    "title": "Electronic structure of LuRh 2 Si 2 : 'small' Fermi surface reference to YbRh 2 Si 2",
+    "DOI": "10.1088/1367-2630/15/9/093014",
+    "container-title": "New Journal of Physics _ New J. Phys.",
+    "issued": {"date-parts": [[2013, 9, 10]]},
+    "author": [
+      {"family": "Friedemann", "given": "Sven"},
+      {"family": "Goh", "given": "Swee K"},
+      {"family": "Rourke", "given": "Patrick M C"},
+      {"family": "Reiss", "given": "Pascal"},
+      {"family": "Sutherland", "given": "Michael L"},
+      {"family": "Grosche", "given": "F Malte"},
+      {"family": "Zwicknagl", "given": "Gertrud"},
+      {"family": "Fisk", "given": "Zachary"}
     ]
   }
 }

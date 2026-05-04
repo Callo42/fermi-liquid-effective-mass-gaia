@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Combining high-resolution magnetotransport data (magnetoresistance and Hall-effect measurements on YbRh2Si2 down to 50 mK and up to 15 T) with the field-dependent renormalized-band calculations (which track minority-spin van Hove peak positions and band-resolved Fermi-surface topology), the experimental anomalies at B1 ≈ 3 T, B2 ≈ 9 T and B3 ≈ 11–11.5 T can be assigned to Zeeman-driven Lifshitz transitions of the heavy-fermion bands that occur within relatively narrow field windows and generate the abrupt transport signatures, whereas the overall suppression of Kondo quasiparticle weight (quasiparticle de-renormalization) proceeds as a comparatively smooth crossover over a broader field range and is manifested experimentally by a gradual change of Hall-derived carrier indicators and by the temperature-independent, linear Hall response at the highest fields; thus the data support a picture in which sharp Fermi-surface topology changes and smooth Kondo de-renormalization coexist and have distinct field dependences in YbRh2Si2.",
+      "content_hash": "f4e85e126820aa40968b853c3fd9874ea881dacc5deff71255b4aa9a28c77da3",
+      "id": "gcn_b5d9fe70ddb84b9d",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Combining high-resolution magnetotransport data (magnetoresistance and Hall-effect measurements on YbRh2Si2 down to 50 mK and up to 15 T) with the field-dependent renormalized-band calculations (which track minority-spin van Hove peak positions and band-resolved Fermi-surface topology), the experimental anomalies at B1 ≈ 3 T, B2 ≈ 9 T and B3 ≈ 11–11.5 T can be assigned to Zeeman-driven Lifshitz transitions of the heavy-fermion bands that occur within relatively narrow field windows and generate the abrupt transport signatures, whereas the overall suppression of Kondo quasiparticle weight (quasiparticle de-renormalization) proceeds as a comparatively smooth crossover over a broader field range and is manifested experimentally by a gradual change of Hall-derived carrier indicators and by the temperature-independent, linear Hall response at the highest fields; thus the data support a picture in which sharp Fermi-surface topology changes and smooth Kondo de-renormalization coexist and have distinct field dependences in YbRh2Si2.",
+              "id": "gcn_b5d9fe70ddb84b9d"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_3419693df9e1427e",
+            "premises": [
+              {
+                "content": "In a multiband metal such as YbRh2Si2, if two distinct Fermi-surface sheets (here identified as band 35 and band 37) each undergo Lifshitz transitions at similar magnetic fields but produce Hall-coefficient changes of opposite sign and comparable magnitude, their net contributions can partially cancel so that the total Hall coefficient R_H shows only a weak or absent signature near the intermediate transition field B2; this compensation scenario is viable given the presence of multiple bands but is not uniquely established by the available transport data.",
+                "id": "gcn_6ca2b25227f04480"
+              },
+              {
+                "content": "Thermopower (Seebeck coefficient) measurements performed on a sample from the same crystal-growth batch as the magnetotransport samples show anomalies at similar magnetic fields (features around 9–11 T and an additional feature near ≈9.5 T), which corroborates that the transport anomalies observed in magnetotransport (magnetoresistance and Hall effect) have an electronic-structure origin such as Lifshitz transitions, under the reasonable assumption that thermopower and charge transport are both sensitive to changes in the energy-dependent transport scattering and the density of states near the Fermi level.",
+                "id": "gcn_3ba45e9eb8b44e29"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State which upstream results are being taken as established: (a) the renormalized-band calculations predict three Lifshitz transitions at $B_{1}=2.5\\pm1\\,$T, $B_{2}=9\\pm1\\,$T and $B_{3}=11\\pm1\\,$T with identified band-specific topology changes (this conclusion is available from the renormalized-band analysis), (b) the calculated quasiparticle de-renormalization (field-induced suppression of Kondo quasiparticle weight) is smooth and by itself cannot produce a sharp 10 T anomaly (this is the computational insight about DOS(B)), (c) the magnetotransport experiments detect sharp anomalies at approximately $3\\,$T, $9\\,$T and $11$–$11.5\\,$T (this is the empirical observation), and (d) high-field Hall data collapse to a temperature-independent linear behavior indicating an ordinary polarized-metal limit and a progressive reduction in effective carrier density with field. These upstream results are treated as known starting points.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Establish the correspondence between calculated LT fields and experimental anomalies: the three field-localized anomalies observed in magnetoresistance and Hall measurements (approximately $3\\,$T, $9\\,$T and $11$–$11.5\\,$T) coincide, within experimental and theoretical uncertainties, with the calculated fields at which the minority-spin van Hove singularity crosses $E_{F}$ and induces band-specific topology changes ($B_{1}$, $B_{2}$, $B_{3}$); thus the experimental anomalies can be assigned to Lifshitz transitions of the heavy-fermion bands driven by Zeeman shifting of narrow f-derived features.\nFig. 1\nFig. 2",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Explain why discrete LTs produce abrupt transport signatures while de-renormalization produces smooth changes: Lifshitz transitions change the Fermi-surface topology within relatively narrow field windows (for example neck formation/disruption or pocket disappearance) and thereby abruptly modify transport-sensitive quantities such as the existence of open versus closed orbits and the carrier contributions of particular bands; in contrast, the Kondo quasiparticle de-renormalization calculated in the renormalized-band approach reduces quasiparticle spectral weight continuously over a broader field range, causing gradual changes in Hall-derived carrier indicators and bulk DOS-sensitive coefficients rather than sharp jumps.\nFig. 1\nFig. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Use the observed high-field Hall behavior to support gradual Kondo suppression: the empirical collapse of $\\varrho_{xy}(T,B)$ onto a temperature-independent linear-in-$B$ curve for $B\\gtrsim12\\,$T (with negligible anomalous-Hall contribution at low $T$) and the monotonic increase of $R_{H}$ with $B$ up to high temperatures indicate a progressive reduction of effective carrier density (consistent with progressive removal of f-electrons from the Fermi volume), corroborating the computed smooth de-renormalization rather than an abrupt Kondo breakdown.\nFig. 3\nFig. 4",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Address band-specific sensitivity and partial compensation effects: the calculations identify two main bands (bands 35 and 37) that contribute differently to the DOS and undergo distinct LTs; the experimental Hall coefficient shows a strong response at $B_{1}$ and $B_{3}$ but a weaker net signature near $B_{2}$, which the authors attribute to possible compensation between the two bands' contributions (i.e., transitions in different bands producing partially cancelling changes in transport coefficients), a conjecture supported by thermopower data on the same batch that show multiple features in the 9–11 T range.\nFig. 1\nRef. 27\nRef. 29",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Conclude the coexistence picture and its implications: because (i) the renormalized-band calculations place van Hove-driven Lifshitz transitions at fields matching the transport anomalies, (ii) the calculations show a smooth de-renormalization that cannot by itself account for sharp anomalies, and (iii) the high-field Hall evolution indicates progressive removal of f-electrons, the combined experimental–theoretical evidence supports a picture in which sharp topology changes (Lifshitz transitions) and a comparatively smooth Kondo quasiparticle de-renormalization coexist and have distinct field dependences in $YbRh_{2}Si_{2}$.\nFig. 1\nFig. 2\nFig. 3\nFig. 4",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Before this combined experimental–theoretical study, it was ambiguous whether observed high-field anomalies in YbRh2Si2 originate from abrupt Kondo destruction, from topology changes of heavy bands due to Zeeman effects, or from some interplay of both. Resolving this ambiguity requires (i) transport measurements that can detect topology-sensitive signatures (kinks, steps, inflections) across a wide field range and at millikelvin temperatures, and (ii) renormalized-band calculations that predict both the field values at which van Hove singularities cross the Fermi level and the separate, smooth evolution of quasiparticle renormalization. By providing both elements and showing correspondence between calculated LT fields and experimentally observed transport anomalies, the present results specifically address the prior gap in attributing the 10 T-scale anomaly and nearby features to LTs while characterizing the concurrent, but smoother, Kondo de-renormalization.",
+            "id": "paper:867773002954047503::conclusion_5_subproblem",
+            "source_package": "paper:867773002954047503"
+          }
+        ],
+        "source_package": "paper:867773002954047503"
+      }
+    ],
+    "papers": {
+      "paper:867773002954047503": {
+        "area": "arXiv-Physics",
+        "authors": "H. R. Naren | S. Friedemann | G. Zwicknagl | C. Krellner | C. Geibel | F. Steglich | S. Wirth",
+        "available_online": "",
+        "cover_date_start": "2013-07-01",
+        "created_at": "2023-05-23T06:20:06+08:00",
+        "doi": "10.48550/arXiv.1307.0436",
+        "en_title": "Lifshitz transitions and quasiparticle de-renormalization in YbRh$_2$Si$_2$",
+        "id": "867773002954047503",
+        "keywords": "",
+        "publication_date": "2013-07-01",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "镱铑硅化物（YbRh₂Si₂）中的里夫希茨转变和准粒子去重整化"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "b1423a7016c0f9a0b55629d8ba744a22"
+}

@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The combination of experimental facts — (i) the presence of a strongly anisotropic and persistent ESR line in YbRh2Si2, (ii) a g-factor whose temperature and magnetic-field dependences mirror the temperature- and field-dependent Sommerfeld coefficient γ = C_el/T and the 29Si NMR Knight shift and 1/(T1T), and (iii) a linewidth that acquires a T² low-temperature behaviour together with a field-dependent residual broadening — demonstrates that the observed ESR in YbRh2Si2 is a resonance excitation of the coherent heavy quasiparticles that form below the single-ion Kondo (spin-fluctuation) scale T_K ≃ T_0 ≈ 25 K. Consequently, the ESR parameters (the resonance field B_res or equivalently the resonance g, and the linewidth ΔB) are governed by the field- and temperature-dependent quasiparticle effective mass m*(B,T), the quasiparticle density of states at the Fermi level N(E_F;B,T), and the quasiparticle spin relaxation times; therefore ESR provides direct experimental access to the dynamics and evolution of the Kondo state and to the crossover between non–Fermi-liquid and Landau Fermi-liquid regimes in this Kondo-lattice system.",
+      "content_hash": "060f3c8da3838cb371c2aa2d08c2dba12e7b1c8092d2a6a8af4164e87cbb9f2b",
+      "id": "gcn_d8b1b53ca8b44189",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The combination of experimental facts — (i) the presence of a strongly anisotropic and persistent ESR line in YbRh2Si2, (ii) a g-factor whose temperature and magnetic-field dependences mirror the temperature- and field-dependent Sommerfeld coefficient γ = C_el/T and the 29Si NMR Knight shift and 1/(T1T), and (iii) a linewidth that acquires a T² low-temperature behaviour together with a field-dependent residual broadening — demonstrates that the observed ESR in YbRh2Si2 is a resonance excitation of the coherent heavy quasiparticles that form below the single-ion Kondo (spin-fluctuation) scale T_K ≃ T_0 ≈ 25 K. Consequently, the ESR parameters (the resonance field B_res or equivalently the resonance g, and the linewidth ΔB) are governed by the field- and temperature-dependent quasiparticle effective mass m*(B,T), the quasiparticle density of states at the Fermi level N(E_F;B,T), and the quasiparticle spin relaxation times; therefore ESR provides direct experimental access to the dynamics and evolution of the Kondo state and to the crossover between non–Fermi-liquid and Landau Fermi-liquid regimes in this Kondo-lattice system.",
+              "id": "gcn_d8b1b53ca8b44189"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_44921f1b7d4e4c4a",
+            "premises": [
+              {
+                "content": "The identification of the observed ESR in YbRh2Si2 as a collective resonance of the coherent heavy quasiparticles formed below T_0 ≈ 25 K rests on (a) the empirical coincidence of crossovers in the ESR g-factor and linewidth with crossovers seen in thermodynamic (Sommerfeld coefficient γ) and 29Si NMR observables, and (b) theoretical proposals that many-body narrowing, aided by ferromagnetic correlations or by anisotropic electron-electron interactions, can render a collective ESR observable in a Kondo lattice; this identification therefore requires that (i) a collective heavy-quasiparticle mode exists with a sufficiently long lifetime and that the mode inherits the anisotropic g-factor character of the 4f states through strong hybridization, and (ii) quantitatively adequate alternative scenarios — such as a residual ESR signal of localized Yb3+ moments surviving despite Kondo screening, a conventional conduction-electron spin resonance surviving in spite of strong spin-orbit scattering, or an electron-bottleneck cross-relaxation regime between localized and itinerant spins — are excluded in the same temperature–field domain.\n      Theoretical proposals cited in the paper: Abrahams & Wölfle (arXiv:0808.0892), Zvyagin et al. (unpublished)",
+                "id": "gcn_a76225d44bfb476d"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State which upstream conclusions are being taken as established starting points for this derivation: accept as known the results of conclusion 1 (a clear, strongly anisotropic ESR resonance exists for $B\\perp c$ and persists up to $\\sim 8\\,$T), conclusion 2 (the ESR $g$-factor $g(T,B)$ shows a $-\\ln T$ to constant crossover and its low-$T$ change correlates with the Sommerfeld coefficient $\\gamma$ and $^{29}$Si NMR quantities, so $g$ reflects the heavy-quasiparticle spin susceptibility), and conclusion 3 (the ESR linewidth $\\Delta B(T)$ exhibits a hump near $7$–$8\\,$K and a low-$T$ $\\Delta B\\propto T^{2}$ regime in strong fields with residual width scaling $\\sim B^{2}$, consistent with a change to QP–QP scattering).",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Summarize how the anisotropy observed in conclusion 1 constrains the microscopic character of the resonant species: the observed strong anisotropy (a large $g$ for $B\\perp c$ and no detectable ESR for $B\\parallel c$) mirrors the strong single-ion-like magnetic anisotropy of Yb$^{3+}$ 4f states and thus indicates that the resonant degrees of freedom inherit substantial 4f-anisotropic character rather than being featureless, isotropic conduction-electron spin resonance; this observation is compatible with quasiparticles that are coherent hybrids of 4f and conduction-electron states and thereby carry anisotropic $g$-tensor fingerprints of the 4f orbitals. \nFig. 1",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Use conclusion 2 to link the ESR static response to quasiparticle thermodynamics: because the ESR $g$-factor exhibits the same field- and temperature-dependent enhancement and crossover as the Sommerfeld coefficient $\\gamma$ and $^{29}$Si NMR Knight shift (all quantities sensitive to $N(E_{F})$ and $m^{*}$), the uniform transverse spin response probed by ESR is tracking the heavy-quasiparticle spin susceptibility $\\chi_{p}\\propto N(E_{F})\\propto m^{*}$; this implies that the resonance frequency (encoded in $g$) is governed by the field-dependent quasiparticle effective mass $m^{*}(B,T)$ and density of states $N(E_{F};B,T)$ rather than by purely local unscreened 4f moments or ordinary conduction electrons. \nFig. 2",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Use conclusion 3 to connect the ESR relaxation dynamics to quasiparticle scattering: the emergence of a low-temperature $\\Delta B\\propto T^{2}$ linewidth law and a residual width scaling approximately as $B^{2}$ indicates that spin relaxation of the resonant species is governed at low $T$ and in strong fields by quasiparticle–quasiparticle scattering channels characteristic of a Landau Fermi-liquid; since such QP–QP channels are the expected dominant spin-relaxation mechanisms for coherent heavy quasiparticles, the linewidth behavior supports identifying the resonant entity as the heavy quasiparticles. \nFig. 3",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Integrate the static (g-factor) and dynamic (linewidth) evidence together with the anisotropy to reach the identification: combining (i) the anisotropic and persistent ESR line that carries 4f-like anisotropy, (ii) the $g$-factor temperature and field dependences that quantitatively mirror thermodynamic and NMR indicators of heavy-quasiparticle formation (Sommerfeld coefficient $\\gamma$ and $^{29}$Si NMR Knight shift and $1/(T_{1}T)$), and (iii) the linewidth evolution into a $T^{2}$ low-temperature law with $B^{2}$-like residual broadening consistent with QP–QP scattering in an LFL, one concludes that the observed ESR is a resonance excitation of the heavy quasiparticles formed below the single-ion Kondo scale $T_{K}\\sim T_{0}\\approx 25\\,$K rather than a simple localized-ion or pure conduction-electron resonance. \nFig. 1\nFig. 2",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "State the consequence of this identification for the interpretation and use of ESR in this material: as a consequence of identifying the resonance as a heavy-electron spin resonance, ESR parameters (resonance field/resonance $g$, linewidth $\\Delta B$) are governed by the field- and temperature-dependent quasiparticle effective mass $m^{*}(B,T)$, density of states $N(E_{F};B,T)$, and their spin relaxation times $T_{1}$/$T_{2}^{*}$; therefore ESR provides direct experimental access to the dynamics and evolution of the Kondo state and the crossover between non-Fermi-liquid (NFL) and LFL regimes in this Kondo lattice. \nFig. 3",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Record the authors' qualification about the level of theoretical completeness: the identification is presented as a qualitative/conjectural interpretation grounded in the ensemble of experimental correspondences rather than as a full microscopic derivation; the paper explicitly recognizes that the precise microscopic mechanism by which coherent Kondo hybridization produces a narrow, anisotropic collective ESR mode and the quantitative inheritance of 4f anisotropy by itinerant quasiparticles require further theoretical development. \n[14]",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "A central unresolved issue was whether ESR could serve as a direct probe of heavy-quasiparticle dynamics in a concentrated Kondo lattice: previous narrow-ESR observations were ambiguous between local-moment and conduction-electron scenarios and hence could not be used to study quasiparticle formation and crossovers experimentally. There existed no comprehensive experimental demonstration that ESR observables quantitatively follow the same field- and temperature-dependent renormalizations known from thermodynamics and NMR for heavy fermions. Without establishing ESR as a heavy-quasiparticle resonance, it was impossible to exploit ESR to follow the evolution of the Kondo state with applied field and temperature. Demonstrating that ESR reflects $m^{*}(B,T)$ and QP lifetimes fills this gap and enables a new spectroscopic window onto Kondo-lattice many-body physics.",
+            "id": "paper:867762218521854503::conclusion_4_subproblem",
+            "source_package": "paper:867762218521854503"
+          }
+        ],
+        "source_package": "paper:867762218521854503"
+      }
+    ],
+    "papers": {
+      "paper:867762218521854503": {
+        "area": "arXiv-Physics",
+        "authors": "U. Schaufuß | V. Kataev | A.A. Zvyagin | B. Büchner | J. Sichelschmidt | J. Wykhoff | C. Krellner | C. Geibel | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2008-04-25",
+        "created_at": "2023-05-23T05:37:15+08:00",
+        "doi": "10.48550/arXiv.0804.4105",
+        "en_title": "Evolution of the Kondo state of YbRh2Si2 probed by high field ESR",
+        "id": "867762218521854503",
+        "keywords": "",
+        "publication_date": "2008-04-25",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "通过高场电子自旋共振探测YbRh₂Si₂近藤态的演化"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "8b801ca1e587543cb02dae730fadd496"
+}

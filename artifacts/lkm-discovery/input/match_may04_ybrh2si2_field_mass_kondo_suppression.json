@@ -1,0 +1,329 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:812369321199140865": {
+        "area": "Material science",
+        "authors": "Y Tokiwa | P Gegenwart | F Weickert | R Küchler | J Custers | J Ferstl | C Geibel | F Steglich",
+        "available_online": "",
+        "cover_date_start": "2004-05-01",
+        "created_at": "2022-12-21T09:05:40+08:00",
+        "doi": "10.1016/j.jmmm.2003.12.398",
+        "en_title": "Suppression of the Kondo state in YbRh2Si2 by large magnetic fields",
+        "id": "812369321199140865",
+        "keywords": "[{\"en_name\": \"Heavy-Fermion systems\", \"ch_name\": \"\"}, {\"en_name\": \"YbRh<sub>2</sub>Si<sub>2</sub>\", \"ch_name\": \"\"}]",
+        "publication_date": "2004-5",
+        "publication_id": "2151",
+        "publication_name": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+        "research_categories": "",
+        "zh_title": "强磁场对YbRh₂Si₂中近藤态的抑制作用"
+      },
+      "paper:812820668553887745": {
+        "area": "Physics and Astrophysics",
+        "authors": "Binod K. Rai | S. Chikara | Xiaxin Ding | Iain W. H. Oswald | R. Schönemann | V. Loganathan | A. M. Hallas | H. B. Cao | Macy Stavinoha | T. Chen | Haoran Man | Scott Carr | John Singleton | Vivien Zapf | Katherine A. Benavides | Julia Y. Chan | Q. R. Zhang | D. Rhodes | Y. C. Chiu | Luis Balicas | A. A. Aczel | Q. Huang | Jeffrey W. Lynn | J. Gaudet | D. A. Sokolov | H. C. Walker | D. T. Adroja | Pengcheng Dai | Andriy H. Nevidomskyy | C.-L. Huang | E. Morosan",
+        "available_online": "2018-12-13",
+        "cover_date_start": "2018-12-13",
+        "created_at": "2022-12-22T14:59:08+08:00",
+        "doi": "10.1103/physrevx.8.041047",
+        "en_title": "Anomalous Metamagnetism in the Low Carrier Density Kondo Lattice YbRh 3 Si 7",
+        "id": "812820668553887745",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\", \"Condensed Matter Physics\"]",
+        "zh_title": "低载流子密度近藤晶格YbRh₃Si₇中的反常亚磁现象"
+      },
+      "paper:813199962614530051": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sven Friedemann | Swee K Goh | Patrick M C Rourke | Pascal Reiss | Michael L Sutherland | F Malte Grosche | Gertrud Zwicknagl | Zachary Fisk",
+        "available_online": "2013-9-10",
+        "cover_date_start": "2013-09-10",
+        "created_at": "2022-12-23T16:06:20+08:00",
+        "doi": "10.1088/1367-2630/15/9/093014",
+        "en_title": "Electronic structure of LuRh 2 Si 2 : ‘small’ Fermi surface reference to YbRh 2 Si 2",
+        "id": "813199962614530051",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "525",
+        "publication_name": "New Journal of Physics _ New J. Phys.",
+        "research_categories": "",
+        "zh_title": "镥铑硅化物（LuRh₂Si₂）的电子结构：与镱铑硅化物（YbRh₂Si₂）相比的“小”费米面 "
+      },
+      "paper:867751170880307999": {
+        "area": "arXiv-Physics",
+        "authors": "J. Sichelschmidt | T. Kambe | I. Fazlishanov | D. Zakharov | H.-A. Krug von Nidda | J. Wykhoff | A. Skvortsova | S. Belov | A. Kutuzov | B.I. Kochelaev | V. Pashchenko | M. Lang | C. Krellner | C. Geibel | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2009-08-25",
+        "created_at": "2023-05-23T04:53:21+08:00",
+        "doi": "10.48550/arXiv.0908.3557",
+        "en_title": "Low temperature properties of the Electron Spin Resonance in YbRh2Si2",
+        "id": "867751170880307999",
+        "keywords": "",
+        "publication_date": "2009-08-25",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "YbRh₂Si₂中电子自旋共振的低温特性"
+      },
+      "paper:867761748805944216": {
+        "area": "arXiv-Physics",
+        "authors": "H. Pfau | R. Daou | S. Lausberg | H.R. Naren | M. Brando | S. Friedemann | S. Wirth | T. Westerkamp | U. Stockert | P. Gegenwart | C. Krellner | C. Geibel | G. Zwicknagl | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2013-02-27",
+        "created_at": "2023-05-23T05:35:23+08:00",
+        "doi": "10.48550/arXiv.1302.6867",
+        "en_title": "Interplay between Kondo suppression and Lifshitz transitions in YbRh$_2$Si$_2$ at high magnetic fields",
+        "id": "867761748805944216",
+        "keywords": "",
+        "publication_date": "2013-02-27",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "高磁场下YbRh₂Si₂中近藤效应抑制与里夫希茨转变之间的相互作用"
+      },
+      "paper:867762218521854503": {
+        "area": "arXiv-Physics",
+        "authors": "U. Schaufuß | V. Kataev | A.A. Zvyagin | B. Büchner | J. Sichelschmidt | J. Wykhoff | C. Krellner | C. Geibel | F. Steglich",
+        "available_online": "",
+        "cover_date_start": "2008-04-25",
+        "created_at": "2023-05-23T05:37:15+08:00",
+        "doi": "10.48550/arXiv.0804.4105",
+        "en_title": "Evolution of the Kondo state of YbRh2Si2 probed by high field ESR",
+        "id": "867762218521854503",
+        "keywords": "",
+        "publication_date": "2008-04-25",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "通过高场电子自旋共振探测YbRh₂Si₂近藤态的演化"
+      },
+      "paper:867772725953823394": {
+        "area": "arXiv-Physics",
+        "authors": "S. Seiro | L. Jiao | S. Kirchner | S. Hartmann | S. Friedemann | C. Krellner | C. Geibel | Q. Si | F. Steglich | S. Wirth",
+        "available_online": "",
+        "cover_date_start": "2017-11-14",
+        "created_at": "2023-05-23T06:19:00+08:00",
+        "doi": "10.48550/arXiv.1711.05151",
+        "en_title": "Evolution of the Kondo lattice and non-Fermi liquid excitations in a heavy-fermion metal",
+        "id": "867772725953823394",
+        "keywords": "",
+        "publication_date": "2017-11-14",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "重费米子金属中近藤晶格的演化及非费米液体激发"
+      },
+      "paper:867773002954047503": {
+        "area": "arXiv-Physics",
+        "authors": "H. R. Naren | S. Friedemann | G. Zwicknagl | C. Krellner | C. Geibel | F. Steglich | S. Wirth",
+        "available_online": "",
+        "cover_date_start": "2013-07-01",
+        "created_at": "2023-05-23T06:20:06+08:00",
+        "doi": "10.48550/arXiv.1307.0436",
+        "en_title": "Lifshitz transitions and quasiparticle de-renormalization in YbRh$_2$Si$_2$",
+        "id": "867773002954047503",
+        "keywords": "",
+        "publication_date": "2013-07-01",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "镱铑硅化物（YbRh₂Si₂）中的里夫希茨转变和准粒子去重整化"
+      }
+    },
+    "variables": [
+      {
+        "content": "The combination of experimental facts — (i) the presence of a strongly anisotropic and persistent ESR line in YbRh2Si2, (ii) a g-factor whose temperature and magnetic-field dependences mirror the temperature- and field-dependent Sommerfeld coefficient γ = C_el/T and the 29Si NMR Knight shift and 1/(T1T), and (iii) a linewidth that acquires a T² low-temperature behaviour together with a field-dependent residual broadening — demonstrates that the observed ESR in YbRh2Si2 is a resonance excitation of the coherent heavy quasiparticles that form below the single-ion Kondo (spin-fluctuation) scale T_K ≃ T_0 ≈ 25 K. Consequently, the ESR parameters (the resonance field B_res or equivalently the resonance g, and the linewidth ΔB) are governed by the field- and temperature-dependent quasiparticle effective mass m*(B,T), the quasiparticle density of states at the Fermi level N(E_F;B,T), and the quasiparticle spin relaxation times; therefore ESR provides direct experimental access to the dynamics and evolution of the Kondo state and to the crossover between non–Fermi-liquid and Landau Fermi-liquid regimes in this Kondo-lattice system.",
+        "content_hash": "060f3c8da3838cb371c2aa2d08c2dba12e7b1c8092d2a6a8af4164e87cbb9f2b",
+        "id": "gcn_d8b1b53ca8b44189",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762218521854503::conclusion_4",
+            "package_id": "paper:867762218521854503",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762218521854503"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.032018442622950824,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The combined phenomenology of YbRh2Si2 in magnetic field is explained by the interplay of three microscopic ingredients: (a) the crystalline-electric-field (CEF) ground-state symmetry of the Yb3+ ion that produces a strongly anisotropic 4f–conduction hybridization matrix element and an enhanced anisotropy of the quasiparticle effective g factor, (b) a smooth, field-driven suppression of local Kondo screening that continuously reduces the quasiparticle effective mass m*(B) and modifies the amplitude of the Kondo-derived coherence peak (manifested as a field-dependent Sommerfeld–Wilson ratio and a moderate continuous reduction of the electronic Sommerfeld coefficient γ(B)), and (c) coherence effects intrinsic to the periodic Kondo lattice that create sharp van Hove–type structures (flattened dispersions or peaks) in the renormalized quasiparticle DOS so that Zeeman spin-splitting moves these DOS features through the Fermi energy and produces successive Lifshitz transitions; this combined mechanism accounts quantitatively for why distinct Lifshitz transitions appear at fields of order the Kondo scale, why the effective mass diminishes continuously while transport and thermodynamic observables show abrupt changes at specific fields, and why multiple transitions (three in these experiments) can occur instead of a single metamagnetic jump.",
+        "content_hash": "78b270b2103b3341d29f34caa557b9b865a7a5c23a711454a32e41763d485523",
+        "id": "gcn_4d206f9ebed246c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761748805944216::conclusion_5",
+            "package_id": "paper:867761748805944216",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761748805944216"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.031024531024531024,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The renormalized-band calculation exhibits a quasiparticle spectral weight associated with the narrow Kondo-derived f-electron peak that decreases smoothly with increasing magnetic field B (the computed peak amplitude and derived low-energy effective-mass indicators vary continuously and only gradually across the ≈10 T scale); under the assumption that the renormalized-band treatment captures the essential field-dependent many-body physics responsible for Kondo screening in the periodic lattice, this calculated smooth decrease is taken to imply that in the real material YbRh2Si2 the Kondo-singlet-derived quasiparticle weight is suppressed by a smooth crossover as a function of B rather than by an abrupt, discontinuous (first-order) transition at that field scale.",
+        "content_hash": "5d33f5115dbc40715e8d3bd31edb5d86f1c2d0adf645d5897340d54f29ee7348",
+        "id": "gcn_174cfbc169e04bc9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773002954047503::P5",
+            "package_id": "paper:867773002954047503",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773002954047503"
+          ]
+        },
+        "role": "premise",
+        "score": 0.030834914611005692,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Combining high-resolution magnetotransport data (magnetoresistance and Hall-effect measurements on YbRh2Si2 down to 50 mK and up to 15 T) with the field-dependent renormalized-band calculations (which track minority-spin van Hove peak positions and band-resolved Fermi-surface topology), the experimental anomalies at B1 ≈ 3 T, B2 ≈ 9 T and B3 ≈ 11–11.5 T can be assigned to Zeeman-driven Lifshitz transitions of the heavy-fermion bands that occur within relatively narrow field windows and generate the abrupt transport signatures, whereas the overall suppression of Kondo quasiparticle weight (quasiparticle de-renormalization) proceeds as a comparatively smooth crossover over a broader field range and is manifested experimentally by a gradual change of Hall-derived carrier indicators and by the temperature-independent, linear Hall response at the highest fields; thus the data support a picture in which sharp Fermi-surface topology changes and smooth Kondo de-renormalization coexist and have distinct field dependences in YbRh2Si2.",
+        "content_hash": "f4e85e126820aa40968b853c3fd9874ea881dacc5deff71255b4aa9a28c77da3",
+        "id": "gcn_b5d9fe70ddb84b9d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773002954047503::conclusion_5",
+            "package_id": "paper:867773002954047503",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773002954047503"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.029513888888888888,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The measured, field- and temperature-dependent ESR observables in YbRh2Si2 — specifically (i) the Kondo-like logarithmic temperature variation of the g-factor g(T) above T* quantified by δg(B) = g(2 K) − g(20 K), (ii) the low-temperature linear-in-T linewidth ΔB(T) = a + b·T with a and b showing field-dependent (approximately B^2) variations, and (iii) the effective relaxation time τ_eff = B_res/(νΔB) whose field dependence tracks γ0(B) and √A(B) — demonstrate that these ESR parameters reflect inherent heavy-electron properties of this Kondo-lattice heavy-fermion compound: δg(B) correlates with the Sommerfeld coefficient γ0(B) ∝ m* and τ_eff correlates with √A(B) ∝ m*, and therefore ESR can be used as an experimental probe of quasiparticle mass renormalization and quasiparticle scattering in YbRh2Si2.",
+        "content_hash": "fbb0c26e81180f8279db1791764f4d7edebb1d4632784c797243124cfc3248e9",
+        "id": "gcn_ba7e9c8eeb764646",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751170880307999::conclusion_5",
+            "package_id": "paper:867751170880307999",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751170880307999"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02877846790890269,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For stoichiometric YbRh2Si2 the onset of lattice Kondo correlations is detectable around the coherence scale $T_{\\rm coh}\\approx T_{\\rm K}\\approx25$–30 K (the effective single‑ion Kondo or transport coherence temperature extracted from bulk probes), yet the lattice Kondo correlations reach a regime in which they dominate low‑energy electronic properties only below the crossover temperature $T_{\\mathrm{P}}\\approx3.3\\ \\mathrm{K}$, i.e., at $T_{\\mathrm{P}\\!}\\approx 0.11\\cdot T_{\\rm coh}\\approx 0.1\\,T_{\\rm coh}$; consequently, single‑ion Kondo effects persist down to temperatures well below $T_{\\rm coh}$ before lattice coherence contributions grow sufficiently to enable the non‑Fermi‑liquid quantum‑critical behavior observed in bulk and spectroscopic probes.",
+        "content_hash": "7ae46520030597aad84339ce11f20c95b239927f004439ad05b61ff1c7231b41",
+        "id": "gcn_3a1514fde2d54682",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772725953823394::conclusion_5",
+            "package_id": "paper:867772725953823394",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772725953823394"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02649122807017544,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The YbRh3Si7 single-crystal exhibits clear Kondo-lattice signatures: the four-terminal electrical resistivity ρ(T) with current along the crystallographic c axis shows a local maximum at T* ≈ 15 K followed by a drop for T < T*, the low-temperature resistivity follows ρ(T)=ρ_0+AT^2 below 2 K consistent with Fermi-liquid behavior (here ρ_0 is the residual resistivity and A is the T^2 prefactor), the magnetic entropy obtained by subtracting the specific heat of the isostructural nonmagnetic analogue LuRh3Si7 from the YbRh3Si7 specific heat yields S_mag(T_N)=0.37 R ln2 at the antiferromagnetic ordering temperature T_N=7.5 K (where R is the molar gas constant and R ln2 is the entropy of an isolated twofold-degenerate doublet), and applying the empirical calibration S_mag(0.5 T_K)=0.4 R ln2 gives an inferred Kondo temperature T_K ≈ 15 K; additionally, the T^2 prefactor A decreases by about an order of magnitude between applied field μ_0H=0 [A=2.6×10^−2 mΩ·cm·K^−2] and μ_0H=9 T [A=3.1×10^−3 mΩ·cm·K^−2], a field dependence consistent with magnetic-field suppression of Kondo correlations and the associated reduction of the quasiparticle effective mass.",
+        "content_hash": "c3fb242eb7f3e52f0284c2c061fc9d3ae61f5d5b1cd1736a6a47361d7144062d",
+        "id": "gcn_328faa95ec1f4fa4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812820668553887745::conclusion_2",
+            "package_id": "paper:812820668553887745",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812820668553887745"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Within the Landau Fermi-liquid description of YbRh2Si2, denote the quasiparticle effective mass by m*(B) and the Fermi-liquid transport coefficient by A(B) as above; we assume that A(B) is dominated by electron–electron scattering processes that scale with the square of the quasiparticle effective mass (i.e., A(B) ∝ (m*(B))^2 up to a field-independent proportionality constant), so that a sudden, step-like decrease of the experimentally extracted A(B) when increasing magnetic field through B* implies a corresponding step-like decrease of m*(B) and therefore a suppression of the heavy-fermion character of the electronic state.",
+        "content_hash": "ef42ce79622968c7a686ad9d2bebc8903b74a8bb8f3e2e45b3fcaf1467f41a1d",
+        "id": "gcn_c2a60e35100141fd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812369321199140865::P5",
+            "package_id": "paper:812369321199140865",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812369321199140865"
+          ]
+        },
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the Fermi-liquid regime the low-temperature electrical resistivity of YbRh3Si7 can be written as ρ(T)=ρ_0+AT^2, where ρ_0 is the residual resistivity and A is the prefactor reflecting quasiparticle–quasiparticle scattering that scales with the square of the quasiparticle effective mass; the observed approximately tenfold reduction of A from A(μ_0H=0)=2.6×10^−2 mΩ·cm·K^−2 to A(μ_0H=9 T)=3.1×10^−3 mΩ·cm·K^−2 is interpreted as primarily arising from magnetic-field suppression of Kondo correlations, i.e., a magnetic-field–induced reduction of the quasiparticle effective mass, under the assumption that no other dominant field-dependent scattering channels or extrinsic measurement artifacts account for the change in A.",
+        "content_hash": "53c004f0396ae6fdc194920dde1261fd9cbce44f18ef405f0b303448da917a3c",
+        "id": "gcn_93f9339348184706",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812820668553887745::P8",
+            "package_id": "paper:812820668553887745",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812820668553887745"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "YbRh2Si2 exhibits strong local electronic correlations and Kondo-driven heavy quasiparticles (manifest experimentally as large Sommerfeld coefficients and strongly renormalized effective masses), and the conventional local-density approximation within density-functional theory does not capture dynamic local correlations and Kondo renormalization; consequently, LDA is inadequate to quantitatively reproduce the experimentally observed Fermi-surface cross sections and large quasiparticle masses in YbRh2Si2, and many-body electronic-structure methods that explicitly include local dynamic correlations (for example renormalized-band approaches or dynamical mean-field theory (DMFT) with an appropriate impurity solver and self-consistency) are required to obtain a quantitative description.",
+        "content_hash": "a3f1a3a50d32bdddebc92c7036d360d6c1d52f26bbf3fdf926cb5605dcf495d5",
+        "id": "gcn_b016160b38f34ce7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813199962614530051::P10",
+            "package_id": "paper:813199962614530051",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813199962614530051"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "a10718b13db32c2c4a89d3bb588a83cf"
+}

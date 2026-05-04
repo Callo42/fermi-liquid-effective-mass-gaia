@@ -1,334 +1,205 @@
-"""cross_paper -- cautious synthesis across the selected LKM roots."""
+"""cross_paper -- LKM-backed operators connecting the YbRh2Si2 graph."""
 
-from gaia.lang import claim, support
+from gaia.lang import equivalence, support
 
-from .paper_alvesalo1979 import (
-    gcn_1587257a956f4d18,
-    gcn_800070efac5e476d,
-    he3_gamma_implies_mstar_ratio_2_12,
+from .paper_shaginyan2010 import (
+    gcn_e0c364ff_inflection_fcqpt_condition,
+    gcn_2e693115_entropy_over_temperature_mass,
+    gcn_2741cdef_practical_effective_mass_scheme,
 )
-from .paper_anderson1984 import (
-    gcn_7ae79f_kondo_brinkman_rice_fixed_point,
-    gcn_8f275a_brinkman_rice_scope_condition,
-    helper_brinkman_rice_finite_stoner_enhancement,
-    helper_brinkman_rice_large_mass_renormalization,
-    helper_kondo_lattice_screened_heavy_quasiparticles,
-)
-from .paper_capone2001 import (
-    capone_brinkman_rice_mass_z_tk_limit,
-    gcn_e4ecd721edd14d3f,
-    gcn_31bc66ca16a44508,
-    gcn_dd12256615264dfb,
+from .paper_shaginyan2009 import (
+    gcn_f82c178_fcqpt_inflection_cubic_spectrum,
+    gcn_45f24d_fcqpt_t_minus_two_thirds,
 )
 from .paper_friedemann2010 import (
     gcn_42a4ff_rbc_hall_dos_values,
-    helper_rbc_dos_gamma_ybrh2si2_ybir2si2,
-    helper_rbc_parameterization_constrained_by_cef_gamma,
-    helper_ybrh2si2_opposite_hall_transport_products,
+    gcn_48bba377_specific_heat_calibration,
+)
+from .paper_knebel2006 import (
+    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,
+    helper_dhva_angular_dependence_itinerant_lda_mismatch,
 )
 from .paper_friedemann2013 import (
     gcn_2b8dd97_lurh2si2_reference_reanalysis,
-    gcn_3dc248d_ybrh2si2_14kt_not_small_fs,
     gcn_3a8394c_lurh2si2_small_fs_reference,
-    gcn_c131e014_ybrh2si2_midband_harmonic_assignment,
-    helper_ybrh2si2_reduced_fundamental_set,
 )
-from .paper_friedemann2016 import (
-    gcn_29401e42_nis2_brinkman_rice,
-    helper_brinkman_rice_large_fs_heavy_quasiparticles,
-    helper_nis2_large_fs_603kt_belly_orbit,
-    helper_nis2_mstar_6_me,
+from .paper_tokiwa2004 import gcn_b4093_ybrh2si2_resistivity_mass_drop
+from .paper_seiro2017 import gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy
+from .paper_schaufuss2008 import gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles
+from .paper_pfau2013 import (
+    gcn_4d206_ybrh2si2_kondo_lifshitz_interplay,
+    gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression,
 )
-from .paper_knebel2006 import (
-    gcn_5501e18a_high_field_dhva_scope,
-    gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,
-    gcn_f20b1f42_itinerant_4f_lda_sensitivity,
-    helper_dhva_angular_dependence_itinerant_lda_mismatch,
-    helper_dhva_first_fs_information_scope,
-    helper_dhva_frequencies_masses_h_parallel_a,
-)
-from .paper_paramanik2013 import (
-    gcn_bc46d7_cemo_kw_wilson_fl_consistency,
-    helper_cemo_kw_ratio_original_scale,
-    helper_cemo_ratio_consistency_correlated_fl,
-    helper_cemo_wilson_ratio_dual_reference,
-)
-from .paper_shaginyan2010 import (
-    gcn_03614e9b_homogeneous_isotropic_model,
-    gcn_2741cdef_practical_effective_mass_scheme,
-    gcn_2e693115_entropy_over_temperature_mass,
-)
+from .paper_naren2013 import gcn_b5d9_ybrh2si2_lifshitz_derenormalization
+from .paper_rourke2008 import gcn_d10f91_ybrh2si2_small_fs_mass_enhancement
+from .paper_friedemann2013_field import gcn_34ce9_ybrh2si2_many_body_methods_required
 
 
-cross_thermodynamic_routes_to_effective_mass = claim(
-    "Across the He-3 and Shaginyan YbRh2Si2 roots, low-energy thermodynamic "
-    "quantities are used as operational routes to quasiparticle effective mass: "
-    "Alvesalo et al. infer m*/m for liquid He-3 from the linear specific-heat "
-    "coefficient gamma, while Shaginyan et al. extract M*(T,B) for YbRh2Si2 "
-    "from S(T,B)/T within their heavy-electron Landau/FCQPT scheme.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_800070efac5e476d",
-        "gcn_2e69311592b04bcb",
-        "gcn_2741cdef209a457a",
-    ],
-)
-
-cross_scope_caution_standard_fl_vs_fcqpt = claim(
-    "The He-3 and YbRh2Si2 effective-mass routes should not be treated as equivalent "
-    "claims: the He-3 chain uses a standard low-temperature Landau Fermi-liquid "
-    "mapping from gamma to m*/m, whereas the YbRh2Si2 chain uses a homogeneous "
-    "isotropic heavy-electron model near FCQPT and applies S/T as an operational "
-    "effective-mass measure through crossover or non-Fermi-liquid regimes.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_1587257a956f4d18",
-        "gcn_03614e9b5933496a",
-        "gcn_2e69311592b04bcb",
-    ],
-)
-
-cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope = claim(
-    "Material-specific YbRh2Si2 renormalized-band evidence from Friedemann et al. "
-    "qualifies, rather than refutes, the homogeneous isotropic FCQPT premise in "
-    "the Shaginyan et al. branch: the FCQPT premise is a universal-scaling "
-    "approximation that deliberately omits lattice anisotropy, band topology, "
-    "multiple bands, CEF splitting, and band-resolved Hall cancellations, while "
-    "the RBC/Hall/DOS chain supplies those omitted material-specific details for "
-    "YbRh2Si2.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_03614e9b5933496a",
-        "gcn_42a4ff7fd004413f",
-        "gcn_c243dcb58cae4418",
-        "gcn_48bba377911d4985",
-    ],
-)
-
-cross_ybrh2si2_material_specific_fs_constraints = claim(
-    "Within YbRh2Si2, Friedemann 2010 RBC/Hall/DOS evidence, Knebel 2006 "
-    "high-field dHvA frequencies and cyclotron masses, and Friedemann 2013 "
-    "LuRh2Si2 small-Fermi-surface reanalysis jointly constrain the material-specific "
-    "Fermi-surface/effective-mass picture. The synthesis is a field- and "
-    "method-scoped constraint claim, not an equivalence among RBC, high-field dHvA, "
-    "and homogeneous FCQPT descriptions.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_42a4ff7fd004413f",
-        "gcn_c38f8ce989fd454a",
-        "gcn_2b8dd97abcb44d53",
-        "gcn_3a8394c769864f01",
-    ],
-)
-
-cross_ybrh2si2_field_method_scope_caution = claim(
-    "The YbRh2Si2 material-specific evidence should be read with field and method "
-    "scope intact: Knebel dHvA uses 12-28 T fields and reports an itinerant-4f LDA "
-    "mismatch, Friedemann 2013 reassigns published mid-band peaks using a LuRh2Si2 "
-    "small-FS reference, and Friedemann 2010 RBC uses thermodynamically calibrated "
-    "renormalized bands. These branches qualify low-field/QCP and homogeneous "
-    "isotropic claims without creating a same-condition contradiction.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_5501e18a04cc458e",
-        "gcn_f20b1f42f35548fb",
-        "gcn_2b8dd97abcb44d53",
-        "gcn_03614e9b5933496a",
-    ],
-)
-
-cross_brinkman_rice_mott_boundary_family = claim(
-    "The Anderson Kondo-lattice Brinkman-Rice fixed point, the Capone-Fabrizio-Tosatti "
-    "Mott entropy/Z/T_K boundary argument, and the Friedemann NiS2 large-FS plus "
-    "m*=6(2)m_e result form a coherent Mott-boundary/heavy-quasiparticle theme: "
-    "large effective mass or suppressed Z appears near a local-moment or Mott "
-    "instability while Fermi-liquid coherence remains central to the claim.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_7ae79f122f1c4fcb",
-        "gcn_e4ecd721edd14d3f",
-        "gcn_29401e4284574aa2",
-    ],
-)
-
-cross_brinkman_rice_scope_caution = claim(
-    "The Brinkman-Rice-related branches are not interchangeable: Anderson 1984 "
-    "addresses a screened Kondo-lattice fixed point with finite Stoner enhancement, "
-    "Capone-Fabrizio-Tosatti 2001 gives a conditional entropy obstruction for a "
-    "direct Fermi-liquid to singlet-Mott crossover, and Friedemann 2016 reports "
-    "NiS2 pressure-tuned quantum-oscillation evidence consistent with Brinkman-Rice "
-    "large-Fermi-surface heavy quasiparticles.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_7ae79f122f1c4fcb",
-        "gcn_e4ecd721edd14d3f",
-        "gcn_29401e4284574aa2",
-    ],
-)
-
-cross_thermo_transport_correlated_fl_consistency = claim(
-    "CeMo2Si2C Kadowaki-Woods and Wilson/Sommerfeld ratios extend the package's "
-    "thermodynamic effective-mass theme into transport and susceptibility "
-    "phenomenology: low-temperature A/gamma^2 and R_W values are used as correlated "
-    "Fermi-liquid consistency checks, complementary to He-3 gamma-based mass "
-    "extraction and YbRh2Si2 thermodynamic/RBC effective-mass constraints.",
-    provenance_source="synthesis",
-    derived_from_lkm_ids=[
-        "gcn_bc46d7d5f5284a0e",
-        "gcn_800070efac5e476d",
-        "gcn_2e69311592b04bcb",
-        "gcn_42a4ff7fd004413f",
-    ],
-)
-
-strat_cross_he3_ybrh2si2_thermodynamic_routes = support(
-    [he3_gamma_implies_mstar_ratio_2_12, gcn_2e693115_entropy_over_temperature_mass],
-    cross_thermodynamic_routes_to_effective_mass,
+eq_fcqpt_inflection_condition = equivalence(
+    gcn_e0c364ff_inflection_fcqpt_condition,
+    gcn_f82c178_fcqpt_inflection_cubic_spectrum,
     reason=(
-        "The He-3 decomposition explicitly grounds gamma -> m*/m, and the YbRh2Si2 "
-        "premise explicitly grounds S(T,B)/T -> M*(T,B). Together they support only "
-        "the scoped meta-claim that both chains operationalize effective mass through "
-        "thermodynamic low-energy quantities, not that the systems or equations are "
-        "equivalent."
+        "Both LKM-backed claims state the same FCQPT inflection-point condition: "
+        "the first two derivatives of epsilon(p) vanish at p_F and the cubic term "
+        "is the leading nonzero term. The 2010 chain uses it in the YbRh2Si2 "
+        "effective-mass scheme; the 2009 chain uses it to derive T^(-2/3) scaling."
+    ),
+    prior=0.93,
+)
+
+sx_fcqpt_scaling_to_start_root = support(
+    [gcn_45f24d_fcqpt_t_minus_two_thirds],
+    gcn_2741cdef_practical_effective_mass_scheme,
+    reason=(
+        "The Shaginyan 2009 LKM chain derives the FCQPT/NFL T^(-2/3) effective-mass "
+        "solution from the same homogeneous Landau effective-mass equation and "
+        "inflection condition used inside the Shaginyan 2010 YbRh2Si2 procedure. "
+        "This supports the FCQPT scaling component of the starting root without "
+        "adding a parent synthesis claim."
+    ),
+    prior=0.82,
+)
+
+sx_rbc_calibration_to_entropy_mass = support(
+    [gcn_48bba377_specific_heat_calibration, gcn_42a4ff_rbc_hall_dos_values],
+    gcn_2e693115_entropy_over_temperature_mass,
+    reason=(
+        "Friedemann 2010 LKM evidence independently uses YbRh2Si2 low-temperature "
+        "specific heat and density of states to calibrate quasiparticle masses. "
+        "That chain supports the starting root's use of thermodynamic entropy or "
+        "specific-heat-like density-of-states quantities as an operational "
+        "effective-mass proxy in YbRh2Si2."
+    ),
+    prior=0.78,
+)
+
+sx_lurh_reference_to_knebel_mismatch = support(
+    [gcn_3a8394c_lurh2si2_small_fs_reference],
+    helper_dhva_angular_dependence_itinerant_lda_mismatch,
+    reason=(
+        "Friedemann 2013 LKM evidence establishes LuRh2Si2 as a small-FS reference "
+        "for YbRh2Si2; Knebel 2006 LKM evidence reports that the YbRh2Si2 dHvA "
+        "angular dependence resembles the LuRh2Si2 reference more than itinerant-4f "
+        "YbRh2Si2 LDA. The source claims therefore connect through the same "
+        "LuRh2Si2-reference comparison."
     ),
     prior=0.84,
 )
 
-strat_cross_scope_caution = support(
-    [
-        gcn_800070efac5e476d,
-        gcn_2741cdef_practical_effective_mass_scheme,
-        gcn_1587257a956f4d18,
-        gcn_03614e9b_homogeneous_isotropic_model,
-    ],
-    cross_scope_caution_standard_fl_vs_fcqpt,
+sx_rourke_to_friedemann_reanalysis = support(
+    [gcn_d10f91_ybrh2si2_small_fs_mass_enhancement],
+    gcn_2b8dd97_lurh2si2_reference_reanalysis,
     reason=(
-        "The selected roots and mapping premises specify different systems and "
-        "model scopes: standard low-temperature Landau Fermi-liquid reasoning for "
-        "normal liquid He-3 versus a homogeneous isotropic heavy-electron FCQPT "
-        "crossover model for YbRh2Si2. This warrants a scope-caution claim rather "
-        "than equivalence or contradiction."
+        "Rourke 2008 supplies chain-backed high-field dHvA evidence that a "
+        "LuRh2Si2-like small-FS D sheet matches observed YbRh2Si2 branches and "
+        "implies order-ten mass enhancement. Friedemann 2013 reuses the LuRh2Si2 "
+        "small-FS reference to reinterpret YbRh2Si2 dHvA branches, so the former "
+        "supports the latter's reference-frame choice."
     ),
-    prior=0.88,
+    prior=0.82,
 )
 
-strat_cross_ybrh2si2_rbc_scope_qualification = support(
+sx_knebel_friedemann_to_many_body_need = support(
     [
-        gcn_03614e9b_homogeneous_isotropic_model,
-        gcn_42a4ff_rbc_hall_dos_values,
-        helper_rbc_parameterization_constrained_by_cef_gamma,
-        helper_ybrh2si2_opposite_hall_transport_products,
-        helper_rbc_dos_gamma_ybrh2si2_ybir2si2,
-    ],
-    cross_ybrh2si2_rbc_qualifies_homogeneous_isotropic_scope,
-    reason=(
-        "The Shaginyan premise explicitly says the homogeneous isotropic model "
-        "neglects crystal-lattice anisotropy, Brillouin-zone structure, multiple "
-        "bands, and anisotropic effective masses for universal scaling. The "
-        "Friedemann RBC root and helpers explicitly add material-specific CEF/gamma "
-        "calibration, band-resolved Hall-product cancellation, and DOS/gamma values "
-        "for YbRh2Si2. These facts ground a scope-qualification claim because the "
-        "model scopes differ while remaining jointly satisfiable."
-    ),
-    prior=0.90,
-)
-
-strat_cross_ybrh2si2_material_fs_constraints = support(
-    [
-        gcn_42a4ff_rbc_hall_dos_values,
-        helper_rbc_parameterization_constrained_by_cef_gamma,
-        helper_dhva_frequencies_masses_h_parallel_a,
-        helper_dhva_angular_dependence_itinerant_lda_mismatch,
+        gcn_c38f8ce_ybrh2si2_dhva_spectrum_lda_mismatch,
         gcn_2b8dd97_lurh2si2_reference_reanalysis,
-        gcn_3a8394c_lurh2si2_small_fs_reference,
     ],
-    cross_ybrh2si2_material_specific_fs_constraints,
+    gcn_34ce9_ybrh2si2_many_body_methods_required,
     reason=(
-        "All premises are material-specific YbRh2Si2 or LuRh2Si2-reference "
-        "constraints: RBC supplies thermodynamically calibrated band/DOS/Hall "
-        "information, Knebel dHvA supplies high-field frequencies and cyclotron "
-        "masses plus an LDA mismatch, and Friedemann 2013 supplies the LuRh2Si2 "
-        "small-FS reanalysis. The support is scoped to joint constraints and does "
-        "not assert equivalence of the methods."
-    ),
-    prior=0.88,
-)
-
-strat_cross_ybrh2si2_field_method_scope_caution = support(
-    [
-        gcn_5501e18a_high_field_dhva_scope,
-        gcn_f20b1f42_itinerant_4f_lda_sensitivity,
-        helper_dhva_first_fs_information_scope,
-        gcn_c131e014_ybrh2si2_midband_harmonic_assignment,
-        helper_ybrh2si2_reduced_fundamental_set,
-        gcn_3dc248d_ybrh2si2_14kt_not_small_fs,
-        gcn_03614e9b_homogeneous_isotropic_model,
-    ],
-    cross_ybrh2si2_field_method_scope_caution,
-    reason=(
-        "The dHvA and reanalysis branches explicitly carry high-field, harmonic "
-        "assignment, small-FS-reference, and LDA-sensitivity caveats, while the "
-        "Shaginyan premise explicitly states the homogeneous isotropic model scope. "
-        "Those conditions ground a caution claim rather than a contradiction."
-    ),
-    prior=0.90,
-)
-
-strat_cross_brinkman_rice_mott_boundary_family = support(
-    [
-        gcn_7ae79f_kondo_brinkman_rice_fixed_point,
-        helper_brinkman_rice_large_mass_renormalization,
-        capone_brinkman_rice_mass_z_tk_limit,
-        gcn_31bc66ca16a44508,
-        gcn_29401e42_nis2_brinkman_rice,
-        helper_nis2_large_fs_603kt_belly_orbit,
-        helper_nis2_mstar_6_me,
-    ],
-    cross_brinkman_rice_mott_boundary_family,
-    reason=(
-        "The three branches independently invoke heavy quasiparticles, mass "
-        "enhancement or Z/T_K collapse, and proximity to a Mott or local-moment "
-        "boundary. The support is thematic and mechanism-scoped, preserving the "
-        "different material settings."
+        "Knebel 2006 and Friedemann 2013 both provide LKM-backed YbRh2Si2 dHvA "
+        "evidence where simple LDA/f-core or itinerant-4f descriptions are "
+        "insufficient or strongly qualified. Those source claims directly support "
+        "the Friedemann 2013 published conclusion that quantitative mass and "
+        "Fermi-surface modeling needs many-body renormalization."
     ),
     prior=0.86,
 )
 
-strat_cross_brinkman_rice_scope_caution = support(
-    [
-        helper_kondo_lattice_screened_heavy_quasiparticles,
-        helper_brinkman_rice_finite_stoner_enhancement,
-        gcn_8f275a_brinkman_rice_scope_condition,
-        gcn_e4ecd721edd14d3f,
-        gcn_dd12256615264dfb,
-        helper_brinkman_rice_large_fs_heavy_quasiparticles,
-    ],
-    cross_brinkman_rice_scope_caution,
+sx_transport_mass_to_smooth_kondo = support(
+    [gcn_b4093_ybrh2si2_resistivity_mass_drop],
+    gcn_faee88_ybrh2si2_smooth_kondo_mass_suppression,
     reason=(
-        "The imported helpers spell out distinct scopes: screened f-ion Kondo "
-        "lattices with finite Stoner enhancement, a conditional singlet-Mott "
-        "entropy obstruction, and pressure-metalized NiS2 large-FS heavy "
-        "quasiparticles. They justify a non-equivalence caution."
+        "Tokiwa 2004 reports a high-field reduction of the YbRh2Si2 Fermi-liquid "
+        "A coefficient and the inferred effective-mass scale. Pfau 2013 uses "
+        "field-driven Kondo suppression as the mass-reduction ingredient in the "
+        "same material and field regime, so the transport mass evidence supports "
+        "that ingredient while preserving the step-like versus smooth distinction "
+        "in the audit log."
     ),
-    prior=0.89,
+    prior=0.74,
 )
 
-strat_cross_thermo_transport_correlated_fl_consistency = support(
-    [
-        gcn_bc46d7_cemo_kw_wilson_fl_consistency,
-        helper_cemo_kw_ratio_original_scale,
-        helper_cemo_wilson_ratio_dual_reference,
-        helper_cemo_ratio_consistency_correlated_fl,
-        he3_gamma_implies_mstar_ratio_2_12,
-        gcn_2e693115_entropy_over_temperature_mass,
-        helper_rbc_dos_gamma_ybrh2si2_ybir2si2,
-    ],
-    cross_thermo_transport_correlated_fl_consistency,
+sx_kondo_hierarchy_to_pfau = support(
+    [gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy],
+    gcn_4d206_ybrh2si2_kondo_lifshitz_interplay,
     reason=(
-        "CeMo2Si2C supplies ratio-based transport/susceptibility consistency "
-        "checks, while the existing He-3 and YbRh2Si2 branches supply gamma, S/T, "
-        "and DOS/gamma thermodynamic effective-mass routes. Together they ground a "
-        "correlated-FL phenomenology theme without equating the materials."
+        "Seiro 2017 gives chain-backed temperature hierarchy evidence for when "
+        "YbRh2Si2 lattice Kondo correlations dominate low-energy properties. Pfau "
+        "2013's mechanism requires periodic Kondo-lattice coherence in the same "
+        "compound, so this source supports that ingredient."
     ),
-    prior=0.84,
+    prior=0.76,
+)
+
+sx_esr_to_kondo_hierarchy = support(
+    [gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles],
+    gcn_3a1514_ybrh2si2_kondo_lattice_hierarchy,
+    reason=(
+        "The ESR LKM chain identifies coherent heavy quasiparticles below the "
+        "single-ion Kondo scale and ties ESR observables to m*(B,T). That evidence "
+        "supports Seiro 2017's chain-backed separation between Kondo onset and the "
+        "lower-temperature lattice-dominated regime."
+    ),
+    prior=0.75,
+)
+
+sx_naren_to_pfau = support(
+    [gcn_b5d9_ybrh2si2_lifshitz_derenormalization],
+    gcn_4d206_ybrh2si2_kondo_lifshitz_interplay,
+    reason=(
+        "Naren 2013 separately states the same YbRh2Si2 field phenomenology in a "
+        "chain-backed form: narrow Lifshitz anomalies coexist with smoother Kondo "
+        "de-renormalization. This directly supports Pfau 2013's combined "
+        "Kondo-suppression/Lifshitz interpretation."
+    ),
+    prior=0.88,
+)
+
+sx_rbc_to_many_body_need = support(
+    [gcn_42a4ff_rbc_hall_dos_values],
+    gcn_34ce9_ybrh2si2_many_body_methods_required,
+    reason=(
+        "Friedemann 2010 provides LKM-backed renormalized-band calculations for "
+        "YbRh2Si2 masses, DOS, and Hall transport. Friedemann 2013b concludes that "
+        "quantitative YbRh2Si2 Fermi-surface and mass modeling requires many-body "
+        "renormalization beyond static LDA. The RBC result is direct source "
+        "evidence for the kind of many-body method named by that conclusion."
+    ),
+    prior=0.82,
+)
+
+sx_transport_mass_to_entropy_mass_proxy = support(
+    [gcn_b4093_ybrh2si2_resistivity_mass_drop],
+    gcn_2e693115_entropy_over_temperature_mass,
+    reason=(
+        "Tokiwa 2004 gives LKM-backed YbRh2Si2 field-dependent effective-mass "
+        "evidence through the Fermi-liquid A coefficient and gamma estimate. The "
+        "Shaginyan 2010 premise uses entropy over temperature as a density-of-states "
+        "effective-mass proxy in the same compound. This supports the broader "
+        "thermodynamic effective-mass proxy while keeping the transport and entropy "
+        "routes distinct in the audit log."
+    ),
+    prior=0.72,
+)
+
+sx_esr_to_entropy_mass_proxy = support(
+    [gcn_d8b1_ybrh2si2_esr_heavy_quasiparticles],
+    gcn_2e693115_entropy_over_temperature_mass,
+    reason=(
+        "Schaufuss 2008 states that YbRh2Si2 ESR parameters track m*(B,T), "
+        "N(E_F;B,T), and gamma-linked heavy-quasiparticle behavior. That raw LKM "
+        "claim supports the Shaginyan 2010 use of thermodynamic density-of-states "
+        "quantities as effective-mass proxies without asserting equivalence."
+    ),
+    prior=0.70,
 )
